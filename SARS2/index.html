@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>SARS-CoV-2 mutation timemaps</title>
+<style>
+h1 { 
+    display: block;
+    font-family: Georgia;
+    font-size: 5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: silver;
+}
+h5 { 
+    display: block;
+    font-size: 0.9em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: black;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.box {
+    width:800px;
+    height:200px;
+    position:fixed;
+    margin-left:-400px; /* half of width */
+    margin-top:-225px;  /* half of height */
+    left:50%;
+    top:40%;
+}
+
+</style>
+</head>
+<body style="background: url(bckgrd.JPG) no-repeat center fixed;background-size: cover;width: 50%;margin: auto;">
+<table class="box" align=center>
+<tr><td align=center colspan=1><H1><a href=https://warrenlr.github.io title="Time & Tide, Say Nuth Khaw Yum provincial park BC 2019">SARS-CoV-2 Mutation Timemaps</a></H1></td></tr>
+
+<tr><td align=center>
+<SELECT onChange='top.location.href=this.options[selectedIndex].value;' Size='1' WIDTH='190' STYLE='width: 190px'>
+<OPTION VALUE=https://warrenlr.github.io/papers/>Choose a map</OPTION>
+<OPTION VALUE=https://warrenlr.github.io/papers/SARS2all27DEC2020.svg>SARS-CoV-2 all mutation timemap</OPTION>
+<OPTION VALUE=https://warrenlr.github.io/papers/SARS2missense27DEC2020.svg>SARS2 missense mutation timemap</OPTION>
+<OPTION VALUE=https://warrenlr.github.io/papers/SARS2spikeAll27DEC2020.svg>SARS2 spike protein gene mutation timemap</OPTION>
+<OPTION VALUE=https://warrenlr.github.io/papers/SARS2spikeMissense27DEC2020.svg>SARS2 spike protein gene missense mutation timemap</OPTION>
+<OPTION VALUE=https://warrenlr.github.io/papers/xmv-hive_i0_b1_c35_a0.95.svg>Coronavirus genome synteny</OPTION>
+</SELECT>
+</td>
+</tr>
+</table>
+</body></html>
