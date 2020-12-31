@@ -80,15 +80,15 @@ td {
 <tr><td colspan=3>&nbsp;</td></tr>
 <tr><td colspan=3>&nbsp;</td></tr>
 <tr><td align=center colspan=3>
-<SELECT onChange='top.location.href=this.options[selectedIndex].value;' Size='1' WIDTH='300' STYLE='width: 300px'>
+<SELECT onChange='window.open(this.options[this.selectedIndex].value);' Size='1' WIDTH='300' STYLE='width: 300px'>
 <OPTION VALUE=https://bcgsc.github.io/SARS2>Choose a map</OPTION>
-<OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2spike_missense.svg target=blank>Spike protein gene, missense mutations (any coverage, >=5genomes/day) [faster]</OPTION>
-<OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2spike_all.svg target=blank>Spike protein gene, all mutations [fast]</OPTION>
-<OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2missense.svg target=blank>Genome, missense mutations [slow]</OPTION>
-<OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2all.svg target=blank>Genome, all mutations [slower]</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2spike_missense.svg>Spike protein gene, missense mutations (any coverage, >=5genomes/day) [faster]</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2spike_all.svg>Spike protein gene, all mutations [fast]</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2missense.svg>Genome, missense mutations [slow]</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2all.svg>Genome, all mutations [slower]</OPTION>
 <OPTION VALUE=https://bcgsc.github.io/SARS2>---</OPTION>
-<OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2spike_missensevarCov100.svg target=blank>Spike protein gene, missense mutations (>=100X coverage, >=2genomes/day)</OPTION>
-<OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2spike_missensevarCov10.svg target=blank>Spike protein gene, missense mutations (>=10X coverage, >=2genomes/day)</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2spike_missensevarCov100.svg>Spike protein gene, missense mutations (>=100X coverage, >=2genomes/day)</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2spike_missensevarCov10.svg>Spike protein gene, missense mutations (>=10X coverage, >=2genomes/day)</OPTION>
 </SELECT>
 </td>
 </tr>
