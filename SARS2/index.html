@@ -80,7 +80,7 @@ td {
 <tr><td colspan=3>&nbsp;</td></tr>
 <tr><td colspan=3>&nbsp;</td></tr>
 <tr><td align=center colspan=3>
-<SELECT onChange='window.open(this.options[this.selectedIndex].value);' Size='1' WIDTH='300' STYLE='width: 300px'>
+<SELECT onChange='top.location.href=this.options[selectedIndex].value;' Size='1' WIDTH='300' STYLE='width: 300px'>
 <OPTION VALUE=https://bcgsc.github.io/SARS2>Choose a map</OPTION>
 <OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2spike_missense.svg>Spike protein gene, missense mutations (any coverage, >=5genomes/day) [faster]</OPTION>
 <OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2spike_all.svg>Spike protein gene, all mutations [fast]</OPTION>
@@ -105,6 +105,8 @@ td {
 <tr><td colspan=3>&nbsp;</td></tr>
 <tr><td colspan=3>&nbsp;</td></tr>
 <tr><td colspan=3>&nbsp;</td></tr>
-<tr><td colspan=3 align=center><a target=blank href=https://warrenlr.github.io title="Author" style="color:gainsboro">RLW©2021</a></td></tr>
 </table>
+<footer>
+<a target=blank href=https://warrenlr.github.io title="Author" style="color:gainsboro">RLW©2021</a>
+</footer>
 </body></html>
