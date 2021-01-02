@@ -85,83 +85,6 @@ td {
   width: 33% ;
 }
 
-.big {
-  font-size: 1.0em;
-}
-
-.small {
-  font-size: .7em;
-}
-
-.square {
-  width: .7em;
-  height: .7em;
-  margin: .5em;
-  display: inline-block;
-}
-
-/* Custom dropdown */
-.custom-dropdown {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  margin: 10px; /* demo only */
-}
-
-.custom-dropdown select {
-  background-color: #ffffff80; /* #2c3e50; */
-  color: #000;
-  font-size: inherit;
-  padding: .5em;
-  padding-right: 2.5em; 
-  border: 1;
-  margin: 0;
-  border-radius: 3px;
-  text-indent: 0.01px;
-  text-overflow: '';
-  -webkit-appearance: none; /* hide default arrow in chrome OSX */
-}
-
-.custom-dropdown::before,
-.custom-dropdown::after {
-  content: "";
-  position: absolute;
-  pointer-events: none;
-}
-
-.custom-dropdown::after { /*  Custom dropdown arrow */
-  content: "\25BC";
-  height: 1em;
-  font-size: .625em;
-  line-height: 1;
-  right: 1.2em;
-  top: 50%;
-  margin-top: -.5em;
-}
-
-.custom-dropdown::before { /*  Custom dropdown arrow cover */
-  width: 2em;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  border-radius: 0 3px 3px 0;
-}
-
-.custom-dropdown select[disabled] {
-  color: rgba(0,0,0,.3);
-}
-
-.custom-dropdown select[disabled]::after {
-  color: rgba(0,0,0,.1);
-}
-
-.custom-dropdown::before {
-  background-color: rgba(0,0,0,.15);
-}
-
-.custom-dropdown::after {
-  color: rgba(0,0,0,.4);
-}
 
 </style>
 </head>
@@ -171,10 +94,11 @@ td {
 </h1></td></tr>
 <tr><td align=center colspan=3><h2 class="strokeme"><a class="h2col" href="https://arxiv.org/pdf/2012.15697.pdf" title="Preprint PDF">Mutation Timemaps</a></h2></td></tr>
 <tr><td colspan=3>&nbsp;</td></tr>
+<tr><td colspan=3>&nbsp;</td></tr>
+<tr><td colspan=3>&nbsp;</td></tr>
 <tr><td align=center colspan=3>
-<span class="custom-dropdown">
 <SELECT onChange='top.location.href=this.options[selectedIndex].value;' Size='1' WIDTH='300' STYLE='width: 300px'>
-<OPTION VALUE=https://bcgsc.github.io/SARS2>Select a map</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2>Selection</OPTION>
 <OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2spike_missense.svg>Spike S gene, missense mutations (any coverage, >=5genomes/day) [faster]</OPTION>
 <OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2spike_all.svg>&nbsp;&nbsp;&nbsp;&nbsp;All mutations [fast]</OPTION>
 <OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2missense.svg>Genome, missense mutations (any coverage, >=5genomes/day) [slow]</OPTION>
@@ -190,7 +114,6 @@ td {
 <OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2spike_missensevarCov10oceania.svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oceania</OPTION>
 <OPTION VALUE=https://bcgsc.github.io/SARS2/SARS2spike_missensevarCov10southamerica.svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;South America</OPTION>
 </SELECT>
-</span>
 </td>
 </tr>
 <tr><td colspan=3>&nbsp;</td></tr>
