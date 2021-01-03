@@ -38,7 +38,7 @@ If you use these maps in your research, please cite:
 Interactive SARS-CoV-2 Mutation Timemaps.
 Warren RL and Birol I. 2020. arXiv. 2012.15697
 </pre>
-[![link](https://img.shields.io/badge/SARS-CoV-2-preprint-brightgreen)](https://arxiv.org/pdf/2012.15697.pdf)
+[![link](https://img.shields.io/badge/SARS2-preprint-brightgreen)](https://arxiv.org/pdf/2012.15697.pdf)
 
 ### Credits
 -------
