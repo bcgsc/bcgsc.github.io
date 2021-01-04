@@ -7,7 +7,7 @@
 ### Description
 -----------
 
-* **SARS-CoV-2 evolution in human hosts**. ntEdit v1.3.4 was used to map nucleotide variation between the first published coronavirus isolate from Wuhan in early January and over 215,000 SARS-CoV-2 genomes sampled from around the globe during the 2020 COVID-19 pandemic.
+**SARS-CoV-2 evolution in human hosts.** ntEdit v1.3.4 was used to map nucleotide variation between the first published coronavirus isolate from Wuhan in early January and over 215,000 SARS-CoV-2 genomes sampled from around the globe during the 2020 COVID-19 pandemic.
 ![SARS-CoV-2 evolution in human hosts](https://bcgsc.github.io/SARS2/fig1.png?raw=true)
 
 
