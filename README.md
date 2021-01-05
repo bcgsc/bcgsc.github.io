@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## Welcome to BCGSC GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/bcgsc/bcgsc.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+BC Cancer Canada's Michael Smith Genome Sciences Centre (BCGSC)
+Sequencing centre for genomics and bioinformatics research
+This site is maintained by the Bioinformatics Technology Lab (BTL), a research group of the BCGSC
+We are located in Vancouver, British Columbia, Canada
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bcgsc/bcgsc.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[bcgsc.ca](https://www.bcgsc.ca)
+[bcgsc on github](https://github.com/bcgsc)
+[BTL lab web site](http://birollab.ca)
+[SARS-CoV-2 mutation timemaps](https://bcgsc.github.io/SARS2)
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with software? Check out documentation, ask questions and/or report issues on [github project pages](https://github.com/bcgsc) and we’ll help you sort it out.
