@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Interactive SARS-CoV-2 mutation timemaps</title>
+<style>
+h1 { 
+    display: block;
+    font-family: Georgia;
+    font-size: 4.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    color: black;
+}
+
+h2 {
+    display: block;
+    font-family: Georgia;
+    font-size: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+}
+
+.h1col:link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.h1col:visited {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.h1col:hover {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.h2col:link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.h2col:visited {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.h2col:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.strokeme
+{
+    color: black;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.box {
+    width:800px;
+    height:200px;
+    position:fixed;
+    margin-left:-400px; /* half of width */
+    margin-top:-220px;  /* half of height */
+    left:50%;
+    top:40%;
+}
+
+table {
+  table-layout: fixed ;
+  width: 100% ;
+}
+
+table, th, td {
+  width: 20% ;
+  border: 0px solid black;
+  padding: 0px;
+}
+
+table {
+  border-spacing: 0px;
+}
+
+
+.big {
+  font-size: 1.0em;
+}
+
+.small {
+  font-size: .7em;
+}
+
+.square {
+  width: .7em;
+  height: .7em;
+  margin: .5em;
+  display: inline-block;
+}
+
+/* Custom dropdown */
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px; /* demo only */
+}
+
+.custom-dropdown select {
+  background-color: #ffffff80; /* #2c3e50; */
+  color: #000;
+  font-size: inherit;
+  padding: .5em;
+  padding-right: 2.5em; 
+  border: 1;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  -webkit-appearance: none; /* hide default arrow in chrome OSX */
+}
+
+.custom-dropdown::before,
+.custom-dropdown::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.custom-dropdown::after { /*  Custom dropdown arrow */
+  content: "\25BC";
+  height: 1em;
+  font-size: .625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -.5em;
+}
+
+.custom-dropdown::before { /*  Custom dropdown arrow cover */
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.custom-dropdown select[disabled] {
+  color: rgba(0,0,0,.3);
+}
+
+.custom-dropdown select[disabled]::after {
+  color: rgba(0,0,0,.1);
+}
+
+.custom-dropdown::before {
+  background-color: rgba(0,0,0,.15);
+}
+
+.custom-dropdown::after {
+  color: rgba(0,0,0,.4);
+}
+
+</style>
+</head>
+<body style="background: url(bckgrd.JPG) no-repeat center fixed;background-size: cover;width: 50%;margin: auto;">
+<table class="box" align=center>
+<tr><td align=center colspan=5><h2 class="strokeme"><a class="h2col" href="https://arxiv.org/pdf/2012.15697.pdf" title="Preprint PDF">Interactive</a></h2></td></tr>
+<tr><td align=center colspan=5><h1><a class="h1col" href="https://warrenlr.github.io" target=blank title="Time & Tide, Say Nuth Khaw Yum provincial park BC 2019 (Photo: RL Warren)">SARS-CoV-2</a>
+</h1></td></tr>
+<tr><td align=center colspan=5><h2 class="strokeme"><a class="h2col" href="https://arxiv.org/pdf/2012.15697.pdf" title="Preprint PDF">Mutation Timemaps</a></h2></td></tr>
+<tr><td colspan=5 align=center><a href=https://bcgsc.github.io/SARS2>2020</a>&nbsp;&nbsp;<a href=https://bcgsc.github.io/SARS2_2021>2021</a></td></tr>
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td align=right colspan=2>
+<span class="custom-dropdown">
+<SELECT onChange='top.location.href=this.options[selectedIndex].value;' Size='1' WIDTH='140' STYLE='width: 140px'>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Counts</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021SARS2all.svg>Genome all mutations [slow]</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021SARS2missense.svg>&nbsp;&nbsp;&nbsp;&nbsp;missense</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021SARS2spike_all.svg>S gene (spike) all mutations [fast]</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021SARS2spike_missense.svg>&nbsp;&nbsp;&nbsp;&nbsp;missense</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021SARS2spike_missensevarCov10.svg>&nbsp;&nbsp;&nbsp;&nbsp;missense - filtered</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021SARS2spike_missensevarCov10africa.svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Africa</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021SARS2spike_missensevarCov10asia.svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Asia</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021SARS2spike_missensevarCov10europe.svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Europe</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021SARS2spike_missensevarCov10northamerica.svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;North America</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021SARS2spike_missensevarCov10oceania.svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oceania</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021SARS2spike_missensevarCov10southamerica.svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;South America</OPTION>
+<OPTION VALUE="https://www.bcgsc.ca/downloads/btl/SARS-CoV-2/mutations/">&nbsp;*** Variant data download ***</OPTION>
+<OPTION VALUE="mailto:rwarren@bcgsc.ca?subject=timemaps">&nbsp;*** Question/request? Email us! ***</OPTION>
+</SELECT>
+</span>
+</td>
+<td align=center colspan=1>
+<span class="custom-dropdown">
+<SELECT onChange='top.location.href=this.options[selectedIndex].value;' Size='1' WIDTH='140' STYLE='width: 140px'>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021>&nbsp;Animations</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/Dsars2allL.gif>Genome all mutations</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/Dsars2missenseL.gif>&nbsp;&nbsp;&nbsp;&nbsp;missense</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/DspikeallL.gif>S gene all mutations</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/DspikemissenseL.gif>&nbsp;&nbsp;&nbsp;&nbsp;missense</OPTION>
+<OPTION VALUE="https://www.bcgsc.ca/downloads/btl/SARS-CoV-2/mutations/">&nbsp;*** Variant data download ***</OPTION>
+<OPTION VALUE="mailto:rwarren@bcgsc.ca?subject=timemaps">&nbsp;*** Question/request? Email us! ***</OPTION>
+</span>
+</td>
+<td align=left colspan=2>
+<span class="custom-dropdown">
+<SELECT onChange='top.location.href=this.options[selectedIndex].value;' Size='1' WIDTH='140' STYLE='width: 140px'>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ratios</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021ratioSARS2all.svg>Genome all mutations [slow]</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021ratioSARS2missense.svg>&nbsp;&nbsp;&nbsp;&nbsp;missense</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021ratioSARS2spike_all.svg>S gene (spike) all mutations [fast]</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021ratioSARS2spike_missense.svg>&nbsp;&nbsp;&nbsp;&nbsp;missense</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021ratioSARS2spike_missensevarCov10.svg>&nbsp;&nbsp;&nbsp;&nbsp;missense - filtered</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021ratioSARS2spike_missensevarCov10africa.svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Africa</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021ratioSARS2spike_missensevarCov10asia.svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Asia</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021ratioSARS2spike_missensevarCov10europe.svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Europe</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021ratioSARS2spike_missensevarCov10northamerica.svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;North America</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021ratioSARS2spike_missensevarCov10oceania.svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oceania</OPTION>
+<OPTION VALUE=https://bcgsc.github.io/SARS2_2021/2021ratioSARS2spike_missensevarCov10southamerica.svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;South America</OPTION>
+<OPTION VALUE="https://www.bcgsc.ca/downloads/btl/SARS-CoV-2/mutations/">&nbsp;*** Variant data download ***</OPTION>
+<OPTION VALUE="mailto:rwarren@bcgsc.ca?subject=timemaps">&nbsp;*** Question/request? Email us! ***</OPTION>
+</span>
+</td>
+</tr>
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr><td colspan=5>&nbsp;</td></tr>
+<tr>
+<td align=center><a target=blank href="https://www.bcgsc.ca/" title="BC Genome Sciences Centre" style="color:gainsboro"><img src="bcgscsimple.png" alt="BC Genome Sciences Centre" style="height:50%;-webkit-filter: drop-shadow(1px 1px 1px #fff); filter: drop-shadow(1px 1px 1px #fff);"></a></td>
+<td align=center><a target=blank href="http://www.birollab.ca" title="Bioinformatics Technology Lab" style="color:gainsboro"><img src="btl.png" alt="Bioinformatics Technology Lab" style="width:50%;"></td>
+<td align=center><a target=blank href="https://github.com/bcgsc/ntedit" title="Genome polishing and SNV discovery" style="color:gainsboro"><img src="nteditlogow.png" alt="Genome polishing and SNV discovery" style="width:100%;"></a></td>
+<td align=center><a target=blank href="https://github.com/bcgsc/" title="BCGSC genomics software" style="color:gainsboro"><img src="githubw.png" alt="BCGSC genomics software" style="height:60%;"></a></td>
+<td align=center><a rel="license" href="http://creativecommons.org/licenses/by/4.0/" title="This work is licensed under CC-BY"><img alt="Creative Commons License" style="border-width:0;" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></td>
+</tr>
+<tr><td colspan=5>&nbsp;</td></tr>
+</table>
+</body>
+</html>
