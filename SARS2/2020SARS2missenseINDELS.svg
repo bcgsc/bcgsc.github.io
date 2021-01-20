@@ -21,10 +21,8 @@
 <circle cx="1200" cy="1200" r="795" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <circle cx="1200" cy="1200" r="795" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="140" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
-<text font-size="4.5em" x="70" y="80" fill="white">SARS-CoV-2</text>
-<text font-size="3.5em" x="70" y="140" fill="white">2020 mutation timemap</text>
-<text font-size="2.5em" x="70" y="190" fill="white">GISAID update 2021-01-15</text>
-<text font-size="2.0em" x="70" y="230" fill="white">@WarrenRene | ntedit v1.3.4</text>
+<text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 mutations 2020 timemap</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs. 252,851 GISAID genomes</text>
 <line x1="1200" y1="82.9384615384615" x2="1200" y2="132.938461538462" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="72.9384615384615" fill="white">Winter</text>
 <line x1="2267" y1="1200" x2="2317" y2="1200" style="stroke:white;stroke-width:4" />
@@ -60,28 +58,25 @@
 <line x1="1210" y1="1068" x2="1215" y2="1093" style="stroke:white;stroke-width:2" />
 <text font-size="2.0em" x="1215" y="122.938461538462" fill="white">29.9 kb</text>
 <text font-size="2.0em" x="1215" y="1113" fill="white">1</text>
-<text font-size="3.0em" x="1980" y="2060" fill="white">Top Continents</text>
-<circle cx="1940" cy="2090" r="8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2100" fill="white">Europe</text>
-<circle cx="1940" cy="2120" r="8" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2130" fill="white">North America</text>
-<circle cx="1940" cy="2150" r="8" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2160" fill="white">Asia</text>
-<circle cx="1940" cy="2180" r="8" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2190" fill="white">Oceania</text>
-<circle cx="1940" cy="2210" r="8" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2220" fill="white">Africa</text>
-<circle cx="1940" cy="2240" r="8" style="fill:lime;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2250" fill="white">South America</text>
-<circle cx="1940" cy="2285" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="1993" cy="2285" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="2046" cy="2285" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="2099" cy="2285" r="12" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="2152" cy="2285" r="16" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="2.5em" x="1930" y="2340" fill="white">2      10        100        1k        10k  genomes</text>
-<text font-size="2.5em" x="1085" y="1180" fill="white">MN908947 vs.</text>
-<text font-size="2.5em" x="1085" y="1220" fill="white">250,825  viral</text>
-<text font-size="2.5em" x="1135" y="1260" fill="white">genomes</text>
+<text font-size="2.5em" x="110" y="175" fill="white">Top Continents</text>
+<circle cx="60" cy="205" r="8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="215" fill="white">Europe</text>
+<circle cx="60" cy="235" r="8" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="245" fill="white">North America</text>
+<circle cx="60" cy="265" r="8" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="275" fill="white">Asia</text>
+<circle cx="60" cy="295" r="8" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="305" fill="white">Oceania</text>
+<circle cx="60" cy="325" r="8" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="335" fill="white">Africa</text>
+<circle cx="60" cy="355" r="8" style="fill:lime;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="365" fill="white">South America</text>
+<circle cx="60" cy="410" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="103" cy="410" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="146" cy="410" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="189" cy="410" r="12" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="232" cy="410" r="16" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="2.0em" x="50" y="455" fill="white">2      10        100        1k        10k  genomes</text>
 <g>
 	<title>2020-02-08  ATGA1605A  Europe=4 [80.0%]  orf1ab polyprotein, D448N</title>
 	<circle cx="1314.32331042333" cy="1058.82246903256" r="2.40823996531185" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
@@ -227,15 +222,15 @@
 	<circle cx="1657.22470497326" cy="1077.48700954286" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-03-16  ATGA1605A  Europe=21 [3.1%]  orf1ab polyprotein, D448N</title>
+	<title>2020-03-16  ATGA1605A  Europe=21 [3.0%]  orf1ab polyprotein, D448N</title>
 	<circle cx="1376.26541439795" cy="1156.05209625783" r="5.28887717893568" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-03-16  ATGA1605A  Europe=21 [3.1%] North America=3 [0.4%]  orf1ab polyprotein, D448N</title>
+	<title>2020-03-16  ATGA1605A  Europe=21 [3.0%] North America=3 [0.4%]  orf1ab polyprotein, D448N</title>
 	<circle cx="1376.26541439795" cy="1156.05209625783" r="1.90848501887865" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-03-16  ATGA1605A  Europe=21 [3.1%] North America=3 [0.4%] Oceania=2 [4.8%]  orf1ab polyprotein, D448N</title>
+	<title>2020-03-16  ATGA1605A  Europe=21 [3.0%] North America=3 [0.4%] Oceania=2 [4.8%]  orf1ab polyprotein, D448N</title>
 	<circle cx="1376.26541439795" cy="1156.05209625783" r="1.20411998265592" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -243,11 +238,11 @@
 	<circle cx="1772.14607071856" cy="1057.34796285317" r="1.20411998265592" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-03-17  ATGA1605A  Europe=24 [3.7%]  orf1ab polyprotein, D448N</title>
-	<circle cx="1377.00556499975" cy="1159.13504538935" r="5.52084496684642" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
+	<title>2020-03-17  ATGA1605A  Europe=25 [3.8%]  orf1ab polyprotein, D448N</title>
+	<circle cx="1377.00556499975" cy="1159.13504538935" r="5.59176003468815" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-03-17  ATGA1605A  Europe=24 [3.7%] North America=3 [0.4%]  orf1ab polyprotein, D448N</title>
+	<title>2020-03-17  ATGA1605A  Europe=25 [3.8%] North America=3 [0.4%]  orf1ab polyprotein, D448N</title>
 	<circle cx="1377.00556499975" cy="1159.13504538935" r="1.90848501887865" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -327,7 +322,7 @@
 	<circle cx="1380.97026146257" cy="1184.1671536867" r="6.4929971615916" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-03-26  ATGA1605A  Europe=42 [5.2%]  orf1ab polyprotein, D448N</title>
+	<title>2020-03-26  ATGA1605A  Europe=42 [5.1%]  orf1ab polyprotein, D448N</title>
 	<circle cx="1381.21902008412" cy="1187.32793166199" r="6.4929971615916" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -403,7 +398,7 @@
 	<circle cx="1381.55087516064" cy="1206.33989626251" r="5.28887717893568" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-04-02  ATGA1605A  Europe=19 [2.7%]  orf1ab polyprotein, D448N</title>
+	<title>2020-04-02  ATGA1605A  Europe=19 [2.6%]  orf1ab polyprotein, D448N</title>
 	<circle cx="1381.41257763665" cy="1209.50743032795" r="5.11501440381132" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -419,7 +414,7 @@
 	<circle cx="2007.01396952096" cy="1256.43191408248" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-04-04  ATGA1605A  Europe=8 [1.5%]  orf1ab polyprotein, D448N</title>
+	<title>2020-04-04  ATGA1605A  Europe=8 [1.4%]  orf1ab polyprotein, D448N</title>
 	<circle cx="1380.97026146257" cy="1215.8328463133" r="3.61235994796777" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -559,7 +554,7 @@
 	<circle cx="1364.64126691275" cy="1276.77348360976" r="4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-04-25  ATGA1605A  Europe=4 [1.7%]  orf1ab polyprotein, D448N</title>
+	<title>2020-04-25  ATGA1605A  Europe=4 [1.6%]  orf1ab polyprotein, D448N</title>
 	<circle cx="1363.27630921078" cy="1279.63517694285" r="2.40823996531185" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -599,7 +594,7 @@
 	<circle cx="1354.05772183715" cy="1296.26594880101" r="2.40823996531185" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-05-02  ATGA1605A  Europe=2 [0.9%]  orf1ab polyprotein, D448N</title>
+	<title>2020-05-02  ATGA1605A  Europe=2 [0.8%]  orf1ab polyprotein, D448N</title>
 	<circle cx="1352.35418563538" cy="1298.93996500704" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -615,7 +610,7 @@
 	<circle cx="1958.13604863641" cy="1750.81808134829" r="2.79588001734407" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-05-05  TGTT26157T  North America=5 [2.6%] South America=2 [7.4%]  ORF3a protein, V256N</title>
+	<title>2020-05-05  TGTT26157T  North America=5 [2.6%] South America=2 [6.9%]  ORF3a protein, V256N</title>
 	<circle cx="1958.13604863641" cy="1750.81808134829" r="1.20411998265592" style="fill:lime;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -679,7 +674,7 @@
 	<circle cx="1843.48288206555" cy="1940.24237811573" r="1.20411998265592" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-05-19  TATG517T  North America=2 [1.0%]  orf1ab polyprotein, M85V</title>
+	<title>2020-05-19  TATG517T  North America=2 [0.9%]  orf1ab polyprotein, M85V</title>
 	<circle cx="1295.2512347154" cy="1313.51600117111" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -703,7 +698,7 @@
 	<circle cx="1296.26594880101" cy="1354.05772183715" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-05-28  TATG517T  North America=3 [2.5%]  orf1ab polyprotein, M85V</title>
+	<title>2020-05-28  TATG517T  North America=3 [2.4%]  orf1ab polyprotein, M85V</title>
 	<circle cx="1276.32071903898" cy="1327.01900677481" r="1.90848501887865" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -867,7 +862,7 @@
 	<circle cx="1082.56359628527" cy="2035.6034312975" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-07-06  TGTT26157T  Asia=3 [3.8%]  ORF3a protein, V256N</title>
+	<title>2020-07-06  TGTT26157T  Asia=3 [3.7%]  ORF3a protein, V256N</title>
 	<circle cx="1069.57981652801" cy="2127.98782466441" r="1.90848501887865" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -895,15 +890,15 @@
 	<circle cx="1108.39510522525" cy="1519.46423316399" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-07-16  ATTA21993A  North America=2 [1.5%]  surface glycoprotein, Y145H</title>
+	<title>2020-07-16  ATTA21993A  North America=2 [1.4%]  surface glycoprotein, Y145H</title>
 	<circle cx="950.010005658273" cy="1969.39009004407" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-07-21  ATTA21993A  North America=2 [1.6%]  surface glycoprotein, Y145H</title>
+	<title>2020-07-21  ATTA21993A  North America=2 [1.5%]  surface glycoprotein, Y145H</title>
 	<circle cx="883.904528300308" cy="1944.67426482989" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-07-22  TTAT516T  North America=7 [6.1%]  orf1ab polyprotein, M85V</title>
+	<title>2020-07-22  TTAT516T  North America=7 [6.0%]  orf1ab polyprotein, M85V</title>
 	<circle cx="1139.74040195662" cy="1335.34527318613" r="3.38039216005703" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -911,7 +906,7 @@
 	<circle cx="870.956313238494" cy="1939.04422068736" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-07-24  TTAT516T  North America=2 [1.6%]  orf1ab polyprotein, M85V</title>
+	<title>2020-07-24  TTAT516T  North America=2 [1.5%]  orf1ab polyprotein, M85V</title>
 	<circle cx="1135.05362856033" cy="1333.1597948594" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -927,7 +922,7 @@
 	<circle cx="1123.6951282864" cy="1326.99263239633" r="1.20411998265592" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-07-29  TGTT26157T  North America=2 [1.7%]  ORF3a protein, V256N</title>
+	<title>2020-07-29  TGTT26157T  North America=2 [1.6%]  ORF3a protein, V256N</title>
 	<circle cx="717.353858170443" cy="2003.25807108257" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -943,7 +938,7 @@
 	<circle cx="670.491882466448" cy="1956.21596260931" r="2.40823996531185" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-08-03  TTTT21981T  North America=6 [2.8%]  surface glycoprotein, F140L</title>
+	<title>2020-08-03  TTTT21981T  North America=6 [2.7%]  surface glycoprotein, F140L</title>
 	<circle cx="724.707802146271" cy="1854.18358806688" r="3.11260500153457" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -1259,7 +1254,7 @@
 	<circle cx="402.764560128068" cy="1030.54237605933" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-10-09  TACA6523T  North America=2 [1.3%]  orf1ab polyprotein, T2087E</title>
+	<title>2020-10-09  TACA6523T  North America=2 [1.2%]  orf1ab polyprotein, T2087E</title>
 	<circle cx="875.549758735206" cy="1125.09475968894" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -1343,7 +1338,7 @@
 	<circle cx="263.545704553415" cy="859.158510706715" r="1.90848501887865" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-10-17  CA28253C  North America=6 [7.4%]  ORF8 protein, I121S</title>
+	<title>2020-10-17  CA28253C  North America=6 [7.1%]  ORF8 protein, I121S</title>
 	<circle cx="264.925844820403" cy="841.058661735427" r="3.11260500153457" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -1543,7 +1538,7 @@
 	<circle cx="525.879006187252" cy="549.00892341324" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-11-10  G25767GAAT  North America=2 [1.1%]  ORF3a protein, R126N</title>
+	<title>2020-11-10  G25767GAAT  North America=2 [1.0%]  ORF3a protein, R126N</title>
 	<circle cx="545.850077441393" cy="545.850077441393" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -1555,7 +1550,7 @@
 	<circle cx="633.821366920358" cy="613.704862425522" r="4.58451214271295" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-11-12  AATG3545A  North America=3 [2.3%]  orf1ab polyprotein, N1094R</title>
+	<title>2020-11-12  AATG3545A  North America=3 [2.1%]  orf1ab polyprotein, N1094R</title>
 	<circle cx="1035.3970727283" cy="1023.48497121536" r="1.90848501887865" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -1715,11 +1710,11 @@
 	<circle cx="700.730013844884" cy="369.075205888614" r="1.20411998265592" style="fill:lime;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-11-27  GTAG425G  North America=3 [1.9%]  orf1ab polyprotein, V54E</title>
+	<title>2020-11-27  GTAG425G  North America=3 [1.8%]  orf1ab polyprotein, V54E</title>
 	<circle cx="1131.76050268921" cy="1071.66017142567" r="1.90848501887865" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-11-27  ATTA22190A  Europe=2 [0.4%]  surface glycoprotein, I210N</title>
+	<title>2020-11-27  ATTA22190A  Europe=2 [0.3%]  surface glycoprotein, I210N</title>
 	<circle cx="817.359008411217" cy="480.356960392612" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -1739,7 +1734,7 @@
 	<circle cx="1128.28920108233" cy="1038.93490854486" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-01  ATAA3951A  North America=2 [1.2%]  orf1ab polyprotein, D1229E</title>
+	<title>2020-12-01  ATAA3951A  North America=2 [1.1%]  orf1ab polyprotein, D1229E</title>
 	<circle cx="1096.75146752691" cy="968.099999213801" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -1775,6 +1770,10 @@
 	<circle cx="1154.20843554124" cy="1059.06805592377" r="1.90848501887865" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
+	<title>2020-12-07  TT11083T  Europe=2 [0.1%]  orf1ab polyprotein, L3606F</title>
+	<circle cx="1053.74463361614" cy="749.87226665686" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
+</g>
+<g>
 	<title>2020-12-07  ATTA21993A  Europe=13 [0.5%]  surface glycoprotein, Y145H</title>
 	<circle cx="950.010005658273" cy="430.609909955933" r="4.45577340922735" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
@@ -1783,7 +1782,11 @@
 	<circle cx="948.136887261601" cy="424.845044303313" r="3.11260500153457" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-08  AATT27578A  Europe=5 [1.1%]  ORF7a protein, Q62H</title>
+	<title>2020-12-07  GTTA26158G  Europe=2 [0.1%]  ORF3a protein, V256D</title>
+	<circle cx="910.408289302222" cy="308.728359483031" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
+</g>
+<g>
+	<title>2020-12-08  AATT27578A  Europe=5 [1.0%]  ORF7a protein, Q62H</title>
 	<circle cx="913.232835955487" cy="262.026870589733" r="2.79588001734407" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -1839,7 +1842,11 @@
 	<circle cx="1045.63845826338" cy="405.878710547508" r="3.8169700377573" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-14  ATTA22190A  Europe=8 [0.3%]  surface glycoprotein, I210N</title>
+	<title>2020-12-14  ATTA21993A  Europe=9 [0.3%] North America=2 [1.5%]  surface glycoprotein, Y145H</title>
+	<circle cx="1045.63845826338" cy="405.878710547508" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
+</g>
+<g>
+	<title>2020-12-14  ATTA22190A  Europe=8 [0.2%]  surface glycoprotein, I210N</title>
 	<circle cx="1044.4818621991" cy="399.928539620149" r="3.61235994796777" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -1871,11 +1878,11 @@
 	<circle cx="1053.39924610061" cy="274.399268015197" r="1.90848501887865" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-17  TTAT516T  Europe=2 [0.3%]  orf1ab polyprotein, M85V</title>
+	<title>2020-12-17  TTAT516T  Europe=2 [0.2%]  orf1ab polyprotein, M85V</title>
 	<circle cx="1179.38096981161" cy="1053.28797689259" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-17  ATTA21993A  North America=3 [3.3%]  surface glycoprotein, Y145H</title>
+	<title>2020-12-17  ATTA21993A  North America=3 [2.6%]  surface glycoprotein, Y145H</title>
 	<circle cx="1087.41110244794" cy="398.888367281435" r="1.90848501887865" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -1883,7 +1890,7 @@
 	<circle cx="1086.56749934366" cy="392.885819295524" r="1.90848501887865" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-17  GTTA26158G  Europe=2 [0.3%]  ORF3a protein, V256D</title>
+	<title>2020-12-17  GTTA26158G  Europe=2 [0.2%]  ORF3a protein, V256D</title>
 	<circle cx="1069.57553427875" cy="271.981705548861" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -1895,7 +1902,11 @@
 	<circle cx="1100.67086038588" cy="391.029076589939" r="1.90848501887865" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-19  ATTA21993A  Europe=4 [0.8%]  surface glycoprotein, Y145H</title>
+	<title>2020-12-18  GTTA26158G  Europe=2 [0.3%]  ORF3a protein, V256D</title>
+	<circle cx="1085.7915510126" cy="269.846826444931" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
+</g>
+<g>
+	<title>2020-12-19  ATTA21993A  Europe=4 [0.7%]  surface glycoprotein, Y145H</title>
 	<circle cx="1115.43808134667" cy="395.447086983919" r="2.40823996531185" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -1907,39 +1918,43 @@
 	<circle cx="1189.66531012068" cy="1052.2070491692" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-21  TT11083T  Europe=5 [0.2%]  orf1ab polyprotein, L3606F</title>
-	<circle cx="1166.98479756517" cy="727.860608581643" r="2.79588001734407" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
+	<title>2020-12-21  TT11083T  Europe=6 [0.2%]  orf1ab polyprotein, L3606F</title>
+	<circle cx="1166.98479756517" cy="727.860608581643" r="3.11260500153457" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-21  ATTA21993A  Europe=25 [0.9%]  surface glycoprotein, Y145H</title>
-	<circle cx="1143.56808591752" cy="392.986030479037" r="5.59176003468815" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
+	<title>2020-12-21  ATTA21993A  Europe=26 [0.9%]  surface glycoprotein, Y145H</title>
+	<circle cx="1143.56808591752" cy="392.986030479037" r="5.65989339188327" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-21  ATTA22190A  Europe=31 [1.1%]  surface glycoprotein, I210N</title>
-	<circle cx="1143.14525436898" cy="386.939257620539" r="5.96544677533709" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
+	<title>2020-12-21  ATTA22190A  Europe=32 [1.1%]  surface glycoprotein, I210N</title>
+	<circle cx="1143.14525436898" cy="386.939257620539" r="6.02059991327962" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-21  G25767GAAT  North America=2 [1.4%]  ORF3a protein, R126N</title>
-	<circle cx="1135.46774955105" cy="277.145823535019" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
+	<title>2020-12-21  G25767GAAT  North America=3 [1.8%]  ORF3a protein, R126N</title>
+	<circle cx="1135.46774955105" cy="277.145823535019" r="1.90848501887865" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
 	<title>2020-12-21  GTTA26158G  Europe=9 [0.3%]  ORF3a protein, V256D</title>
 	<circle cx="1134.62852551308" cy="265.144360653432" r="3.8169700377573" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-21  TT29589T  Europe=3 [0.1%]  ORF10 protein, F11L</title>
-	<circle cx="1127.26438823874" cy="159.832291224464" r="1.90848501887865" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
+	<title>2020-12-21  TGT27462T  Europe=2 [0.1%]  ORF7a protein, V24*</title>
+	<circle cx="1131.82968115116" cy="225.119021529161" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-22  ATTA21993A  Europe=8 [1.8%]  surface glycoprotein, Y145H</title>
+	<title>2020-12-21  TT29589T  Europe=4 [0.1%]  ORF10 protein, F11L</title>
+	<circle cx="1127.26438823874" cy="159.832291224464" r="2.40823996531185" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
+</g>
+<g>
+	<title>2020-12-22  ATTA21993A  Europe=8 [1.6%]  surface glycoprotein, Y145H</title>
 	<circle cx="1157.66101656802" cy="392.124069914854" r="3.61235994796777" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-22  GTTA26158G  Europe=2 [0.5%]  ORF3a protein, V256D</title>
+	<title>2020-12-22  GTTA26158G  Europe=2 [0.4%]  ORF3a protein, V256D</title>
 	<circle cx="1150.95396248334" cy="264.145854153229" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-23  C21762CTTAT  Europe=8 [2.2%]  surface glycoprotein, I68Y</title>
+	<title>2020-12-23  C21762CTTAT  Europe=8 [1.9%]  surface glycoprotein, I68Y</title>
 	<circle cx="1172.01489896727" cy="398.611558678626" r="3.61235994796777" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
@@ -1955,10 +1970,11 @@
 	<circle cx="1168.63125853312" cy="301.716774188252" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
 <g>
-	<title>2020-12-24  ATTA21993A  Europe=2 [1.1%]  surface glycoprotein, Y145H</title>
+	<title>2020-12-24  ATTA21993A  Europe=2 [1.0%]  surface glycoprotein, Y145H</title>
 	<circle cx="1185.8812716908" cy="391.138596890713" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.15;"/>
 </g>
-<text font-size="1.8em" x="70" y="300" fill="white">Distinct missense variants mapped: 50</text>
-<text font-size="1.8em" x="70" y="330" fill="white">Genomes/year≥10, Genomes/day≥2</text>
-<text font-size="1.8em" x="70" y="360" fill="white">Data from 6 continents</text>
+<text font-size="1.8em" x="1880" y="170" fill="white">Data from 6 continents</text>
+<text font-size="1.8em" x="1880" y="200" fill="white">Genomes/year≥10, Genomes/day≥2</text>
+<text font-size="1.8em" x="1880" y="230" fill="white">51 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="260" fill="white">Updated on 2021-01-19</text>
 </svg>

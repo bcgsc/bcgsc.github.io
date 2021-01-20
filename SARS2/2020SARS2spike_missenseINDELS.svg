@@ -7,10 +7,8 @@
 <circle cx="1200" cy="1200" r="169" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <circle cx="1200" cy="1200" r="168" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="155" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
-<text font-size="4.5em" x="70" y="80" fill="white">SARS-CoV-2</text>
-<text font-size="3.5em" x="70" y="140" fill="white">2020 mutation timemap</text>
-<text font-size="2.5em" x="70" y="190" fill="white">GISAID update 2021-01-15</text>
-<text font-size="2.0em" x="70" y="230" fill="white">@WarrenRene | ntedit v1.3.4</text>
+<text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 mutations 2020 timemap</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs. 252,851 GISAID genomes</text>
 <line x1="1200" y1="89.1314031180401" x2="1200" y2="139.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="79.1314031180401" fill="white">Winter</text>
 <line x1="2261" y1="1200" x2="2311" y2="1200" style="stroke:white;stroke-width:4" />
@@ -32,28 +30,25 @@
 <line x1="1210" y1="1045" x2="1215" y2="1070" style="stroke:white;stroke-width:2" />
 <text font-size="2.0em" x="1215" y="129.13140311804" fill="white">25.5 kb</text>
 <text font-size="2.0em" x="1215" y="1090" fill="white">21.5 kb</text>
-<text font-size="3.0em" x="1980" y="2060" fill="white">Top Continents</text>
-<circle cx="1940" cy="2090" r="8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2100" fill="white">Europe</text>
-<circle cx="1940" cy="2120" r="8" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2130" fill="white">North America</text>
-<circle cx="1940" cy="2150" r="8" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2160" fill="white">Asia</text>
-<circle cx="1940" cy="2180" r="8" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2190" fill="white">Oceania</text>
-<circle cx="1940" cy="2210" r="8" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2220" fill="white">Africa</text>
-<circle cx="1940" cy="2240" r="8" style="fill:lime;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2250" fill="white">South America</text>
-<circle cx="1940" cy="2285" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="1993" cy="2285" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="2046" cy="2285" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="2099" cy="2285" r="12" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="2152" cy="2285" r="16" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="2.5em" x="1930" y="2340" fill="white">2      10        100        1k        10k  genomes</text>
-<text font-size="2.5em" x="1085" y="1180" fill="white">MN908947 vs.</text>
-<text font-size="2.5em" x="1085" y="1220" fill="white">250,825  viral</text>
-<text font-size="2.5em" x="1135" y="1260" fill="white">genomes</text>
+<text font-size="2.5em" x="110" y="175" fill="white">Top Continents</text>
+<circle cx="60" cy="205" r="8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="215" fill="white">Europe</text>
+<circle cx="60" cy="235" r="8" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="245" fill="white">North America</text>
+<circle cx="60" cy="265" r="8" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="275" fill="white">Asia</text>
+<circle cx="60" cy="295" r="8" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="305" fill="white">Oceania</text>
+<circle cx="60" cy="325" r="8" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="335" fill="white">Africa</text>
+<circle cx="60" cy="355" r="8" style="fill:lime;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="365" fill="white">South America</text>
+<circle cx="60" cy="410" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="103" cy="410" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="146" cy="410" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="189" cy="410" r="12" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="232" cy="410" r="16" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="2.0em" x="50" y="455" fill="white">2      10        100        1k        10k  genomes</text>
 <g>
 	<title>2020-03-03  ATTA21993A  Europe=2 [1.0%]  surface glycoprotein, Y145H</title>
 	<circle cx="1436.74182257388" cy="1079.37401643891" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
@@ -163,11 +158,11 @@
 	<circle cx="1131.23137621218" cy="1456.64799794273" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
-	<title>2020-07-16  ATTA21993A  North America=2 [1.5%]  surface glycoprotein, Y145H</title>
+	<title>2020-07-16  ATTA21993A  North America=2 [1.4%]  surface glycoprotein, Y145H</title>
 	<circle cx="1117.89370283089" cy="1452.69719909579" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
-	<title>2020-07-21  ATTA21993A  North America=2 [1.6%]  surface glycoprotein, Y145H</title>
+	<title>2020-07-21  ATTA21993A  North America=2 [1.5%]  surface glycoprotein, Y145H</title>
 	<circle cx="1096.18213000274" cy="1444.57957464783" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
@@ -175,7 +170,7 @@
 	<circle cx="1091.92943982418" cy="1442.73045233132" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
-	<title>2020-08-03  TTTT21981T  North America=6 [2.8%]  surface glycoprotein, F140L</title>
+	<title>2020-08-03  TTTT21981T  North America=6 [2.7%]  surface glycoprotein, F140L</title>
 	<circle cx="1045.39546036583" cy="1412.79489317524" r="3.11260500153457" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
@@ -475,7 +470,7 @@
 	<circle cx="1035.94927009262" cy="937.463952414826" r="1.90848501887865" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
-	<title>2020-11-27  ATTA22190A  Europe=2 [0.4%]  surface glycoprotein, I210N</title>
+	<title>2020-11-27  ATTA22190A  Europe=2 [0.3%]  surface glycoprotein, I210N</title>
 	<circle cx="1054.66247833577" cy="926.659876598239" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
@@ -527,7 +522,11 @@
 	<circle cx="1149.3017524534" cy="939.1801269815" r="3.8169700377573" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
-	<title>2020-12-14  ATTA22190A  Europe=8 [0.3%]  surface glycoprotein, I210N</title>
+	<title>2020-12-14  ATTA21993A  Europe=9 [0.3%] North America=2 [1.5%]  surface glycoprotein, Y145H</title>
+	<circle cx="1149.3017524534" cy="939.1801269815" r="1.20411998265592" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+</g>
+<g>
+	<title>2020-12-14  ATTA22190A  Europe=8 [0.2%]  surface glycoprotein, I210N</title>
 	<circle cx="1140.92995466071" cy="896.110961026224" r="3.61235994796777" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
@@ -543,7 +542,7 @@
 	<circle cx="1158.43511875434" cy="937.569668077951" r="1.90848501887865" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
-	<title>2020-12-17  ATTA21993A  North America=3 [3.3%]  surface glycoprotein, Y145H</title>
+	<title>2020-12-17  ATTA21993A  North America=3 [2.6%]  surface glycoprotein, Y145H</title>
 	<circle cx="1163.02149010126" cy="936.884230287596" r="1.90848501887865" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
@@ -559,7 +558,7 @@
 	<circle cx="1162.27207409061" cy="892.730701384981" r="1.90848501887865" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
-	<title>2020-12-19  ATTA21993A  Europe=4 [0.8%]  surface glycoprotein, Y145H</title>
+	<title>2020-12-19  ATTA21993A  Europe=4 [0.7%]  surface glycoprotein, Y145H</title>
 	<circle cx="1172.22662434782" cy="935.75398192108" r="2.40823996531185" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
@@ -567,19 +566,19 @@
 	<circle cx="1176.8425832744" cy="935.309515629521" r="3.8169700377573" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
-	<title>2020-12-21  ATTA21993A  Europe=25 [0.9%]  surface glycoprotein, Y145H</title>
-	<circle cx="1181.46559617445" cy="934.945676623615" r="5.59176003468815" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2020-12-21  ATTA21993A  Europe=26 [0.9%]  surface glycoprotein, Y145H</title>
+	<circle cx="1181.46559617445" cy="934.945676623615" r="5.65989339188327" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
-	<title>2020-12-21  ATTA22190A  Europe=31 [1.1%]  surface glycoprotein, I210N</title>
-	<circle cx="1178.40501146897" cy="891.177276200188" r="5.96544677533709" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2020-12-21  ATTA22190A  Europe=32 [1.1%]  surface glycoprotein, I210N</title>
+	<circle cx="1178.40501146897" cy="891.177276200188" r="6.02059991327962" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
-	<title>2020-12-22  ATTA21993A  Europe=8 [1.8%]  surface glycoprotein, Y145H</title>
+	<title>2020-12-22  ATTA21993A  Europe=8 [1.6%]  surface glycoprotein, Y145H</title>
 	<circle cx="1186.09425483344" cy="934.662575732248" r="3.61235994796777" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
-	<title>2020-12-23  C21762CTTAT  Europe=8 [2.2%]  surface glycoprotein, I68Y</title>
+	<title>2020-12-23  C21762CTTAT  Europe=8 [1.9%]  surface glycoprotein, I68Y</title>
 	<circle cx="1192.52264680895" cy="985.87662013533" r="3.61235994796777" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
@@ -595,10 +594,11 @@
 	<circle cx="1168.03081738588" cy="284.522389414356" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
-	<title>2020-12-24  ATTA21993A  Europe=2 [1.1%]  surface glycoprotein, Y145H</title>
+	<title>2020-12-24  ATTA21993A  Europe=2 [1.0%]  surface glycoprotein, Y145H</title>
 	<circle cx="1195.36286840096" cy="934.338908614349" r="1.20411998265592" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
-<text font-size="1.8em" x="70" y="300" fill="white">Distinct missense variants mapped: 8</text>
-<text font-size="1.8em" x="70" y="330" fill="white">Genomes/year≥10, Genomes/day≥2</text>
-<text font-size="1.8em" x="70" y="360" fill="white">Data from 6 continents</text>
+<text font-size="1.8em" x="1880" y="170" fill="white">Data from 6 continents</text>
+<text font-size="1.8em" x="1880" y="200" fill="white">Genomes/year≥10, Genomes/day≥2</text>
+<text font-size="1.8em" x="1880" y="230" fill="white">8 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="260" fill="white">Updated on 2021-01-19</text>
 </svg>

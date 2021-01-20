@@ -7,10 +7,8 @@
 <circle cx="1200" cy="1200" r="175" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <circle cx="1200" cy="1200" r="173" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="161" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
-<text font-size="4.5em" x="70" y="80" fill="white">SARS-CoV-2</text>
-<text font-size="3.5em" x="70" y="140" fill="white">2020 mutation timemap</text>
-<text font-size="2.5em" x="70" y="190" fill="white">GISAID update 2021-01-15</text>
-<text font-size="2.0em" x="70" y="230" fill="white">@WarrenRene | ntedit v1.3.4</text>
+<text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 mutations 2020 timemap</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs. 3,431 GISAID genomes</text>
 <line x1="1200" y1="83.1314031180401" x2="1200" y2="133.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="73.1314031180401" fill="white">Winter</text>
 <line x1="2267" y1="1200" x2="2317" y2="1200" style="stroke:white;stroke-width:4" />
@@ -32,57 +30,55 @@
 <line x1="1210" y1="1039" x2="1215" y2="1064" style="stroke:white;stroke-width:2" />
 <text font-size="2.0em" x="1215" y="123.13140311804" fill="white">25.5 kb</text>
 <text font-size="2.0em" x="1215" y="1084" fill="white">21.5 kb</text>
-<text font-size="3.0em" x="1980" y="1960" fill="white">Top Countries</text>
-<circle cx="1940" cy="1990" r="8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2000" fill="white">South Africa</text>
-<circle cx="1940" cy="2020" r="8" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2030" fill="white">SaudiArabia</text>
-<circle cx="1940" cy="2050" r="8" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2060" fill="white">Gambia</text>
-<circle cx="1940" cy="2080" r="8" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2090" fill="white">DRC</text>
-<circle cx="1940" cy="2110" r="8" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2120" fill="white">Uganda</text>
-<circle cx="1940" cy="2140" r="8" style="fill:lime;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2150" fill="white">Nigeria</text>
-<circle cx="1940" cy="2170" r="8" style="fill:#FFBBFF;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2180" fill="white">Egypt</text>
-<circle cx="1940" cy="2200" r="8" style="fill:#6495ED;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2210" fill="white">Tunisia</text>
-<circle cx="1940" cy="2230" r="8" style="fill:red;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2240" fill="white">Senegal</text>
-<circle cx="1940" cy="2260" r="8" style="fill:#7FFFD4;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="1955" y="2270" fill="white">Burkina Faso</text>
-<circle cx="2160" cy="1990" r="8" style="fill:#FFD700;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="2175" y="2000" fill="white">Morocco</text>
-<circle cx="2160" cy="2020" r="8" style="fill:#ADD8E6;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="2175" y="2030" fill="white">Cote dIvoire</text>
-<circle cx="2160" cy="2050" r="8" style="fill:#F08080;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="2175" y="2060" fill="white">Equator. Guinea</text>
-<circle cx="2160" cy="2080" r="8" style="fill:#b2df8a;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="2175" y="2090" fill="white">Zimbabwe</text>
-<circle cx="2160" cy="2110" r="8" style="fill:#CC00FF;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="2175" y="2120" fill="white">Mali</text>
-<circle cx="2160" cy="2140" r="8" style="fill:#cab2d6;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="2175" y="2150" fill="white">Algeria</text>
-<circle cx="2160" cy="2170" r="8" style="fill:#b15928;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="2175" y="2180" fill="white">Kenya</text>
-<circle cx="2160" cy="2200" r="8" style="fill:#ffffb3;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="2175" y="2210" fill="white">Ghana</text>
-<circle cx="2160" cy="2230" r="8" style="fill:#fb8072;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="2175" y="2240" fill="white">Benin</text>
-<circle cx="2160" cy="2260" r="8" style="fill:#80b1d3;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="2175" y="2270" fill="white">Sierra Leone</text>
-<circle cx="1940" cy="2305" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="1993" cy="2305" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="2046" cy="2305" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="2.5em" x="1930" y="2360" fill="white">1      10        100% fraction sampled</text>
-<text font-size="2.5em" x="1085" y="1180" fill="white">MN908947 vs.</text>
-<text font-size="2.5em" x="1085" y="1220" fill="white">3,416  viral</text>
-<text font-size="2.5em" x="1135" y="1260" fill="white">genomes</text>
+<text font-size="2.5em" x="110" y="175" fill="white">Top Countries</text>
+<circle cx="60" cy="205" r="8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="215" fill="white">South Africa</text>
+<circle cx="60" cy="235" r="8" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="245" fill="white">SaudiArabia</text>
+<circle cx="60" cy="265" r="8" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="275" fill="white">Gambia</text>
+<circle cx="60" cy="295" r="8" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="305" fill="white">DRC</text>
+<circle cx="60" cy="325" r="8" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="335" fill="white">Uganda</text>
+<circle cx="60" cy="355" r="8" style="fill:lime;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="365" fill="white">Nigeria</text>
+<circle cx="60" cy="385" r="8" style="fill:#FFBBFF;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="395" fill="white">Egypt</text>
+<circle cx="60" cy="415" r="8" style="fill:#6495ED;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="425" fill="white">Tunisia</text>
+<circle cx="60" cy="445" r="8" style="fill:red;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="455" fill="white">Senegal</text>
+<circle cx="60" cy="475" r="8" style="fill:#7FFFD4;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="485" fill="white">Burkina Faso</text>
+<circle cx="280" cy="205" r="8" style="fill:#FFD700;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="295" y="215" fill="white">Morocco</text>
+<circle cx="280" cy="235" r="8" style="fill:#ADD8E6;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="295" y="245" fill="white">Cote dIvoire</text>
+<circle cx="280" cy="265" r="8" style="fill:#F08080;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="295" y="275" fill="white">Equator. Guinea</text>
+<circle cx="280" cy="295" r="8" style="fill:#b2df8a;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="295" y="305" fill="white">Zimbabwe</text>
+<circle cx="280" cy="325" r="8" style="fill:#CC00FF;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="295" y="335" fill="white">Cameroon</text>
+<circle cx="280" cy="355" r="8" style="fill:#cab2d6;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="295" y="365" fill="white">Mali</text>
+<circle cx="280" cy="385" r="8" style="fill:#b15928;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="295" y="395" fill="white">Algeria</text>
+<circle cx="280" cy="415" r="8" style="fill:#ffffb3;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="295" y="425" fill="white">Kenya</text>
+<circle cx="280" cy="445" r="8" style="fill:#fb8072;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="295" y="455" fill="white">Ghana</text>
+<circle cx="280" cy="475" r="8" style="fill:#80b1d3;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="295" y="485" fill="white">SouthAfrica</text>
+<circle cx="60" cy="530" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="100" cy="530" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="140" cy="530" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="2.0em" x="50" y="575" fill="white">1      10        100% daily</text>
+<text font-size="2.0em" x="50" y="605" fill="white">sample fraction</text>
 <g>
 	<title>2020-03-02  A23403G  Algeria=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1716.78981604304" cy="925.217980623314" r="8.01728549513057" style="fill:#cab2d6;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<circle cx="1716.78981604304" cy="925.217980623314" r="8.01728549513057" style="fill:#b15928;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-03-11  A23403G  Senegal=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -106,7 +102,7 @@
 </g>
 <g>
 	<title>2020-03-17  A23403G  Benin=3 [75.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1770.29944994557" cy="1068.33599759116" r="7.52325436912316" style="fill:#fb8072;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<circle cx="1770.29944994557" cy="1068.33599759116" r="7.52325436912316" style="fill:#fdb462;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-03-18  A23403G  DRC=5 [100.0%]  surface glycoprotein, D614G</title>
@@ -138,7 +134,7 @@
 </g>
 <g>
 	<title>2020-03-24  A23403G  Reunion=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1782.09432985029" cy="1138.8194206086" r="8.01728549513057" style="fill:#ffed6f;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<circle cx="1782.09432985029" cy="1138.8194206086" r="8.01728549513057" style="fill:#FF00FF;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-03-24  A23403G  Tunisia=2 [66.7%]  surface glycoprotein, D614G</title>
@@ -162,7 +158,7 @@
 </g>
 <g>
 	<title>2020-03-27  A23403G  Uganda=2 [66.7%] Gabon=2 [66.7%]  surface glycoprotein, D614G</title>
-	<circle cx="1784.49853392762" cy="1169.36772984266" r="7.3214991327742" style="fill:#ccebc5;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<circle cx="1784.49853392762" cy="1169.36772984266" r="7.3214991327742" style="fill:#FAF0E6;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-03-30  A23403G  Morocco=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -262,7 +258,7 @@
 </g>
 <g>
 	<title>2020-04-12  A23403G  Mali=2 [40.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1770.29944994557" cy="1331.66400240884" r="6.45113542687894" style="fill:#CC00FF;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<circle cx="1770.29944994557" cy="1331.66400240884" r="6.45113542687894" style="fill:#cab2d6;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-04-13  A23403G  Morocco=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -274,7 +270,7 @@
 </g>
 <g>
 	<title>2020-04-14  A23403G  Mali=2 [50.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1765.35703151173" cy="1351.48696002883" r="6.83028070439175" style="fill:#CC00FF;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<circle cx="1765.35703151173" cy="1351.48696002883" r="6.83028070439175" style="fill:#cab2d6;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-04-15  A23403G  SaudiArabia=9 [100.0%]  surface glycoprotein, D614G</title>
@@ -662,7 +658,7 @@
 </g>
 <g>
 	<title>2020-05-25  A23403G  Ghana=3 [75.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1527.29598002698" cy="1685.23624513912" r="7.52325436912316" style="fill:#ffffb3;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<circle cx="1527.29598002698" cy="1685.23624513912" r="7.52325436912316" style="fill:#fb8072;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-05-26  A23403G  DRC=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -742,7 +738,7 @@
 </g>
 <g>
 	<title>2020-06-06  A23403G  South Africa=3 [100.0%] Congo=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1419.25748942027" cy="1742.68132957718" r="8.01728549513057" style="fill:#fdb462;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<circle cx="1419.25748942027" cy="1742.68132957718" r="8.01728549513057" style="fill:#fccde5;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-06-07  A23403G  Senegal=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -750,7 +746,7 @@
 </g>
 <g>
 	<title>2020-06-09  A23403G  Guinea=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1390.55525833261" cy="1753.41265404789" r="8.01728549513057" style="fill:#bc80bd;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<circle cx="1390.55525833261" cy="1753.41265404789" r="8.01728549513057" style="fill:#ffed6f;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-06-10  A23403G  Cote dIvoire=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -866,7 +862,7 @@
 </g>
 <g>
 	<title>2020-06-19  A23403G  Cote dIvoire=3 [100.0%] South Africa=2 [100.0%] Algeria=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1291.56119690996" cy="1778.09464567573" r="8.01728549513057" style="fill:#cab2d6;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<circle cx="1291.56119690996" cy="1778.09464567573" r="8.01728549513057" style="fill:#b15928;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-06-20  A23403G  Cote dIvoire=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -874,7 +870,7 @@
 </g>
 <g>
 	<title>2020-06-20  A23403G  Cote dIvoire=2 [100.0%] Algeria=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1281.45810898064" cy="1779.60456228348" r="8.01728549513057" style="fill:#cab2d6;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<circle cx="1281.45810898064" cy="1779.60456228348" r="8.01728549513057" style="fill:#b15928;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-06-21  A23403G  Burkina Faso=4 [100.0%]  surface glycoprotein, D614G</title>
@@ -978,7 +974,7 @@
 </g>
 <g>
 	<title>2020-07-02  A23403G  South Africa=27 [100.0%] Cote dIvoire=2 [100.0%] Kenya=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1159.17148930967" cy="1783.87490514094" r="8.01728549513057" style="fill:#b15928;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<circle cx="1159.17148930967" cy="1783.87490514094" r="8.01728549513057" style="fill:#ffffb3;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-07-02  A23403G  South Africa=27 [100.0%] Cote dIvoire=2 [100.0%] Kenya=2 [100.0%] Equatorial Guinea=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -1514,7 +1510,7 @@
 </g>
 <g>
 	<title>2020-08-30  A23403G  South Africa=2 [100.0%] Rwanda=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="678.493286065249" cy="1465.72094283197" r="8.01728549513057" style="fill:#fccde5;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<circle cx="678.493286065249" cy="1465.72094283197" r="8.01728549513057" style="fill:#bc80bd;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-08-31  C21846T  South Africa=2 [11.8%]  surface glycoprotein, T95I</title>
@@ -1854,7 +1850,7 @@
 </g>
 <g>
 	<title>2020-10-19  A23403G  South Africa=19 [100.0%] Tunisia=2 [100.0%] Rwanda=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="661.227894237636" cy="971.304809427659" r="8.01728549513057" style="fill:#fccde5;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<circle cx="661.227894237636" cy="971.304809427659" r="8.01728549513057" style="fill:#bc80bd;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-10-19  C23664T  South Africa=3 [15.8%]  surface glycoprotein, A701V</title>
@@ -1945,6 +1941,10 @@
 	<circle cx="1002.10644448044" cy="1085.74610244989" r="4.8577450045276" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
+	<title>2020-10-26  C22227T  Cameroon=2 [100.0%]  surface glycoprotein, A222V</title>
+	<circle cx="919.940114410912" cy="1038.30734966592" r="8.01728549513057" style="fill:#CC00FF;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+</g>
+<g>
 	<title>2020-10-26  G22813T  South Africa=2 [15.4%]  surface glycoprotein, K417N</title>
 	<circle cx="806.913190888043" cy="973.051224944321" r="4.8577450045276" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
@@ -1959,6 +1959,10 @@
 <g>
 	<title>2020-10-26  A23403G  South Africa=13 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="693.114752528841" cy="907.349665924276" r="8.01728549513057" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+</g>
+<g>
+	<title>2020-10-26  A23403G  South Africa=13 [100.0%] Cameroon=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="693.114752528841" cy="907.349665924276" r="8.01728549513057" style="fill:#CC00FF;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-10-26  C23664T  South Africa=2 [15.4%]  surface glycoprotein, A701V</title>
@@ -2489,6 +2493,10 @@
 	<circle cx="1065.68648800622" cy="1015.13331041677" r="7.7877730827913" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
+	<title>2020-11-19  G22205C  Cameroon=2 [66.7%]  surface glycoprotein, D215H</title>
+	<circle cx="1012.79890628547" cy="942.339799118892" r="7.3214991327742" style="fill:#CC00FF;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+</g>
+<g>
 	<title>2020-11-19  A22206G  South Africa=5 [31.2%]  surface glycoprotein, D215G</title>
 	<circle cx="1012.66799642973" cy="942.159617160234" r="6.03411887588515" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
@@ -2515,6 +2523,10 @@
 <g>
 	<title>2020-11-19  A23403G  South Africa=16 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="855.968899103648" cy="726.481812646467" r="8.01728549513057" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+</g>
+<g>
+	<title>2020-11-19  A23403G  South Africa=16 [100.0%] Cameroon=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="855.968899103648" cy="726.481812646467" r="8.01728549513057" style="fill:#CC00FF;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-11-19  C23664T  South Africa=15 [93.8%]  surface glycoprotein, A701V</title>
@@ -2585,12 +2597,24 @@
 	<circle cx="1025.18529484122" cy="909.059472991087" r="6.54626017017804" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
+	<title>2020-11-24  G22813T  SouthAfrica=2 [100.0%]  surface glycoprotein, K417N</title>
+	<circle cx="966.225479584256" cy="810.933862175745" r="8.01728549513057" style="fill:#80b1d3;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+</g>
+<g>
 	<title>2020-11-24  G22813T  South Africa=24 [92.3%]  surface glycoprotein, K417N</title>
 	<circle cx="966.225479584256" cy="810.933862175745" r="7.87966979423894" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
+	<title>2020-11-24  G23012A  SouthAfrica=2 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="943.398625039245" cy="772.943596509883" r="8.01728549513057" style="fill:#80b1d3;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+</g>
+<g>
 	<title>2020-11-24  G23012A  South Africa=24 [92.3%]  surface glycoprotein, E484K</title>
 	<circle cx="943.398625039245" cy="772.943596509883" r="7.87966979423894" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+</g>
+<g>
+	<title>2020-11-24  A23063T  SouthAfrica=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="937.548526638262" cy="763.207397771396" r="8.01728549513057" style="fill:#80b1d3;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-11-24  A23063T  South Africa=24 [92.3%]  surface glycoprotein, N501Y</title>
@@ -2599,6 +2623,14 @@
 <g>
 	<title>2020-11-24  A23403G  South Africa=26 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="898.54787063171" cy="698.299406181481" r="8.01728549513057" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+</g>
+<g>
+	<title>2020-11-24  A23403G  South Africa=26 [100.0%] SouthAfrica=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="898.54787063171" cy="698.299406181481" r="8.01728549513057" style="fill:#80b1d3;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+</g>
+<g>
+	<title>2020-11-24  C23664T  SouthAfrica=2 [100.0%]  surface glycoprotein, A701V</title>
+	<circle cx="868.609131756092" cy="648.47297734334" r="8.01728549513057" style="fill:#80b1d3;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
 <g>
 	<title>2020-11-24  C23664T  South Africa=24 [92.3%]  surface glycoprotein, A701V</title>
@@ -2688,7 +2720,8 @@
 	<title>2020-12-21  A23403G  Morocco=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1159.17148930967" cy="616.125094859061" r="8.01728549513057" style="fill:#FFD700;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
 </g>
-<text font-size="1.8em" x="70" y="300" fill="white">Distinct missense variants mapped: 65</text>
-<text font-size="1.8em" x="70" y="330" fill="white">Genomes/year≥10, Genomes/day≥2</text>
-<text font-size="1.8em" x="70" y="360" fill="white">Data from 30 countries in Africa</text>
+<text font-size="1.8em" x="1880" y="170" fill="white">Data from 32 countries in Africa</text>
+<text font-size="1.8em" x="1880" y="200" fill="white">Genomes/year≥10, Genomes/day≥2</text>
+<text font-size="1.8em" x="1880" y="230" fill="white">66 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="260" fill="white">Updated on 2021-01-19</text>
 </svg>
