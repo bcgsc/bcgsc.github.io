@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg width="2400" height="2400" xmlns="http://www.w3.org/2000/svg" style="background-color:black">
+<defs>
+	<style type="text/css"><![CDATA[
+	.sb {
+	stroke-width:0.8;
+	stroke-opacity:50%;
+	}
+	.cv {
+	stroke: none;
+	fill-opacity:0.25;
+	}
+	]]></style>
+</defs>
 <circle cx="1200" cy="1200" r="1052" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="1028" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <circle cx="1200" cy="1200" r="1026" style="fill:gainsboro;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
@@ -8,7 +20,7 @@
 <circle cx="1200" cy="1200" r="173" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="161" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 mutations 2021 timemap</text>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 950 GISAID genomes</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 1,262 GISAID genomes</text>
 <line x1="1200" y1="83.1314031180401" x2="1200" y2="133.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="73.1314031180401" fill="white">Winter</text>
 <line x1="2267" y1="1200" x2="2317" y2="1200" style="stroke:white;stroke-width:4" />
@@ -33,734 +45,994 @@
 <text font-size="2.5em" x="110" y="175" fill="white">Top countries</text>
 <circle cx="60" cy="205" r="8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="2.0em" x="75" y="215" fill="white">USA</text>
-<circle cx="60.0" cy="260.0" r="1.2" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="100.0" cy="260.0" r="4.2" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="140.0" cy="260.0" r="8.0" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="60" cy="260" r="1" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="100" cy="260" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="140" cy="260" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <text font-size="2.0em" x="50" y="305" fill="white">1      10        100% daily</text>
 <text font-size="2.0em" x="50" y="335" fill="white">sample fraction</text>
 <g>
-	<title>2021-01-01 USA: 23 samples</title>
-	<line x1="1200.3" y1="1180.0" x2="1200.5" y2="1173.8" style="stroke:cyan;stroke-width:0.8;stroke-opacity:50%;" />
+	<title>2021-01-01 USA=40</title>
+	<line x1="1200" y1="1180" x2="1200" y2="1173" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-01  G21776A  USA=4 [17.4%]  surface glycoprotein, G72R</title>
-	<circle cx="1203.9" cy="977.1" r="5.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-01  C21575T  USA=2 [5.0%]  surface glycoprotein, L5F</title>
+	<circle cx="1203" cy="1022" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-01  C21807A  USA=2 [8.7%]  surface glycoprotein, P82H</title>
-	<circle cx="1204.0" cy="970.2" r="3.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-01  G21776A  USA=4 [10.0%]  surface glycoprotein, G72R</title>
+	<circle cx="1204" cy="977" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-01  A23403G  USA=22 [95.7%]  surface glycoprotein, D614G</title>
-	<circle cx="1210.2" cy="614.8" r="7.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-01  C21807A  USA=2 [5.0%]  surface glycoprotein, P82H</title>
+	<circle cx="1204" cy="970" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-01  C23604A  USA=3 [13.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1211.0" cy="570.0" r="4.6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-01  A23403G  USA=39 [97.5%]  surface glycoprotein, D614G</title>
+	<circle cx="1210" cy="615" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02 USA: 90 samples</title>
-	<line x1="1200.7" y1="1180.0" x2="1201.0" y2="1171.2" style="stroke:cyan;stroke-width:0.8;stroke-opacity:50%;" />
+	<title>2021-01-01  C23604A  USA=10 [25.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1211" cy="570" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  G21600T  USA=9 [10.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1206.4" cy="1016.4" r="4.2" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-02 USA=112</title>
+	<line x1="1201" y1="1180" x2="1201" y2="1171" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-02  G22018T  USA=9 [10.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1209.7" cy="923.3" r="4.2" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-02  G21600T  USA=9 [8.0%]  surface glycoprotein, S13I</title>
+	<circle cx="1206" cy="1016" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  C22079A  USA=2 [2.2%]  surface glycoprotein, Q173K</title>
-	<circle cx="1210.1" cy="909.8" r="2.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-02  C21648T  USA=2 [1.8%]  surface glycoprotein, T29I</title>
+	<circle cx="1207" cy="1006" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  T22917G  USA=9 [10.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1216.6" cy="723.2" r="4.2" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-02  G22018T  USA=9 [8.0%]  surface glycoprotein, W152C</title>
+	<circle cx="1210" cy="923" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  A23064C  USA=4 [4.4%]  surface glycoprotein, N501T</title>
-	<circle cx="1217.8" cy="690.5" r="2.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-02  C22079A  USA=2 [1.8%]  surface glycoprotein, Q173K</title>
+	<circle cx="1210" cy="910" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  A23403G  USA=90 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1220.4" cy="615.1" r="8.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-02  T22917G  USA=10 [8.9%]  surface glycoprotein, L452R</title>
+	<circle cx="1216" cy="723" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  G23593T  USA=5 [5.6%]  surface glycoprotein, Q677H</title>
-	<circle cx="1221.9" cy="572.8" r="3.3" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-02  A23064C  USA=4 [3.6%]  surface glycoprotein, N501T</title>
+	<circle cx="1218" cy="691" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  C23604A  USA=7 [7.8%]  surface glycoprotein, P681H</title>
-	<circle cx="1222.0" cy="570.3" r="3.8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-02  C23277T  USA=2 [1.8%]  surface glycoprotein, T572I</title>
+	<circle cx="1219" cy="643" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  G24095T  USA=3 [3.3%]  surface glycoprotein, A845S</title>
-	<circle cx="1225.8" cy="461.0" r="2.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-02  A23403G  USA=112 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1220" cy="615" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  G24680T  USA=4 [4.4%]  surface glycoprotein, V1040F</title>
-	<circle cx="1230.4" cy="330.8" r="2.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-02  G23593T  USA=8 [7.1%]  surface glycoprotein, Q677H</title>
+	<circle cx="1222" cy="573" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  G25019T  USA=2 [2.2%]  surface glycoprotein, D1153Y</title>
-	<circle cx="1233.0" cy="255.4" r="2.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-02  C23604A  USA=8 [7.1%]  surface glycoprotein, P681H</title>
+	<circle cx="1222" cy="570" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03 USA: 61 samples</title>
-	<line x1="1201.0" y1="1180.0" x2="1201.5" y2="1172.0" style="stroke:cyan;stroke-width:0.8;stroke-opacity:50%;" />
+	<title>2021-01-02  G24095T  USA=3 [2.7%]  surface glycoprotein, A845S</title>
+	<circle cx="1225" cy="461" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  G21600T  USA=3 [4.9%]  surface glycoprotein, S13I</title>
-	<circle cx="1209.6" cy="1016.5" r="3.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-02  G24368A  USA=2 [1.8%]  surface glycoprotein, D936N</title>
+	<circle cx="1228" cy="400" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  C21621T  USA=3 [4.9%]  surface glycoprotein, T20I</title>
-	<circle cx="1209.9" cy="1011.8" r="3.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-02  G24680T  USA=4 [3.6%]  surface glycoprotein, V1040F</title>
+	<circle cx="1230" cy="331" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  C21648T  USA=4 [6.6%]  surface glycoprotein, T29I</title>
-	<circle cx="1210.2" cy="1005.8" r="3.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-02  G25019T  USA=2 [1.8%]  surface glycoprotein, D1153Y</title>
+	<circle cx="1232" cy="255" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  G22018T  USA=3 [4.9%]  surface glycoprotein, W152C</title>
-	<circle cx="1214.5" cy="923.5" r="3.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-02  A25065G  USA=2 [1.8%]  surface glycoprotein, D1168G</title>
+	<circle cx="1233" cy="245" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  C22079A  USA=2 [3.3%]  surface glycoprotein, Q173K</title>
-	<circle cx="1215.2" cy="910.0" r="2.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03 USA=78</title>
+	<line x1="1201" y1="1180" x2="1201" y2="1171" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-03  T22917G  USA=4 [6.6%]  surface glycoprotein, L452R</title>
-	<circle cx="1225.0" cy="723.6" r="3.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  G21600T  USA=3 [3.8%]  surface glycoprotein, S13I</title>
+	<circle cx="1209" cy="1017" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  G23120T  USA=2 [3.3%]  surface glycoprotein, A520S</title>
-	<circle cx="1227.3" cy="678.4" r="2.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  C21621T  USA=4 [5.1%]  surface glycoprotein, T20I</title>
+	<circle cx="1210" cy="1012" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  C23277T  USA=4 [6.6%]  surface glycoprotein, T572I</title>
-	<circle cx="1229.2" cy="643.5" r="3.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  C21648T  USA=4 [5.1%]  surface glycoprotein, T29I</title>
+	<circle cx="1210" cy="1006" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  A23403G  USA=61 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1230.6" cy="615.5" r="8.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  ATTA21993A  USA=3 [3.8%]  surface glycoprotein, Y145H</title>
+	<circle cx="1214" cy="929" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  G23593T  USA=7 [11.5%]  surface glycoprotein, Q677H</title>
-	<circle cx="1232.8" cy="573.2" r="4.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  G22018T  USA=3 [3.8%]  surface glycoprotein, W152C</title>
+	<circle cx="1214" cy="924" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  C23604A  USA=4 [6.6%]  surface glycoprotein, P681H</title>
-	<circle cx="1233.0" cy="570.8" r="3.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  C22079A  USA=2 [2.6%]  surface glycoprotein, Q173K</title>
+	<circle cx="1215" cy="910" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  G24368A  USA=4 [6.6%]  surface glycoprotein, D936N</title>
-	<circle cx="1241.9" cy="400.9" r="3.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  T22917G  USA=4 [5.1%]  surface glycoprotein, L452R</title>
+	<circle cx="1225" cy="724" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04 USA: 251 samples</title>
-	<line x1="1201.4" y1="1180.0" x2="1202.1" y2="1169.3" style="stroke:cyan;stroke-width:0.8;stroke-opacity:50%;" />
+	<title>2021-01-03  A23063T  USA=2 [2.6%]  surface glycoprotein, N501Y</title>
+	<circle cx="1226" cy="691" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C21575T  USA=8 [3.2%]  surface glycoprotein, L5F</title>
-	<circle cx="1212.4" cy="1022.3" r="2.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  A23064C  USA=2 [2.6%]  surface glycoprotein, N501T</title>
+	<circle cx="1226" cy="691" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G21600T  USA=8 [3.2%]  surface glycoprotein, S13I</title>
-	<circle cx="1212.8" cy="1016.7" r="2.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  G23120T  USA=2 [2.6%]  surface glycoprotein, A520S</title>
+	<circle cx="1227" cy="678" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C21638T  USA=3 [1.2%]  surface glycoprotein, P26S</title>
-	<circle cx="1213.4" cy="1008.3" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  C23271A  USA=2 [2.6%]  surface glycoprotein, A570D</title>
+	<circle cx="1229" cy="645" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C21762T  USA=2 [0.8%]  surface glycoprotein, A67V</title>
-	<circle cx="1215.3" cy="980.7" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  C23277T  USA=4 [5.1%]  surface glycoprotein, T572I</title>
+	<circle cx="1229" cy="644" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C21846A  USA=2 [0.8%]  surface glycoprotein, T95N</title>
-	<circle cx="1216.6" cy="962.1" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  A23403G  USA=78 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1230" cy="615" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G21986A  USA=3 [1.2%]  surface glycoprotein, G142S</title>
-	<circle cx="1218.8" cy="930.9" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  G23593T  USA=7 [9.0%]  surface glycoprotein, Q677H</title>
+	<circle cx="1232" cy="573" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  ATTA21993A  USA=2 [0.8%]  surface glycoprotein, Y145H</title>
-	<circle cx="1218.9" cy="929.4" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  C23604A  USA=8 [10.3%]  surface glycoprotein, P681H</title>
+	<circle cx="1233" cy="571" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G22018T  USA=8 [3.2%]  surface glycoprotein, W152C</title>
-	<circle cx="1219.3" cy="923.8" r="2.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  C23709T  USA=2 [2.6%]  surface glycoprotein, T716I</title>
+	<circle cx="1234" cy="547" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C22079A  USA=3 [1.2%]  surface glycoprotein, Q173K</title>
-	<circle cx="1220.3" cy="910.3" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  G24368A  USA=4 [5.1%]  surface glycoprotein, D936N</title>
+	<circle cx="1241" cy="401" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G22094A  USA=2 [0.8%]  surface glycoprotein, D178N</title>
-	<circle cx="1220.5" cy="907.0" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  T24506G  USA=2 [2.6%]  surface glycoprotein, S982A</title>
+	<circle cx="1243" cy="370" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  A22101T  USA=3 [1.2%]  surface glycoprotein, E180V</title>
-	<circle cx="1220.6" cy="905.4" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  G24914C  USA=2 [2.6%]  surface glycoprotein, D1118H</title>
+	<circle cx="1248" cy="279" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G22205T  USA=2 [0.8%]  surface glycoprotein, D215Y</title>
-	<circle cx="1222.2" cy="882.3" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-03  A25420C  USA=2 [2.6%]  ORF3a protein, I10L</title>
+	<circle cx="1253" cy="167" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C22227T  USA=2 [0.8%]  surface glycoprotein, A222V</title>
-	<circle cx="1222.6" cy="877.4" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04 USA=281</title>
+	<line x1="1201" y1="1180" x2="1202" y2="1169" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-04  G22661C  USA=2 [0.8%]  surface glycoprotein, V367L</title>
-	<circle cx="1229.3" cy="781.0" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  C21575T  USA=9 [3.2%]  surface glycoprotein, L5F</title>
+	<circle cx="1212" cy="1022" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G22817T  USA=2 [0.8%]  surface glycoprotein, A419S</title>
-	<circle cx="1231.7" cy="746.3" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G21600T  USA=8 [2.8%]  surface glycoprotein, S13I</title>
+	<circle cx="1213" cy="1017" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  T22917G  USA=8 [3.2%]  surface glycoprotein, L452R</title>
-	<circle cx="1233.3" cy="724.1" r="2.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  C21638T  USA=3 [1.1%]  surface glycoprotein, P26S</title>
+	<circle cx="1213" cy="1008" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  T23042C  USA=3 [1.2%]  surface glycoprotein, S494P</title>
-	<circle cx="1235.2" cy="696.3" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  C21648T  USA=3 [1.1%]  surface glycoprotein, T29I</title>
+	<circle cx="1213" cy="1006" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  A23063T  USA=2 [0.8%]  surface glycoprotein, N501Y</title>
-	<circle cx="1235.5" cy="691.7" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  C21762T  USA=2 [0.7%]  surface glycoprotein, A67V</title>
+	<circle cx="1215" cy="981" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  A23064C  USA=4 [1.6%]  surface glycoprotein, N501T</title>
-	<circle cx="1235.6" cy="691.4" r="1.7" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G21776A  USA=2 [0.7%]  surface glycoprotein, G72R</title>
+	<circle cx="1215" cy="978" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C23271A  USA=2 [0.8%]  surface glycoprotein, A570D</title>
-	<circle cx="1238.8" cy="645.5" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  C21846A  USA=2 [0.7%]  surface glycoprotein, T95N</title>
+	<circle cx="1216" cy="962" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  A23403G  USA=251 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1240.8" cy="616.1" r="8.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G21986A  USA=3 [1.1%]  surface glycoprotein, G142S</title>
+	<circle cx="1219" cy="931" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C23453T  USA=2 [0.8%]  surface glycoprotein, P631S</title>
-	<circle cx="1241.6" cy="605.0" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  ATTA21993A  USA=3 [1.1%]  surface glycoprotein, Y145H</title>
+	<circle cx="1219" cy="929" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G23587C  USA=3 [1.2%]  surface glycoprotein, Q675H</title>
-	<circle cx="1243.7" cy="575.2" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G22018T  USA=8 [2.8%]  surface glycoprotein, W152C</title>
+	<circle cx="1219" cy="924" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G23593T  USA=10 [4.0%]  surface glycoprotein, Q677H</title>
-	<circle cx="1243.8" cy="573.9" r="2.8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  C22079A  USA=3 [1.1%]  surface glycoprotein, Q173K</title>
+	<circle cx="1220" cy="910" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G23593C  USA=5 [2.0%]  surface glycoprotein, Q677H</title>
-	<circle cx="1243.8" cy="573.9" r="1.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G22094A  USA=3 [1.1%]  surface glycoprotein, D178N</title>
+	<circle cx="1220" cy="907" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C23604A  USA=12 [4.8%]  surface glycoprotein, P681H</title>
-	<circle cx="1244.0" cy="571.5" r="3.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  A22101T  USA=3 [1.1%]  surface glycoprotein, E180V</title>
+	<circle cx="1220" cy="905" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C23709T  USA=2 [0.8%]  surface glycoprotein, T716I</title>
-	<circle cx="1245.6" cy="548.1" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G22205T  USA=2 [0.7%]  surface glycoprotein, D215Y</title>
+	<circle cx="1222" cy="882" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  A23756G  USA=4 [1.6%]  surface glycoprotein, T732A</title>
-	<circle cx="1246.3" cy="537.7" r="1.7" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  C22227T  USA=2 [0.7%]  surface glycoprotein, A222V</title>
+	<circle cx="1222" cy="877" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C23802T  USA=2 [0.8%]  surface glycoprotein, T747I</title>
-	<circle cx="1247.0" cy="527.5" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G22661C  USA=2 [0.7%]  surface glycoprotein, V367L</title>
+	<circle cx="1229" cy="781" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G23868T  USA=3 [1.2%]  surface glycoprotein, G769V</title>
-	<circle cx="1248.1" cy="512.8" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G22817T  USA=2 [0.7%]  surface glycoprotein, A419S</title>
+	<circle cx="1231" cy="746" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G24087A  USA=2 [0.8%]  surface glycoprotein, G842D</title>
-	<circle cx="1251.5" cy="464.2" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  T22917G  USA=8 [2.8%]  surface glycoprotein, L452R</title>
+	<circle cx="1233" cy="724" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G24095T  USA=2 [0.8%]  surface glycoprotein, A845S</title>
-	<circle cx="1251.6" cy="462.4" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  T23042C  USA=3 [1.1%]  surface glycoprotein, S494P</title>
+	<circle cx="1235" cy="696" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C24138T  USA=3 [1.2%]  surface glycoprotein, T859I</title>
-	<circle cx="1252.2" cy="452.8" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  A23063T  USA=3 [1.1%]  surface glycoprotein, N501Y</title>
+	<circle cx="1235" cy="692" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  T24506G  USA=2 [0.8%]  surface glycoprotein, S982A</title>
-	<circle cx="1258.0" cy="371.1" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  A23064C  USA=5 [1.8%]  surface glycoprotein, N501T</title>
+	<circle cx="1235" cy="691" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G24914C  USA=2 [0.8%]  surface glycoprotein, D1118H</title>
-	<circle cx="1264.3" cy="280.4" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  C23271A  USA=3 [1.1%]  surface glycoprotein, A570D</title>
+	<circle cx="1238" cy="645" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  T24960C  USA=2 [0.8%]  surface glycoprotein, V1133A</title>
-	<circle cx="1265.0" cy="270.2" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  C23277T  USA=3 [1.1%]  surface glycoprotein, T572I</title>
+	<circle cx="1238" cy="644" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G25019T  USA=3 [1.2%]  surface glycoprotein, D1153Y</title>
-	<circle cx="1265.9" cy="257.1" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  A23403G  USA=280 [99.6%]  surface glycoprotein, D614G</title>
+	<circle cx="1240" cy="616" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G25049T  USA=2 [0.8%]  surface glycoprotein, D1163Y</title>
-	<circle cx="1266.4" cy="250.4" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  C23453T  USA=2 [0.7%]  surface glycoprotein, P631S</title>
+	<circle cx="1241" cy="605" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G25244T  USA=6 [2.4%]  surface glycoprotein, V1228L</title>
-	<circle cx="1269.4" cy="207.1" r="2.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G23587C  USA=3 [1.1%]  surface glycoprotein, Q675H</title>
+	<circle cx="1243" cy="575" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  A25420C  USA=2 [0.8%]  ORF3a protein, I10L</title>
-	<circle cx="1272.2" cy="168.0" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G23593T  USA=13 [4.6%]  surface glycoprotein, Q677H</title>
+	<circle cx="1243" cy="574" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G25440T  USA=2 [0.8%]  ORF3a protein, K16N</title>
-	<circle cx="1272.5" cy="163.6" r="1.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G23593C  USA=5 [1.8%]  surface glycoprotein, Q677H</title>
+	<circle cx="1243" cy="574" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05 USA: 121 samples</title>
-	<line x1="1201.7" y1="1180.1" x2="1202.6" y2="1170.7" style="stroke:cyan;stroke-width:0.8;stroke-opacity:50%;" />
+	<title>2021-01-04  C23604A  USA=16 [5.7%]  surface glycoprotein, P681H</title>
+	<circle cx="1243" cy="571" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  C21575T  USA=3 [2.5%]  surface glycoprotein, L5F</title>
-	<circle cx="1215.5" cy="1022.5" r="2.2" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  C23709T  USA=3 [1.1%]  surface glycoprotein, T716I</title>
+	<circle cx="1245" cy="548" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G21586T  USA=2 [1.7%]  surface glycoprotein, L8F</title>
-	<circle cx="1215.7" cy="1020.1" r="1.7" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  A23756G  USA=4 [1.4%]  surface glycoprotein, T732A</title>
+	<circle cx="1246" cy="538" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G21600T  USA=6 [5.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1216.0" cy="1017.0" r="3.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  C23802T  USA=2 [0.7%]  surface glycoprotein, T747I</title>
+	<circle cx="1246" cy="527" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G21776A  USA=2 [1.7%]  surface glycoprotein, G72R</title>
-	<circle cx="1219.4" cy="977.9" r="1.7" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G23868T  USA=3 [1.1%]  surface glycoprotein, G769V</title>
+	<circle cx="1247" cy="513" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G21986A  USA=3 [2.5%]  surface glycoprotein, G142S</title>
-	<circle cx="1223.5" cy="931.3" r="2.2" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G24087A  USA=2 [0.7%]  surface glycoprotein, G842D</title>
+	<circle cx="1251" cy="464" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G22018T  USA=6 [5.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1224.1" cy="924.2" r="3.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G24095T  USA=2 [0.7%]  surface glycoprotein, A845S</title>
+	<circle cx="1251" cy="462" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  C22079A  USA=2 [1.7%]  surface glycoprotein, Q173K</title>
-	<circle cx="1225.3" cy="910.7" r="1.7" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  C24138T  USA=3 [1.1%]  surface glycoprotein, T859I</title>
+	<circle cx="1252" cy="453" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  A22101T  USA=3 [2.5%]  surface glycoprotein, E180V</title>
-	<circle cx="1225.7" cy="905.8" r="2.2" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G24368A  USA=3 [1.1%]  surface glycoprotein, D936N</title>
+	<circle cx="1255" cy="402" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  C22323T  USA=2 [1.7%]  surface glycoprotein, S254F</title>
-	<circle cx="1230.0" cy="856.5" r="1.7" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  T24506G  USA=3 [1.1%]  surface glycoprotein, S982A</title>
+	<circle cx="1257" cy="371" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  T22917G  USA=6 [5.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1241.6" cy="724.8" r="3.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G24680T  USA=2 [0.7%]  surface glycoprotein, V1040F</title>
+	<circle cx="1260" cy="332" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G23012A  USA=3 [2.5%]  surface glycoprotein, E484K</title>
-	<circle cx="1243.4" cy="703.7" r="2.2" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G24914C  USA=3 [1.1%]  surface glycoprotein, D1118H</title>
+	<circle cx="1264" cy="280" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  A23064C  USA=2 [1.7%]  surface glycoprotein, N501T</title>
-	<circle cx="1244.4" cy="692.1" r="1.7" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  T24960C  USA=2 [0.7%]  surface glycoprotein, V1133A</title>
+	<circle cx="1264" cy="270" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  A23403G  USA=121 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1251.0" cy="616.9" r="8.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G25019T  USA=3 [1.1%]  surface glycoprotein, D1153Y</title>
+	<circle cx="1265" cy="257" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  C23481T  USA=2 [1.7%]  surface glycoprotein, S640F</title>
-	<circle cx="1252.5" cy="599.6" r="1.7" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G25049T  USA=2 [0.7%]  surface glycoprotein, D1163Y</title>
+	<circle cx="1266" cy="250" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G23593T  USA=12 [9.9%]  surface glycoprotein, Q677H</title>
-	<circle cx="1254.7" cy="574.8" r="4.2" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  A25065G  USA=3 [1.1%]  surface glycoprotein, D1168G</title>
+	<circle cx="1266" cy="247" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  C23604A  USA=7 [5.8%]  surface glycoprotein, P681H</title>
-	<circle cx="1254.9" cy="572.3" r="3.3" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G25244T  USA=7 [2.5%]  surface glycoprotein, V1228L</title>
+	<circle cx="1269" cy="207" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  C23604G  USA=3 [2.5%]  surface glycoprotein, P681R</title>
-	<circle cx="1254.9" cy="572.3" r="2.2" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  A25420C  USA=3 [1.1%]  ORF3a protein, I10L</title>
+	<circle cx="1271" cy="168" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G23868T  USA=3 [2.5%]  surface glycoprotein, G769V</title>
-	<circle cx="1260.0" cy="513.8" r="2.2" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-04  G25440T  USA=2 [0.7%]  ORF3a protein, K16N</title>
+	<circle cx="1272" cy="163" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G24095T  USA=2 [1.7%]  surface glycoprotein, A845S</title>
-	<circle cx="1264.4" cy="463.4" r="1.7" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05 USA=149</title>
+	<line x1="1202" y1="1180" x2="1203" y2="1170" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-05  C24809T  USA=2 [1.7%]  surface glycoprotein, H1083Y</title>
-	<circle cx="1278.3" cy="305.0" r="1.7" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  C21575T  USA=3 [2.0%]  surface glycoprotein, L5F</title>
+	<circle cx="1215" cy="1022" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  T24903C  USA=3 [2.5%]  surface glycoprotein, I1114T</title>
-	<circle cx="1280.1" cy="284.1" r="2.2" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  G21586T  USA=2 [1.3%]  surface glycoprotein, L8F</title>
+	<circle cx="1216" cy="1020" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G25049T  USA=2 [1.7%]  surface glycoprotein, D1163Y</title>
-	<circle cx="1283.0" cy="251.7" r="1.7" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  G21600T  USA=6 [4.0%]  surface glycoprotein, S13I</title>
+	<circle cx="1216" cy="1017" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G25244T  USA=2 [1.7%]  surface glycoprotein, V1228L</title>
-	<circle cx="1286.7" cy="208.5" r="1.7" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  C21648T  USA=2 [1.3%]  surface glycoprotein, T29I</title>
+	<circle cx="1217" cy="1006" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  A25448G  USA=2 [1.7%]  ORF3a protein, E19G</title>
-	<circle cx="1290.7" cy="163.2" r="1.7" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  G21776A  USA=4 [2.7%]  surface glycoprotein, G72R</title>
+	<circle cx="1219" cy="978" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06 USA: 163 samples</title>
-	<line x1="1202.1" y1="1180.1" x2="1203.1" y2="1170.2" style="stroke:cyan;stroke-width:0.8;stroke-opacity:50%;" />
+	<title>2021-01-05  C21846T  USA=2 [1.3%]  surface glycoprotein, T95I</title>
+	<circle cx="1220" cy="962" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  C21575T  USA=8 [4.9%]  surface glycoprotein, L5F</title>
-	<circle cx="1218.6" cy="1022.8" r="3.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  G21986A  USA=3 [2.0%]  surface glycoprotein, G142S</title>
+	<circle cx="1223" cy="931" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G21600T  USA=8 [4.9%]  surface glycoprotein, S13I</title>
-	<circle cx="1219.2" cy="1017.3" r="3.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  ATTA21993A  USA=2 [1.3%]  surface glycoprotein, Y145H</title>
+	<circle cx="1223" cy="930" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  C21621T  USA=3 [1.8%]  surface glycoprotein, T20I</title>
-	<circle cx="1219.7" cy="1012.6" r="1.8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  G22018T  USA=6 [4.0%]  surface glycoprotein, W152C</title>
+	<circle cx="1224" cy="924" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  C21648T  USA=3 [1.8%]  surface glycoprotein, T29I</title>
-	<circle cx="1220.3" cy="1006.6" r="1.8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  C22079A  USA=2 [1.3%]  surface glycoprotein, Q173K</title>
+	<circle cx="1225" cy="911" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G21974T  USA=2 [1.2%]  surface glycoprotein, D138Y</title>
-	<circle cx="1227.9" cy="934.4" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  A22101T  USA=3 [2.0%]  surface glycoprotein, E180V</title>
+	<circle cx="1225" cy="906" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  ATTA21993A  USA=2 [1.2%]  surface glycoprotein, Y145H</title>
-	<circle cx="1228.4" cy="930.2" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  C22323T  USA=2 [1.3%]  surface glycoprotein, S254F</title>
+	<circle cx="1230" cy="857" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G22018T  USA=8 [4.9%]  surface glycoprotein, W152C</title>
-	<circle cx="1228.9" cy="924.7" r="3.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  T22917G  USA=6 [4.0%]  surface glycoprotein, L452R</title>
+	<circle cx="1241" cy="725" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  C22088T  USA=2 [1.2%]  surface glycoprotein, L176F</title>
-	<circle cx="1230.6" cy="909.2" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  G23012A  USA=4 [2.7%]  surface glycoprotein, E484K</title>
+	<circle cx="1243" cy="704" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G22205C  USA=2 [1.2%]  surface glycoprotein, D215H</title>
-	<circle cx="1233.3" cy="883.3" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  A23064C  USA=4 [2.7%]  surface glycoprotein, N501T</title>
+	<circle cx="1244" cy="692" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  T22917G  USA=8 [4.9%]  surface glycoprotein, L452R</title>
-	<circle cx="1249.9" cy="725.6" r="3.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  C23277T  USA=2 [1.3%]  surface glycoprotein, T572I</title>
+	<circle cx="1248" cy="645" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  A23063T  USA=4 [2.5%]  surface glycoprotein, N501Y</title>
-	<circle cx="1253.3" cy="693.2" r="2.2" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  A23403G  USA=149 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1250" cy="617" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  A23064C  USA=5 [3.1%]  surface glycoprotein, N501T</title>
-	<circle cx="1253.3" cy="693.0" r="2.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  C23481T  USA=2 [1.3%]  surface glycoprotein, S640F</title>
+	<circle cx="1252" cy="600" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  C23271A  USA=2 [1.2%]  surface glycoprotein, A570D</title>
-	<circle cx="1258.1" cy="647.1" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  G23580C  USA=2 [1.3%]  surface glycoprotein, S673T</title>
+	<circle cx="1254" cy="578" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  C23277T  USA=3 [1.8%]  surface glycoprotein, T572I</title>
-	<circle cx="1258.2" cy="645.8" r="1.8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  G23593T  USA=14 [9.4%]  surface glycoprotein, Q677H</title>
+	<circle cx="1254" cy="575" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  A23403G  USA=162 [99.4%]  surface glycoprotein, D614G</title>
-	<circle cx="1261.2" cy="617.9" r="8.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  C23604A  USA=11 [7.4%]  surface glycoprotein, P681H</title>
+	<circle cx="1254" cy="572" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G23587C  USA=2 [1.2%]  surface glycoprotein, Q675H</title>
-	<circle cx="1265.5" cy="577.2" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  C23604G  USA=3 [2.0%]  surface glycoprotein, P681R</title>
+	<circle cx="1254" cy="572" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G23593T  USA=8 [4.9%]  surface glycoprotein, Q677H</title>
-	<circle cx="1265.6" cy="575.8" r="3.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  G23868T  USA=3 [2.0%]  surface glycoprotein, G769V</title>
+	<circle cx="1259" cy="514" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G23593C  USA=3 [1.8%]  surface glycoprotein, Q677H</title>
-	<circle cx="1265.6" cy="575.8" r="1.8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  G24095T  USA=2 [1.3%]  surface glycoprotein, A845S</title>
+	<circle cx="1264" cy="463" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  C23604A  USA=33 [20.2%]  surface glycoprotein, P681H</title>
-	<circle cx="1265.9" cy="573.4" r="5.3" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  G24368A  USA=2 [1.3%]  surface glycoprotein, D936N</title>
+	<circle cx="1269" cy="403" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  C23709T  USA=2 [1.2%]  surface glycoprotein, T716I</title>
-	<circle cx="1268.3" cy="550.1" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  C24809T  USA=2 [1.3%]  surface glycoprotein, H1083Y</title>
+	<circle cx="1277" cy="305" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  C24138T  USA=24 [14.7%]  surface glycoprotein, T859I</title>
-	<circle cx="1278.3" cy="455.1" r="4.8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  T24903C  USA=3 [2.0%]  surface glycoprotein, I1114T</title>
+	<circle cx="1279" cy="284" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G24368A  USA=3 [1.8%]  surface glycoprotein, D936N</title>
-	<circle cx="1283.6" cy="404.2" r="1.8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  G25049T  USA=2 [1.3%]  surface glycoprotein, D1163Y</title>
+	<circle cx="1282" cy="252" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  T24506G  USA=2 [1.2%]  surface glycoprotein, S982A</title>
-	<circle cx="1286.9" cy="373.6" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  A25065G  USA=3 [2.0%]  surface glycoprotein, D1168G</title>
+	<circle cx="1282" cy="248" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G24680T  USA=3 [1.8%]  surface glycoprotein, V1040F</title>
-	<circle cx="1290.9" cy="335.1" r="1.8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  G25244T  USA=2 [1.3%]  surface glycoprotein, V1228L</title>
+	<circle cx="1286" cy="208" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  A24774T  USA=3 [1.8%]  surface glycoprotein, Q1071L</title>
-	<circle cx="1293.1" cy="314.2" r="1.8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-05  A25448G  USA=2 [1.3%]  ORF3a protein, E19G</title>
+	<circle cx="1289" cy="163" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G24914C  USA=2 [1.2%]  surface glycoprotein, D1118H</title>
-	<circle cx="1296.4" cy="283.2" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06 USA=182</title>
+	<line x1="1202" y1="1180" x2="1203" y2="1170" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-06  A24956G  USA=24 [14.7%]  surface glycoprotein, I1132V</title>
-	<circle cx="1297.3" cy="273.9" r="4.8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  C21575T  USA=8 [4.4%]  surface glycoprotein, L5F</title>
+	<circle cx="1218" cy="1023" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G25088T  USA=2 [1.2%]  surface glycoprotein, V1176F</title>
-	<circle cx="1300.4" cy="244.7" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  G21600T  USA=8 [4.4%]  surface glycoprotein, S13I</title>
+	<circle cx="1219" cy="1017" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  T25268A  USA=2 [1.2%]  surface glycoprotein, C1236S</title>
-	<circle cx="1304.6" cy="204.8" r="1.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  C21621T  USA=3 [1.6%]  surface glycoprotein, T20I</title>
+	<circle cx="1219" cy="1013" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07 USA: 103 samples</title>
-	<line x1="1202.4" y1="1180.1" x2="1203.5" y2="1171.1" style="stroke:cyan;stroke-width:0.8;stroke-opacity:50%;" />
+	<title>2021-01-06  C21648T  USA=4 [2.2%]  surface glycoprotein, T29I</title>
+	<circle cx="1220" cy="1007" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  C21575T  USA=3 [2.9%]  surface glycoprotein, L5F</title>
-	<circle cx="1221.7" cy="1023.2" r="2.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  G21974T  USA=2 [1.1%]  surface glycoprotein, D138Y</title>
+	<circle cx="1228" cy="934" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  G21600T  USA=10 [9.7%]  surface glycoprotein, S13I</title>
-	<circle cx="1222.4" cy="1017.6" r="4.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  ATTA21993A  USA=2 [1.1%]  surface glycoprotein, Y145H</title>
+	<circle cx="1228" cy="930" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  C21621T  USA=3 [2.9%]  surface glycoprotein, T20I</title>
-	<circle cx="1223.0" cy="1013.0" r="2.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  G22018T  USA=8 [4.4%]  surface glycoprotein, W152C</title>
+	<circle cx="1229" cy="925" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  G21800T  USA=2 [1.9%]  surface glycoprotein, D80Y</title>
-	<circle cx="1227.8" cy="973.4" r="1.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  C22088T  USA=2 [1.1%]  surface glycoprotein, L176F</title>
+	<circle cx="1230" cy="909" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  C21846T  USA=2 [1.9%]  surface glycoprotein, T95I</title>
-	<circle cx="1229.1" cy="963.2" r="1.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  G22205C  USA=2 [1.1%]  surface glycoprotein, D215H</title>
+	<circle cx="1233" cy="883" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  ATTA21993A  USA=2 [1.9%]  surface glycoprotein, Y145H</title>
-	<circle cx="1233.1" cy="930.8" r="1.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  T22917G  USA=8 [4.4%]  surface glycoprotein, L452R</title>
+	<circle cx="1249" cy="725" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  G22018T  USA=10 [9.7%]  surface glycoprotein, W152C</title>
-	<circle cx="1233.7" cy="925.2" r="4.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  A23063T  USA=4 [2.2%]  surface glycoprotein, N501Y</title>
+	<circle cx="1253" cy="693" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  C22227T  USA=2 [1.9%]  surface glycoprotein, A222V</title>
-	<circle cx="1239.4" cy="879.0" r="1.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  A23064C  USA=8 [4.4%]  surface glycoprotein, N501T</title>
+	<circle cx="1253" cy="693" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  T22917G  USA=10 [9.7%]  surface glycoprotein, L452R</title>
-	<circle cx="1258.1" cy="726.5" r="4.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  C23271A  USA=2 [1.1%]  surface glycoprotein, A570D</title>
+	<circle cx="1257" cy="647" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  A23064C  USA=4 [3.9%]  surface glycoprotein, N501T</title>
-	<circle cx="1262.1" cy="694.0" r="2.8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  C23277T  USA=4 [2.2%]  surface glycoprotein, T572I</title>
+	<circle cx="1257" cy="646" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  G23120T  USA=2 [1.9%]  surface glycoprotein, A520S</title>
-	<circle cx="1263.6" cy="681.6" r="1.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  A23403G  USA=180 [98.9%]  surface glycoprotein, D614G</title>
+	<circle cx="1260" cy="618" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  C23277T  USA=2 [1.9%]  surface glycoprotein, T572I</title>
-	<circle cx="1267.9" cy="646.9" r="1.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  C23481T  USA=2 [1.1%]  surface glycoprotein, S640F</title>
+	<circle cx="1262" cy="601" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  A23403G  USA=102 [99.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1271.3" cy="619.1" r="8.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  G23587C  USA=3 [1.6%]  surface glycoprotein, Q675H</title>
+	<circle cx="1265" cy="577" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  G23593T  USA=5 [4.9%]  surface glycoprotein, Q677H</title>
-	<circle cx="1276.5" cy="577.1" r="3.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  G23593T  USA=9 [4.9%]  surface glycoprotein, Q677H</title>
+	<circle cx="1265" cy="576" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  C23604A  USA=3 [2.9%]  surface glycoprotein, P681H</title>
-	<circle cx="1276.8" cy="574.6" r="2.4" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  G23593C  USA=3 [1.6%]  surface glycoprotein, Q677H</title>
+	<circle cx="1265" cy="576" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  G24095T  USA=4 [3.9%]  surface glycoprotein, A845S</title>
-	<circle cx="1290.1" cy="466.1" r="2.8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  C23604A  USA=35 [19.2%]  surface glycoprotein, P681H</title>
+	<circle cx="1265" cy="573" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  C24138T  USA=2 [1.9%]  surface glycoprotein, T859I</title>
-	<circle cx="1291.3" cy="456.6" r="1.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  C23709T  USA=2 [1.1%]  surface glycoprotein, T716I</title>
+	<circle cx="1267" cy="550" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  G24368A  USA=2 [1.9%]  surface glycoprotein, D936N</title>
-	<circle cx="1297.5" cy="405.7" r="1.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  A23756G  USA=2 [1.1%]  surface glycoprotein, T732A</title>
+	<circle cx="1268" cy="540" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  C24378T  USA=2 [1.9%]  surface glycoprotein, S939F</title>
-	<circle cx="1297.8" cy="403.5" r="1.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  C24138T  USA=24 [13.2%]  surface glycoprotein, T859I</title>
+	<circle cx="1277" cy="455" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  C24912T  USA=2 [1.9%]  surface glycoprotein, T1117I</title>
-	<circle cx="1312.3" cy="285.5" r="1.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  G24368A  USA=4 [2.2%]  surface glycoprotein, D936N</title>
+	<circle cx="1283" cy="404" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  G25019T  USA=2 [1.9%]  surface glycoprotein, D1153Y</title>
-	<circle cx="1315.2" cy="261.8" r="1.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  T24506G  USA=2 [1.1%]  surface glycoprotein, S982A</title>
+	<circle cx="1286" cy="373" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08 USA: 87 samples</title>
-	<line x1="1202.8" y1="1180.2" x2="1204.0" y2="1171.5" style="stroke:cyan;stroke-width:0.8;stroke-opacity:50%;" />
+	<title>2021-01-06  G24680T  USA=3 [1.6%]  surface glycoprotein, V1040F</title>
+	<circle cx="1290" cy="335" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  C21575T  USA=2 [2.3%]  surface glycoprotein, L5F</title>
-	<circle cx="1224.8" cy="1023.6" r="2.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  A24774T  USA=3 [1.6%]  surface glycoprotein, Q1071L</title>
+	<circle cx="1292" cy="314" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  G21600T  USA=8 [9.2%]  surface glycoprotein, S13I</title>
-	<circle cx="1225.6" cy="1018.0" r="4.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  A24813G  USA=2 [1.1%]  surface glycoprotein, D1084G</title>
+	<circle cx="1293" cy="305" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  C21638T  USA=3 [3.4%]  surface glycoprotein, P26S</title>
-	<circle cx="1226.7" cy="1009.7" r="2.6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  G24914C  USA=2 [1.1%]  surface glycoprotein, D1118H</title>
+	<circle cx="1295" cy="283" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  G21974T  USA=2 [2.3%]  surface glycoprotein, D138Y</title>
-	<circle cx="1237.2" cy="935.6" r="2.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  A24956G  USA=24 [13.2%]  surface glycoprotein, I1132V</title>
+	<circle cx="1296" cy="274" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  G22018T  USA=8 [9.2%]  surface glycoprotein, W152C</title>
-	<circle cx="1238.5" cy="925.9" r="4.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  A25065G  USA=5 [2.7%]  surface glycoprotein, D1168G</title>
+	<circle cx="1299" cy="250" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  G22335T  USA=3 [3.4%]  surface glycoprotein, W258L</title>
-	<circle cx="1248.4" cy="855.9" r="2.6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  G25088T  USA=2 [1.1%]  surface glycoprotein, V1176F</title>
+	<circle cx="1299" cy="245" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  T22917G  USA=7 [8.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1266.4" cy="727.6" r="3.8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-06  T25268A  USA=2 [1.1%]  surface glycoprotein, C1236S</title>
+	<circle cx="1303" cy="205" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  A23403G  USA=87 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1281.5" cy="620.4" r="8.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07 USA=115</title>
+	<line x1="1202" y1="1180" x2="1204" y2="1171" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-08  A23592C  USA=4 [4.6%]  surface glycoprotein, Q677P</title>
-	<circle cx="1287.3" cy="578.7" r="3.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  C21575T  USA=3 [2.6%]  surface glycoprotein, L5F</title>
+	<circle cx="1221" cy="1023" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  C23604A  USA=6 [6.9%]  surface glycoprotein, P681H</title>
-	<circle cx="1287.7" cy="576.1" r="3.6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  G21600T  USA=10 [8.7%]  surface glycoprotein, S13I</title>
+	<circle cx="1222" cy="1018" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  G23868T  USA=2 [2.3%]  surface glycoprotein, G769V</title>
-	<circle cx="1295.9" cy="517.8" r="2.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  C21621T  USA=3 [2.6%]  surface glycoprotein, T20I</title>
+	<circle cx="1223" cy="1013" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-09 USA: 21 samples</title>
-	<line x1="1203.1" y1="1180.2" x2="1204.1" y2="1174.3" style="stroke:cyan;stroke-width:0.8;stroke-opacity:50%;" />
+	<title>2021-01-07  G21800T  USA=2 [1.7%]  surface glycoprotein, D80Y</title>
+	<circle cx="1227" cy="973" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-09  A23403G  USA=21 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1291.6" cy="621.9" r="8.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  C21846T  USA=3 [2.6%]  surface glycoprotein, T95I</title>
+	<circle cx="1229" cy="963" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-09  G23593T  USA=2 [9.5%]  surface glycoprotein, Q677H</title>
-	<circle cx="1298.2" cy="580.1" r="4.1" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  ATTA21993A  USA=2 [1.7%]  surface glycoprotein, Y145H</title>
+	<circle cx="1233" cy="931" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-10 USA: 5 samples</title>
-	<line x1="1203.5" y1="1180.3" x2="1204.1" y2="1176.9" style="stroke:cyan;stroke-width:0.8;stroke-opacity:50%;" />
+	<title>2021-01-07  G22018T  USA=10 [8.7%]  surface glycoprotein, W152C</title>
+	<circle cx="1233" cy="925" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-10  A23403G  USA=5 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1301.6" cy="623.6" r="8.0" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  C22227T  USA=2 [1.7%]  surface glycoprotein, A222V</title>
+	<circle cx="1239" cy="879" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11 USA: 24 samples</title>
-	<line x1="1203.8" y1="1180.4" x2="1205.0" y2="1174.2" style="stroke:cyan;stroke-width:0.8;stroke-opacity:50%;" />
+	<title>2021-01-07  T22917G  USA=10 [8.7%]  surface glycoprotein, L452R</title>
+	<circle cx="1257" cy="726" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  C21575T  USA=3 [12.5%]  surface glycoprotein, L5F</title>
-	<circle cx="1234.0" cy="1025.1" r="4.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  A23064C  USA=5 [4.3%]  surface glycoprotein, N501T</title>
+	<circle cx="1261" cy="694" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  G21600T  USA=3 [12.5%]  surface glycoprotein, S13I</title>
-	<circle cx="1235.1" cy="1019.6" r="4.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  G23120T  USA=2 [1.7%]  surface glycoprotein, A520S</title>
+	<circle cx="1263" cy="682" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  C21846T  USA=2 [8.3%]  surface glycoprotein, T95I</title>
-	<circle cx="1245.5" cy="965.9" r="3.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  C23277T  USA=2 [1.7%]  surface glycoprotein, T572I</title>
+	<circle cx="1267" cy="647" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  C21855T  USA=2 [8.3%]  surface glycoprotein, S98F</title>
-	<circle cx="1245.9" cy="963.9" r="3.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  A23403G  USA=114 [99.1%]  surface glycoprotein, D614G</title>
+	<circle cx="1270" cy="619" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  G22018T  USA=3 [12.5%]  surface glycoprotein, W152C</title>
-	<circle cx="1252.8" cy="928.2" r="4.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  G23593T  USA=5 [4.3%]  surface glycoprotein, Q677H</title>
+	<circle cx="1275" cy="577" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  A22320G  USA=2 [8.3%]  surface glycoprotein, D253G</title>
-	<circle cx="1265.7" cy="862.2" r="3.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  C23604A  USA=3 [2.6%]  surface glycoprotein, P681H</title>
+	<circle cx="1276" cy="574" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  T22917G  USA=3 [12.5%]  surface glycoprotein, L452R</title>
-	<circle cx="1291.0" cy="731.7" r="4.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  G24095T  USA=4 [3.5%]  surface glycoprotein, A845S</title>
+	<circle cx="1289" cy="466" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  G23012A  USA=2 [8.3%]  surface glycoprotein, E484K</title>
-	<circle cx="1295.1" cy="710.9" r="3.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  C24138T  USA=2 [1.7%]  surface glycoprotein, T859I</title>
+	<circle cx="1290" cy="456" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  A23064C  USA=3 [12.5%]  surface glycoprotein, N501T</title>
-	<circle cx="1297.3" cy="699.6" r="4.5" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  G24368A  USA=2 [1.7%]  surface glycoprotein, D936N</title>
+	<circle cx="1296" cy="406" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  A23403G  USA=23 [95.8%]  surface glycoprotein, D614G</title>
-	<circle cx="1311.7" cy="625.5" r="7.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  C24378T  USA=2 [1.7%]  surface glycoprotein, S939F</title>
+	<circle cx="1296" cy="403" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  C23481T  USA=2 [8.3%]  surface glycoprotein, S640F</title>
-	<circle cx="1315.0" cy="608.4" r="3.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  C24912T  USA=2 [1.7%]  surface glycoprotein, T1117I</title>
+	<circle cx="1311" cy="285" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  C23604A  USA=2 [8.3%]  surface glycoprotein, P681H</title>
-	<circle cx="1320.2" cy="581.5" r="3.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-07  G25019T  USA=2 [1.7%]  surface glycoprotein, D1153Y</title>
+	<circle cx="1314" cy="262" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  C23664T  USA=2 [8.3%]  surface glycoprotein, A701V</title>
-	<circle cx="1322.8" cy="568.4" r="3.9" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.25;"/>
+	<title>2021-01-08 USA=121</title>
+	<line x1="1203" y1="1180" x2="1204" y2="1171" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-08  C21575T  USA=2 [1.7%]  surface glycoprotein, L5F</title>
+	<circle cx="1224" cy="1024" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  G21600T  USA=8 [6.6%]  surface glycoprotein, S13I</title>
+	<circle cx="1225" cy="1018" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  C21621T  USA=2 [1.7%]  surface glycoprotein, T20I</title>
+	<circle cx="1226" cy="1013" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  C21627A  USA=4 [3.3%]  surface glycoprotein, T22N</title>
+	<circle cx="1226" cy="1012" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  C21638T  USA=3 [2.5%]  surface glycoprotein, P26S</title>
+	<circle cx="1226" cy="1010" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  G21776A  USA=2 [1.7%]  surface glycoprotein, G72R</title>
+	<circle cx="1231" cy="979" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  G21974T  USA=2 [1.7%]  surface glycoprotein, D138Y</title>
+	<circle cx="1237" cy="935" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  G22018T  USA=8 [6.6%]  surface glycoprotein, W152C</title>
+	<circle cx="1238" cy="926" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  G22154T  USA=3 [2.5%]  surface glycoprotein, D198Y</title>
+	<circle cx="1242" cy="896" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  G22335T  USA=3 [2.5%]  surface glycoprotein, W258L</title>
+	<circle cx="1248" cy="856" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  T22917G  USA=7 [5.8%]  surface glycoprotein, L452R</title>
+	<circle cx="1265" cy="727" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  A23403G  USA=121 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1280" cy="620" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  A23592C  USA=4 [3.3%]  surface glycoprotein, Q677P</title>
+	<circle cx="1286" cy="579" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  G23593T  USA=2 [1.7%]  surface glycoprotein, Q677H</title>
+	<circle cx="1286" cy="578" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  C23604A  USA=7 [5.8%]  surface glycoprotein, P681H</title>
+	<circle cx="1286" cy="576" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  G23868T  USA=2 [1.7%]  surface glycoprotein, G769V</title>
+	<circle cx="1295" cy="518" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  G25019T  USA=4 [3.3%]  surface glycoprotein, D1153Y</title>
+	<circle cx="1330" cy="264" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-09 USA=34</title>
+	<line x1="1203" y1="1180" x2="1204" y2="1173" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-09  C21575T  USA=2 [5.9%]  surface glycoprotein, L5F</title>
+	<circle cx="1228" cy="1024" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-09  A23403G  USA=34 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1290" cy="622" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-09  G23593T  USA=2 [5.9%]  surface glycoprotein, Q677H</title>
+	<circle cx="1297" cy="580" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-09  C23604A  USA=2 [5.9%]  surface glycoprotein, P681H</title>
+	<circle cx="1297" cy="577" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-10 USA=23</title>
+	<line x1="1203" y1="1180" x2="1204" y2="1174" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-10  G23012A  USA=2 [8.7%]  surface glycoprotein, E484K</title>
+	<circle cx="1285" cy="709" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-10  A23403G  USA=23 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1300" cy="623" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-10  C23604A  USA=4 [17.4%]  surface glycoprotein, P681H</title>
+	<circle cx="1308" cy="579" r="5" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-10  A25065G  USA=2 [8.7%]  surface glycoprotein, D1168G</title>
+	<circle cx="1364" cy="259" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11 USA=43</title>
+	<line x1="1204" y1="1180" x2="1205" y2="1173" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-11  C21575T  USA=3 [7.0%]  surface glycoprotein, L5F</title>
+	<circle cx="1234" cy="1025" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  G21600T  USA=3 [7.0%]  surface glycoprotein, S13I</title>
+	<circle cx="1235" cy="1020" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  C21846T  USA=3 [7.0%]  surface glycoprotein, T95I</title>
+	<circle cx="1245" cy="966" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  C21855T  USA=2 [4.7%]  surface glycoprotein, S98F</title>
+	<circle cx="1245" cy="964" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  G22018T  USA=3 [7.0%]  surface glycoprotein, W152C</title>
+	<circle cx="1252" cy="928" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  A22320G  USA=2 [4.7%]  surface glycoprotein, D253G</title>
+	<circle cx="1265" cy="862" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  T22917G  USA=3 [7.0%]  surface glycoprotein, L452R</title>
+	<circle cx="1290" cy="731" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  C22995A  USA=2 [4.7%]  surface glycoprotein, T478K</title>
+	<circle cx="1293" cy="714" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  G23012A  USA=2 [4.7%]  surface glycoprotein, E484K</title>
+	<circle cx="1294" cy="711" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  A23063T  USA=2 [4.7%]  surface glycoprotein, N501Y</title>
+	<circle cx="1296" cy="700" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  A23064C  USA=4 [9.3%]  surface glycoprotein, N501T</title>
+	<circle cx="1296" cy="699" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  A23403G  USA=42 [97.7%]  surface glycoprotein, D614G</title>
+	<circle cx="1310" cy="625" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  C23481T  USA=2 [4.7%]  surface glycoprotein, S640F</title>
+	<circle cx="1313" cy="608" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  G23593T  USA=4 [9.3%]  surface glycoprotein, Q677H</title>
+	<circle cx="1318" cy="584" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  C23604A  USA=8 [18.6%]  surface glycoprotein, P681H</title>
+	<circle cx="1319" cy="581" r="5" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  C23664T  USA=2 [4.7%]  surface glycoprotein, A701V</title>
+	<circle cx="1321" cy="568" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  A23756G  USA=2 [4.7%]  surface glycoprotein, T732A</title>
+	<circle cx="1325" cy="548" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-12 USA=32</title>
+	<line x1="1204" y1="1180" x2="1206" y2="1174" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-12  G22154T  USA=3 [9.4%]  surface glycoprotein, D198Y</title>
+	<circle cx="1263" cy="899" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-12  A23403G  USA=32 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1320" cy="627" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-12  A23756G  USA=2 [6.2%]  surface glycoprotein, T732A</title>
+	<circle cx="1336" cy="550" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-12  G25019T  USA=3 [9.4%]  surface glycoprotein, D1153Y</title>
+	<circle cx="1394" cy="275" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-13 USA=13</title>
+	<line x1="1204" y1="1180" x2="1206" y2="1175" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-13  A23403G  USA=13 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1330" cy="629" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-13  C23604A  USA=2 [15.4%]  surface glycoprotein, P681H</title>
+	<circle cx="1340" cy="586" r="5" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-14 USA=23</title>
+	<line x1="1205" y1="1181" x2="1206" y2="1175" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-14  G22317T  USA=2 [8.7%]  surface glycoprotein, G252V</title>
+	<circle cx="1282" cy="866" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-14  A23064C  USA=2 [8.7%]  surface glycoprotein, N501T</title>
+	<circle cx="1322" cy="705" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-14  A23403G  USA=23 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1340" cy="632" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-14  C24138T  USA=2 [8.7%]  surface glycoprotein, T859I</title>
+	<circle cx="1379" cy="473" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-15 USA=12</title>
+	<line x1="1205" y1="1181" x2="1206" y2="1176" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-15  G22154T  USA=2 [16.7%]  surface glycoprotein, D198Y</title>
+	<circle cx="1278" cy="903" r="5" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-15  A23403G  USA=12 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1349" cy="634" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-15  C23604A  USA=2 [16.7%]  surface glycoprotein, P681H</title>
+	<circle cx="1361" cy="591" r="5" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-15  G25019T  USA=2 [16.7%]  surface glycoprotein, D1153Y</title>
+	<circle cx="1441" cy="286" r="5" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-18 USA=3</title>
+	<line x1="1206" y1="1181" x2="1207" y2="1178" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-18  A23403G  USA=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1378" cy="643" r="8" style="fill:cyan;" class="cv" />
 </g>
 <rect x="1865" y="140" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="170" fill="white">Data from 1 countries in North America</text>
 <text font-size="1.8em" x="1880" y="200" fill="white">Genomes/year≥10  Genomes/day≥2</text>
-<text font-size="1.8em" x="1880" y="230" fill="white">73 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-01-21</text>
+<text font-size="1.8em" x="1880" y="230" fill="white">80 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-01-23</text>
 </svg>
