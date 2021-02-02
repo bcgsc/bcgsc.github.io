@@ -20,7 +20,7 @@
 <circle cx="1200" cy="1200" r="173" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="161" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 mutations 2021 timemap</text>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 39 GISAID genomes</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 55 GISAID genomes</text>
 <line x1="1200" y1="83.1314031180401" x2="1200" y2="133.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="73.1314031180401" fill="white">Winter</text>
 <line x1="2267" y1="1200" x2="2317" y2="1200" style="stroke:white;stroke-width:4" />
@@ -53,8 +53,7 @@
 <circle cx="101" cy="320" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <circle cx="142" cy="320" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <circle cx="183" cy="320" r="12" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="224" cy="320" r="16" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="2.0em" x="50" y="365" fill="white">2      10        100        1k        10k</text>
+<text font-size="2.0em" x="50" y="365" fill="white">2      10        100        1k</text>
 <text font-size="2.0em" x="50" y="395" fill="white">genome samples</text>
 <g>
 	<title>2021-01-02 Brazil=2</title>
@@ -137,24 +136,40 @@
 	<circle cx="1311" cy="285" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08 Brazil=2</title>
-	<line x1="1202.7" y1="1180.2" x2="1203.0" y2="1178.1" style="stroke:cyan;" class="sb" />
+	<title>2021-01-08 Brazil=3</title>
+	<line x1="1202.7" y1="1180.2" x2="1203.1" y2="1177.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2021-01-08 Guyane Francaise=2</title>
-	<line x1="1203.0" y1="1178.1" x2="1203.3" y2="1175.9" style="stroke:white;" class="sb" />
+	<line x1="1203.1" y1="1177.5" x2="1203.4" y2="1175.4" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-08  G22992A  Guyane Francaise=2 [100.0%]  surface glycoprotein, S477N</title>
 	<circle cx="1268" cy="711" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  A23403G  Guyane Francaise=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-01-08  A23063T  Brazil=2 [66.7%]  surface glycoprotein, N501Y</title>
+	<circle cx="1270" cy="695" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  A23403G  Brazil=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1280" cy="620" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  A23403G  Brazil=3 [100.0%] Guyane Francaise=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1280" cy="620" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  A23403G  Guyane Francaise=2 [100.0%] Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1280" cy="620" r="1" style="fill:cyan;" class="cv" />
+	<title>2021-01-10 Brazil=2</title>
+	<line x1="1203.4" y1="1180.3" x2="1203.8" y2="1178.2" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-10  A23403G  Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1300" cy="623" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-10  G25088T  Brazil=2 [100.0%]  surface glycoprotein, V1176F</title>
+	<circle cx="1364" cy="254" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-13 Brazil=2</title>
@@ -169,52 +184,176 @@
 	<circle cx="1413" cy="263" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-15 Brazil=3</title>
-	<line x1="1205.1" y1="1180.7" x2="1205.8" y2="1178.0" style="stroke:cyan;" class="sb" />
+	<title>2021-01-15 Brazil=5</title>
+	<line x1="1205.1" y1="1180.7" x2="1206.0" y2="1177.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2021-01-15 Ecuador=9</title>
-	<line x1="1205.8" y1="1178.0" x2="1206.9" y2="1173.7" style="stroke:fuchsia;" class="sb" />
+	<line x1="1206.0" y1="1177.3" x2="1207.1" y2="1172.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2021-01-15  G21974T  Brazil=2 [66.7%]  surface glycoprotein, D138Y</title>
-	<circle cx="1268" cy="942" r="1" style="fill:cyan;" class="cv" />
+	<title>2021-01-15  G21974T  Brazil=4 [80.0%]  surface glycoprotein, D138Y</title>
+	<circle cx="1268" cy="942" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-15  G22132T  Brazil=2 [66.7%]  surface glycoprotein, R190S</title>
-	<circle cx="1277" cy="908" r="1" style="fill:cyan;" class="cv" />
+	<title>2021-01-15  G22132T  Brazil=4 [80.0%]  surface glycoprotein, R190S</title>
+	<circle cx="1277" cy="908" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-15  G23012A  Brazil=3 [100.0%]  surface glycoprotein, E484K</title>
-	<circle cx="1327" cy="718" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-01-15  A22812C  Brazil=4 [80.0%]  surface glycoprotein, K417T</title>
+	<circle cx="1316" cy="761" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-15  A23063T  Brazil=2 [66.7%]  surface glycoprotein, N501Y</title>
-	<circle cx="1330" cy="707" r="1" style="fill:cyan;" class="cv" />
+	<title>2021-01-15  G23012A  Brazil=5 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1327" cy="718" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-15  A23063T  Brazil=4 [80.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1330" cy="707" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-15  A23403G  Ecuador=9 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1349" cy="634" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-15  A23403G  Ecuador=9 [100.0%] Brazil=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1349" cy="634" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-01-15  A23403G  Ecuador=9 [100.0%] Brazil=5 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1349" cy="634" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-15  C23525T  Brazil=2 [66.7%]  surface glycoprotein, H655Y</title>
-	<circle cx="1356" cy="608" r="1" style="fill:cyan;" class="cv" />
+	<title>2021-01-15  C23525T  Brazil=4 [80.0%]  surface glycoprotein, H655Y</title>
+	<circle cx="1356" cy="608" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-15  C24642T  Brazil=2 [66.7%]  surface glycoprotein, T1027I</title>
-	<circle cx="1420" cy="367" r="1" style="fill:cyan;" class="cv" />
+	<title>2021-01-15  C24642T  Brazil=4 [80.0%]  surface glycoprotein, T1027I</title>
+	<circle cx="1420" cy="367" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-15  G25088T  Brazil=3 [100.0%]  surface glycoprotein, V1176F</title>
-	<circle cx="1445" cy="271" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-01-15  G25088T  Brazil=5 [100.0%]  surface glycoprotein, V1176F</title>
+	<circle cx="1445" cy="271" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-18 Brazil=2</title>
+	<line x1="1206.1" y1="1181.0" x2="1206.8" y2="1178.9" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-18  G23012A  Brazil=2 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1352" cy="725" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-18  A23403G  Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1378" cy="643" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-18  G25088T  Brazil=2 [100.0%]  surface glycoprotein, V1176F</title>
+	<circle cx="1493" cy="285" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19 Brazil=7</title>
+	<line x1="1206.4" y1="1181.1" x2="1207.7" y2="1177.2" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-19  G21974T  Brazil=4 [57.1%]  surface glycoprotein, D138Y</title>
+	<circle cx="1286" cy="947" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  ATTA21993A  Brazil=2 [28.6%]  surface glycoprotein, Y145H</title>
+	<circle cx="1287" cy="943" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  G22132T  Brazil=4 [57.1%]  surface glycoprotein, R190S</title>
+	<circle cx="1297" cy="914" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  A22812C  Brazil=4 [57.1%]  surface glycoprotein, K417T</title>
+	<circle cx="1346" cy="770" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  G23012A  Brazil=5 [71.4%]  surface glycoprotein, E484K</title>
+	<circle cx="1360" cy="728" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  A23063T  Brazil=6 [85.7%]  surface glycoprotein, N501Y</title>
+	<circle cx="1364" cy="717" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  C23271A  Brazil=2 [28.6%]  surface glycoprotein, A570D</title>
+	<circle cx="1379" cy="674" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  A23403G  Brazil=7 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1388" cy="646" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  C23525T  Brazil=4 [57.1%]  surface glycoprotein, H655Y</title>
+	<circle cx="1397" cy="620" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  C23604A  Brazil=2 [28.6%]  surface glycoprotein, P681H</title>
+	<circle cx="1402" cy="603" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  C23709T  Brazil=2 [28.6%]  surface glycoprotein, T716I</title>
+	<circle cx="1410" cy="581" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  T24506G  Brazil=2 [28.6%]  surface glycoprotein, S982A</title>
+	<circle cx="1467" cy="413" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  C24642T  Brazil=4 [57.1%]  surface glycoprotein, T1027I</title>
+	<circle cx="1477" cy="384" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  G24914C  Brazil=2 [28.6%]  surface glycoprotein, D1118H</title>
+	<circle cx="1496" cy="327" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  G25088T  Brazil=5 [71.4%]  surface glycoprotein, V1176F</title>
+	<circle cx="1509" cy="290" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22 Brazil=3</title>
+	<line x1="1207.4" y1="1181.4" x2="1208.4" y2="1178.9" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-22  G21974T  Brazil=2 [66.7%]  surface glycoprotein, D138Y</title>
+	<circle cx="1299" cy="952" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  G22132T  Brazil=2 [66.7%]  surface glycoprotein, R190S</title>
+	<circle cx="1312" cy="919" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  A22812C  Brazil=2 [66.7%]  surface glycoprotein, K417T</title>
+	<circle cx="1368" cy="778" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  G23012A  Brazil=2 [66.7%]  surface glycoprotein, E484K</title>
+	<circle cx="1384" cy="737" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  A23063T  Brazil=3 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1388" cy="727" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  A23403G  Brazil=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1416" cy="656" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  C23525T  Brazil=2 [66.7%]  surface glycoprotein, H655Y</title>
+	<circle cx="1426" cy="631" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  C24642T  Brazil=2 [66.7%]  surface glycoprotein, T1027I</title>
+	<circle cx="1518" cy="400" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  G25088T  Brazil=2 [66.7%]  surface glycoprotein, V1176F</title>
+	<circle cx="1555" cy="307" r="1" style="fill:cyan;" class="cv" />
 </g>
 <rect x="1865" y="140" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="170" fill="white">Data from 3 regions in South America</text>
 <text font-size="1.8em" x="1880" y="200" fill="white">Genomes/year≥10  Genomes/day≥2</text>
-<text font-size="1.8em" x="1880" y="230" fill="white">16 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-01-29</text>
+<text font-size="1.8em" x="1880" y="230" fill="white">17 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-01</text>
 </svg>
