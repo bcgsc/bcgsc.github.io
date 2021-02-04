@@ -11,6 +11,15 @@
 	stroke: none;
 	fill-opacity:0.15;
 	}
+	a:link, a:visited {
+	cursor: pointer;
+	}
+	a:hover, a:active {
+	outline: dotted 2px yellow;
+	}
+	g:hover, g:active {
+	outline: dotted 2px yellow;
+	}
 	]]></style>
 </defs>
 <circle cx="1200" cy="1200" r="1045" style="fill:gainsboro;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
@@ -33,7 +42,10 @@
 <circle cx="1200" cy="1200" r="795" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <circle cx="1200" cy="1200" r="795" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="140" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
+<a href="https://bcgsc.github.io/SARS2_2021">
+<title>main menu</title>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 mutations 2021 timemap</text>
+</a>
 <text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 27,351 GISAID genomes</text>
 <line x1="1200" y1="82.9384615384615" x2="1200" y2="132.938461538462" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="72.9384615384615" fill="white">Winter</text>
@@ -43,27 +55,47 @@
 <text font-size="3.0em" x="1045" y="2352" fill="white">Summer</text>
 <line x1="133" y1="1200" x2="73" y2="1200" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="59" y="1185" fill="white">Fall</text>
-<g>	<title>orf1ab gene (266-21555)</title>
+<g>
+	<title>orf1ab gene (266-21555)</title>
 	<line x1="1208" y1="1060" x2="1208" y2="405" style="stroke:grey;stroke-width:8" />
-</g><g>	<title>S gene (21563-25384)</title>
+</g>
+<g>
+	<title>S gene (21563-25384)</title>
 	<line x1="1208" y1="405" x2="1208" y2="287" style="stroke:gainsboro;stroke-width:8" />
-</g><g>	<title>ORF3a gene (25393-26220)</title>
+</g>
+<g>
+	<title>ORF3a gene (25393-26220)</title>
 	<line x1="1208" y1="287" x2="1208" y2="261" style="stroke:grey;stroke-width:8" />
-</g><g>	<title>E gene (26245-26472)</title>
+</g>
+<g>
+	<title>E gene (26245-26472)</title>
 	<line x1="1208" y1="261" x2="1208" y2="254" style="stroke:gainsboro;stroke-width:8" />
-</g><g>	<title>M gene (26523-27191)</title>
+</g>
+<g>
+	<title>M gene (26523-27191)</title>
 	<line x1="1208" y1="252" x2="1208" y2="232" style="stroke:grey;stroke-width:8" />
-</g><g>	<title>ORF6 gene (27202-27387)</title>
+</g>
+<g>
+	<title>ORF6 gene (27202-27387)</title>
 	<line x1="1208" y1="231" x2="1208" y2="226" style="stroke:gainsboro;stroke-width:8" />
-</g><g>	<title>ORF7a gene (27394-27759)</title>
+</g>
+<g>
+	<title>ORF7a gene (27394-27759)</title>
 	<line x1="1208" y1="225" x2="1208" y2="214" style="stroke:grey;stroke-width:8" />
-</g><g>	<title>ORF8 gene (27894-28259)</title>
+</g>
+<g>
+	<title>ORF8 gene (27894-28259)</title>
 	<line x1="1208" y1="210" x2="1208" y2="199" style="stroke:gainsboro;stroke-width:8" />
-</g><g>	<title>N gene (28274-29533)</title>
+</g>
+<g>
+	<title>N gene (28274-29533)</title>
 	<line x1="1208" y1="198" x2="1208" y2="160" style="stroke:grey;stroke-width:8" />
-</g><g>	<title>ORF10 gene (29558-29674)</title>
+</g>
+<g>
+	<title>ORF10 gene (29558-29674)</title>
 	<line x1="1208" y1="159" x2="1208" y2="155" style="stroke:gainsboro;stroke-width:8" />
-</g><line x1="1200" y1="147.938461538462" x2="1200" y2="1068" style="stroke:white;stroke-width:3" />
+</g>
+<line x1="1200" y1="147.938461538462" x2="1200" y2="1068" style="stroke:white;stroke-width:3" />
 <line x1="1204" y1="147.938461538462" x2="1210" y2="147.938461538462" style="stroke:white;stroke-width:2" />
 <line x1="1210" y1="147.938461538462" x2="1215" y2="122.938461538462" style="stroke:white;stroke-width:2" />
 <line x1="1204" y1="1068" x2="1210" y2="1068" style="stroke:white;stroke-width:2" />
@@ -5381,7 +5413,7 @@
 	<circle cx="1234" cy="710" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G11683T  Europe=8 [0.3%]  orf1ab polyprotein, silent</title>
+	<title>2021-01-04  G11683T  Europe=8 [0.3%] </title>
 	<circle cx="1234" cy="709" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -6733,7 +6765,7 @@
 	<circle cx="1257" cy="379" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C22597A  Europe=7 [0.2%]  surface glycoprotein, silent</title>
+	<title>2021-01-04  C22597A  Europe=7 [0.2%] </title>
 	<circle cx="1257" cy="374" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -7017,7 +7049,7 @@
 	<circle cx="1261" cy="323" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  T24326C  Europe=5 [0.2%]  surface glycoprotein, silent</title>
+	<title>2021-01-04  T24326C  Europe=5 [0.2%] </title>
 	<circle cx="1261" cy="321" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -8109,7 +8141,7 @@
 	<circle cx="1270" cy="185" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  A28815G  Europe=5 [0.2%]  nucleocapsid phosphoprotein, Q181R</title>
+	<title>2021-01-04  A28815G  Europe=5 [0.2%] </title>
 	<circle cx="1270" cy="184" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -9105,7 +9137,7 @@
 	<circle cx="1235" cy="790" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  T9183C  Asia=7 [29.2%]  orf1ab polyprotein, V2973A</title>
+	<title>2021-01-05  T9183C  Asia=7 [29.2%] </title>
 	<circle cx="1236" cy="787" r="6" style="fill:white;" class="cv" />
 </g>
 <g>
@@ -22445,7 +22477,7 @@
 	<circle cx="1364" cy="343" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  T24097A  Europe=5 [0.1%]  surface glycoprotein, silent</title>
+	<title>2021-01-11  T24097A  Europe=5 [0.1%] </title>
 	<circle cx="1364" cy="342" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -23485,7 +23517,7 @@
 	<circle cx="1388" cy="220" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  G28166C  Europe=5 [0.1%]  ORF8 protein, Q91H</title>
+	<title>2021-01-11  G28166C  Europe=5 [0.1%] </title>
 	<circle cx="1388" cy="219" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -24309,7 +24341,7 @@
 	<circle cx="1245" cy="985" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-12  T2926C  Europe=8 [0.5%]  orf1ab polyprotein, silent</title>
+	<title>2021-01-12  T2926C  Europe=8 [0.5%] </title>
 	<circle cx="1246" cy="982" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -25089,7 +25121,7 @@
 	<circle cx="1312" cy="663" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-12  A13587G  Europe=8 [0.5%]  orf1ab polyprotein, silent</title>
+	<title>2021-01-12  A13587G  Europe=8 [0.5%] </title>
 	<circle cx="1313" cy="661" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -25449,7 +25481,7 @@
 	<circle cx="1348" cy="493" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-12  A19291T  Europe=5 [0.3%]  orf1ab polyprotein, S6343C</title>
+	<title>2021-01-12  A19291T  Europe=5 [0.3%] </title>
 	<circle cx="1349" cy="490" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -26857,7 +26889,7 @@
 	<circle cx="1245" cy="1003" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-13  T2277C  Europe=5 [0.6%]  orf1ab polyprotein, I671T</title>
+	<title>2021-01-13  T2277C  Europe=5 [0.6%] </title>
 	<circle cx="1245" cy="1003" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -33173,7 +33205,7 @@
 	<circle cx="1279" cy="939" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-17  A4707G  Europe=6 [0.6%]  orf1ab polyprotein, D1481G</title>
+	<title>2021-01-17  A4707G  Europe=6 [0.6%] </title>
 	<circle cx="1280" cy="935" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -34269,7 +34301,7 @@
 	<circle cx="1267" cy="991" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  T2992G  Europe=6 [0.5%]  orf1ab polyprotein, D909E</title>
+	<title>2021-01-18  T2992G  Europe=6 [0.5%] </title>
 	<circle cx="1268" cy="986" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -34377,7 +34409,7 @@
 	<circle cx="1281" cy="947" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  T4435A  Europe=5 [0.4%]  orf1ab polyprotein, silent</title>
+	<title>2021-01-18  T4435A  Europe=5 [0.4%] </title>
 	<circle cx="1282" cy="944" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -34641,7 +34673,7 @@
 	<circle cx="1330" cy="795" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  T9530G  Europe=6 [0.5%]  orf1ab polyprotein, F3089V</title>
+	<title>2021-01-18  T9530G  Europe=6 [0.5%] </title>
 	<circle cx="1330" cy="795" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -36097,7 +36129,7 @@
 	<circle cx="1256" cy="1034" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19  T1496C  North America=6 [9.7%]  orf1ab polyprotein, F411L</title>
+	<title>2021-01-19  T1496C  North America=6 [9.7%] </title>
 	<circle cx="1257" cy="1031" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -36901,7 +36933,7 @@
 	<circle cx="1496" cy="328" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19  C25642G  North America=7 [11.3%]  ORF3a protein, L84V</title>
+	<title>2021-01-19  C25642G  North America=7 [11.3%] </title>
 	<circle cx="1496" cy="328" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -38754,7 +38786,7 @@
 </g>
 <rect x="1865" y="140" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="170" fill="white">Data from 6 continents</text>
-<text font-size="1.8em" x="1880" y="200" fill="white">Genomes/year≥5  Genomes/day≥5</text>
+<text font-size="1.8em" x="1880" y="200" fill="white">Genomes/year≥10  Genomes/day≥5</text>
 <text font-size="1.8em" x="1880" y="230" fill="white">2,096 total distinct variants mapped</text>
-<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-01</text>
+<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-03</text>
 </svg>

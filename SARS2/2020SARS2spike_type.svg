@@ -11,6 +11,15 @@
 	stroke: none;
 	fill-opacity:0.25;
 	}
+	a:link, a:visited {
+	cursor: pointer;
+	}
+	a:hover, a:active {
+	outline: dotted 2px yellow;
+	}
+	g:hover, g:active {
+	outline: dotted 2px yellow;
+	}
 	]]></style>
 </defs>
 <circle cx="1200" cy="1200" r="1046" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
@@ -19,7 +28,10 @@
 <circle cx="1200" cy="1200" r="169" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <circle cx="1200" cy="1200" r="168" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="155" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
+<a href="https://bcgsc.github.io/SARS2/">
+<title>main menu</title>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 mutations 2020 timemap</text>
+</a>
 <text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 275,616 GISAID genomes</text>
 <line x1="1200" y1="89.1314031180401" x2="1200" y2="139.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="79.1314031180401" fill="white">Winter</text>
@@ -29,13 +41,19 @@
 <text font-size="3.0em" x="1045" y="2346" fill="white">Summer</text>
 <line x1="139" y1="1200" x2="79" y2="1200" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="65" y="1185" fill="white">Fall</text>
-<g>	<title>orf1ab gene (21500-21555)</title>
+<g>
+	<title>orf1ab gene (21500-21555)</title>
 	<line x1="1208" y1="1045" x2="1208" y2="1032" style="stroke:grey;stroke-width:8" />
-</g><g>	<title>S gene (21563-25384)</title>
+</g>
+<g>
+	<title>S gene (21563-25384)</title>
 	<line x1="1208" y1="1031" x2="1208" y2="180" style="stroke:gainsboro;stroke-width:8" />
-</g><g>	<title>ORF3a gene (25393-25500)</title>
+</g>
+<g>
+	<title>ORF3a gene (25393-25500)</title>
 	<line x1="1208" y1="178" x2="1208" y2="154" style="stroke:grey;stroke-width:8" />
-</g><line x1="1200" y1="154.13140311804" x2="1200" y2="1045" style="stroke:white;stroke-width:3" />
+</g>
+<line x1="1200" y1="154.13140311804" x2="1200" y2="1045" style="stroke:white;stroke-width:3" />
 <line x1="1204" y1="154.13140311804" x2="1210" y2="154.13140311804" style="stroke:white;stroke-width:2" />
 <line x1="1210" y1="154.13140311804" x2="1215" y2="129.13140311804" style="stroke:white;stroke-width:2" />
 <line x1="1204" y1="1045" x2="1210" y2="1045" style="stroke:white;stroke-width:2" />
@@ -3998,7 +4016,7 @@
 	<circle cx="1382" cy="1297" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-04-29  C22000G  missense=5 [0.6%]  surface glycoprotein, H146Q</title>
+	<title>2020-04-29  C22000G  missense=5 [0.6%]  , </title>
 	<circle cx="1436" cy="1326" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -4994,7 +5012,7 @@
 	<circle cx="1703" cy="1682" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-05-15  G24074A  missense=5 [0.7%]  surface glycoprotein, G838S</title>
+	<title>2020-05-15  G24074A  missense=5 [0.7%]  , </title>
 	<circle cx="1727" cy="1704" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -8018,8 +8036,8 @@
 	<circle cx="1200" cy="1402" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-07-01  T21967C  silent=5 [0.6%]  surface glycoprotein, silent</title>
-	<circle cx="1200" cy="1460" r="3" style="fill:cyan;" class="cv" />
+	<title>2020-07-01  T21967C  missense=5 [0.6%]  , </title>
+	<circle cx="1200" cy="1460" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-07-01  T22162C  silent=11 [1.4%]  surface glycoprotein, silent</title>
@@ -9370,7 +9388,7 @@
 	<circle cx="1130" cy="1433" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-07-18  A22055C  missense=6 [1.0%]  surface glycoprotein, N165H</title>
+	<title>2020-07-18  A22055C  missense=6 [1.0%]  , </title>
 	<circle cx="1120" cy="1468" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -14110,7 +14128,7 @@
 	<circle cx="876" cy="1387" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-08-31  A22600T  missense=5 [0.3%]  surface glycoprotein, R346S</title>
+	<title>2020-08-31  A22600T  missense=5 [0.3%]  , </title>
 	<circle cx="853" cy="1400" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -16226,7 +16244,7 @@
 	<circle cx="253" cy="1476" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-09-14  AATT25419A  missense=6 [0.5%]  ORF3a protein, I10G</title>
+	<title>2020-09-14  AATT25419A  missense=6 [0.5%]  , </title>
 	<circle cx="212" cy="1488" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -16362,7 +16380,7 @@
 	<circle cx="534" cy="1382" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-09-15  A24019C  missense=5 [0.8%]  surface glycoprotein, E819D</title>
+	<title>2020-09-15  A24019C  missense=5 [0.8%]  , </title>
 	<circle cx="508" cy="1389" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -16370,7 +16388,7 @@
 	<circle cx="496" cy="1392" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-09-15  A24209G  missense=5 [0.8%]  surface glycoprotein, T883A</title>
+	<title>2020-09-15  A24209G  missense=5 [0.8%]  , </title>
 	<circle cx="467" cy="1400" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -27106,7 +27124,7 @@
 	<circle cx="781" cy="928" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-11-03  C23057T  missense=5 [0.4%]  surface glycoprotein, P499S</title>
+	<title>2020-11-03  C23057T  missense=5 [0.4%]  , </title>
 	<circle cx="778" cy="927" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -33026,8 +33044,8 @@
 	<circle cx="800" cy="677" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-11-23  T23776C  silent=5 [0.2%]  surface glycoprotein, silent</title>
-	<circle cx="798" cy="673" r="3" style="fill:cyan;" class="cv" />
+	<title>2020-11-23  T23776C  missense=5 [0.2%]  , </title>
+	<circle cx="798" cy="673" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-11-23  C23854T  silent=5 [0.2%]  surface glycoprotein, silent</title>
@@ -34078,8 +34096,8 @@
 	<circle cx="945" cy="814" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-11-27  T22891C  silent=5 [0.5%]  surface glycoprotein, silent</title>
-	<circle cx="943" cy="811" r="3" style="fill:cyan;" class="cv" />
+	<title>2020-11-27  T22891C  missense=5 [0.5%]  , </title>
+	<circle cx="943" cy="811" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-11-27  T22917G  missense=7 [0.7%]  surface glycoprotein, L452R</title>
@@ -35590,7 +35608,7 @@
 	<circle cx="932" cy="686" r="12" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-03  T23485A  missense=5 [0.5%]  surface glycoprotein, N641K</title>
+	<title>2020-12-03  T23485A  missense=5 [0.5%]  , </title>
 	<circle cx="924" cy="670" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -36570,7 +36588,7 @@
 	<circle cx="902" cy="519" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-07  G24239T  missense=5 [0.2%]  surface glycoprotein, A893S</title>
+	<title>2020-12-07  G24239T  missense=5 [0.2%]  , </title>
 	<circle cx="893" cy="498" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -40866,7 +40884,7 @@
 	<circle cx="1043" cy="295" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  T24957C  missense=6 [0.2%]  surface glycoprotein, I1132T</title>
+	<title>2020-12-21  T24957C  missense=6 [0.2%]  , </title>
 	<circle cx="1042" cy="288" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -44131,7 +44149,7 @@
 </g>
 <rect x="1865" y="140" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="170" fill="white">Data from 6 continents</text>
-<text font-size="1.8em" x="1880" y="200" fill="white">Genomes/year≥5  Genomes/day≥5</text>
+<text font-size="1.8em" x="1880" y="200" fill="white">Genomes/year≥10  Genomes/day≥5</text>
 <text font-size="1.8em" x="1880" y="230" fill="white">752 total distinct variants mapped</text>
-<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-01</text>
+<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-03</text>
 </svg>

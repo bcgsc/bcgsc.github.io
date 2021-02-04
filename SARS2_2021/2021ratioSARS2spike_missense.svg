@@ -11,6 +11,15 @@
 	stroke: none;
 	fill-opacity:0.25;
 	}
+	a:link, a:visited {
+	cursor: pointer;
+	}
+	a:hover, a:active {
+	outline: dotted 2px yellow;
+	}
+	g:hover, g:active {
+	outline: dotted 2px yellow;
+	}
 	]]></style>
 </defs>
 <circle cx="1200" cy="1200" r="1046" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
@@ -19,7 +28,10 @@
 <circle cx="1200" cy="1200" r="169" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <circle cx="1200" cy="1200" r="168" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="155" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
+<a href="https://bcgsc.github.io/SARS2_2021">
+<title>main menu</title>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 mutations 2021 timemap</text>
+</a>
 <text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 27,351 GISAID genomes</text>
 <line x1="1200" y1="89.1314031180401" x2="1200" y2="139.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="79.1314031180401" fill="white">Winter</text>
@@ -29,13 +41,19 @@
 <text font-size="3.0em" x="1045" y="2346" fill="white">Summer</text>
 <line x1="139" y1="1200" x2="79" y2="1200" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="65" y="1185" fill="white">Fall</text>
-<g>	<title>orf1ab gene (21500-21555)</title>
+<g>
+	<title>orf1ab gene (21500-21555)</title>
 	<line x1="1208" y1="1045" x2="1208" y2="1032" style="stroke:grey;stroke-width:8" />
-</g><g>	<title>S gene (21563-25384)</title>
+</g>
+<g>
+	<title>S gene (21563-25384)</title>
 	<line x1="1208" y1="1031" x2="1208" y2="180" style="stroke:gainsboro;stroke-width:8" />
-</g><g>	<title>ORF3a gene (25393-25500)</title>
+</g>
+<g>
+	<title>ORF3a gene (25393-25500)</title>
 	<line x1="1208" y1="178" x2="1208" y2="154" style="stroke:grey;stroke-width:8" />
-</g><line x1="1200" y1="154.13140311804" x2="1200" y2="1045" style="stroke:white;stroke-width:3" />
+</g>
+<line x1="1200" y1="154.13140311804" x2="1200" y2="1045" style="stroke:white;stroke-width:3" />
 <line x1="1204" y1="154.13140311804" x2="1210" y2="154.13140311804" style="stroke:white;stroke-width:2" />
 <line x1="1210" y1="154.13140311804" x2="1215" y2="129.13140311804" style="stroke:white;stroke-width:2" />
 <line x1="1204" y1="1045" x2="1210" y2="1045" style="stroke:white;stroke-width:2" />
@@ -3069,10 +3087,6 @@
 	<circle cx="1328" cy="591" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-12  C23604G  Europe=5 [0.3%]  surface glycoprotein, P681R</title>
-	<circle cx="1328" cy="589" r="0" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-12  C23604A  Asia=9 [81.8%]  surface glycoprotein, P681H</title>
 	<circle cx="1328" cy="589" r="8" style="fill:white;" class="cv" />
 </g>
@@ -3083,6 +3097,10 @@
 <g>
 	<title>2021-01-12  C23604A  North America=32 [10.7%]  surface glycoprotein, P681H</title>
 	<circle cx="1328" cy="589" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-12  C23604G  Europe=5 [0.3%]  surface glycoprotein, P681R</title>
+	<circle cx="1328" cy="589" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12  C23625T  Europe=7 [0.4%]  surface glycoprotein, A688V</title>
@@ -4850,7 +4868,7 @@
 </g>
 <rect x="1865" y="140" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="170" fill="white">Data from 6 continents</text>
-<text font-size="1.8em" x="1880" y="200" fill="white">Genomes/year≥5  Genomes/day≥5</text>
+<text font-size="1.8em" x="1880" y="200" fill="white">Genomes/year≥10  Genomes/day≥5</text>
 <text font-size="1.8em" x="1880" y="230" fill="white">172 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-01</text>
+<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-03</text>
 </svg>
