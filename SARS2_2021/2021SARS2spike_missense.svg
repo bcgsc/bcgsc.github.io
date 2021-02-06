@@ -32,7 +32,7 @@
 <title>main menu</title>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 mutations 2021 timemap</text>
 </a>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 41,803 GISAID genomes</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 41,801 GISAID genomes</text>
 <line x1="1200" y1="89.1314031180401" x2="1200" y2="139.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="79.1314031180401" fill="white">Winter</text>
 <line x1="2261" y1="1200" x2="2311" y2="1200" style="stroke:white;stroke-width:4" />
@@ -204,12 +204,12 @@
 	<line x1="1200.3" y1="1190.0" x2="1200.8" y2="1177.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-02 North America=299</title>
-	<line x1="1200.8" y1="1177.6" x2="1201.2" y2="1166.5" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-02 North America=301</title>
+	<line x1="1200.8" y1="1177.6" x2="1201.2" y2="1166.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-02 Asia=12</title>
-	<line x1="1201.2" y1="1166.5" x2="1201.3" y2="1161.4" style="stroke:white;" class="sb" />
+	<line x1="1201.2" y1="1166.4" x2="1201.3" y2="1161.4" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-02 Africa=15</title>
@@ -232,7 +232,7 @@
 	<circle cx="1206" cy="1027" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  G21600T  North America=16 [5.4%]  surface glycoprotein, S13I</title>
+	<title>2021-01-02  G21600T  North America=16 [5.3%]  surface glycoprotein, S13I</title>
 	<circle cx="1206" cy="1022" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -260,7 +260,7 @@
 	<circle cx="1209" cy="934" r="9" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  G22018T  North America=16 [5.4%]  surface glycoprotein, W152C</title>
+	<title>2021-01-02  G22018T  North America=16 [5.3%]  surface glycoprotein, W152C</title>
 	<circle cx="1209" cy="929" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -292,7 +292,7 @@
 	<circle cx="1216" cy="737" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  T22917G  North America=17 [5.7%]  surface glycoprotein, L452R</title>
+	<title>2021-01-02  T22917G  North America=17 [5.6%]  surface glycoprotein, L452R</title>
 	<circle cx="1216" cy="729" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -324,7 +324,7 @@
 	<circle cx="1220" cy="621" r="11" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  A23403G  Europe=572 [99.7%] North America=298 [99.7%]  surface glycoprotein, D614G</title>
+	<title>2021-01-02  A23403G  Europe=572 [99.7%] North America=300 [99.7%]  surface glycoprotein, D614G</title>
 	<circle cx="1220" cy="621" r="10" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -336,12 +336,12 @@
 	<circle cx="1220" cy="621" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  A23403G  Africa=14 [93.3%] Asia=12 [100.0%] Oceania=6 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1220" cy="621" r="3" style="fill:lime;" class="cv" />
+	<title>2021-01-02  A23403G  Africa=14 [93.3%] Asia=12 [100.0%] South America=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1220" cy="621" r="3" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  A23403G  Africa=14 [93.3%] Asia=12 [100.0%] Oceania=6 [100.0%] South America=6 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1220" cy="621" r="3" style="fill:yellow;" class="cv" />
+	<title>2021-01-02  A23403G  Africa=14 [93.3%] Asia=12 [100.0%] South America=6 [100.0%] Oceania=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1220" cy="621" r="3" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-01-02  A23592C  North America=7 [2.3%]  surface glycoprotein, Q677P</title>
@@ -366,6 +366,10 @@
 <g>
 	<title>2021-01-02  C23709T  Europe=211 [36.8%]  surface glycoprotein, T716I</title>
 	<circle cx="1222" cy="552" r="9" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-02  A23756G  North America=5 [1.7%]  surface glycoprotein, T732A</title>
+	<circle cx="1223" cy="542" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-02  T24506G  Europe=209 [36.4%]  surface glycoprotein, S982A</title>
@@ -552,16 +556,16 @@
 	<circle cx="1232" cy="579" r="5" style="fill:orange;" class="cv" />
 </g>
 <g>
+	<title>2021-01-03  C23604G  Africa=6 [12.8%]  surface glycoprotein, P681R</title>
+	<circle cx="1232" cy="576" r="3" style="fill:orange;" class="cv" />
+</g>
+<g>
 	<title>2021-01-03  C23604A  Europe=199 [31.3%]  surface glycoprotein, P681H</title>
 	<circle cx="1232" cy="576" r="9" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  C23604A  North America=20 [7.8%]  surface glycoprotein, P681H</title>
 	<circle cx="1232" cy="576" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
-	<title>2021-01-03  C23604G  Africa=6 [12.8%]  surface glycoprotein, P681R</title>
-	<circle cx="1232" cy="576" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  C23664T  Africa=7 [14.9%]  surface glycoprotein, A701V</title>
@@ -656,12 +660,12 @@
 	<circle cx="1213" cy="1018" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C21621T  North America=5 [0.7%]  surface glycoprotein, T20I</title>
-	<circle cx="1213" cy="1018" r="3" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-04  C21621T  Europe=5 [0.2%]  surface glycoprotein, T20I</title>
+	<circle cx="1213" cy="1018" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C21621T  North America=5 [0.7%] Europe=5 [0.2%]  surface glycoprotein, T20I</title>
-	<circle cx="1213" cy="1018" r="3" style="fill:cyan;" class="cv" />
+	<title>2021-01-04  C21621T  Europe=5 [0.2%] North America=5 [0.7%]  surface glycoprotein, T20I</title>
+	<circle cx="1213" cy="1018" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  C21638T  North America=7 [1.0%]  surface glycoprotein, P26S</title>
@@ -964,12 +968,12 @@
 	<circle cx="1246" cy="538" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G23868T  Europe=7 [0.2%]  surface glycoprotein, G769V</title>
-	<circle cx="1247" cy="518" r="4" style="fill:cyan;" class="cv" />
+	<title>2021-01-04  G23868T  North America=7 [1.0%]  surface glycoprotein, G769V</title>
+	<circle cx="1247" cy="518" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G23868T  Europe=7 [0.2%] North America=7 [1.0%]  surface glycoprotein, G769V</title>
-	<circle cx="1247" cy="518" r="4" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-04  G23868T  North America=7 [1.0%] Europe=7 [0.2%]  surface glycoprotein, G769V</title>
+	<circle cx="1247" cy="518" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  G23900C  North America=7 [1.0%]  surface glycoprotein, E780Q</title>
@@ -1268,15 +1272,15 @@
 	<circle cx="1243" cy="698" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  A23063T  Asia=7 [28.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1243" cy="698" r="4" style="fill:white;" class="cv" />
-</g>
-<g>
 	<title>2021-01-05  A23063T  North America=7 [1.2%]  surface glycoprotein, N501Y</title>
 	<circle cx="1243" cy="698" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  A23063T  North America=7 [1.2%] Africa=6 [60.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-01-05  A23063T  North America=7 [1.2%] Asia=7 [28.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1243" cy="698" r="4" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-01-05  A23063T  North America=7 [1.2%] Asia=7 [28.0%] Africa=6 [60.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1243" cy="698" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
@@ -1612,12 +1616,12 @@
 	<circle cx="1264" cy="581" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G23593T  North America=44 [7.9%]  surface glycoprotein, Q677H</title>
-	<circle cx="1264" cy="581" r="7" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-06  G23593C  North America=6 [1.1%]  surface glycoprotein, Q677H</title>
 	<circle cx="1264" cy="581" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-06  G23593T  North America=44 [7.9%]  surface glycoprotein, Q677H</title>
+	<circle cx="1264" cy="581" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-06  C23604A  Europe=187 [35.1%]  surface glycoprotein, P681H</title>
@@ -2136,15 +2140,15 @@
 	<circle cx="1280" cy="626" r="11" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  A23403G  Europe=754 [98.6%] North America=506 [99.6%] Asia=8 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1280" cy="626" r="4" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2021-01-08  A23403G  Europe=754 [98.6%] North America=506 [99.6%] Asia=8 [100.0%] Oceania=8 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-01-08  A23403G  Europe=754 [98.6%] North America=506 [99.6%] Oceania=8 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1280" cy="626" r="4" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  A23403G  Europe=754 [98.6%] North America=506 [99.6%] Asia=8 [100.0%] Oceania=8 [100.0%] South America=7 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-01-08  A23403G  Europe=754 [98.6%] North America=506 [99.6%] Oceania=8 [100.0%] Asia=8 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1280" cy="626" r="4" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  A23403G  Europe=754 [98.6%] North America=506 [99.6%] Oceania=8 [100.0%] Asia=8 [100.0%] South America=7 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1280" cy="626" r="4" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -2276,12 +2280,12 @@
 	<circle cx="1236" cy="968" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-09  G21974T  North America=7 [1.9%]  surface glycoprotein, D138Y</title>
-	<circle cx="1240" cy="942" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-09  G21974C  Europe=5 [0.5%]  surface glycoprotein, D138H</title>
 	<circle cx="1240" cy="942" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-09  G21974T  North America=7 [1.9%]  surface glycoprotein, D138Y</title>
+	<circle cx="1240" cy="942" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-09  ATTA21993A  Europe=551 [59.2%]  surface glycoprotein, Y145H</title>
@@ -2976,16 +2980,16 @@
 	<circle cx="1317" cy="589" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
+	<title>2021-01-11  G23593C  North America=8 [1.6%]  surface glycoprotein, Q677H</title>
+	<circle cx="1317" cy="589" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
 	<title>2021-01-11  G23593T  Europe=35 [0.8%]  surface glycoprotein, Q677H</title>
 	<circle cx="1317" cy="589" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  G23593T  Europe=35 [0.8%] North America=21 [4.3%]  surface glycoprotein, Q677H</title>
 	<circle cx="1317" cy="589" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
-	<title>2021-01-11  G23593C  North America=8 [1.6%]  surface glycoprotein, Q677H</title>
-	<circle cx="1317" cy="589" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  T23599A  Europe=14 [0.3%]  surface glycoprotein, N679K</title>
@@ -3320,11 +3324,11 @@
 	<circle cx="1249" cy="967" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-12  G21974C  Europe=5 [0.2%]  surface glycoprotein, D138H</title>
+	<title>2021-01-12  G21974T  Europe=5 [0.2%]  surface glycoprotein, D138Y</title>
 	<circle cx="1254" cy="944" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-12  G21974T  Europe=5 [0.2%]  surface glycoprotein, D138Y</title>
+	<title>2021-01-12  G21974C  Europe=5 [0.2%]  surface glycoprotein, D138H</title>
 	<circle cx="1254" cy="944" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -3496,16 +3500,12 @@
 	<circle cx="1328" cy="591" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-12  G23593T  Africa=10 [71.4%]  surface glycoprotein, Q677H</title>
-	<circle cx="1328" cy="591" r="4" style="fill:orange;" class="cv" />
-</g>
-<g>
 	<title>2021-01-12  G23593T  North America=10 [2.7%]  surface glycoprotein, Q677H</title>
 	<circle cx="1328" cy="591" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-12  C23604G  Europe=6 [0.3%]  surface glycoprotein, P681R</title>
-	<circle cx="1328" cy="589" r="3" style="fill:cyan;" class="cv" />
+	<title>2021-01-12  G23593T  North America=10 [2.7%] Africa=10 [71.4%]  surface glycoprotein, Q677H</title>
+	<circle cx="1328" cy="591" r="4" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12  C23604A  Europe=1377 [64.3%]  surface glycoprotein, P681H</title>
@@ -3518,6 +3518,10 @@
 <g>
 	<title>2021-01-12  C23604A  North America=36 [9.7%] Asia=9 [81.8%]  surface glycoprotein, P681H</title>
 	<circle cx="1328" cy="589" r="4" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-01-12  C23604G  Europe=6 [0.3%]  surface glycoprotein, P681R</title>
+	<circle cx="1328" cy="589" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12  C23625T  Europe=7 [0.3%]  surface glycoprotein, A688V</title>
@@ -3796,12 +3800,12 @@
 	<circle cx="1308" cy="724" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-13  C22995A  Europe=5 [0.4%]  surface glycoprotein, T478K</title>
-	<circle cx="1308" cy="723" r="3" style="fill:cyan;" class="cv" />
+	<title>2021-01-13  C22995A  North America=5 [2.0%]  surface glycoprotein, T478K</title>
+	<circle cx="1308" cy="723" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-13  C22995A  Europe=5 [0.4%] North America=5 [2.0%]  surface glycoprotein, T478K</title>
-	<circle cx="1308" cy="723" r="3" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-13  C22995A  North America=5 [2.0%] Europe=5 [0.4%]  surface glycoprotein, T478K</title>
+	<circle cx="1308" cy="723" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-13  G23012A  Europe=24 [1.7%]  surface glycoprotein, E484K</title>
@@ -4200,12 +4204,12 @@
 	<circle cx="1349" cy="594" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-14  C23604G  Europe=5 [0.3%]  surface glycoprotein, P681R</title>
-	<circle cx="1349" cy="594" r="3" style="fill:cyan;" class="cv" />
+	<title>2021-01-14  C23604G  North America=5 [1.5%]  surface glycoprotein, P681R</title>
+	<circle cx="1349" cy="594" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-14  C23604G  Europe=5 [0.3%] North America=5 [1.5%]  surface glycoprotein, P681R</title>
-	<circle cx="1349" cy="594" r="3" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-14  C23604G  North America=5 [1.5%] Europe=5 [0.3%]  surface glycoprotein, P681R</title>
+	<circle cx="1349" cy="594" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14  C23625T  Europe=6 [0.3%]  surface glycoprotein, A688V</title>
@@ -4368,12 +4372,12 @@
 	<circle cx="1260" cy="973" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-15  G21974T  South America=7 [38.9%]  surface glycoprotein, D138Y</title>
-	<circle cx="1267" cy="947" r="4" style="fill:yellow;" class="cv" />
-</g>
-<g>
 	<title>2021-01-15  G21974C  Europe=8 [0.5%]  surface glycoprotein, D138H</title>
 	<circle cx="1267" cy="947" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-15  G21974T  South America=7 [38.9%]  surface glycoprotein, D138Y</title>
+	<circle cx="1267" cy="947" r="4" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2021-01-15  ATTA21993A  Europe=1109 [67.7%]  surface glycoprotein, Y145H</title>
@@ -4532,16 +4536,16 @@
 	<circle cx="1359" cy="599" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-15  C23604G  Europe=5 [0.3%]  surface glycoprotein, P681R</title>
-	<circle cx="1359" cy="596" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-15  C23604A  Europe=1137 [69.5%]  surface glycoprotein, P681H</title>
 	<circle cx="1359" cy="596" r="12" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-15  C23604A  North America=39 [13.6%]  surface glycoprotein, P681H</title>
 	<circle cx="1359" cy="596" r="6" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-15  C23604G  Europe=5 [0.3%]  surface glycoprotein, P681R</title>
+	<circle cx="1359" cy="596" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-15  C23625T  Europe=5 [0.3%]  surface glycoprotein, A688V</title>
@@ -4904,16 +4908,16 @@
 	<circle cx="1367" cy="645" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
+	<title>2021-01-17  C23604G  Europe=5 [0.4%]  surface glycoprotein, P681R</title>
+	<circle cx="1380" cy="602" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
 	<title>2021-01-17  C23604A  Europe=984 [77.2%]  surface glycoprotein, P681H</title>
 	<circle cx="1380" cy="602" r="12" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-17  C23604A  North America=8 [11.8%]  surface glycoprotein, P681H</title>
 	<circle cx="1380" cy="602" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
-	<title>2021-01-17  C23604G  Europe=5 [0.4%]  surface glycoprotein, P681R</title>
-	<circle cx="1380" cy="602" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-17  C23709T  Europe=988 [77.5%]  surface glycoprotein, T716I</title>
@@ -5116,12 +5120,12 @@
 	<circle cx="1344" cy="751" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  G22992A  Europe=271 [7.2%]  surface glycoprotein, S477N</title>
-	<circle cx="1349" cy="735" r="10" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-18  G22992T  Europe=9 [0.2%]  surface glycoprotein, S477I</title>
 	<circle cx="1349" cy="735" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-18  G22992A  Europe=271 [7.2%]  surface glycoprotein, S477N</title>
+	<circle cx="1349" cy="735" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  C22993G  Europe=27 [0.7%]  surface glycoprotein, S477R</title>
@@ -5192,11 +5196,11 @@
 	<circle cx="1389" cy="609" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  G23587T  Europe=9 [0.2%]  surface glycoprotein, Q675H</title>
+	<title>2021-01-18  G23587C  Europe=7 [0.2%]  surface glycoprotein, Q675H</title>
 	<circle cx="1389" cy="609" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  G23587C  Europe=7 [0.2%]  surface glycoprotein, Q675H</title>
+	<title>2021-01-18  G23587T  Europe=9 [0.2%]  surface glycoprotein, Q675H</title>
 	<circle cx="1389" cy="609" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -5212,16 +5216,16 @@
 	<circle cx="1390" cy="606" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
+	<title>2021-01-18  C23604G  Europe=8 [0.2%]  surface glycoprotein, P681R</title>
+	<circle cx="1390" cy="605" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
 	<title>2021-01-18  C23604A  Europe=1391 [37.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1390" cy="605" r="13" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  C23604A  North America=25 [11.2%]  surface glycoprotein, P681H</title>
 	<circle cx="1390" cy="605" r="6" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
-	<title>2021-01-18  C23604G  Europe=8 [0.2%]  surface glycoprotein, P681R</title>
-	<circle cx="1390" cy="605" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  C23625T  Europe=9 [0.2%]  surface glycoprotein, A688V</title>
@@ -5416,12 +5420,12 @@
 	<circle cx="1276" cy="975" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19  G21974C  Europe=6 [0.5%]  surface glycoprotein, D138H</title>
-	<circle cx="1284" cy="952" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-19  G21974T  South America=10 [66.7%]  surface glycoprotein, D138Y</title>
 	<circle cx="1284" cy="952" r="4" style="fill:yellow;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  G21974C  Europe=6 [0.5%]  surface glycoprotein, D138H</title>
+	<circle cx="1284" cy="952" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-19  ATTA21993A  Europe=1037 [79.9%]  surface glycoprotein, Y145H</title>
@@ -6484,16 +6488,16 @@
 	<circle cx="1460" cy="633" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  C23604G  Europe=6 [0.4%]  surface glycoprotein, P681R</title>
-	<circle cx="1461" cy="632" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-25  C23604A  Europe=1050 [64.4%]  surface glycoprotein, P681H</title>
 	<circle cx="1461" cy="632" r="12" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-25  C23604A  North America=11 [10.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1461" cy="632" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-25  C23604G  Europe=6 [0.4%]  surface glycoprotein, P681R</title>
+	<circle cx="1461" cy="632" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-25  C23664T  North America=7 [6.4%]  surface glycoprotein, A701V</title>
@@ -6808,12 +6812,12 @@
 	<line x1="1206.8" y1="1188.0" x2="1208.7" y2="1184.7" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-30  A23403G  North America=6 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1486" cy="696" r="3" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-30  A23403G  Asia=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1486" cy="696" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-30  A23403G  North America=6 [100.0%] Asia=6 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1486" cy="696" r="3" style="fill:white;" class="cv" />
+	<title>2021-01-30  A23403G  Asia=6 [100.0%] North America=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1486" cy="696" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-31 Asia=5</title>
