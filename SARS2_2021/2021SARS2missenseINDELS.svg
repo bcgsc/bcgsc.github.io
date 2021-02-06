@@ -46,7 +46,7 @@
 <title>main menu</title>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 mutations 2021 timemap</text>
 </a>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 27,351 GISAID genomes</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 41,803 GISAID genomes</text>
 <line x1="1200" y1="82.9384615384615" x2="1200" y2="132.938461538462" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="72.9384615384615" fill="white">Winter</text>
 <line x1="2267" y1="1200" x2="2317" y2="1200" style="stroke:white;stroke-width:4" />
@@ -115,171 +115,187 @@
 <text font-size="2.0em" x="75" y="335" fill="white">Oceania</text>
 <circle cx="60" cy="355" r="8" style="fill:lime;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="2.0em" x="75" y="365" fill="white">South America</text>
-<circle cx="60" cy="410" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="101" cy="410" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="142" cy="410" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="183" cy="410" r="12" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="60" cy="410" r="1.90848501887865" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="101" cy="410" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="142" cy="410" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="183" cy="410" r="12.0017363099173" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <text font-size="2.0em" x="50" y="455" fill="white">2      10        100        1k</text>
 <text font-size="2.0em" x="50" y="485" fill="white">genome samples</text>
 <g>
-	<title>2021-01-01 Europe=220</title>
-	<line x1="1200.2" y1="1190.0" x2="1200.5" y2="1171.2" style="stroke:cyan;" class="sb" />
+	<title>2021-01-01 Europe=291</title>
+	<line x1="1200.2" y1="1190.0" x2="1200.5" y2="1170.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-01 North America=120</title>
-	<line x1="1200.5" y1="1171.2" x2="1200.8" y2="1154.6" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-01 North America=130</title>
+	<line x1="1200.5" y1="1170.3" x2="1200.8" y2="1153.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-01 Asia=9</title>
-	<line x1="1200.8" y1="1154.6" x2="1200.9" y2="1146.6" style="stroke:white;" class="sb" />
+	<line x1="1200.8" y1="1153.3" x2="1200.9" y2="1145.3" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-01 Africa=4</title>
-	<line x1="1200.9" y1="1146.6" x2="1201.0" y2="1141.0" style="stroke:orange;" class="sb" />
+	<line x1="1200.9" y1="1145.3" x2="1201.0" y2="1139.8" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2021-01-01 Oceania=11</title>
-	<line x1="1201.0" y1="1141.0" x2="1201.2" y2="1132.4" style="stroke:yellow;" class="sb" />
+	<line x1="1201.0" y1="1139.8" x2="1201.2" y2="1131.1" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-01  ATTA21993A  Europe=48 [21.8%]  surface glycoprotein, Y145H</title>
-	<circle cx="1214" cy="391" r="7" style="fill:cyan;" class="cv" />
+	<title>2021-01-01  ATTA21993A  Europe=97 [33.3%]  surface glycoprotein, Y145H</title>
+	<circle cx="1214" cy="391" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02 Europe=523</title>
-	<line x1="1200.3" y1="1190.0" x2="1201.1" y2="1168.3" style="stroke:cyan;" class="sb" />
+	<title>2021-01-01  ATTA22190A  Europe=2 [0.7%]  surface glycoprotein, I210N</title>
+	<circle cx="1214" cy="385" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02 North America=270</title>
-	<line x1="1201.1" y1="1168.3" x2="1201.8" y2="1148.8" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-02 Europe=574</title>
+	<line x1="1200.3" y1="1190.0" x2="1201.1" y2="1167.9" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-02 North America=299</title>
+	<line x1="1201.1" y1="1167.9" x2="1201.8" y2="1148.1" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-02 Asia=12</title>
-	<line x1="1201.8" y1="1148.8" x2="1202.1" y2="1139.9" style="stroke:white;" class="sb" />
+	<line x1="1201.8" y1="1148.1" x2="1202.1" y2="1139.2" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-02 Africa=14</title>
-	<line x1="1202.1" y1="1139.9" x2="1202.4" y2="1130.5" style="stroke:orange;" class="sb" />
+	<title>2021-01-02 Africa=15</title>
+	<line x1="1202.1" y1="1139.2" x2="1202.4" y2="1129.6" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2021-01-02 Oceania=6</title>
-	<line x1="1202.4" y1="1130.5" x2="1202.6" y2="1123.7" style="stroke:yellow;" class="sb" />
+	<line x1="1202.4" y1="1129.6" x2="1202.7" y2="1122.8" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-02 South America=3</title>
-	<line x1="1202.6" y1="1123.7" x2="1202.8" y2="1118.9" style="stroke:lime;" class="sb" />
+	<title>2021-01-02 South America=6</title>
+	<line x1="1202.7" y1="1122.8" x2="1202.9" y2="1116.1" style="stroke:lime;" class="sb" />
 </g>
 <g>
-	<title>2021-01-02  ATTA21993A  Europe=194 [37.1%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-02  ATTA21993A  Europe=209 [36.4%]  surface glycoprotein, Y145H</title>
 	<circle cx="1228" cy="391" r="9" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  ATTA21993A  Europe=194 [37.1%] Asia=4 [33.3%]  surface glycoprotein, Y145H</title>
-	<circle cx="1228" cy="391" r="2" style="fill:white;" class="cv" />
+	<title>2021-01-02  ATTA21993A  Europe=209 [36.4%] Asia=4 [33.3%]  surface glycoprotein, Y145H</title>
+	<circle cx="1228" cy="391" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  CA28253C  Europe=2 [0.4%]  ORF8 protein, I121S</title>
-	<circle cx="1234" cy="199" r="1" style="fill:cyan;" class="cv" />
+	<title>2021-01-02  T24910TCACA  Europe=3 [0.5%]  surface glycoprotein, T1117H</title>
+	<circle cx="1231" cy="302" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03 Europe=515</title>
-	<line x1="1200.5" y1="1190.0" x2="1201.6" y2="1168.3" style="stroke:cyan;" class="sb" />
+	<title>2021-01-02  AGACA24913A  Europe=3 [0.5%]  surface glycoprotein, D1118T</title>
+	<circle cx="1231" cy="302" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03 North America=190</title>
-	<line x1="1201.6" y1="1168.3" x2="1202.6" y2="1150.1" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-02  CA28253C  Europe=2 [0.3%]  ORF8 protein, I121S</title>
+	<circle cx="1234" cy="199" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-03 Europe=636</title>
+	<line x1="1200.5" y1="1190.0" x2="1201.7" y2="1167.6" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-03 North America=255</title>
+	<line x1="1201.7" y1="1167.6" x2="1202.7" y2="1148.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-03 Asia=10</title>
-	<line x1="1202.6" y1="1150.1" x2="1203.0" y2="1141.8" style="stroke:white;" class="sb" />
+	<line x1="1202.7" y1="1148.4" x2="1203.1" y2="1140.0" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-03 Africa=47</title>
-	<line x1="1203.0" y1="1141.8" x2="1203.7" y2="1128.4" style="stroke:orange;" class="sb" />
+	<line x1="1203.1" y1="1140.0" x2="1203.8" y2="1126.6" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2021-01-03 Oceania=4</title>
-	<line x1="1203.7" y1="1128.4" x2="1204.0" y2="1122.8" style="stroke:yellow;" class="sb" />
+	<line x1="1203.8" y1="1126.6" x2="1204.1" y2="1121.0" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-03  ATTA21993A  Europe=158 [30.7%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-03  ATTA21993A  Europe=192 [30.2%]  surface glycoprotein, Y145H</title>
 	<circle cx="1242" cy="392" r="9" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  ATTA21993A  North America=4 [2.1%]  surface glycoprotein, Y145H</title>
-	<circle cx="1242" cy="392" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-03  ATTA21993A  North America=4 [1.6%]  surface glycoprotein, Y145H</title>
+	<circle cx="1242" cy="392" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  TGTT26157T  Europe=3 [0.6%]  ORF3a protein, V256N</title>
+	<title>2021-01-03  TGTT26157T  Europe=3 [0.5%]  ORF3a protein, V256N</title>
 	<circle cx="1248" cy="264" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04 Europe=3090</title>
-	<line x1="1200.7" y1="1190.0" x2="1202.6" y2="1162.2" style="stroke:cyan;" class="sb" />
+	<title>2021-01-04 Europe=3283</title>
+	<line x1="1200.7" y1="1190.0" x2="1202.6" y2="1162.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-04 North America=579</title>
-	<line x1="1202.6" y1="1162.2" x2="1204.1" y2="1140.1" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-04 North America=684</title>
+	<line x1="1202.6" y1="1162.0" x2="1204.2" y2="1139.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2021-01-04 Asia=48</title>
-	<line x1="1204.1" y1="1140.1" x2="1205.1" y2="1126.6" style="stroke:white;" class="sb" />
+	<title>2021-01-04 Asia=49</title>
+	<line x1="1204.2" y1="1139.3" x2="1205.1" y2="1125.8" style="stroke:white;" class="sb" />
+</g>
+<g>
+	<title>2021-01-04 Africa=3</title>
+	<line x1="1205.1" y1="1125.8" x2="1205.5" y2="1121.0" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2021-01-04 Oceania=5</title>
-	<line x1="1205.1" y1="1126.6" x2="1205.5" y2="1120.4" style="stroke:yellow;" class="sb" />
+	<line x1="1205.5" y1="1121.0" x2="1205.9" y2="1114.8" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-04 South America=3</title>
-	<line x1="1205.5" y1="1120.4" x2="1205.8" y2="1115.6" style="stroke:lime;" class="sb" />
+	<title>2021-01-04 South America=8</title>
+	<line x1="1205.9" y1="1114.8" x2="1206.4" y2="1107.1" style="stroke:lime;" class="sb" />
 </g>
 <g>
-	<title>2021-01-04  TATG517T  Europe=3 [0.1%]  orf1ab polyprotein, M85V</title>
-	<circle cx="1210" cy="1052" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-01-04  TATG517T  Europe=4 [0.1%]  orf1ab polyprotein, M85V</title>
+	<circle cx="1210" cy="1052" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  AGTT6512A  North America=3 [0.5%]  orf1ab polyprotein, S2083I</title>
+	<title>2021-01-04  AGTT6512A  North America=3 [0.4%]  orf1ab polyprotein, S2083I</title>
 	<circle cx="1223" cy="868" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  TT11083T  Europe=42 [1.4%]  orf1ab polyprotein, L3606F</title>
-	<circle cx="1233" cy="728" r="6" style="fill:cyan;" class="cv" />
+	<title>2021-01-04  TT11083T  Europe=42 [1.3%]  orf1ab polyprotein, L3606F</title>
+	<circle cx="1233" cy="728" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  TT21576T  Europe=8 [0.3%]  surface glycoprotein, V6F</title>
+	<title>2021-01-04  TT21576T  Europe=8 [0.2%]  surface glycoprotein, V6F</title>
 	<circle cx="1255" cy="406" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  ATTA21993A  Europe=213 [6.9%]  surface glycoprotein, Y145H</title>
-	<circle cx="1256" cy="393" r="9" style="fill:cyan;" class="cv" />
+	<title>2021-01-04  ATTA21993A  Europe=272 [8.3%]  surface glycoprotein, Y145H</title>
+	<circle cx="1256" cy="393" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  ATTA21993A  Europe=213 [6.9%] Asia=13 [27.1%]  surface glycoprotein, Y145H</title>
-	<circle cx="1256" cy="393" r="4" style="fill:white;" class="cv" />
+	<title>2021-01-04  ATTA21993A  Europe=272 [8.3%] Asia=13 [26.5%]  surface glycoprotein, Y145H</title>
+	<circle cx="1256" cy="393" r="5" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  ATTA21993A  North America=3 [0.5%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-04  ATTA21993A  North America=3 [0.4%]  surface glycoprotein, Y145H</title>
 	<circle cx="1256" cy="393" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  ATTA22190A  Europe=11 [0.4%]  surface glycoprotein, I210N</title>
+	<title>2021-01-04  ATTA22190A  Europe=11 [0.3%]  surface glycoprotein, I210N</title>
 	<circle cx="1256" cy="387" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  T24910TCACA  Europe=2 [0.1%]  surface glycoprotein, T1117H</title>
-	<circle cx="1262" cy="303" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1262" cy="303" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  AGACA24913A  Europe=2 [0.1%]  surface glycoprotein, D1118T</title>
-	<circle cx="1262" cy="303" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1262" cy="303" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  TGTT26157T  North America=2 [0.3%]  ORF3a protein, V256N</title>
-	<circle cx="1265" cy="265" r="1" style="fill:fuchsia;" class="cv" />
+	<circle cx="1265" cy="265" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  GTTA26158G  Europe=2 [0.1%]  ORF3a protein, V256D</title>
-	<circle cx="1265" cy="265" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1265" cy="265" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  TT26306T  Europe=5 [0.2%]  envelope protein, A22L</title>
@@ -287,326 +303,374 @@
 </g>
 <g>
 	<title>2021-01-04  TGT27462T  Europe=4 [0.1%]  ORF7a protein, V24*</title>
-	<circle cx="1267" cy="225" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1267" cy="225" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  CA28253C  North America=6 [1.0%]  ORF8 protein, I121S</title>
+	<title>2021-01-04  CA28253C  North America=6 [0.9%]  ORF8 protein, I121S</title>
 	<circle cx="1269" cy="201" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  CA28253C  North America=6 [1.0%] Europe=4 [0.1%]  ORF8 protein, I121S</title>
-	<circle cx="1269" cy="201" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-01-04  CA28253C  North America=6 [0.9%] Europe=4 [0.1%]  ORF8 protein, I121S</title>
+	<circle cx="1269" cy="201" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  AGAA28898A  Europe=4 [0.1%]  nucleocapsid phosphoprotein, R209M</title>
-	<circle cx="1270" cy="181" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1270" cy="181" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  TT29589T  Europe=49 [1.6%]  ORF10 protein, F11L</title>
+	<title>2021-01-04  TT29589T  Europe=49 [1.5%]  ORF10 protein, F11L</title>
 	<circle cx="1272" cy="160" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05 Europe=630</title>
-	<line x1="1200.9" y1="1190.0" x2="1202.8" y2="1167.7" style="stroke:cyan;" class="sb" />
+	<title>2021-01-05 Europe=733</title>
+	<line x1="1200.9" y1="1190.0" x2="1202.8" y2="1167.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-05 North America=522</title>
-	<line x1="1202.8" y1="1167.7" x2="1204.7" y2="1146.1" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-05 North America=604</title>
+	<line x1="1202.8" y1="1167.2" x2="1204.7" y2="1145.0" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2021-01-05 Asia=24</title>
-	<line x1="1204.7" y1="1146.1" x2="1205.6" y2="1134.9" style="stroke:white;" class="sb" />
+	<title>2021-01-05 Asia=25</title>
+	<line x1="1204.7" y1="1145.0" x2="1205.7" y2="1133.7" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-05 Africa=6</title>
-	<line x1="1205.6" y1="1134.9" x2="1206.2" y2="1128.2" style="stroke:orange;" class="sb" />
+	<title>2021-01-05 Africa=10</title>
+	<line x1="1205.7" y1="1133.7" x2="1206.4" y2="1125.4" style="stroke:orange;" class="sb" />
 </g>
 <g>
-	<title>2021-01-05 South America=2</title>
-	<line x1="1206.2" y1="1128.2" x2="1206.5" y2="1124.4" style="stroke:lime;" class="sb" />
+	<title>2021-01-05 South America=7</title>
+	<line x1="1206.4" y1="1125.4" x2="1207.1" y2="1118.2" style="stroke:lime;" class="sb" />
 </g>
 <g>
-	<title>2021-01-05  ATTA21993A  Europe=207 [32.9%]  surface glycoprotein, Y145H</title>
-	<circle cx="1270" cy="394" r="9" style="fill:cyan;" class="cv" />
+	<title>2021-01-05  ATTA21993A  Europe=268 [36.6%]  surface glycoprotein, Y145H</title>
+	<circle cx="1270" cy="394" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  ATTA21993A  North America=10 [1.9%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-05  ATTA21993A  North America=10 [1.7%]  surface glycoprotein, Y145H</title>
 	<circle cx="1270" cy="394" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  ATTA21993A  North America=10 [1.9%] Asia=7 [29.2%]  surface glycoprotein, Y145H</title>
-	<circle cx="1270" cy="394" r="3" style="fill:white;" class="cv" />
+	<title>2021-01-05  ATTA21993A  North America=10 [1.7%] Asia=7 [28.0%]  surface glycoprotein, Y145H</title>
+	<circle cx="1270" cy="394" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  T25704TCCC  North America=2 [0.4%]  ORF3a protein, F105P</title>
-	<circle cx="1279" cy="280" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-05  T25704TCCC  North America=2 [0.3%]  ORF3a protein, F105P</title>
+	<circle cx="1279" cy="280" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  CA28253C  North America=3 [0.6%]  ORF8 protein, I121S</title>
+	<title>2021-01-05  TGAT27757T  Europe=2 [0.3%]  ORF7a protein, *122L</title>
+	<circle cx="1285" cy="217" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-05  CA28253C  North America=3 [0.5%]  ORF8 protein, I121S</title>
 	<circle cx="1286" cy="202" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06 Europe=414</title>
-	<line x1="1201.0" y1="1190.1" x2="1203.2" y2="1169.2" style="stroke:cyan;" class="sb" />
+	<title>2021-01-06 Europe=533</title>
+	<line x1="1201.0" y1="1190.1" x2="1203.3" y2="1168.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-06 North America=467</title>
-	<line x1="1203.2" y1="1169.2" x2="1205.4" y2="1148.0" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-06 North America=555</title>
+	<line x1="1203.3" y1="1168.3" x2="1205.5" y2="1146.5" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-06 Asia=17</title>
-	<line x1="1205.4" y1="1148.0" x2="1206.4" y2="1138.0" style="stroke:white;" class="sb" />
+	<line x1="1205.5" y1="1146.5" x2="1206.6" y2="1136.5" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-06 Africa=7</title>
-	<line x1="1206.4" y1="1138.0" x2="1207.2" y2="1130.8" style="stroke:orange;" class="sb" />
+	<title>2021-01-06 Africa=9</title>
+	<line x1="1206.6" y1="1136.5" x2="1207.4" y2="1128.6" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2021-01-06 Oceania=9</title>
-	<line x1="1207.2" y1="1130.8" x2="1208.0" y2="1122.8" style="stroke:yellow;" class="sb" />
+	<line x1="1207.4" y1="1128.6" x2="1208.2" y2="1120.6" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-06 South America=3</title>
-	<line x1="1208.0" y1="1122.8" x2="1208.5" y2="1118.0" style="stroke:lime;" class="sb" />
+	<title>2021-01-06 South America=6</title>
+	<line x1="1208.2" y1="1120.6" x2="1208.9" y2="1113.9" style="stroke:lime;" class="sb" />
 </g>
 <g>
-	<title>2021-01-06  ATTA21993A  Europe=130 [31.4%]  surface glycoprotein, Y145H</title>
-	<circle cx="1283" cy="395" r="8" style="fill:cyan;" class="cv" />
+	<title>2021-01-06  ATTA21993A  Europe=180 [33.8%]  surface glycoprotein, Y145H</title>
+	<circle cx="1283" cy="395" r="9" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  ATTA21993A  Europe=130 [31.4%] Asia=11 [64.7%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-06  ATTA21993A  Europe=180 [33.8%] Asia=11 [64.7%]  surface glycoprotein, Y145H</title>
 	<circle cx="1283" cy="395" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  ATTA21993A  North America=8 [1.7%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-06  ATTA21993A  North America=8 [1.4%]  surface glycoprotein, Y145H</title>
 	<circle cx="1283" cy="395" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G25767GAAT  North America=2 [0.4%]  ORF3a protein, R126N</title>
-	<circle cx="1295" cy="280" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-06  T24910TCACA  Europe=3 [0.6%]  surface glycoprotein, T1117H</title>
+	<circle cx="1293" cy="306" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  CA28253C  North America=8 [1.7%]  ORF8 protein, I121S</title>
+	<title>2021-01-06  AGACA24913A  Europe=3 [0.6%]  surface glycoprotein, D1118T</title>
+	<circle cx="1293" cy="306" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-06  G25767GAAT  North America=2 [0.4%]  ORF3a protein, R126N</title>
+	<circle cx="1295" cy="280" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-06  CA28253C  North America=8 [1.4%]  ORF8 protein, I121S</title>
 	<circle cx="1303" cy="204" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  CA28253C  North America=8 [1.7%] Europe=2 [0.5%]  ORF8 protein, I121S</title>
-	<circle cx="1303" cy="204" r="1" style="fill:cyan;" class="cv" />
+	<title>2021-01-06  CA28253C  North America=8 [1.4%] Europe=2 [0.4%]  ORF8 protein, I121S</title>
+	<circle cx="1303" cy="204" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07 Europe=816</title>
-	<line x1="1201.2" y1="1190.1" x2="1204.0" y2="1166.9" style="stroke:cyan;" class="sb" />
+	<title>2021-01-07 Europe=921</title>
+	<line x1="1201.2" y1="1190.1" x2="1204.1" y2="1166.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-07 North America=342</title>
-	<line x1="1204.0" y1="1166.9" x2="1206.4" y2="1146.8" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-07 North America=421</title>
+	<line x1="1204.1" y1="1166.5" x2="1206.6" y2="1145.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2021-01-07 Asia=6</title>
-	<line x1="1206.4" y1="1146.8" x2="1207.2" y2="1140.1" style="stroke:white;" class="sb" />
+	<title>2021-01-07 Asia=8</title>
+	<line x1="1206.6" y1="1145.7" x2="1207.5" y2="1138.1" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-07 Africa=9</title>
-	<line x1="1207.2" y1="1140.1" x2="1208.2" y2="1132.2" style="stroke:orange;" class="sb" />
+	<title>2021-01-07 Africa=14</title>
+	<line x1="1207.5" y1="1138.1" x2="1208.6" y2="1128.8" style="stroke:orange;" class="sb" />
 </g>
 <g>
-	<title>2021-01-07 South America=3</title>
-	<line x1="1208.2" y1="1132.2" x2="1208.8" y2="1127.4" style="stroke:lime;" class="sb" />
+	<title>2021-01-07 South America=7</title>
+	<line x1="1208.6" y1="1128.8" x2="1209.5" y2="1121.6" style="stroke:lime;" class="sb" />
 </g>
 <g>
-	<title>2021-01-07  AGTT6512A  Europe=4 [0.5%]  orf1ab polyprotein, S2083I</title>
-	<circle cx="1240" cy="870" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-01-07  AGTT6512A  Europe=4 [0.4%]  orf1ab polyprotein, S2083I</title>
+	<circle cx="1240" cy="870" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  ATTA21993A  Europe=479 [58.7%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-07  ATTA21993A  Europe=539 [58.5%]  surface glycoprotein, Y145H</title>
 	<circle cx="1297" cy="397" r="11" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  ATTA21993A  North America=11 [3.2%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-07  ATTA21993A  North America=11 [2.6%]  surface glycoprotein, Y145H</title>
 	<circle cx="1297" cy="397" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  ATTA21993A  North America=11 [3.2%] Africa=2 [22.2%]  surface glycoprotein, Y145H</title>
-	<circle cx="1297" cy="397" r="1" style="fill:orange;" class="cv" />
+	<title>2021-01-07  ATTA21993A  North America=11 [2.6%] Asia=3 [37.5%]  surface glycoprotein, Y145H</title>
+	<circle cx="1297" cy="397" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  ATTA21993A  North America=11 [3.2%] Africa=2 [22.2%] South America=2 [66.7%]  surface glycoprotein, Y145H</title>
-	<circle cx="1297" cy="397" r="1" style="fill:lime;" class="cv" />
+	<title>2021-01-07  ATTA21993A  South America=2 [28.6%]  surface glycoprotein, Y145H</title>
+	<circle cx="1297" cy="397" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2021-01-07  ATTA21993A  Africa=2 [14.3%]  surface glycoprotein, Y145H</title>
+	<circle cx="1297" cy="397" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-01-07  GTTA26158G  Europe=2 [0.2%]  ORF3a protein, V256D</title>
-	<circle cx="1313" cy="270" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1313" cy="270" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  CA28253C  North America=4 [1.2%]  ORF8 protein, I121S</title>
-	<circle cx="1320" cy="206" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-07  CA28253C  North America=4 [1.0%]  ORF8 protein, I121S</title>
+	<circle cx="1320" cy="206" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  G29601GTA  Europe=4 [0.5%]  ORF10 protein, L16I</title>
-	<circle cx="1325" cy="164" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-01-07  CA28253C  North America=4 [1.0%] Asia=2 [25.0%]  ORF8 protein, I121S</title>
+	<circle cx="1320" cy="206" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08 Europe=587</title>
-	<line x1="1201.4" y1="1190.1" x2="1204.4" y2="1168.1" style="stroke:cyan;" class="sb" />
+	<title>2021-01-07  G29601GTA  Europe=4 [0.4%]  ORF10 protein, L16I</title>
+	<circle cx="1325" cy="164" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08 North America=422</title>
-	<line x1="1204.4" y1="1168.1" x2="1207.3" y2="1147.3" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-08 Europe=765</title>
+	<line x1="1201.4" y1="1190.1" x2="1204.5" y2="1167.2" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-08 North America=508</title>
+	<line x1="1204.5" y1="1167.2" x2="1207.5" y2="1145.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-08 Asia=8</title>
-	<line x1="1207.3" y1="1147.3" x2="1208.3" y2="1139.8" style="stroke:white;" class="sb" />
+	<line x1="1207.5" y1="1145.8" x2="1208.6" y2="1138.2" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-08 Africa=2</title>
-	<line x1="1208.3" y1="1139.8" x2="1208.9" y2="1136.0" style="stroke:orange;" class="sb" />
+	<title>2021-01-08 Africa=4</title>
+	<line x1="1208.6" y1="1138.2" x2="1209.3" y2="1132.7" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2021-01-08 Oceania=8</title>
-	<line x1="1208.9" y1="1136.0" x2="1209.9" y2="1128.4" style="stroke:yellow;" class="sb" />
+	<line x1="1209.3" y1="1132.7" x2="1210.4" y2="1125.1" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-08 South America=5</title>
-	<line x1="1209.9" y1="1128.4" x2="1210.8" y2="1122.3" style="stroke:lime;" class="sb" />
+	<title>2021-01-08 South America=7</title>
+	<line x1="1210.4" y1="1125.1" x2="1211.4" y2="1118.0" style="stroke:lime;" class="sb" />
 </g>
 <g>
-	<title>2021-01-08  ATTA21993A  Europe=298 [50.8%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-08  ATTA21993A  Europe=385 [50.3%]  surface glycoprotein, Y145H</title>
 	<circle cx="1311" cy="399" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  ATTA21993A  Oceania=3 [37.5%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-08  ATTA21993A  North America=4 [0.8%]  surface glycoprotein, Y145H</title>
+	<circle cx="1311" cy="399" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  ATTA21993A  North America=4 [0.8%] Oceania=3 [37.5%]  surface glycoprotein, Y145H</title>
 	<circle cx="1311" cy="399" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  ATTA21993A  North America=2 [0.5%]  surface glycoprotein, Y145H</title>
-	<circle cx="1311" cy="399" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-08  ATTA22190A  Europe=2 [0.3%]  surface glycoprotein, I210N</title>
+	<circle cx="1312" cy="393" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  CA28253C  North America=2 [0.5%]  ORF8 protein, I121S</title>
-	<circle cx="1337" cy="208" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-08  CA28253C  North America=3 [0.6%]  ORF8 protein, I121S</title>
+	<circle cx="1337" cy="208" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-09 Europe=843</title>
-	<line x1="1201.5" y1="1190.1" x2="1205.2" y2="1167.0" style="stroke:cyan;" class="sb" />
+	<title>2021-01-09 Europe=931</title>
+	<line x1="1201.5" y1="1190.1" x2="1205.2" y2="1166.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-09 North America=286</title>
-	<line x1="1205.2" y1="1167.0" x2="1208.2" y2="1147.6" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-09 North America=362</title>
+	<line x1="1205.2" y1="1166.6" x2="1208.4" y2="1146.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-09 Asia=6</title>
-	<line x1="1208.2" y1="1147.6" x2="1209.2" y2="1140.9" style="stroke:white;" class="sb" />
+	<line x1="1208.4" y1="1146.4" x2="1209.4" y2="1139.7" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-09 Africa=44</title>
-	<line x1="1209.2" y1="1140.9" x2="1211.3" y2="1127.8" style="stroke:orange;" class="sb" />
+	<line x1="1209.4" y1="1139.7" x2="1211.5" y2="1126.7" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2021-01-09 Oceania=5</title>
-	<line x1="1211.3" y1="1127.8" x2="1212.2" y2="1121.7" style="stroke:yellow;" class="sb" />
+	<line x1="1211.5" y1="1126.7" x2="1212.4" y2="1120.5" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-09  ATTA21993A  Europe=502 [59.5%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-09  ATTA21993A  Europe=551 [59.2%]  surface glycoprotein, Y145H</title>
 	<circle cx="1325" cy="401" r="11" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-09  ATTA21993A  Africa=2 [4.5%]  surface glycoprotein, Y145H</title>
-	<circle cx="1325" cy="401" r="1" style="fill:orange;" class="cv" />
+	<title>2021-01-09  ATTA21993A  North America=2 [0.6%]  surface glycoprotein, Y145H</title>
+	<circle cx="1325" cy="401" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-10 Europe=819</title>
-	<line x1="1201.7" y1="1190.1" x2="1205.7" y2="1167.2" style="stroke:cyan;" class="sb" />
+	<title>2021-01-09  ATTA21993A  North America=2 [0.6%] Africa=2 [4.5%]  surface glycoprotein, Y145H</title>
+	<circle cx="1325" cy="401" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-01-10 North America=152</title>
-	<line x1="1205.7" y1="1167.2" x2="1208.7" y2="1150.0" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-09  TCTA23480T  North America=2 [0.6%]  surface glycoprotein, S640Y</title>
+	<circle cx="1332" cy="356" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-09  T24910TCACA  Europe=2 [0.2%]  surface glycoprotein, T1117H</title>
+	<circle cx="1339" cy="312" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-09  AGACA24913A  Europe=2 [0.2%]  surface glycoprotein, D1118T</title>
+	<circle cx="1339" cy="312" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-10 Europe=937</title>
+	<line x1="1201.7" y1="1190.1" x2="1205.8" y2="1166.7" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-10 North America=186</title>
+	<line x1="1205.8" y1="1166.7" x2="1208.9" y2="1148.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-10 Asia=4</title>
-	<line x1="1208.7" y1="1150.0" x2="1209.7" y2="1144.5" style="stroke:white;" class="sb" />
+	<line x1="1208.9" y1="1148.8" x2="1209.9" y2="1143.3" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-10 Africa=4</title>
-	<line x1="1209.7" y1="1144.5" x2="1210.6" y2="1138.9" style="stroke:orange;" class="sb" />
+	<line x1="1209.9" y1="1143.3" x2="1210.8" y2="1137.8" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2021-01-10 Oceania=6</title>
-	<line x1="1210.6" y1="1138.9" x2="1211.8" y2="1132.3" style="stroke:yellow;" class="sb" />
+	<line x1="1210.8" y1="1137.8" x2="1212.0" y2="1131.1" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-10 South America=2</title>
-	<line x1="1211.8" y1="1132.3" x2="1212.4" y2="1128.5" style="stroke:lime;" class="sb" />
+	<title>2021-01-10 South America=3</title>
+	<line x1="1212.0" y1="1131.1" x2="1212.8" y2="1126.4" style="stroke:lime;" class="sb" />
 </g>
 <g>
-	<title>2021-01-10  ATTA21993A  Europe=533 [65.1%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-10  ATTA21993A  Europe=610 [65.1%]  surface glycoprotein, Y145H</title>
 	<circle cx="1339" cy="403" r="11" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-10  ATTA21993A  North America=7 [4.6%]  surface glycoprotein, Y145H</title>
-	<circle cx="1339" cy="403" r="3" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-10  ATTA21993A  North America=7 [3.8%]  surface glycoprotein, Y145H</title>
+	<circle cx="1339" cy="403" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11 Europe=3701</title>
-	<line x1="1201.9" y1="1190.2" x2="1207.3" y2="1162.1" style="stroke:cyan;" class="sb" />
+	<title>2021-01-11 Europe=4258</title>
+	<line x1="1201.9" y1="1190.2" x2="1207.3" y2="1161.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-11 North America=371</title>
-	<line x1="1207.3" y1="1162.1" x2="1211.1" y2="1141.9" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-11 North America=486</title>
+	<line x1="1207.3" y1="1161.7" x2="1211.4" y2="1140.5" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-11 Asia=16</title>
-	<line x1="1211.1" y1="1141.9" x2="1213.0" y2="1132.3" style="stroke:white;" class="sb" />
+	<line x1="1211.4" y1="1140.5" x2="1213.2" y2="1130.9" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-11 Africa=36</title>
-	<line x1="1213.0" y1="1132.3" x2="1215.3" y2="1120.0" style="stroke:orange;" class="sb" />
+	<title>2021-01-11 Africa=40</title>
+	<line x1="1213.2" y1="1130.9" x2="1215.7" y2="1118.2" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2021-01-11 Oceania=2</title>
-	<line x1="1215.3" y1="1120.0" x2="1216.1" y2="1116.2" style="stroke:yellow;" class="sb" />
+	<line x1="1215.7" y1="1118.2" x2="1216.4" y2="1114.5" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-11  TTAT516T  Europe=4 [0.1%]  orf1ab polyprotein, M85V</title>
-	<circle cx="1228" cy="1054" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-01-11 South America=2</title>
+	<line x1="1216.4" y1="1114.5" x2="1217.1" y2="1110.7" style="stroke:lime;" class="sb" />
+</g>
+<g>
+	<title>2021-01-11  TTAT516T  Europe=6 [0.1%]  orf1ab polyprotein, M85V</title>
+	<circle cx="1228" cy="1054" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  TATG517T  Europe=3 [0.1%]  orf1ab polyprotein, M85V</title>
 	<circle cx="1228" cy="1054" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  AATA6509A  Europe=2 [0.1%]  orf1ab polyprotein, N2082S</title>
-	<circle cx="1263" cy="873" r="1" style="fill:cyan;" class="cv" />
+	<title>2021-01-11  AATA6509A  Europe=4 [0.1%]  orf1ab polyprotein, N2082S</title>
+	<circle cx="1263" cy="873" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  TT11083T  Europe=30 [0.8%]  orf1ab polyprotein, L3606F</title>
+	<title>2021-01-11  TT11083T  Europe=30 [0.7%]  orf1ab polyprotein, L3606F</title>
 	<circle cx="1289" cy="735" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  TT21576T  Europe=4 [0.1%]  surface glycoprotein, V6F</title>
-	<circle cx="1350" cy="418" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1350" cy="418" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  ATTA21993A  Europe=1224 [33.1%]  surface glycoprotein, Y145H</title>
-	<circle cx="1352" cy="405" r="12" style="fill:cyan;" class="cv" />
+	<title>2021-01-11  ATTA21993A  Europe=1418 [33.3%]  surface glycoprotein, Y145H</title>
+	<circle cx="1352" cy="405" r="13" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  ATTA21993A  North America=22 [5.9%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-11  ATTA21993A  North America=22 [4.5%]  surface glycoprotein, Y145H</title>
 	<circle cx="1352" cy="405" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  ATTA21993A  North America=22 [5.9%] Africa=17 [47.2%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-11  ATTA21993A  North America=22 [4.5%] Africa=17 [42.5%]  surface glycoprotein, Y145H</title>
 	<circle cx="1352" cy="405" r="5" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  ATTA21993A  North America=22 [5.9%] Africa=17 [47.2%] Asia=7 [43.8%]  surface glycoprotein, Y145H</title>
-	<circle cx="1352" cy="405" r="3" style="fill:white;" class="cv" />
+	<title>2021-01-11  ATTA21993A  North America=22 [4.5%] Africa=17 [42.5%] Asia=7 [43.8%]  surface glycoprotein, Y145H</title>
+	<circle cx="1352" cy="405" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  ATTA22190A  Europe=10 [0.3%]  surface glycoprotein, I210N</title>
-	<circle cx="1353" cy="400" r="4" style="fill:cyan;" class="cv" />
+	<title>2021-01-11  ATTA22190A  Europe=13 [0.3%]  surface glycoprotein, I210N</title>
+	<circle cx="1353" cy="400" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  TT26306T  Europe=9 [0.2%]  envelope protein, A22L</title>
+	<title>2021-01-11  GTTA26158G  Europe=2 [0.0%]  ORF3a protein, V256D</title>
+	<circle cx="1376" cy="280" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  TT26306T  Europe=10 [0.2%]  envelope protein, A22L</title>
 	<circle cx="1377" cy="275" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -614,432 +678,672 @@
 	<circle cx="1392" cy="197" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  TT29589T  Europe=19 [0.5%]  ORF10 protein, F11L</title>
+	<title>2021-01-11  TT29589T  Europe=20 [0.5%]  ORF10 protein, F11L</title>
 	<circle cx="1396" cy="176" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-12 Europe=1681</title>
-	<line x1="1202.1" y1="1190.2" x2="1207.3" y2="1165.0" style="stroke:cyan;" class="sb" />
+	<title>2021-01-12 Europe=2140</title>
+	<line x1="1202.1" y1="1190.2" x2="1207.5" y2="1164.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-12 North America=300</title>
-	<line x1="1207.3" y1="1165.0" x2="1211.4" y2="1145.5" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-12 North America=370</title>
+	<line x1="1207.5" y1="1164.1" x2="1211.7" y2="1144.0" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-12 Asia=11</title>
-	<line x1="1211.4" y1="1145.5" x2="1213.2" y2="1137.1" style="stroke:white;" class="sb" />
+	<line x1="1211.7" y1="1144.0" x2="1213.5" y2="1135.6" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-12 Africa=10</title>
-	<line x1="1213.2" y1="1137.1" x2="1214.9" y2="1128.9" style="stroke:orange;" class="sb" />
+	<title>2021-01-12 Africa=14</title>
+	<line x1="1213.5" y1="1135.6" x2="1215.4" y2="1126.4" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2021-01-12 Oceania=2</title>
-	<line x1="1214.9" y1="1128.9" x2="1215.7" y2="1125.2" style="stroke:yellow;" class="sb" />
+	<line x1="1215.4" y1="1126.4" x2="1216.2" y2="1122.6" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-12  ATTA21993A  Europe=1114 [66.3%]  surface glycoprotein, Y145H</title>
-	<circle cx="1366" cy="408" r="12" style="fill:cyan;" class="cv" />
+	<title>2021-01-12  ATTA21993A  Europe=1355 [63.3%]  surface glycoprotein, Y145H</title>
+	<circle cx="1366" cy="408" r="13" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-12  ATTA21993A  North America=10 [3.3%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-12  ATTA21993A  North America=11 [3.0%]  surface glycoprotein, Y145H</title>
 	<circle cx="1366" cy="408" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-12  ATTA21993A  North America=10 [3.3%] Asia=8 [72.7%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-12  ATTA21993A  North America=11 [3.0%] Asia=8 [72.7%]  surface glycoprotein, Y145H</title>
 	<circle cx="1366" cy="408" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12  GTTA26158G  Europe=2 [0.1%]  ORF3a protein, V256D</title>
-	<circle cx="1392" cy="283" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1392" cy="283" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-13 Europe=898</title>
-	<line x1="1202.2" y1="1190.2" x2="1207.5" y2="1167.2" style="stroke:cyan;" class="sb" />
+	<title>2021-01-12  AATT27578A  Europe=19 [0.9%]  ORF7a protein, Q62H</title>
+	<circle cx="1401" cy="240" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-13 North America=155</title>
-	<line x1="1207.5" y1="1167.2" x2="1211.4" y2="1150.1" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-13 Europe=1427</title>
+	<line x1="1202.2" y1="1190.2" x2="1207.8" y2="1165.6" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-13 North America=246</title>
+	<line x1="1207.8" y1="1165.6" x2="1212.1" y2="1147.0" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-13 Asia=13</title>
-	<line x1="1211.4" y1="1150.1" x2="1213.4" y2="1141.2" style="stroke:white;" class="sb" />
+	<line x1="1212.1" y1="1147.0" x2="1214.1" y2="1138.0" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-13 Africa=7</title>
-	<line x1="1213.4" y1="1141.2" x2="1215.0" y2="1134.1" style="stroke:orange;" class="sb" />
+	<title>2021-01-13 Africa=10</title>
+	<line x1="1214.1" y1="1138.0" x2="1215.9" y2="1129.9" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2021-01-13 Oceania=4</title>
-	<line x1="1215.0" y1="1134.1" x2="1216.2" y2="1128.7" style="stroke:yellow;" class="sb" />
+	<line x1="1215.9" y1="1129.9" x2="1217.2" y2="1124.5" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-13 South America=6</title>
-	<line x1="1216.2" y1="1128.7" x2="1217.7" y2="1122.1" style="stroke:lime;" class="sb" />
+	<title>2021-01-13 South America=7</title>
+	<line x1="1217.2" y1="1124.5" x2="1218.8" y2="1117.4" style="stroke:lime;" class="sb" />
 </g>
 <g>
-	<title>2021-01-13  ATTA21993A  Europe=490 [54.6%]  surface glycoprotein, Y145H</title>
-	<circle cx="1380" cy="411" r="11" style="fill:cyan;" class="cv" />
+	<title>2021-01-13  ATTA21993A  Europe=801 [56.1%]  surface glycoprotein, Y145H</title>
+	<circle cx="1380" cy="411" r="12" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-13  ATTA21993A  Europe=490 [54.6%] Asia=8 [61.5%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-13  ATTA21993A  North America=11 [4.5%]  surface glycoprotein, Y145H</title>
+	<circle cx="1380" cy="411" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-13  ATTA21993A  North America=11 [4.5%] Asia=8 [61.5%]  surface glycoprotein, Y145H</title>
 	<circle cx="1380" cy="411" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-13  ATTA21993A  North America=6 [3.9%]  surface glycoprotein, Y145H</title>
-	<circle cx="1380" cy="411" r="3" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-13  T24910TCACA  Europe=3 [0.2%]  surface glycoprotein, T1117H</title>
+	<circle cx="1399" cy="324" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-14 Europe=1293</title>
-	<line x1="1202.4" y1="1190.3" x2="1208.3" y2="1166.1" style="stroke:cyan;" class="sb" />
+	<title>2021-01-13  AGACA24913A  Europe=3 [0.2%]  surface glycoprotein, D1118T</title>
+	<circle cx="1399" cy="324" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-14 North America=196</title>
-	<line x1="1208.3" y1="1166.1" x2="1212.7" y2="1148.3" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-14 Europe=1732</title>
+	<line x1="1202.4" y1="1190.3" x2="1208.6" y2="1165.1" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-14 North America=336</title>
+	<line x1="1208.6" y1="1165.1" x2="1213.4" y2="1145.5" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-14 Asia=8</title>
-	<line x1="1212.7" y1="1148.3" x2="1214.5" y2="1140.9" style="stroke:white;" class="sb" />
+	<line x1="1213.4" y1="1145.5" x2="1215.2" y2="1138.1" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-14 Africa=7</title>
-	<line x1="1214.5" y1="1140.9" x2="1216.3" y2="1133.9" style="stroke:orange;" class="sb" />
+	<title>2021-01-14 Africa=10</title>
+	<line x1="1215.2" y1="1138.1" x2="1217.2" y2="1130.0" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2021-01-14 Oceania=5</title>
-	<line x1="1216.3" y1="1133.9" x2="1217.7" y2="1127.8" style="stroke:yellow;" class="sb" />
+	<line x1="1217.2" y1="1130.0" x2="1218.7" y2="1123.9" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-14  ATTA21993A  Europe=904 [69.9%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-14 South America=4</title>
+	<line x1="1218.7" y1="1123.9" x2="1220.0" y2="1118.5" style="stroke:lime;" class="sb" />
+</g>
+<g>
+	<title>2021-01-14  AGTT6512A  Europe=3 [0.2%]  orf1ab polyprotein, S2083I</title>
+	<circle cx="1279" cy="877" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-14  ATTA21993A  Europe=1161 [67.0%]  surface glycoprotein, Y145H</title>
 	<circle cx="1393" cy="414" r="12" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-14  ATTA21993A  North America=22 [11.2%]  surface glycoprotein, Y145H</title>
-	<circle cx="1393" cy="414" r="5" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-14  ATTA21993A  North America=23 [6.8%]  surface glycoprotein, Y145H</title>
+	<circle cx="1393" cy="414" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-14  ATTA21993A  North America=22 [11.2%] Asia=6 [75.0%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-14  ATTA21993A  North America=23 [6.8%] Asia=6 [75.0%]  surface glycoprotein, Y145H</title>
 	<circle cx="1393" cy="414" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14  ATTA21993A  Oceania=2 [40.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1393" cy="414" r="1" style="fill:yellow;" class="cv" />
+	<circle cx="1393" cy="414" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-01-14  ATTA22190A  Europe=2 [0.2%]  surface glycoprotein, I210N</title>
-	<circle cx="1395" cy="409" r="1" style="fill:cyan;" class="cv" />
+	<title>2021-01-14  ATTA22190A  Europe=2 [0.1%]  surface glycoprotein, I210N</title>
+	<circle cx="1395" cy="409" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-15 Europe=1014</title>
-	<line x1="1202.6" y1="1190.3" x2="1208.7" y2="1167.1" style="stroke:cyan;" class="sb" />
+	<title>2021-01-15 Europe=1637</title>
+	<line x1="1202.6" y1="1190.3" x2="1209.1" y2="1165.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-15 North America=199</title>
-	<line x1="1208.7" y1="1167.1" x2="1213.4" y2="1149.3" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-15 North America=287</title>
+	<line x1="1209.1" y1="1165.5" x2="1214.1" y2="1146.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-15 Asia=3</title>
-	<line x1="1213.4" y1="1149.3" x2="1214.6" y2="1144.6" style="stroke:white;" class="sb" />
+	<line x1="1214.1" y1="1146.4" x2="1215.4" y2="1141.8" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-15 Africa=25</title>
-	<line x1="1214.6" y1="1144.6" x2="1217.5" y2="1133.7" style="stroke:orange;" class="sb" />
+	<title>2021-01-15 Africa=27</title>
+	<line x1="1215.4" y1="1141.8" x2="1218.3" y2="1130.6" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2021-01-15 Oceania=10</title>
-	<line x1="1217.5" y1="1133.7" x2="1219.6" y2="1125.6" style="stroke:yellow;" class="sb" />
+	<line x1="1218.3" y1="1130.6" x2="1220.5" y2="1122.5" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-15 South America=14</title>
-	<line x1="1219.6" y1="1125.6" x2="1222.0" y2="1116.5" style="stroke:lime;" class="sb" />
+	<title>2021-01-15 South America=18</title>
+	<line x1="1220.5" y1="1122.5" x2="1223.1" y2="1112.6" style="stroke:lime;" class="sb" />
 </g>
 <g>
-	<title>2021-01-15  ATTA21993A  Europe=707 [69.7%]  surface glycoprotein, Y145H</title>
-	<circle cx="1407" cy="418" r="11" style="fill:cyan;" class="cv" />
+	<title>2021-01-15  G18634GT  North America=2 [0.7%]  orf1ab polyprotein, K6125E</title>
+	<circle cx="1380" cy="518" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-15  ATTA21993A  North America=4 [2.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1407" cy="418" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-15  ATTA21993A  Europe=1109 [67.7%]  surface glycoprotein, Y145H</title>
+	<circle cx="1407" cy="418" r="12" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-15  ATTA21993A  North America=4 [2.0%] Oceania=3 [30.0%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-15  ATTA21993A  North America=6 [2.1%]  surface glycoprotein, Y145H</title>
+	<circle cx="1407" cy="418" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-15  ATTA21993A  North America=6 [2.1%] Oceania=3 [30.0%]  surface glycoprotein, Y145H</title>
 	<circle cx="1407" cy="418" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-01-16 Europe=741</title>
-	<line x1="1202.7" y1="1190.4" x2="1209.0" y2="1168.3" style="stroke:cyan;" class="sb" />
+	<title>2021-01-16 Europe=995</title>
+	<line x1="1202.7" y1="1190.4" x2="1209.2" y2="1167.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-16 North America=58</title>
-	<line x1="1209.0" y1="1168.3" x2="1212.8" y2="1154.6" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-16 North America=106</title>
+	<line x1="1209.2" y1="1167.3" x2="1213.7" y2="1151.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-16 Asia=4</title>
-	<line x1="1212.8" y1="1154.6" x2="1214.3" y2="1149.3" style="stroke:white;" class="sb" />
+	<line x1="1213.7" y1="1151.7" x2="1215.2" y2="1146.3" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-16 Oceania=5</title>
-	<line x1="1214.3" y1="1149.3" x2="1216.0" y2="1143.3" style="stroke:yellow;" class="sb" />
+	<line x1="1215.2" y1="1146.3" x2="1216.9" y2="1140.3" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-16  ATTA21993A  Europe=561 [75.7%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-16  ATTA21993A  Europe=704 [70.8%]  surface glycoprotein, Y145H</title>
 	<circle cx="1420" cy="422" r="11" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-16  ATTA21993A  Europe=561 [75.7%] Oceania=4 [80.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1420" cy="422" r="2" style="fill:yellow;" class="cv" />
+	<title>2021-01-16  ATTA21993A  Europe=704 [70.8%] Oceania=4 [80.0%]  surface glycoprotein, Y145H</title>
+	<circle cx="1420" cy="422" r="3" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-01-16  ATTA21993A  North America=3 [5.2%]  surface glycoprotein, Y145H</title>
-	<circle cx="1420" cy="422" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-16  ATTA21993A  North America=4 [3.8%]  surface glycoprotein, Y145H</title>
+	<circle cx="1420" cy="422" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-16  ATTA21993A  North America=3 [5.2%] Asia=2 [50.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1420" cy="422" r="1" style="fill:white;" class="cv" />
+	<title>2021-01-16  ATTA21993A  North America=4 [3.8%] Asia=2 [50.0%]  surface glycoprotein, Y145H</title>
+	<circle cx="1420" cy="422" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-17 Europe=985</title>
-	<line x1="1202.9" y1="1190.4" x2="1209.8" y2="1167.5" style="stroke:cyan;" class="sb" />
+	<title>2021-01-17 Europe=1275</title>
+	<line x1="1202.9" y1="1190.4" x2="1210.1" y2="1166.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-17 North America=41</title>
-	<line x1="1209.8" y1="1167.5" x2="1213.5" y2="1155.1" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-17 North America=68</title>
+	<line x1="1210.1" y1="1166.6" x2="1214.3" y2="1152.6" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-17 Asia=7</title>
-	<line x1="1213.5" y1="1155.1" x2="1215.6" y2="1148.1" style="stroke:white;" class="sb" />
+	<line x1="1214.3" y1="1152.6" x2="1216.4" y2="1145.6" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-17 Oceania=3</title>
-	<line x1="1215.6" y1="1148.1" x2="1217.0" y2="1143.5" style="stroke:yellow;" class="sb" />
+	<line x1="1216.4" y1="1145.6" x2="1217.8" y2="1141.0" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-17  ATTA21993A  Europe=796 [80.8%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-17  ATTA21993A  Europe=978 [76.7%]  surface glycoprotein, Y145H</title>
 	<circle cx="1433" cy="425" r="12" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18 Europe=1285</title>
-	<line x1="1203.0" y1="1190.5" x2="1210.6" y2="1166.8" style="stroke:cyan;" class="sb" />
+	<title>2021-01-18 Europe=3757</title>
+	<line x1="1203.0" y1="1190.5" x2="1211.8" y2="1163.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-18 North America=138</title>
-	<line x1="1210.6" y1="1166.8" x2="1215.9" y2="1150.5" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-18 North America=224</title>
+	<line x1="1211.8" y1="1163.2" x2="1217.5" y2="1145.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-18 Asia=4</title>
-	<line x1="1215.9" y1="1150.5" x2="1217.6" y2="1145.1" style="stroke:white;" class="sb" />
+	<line x1="1217.5" y1="1145.3" x2="1219.2" y2="1140.0" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-18 Oceania=4</title>
-	<line x1="1217.6" y1="1145.1" x2="1219.3" y2="1139.8" style="stroke:yellow;" class="sb" />
+	<line x1="1219.2" y1="1140.0" x2="1220.9" y2="1134.7" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-18 South America=2</title>
-	<line x1="1219.3" y1="1139.8" x2="1220.4" y2="1136.2" style="stroke:lime;" class="sb" />
+	<title>2021-01-18 South America=3</title>
+	<line x1="1220.9" y1="1134.7" x2="1222.4" y2="1130.1" style="stroke:lime;" class="sb" />
 </g>
 <g>
-	<title>2021-01-18  TT11083T  Europe=9 [0.7%]  orf1ab polyprotein, L3606F</title>
-	<circle cx="1344" cy="749" r="4" style="fill:cyan;" class="cv" />
+	<title>2021-01-18  TTAT516T  Europe=2 [0.1%]  orf1ab polyprotein, M85V</title>
+	<circle cx="1245" cy="1059" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  ATTA21993A  Europe=807 [62.8%]  surface glycoprotein, Y145H</title>
-	<circle cx="1447" cy="430" r="12" style="fill:cyan;" class="cv" />
+	<title>2021-01-18  CG8888C  North America=4 [1.8%]  orf1ab polyprotein, R2875P</title>
+	<circle cx="1324" cy="814" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  ATTA21993A  North America=5 [3.6%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-18  TT11083T  Europe=27 [0.7%]  orf1ab polyprotein, L3606F</title>
+	<circle cx="1344" cy="749" r="6" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-18  G18634GT  North America=5 [2.2%]  orf1ab polyprotein, K6125E</title>
+	<circle cx="1415" cy="528" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-18  TT21576T  Europe=3 [0.1%]  surface glycoprotein, V6F</title>
+	<circle cx="1443" cy="442" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-18  ATTA21993A  Europe=1362 [36.3%]  surface glycoprotein, Y145H</title>
+	<circle cx="1447" cy="430" r="13" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-18  ATTA21993A  North America=6 [2.7%]  surface glycoprotein, Y145H</title>
 	<circle cx="1447" cy="430" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  ATTA21993A  North America=5 [3.6%] Asia=2 [50.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1447" cy="430" r="1" style="fill:white;" class="cv" />
+	<title>2021-01-18  ATTA21993A  North America=6 [2.7%] Asia=2 [50.0%]  surface glycoprotein, Y145H</title>
+	<circle cx="1447" cy="430" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  ATTA21993A  North America=5 [3.6%] Asia=2 [50.0%] Oceania=2 [50.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1447" cy="430" r="1" style="fill:yellow;" class="cv" />
+	<title>2021-01-18  ATTA21993A  North America=6 [2.7%] Asia=2 [50.0%] Oceania=2 [50.0%]  surface glycoprotein, Y145H</title>
+	<circle cx="1447" cy="430" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  ATTA22190A  Europe=2 [0.2%]  surface glycoprotein, I210N</title>
-	<circle cx="1448" cy="424" r="1" style="fill:cyan;" class="cv" />
+	<title>2021-01-18  ATTA22190A  Europe=4 [0.1%]  surface glycoprotein, I210N</title>
+	<circle cx="1448" cy="424" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  TT29589T  Europe=2 [0.2%]  ORF10 protein, F11L</title>
-	<circle cx="1518" cy="207" r="1" style="fill:cyan;" class="cv" />
+	<title>2021-01-18  T24910TCACA  Europe=3 [0.1%]  surface glycoprotein, T1117H</title>
+	<circle cx="1474" cy="344" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19 Europe=893</title>
-	<line x1="1203.2" y1="1190.5" x2="1210.8" y2="1168.2" style="stroke:cyan;" class="sb" />
+	<title>2021-01-18  AGACA24913A  Europe=3 [0.1%]  surface glycoprotein, D1118T</title>
+	<circle cx="1474" cy="344" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19 North America=62</title>
-	<line x1="1210.8" y1="1168.2" x2="1215.4" y2="1154.5" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-18  TGTT26157T  Europe=2 [0.1%]  ORF3a protein, V256N</title>
+	<circle cx="1486" cy="308" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19 Asia=8</title>
-	<line x1="1215.4" y1="1154.5" x2="1217.9" y2="1147.3" style="stroke:white;" class="sb" />
+	<title>2021-01-18  GTTA26158G  Europe=5 [0.1%]  ORF3a protein, V256D</title>
+	<circle cx="1486" cy="307" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19 South America=7</title>
-	<line x1="1217.9" y1="1147.3" x2="1220.2" y2="1140.5" style="stroke:lime;" class="sb" />
+	<title>2021-01-18  TT26306T  Europe=5 [0.1%]  envelope protein, A22L</title>
+	<circle cx="1487" cy="303" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19  ATTA21993A  Europe=746 [83.5%]  surface glycoprotein, Y145H</title>
-	<circle cx="1460" cy="434" r="11" style="fill:cyan;" class="cv" />
+	<title>2021-01-18  TT29589T  Europe=13 [0.3%]  ORF10 protein, F11L</title>
+	<circle cx="1518" cy="207" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19  ATTA21993A  Asia=5 [62.5%]  surface glycoprotein, Y145H</title>
-	<circle cx="1460" cy="434" r="3" style="fill:white;" class="cv" />
+	<title>2021-01-19 Europe=1298</title>
+	<line x1="1203.2" y1="1190.5" x2="1211.2" y2="1166.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-19  ATTA21993A  South America=2 [28.6%]  surface glycoprotein, Y145H</title>
-	<circle cx="1460" cy="434" r="1" style="fill:lime;" class="cv" />
+	<title>2021-01-19 North America=145</title>
+	<line x1="1211.2" y1="1166.9" x2="1216.8" y2="1150.5" style="stroke:fuchsia;" class="sb" />
+</g>
+<g>
+	<title>2021-01-19 Asia=33</title>
+	<line x1="1216.8" y1="1150.5" x2="1220.7" y2="1138.9" style="stroke:white;" class="sb" />
+</g>
+<g>
+	<title>2021-01-19 Africa=2</title>
+	<line x1="1220.7" y1="1138.9" x2="1221.9" y2="1135.3" style="stroke:orange;" class="sb" />
+</g>
+<g>
+	<title>2021-01-19 South America=15</title>
+	<line x1="1221.9" y1="1135.3" x2="1225.0" y2="1126.2" style="stroke:lime;" class="sb" />
+</g>
+<g>
+	<title>2021-01-19  CG8888C  North America=3 [2.1%]  orf1ab polyprotein, R2875P</title>
+	<circle cx="1330" cy="816" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  G18634GT  North America=2 [1.4%]  orf1ab polyprotein, K6125E</title>
+	<circle cx="1427" cy="532" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  ATTA21993A  Europe=1037 [79.9%]  surface glycoprotein, Y145H</title>
+	<circle cx="1460" cy="434" r="12" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  ATTA21993A  Asia=16 [48.5%]  surface glycoprotein, Y145H</title>
+	<circle cx="1460" cy="434" r="5" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  ATTA21993A  North America=5 [3.4%]  surface glycoprotein, Y145H</title>
+	<circle cx="1460" cy="434" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  ATTA21993A  North America=5 [3.4%] South America=3 [20.0%]  surface glycoprotein, Y145H</title>
+	<circle cx="1460" cy="434" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-01-19  ATTA22190A  Europe=2 [0.2%]  surface glycoprotein, I210N</title>
-	<circle cx="1462" cy="428" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1462" cy="428" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-20 Europe=265</title>
-	<line x1="1203.4" y1="1190.6" x2="1209.9" y2="1172.3" style="stroke:cyan;" class="sb" />
+	<title>2021-01-19  AATT28064A  Europe=2 [0.2%]  ORF8 protein, I58E</title>
+	<circle cx="1520" cy="257" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-20 North America=18</title>
-	<line x1="1209.9" y1="1172.3" x2="1213.4" y2="1162.7" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-19  CA28253C  North America=2 [1.4%]  ORF8 protein, I121S</title>
+	<circle cx="1522" cy="251" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-20 Asia=3</title>
-	<line x1="1213.4" y1="1162.7" x2="1215.0" y2="1158.2" style="stroke:white;" class="sb" />
+	<title>2021-01-20 Europe=901</title>
+	<line x1="1203.4" y1="1190.6" x2="1211.4" y2="1168.3" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-20 North America=83</title>
+	<line x1="1211.4" y1="1168.3" x2="1216.6" y2="1153.8" style="stroke:fuchsia;" class="sb" />
+</g>
+<g>
+	<title>2021-01-20 Asia=13</title>
+	<line x1="1216.6" y1="1153.8" x2="1219.6" y2="1145.2" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-20 South America=4</title>
-	<line x1="1215.0" y1="1158.2" x2="1216.9" y2="1152.9" style="stroke:lime;" class="sb" />
+	<line x1="1219.6" y1="1145.2" x2="1221.5" y2="1139.9" style="stroke:lime;" class="sb" />
 </g>
 <g>
-	<title>2021-01-20  ATTA21993A  Europe=186 [70.2%]  surface glycoprotein, Y145H</title>
-	<circle cx="1473" cy="439" r="9" style="fill:cyan;" class="cv" />
+	<title>2021-01-20  CG8888C  North America=3 [3.6%]  orf1ab polyprotein, R2875P</title>
+	<circle cx="1337" cy="818" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-21 Europe=204</title>
-	<line x1="1203.5" y1="1190.6" x2="1210.1" y2="1173.3" style="stroke:cyan;" class="sb" />
+	<title>2021-01-20  G18634GT  North America=6 [7.2%]  orf1ab polyprotein, K6125E</title>
+	<circle cx="1438" cy="536" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-21 North America=41</title>
-	<line x1="1210.1" y1="1173.3" x2="1214.7" y2="1161.2" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-20  ATTA21993A  Europe=712 [79.0%]  surface glycoprotein, Y145H</title>
+	<circle cx="1473" cy="439" r="11" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-21 Asia=4</title>
-	<line x1="1214.7" y1="1161.2" x2="1216.6" y2="1156.0" style="stroke:white;" class="sb" />
+	<title>2021-01-20  ATTA21993A  Europe=712 [79.0%] Asia=10 [76.9%]  surface glycoprotein, Y145H</title>
+	<circle cx="1473" cy="439" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-21 Oceania=3</title>
-	<line x1="1216.6" y1="1156.0" x2="1218.3" y2="1151.5" style="stroke:yellow;" class="sb" />
+	<title>2021-01-21 Europe=861</title>
+	<line x1="1203.5" y1="1190.6" x2="1211.8" y2="1168.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-21  ATTA21993A  Europe=165 [80.9%]  surface glycoprotein, Y145H</title>
-	<circle cx="1486" cy="443" r="9" style="fill:cyan;" class="cv" />
+	<title>2021-01-21 North America=95</title>
+	<line x1="1211.8" y1="1168.7" x2="1217.4" y2="1153.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2021-01-21  ATTA21993A  Oceania=2 [66.7%]  surface glycoprotein, Y145H</title>
-	<circle cx="1486" cy="443" r="1" style="fill:yellow;" class="cv" />
+	<title>2021-01-21 Asia=47</title>
+	<line x1="1217.4" y1="1153.8" x2="1222.2" y2="1141.3" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-22 Europe=172</title>
-	<line x1="1203.7" y1="1190.7" x2="1210.3" y2="1174.1" style="stroke:cyan;" class="sb" />
+	<title>2021-01-21 Oceania=4</title>
+	<line x1="1222.2" y1="1141.3" x2="1224.2" y2="1136.0" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-22 North America=11</title>
-	<line x1="1210.3" y1="1174.1" x2="1213.5" y2="1166.1" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-21 South America=2</title>
+	<line x1="1224.2" y1="1136.0" x2="1225.5" y2="1132.5" style="stroke:lime;" class="sb" />
 </g>
 <g>
-	<title>2021-01-22 Asia=8</title>
-	<line x1="1213.5" y1="1166.1" x2="1216.3" y2="1159.0" style="stroke:white;" class="sb" />
+	<title>2021-01-21  CG8888C  North America=2 [2.1%]  orf1ab polyprotein, R2875P</title>
+	<circle cx="1343" cy="820" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-22 South America=4</title>
-	<line x1="1216.3" y1="1159.0" x2="1218.4" y2="1153.8" style="stroke:lime;" class="sb" />
+	<title>2021-01-21  G18634GT  North America=2 [2.1%]  orf1ab polyprotein, K6125E</title>
+	<circle cx="1450" cy="540" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-22  ATTA21993A  Europe=139 [80.8%]  surface glycoprotein, Y145H</title>
-	<circle cx="1499" cy="448" r="9" style="fill:cyan;" class="cv" />
+	<title>2021-01-21  ATTA21993A  Europe=718 [83.4%]  surface glycoprotein, Y145H</title>
+	<circle cx="1486" cy="443" r="11" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-22  ATTA21993A  Asia=3 [37.5%]  surface glycoprotein, Y145H</title>
-	<circle cx="1499" cy="448" r="2" style="fill:white;" class="cv" />
+	<title>2021-01-21  ATTA21993A  Asia=28 [59.6%]  surface glycoprotein, Y145H</title>
+	<circle cx="1486" cy="443" r="6" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-23 Europe=128</title>
-	<line x1="1203.9" y1="1190.8" x2="1210.4" y2="1175.2" style="stroke:cyan;" class="sb" />
+	<title>2021-01-21  ATTA21993A  North America=6 [6.3%]  surface glycoprotein, Y145H</title>
+	<circle cx="1486" cy="443" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-21  ATTA21993A  North America=6 [6.3%] Oceania=2 [50.0%]  surface glycoprotein, Y145H</title>
+	<circle cx="1486" cy="443" r="2" style="fill:yellow;" class="cv" />
+</g>
+<g>
+	<title>2021-01-21  TGTT26157T  Europe=2 [0.2%]  ORF3a protein, V256N</title>
+	<circle cx="1531" cy="323" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22 Europe=1224</title>
+	<line x1="1203.7" y1="1190.7" x2="1212.8" y2="1167.8" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-22 North America=65</title>
+	<line x1="1212.8" y1="1167.8" x2="1218.2" y2="1154.2" style="stroke:fuchsia;" class="sb" />
+</g>
+<g>
+	<title>2021-01-22 Asia=21</title>
+	<line x1="1218.2" y1="1154.2" x2="1222.2" y2="1144.3" style="stroke:white;" class="sb" />
+</g>
+<g>
+	<title>2021-01-22 Oceania=4</title>
+	<line x1="1222.2" y1="1144.3" x2="1224.3" y2="1139.1" style="stroke:yellow;" class="sb" />
+</g>
+<g>
+	<title>2021-01-22 South America=8</title>
+	<line x1="1224.3" y1="1139.1" x2="1227.1" y2="1132.0" style="stroke:lime;" class="sb" />
+</g>
+<g>
+	<title>2021-01-22  ATTA21993A  Europe=1065 [87.0%]  surface glycoprotein, Y145H</title>
+	<circle cx="1499" cy="448" r="12" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  ATTA21993A  Asia=15 [71.4%]  surface glycoprotein, Y145H</title>
+	<circle cx="1499" cy="448" r="5" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  ATTA21993A  North America=4 [6.2%]  surface glycoprotein, Y145H</title>
+	<circle cx="1499" cy="448" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  ATTA21993A  North America=4 [6.2%] South America=3 [37.5%]  surface glycoprotein, Y145H</title>
+	<circle cx="1499" cy="448" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  AATT27578A  Europe=4 [0.3%]  ORF7a protein, Q62H</title>
+	<circle cx="1563" cy="289" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-23 Europe=712</title>
+	<line x1="1203.9" y1="1190.8" x2="1212.7" y2="1169.7" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-23 North America=26</title>
+	<line x1="1212.7" y1="1169.7" x2="1217.1" y2="1159.1" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-23 Asia=4</title>
-	<line x1="1210.4" y1="1175.2" x2="1212.5" y2="1170.0" style="stroke:white;" class="sb" />
+	<line x1="1217.1" y1="1159.1" x2="1219.2" y2="1154.0" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-23  ATTA21993A  Europe=108 [84.4%]  surface glycoprotein, Y145H</title>
-	<circle cx="1512" cy="454" r="8" style="fill:cyan;" class="cv" />
+	<title>2021-01-23  ATTA21993A  Europe=628 [88.2%]  surface glycoprotein, Y145H</title>
+	<circle cx="1512" cy="454" r="11" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-24 Europe=14</title>
-	<line x1="1204.0" y1="1190.8" x2="1207.8" y2="1182.2" style="stroke:cyan;" class="sb" />
+	<title>2021-01-24 Europe=511</title>
+	<line x1="1204.0" y1="1190.8" x2="1212.7" y2="1171.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2021-01-24 Asia=2</title>
-	<line x1="1207.8" y1="1182.2" x2="1209.3" y2="1178.7" style="stroke:white;" class="sb" />
+	<title>2021-01-24 North America=14</title>
+	<line x1="1212.7" y1="1171.0" x2="1216.5" y2="1162.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2021-01-24  ATTA21993A  Europe=2 [14.3%]  surface glycoprotein, Y145H</title>
-	<circle cx="1525" cy="459" r="1" style="fill:cyan;" class="cv" />
+	<title>2021-01-24 Asia=3</title>
+	<line x1="1216.5" y1="1162.4" x2="1218.4" y2="1158.0" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-25 Europe=4</title>
-	<line x1="1204.2" y1="1190.9" x2="1206.5" y2="1185.8" style="stroke:cyan;" class="sb" />
+	<title>2021-01-24 Oceania=2</title>
+	<line x1="1218.4" y1="1158.0" x2="1220.0" y2="1154.5" style="stroke:yellow;" class="sb" />
 </g>
 <g>
-	<title>2021-01-25 North America=19</title>
-	<line x1="1206.5" y1="1185.8" x2="1210.8" y2="1176.4" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-24  ATTA21993A  Europe=448 [87.7%]  surface glycoprotein, Y145H</title>
+	<circle cx="1525" cy="459" r="11" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25 Asia=3</title>
-	<line x1="1210.8" y1="1176.4" x2="1212.9" y2="1172.0" style="stroke:white;" class="sb" />
+	<title>2021-01-24  ATTA21993A  Asia=2 [66.7%]  surface glycoprotein, Y145H</title>
+	<circle cx="1525" cy="459" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  ATTA21993A  North America=2 [10.5%]  surface glycoprotein, Y145H</title>
-	<circle cx="1538" cy="465" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-24  AATT28064A  Europe=2 [0.4%]  ORF8 protein, I58E</title>
+	<circle cx="1600" cy="288" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-26 North America=6</title>
-	<line x1="1204.3" y1="1191.0" x2="1207.3" y2="1184.9" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-25 Europe=1630</title>
+	<line x1="1204.2" y1="1190.9" x2="1214.9" y2="1167.6" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-25 North America=110</title>
+	<line x1="1214.9" y1="1167.6" x2="1221.7" y2="1152.7" style="stroke:fuchsia;" class="sb" />
+</g>
+<g>
+	<title>2021-01-25 Asia=4</title>
+	<line x1="1221.7" y1="1152.7" x2="1224.1" y2="1147.6" style="stroke:white;" class="sb" />
+</g>
+<g>
+	<title>2021-01-25 South America=2</title>
+	<line x1="1224.1" y1="1147.6" x2="1225.6" y2="1144.1" style="stroke:lime;" class="sb" />
+</g>
+<g>
+	<title>2021-01-25  TT11083T  Europe=6 [0.4%]  orf1ab polyprotein, L3606F</title>
+	<circle cx="1397" cy="770" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-25  ATTA21993A  Europe=1054 [64.7%]  surface glycoprotein, Y145H</title>
+	<circle cx="1538" cy="465" r="12" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-25  ATTA21993A  North America=4 [3.6%]  surface glycoprotein, Y145H</title>
+	<circle cx="1538" cy="465" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-25  T24910TCACA  Europe=5 [0.3%]  surface glycoprotein, T1117H</title>
+	<circle cx="1575" cy="383" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-25  AGACA24913A  Europe=5 [0.3%]  surface glycoprotein, D1118T</title>
+	<circle cx="1575" cy="383" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-26 Europe=113</title>
+	<line x1="1204.3" y1="1191.0" x2="1211.4" y2="1176.1" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-26 North America=37</title>
+	<line x1="1211.4" y1="1176.1" x2="1216.9" y2="1164.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-26 Asia=5</title>
-	<line x1="1207.3" y1="1184.9" x2="1209.9" y2="1179.3" style="stroke:white;" class="sb" />
+	<line x1="1216.9" y1="1164.8" x2="1219.6" y2="1159.1" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-26  ATTA21993A  North America=3 [50.0%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-26  ATTA21993A  Europe=74 [65.5%]  surface glycoprotein, Y145H</title>
+	<circle cx="1550" cy="471" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-26  ATTA21993A  North America=3 [8.1%]  surface glycoprotein, Y145H</title>
 	<circle cx="1550" cy="471" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-27 North America=3</title>
-	<line x1="1204.5" y1="1191.1" x2="1206.6" y2="1186.8" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-27 Europe=64</title>
+	<line x1="1204.5" y1="1191.1" x2="1211.0" y2="1178.1" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-27 North America=49</title>
+	<line x1="1211.0" y1="1178.1" x2="1217.1" y2="1165.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-27 Asia=5</title>
-	<line x1="1206.6" y1="1186.8" x2="1209.4" y2="1181.2" style="stroke:white;" class="sb" />
+	<line x1="1217.1" y1="1165.9" x2="1219.9" y2="1160.4" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-01-27  ATTA21993A  Asia=3 [60.0%]  surface glycoprotein, Y145H</title>
+	<title>2021-01-27  ATTA21993A  Europe=39 [60.9%]  surface glycoprotein, Y145H</title>
+	<circle cx="1563" cy="477" r="6" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-27  ATTA21993A  Europe=39 [60.9%] Asia=3 [60.0%]  surface glycoprotein, Y145H</title>
 	<circle cx="1563" cy="477" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-28 North America=8</title>
-	<line x1="1204.6" y1="1191.1" x2="1208.2" y2="1184.4" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-27  ATTA21993A  North America=2 [4.1%]  surface glycoprotein, Y145H</title>
+	<circle cx="1563" cy="477" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-28  ATTA21993A  North America=2 [25.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1575" cy="483" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-28 Europe=12</title>
+	<line x1="1204.6" y1="1191.1" x2="1208.8" y2="1183.2" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-28 North America=19</title>
+	<line x1="1208.8" y1="1183.2" x2="1213.6" y2="1174.0" style="stroke:fuchsia;" class="sb" />
+</g>
+<g>
+	<title>2021-01-28 Asia=3</title>
+	<line x1="1213.6" y1="1174.0" x2="1215.8" y2="1169.8" style="stroke:white;" class="sb" />
+</g>
+<g>
+	<title>2021-01-28 Oceania=2</title>
+	<line x1="1215.8" y1="1169.8" x2="1217.6" y2="1166.4" style="stroke:yellow;" class="sb" />
+</g>
+<g>
+	<title>2021-01-28  ATTA21993A  Europe=5 [41.7%]  surface glycoprotein, Y145H</title>
+	<circle cx="1575" cy="483" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-28  ATTA21993A  North America=2 [10.5%]  surface glycoprotein, Y145H</title>
+	<circle cx="1575" cy="483" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-29 Europe=6</title>
+	<line x1="1204.8" y1="1191.2" x2="1208.0" y2="1185.3" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-29 North America=19</title>
+	<line x1="1208.0" y1="1185.3" x2="1213.0" y2="1176.1" style="stroke:fuchsia;" class="sb" />
+</g>
+<g>
+	<title>2021-01-29 Asia=2</title>
+	<line x1="1213.0" y1="1176.1" x2="1214.8" y2="1172.8" style="stroke:white;" class="sb" />
+</g>
+<g>
+	<title>2021-01-29  ATTA21993A  Europe=3 [50.0%]  surface glycoprotein, Y145H</title>
+	<circle cx="1587" cy="490" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-30 North America=6</title>
+	<line x1="1204.9" y1="1191.3" x2="1208.3" y2="1185.4" style="stroke:fuchsia;" class="sb" />
+</g>
+<g>
+	<title>2021-01-30 Asia=6</title>
+	<line x1="1208.3" y1="1185.4" x2="1211.6" y2="1179.5" style="stroke:white;" class="sb" />
+</g>
+<g>
+	<title>2021-01-31 Asia=5</title>
+	<line x1="1205.1" y1="1191.4" x2="1208.3" y2="1186.0" style="stroke:white;" class="sb" />
 </g>
 <rect x="1865" y="140" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="170" fill="white">Data from 6 continents</text>
 <text font-size="1.8em" x="1880" y="200" fill="white">Total genomes≥10  Genomes/day≥2</text>
-<text font-size="1.8em" x="1880" y="230" fill="white">20 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-04</text>
+<text font-size="1.8em" x="1880" y="230" fill="white">26 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-05</text>
 </svg>

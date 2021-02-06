@@ -32,7 +32,7 @@
 <title>main menu</title>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 mutations 2021 timemap</text>
 </a>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 252 GISAID genomes</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 365 GISAID genomes</text>
 <line x1="1200" y1="83.1314031180401" x2="1200" y2="133.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="73.1314031180401" fill="white">Winter</text>
 <line x1="2267" y1="1200" x2="2317" y2="1200" style="stroke:white;stroke-width:4" />
@@ -62,11 +62,11 @@
 <text font-size="2.0em" x="1215" y="1084" fill="white">21.5 kb</text>
 <text font-size="2.5em" x="110" y="175" fill="white">Top regions</text>
 <circle cx="60" cy="205" r="8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="215" fill="white">Singapore</text>
+<text font-size="2.0em" x="75" y="215" fill="white">Turkey</text>
 <circle cx="60" cy="235" r="8" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="245" fill="white">Jordan</text>
+<text font-size="2.0em" x="75" y="245" fill="white">Singapore</text>
 <circle cx="60" cy="265" r="8" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="275" fill="white">Turkey</text>
+<text font-size="2.0em" x="75" y="275" fill="white">Jordan</text>
 <circle cx="60" cy="295" r="8" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="2.0em" x="75" y="305" fill="white">Thailand</text>
 <circle cx="60" cy="325" r="8" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
@@ -82,32 +82,34 @@
 <circle cx="60" cy="475" r="8" style="fill:#7FFFD4;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="2.0em" x="75" y="485" fill="white">Palestine</text>
 <circle cx="280" cy="205" r="8" style="fill:#FFD700;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="295" y="215" fill="white">Taiwan</text>
+<text font-size="2.0em" x="295" y="215" fill="white">Japan</text>
 <circle cx="280" cy="235" r="8" style="fill:#ADD8E6;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="295" y="245" fill="white">Iraq</text>
+<text font-size="2.0em" x="295" y="245" fill="white">Taiwan</text>
 <circle cx="280" cy="265" r="8" style="fill:#F08080;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="295" y="275" fill="white">Myanmar</text>
-<circle cx="60" cy="530" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="101" cy="530" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="142" cy="530" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="183" cy="530" r="12" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="2.0em" x="295" y="275" fill="white">Iraq</text>
+<circle cx="280" cy="295" r="8" style="fill:#b2df8a;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="295" y="305" fill="white">Myanmar</text>
+<circle cx="60" cy="530" r="1.90848501887865" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="101" cy="530" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="142" cy="530" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="183" cy="530" r="12.0017363099173" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <text font-size="2.0em" x="50" y="575" fill="white">2      10        100        1k</text>
 <text font-size="2.0em" x="50" y="605" fill="white">genome samples</text>
 <g>
 	<title>2021-01-01 Singapore=7</title>
-	<line x1="1200.2" y1="1190.0" x2="1200.2" y2="1185.9" style="stroke:cyan;" class="sb" />
+	<line x1="1200.2" y1="1190.0" x2="1200.2" y2="1185.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-01  T22882G  Singapore=2 [28.6%]  surface glycoprotein, N440K</title>
-	<circle cx="1208" cy="731" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1208" cy="731" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-01  A23403G  Singapore=6 [85.7%]  surface glycoprotein, D614G</title>
-	<circle cx="1210" cy="615" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1210" cy="615" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-02 Jordan=4</title>
-	<line x1="1200.3" y1="1190.0" x2="1200.5" y2="1186.9" style="stroke:fuchsia;" class="sb" />
+	<line x1="1200.3" y1="1190.0" x2="1200.5" y2="1186.9" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-02 Hebei=3</title>
@@ -123,7 +125,7 @@
 </g>
 <g>
 	<title>2021-01-02  ATTA21993A  Jordan=4 [100.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1209" cy="929" r="2" style="fill:fuchsia;" class="cv" />
+	<circle cx="1209" cy="929" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-02  T22020C  Hebei=3 [100.0%]  surface glycoprotein, M153T</title>
@@ -131,43 +133,43 @@
 </g>
 <g>
 	<title>2021-01-02  A23063T  Jordan=4 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1218" cy="691" r="2" style="fill:fuchsia;" class="cv" />
+	<circle cx="1218" cy="691" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-02  C23271A  Jordan=4 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1219" cy="644" r="2" style="fill:fuchsia;" class="cv" />
+	<circle cx="1219" cy="644" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-02  A23403G  Jordan=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1220" cy="615" r="2" style="fill:fuchsia;" class="cv" />
+	<circle cx="1220" cy="615" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-02  A23403G  Jordan=4 [100.0%] Hebei=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1220" cy="615" r="2" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  A23403G  Jordan=4 [100.0%] Hebei=3 [100.0%] Azerbaijan=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1220" cy="615" r="1" style="fill:#6495ED;" class="cv" />
+	<title>2021-01-02  A23403G  Jordan=4 [100.0%] Hebei=3 [100.0%] India=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1220" cy="615" r="2" style="fill:red;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  A23403G  Jordan=4 [100.0%] Hebei=3 [100.0%] Azerbaijan=2 [100.0%] India=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1220" cy="615" r="1" style="fill:red;" class="cv" />
+	<title>2021-01-02  A23403G  Jordan=4 [100.0%] Hebei=3 [100.0%] India=2 [100.0%] Azerbaijan=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1220" cy="615" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2021-01-02  C23604A  Jordan=4 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1222" cy="570" r="2" style="fill:fuchsia;" class="cv" />
+	<circle cx="1222" cy="570" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-02  C23709T  Jordan=4 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1222" cy="547" r="2" style="fill:fuchsia;" class="cv" />
+	<circle cx="1222" cy="547" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-02  T24506G  Jordan=4 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1229" cy="370" r="2" style="fill:fuchsia;" class="cv" />
+	<circle cx="1229" cy="370" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-02  G24914C  Jordan=4 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1232" cy="279" r="2" style="fill:fuchsia;" class="cv" />
+	<circle cx="1232" cy="279" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03 Hebei=7</title>
@@ -175,19 +177,19 @@
 </g>
 <g>
 	<title>2021-01-03  T22020C  Hebei=7 [100.0%]  surface glycoprotein, M153T</title>
-	<circle cx="1214" cy="923" r="3" style="fill:#FFBBFF;" class="cv" />
+	<circle cx="1214" cy="923" r="4" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  A23403G  Hebei=7 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1230" cy="615" r="3" style="fill:#FFBBFF;" class="cv" />
+	<circle cx="1230" cy="615" r="4" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04 Singapore=10</title>
-	<line x1="1200.7" y1="1190.0" x2="1201.0" y2="1185.3" style="stroke:cyan;" class="sb" />
+	<line x1="1200.7" y1="1190.0" x2="1201.0" y2="1185.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-04 Jordan=15</title>
-	<line x1="1201.0" y1="1185.3" x2="1201.4" y2="1179.9" style="stroke:fuchsia;" class="sb" />
+	<line x1="1201.0" y1="1185.3" x2="1201.4" y2="1179.9" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-04 Thailand=8</title>
@@ -211,19 +213,19 @@
 </g>
 <g>
 	<title>2021-01-04  C21846T  Jordan=3 [20.0%]  surface glycoprotein, T95I</title>
-	<circle cx="1216" cy="962" r="2" style="fill:fuchsia;" class="cv" />
+	<circle cx="1216" cy="962" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  ATTA21993A  Jordan=12 [80.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1219" cy="929" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1219" cy="929" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  T22020C  Hebei=4 [100.0%]  surface glycoprotein, M153T</title>
-	<circle cx="1219" cy="923" r="2" style="fill:#FFBBFF;" class="cv" />
+	<circle cx="1219" cy="923" r="3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  C22879A  Singapore=6 [60.0%]  surface glycoprotein, N439K</title>
-	<circle cx="1232" cy="733" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1232" cy="733" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  C22938T  Thailand=8 [100.0%]  surface glycoprotein, S459F</title>
@@ -231,19 +233,19 @@
 </g>
 <g>
 	<title>2021-01-04  A23063T  Jordan=12 [80.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1235" cy="692" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1235" cy="692" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  C23271A  Jordan=12 [80.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1238" cy="645" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1238" cy="645" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  A23403G  Jordan=15 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1240" cy="616" r="5" style="fill:fuchsia;" class="cv" />
+	<circle cx="1240" cy="616" r="5" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  A23403G  Jordan=15 [100.0%] Singapore=10 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1240" cy="616" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1240" cy="616" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  A23403G  Jordan=15 [100.0%] Singapore=10 [100.0%] Thailand=8 [100.0%]  surface glycoprotein, D614G</title>
@@ -255,39 +257,39 @@
 </g>
 <g>
 	<title>2021-01-04  A23403G  Jordan=15 [100.0%] Singapore=10 [100.0%] Thailand=8 [100.0%] Indonesia=6 [100.0%] Hebei=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1240" cy="616" r="2" style="fill:#FFBBFF;" class="cv" />
+	<circle cx="1240" cy="616" r="3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  A23403G  Jordan=15 [100.0%] Singapore=10 [100.0%] Thailand=8 [100.0%] Indonesia=6 [100.0%] Hebei=4 [100.0%] Azerbaijan=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1240" cy="616" r="1" style="fill:#6495ED;" class="cv" />
-</g>
-<g>
-	<title>2021-01-04  C23604G  Singapore=7 [70.0%]  surface glycoprotein, P681R</title>
-	<circle cx="1243" cy="571" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1240" cy="616" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  C23604A  Jordan=12 [80.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1243" cy="571" r="4" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04  C23604G  Singapore=7 [70.0%]  surface glycoprotein, P681R</title>
 	<circle cx="1243" cy="571" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  C23709T  Jordan=12 [80.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1245" cy="548" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1245" cy="548" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  T24506G  Jordan=12 [80.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1257" cy="371" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1257" cy="371" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  G24914C  Jordan=12 [80.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1264" cy="280" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1264" cy="280" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-05 Singapore=4</title>
-	<line x1="1200.9" y1="1190.0" x2="1201.1" y2="1186.9" style="stroke:cyan;" class="sb" />
+	<line x1="1200.9" y1="1190.0" x2="1201.1" y2="1186.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-05 Jordan=7</title>
-	<line x1="1201.1" y1="1186.9" x2="1201.5" y2="1182.9" style="stroke:fuchsia;" class="sb" />
+	<line x1="1201.1" y1="1186.9" x2="1201.5" y2="1182.9" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-05 Thailand=10</title>
@@ -299,11 +301,11 @@
 </g>
 <g>
 	<title>2021-01-05  C21575T  Thailand=7 [70.0%]  surface glycoprotein, L5F</title>
-	<circle cx="1215" cy="1022" r="3" style="fill:orange;" class="cv" />
+	<circle cx="1215" cy="1022" r="4" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-01-05  ATTA21993A  Jordan=7 [100.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1223" cy="930" r="3" style="fill:fuchsia;" class="cv" />
+	<circle cx="1223" cy="930" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-05  C22938T  Thailand=10 [100.0%]  surface glycoprotein, S459F</title>
@@ -311,11 +313,11 @@
 </g>
 <g>
 	<title>2021-01-05  A23063T  Jordan=7 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1244" cy="692" r="3" style="fill:fuchsia;" class="cv" />
+	<circle cx="1244" cy="692" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-05  C23271A  Jordan=7 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1248" cy="646" r="3" style="fill:fuchsia;" class="cv" />
+	<circle cx="1248" cy="646" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-05  A23403G  Thailand=10 [100.0%]  surface glycoprotein, D614G</title>
@@ -323,35 +325,35 @@
 </g>
 <g>
 	<title>2021-01-05  A23403G  Thailand=10 [100.0%] Jordan=7 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1250" cy="617" r="3" style="fill:fuchsia;" class="cv" />
+	<circle cx="1250" cy="617" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-05  A23403G  Thailand=10 [100.0%] Jordan=7 [100.0%] Singapore=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1250" cy="617" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1250" cy="617" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-05  A23403G  Thailand=10 [100.0%] Jordan=7 [100.0%] Singapore=4 [100.0%] Azerbaijan=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1250" cy="617" r="1" style="fill:#6495ED;" class="cv" />
+	<circle cx="1250" cy="617" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2021-01-05  C23604A  Jordan=7 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1254" cy="572" r="3" style="fill:fuchsia;" class="cv" />
+	<circle cx="1254" cy="572" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-05  C23709T  Jordan=7 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1256" cy="549" r="3" style="fill:fuchsia;" class="cv" />
+	<circle cx="1256" cy="549" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-05  T24506G  Jordan=7 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1271" cy="372" r="3" style="fill:fuchsia;" class="cv" />
+	<circle cx="1271" cy="372" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-05  G24914C  Jordan=7 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1279" cy="282" r="3" style="fill:fuchsia;" class="cv" />
+	<circle cx="1279" cy="282" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-06 Jordan=10</title>
-	<line x1="1201.0" y1="1190.1" x2="1201.5" y2="1185.4" style="stroke:fuchsia;" class="sb" />
+	<line x1="1201.0" y1="1190.1" x2="1201.5" y2="1185.4" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-06 Indonesia=6</title>
@@ -359,23 +361,23 @@
 </g>
 <g>
 	<title>2021-01-06  ATTA21993A  Jordan=10 [100.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1228" cy="930" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1228" cy="930" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-06  C22879A  Indonesia=2 [33.3%]  surface glycoprotein, N439K</title>
-	<circle cx="1248" cy="734" r="1" style="fill:yellow;" class="cv" />
+	<circle cx="1248" cy="734" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2021-01-06  A23063T  Jordan=10 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1253" cy="693" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1253" cy="693" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-06  C23271A  Jordan=10 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1257" cy="647" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1257" cy="647" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-06  A23403G  Jordan=10 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1260" cy="618" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1260" cy="618" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-06  A23403G  Jordan=10 [100.0%] Indonesia=6 [100.0%]  surface glycoprotein, D614G</title>
@@ -387,31 +389,47 @@
 </g>
 <g>
 	<title>2021-01-06  C23604A  Jordan=10 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1265" cy="573" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1265" cy="573" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-06  C23709T  Jordan=10 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1267" cy="550" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1267" cy="550" r="4" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-01-06  G24089A  Jordan=3 [30.0%]  surface glycoprotein, D843N</title>
+	<circle cx="1276" cy="466" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-06  T24506G  Jordan=10 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1286" cy="373" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1286" cy="373" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-06  G24914C  Jordan=10 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1295" cy="283" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1295" cy="283" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-07 Singapore=3</title>
-	<line x1="1201.2" y1="1190.1" x2="1201.5" y2="1187.4" style="stroke:cyan;" class="sb" />
+	<line x1="1201.2" y1="1190.1" x2="1201.5" y2="1187.4" style="stroke:fuchsia;" class="sb" />
+</g>
+<g>
+	<title>2021-01-07 Jordan=2</title>
+	<line x1="1201.5" y1="1187.4" x2="1201.8" y2="1185.3" style="stroke:white;" class="sb" />
+</g>
+<g>
+	<title>2021-01-07  ATTA21993A  Jordan=2 [100.0%]  surface glycoprotein, Y145H</title>
+	<circle cx="1233" cy="931" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-07  A23403G  Singapore=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1270" cy="619" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1270" cy="619" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-07  A23403G  Singapore=3 [100.0%] Jordan=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1270" cy="619" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-08 Singapore=2</title>
-	<line x1="1201.4" y1="1190.1" x2="1201.7" y2="1188.0" style="stroke:cyan;" class="sb" />
+	<line x1="1201.4" y1="1190.1" x2="1201.7" y2="1188.0" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-08 Malaysia=5</title>
@@ -427,7 +445,7 @@
 </g>
 <g>
 	<title>2021-01-08  A23403G  Malaysia=5 [100.0%] Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1280" cy="620" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1280" cy="620" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-08  C23664T  Malaysia=5 [100.0%]  surface glycoprotein, A701V</title>
@@ -435,39 +453,39 @@
 </g>
 <g>
 	<title>2021-01-09 Singapore=6</title>
-	<line x1="1201.5" y1="1190.1" x2="1202.1" y2="1186.4" style="stroke:cyan;" class="sb" />
+	<line x1="1201.5" y1="1190.1" x2="1202.1" y2="1186.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-09  A23403G  Singapore=6 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1290" cy="622" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1290" cy="622" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-09  C23664T  Singapore=2 [33.3%]  surface glycoprotein, A701V</title>
-	<circle cx="1299" cy="564" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1299" cy="564" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-09  C24912T  Singapore=2 [33.3%]  surface glycoprotein, T1117I</title>
-	<circle cx="1342" cy="290" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1342" cy="290" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-10 Singapore=4</title>
-	<line x1="1201.7" y1="1190.1" x2="1202.3" y2="1187.0" style="stroke:cyan;" class="sb" />
+	<line x1="1201.7" y1="1190.1" x2="1202.3" y2="1187.0" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-10  C22879A  Singapore=3 [75.0%]  surface glycoprotein, N439K</title>
-	<circle cx="1280" cy="738" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1280" cy="738" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-10  A23403G  Singapore=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1300" cy="623" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1300" cy="623" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-10  C23604G  Singapore=3 [75.0%]  surface glycoprotein, P681R</title>
-	<circle cx="1308" cy="579" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1308" cy="579" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11 Turkey=8</title>
-	<line x1="1201.9" y1="1190.2" x2="1202.7" y2="1186.0" style="stroke:white;" class="sb" />
+	<line x1="1201.9" y1="1190.2" x2="1202.7" y2="1186.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2021-01-11 Indonesia=3</title>
@@ -479,19 +497,19 @@
 </g>
 <g>
 	<title>2021-01-11  ATTA21993A  Turkey=7 [87.5%]  surface glycoprotein, Y145H</title>
-	<circle cx="1251" cy="934" r="3" style="fill:white;" class="cv" />
+	<circle cx="1251" cy="934" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  A23063T  Turkey=7 [87.5%]  surface glycoprotein, N501Y</title>
-	<circle cx="1296" cy="700" r="3" style="fill:white;" class="cv" />
+	<circle cx="1296" cy="700" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  C23271A  Turkey=7 [87.5%]  surface glycoprotein, A570D</title>
-	<circle cx="1305" cy="654" r="3" style="fill:white;" class="cv" />
+	<circle cx="1305" cy="654" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  A23403G  Turkey=8 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1310" cy="625" r="4" style="fill:white;" class="cv" />
+	<circle cx="1310" cy="625" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  A23403G  Turkey=8 [100.0%] Indonesia=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -499,499 +517,687 @@
 </g>
 <g>
 	<title>2021-01-11  A23403G  Turkey=8 [100.0%] Indonesia=3 [100.0%] Malaysia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1310" cy="625" r="1" style="fill:lime;" class="cv" />
+	<circle cx="1310" cy="625" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  C23604A  Turkey=6 [75.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1319" cy="581" r="3" style="fill:white;" class="cv" />
+	<circle cx="1319" cy="581" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  C23664T  Malaysia=2 [100.0%]  surface glycoprotein, A701V</title>
-	<circle cx="1321" cy="568" r="1" style="fill:lime;" class="cv" />
+	<circle cx="1321" cy="568" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  C23709T  Turkey=7 [87.5%]  surface glycoprotein, T716I</title>
-	<circle cx="1323" cy="558" r="3" style="fill:white;" class="cv" />
+	<circle cx="1323" cy="558" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  T24506G  Turkey=6 [75.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1356" cy="384" r="3" style="fill:white;" class="cv" />
+	<circle cx="1356" cy="384" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  G24914C  Turkey=7 [87.5%]  surface glycoprotein, D1118H</title>
-	<circle cx="1374" cy="295" r="3" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2021-01-12 Singapore=3</title>
-	<line x1="1202.1" y1="1190.2" x2="1202.6" y2="1187.6" style="stroke:cyan;" class="sb" />
+	<circle cx="1374" cy="295" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12 Turkey=8</title>
-	<line x1="1202.6" y1="1187.6" x2="1203.5" y2="1183.4" style="stroke:white;" class="sb" />
+	<line x1="1202.1" y1="1190.2" x2="1202.9" y2="1186.0" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-12 Singapore=3</title>
+	<line x1="1202.9" y1="1186.0" x2="1203.5" y2="1183.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-12  ATTA21993A  Turkey=8 [100.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1256" cy="935" r="4" style="fill:white;" class="cv" />
+	<circle cx="1256" cy="935" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12  C22530T  Turkey=2 [25.0%]  surface glycoprotein, T323I</title>
-	<circle cx="1280" cy="817" r="1" style="fill:white;" class="cv" />
+	<circle cx="1280" cy="817" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12  G23012A  Singapore=2 [66.7%]  surface glycoprotein, E484K</title>
-	<circle cx="1302" cy="712" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1302" cy="712" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12  A23063T  Turkey=8 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1305" cy="701" r="4" style="fill:white;" class="cv" />
+	<circle cx="1305" cy="701" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12  C23271A  Turkey=8 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1314" cy="656" r="4" style="fill:white;" class="cv" />
+	<circle cx="1314" cy="656" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12  A23403G  Turkey=8 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1320" cy="627" r="4" style="fill:white;" class="cv" />
+	<circle cx="1320" cy="627" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12  A23403G  Turkey=8 [100.0%] Singapore=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1320" cy="627" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1320" cy="627" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12  C23604A  Turkey=8 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1329" cy="583" r="4" style="fill:white;" class="cv" />
+	<circle cx="1329" cy="583" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12  C23709T  Turkey=8 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1334" cy="560" r="4" style="fill:white;" class="cv" />
+	<circle cx="1334" cy="560" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12  T24506G  Turkey=8 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1370" cy="387" r="4" style="fill:white;" class="cv" />
+	<circle cx="1370" cy="387" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12  G24914C  Turkey=8 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1389" cy="298" r="4" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2021-01-13 Singapore=5</title>
-	<line x1="1202.2" y1="1190.2" x2="1203.0" y2="1186.8" style="stroke:cyan;" class="sb" />
+	<circle cx="1389" cy="298" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-13 Turkey=8</title>
-	<line x1="1203.0" y1="1186.8" x2="1203.9" y2="1182.6" style="stroke:white;" class="sb" />
+	<line x1="1202.2" y1="1190.2" x2="1203.2" y2="1186.1" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-13 Singapore=5</title>
+	<line x1="1203.2" y1="1186.1" x2="1203.9" y2="1182.6" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-13  ATTA21993A  Turkey=8 [100.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1260" cy="935" r="4" style="fill:white;" class="cv" />
+	<circle cx="1260" cy="935" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-13  A23063T  Turkey=8 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1313" cy="703" r="4" style="fill:white;" class="cv" />
+	<circle cx="1313" cy="703" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-13  C23271A  Turkey=8 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1323" cy="658" r="4" style="fill:white;" class="cv" />
+	<circle cx="1323" cy="658" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-13  A23403G  Turkey=8 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1330" cy="629" r="4" style="fill:white;" class="cv" />
+	<circle cx="1330" cy="629" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-13  A23403G  Turkey=8 [100.0%] Singapore=5 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1330" cy="629" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1330" cy="629" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-13  C23604A  Turkey=8 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1340" cy="586" r="4" style="fill:white;" class="cv" />
+	<circle cx="1340" cy="586" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-13  C23709T  Turkey=8 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1345" cy="563" r="4" style="fill:white;" class="cv" />
+	<circle cx="1345" cy="563" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-13  T24506G  Turkey=8 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1384" cy="390" r="4" style="fill:white;" class="cv" />
+	<circle cx="1384" cy="390" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-13  G24914C  Turkey=8 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1405" cy="301" r="4" style="fill:white;" class="cv" />
+	<circle cx="1405" cy="301" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14 Turkey=7</title>
-	<line x1="1202.4" y1="1190.3" x2="1203.4" y2="1186.3" style="stroke:white;" class="sb" />
+	<line x1="1202.4" y1="1190.3" x2="1203.4" y2="1186.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2021-01-14  C21855T  Turkey=2 [28.6%]  surface glycoprotein, S98F</title>
-	<circle cx="1257" cy="966" r="1" style="fill:white;" class="cv" />
+	<circle cx="1257" cy="966" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14  ATTA21993A  Turkey=6 [85.7%]  surface glycoprotein, Y145H</title>
-	<circle cx="1265" cy="937" r="3" style="fill:white;" class="cv" />
+	<circle cx="1265" cy="937" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14  A23063T  Turkey=6 [85.7%]  surface glycoprotein, N501Y</title>
-	<circle cx="1322" cy="705" r="3" style="fill:white;" class="cv" />
+	<circle cx="1322" cy="705" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14  C23271A  Turkey=6 [85.7%]  surface glycoprotein, A570D</title>
-	<circle cx="1333" cy="660" r="3" style="fill:white;" class="cv" />
+	<circle cx="1333" cy="660" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14  A23403G  Turkey=7 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1340" cy="632" r="3" style="fill:white;" class="cv" />
+	<circle cx="1340" cy="632" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14  C23604A  Turkey=7 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1350" cy="588" r="3" style="fill:white;" class="cv" />
+	<circle cx="1350" cy="588" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14  C23709T  Turkey=6 [85.7%]  surface glycoprotein, T716I</title>
-	<circle cx="1356" cy="565" r="3" style="fill:white;" class="cv" />
+	<circle cx="1356" cy="565" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14  T24506G  Turkey=6 [85.7%]  surface glycoprotein, S982A</title>
-	<circle cx="1398" cy="393" r="3" style="fill:white;" class="cv" />
+	<circle cx="1398" cy="393" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14  G24914C  Turkey=6 [85.7%]  surface glycoprotein, D1118H</title>
-	<circle cx="1420" cy="305" r="3" style="fill:white;" class="cv" />
+	<circle cx="1420" cy="305" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14  G25437T  Turkey=2 [28.6%]  ORF3a protein, L15F</title>
-	<circle cx="1448" cy="192" r="1" style="fill:white;" class="cv" />
+	<circle cx="1448" cy="192" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-15 Singapore=3</title>
-	<line x1="1202.6" y1="1190.3" x2="1203.2" y2="1187.7" style="stroke:cyan;" class="sb" />
+	<line x1="1202.6" y1="1190.3" x2="1203.2" y2="1187.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-15  A23403G  Singapore=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1349" cy="634" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1349" cy="634" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-16 Singapore=4</title>
-	<line x1="1202.7" y1="1190.4" x2="1203.6" y2="1187.4" style="stroke:cyan;" class="sb" />
+	<line x1="1202.7" y1="1190.4" x2="1203.6" y2="1187.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-16  ATTA21993A  Singapore=2 [50.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1274" cy="939" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1274" cy="939" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-16  A23063T  Singapore=2 [50.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1339" cy="710" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1339" cy="710" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-16  C23271A  Singapore=2 [50.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1351" cy="665" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1351" cy="665" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-16  A23403G  Singapore=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1359" cy="637" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1359" cy="637" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-16  C23604A  Singapore=2 [50.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1371" cy="594" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1371" cy="594" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-16  C23664T  Singapore=2 [50.0%]  surface glycoprotein, A701V</title>
-	<circle cx="1375" cy="581" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1375" cy="581" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-16  C23709T  Singapore=2 [50.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1378" cy="571" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1378" cy="571" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-16  T24506G  Singapore=2 [50.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1426" cy="400" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1426" cy="400" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-16  G24914C  Singapore=2 [50.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1451" cy="313" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1451" cy="313" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-17 Singapore=6</title>
-	<line x1="1202.9" y1="1190.4" x2="1204.0" y2="1186.8" style="stroke:cyan;" class="sb" />
+	<line x1="1202.9" y1="1190.4" x2="1204.0" y2="1186.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-17  C22227T  Singapore=2 [33.3%]  surface glycoprotein, A222V</title>
-	<circle cx="1293" cy="890" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1293" cy="890" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-17  A23403G  Singapore=6 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1369" cy="640" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1369" cy="640" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-17  G23587T  Singapore=2 [33.3%]  surface glycoprotein, Q675H</title>
-	<circle cx="1381" cy="600" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1381" cy="600" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-17  C23664T  Singapore=4 [66.7%]  surface glycoprotein, A701V</title>
-	<circle cx="1386" cy="584" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1386" cy="584" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18 Singapore=4</title>
-	<line x1="1203.0" y1="1190.5" x2="1204.0" y2="1187.5" style="stroke:cyan;" class="sb" />
+	<line x1="1203.0" y1="1190.5" x2="1204.0" y2="1187.5" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-18  ATTA21993A  Singapore=2 [50.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1283" cy="942" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1283" cy="942" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  A23063T  Singapore=2 [50.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1355" cy="715" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1355" cy="715" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  C23271A  Singapore=2 [50.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1369" cy="671" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1369" cy="671" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  A23403G  Singapore=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1378" cy="643" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1378" cy="643" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  C23604A  Singapore=2 [50.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1392" cy="600" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1392" cy="600" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  C23664T  Singapore=2 [50.0%]  surface glycoprotein, A701V</title>
-	<circle cx="1396" cy="587" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1396" cy="587" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  C23709T  Singapore=2 [50.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1399" cy="578" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1399" cy="578" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  T24506G  Singapore=2 [50.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1453" cy="409" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1453" cy="409" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  G24914C  Singapore=2 [50.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1481" cy="322" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1481" cy="322" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19 Turkey=25</title>
+	<line x1="1203.2" y1="1190.5" x2="1205.3" y2="1184.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2021-01-19 Singapore=8</title>
-	<line x1="1203.2" y1="1190.5" x2="1204.6" y2="1186.5" style="stroke:cyan;" class="sb" />
+	<line x1="1205.3" y1="1184.5" x2="1206.6" y2="1180.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2021-01-19  ATTA21993A  Singapore=5 [62.5%]  surface glycoprotein, Y145H</title>
-	<circle cx="1287" cy="943" r="3" style="fill:cyan;" class="cv" />
+	<title>2021-01-19  ATTA21993A  Turkey=11 [44.0%]  surface glycoprotein, Y145H</title>
+	<circle cx="1287" cy="943" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19  G22427A  Singapore=3 [37.5%]  surface glycoprotein, V289I</title>
+	<title>2021-01-19  ATTA21993A  Turkey=11 [44.0%] Singapore=5 [62.5%]  surface glycoprotein, Y145H</title>
+	<circle cx="1287" cy="943" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  G22427A  Turkey=3 [12.0%]  surface glycoprotein, V289I</title>
 	<circle cx="1318" cy="852" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
+	<title>2021-01-19  G22427A  Turkey=3 [12.0%] Singapore=3 [37.5%]  surface glycoprotein, V289I</title>
+	<circle cx="1318" cy="852" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  A23063T  Turkey=25 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1364" cy="717" r="6" style="fill:cyan;" class="cv" />
+</g>
+<g>
 	<title>2021-01-19  A23063T  Singapore=5 [62.5%]  surface glycoprotein, N501Y</title>
-	<circle cx="1364" cy="717" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1364" cy="717" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19  C23271A  Singapore=5 [62.5%]  surface glycoprotein, A570D</title>
-	<circle cx="1379" cy="674" r="3" style="fill:cyan;" class="cv" />
+	<title>2021-01-19  C23271A  Turkey=11 [44.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1379" cy="674" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19  A23403G  Singapore=8 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1388" cy="646" r="4" style="fill:cyan;" class="cv" />
+	<title>2021-01-19  C23271A  Turkey=11 [44.0%] Singapore=5 [62.5%]  surface glycoprotein, A570D</title>
+	<circle cx="1379" cy="674" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  A23403G  Turkey=25 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1388" cy="646" r="6" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  A23403G  Turkey=25 [100.0%] Singapore=8 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1388" cy="646" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-19  C23481T  Singapore=3 [37.5%]  surface glycoprotein, S640F</title>
-	<circle cx="1394" cy="629" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1394" cy="629" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19  C23604A  Singapore=5 [62.5%]  surface glycoprotein, P681H</title>
-	<circle cx="1402" cy="603" r="3" style="fill:cyan;" class="cv" />
+	<title>2021-01-19  C23604A  Turkey=7 [28.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1402" cy="603" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  C23604A  Turkey=7 [28.0%] Singapore=5 [62.5%]  surface glycoprotein, P681H</title>
+	<circle cx="1402" cy="603" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-19  C23664T  Singapore=3 [37.5%]  surface glycoprotein, A701V</title>
-	<circle cx="1407" cy="591" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1407" cy="591" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19  C23709T  Singapore=5 [62.5%]  surface glycoprotein, T716I</title>
-	<circle cx="1410" cy="581" r="3" style="fill:cyan;" class="cv" />
+	<title>2021-01-19  C23709T  Turkey=11 [44.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1410" cy="581" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19  T24506G  Singapore=5 [62.5%]  surface glycoprotein, S982A</title>
-	<circle cx="1467" cy="413" r="3" style="fill:cyan;" class="cv" />
+	<title>2021-01-19  C23709T  Turkey=11 [44.0%] Singapore=5 [62.5%]  surface glycoprotein, T716I</title>
+	<circle cx="1410" cy="581" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19  G24914C  Singapore=5 [62.5%]  surface glycoprotein, D1118H</title>
-	<circle cx="1496" cy="327" r="3" style="fill:cyan;" class="cv" />
+	<title>2021-01-19  T24506G  Turkey=7 [28.0%]  surface glycoprotein, S982A</title>
+	<circle cx="1467" cy="413" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  T24506G  Turkey=7 [28.0%] Singapore=5 [62.5%]  surface glycoprotein, S982A</title>
+	<circle cx="1467" cy="413" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  G24914C  Turkey=7 [28.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="1496" cy="327" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  G24914C  Turkey=7 [28.0%] Singapore=5 [62.5%]  surface glycoprotein, D1118H</title>
+	<circle cx="1496" cy="327" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-20 Turkey=10</title>
+	<line x1="1203.4" y1="1190.6" x2="1205.0" y2="1186.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2021-01-20 Singapore=2</title>
-	<line x1="1203.4" y1="1190.6" x2="1204.1" y2="1188.6" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1186.2" x2="1205.7" y2="1184.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2021-01-20  A23403G  Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1398" cy="649" r="1" style="fill:cyan;" class="cv" />
+	<title>2021-01-20  ATTA21993A  Turkey=9 [90.0%]  surface glycoprotein, Y145H</title>
+	<circle cx="1292" cy="945" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-20  A23063T  Turkey=10 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1372" cy="720" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-20  C23271A  Turkey=9 [90.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1388" cy="677" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-20  A23403G  Turkey=10 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1398" cy="649" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-20  A23403G  Turkey=10 [100.0%] Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1398" cy="649" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-20  C23604A  Turkey=9 [90.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1413" cy="607" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-20  C23709T  Turkey=9 [90.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1421" cy="585" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-20  T24506G  Turkey=9 [90.0%]  surface glycoprotein, S982A</title>
+	<circle cx="1481" cy="418" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-20  G24914C  Turkey=7 [70.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="1511" cy="332" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-21 Turkey=43</title>
+	<line x1="1203.5" y1="1190.6" x2="1206.2" y2="1183.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2021-01-21 Singapore=4</title>
-	<line x1="1203.5" y1="1190.6" x2="1204.6" y2="1187.7" style="stroke:cyan;" class="sb" />
+	<line x1="1206.2" y1="1183.7" x2="1207.3" y2="1180.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2021-01-21  A23403G  Singapore=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1407" cy="653" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-01-21  ATTA21993A  Turkey=28 [65.1%]  surface glycoprotein, Y145H</title>
+	<circle cx="1296" cy="946" r="6" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-21  A23063T  Turkey=40 [93.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1380" cy="723" r="6" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-21  C23271A  Turkey=29 [67.4%]  surface glycoprotein, A570D</title>
+	<circle cx="1397" cy="680" r="6" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-21  A23403G  Turkey=43 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1407" cy="653" r="7" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-21  A23403G  Turkey=43 [100.0%] Singapore=4 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1407" cy="653" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-21  C23604A  Turkey=28 [65.1%]  surface glycoprotein, P681H</title>
+	<circle cx="1423" cy="611" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-21  C23664T  Singapore=4 [100.0%]  surface glycoprotein, A701V</title>
-	<circle cx="1428" cy="598" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1428" cy="598" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-21  C23709T  Turkey=30 [69.8%]  surface glycoprotein, T716I</title>
+	<circle cx="1431" cy="589" r="6" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-21  C24381T  Turkey=2 [4.7%]  surface glycoprotein, S940F</title>
+	<circle cx="1484" cy="449" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-21  T24506G  Turkey=24 [55.8%]  surface glycoprotein, S982A</title>
+	<circle cx="1494" cy="423" r="6" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-21  G24914C  Turkey=27 [62.8%]  surface glycoprotein, D1118H</title>
+	<circle cx="1526" cy="338" r="6" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22 Turkey=14</title>
+	<line x1="1203.7" y1="1190.7" x2="1205.7" y2="1185.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2021-01-22 Singapore=7</title>
-	<line x1="1203.7" y1="1190.7" x2="1205.2" y2="1186.9" style="stroke:cyan;" class="sb" />
+	<line x1="1205.7" y1="1185.8" x2="1207.2" y2="1182.0" style="stroke:fuchsia;" class="sb" />
+</g>
+<g>
+	<title>2021-01-22  ATTA21993A  Turkey=12 [85.7%]  surface glycoprotein, Y145H</title>
+	<circle cx="1300" cy="948" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-22  ATTA21993A  Singapore=3 [42.9%]  surface glycoprotein, Y145H</title>
-	<circle cx="1300" cy="948" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1300" cy="948" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-22  G22427A  Singapore=2 [28.6%]  surface glycoprotein, V289I</title>
-	<circle cx="1336" cy="858" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1336" cy="858" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  A23063T  Turkey=14 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1388" cy="727" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-22  A23063T  Singapore=3 [42.9%]  surface glycoprotein, N501Y</title>
-	<circle cx="1388" cy="727" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1388" cy="727" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  C23271A  Turkey=12 [85.7%]  surface glycoprotein, A570D</title>
+	<circle cx="1406" cy="683" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-22  C23271A  Singapore=3 [42.9%]  surface glycoprotein, A570D</title>
-	<circle cx="1406" cy="683" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1406" cy="683" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-22  A23403G  Singapore=7 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1416" cy="656" r="3" style="fill:cyan;" class="cv" />
+	<title>2021-01-22  A23403G  Turkey=13 [92.9%]  surface glycoprotein, D614G</title>
+	<circle cx="1416" cy="656" r="5" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  A23403G  Turkey=13 [92.9%] Singapore=7 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1416" cy="656" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-22  C23481T  Singapore=2 [28.6%]  surface glycoprotein, S640F</title>
-	<circle cx="1423" cy="640" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1423" cy="640" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  C23604A  Turkey=12 [85.7%]  surface glycoprotein, P681H</title>
+	<circle cx="1433" cy="615" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-22  C23604A  Singapore=3 [42.9%]  surface glycoprotein, P681H</title>
-	<circle cx="1433" cy="615" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1433" cy="615" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  C23709T  Turkey=12 [85.7%]  surface glycoprotein, T716I</title>
+	<circle cx="1442" cy="593" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-22  C23709T  Singapore=3 [42.9%]  surface glycoprotein, T716I</title>
-	<circle cx="1442" cy="593" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1442" cy="593" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  T24506G  Turkey=12 [85.7%]  surface glycoprotein, S982A</title>
+	<circle cx="1507" cy="428" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-22  T24506G  Singapore=3 [42.9%]  surface glycoprotein, S982A</title>
-	<circle cx="1507" cy="428" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1507" cy="428" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  G24914C  Turkey=12 [85.7%]  surface glycoprotein, D1118H</title>
+	<circle cx="1541" cy="344" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-22  G24914C  Singapore=3 [42.9%]  surface glycoprotein, D1118H</title>
-	<circle cx="1541" cy="344" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1541" cy="344" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-23 Singapore=4</title>
-	<line x1="1203.9" y1="1190.8" x2="1205.1" y2="1187.9" style="stroke:cyan;" class="sb" />
+	<line x1="1203.9" y1="1190.8" x2="1205.1" y2="1187.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-23  T22016C  Singapore=2 [50.0%]  surface glycoprotein, W152R</title>
-	<circle cx="1307" cy="945" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1307" cy="945" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-23  A23403G  Singapore=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1426" cy="660" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1426" cy="660" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-23  G23593C  Singapore=2 [50.0%]  surface glycoprotein, Q677H</title>
-	<circle cx="1442" cy="621" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1442" cy="621" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-23  G24368T  Singapore=2 [50.0%]  surface glycoprotein, D936Y</title>
-	<circle cx="1509" cy="462" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1509" cy="462" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-24 Singapore=2</title>
-	<line x1="1204.0" y1="1190.8" x2="1204.9" y2="1188.9" style="stroke:cyan;" class="sb" />
+	<line x1="1204.0" y1="1190.8" x2="1204.9" y2="1188.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-24  A23403G  Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1435" cy="664" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1435" cy="664" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-25 Singapore=3</title>
-	<line x1="1204.2" y1="1190.9" x2="1205.3" y2="1188.4" style="stroke:cyan;" class="sb" />
+	<line x1="1204.2" y1="1190.9" x2="1205.3" y2="1188.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-25  A23403G  Singapore=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1444" cy="668" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1444" cy="668" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-25  C23664T  Singapore=3 [100.0%]  surface glycoprotein, A701V</title>
-	<circle cx="1468" cy="615" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1468" cy="615" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-26 Singapore=5</title>
-	<line x1="1204.3" y1="1191.0" x2="1205.8" y2="1187.8" style="stroke:cyan;" class="sb" />
+	<line x1="1204.3" y1="1191.0" x2="1205.8" y2="1187.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-26  C21575T  Singapore=3 [60.0%]  surface glycoprotein, L5F</title>
-	<circle cx="1277" cy="1039" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1277" cy="1039" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-26  C21846T  Singapore=3 [60.0%]  surface glycoprotein, T95I</title>
-	<circle cx="1303" cy="985" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1303" cy="985" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-26  A22320G  Singapore=3 [60.0%]  surface glycoprotein, D253G</title>
-	<circle cx="1349" cy="890" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1349" cy="890" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-26  G23012A  Singapore=3 [60.0%]  surface glycoprotein, E484K</title>
-	<circle cx="1416" cy="751" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1416" cy="751" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-26  A23403G  Singapore=5 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1453" cy="672" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1453" cy="672" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-26  C23664T  Singapore=3 [60.0%]  surface glycoprotein, A701V</title>
-	<circle cx="1478" cy="620" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1478" cy="620" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-26  G25456T  Singapore=3 [60.0%]  ORF3a protein, D22Y</title>
-	<circle cx="1651" cy="260" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1651" cy="260" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-27 Singapore=5</title>
-	<line x1="1204.5" y1="1191.1" x2="1206.1" y2="1187.9" style="stroke:cyan;" class="sb" />
+	<line x1="1204.5" y1="1191.1" x2="1206.1" y2="1187.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-27  ATTA21993A  Singapore=3 [60.0%]  surface glycoprotein, Y145H</title>
-	<circle cx="1322" cy="958" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1322" cy="958" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-27  A23063T  Singapore=3 [60.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1428" cy="744" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1428" cy="744" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-27  C23271A  Singapore=3 [60.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1449" cy="703" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1449" cy="703" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-27  A23403G  Singapore=5 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1462" cy="677" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1462" cy="677" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-27  C23604A  Singapore=3 [60.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1482" cy="637" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1482" cy="637" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-27  C23709T  Singapore=3 [60.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1493" cy="616" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1493" cy="616" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-27  T24506G  Singapore=3 [60.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1572" cy="457" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1572" cy="457" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-27  G24914C  Singapore=3 [60.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1613" cy="376" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1613" cy="376" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-28 Singapore=3</title>
+	<line x1="1204.6" y1="1191.1" x2="1205.9" y2="1188.7" style="stroke:fuchsia;" class="sb" />
+</g>
+<g>
+	<title>2021-01-28  A23403G  Singapore=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1471" cy="681" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-29 Singapore=2</title>
+	<line x1="1204.8" y1="1191.2" x2="1205.8" y2="1189.3" style="stroke:fuchsia;" class="sb" />
+</g>
+<g>
+	<title>2021-01-29  A23403G  Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1480" cy="686" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-30 Singapore=4</title>
+	<line x1="1204.9" y1="1191.3" x2="1206.5" y2="1188.6" style="stroke:fuchsia;" class="sb" />
+</g>
+<g>
+	<title>2021-01-30  A23403G  Singapore=4 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1489" cy="691" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-30  C23664T  Singapore=2 [50.0%]  surface glycoprotein, A701V</title>
+	<circle cx="1518" cy="640" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-31 Singapore=4</title>
+	<line x1="1205.1" y1="1191.4" x2="1206.7" y2="1188.7" style="stroke:fuchsia;" class="sb" />
+</g>
+<g>
+	<title>2021-01-31  A23403G  Singapore=4 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1498" cy="696" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <rect x="1865" y="140" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
-<text font-size="1.8em" x="1880" y="170" fill="white">Data from 13 regions in Asia</text>
+<text font-size="1.8em" x="1880" y="170" fill="white">Data from 14 regions in Asia</text>
 <text font-size="1.8em" x="1880" y="200" fill="white">Total genomes≥10  Genomes/day≥2</text>
-<text font-size="1.8em" x="1880" y="230" fill="white">32 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-04</text>
+<text font-size="1.8em" x="1880" y="230" fill="white">34 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-05</text>
 </svg>
