@@ -32,7 +32,7 @@
 <title>main menu</title>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 mutations 2021 timemap</text>
 </a>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 259 GISAID genomes</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 307 GISAID genomes</text>
 <line x1="1200" y1="83.1314031180401" x2="1200" y2="133.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="73.1314031180401" fill="white">Winter</text>
 <line x1="2267" y1="1200" x2="2317" y2="1200" style="stroke:white;stroke-width:4" />
@@ -64,9 +64,9 @@
 <circle cx="60" cy="205" r="8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="2.0em" x="75" y="215" fill="white">Mayotte</text>
 <circle cx="60" cy="235" r="8" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="245" fill="white">Egypt</text>
+<text font-size="2.0em" x="75" y="245" fill="white">South Africa</text>
 <circle cx="60" cy="265" r="8" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="275" fill="white">South Africa</text>
+<text font-size="2.0em" x="75" y="275" fill="white">Egypt</text>
 <circle cx="60" cy="295" r="8" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="2.0em" x="75" y="305" fill="white">Rwanda</text>
 <circle cx="60" cy="325" r="8" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
@@ -78,299 +78,381 @@
 <circle cx="60" cy="415" r="8" style="fill:#6495ED;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="2.0em" x="75" y="425" fill="white">Tunisia</text>
 <circle cx="60" cy="445" r="8" style="fill:red;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="455" fill="white">Congo</text>
+<text font-size="2.0em" x="75" y="455" fill="white">Uganda</text>
 <circle cx="60" cy="475" r="8" style="fill:#7FFFD4;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="485" fill="white">Gambia</text>
+<text font-size="2.0em" x="75" y="485" fill="white">Congo</text>
 <circle cx="280" cy="205" r="8" style="fill:#FFD700;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="295" y="215" fill="white">Botswana</text>
+<text font-size="2.0em" x="295" y="215" fill="white">Gambia</text>
+<circle cx="280" cy="235" r="8" style="fill:#ADD8E6;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="295" y="245" fill="white">Botswana</text>
 <circle cx="60" cy="530" r="1" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <circle cx="100" cy="530" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <circle cx="140" cy="530" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <text font-size="2.0em" x="50" y="575" fill="white">1      10        100% daily</text>
 <text font-size="2.0em" x="50" y="605" fill="white">sample fraction</text>
 <g>
-	<title>2021-01-01 South Africa=4</title>
-	<line x1="1200.2" y1="1190.0" x2="1200.2" y2="1186.9" style="stroke:white;" class="sb" />
+	<title>2021-01-01 South Africa=6</title>
+	<line x1="1200.2" y1="1190.0" x2="1200.2" y2="1186.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2021-01-01  C21614T  South Africa=2 [50.0%]  surface glycoprotein, L18F</title>
-	<circle cx="1203" cy="1013" r="7" style="fill:white;" class="cv" />
+	<title>2021-01-01 Uganda=3</title>
+	<line x1="1200.2" y1="1186.2" x2="1200.3" y2="1183.5" style="stroke:red;" class="sb" />
 </g>
 <g>
-	<title>2021-01-01  A21801C  South Africa=4 [100.0%]  surface glycoprotein, D80A</title>
-	<circle cx="1204" cy="972" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-01  C21614T  South Africa=3 [50.0%]  surface glycoprotein, L18F</title>
+	<circle cx="1203" cy="1013" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-01  A22206G  South Africa=4 [100.0%]  surface glycoprotein, D215G</title>
-	<circle cx="1206" cy="881" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-01  A21801C  South Africa=6 [100.0%]  surface glycoprotein, D80A</title>
+	<circle cx="1204" cy="972" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-01  G22813T  South Africa=4 [100.0%]  surface glycoprotein, K417N</title>
-	<circle cx="1208" cy="746" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-01  G21867T  Uganda=3 [100.0%]  surface glycoprotein, R102I</title>
+	<circle cx="1204" cy="957" r="8" style="fill:red;" class="cv" />
 </g>
 <g>
-	<title>2021-01-01  G23012A  South Africa=4 [100.0%]  surface glycoprotein, E484K</title>
-	<circle cx="1209" cy="702" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-01  C22033A  Uganda=2 [66.7%]  surface glycoprotein, F157L</title>
+	<circle cx="1205" cy="920" r="7" style="fill:red;" class="cv" />
 </g>
 <g>
-	<title>2021-01-01  A23063T  South Africa=4 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1209" cy="690" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-01  A22206G  South Africa=6 [100.0%]  surface glycoprotein, D215G</title>
+	<circle cx="1206" cy="881" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-01  A23403G  South Africa=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1210" cy="615" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-01  G22661T  Uganda=3 [100.0%]  surface glycoprotein, V367F</title>
+	<circle cx="1207" cy="780" r="8" style="fill:red;" class="cv" />
 </g>
 <g>
-	<title>2021-01-01  C23664T  South Africa=4 [100.0%]  surface glycoprotein, A701V</title>
-	<circle cx="1211" cy="557" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-01  G22813T  South Africa=6 [100.0%]  surface glycoprotein, K417N</title>
+	<circle cx="1208" cy="746" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02 South Africa=14</title>
-	<line x1="1200.3" y1="1190.0" x2="1200.5" y2="1184.7" style="stroke:white;" class="sb" />
+	<title>2021-01-01  G23012A  South Africa=6 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1209" cy="702" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  C21614T  South Africa=7 [50.0%]  surface glycoprotein, L18F</title>
-	<circle cx="1206" cy="1013" r="7" style="fill:white;" class="cv" />
+	<title>2021-01-01  A23063T  South Africa=6 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1209" cy="690" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  A21801C  South Africa=14 [100.0%]  surface glycoprotein, D80A</title>
-	<circle cx="1208" cy="972" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-01  G23401T  Uganda=3 [100.0%]  surface glycoprotein, Q613H</title>
+	<circle cx="1210" cy="615" r="8" style="fill:red;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  A22206G  South Africa=14 [100.0%]  surface glycoprotein, D215G</title>
-	<circle cx="1211" cy="881" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-01  A23403G  South Africa=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1210" cy="615" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  G22813T  South Africa=14 [100.0%]  surface glycoprotein, K417N</title>
-	<circle cx="1216" cy="746" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-01  C23604G  Uganda=3 [100.0%]  surface glycoprotein, P681R</title>
+	<circle cx="1211" cy="570" r="8" style="fill:red;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  G23012A  South Africa=14 [100.0%]  surface glycoprotein, E484K</title>
-	<circle cx="1217" cy="702" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-01  C23664T  South Africa=6 [100.0%]  surface glycoprotein, A701V</title>
+	<circle cx="1211" cy="557" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  A23063T  South Africa=14 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1218" cy="691" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-02 South Africa=17</title>
+	<line x1="1200.3" y1="1190.0" x2="1200.5" y2="1184.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2021-01-02  A23403G  South Africa=14 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1220" cy="615" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-02 Uganda=2</title>
+	<line x1="1200.5" y1="1184.4" x2="1200.6" y2="1182.2" style="stroke:red;" class="sb" />
 </g>
 <g>
-	<title>2021-01-02  C23664T  South Africa=14 [100.0%]  surface glycoprotein, A701V</title>
-	<circle cx="1222" cy="557" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-02  C21614T  South Africa=8 [47.1%]  surface glycoprotein, L18F</title>
+	<circle cx="1206" cy="1013" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03 Egypt=40</title>
-	<line x1="1200.5" y1="1190.0" x2="1200.9" y2="1182.8" style="stroke:fuchsia;" class="sb" />
+	<title>2021-01-02  A21801C  South Africa=17 [100.0%]  surface glycoprotein, D80A</title>
+	<circle cx="1208" cy="972" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-02  C22033A  Uganda=2 [100.0%]  surface glycoprotein, F157L</title>
+	<circle cx="1210" cy="920" r="8" style="fill:red;" class="cv" />
+</g>
+<g>
+	<title>2021-01-02  A22206G  South Africa=17 [100.0%]  surface glycoprotein, D215G</title>
+	<circle cx="1211" cy="881" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-02  G22661T  Uganda=2 [100.0%]  surface glycoprotein, V367F</title>
+	<circle cx="1214" cy="780" r="8" style="fill:red;" class="cv" />
+</g>
+<g>
+	<title>2021-01-02  G22813T  South Africa=17 [100.0%]  surface glycoprotein, K417N</title>
+	<circle cx="1216" cy="746" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-02  G23012A  South Africa=17 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1217" cy="702" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-02  A23063T  South Africa=17 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1218" cy="691" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-02  G23401T  Uganda=2 [100.0%]  surface glycoprotein, Q613H</title>
+	<circle cx="1220" cy="615" r="8" style="fill:red;" class="cv" />
+</g>
+<g>
+	<title>2021-01-02  A23403G  South Africa=17 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1220" cy="615" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-02  C23604G  Uganda=2 [100.0%]  surface glycoprotein, P681R</title>
+	<circle cx="1222" cy="570" r="8" style="fill:red;" class="cv" />
+</g>
+<g>
+	<title>2021-01-02  C23664T  South Africa=17 [100.0%]  surface glycoprotein, A701V</title>
+	<circle cx="1222" cy="557" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03 South Africa=7</title>
-	<line x1="1200.9" y1="1182.8" x2="1201.1" y2="1178.7" style="stroke:white;" class="sb" />
+	<line x1="1200.5" y1="1190.0" x2="1200.7" y2="1186.0" style="stroke:fuchsia;" class="sb" />
+</g>
+<g>
+	<title>2021-01-03 Egypt=40</title>
+	<line x1="1200.7" y1="1186.0" x2="1201.1" y2="1178.7" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-03  C21597T  Egypt=4 [10.0%]  surface glycoprotein, S12F</title>
-	<circle cx="1209" cy="1017" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1209" cy="1017" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  C21614T  South Africa=5 [71.4%]  surface glycoprotein, L18F</title>
-	<circle cx="1210" cy="1013" r="7" style="fill:white;" class="cv" />
+	<circle cx="1210" cy="1013" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  A21801C  South Africa=7 [100.0%]  surface glycoprotein, D80A</title>
-	<circle cx="1212" cy="972" r="8" style="fill:white;" class="cv" />
+	<circle cx="1212" cy="972" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  A22206G  South Africa=7 [100.0%]  surface glycoprotein, D215G</title>
-	<circle cx="1216" cy="882" r="8" style="fill:white;" class="cv" />
+	<circle cx="1216" cy="882" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  G22813T  South Africa=7 [100.0%]  surface glycoprotein, K417N</title>
-	<circle cx="1223" cy="747" r="8" style="fill:white;" class="cv" />
+	<circle cx="1223" cy="747" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  G23012A  South Africa=7 [100.0%]  surface glycoprotein, E484K</title>
-	<circle cx="1226" cy="702" r="8" style="fill:white;" class="cv" />
+	<circle cx="1226" cy="702" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  A23063T  South Africa=7 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1226" cy="691" r="8" style="fill:white;" class="cv" />
+	<circle cx="1226" cy="691" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  A23064C  Egypt=3 [7.5%]  surface glycoprotein, N501T</title>
-	<circle cx="1226" cy="691" r="4" style="fill:fuchsia;" class="cv" />
+	<circle cx="1226" cy="691" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  A23403G  South Africa=7 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1230" cy="615" r="8" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2021-01-03  A23403G  Egypt=37 [92.5%]  surface glycoprotein, D614G</title>
 	<circle cx="1230" cy="615" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
+	<title>2021-01-03  A23403G  Egypt=37 [92.5%]  surface glycoprotein, D614G</title>
+	<circle cx="1230" cy="615" r="8" style="fill:white;" class="cv" />
+</g>
+<g>
 	<title>2021-01-03  C23525T  Egypt=2 [5.0%]  surface glycoprotein, H655Y</title>
-	<circle cx="1232" cy="588" r="3" style="fill:fuchsia;" class="cv" />
+	<circle cx="1232" cy="588" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  G23593T  Egypt=18 [45.0%]  surface glycoprotein, Q677H</title>
-	<circle cx="1232" cy="573" r="7" style="fill:fuchsia;" class="cv" />
+	<circle cx="1232" cy="573" r="7" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  C23604G  Egypt=6 [15.0%]  surface glycoprotein, P681R</title>
-	<circle cx="1233" cy="571" r="5" style="fill:fuchsia;" class="cv" />
+	<circle cx="1233" cy="571" r="5" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  C23664T  South Africa=7 [100.0%]  surface glycoprotein, A701V</title>
-	<circle cx="1233" cy="557" r="8" style="fill:white;" class="cv" />
+	<circle cx="1233" cy="557" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  G25352T  Egypt=2 [5.0%]  surface glycoprotein, V1264L</title>
-	<circle cx="1253" cy="182" r="3" style="fill:fuchsia;" class="cv" />
+	<circle cx="1253" cy="182" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  G25455T  Egypt=2 [5.0%]  ORF3a protein, K21N</title>
-	<circle cx="1254" cy="159" r="3" style="fill:fuchsia;" class="cv" />
+	<circle cx="1254" cy="159" r="3" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04 South Africa=23</title>
+	<line x1="1200.7" y1="1190.0" x2="1201.1" y2="1183.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-04 Congo=2</title>
-	<line x1="1200.7" y1="1190.0" x2="1200.8" y2="1187.9" style="stroke:red;" class="sb" />
+	<line x1="1201.1" y1="1183.8" x2="1201.3" y2="1181.7" style="stroke:#7FFFD4;" class="sb" />
 </g>
 <g>
-	<title>2021-01-04  A23403G  Congo=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1240" cy="616" r="8" style="fill:red;" class="cv" />
+	<title>2021-01-04  C21614T  South Africa=8 [34.8%]  surface glycoprotein, L18F</title>
+	<circle cx="1213" cy="1014" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05 South Africa=4</title>
-	<line x1="1200.9" y1="1190.0" x2="1201.1" y2="1186.9" style="stroke:white;" class="sb" />
+	<title>2021-01-04  A21801C  South Africa=23 [100.0%]  surface glycoprotein, D80A</title>
+	<circle cx="1216" cy="972" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04  A22206G  South Africa=21 [91.3%]  surface glycoprotein, D215G</title>
+	<circle cx="1222" cy="882" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04  G22813T  South Africa=23 [100.0%]  surface glycoprotein, K417N</title>
+	<circle cx="1231" cy="747" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04  G23012A  South Africa=23 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1234" cy="703" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04  A23063T  South Africa=22 [95.7%]  surface glycoprotein, N501Y</title>
+	<circle cx="1235" cy="692" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04  A23403G  South Africa=23 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1240" cy="616" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04  A23403G  South Africa=23 [100.0%] Congo=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1240" cy="616" r="8" style="fill:#7FFFD4;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04  C23664T  South Africa=23 [100.0%]  surface glycoprotein, A701V</title>
+	<circle cx="1244" cy="558" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-05 South Africa=18</title>
+	<line x1="1200.9" y1="1190.0" x2="1201.4" y2="1184.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-05 SouthAfrica=2</title>
-	<line x1="1201.1" y1="1186.9" x2="1201.3" y2="1184.8" style="stroke:yellow;" class="sb" />
+	<line x1="1201.4" y1="1184.3" x2="1201.5" y2="1182.2" style="stroke:yellow;" class="sb" />
 </g>
 <g>
 	<title>2021-01-05 Mozambique=2</title>
-	<line x1="1201.3" y1="1184.8" x2="1201.5" y2="1182.6" style="stroke:lime;" class="sb" />
+	<line x1="1201.5" y1="1182.2" x2="1201.7" y2="1180.0" style="stroke:lime;" class="sb" />
 </g>
 <g>
 	<title>2021-01-05 Congo=2</title>
-	<line x1="1201.5" y1="1182.6" x2="1201.7" y2="1180.5" style="stroke:red;" class="sb" />
+	<line x1="1201.7" y1="1180.0" x2="1201.9" y2="1177.9" style="stroke:#7FFFD4;" class="sb" />
 </g>
 <g>
-	<title>2021-01-05  C21614T  South Africa=2 [50.0%]  surface glycoprotein, L18F</title>
-	<circle cx="1216" cy="1014" r="7" style="fill:white;" class="cv" />
+	<title>2021-01-05  C21614T  South Africa=11 [61.1%]  surface glycoprotein, L18F</title>
+	<circle cx="1216" cy="1014" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  A21801C  South Africa=4 [100.0%]  surface glycoprotein, D80A</title>
-	<circle cx="1220" cy="972" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-05  A21801C  South Africa=18 [100.0%]  surface glycoprotein, D80A</title>
+	<circle cx="1220" cy="972" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  A21801C  South Africa=4 [100.0%] SouthAfrica=2 [100.0%]  surface glycoprotein, D80A</title>
+	<title>2021-01-05  A21801C  South Africa=18 [100.0%] SouthAfrica=2 [100.0%]  surface glycoprotein, D80A</title>
 	<circle cx="1220" cy="972" r="8" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  A22206G  South Africa=4 [100.0%]  surface glycoprotein, D215G</title>
-	<circle cx="1227" cy="882" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-05  A22206G  South Africa=18 [100.0%]  surface glycoprotein, D215G</title>
+	<circle cx="1227" cy="882" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  A22206G  South Africa=4 [100.0%] SouthAfrica=2 [100.0%]  surface glycoprotein, D215G</title>
+	<title>2021-01-05  A22206G  South Africa=18 [100.0%] SouthAfrica=2 [100.0%]  surface glycoprotein, D215G</title>
 	<circle cx="1227" cy="882" r="8" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G22813T  South Africa=4 [100.0%]  surface glycoprotein, K417N</title>
-	<circle cx="1239" cy="748" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-05  G22813T  South Africa=18 [100.0%]  surface glycoprotein, K417N</title>
+	<circle cx="1239" cy="748" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G22813T  South Africa=4 [100.0%] SouthAfrica=2 [100.0%]  surface glycoprotein, K417N</title>
+	<title>2021-01-05  G22813T  South Africa=18 [100.0%] SouthAfrica=2 [100.0%]  surface glycoprotein, K417N</title>
 	<circle cx="1239" cy="748" r="8" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G23012A  South Africa=4 [100.0%]  surface glycoprotein, E484K</title>
-	<circle cx="1243" cy="704" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-05  G23012A  South Africa=18 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1243" cy="704" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G23012A  South Africa=4 [100.0%] SouthAfrica=2 [100.0%]  surface glycoprotein, E484K</title>
+	<title>2021-01-05  G23012A  South Africa=18 [100.0%] SouthAfrica=2 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1243" cy="704" r="8" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  A23063T  South Africa=4 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1244" cy="692" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-05  A23063T  South Africa=18 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1244" cy="692" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  A23063T  South Africa=4 [100.0%] SouthAfrica=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-01-05  A23063T  South Africa=18 [100.0%] SouthAfrica=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1244" cy="692" r="8" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  A23403G  South Africa=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1250" cy="617" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-05  A23403G  South Africa=18 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1250" cy="617" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  A23403G  South Africa=4 [100.0%] SouthAfrica=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-01-05  A23403G  South Africa=18 [100.0%] SouthAfrica=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1250" cy="617" r="8" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  A23403G  South Africa=4 [100.0%] SouthAfrica=2 [100.0%] Congo=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1250" cy="617" r="8" style="fill:red;" class="cv" />
-</g>
-<g>
-	<title>2021-01-05  A23403G  South Africa=4 [100.0%] SouthAfrica=2 [100.0%] Congo=2 [100.0%] Mozambique=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-01-05  A23403G  South Africa=18 [100.0%] SouthAfrica=2 [100.0%] Mozambique=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1250" cy="617" r="8" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  C23664T  South Africa=4 [100.0%]  surface glycoprotein, A701V</title>
-	<circle cx="1255" cy="559" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-05  A23403G  South Africa=18 [100.0%] SouthAfrica=2 [100.0%] Mozambique=2 [100.0%] Congo=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1250" cy="617" r="8" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  C23664T  South Africa=4 [100.0%] SouthAfrica=2 [100.0%]  surface glycoprotein, A701V</title>
+	<title>2021-01-05  C23664T  South Africa=18 [100.0%]  surface glycoprotein, A701V</title>
+	<circle cx="1255" cy="559" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-05  C23664T  South Africa=18 [100.0%] SouthAfrica=2 [100.0%]  surface glycoprotein, A701V</title>
 	<circle cx="1255" cy="559" r="8" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06 South Africa=2</title>
-	<line x1="1201.0" y1="1190.1" x2="1201.3" y2="1187.9" style="stroke:white;" class="sb" />
+	<title>2021-01-06 South Africa=3</title>
+	<line x1="1201.0" y1="1190.1" x2="1201.3" y2="1187.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-01-06 Tunisia=4</title>
-	<line x1="1201.3" y1="1187.9" x2="1201.6" y2="1184.8" style="stroke:#6495ED;" class="sb" />
+	<line x1="1201.3" y1="1187.4" x2="1201.6" y2="1184.2" style="stroke:#6495ED;" class="sb" />
 </g>
 <g>
-	<title>2021-01-06  C21614T  South Africa=2 [100.0%]  surface glycoprotein, L18F</title>
-	<circle cx="1219" cy="1014" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-06  C21614T  South Africa=3 [100.0%]  surface glycoprotein, L18F</title>
+	<circle cx="1219" cy="1014" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  A21801C  South Africa=2 [100.0%]  surface glycoprotein, D80A</title>
-	<circle cx="1224" cy="973" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-06  A21801C  South Africa=3 [100.0%]  surface glycoprotein, D80A</title>
+	<circle cx="1224" cy="973" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  A22206G  South Africa=2 [100.0%]  surface glycoprotein, D215G</title>
-	<circle cx="1233" cy="883" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-06  A22206G  South Africa=3 [100.0%]  surface glycoprotein, D215G</title>
+	<circle cx="1233" cy="883" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-06  C22227T  Tunisia=2 [50.0%]  surface glycoprotein, A222V</title>
 	<circle cx="1233" cy="878" r="7" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G22813T  South Africa=2 [100.0%]  surface glycoprotein, K417N</title>
-	<circle cx="1247" cy="749" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-06  G22813T  South Africa=3 [100.0%]  surface glycoprotein, K417N</title>
+	<circle cx="1247" cy="749" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G23012A  South Africa=2 [100.0%]  surface glycoprotein, E484K</title>
-	<circle cx="1251" cy="704" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-06  G23012A  South Africa=3 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1251" cy="704" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  A23063T  South Africa=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1253" cy="693" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-06  A23063T  South Africa=3 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1253" cy="693" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-06  A23403G  Tunisia=4 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1260" cy="618" r="8" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  A23403G  Tunisia=4 [100.0%] South Africa=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1260" cy="618" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-06  A23403G  Tunisia=4 [100.0%] South Africa=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1260" cy="618" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  C23664T  South Africa=2 [100.0%]  surface glycoprotein, A701V</title>
-	<circle cx="1266" cy="560" r="8" style="fill:white;" class="cv" />
+	<title>2021-01-06  C23664T  South Africa=3 [100.0%]  surface glycoprotein, A701V</title>
+	<circle cx="1266" cy="560" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-07 Rwanda=2</title>
@@ -386,7 +468,7 @@
 </g>
 <g>
 	<title>2021-01-07 Congo=3</title>
-	<line x1="1202.2" y1="1182.0" x2="1202.5" y2="1179.3" style="stroke:red;" class="sb" />
+	<line x1="1202.2" y1="1182.0" x2="1202.5" y2="1179.3" style="stroke:#7FFFD4;" class="sb" />
 </g>
 <g>
 	<title>2021-01-07  A21801C  Mozambique=5 [83.3%]  surface glycoprotein, D80A</title>
@@ -402,7 +484,7 @@
 </g>
 <g>
 	<title>2021-01-07  C22088T  Congo=2 [66.7%]  surface glycoprotein, L176F</title>
-	<circle cx="1235" cy="910" r="7" style="fill:red;" class="cv" />
+	<circle cx="1235" cy="910" r="7" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
 	<title>2021-01-07  A22206G  Mozambique=6 [100.0%]  surface glycoprotein, D215G</title>
@@ -430,7 +512,7 @@
 </g>
 <g>
 	<title>2021-01-07  A23403G  Mozambique=6 [100.0%] Congo=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1270" cy="619" r="8" style="fill:red;" class="cv" />
+	<circle cx="1270" cy="619" r="8" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
 	<title>2021-01-07  A23403G  Mozambique=6 [100.0%] Congo=3 [100.0%] Nigeria=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -462,11 +544,11 @@
 </g>
 <g>
 	<title>2021-01-09 Egypt=37</title>
-	<line x1="1202.2" y1="1186.1" x2="1203.3" y2="1179.1" style="stroke:fuchsia;" class="sb" />
+	<line x1="1202.2" y1="1186.1" x2="1203.3" y2="1179.1" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2021-01-09  C21597T  Egypt=5 [13.5%]  surface glycoprotein, S12F</title>
-	<circle cx="1228" cy="1019" r="5" style="fill:fuchsia;" class="cv" />
+	<circle cx="1228" cy="1019" r="5" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-09  ATTA21993A  Mayotte=2 [28.6%]  surface glycoprotein, Y145H</title>
@@ -486,7 +568,7 @@
 </g>
 <g>
 	<title>2021-01-09  A23403G  Egypt=37 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1290" cy="622" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1290" cy="622" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-09  A23403G  Mayotte=6 [85.7%]  surface glycoprotein, D614G</title>
@@ -494,15 +576,15 @@
 </g>
 <g>
 	<title>2021-01-09  G23593T  Egypt=12 [32.4%]  surface glycoprotein, Q677H</title>
-	<circle cx="1297" cy="580" r="6" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
-	<title>2021-01-09  C23604G  Egypt=8 [21.6%]  surface glycoprotein, P681R</title>
-	<circle cx="1297" cy="577" r="5" style="fill:fuchsia;" class="cv" />
+	<circle cx="1297" cy="580" r="6" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-09  C23604A  Mayotte=2 [28.6%]  surface glycoprotein, P681H</title>
 	<circle cx="1297" cy="577" r="6" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-09  C23604G  Egypt=8 [21.6%]  surface glycoprotein, P681R</title>
+	<circle cx="1297" cy="577" r="5" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-09  C23709T  Mayotte=2 [28.6%]  surface glycoprotein, T716I</title>
@@ -510,7 +592,7 @@
 </g>
 <g>
 	<title>2021-01-09  C24138T  Egypt=2 [5.4%]  surface glycoprotein, T859I</title>
-	<circle cx="1316" cy="460" r="3" style="fill:fuchsia;" class="cv" />
+	<circle cx="1316" cy="460" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-09  T24506G  Mayotte=2 [28.6%]  surface glycoprotein, S982A</title>
@@ -637,16 +719,16 @@
 	<circle cx="1318" cy="584" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  C23604G  Rwanda=4 [100.0%]  surface glycoprotein, P681R</title>
-	<circle cx="1319" cy="581" r="8" style="fill:orange;" class="cv" />
-</g>
-<g>
 	<title>2021-01-11  C23604A  Nigeria=2 [66.7%]  surface glycoprotein, P681H</title>
 	<circle cx="1319" cy="581" r="7" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  C23604A  Mayotte=14 [42.4%]  surface glycoprotein, P681H</title>
 	<circle cx="1319" cy="581" r="7" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  C23604G  Rwanda=4 [100.0%]  surface glycoprotein, P681R</title>
+	<circle cx="1319" cy="581" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  C23664T  Mayotte=5 [15.2%]  surface glycoprotein, A701V</title>
@@ -933,8 +1015,8 @@
 	<circle cx="1364" cy="578" r="7" style="fill:cyan;" class="cv" />
 </g>
 <rect x="1865" y="140" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
-<text font-size="1.8em" x="1880" y="170" fill="white">Data from 11 regions in Africa</text>
+<text font-size="1.8em" x="1880" y="170" fill="white">Data from 12 regions in Africa</text>
 <text font-size="1.8em" x="1880" y="200" fill="white">Total genomes≥10  Genomes/day≥2</text>
-<text font-size="1.8em" x="1880" y="230" fill="white">38 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-05</text>
+<text font-size="1.8em" x="1880" y="230" fill="white">39 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-08</text>
 </svg>
