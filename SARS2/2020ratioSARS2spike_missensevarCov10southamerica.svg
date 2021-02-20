@@ -32,7 +32,7 @@
 <title>main menu</title>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 </a>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 3,945 GISAID genomes</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 3,970 GISAID genomes</text>
 <line x1="1200" y1="83.1314031180401" x2="1200" y2="133.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="73.1314031180401" fill="white">Winter</text>
 <line x1="2267" y1="1200" x2="2317" y2="1200" style="stroke:white;stroke-width:4" />
@@ -76,23 +76,19 @@
 <circle cx="60" cy="385" r="8" style="fill:#FFBBFF;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="2.0em" x="75" y="395" fill="white">Suriname</text>
 <circle cx="60" cy="415" r="8" style="fill:#6495ED;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="425" fill="white">Uruguay</text>
+<text font-size="2.0em" x="75" y="425" fill="white">Curacao</text>
 <circle cx="60" cy="445" r="8" style="fill:red;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="455" fill="white">Bolivia</text>
+<text font-size="2.0em" x="75" y="455" fill="white">Uruguay</text>
 <circle cx="60" cy="475" r="8" style="fill:#7FFFD4;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="485" fill="white">Aruba</text>
+<text font-size="2.0em" x="75" y="485" fill="white">Bolivia</text>
 <circle cx="280" cy="205" r="8" style="fill:#FFD700;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="295" y="215" fill="white">St Eustatius</text>
+<text font-size="2.0em" x="295" y="215" fill="white">Aruba</text>
 <circle cx="280" cy="235" r="8" style="fill:#ADD8E6;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="2.0em" x="295" y="245" fill="white">French Guiana</text>
 <circle cx="280" cy="265" r="8" style="fill:#F08080;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="295" y="275" fill="white">Saint Martin</text>
+<text font-size="2.0em" x="295" y="275" fill="white">St Eustatius</text>
 <circle cx="280" cy="295" r="8" style="fill:#b2df8a;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="295" y="305" fill="white">Curacao</text>
-<circle cx="280" cy="325" r="8" style="fill:#CC00FF;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="295" y="335" fill="white">Saint Barthelemy</text>
-<circle cx="280" cy="355" r="8" style="fill:#cab2d6;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="295" y="365" fill="white">Venezuela</text>
+<text font-size="2.0em" x="295" y="305" fill="white">Venezuela</text>
 <circle cx="60" cy="530" r="1" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <circle cx="100" cy="530" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <circle cx="140" cy="530" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
@@ -192,7 +188,7 @@
 </g>
 <g>
 	<title>2020-03-10 Curacao=5</title>
-	<line x1="1217.4" y1="1193.3" x2="1220.7" y2="1192.0" style="stroke:#b2df8a;" class="sb" />
+	<line x1="1217.4" y1="1193.3" x2="1220.7" y2="1192.0" style="stroke:#6495ED;" class="sb" />
 </g>
 <g>
 	<title>2020-03-10  A21917G  Peru=4 [66.7%]  surface glycoprotein, I119V</title>
@@ -360,7 +356,7 @@
 </g>
 <g>
 	<title>2020-03-17 Uruguay=2</title>
-	<line x1="1224.2" y1="1193.8" x2="1226.3" y2="1193.3" style="stroke:#6495ED;" class="sb" />
+	<line x1="1224.2" y1="1193.8" x2="1226.3" y2="1193.3" style="stroke:red;" class="sb" />
 </g>
 <g>
 	<title>2020-03-17  A21917G  Peru=2 [16.7%]  surface glycoprotein, I119V</title>
@@ -460,7 +456,7 @@
 </g>
 <g>
 	<title>2020-03-20 Aruba=2</title>
-	<line x1="1227.1" y1="1194.6" x2="1229.2" y2="1194.2" style="stroke:#7FFFD4;" class="sb" />
+	<line x1="1227.1" y1="1194.6" x2="1229.2" y2="1194.2" style="stroke:#FFD700;" class="sb" />
 </g>
 <g>
 	<title>2020-03-20  A23403G  Brazil=20 [100.0%]  surface glycoprotein, D614G</title>
@@ -475,12 +471,12 @@
 	<circle cx="1774" cy="1085" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-03-20  A23403G  Brazil=20 [100.0%] Chile=11 [100.0%] Peru=10 [100.0%] Colombia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1774" cy="1085" r="8" style="fill:yellow;" class="cv" />
+	<title>2020-03-20  A23403G  Brazil=20 [100.0%] Chile=11 [100.0%] Peru=10 [100.0%] Aruba=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1774" cy="1085" r="8" style="fill:#FFD700;" class="cv" />
 </g>
 <g>
-	<title>2020-03-20  A23403G  Brazil=20 [100.0%] Chile=11 [100.0%] Peru=10 [100.0%] Colombia=2 [100.0%] Aruba=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1774" cy="1085" r="8" style="fill:#7FFFD4;" class="cv" />
+	<title>2020-03-20  A23403G  Brazil=20 [100.0%] Chile=11 [100.0%] Peru=10 [100.0%] Aruba=2 [100.0%] Colombia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1774" cy="1085" r="8" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2020-03-20  G25088T  Brazil=14 [70.0%]  surface glycoprotein, V1176F</title>
@@ -652,7 +648,7 @@
 </g>
 <g>
 	<title>2020-03-25 Uruguay=3</title>
-	<line x1="1227.0" y1="1197.0" x2="1229.7" y2="1196.7" style="stroke:#6495ED;" class="sb" />
+	<line x1="1227.0" y1="1197.0" x2="1229.7" y2="1196.7" style="stroke:red;" class="sb" />
 </g>
 <g>
 	<title>2020-03-25  A23403G  Chile=19 [100.0%]  surface glycoprotein, D614G</title>
@@ -748,11 +744,7 @@
 </g>
 <g>
 	<title>2020-03-28 Uruguay=2</title>
-	<line x1="1224.2" y1="1198.5" x2="1226.4" y2="1198.4" style="stroke:#6495ED;" class="sb" />
-</g>
-<g>
-	<title>2020-03-28 Saint Martin=3</title>
-	<line x1="1226.4" y1="1198.4" x2="1229.1" y2="1198.3" style="stroke:#F08080;" class="sb" />
+	<line x1="1224.2" y1="1198.5" x2="1226.4" y2="1198.4" style="stroke:red;" class="sb" />
 </g>
 <g>
 	<title>2020-03-28  A23403G  Colombia=9 [100.0%]  surface glycoprotein, D614G</title>
@@ -765,10 +757,6 @@
 <g>
 	<title>2020-03-28  A23403G  Colombia=9 [100.0%] Brazil=6 [100.0%] Chile=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1784" cy="1165" r="8" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
-	<title>2020-03-28  A23403G  Colombia=9 [100.0%] Brazil=6 [100.0%] Chile=6 [100.0%] Saint Martin=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1784" cy="1165" r="8" style="fill:#F08080;" class="cv" />
 </g>
 <g>
 	<title>2020-03-28  G25088T  Brazil=4 [66.7%]  surface glycoprotein, V1176F</title>
@@ -1083,12 +1071,12 @@
 	<circle cx="1783" cy="1255" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-04-06  A23403G  Brazil=9 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1783" cy="1255" r="8" style="fill:orange;" class="cv" />
+	<title>2020-04-06  A23403G  Brazil=9 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1783" cy="1255" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-04-06  A23403G  Brazil=9 [100.0%] Argentina=2 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1783" cy="1255" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-04-06  A23403G  Brazil=9 [100.0%] Chile=2 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1783" cy="1255" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-04-06  G25088T  Brazil=2 [22.2%]  surface glycoprotein, V1176F</title>
@@ -1231,15 +1219,15 @@
 	<circle cx="1776" cy="1305" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-04-11  A23403G  Peru=7 [100.0%] Argentina=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1776" cy="1305" r="8" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2020-04-11  A23403G  Peru=7 [100.0%] Argentina=4 [100.0%] Brazil=4 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-04-11  A23403G  Peru=7 [100.0%] Brazil=4 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1776" cy="1305" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-04-11  A23403G  Peru=7 [100.0%] Argentina=4 [100.0%] Brazil=4 [100.0%] Chile=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-04-11  A23403G  Peru=7 [100.0%] Brazil=4 [100.0%] Argentina=4 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1776" cy="1305" r="8" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2020-04-11  A23403G  Peru=7 [100.0%] Brazil=4 [100.0%] Argentina=4 [100.0%] Chile=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1776" cy="1305" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -1403,16 +1391,16 @@
 	<circle cx="1762" cy="1364" r="8" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-04-17  A23403G  Brazil=25 [100.0%] Ecuador=7 [100.0%] Chile=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1762" cy="1364" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-04-17  A23403G  Brazil=25 [100.0%] Ecuador=7 [100.0%] Colombia=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1762" cy="1364" r="8" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-04-17  A23403G  Brazil=25 [100.0%] Ecuador=7 [100.0%] Chile=3 [100.0%] Argentina=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-04-17  A23403G  Brazil=25 [100.0%] Ecuador=7 [100.0%] Colombia=3 [100.0%] Argentina=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1762" cy="1364" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-04-17  A23403G  Brazil=25 [100.0%] Ecuador=7 [100.0%] Chile=3 [100.0%] Argentina=3 [100.0%] Colombia=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1762" cy="1364" r="8" style="fill:yellow;" class="cv" />
+	<title>2020-04-17  A23403G  Brazil=25 [100.0%] Ecuador=7 [100.0%] Colombia=3 [100.0%] Argentina=3 [100.0%] Chile=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1762" cy="1364" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-04-17  G25088T  Brazil=10 [40.0%]  surface glycoprotein, V1176F</title>
@@ -1523,55 +1511,55 @@
 	<circle cx="2102" cy="1531" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-04-22 Brazil=26</title>
-	<line x1="1209.3" y1="1203.6" x2="1215.3" y2="1205.9" style="stroke:cyan;" class="sb" />
+	<title>2020-04-22 Brazil=27</title>
+	<line x1="1209.3" y1="1203.6" x2="1215.4" y2="1206.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-22 Chile=3</title>
-	<line x1="1215.3" y1="1205.9" x2="1217.9" y2="1206.9" style="stroke:fuchsia;" class="sb" />
+	<line x1="1215.4" y1="1206.0" x2="1217.9" y2="1206.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-22 Peru=5</title>
-	<line x1="1217.9" y1="1206.9" x2="1221.1" y2="1208.2" style="stroke:white;" class="sb" />
+	<line x1="1217.9" y1="1206.9" x2="1221.2" y2="1208.2" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-04-22 Argentina=3</title>
-	<line x1="1221.1" y1="1208.2" x2="1223.7" y2="1209.2" style="stroke:orange;" class="sb" />
+	<line x1="1221.2" y1="1208.2" x2="1223.7" y2="1209.2" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2020-04-22 Colombia=5</title>
-	<line x1="1223.7" y1="1209.2" x2="1226.9" y2="1210.4" style="stroke:yellow;" class="sb" />
+	<line x1="1223.7" y1="1209.2" x2="1227.0" y2="1210.4" style="stroke:yellow;" class="sb" />
 </g>
 <g>
 	<title>2020-04-22  C23280T  Colombia=2 [40.0%]  surface glycoprotein, T573I</title>
 	<circle cx="1720" cy="1401" r="6" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-04-22  A23403G  Brazil=26 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-04-22  A23403G  Brazil=27 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1746" cy="1411" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-04-22  A23403G  Brazil=26 [100.0%] Colombia=5 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-04-22  A23403G  Brazil=27 [100.0%] Colombia=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1746" cy="1411" r="8" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-04-22  A23403G  Brazil=26 [100.0%] Colombia=5 [100.0%] Peru=5 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-04-22  A23403G  Brazil=27 [100.0%] Colombia=5 [100.0%] Peru=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1746" cy="1411" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-04-22  A23403G  Brazil=26 [100.0%] Colombia=5 [100.0%] Peru=5 [100.0%] Argentina=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1746" cy="1411" r="8" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2020-04-22  A23403G  Brazil=26 [100.0%] Colombia=5 [100.0%] Peru=5 [100.0%] Argentina=3 [100.0%] Chile=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-04-22  A23403G  Brazil=27 [100.0%] Colombia=5 [100.0%] Peru=5 [100.0%] Chile=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1746" cy="1411" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-04-22  G25088T  Brazil=10 [38.5%]  surface glycoprotein, V1176F</title>
+	<title>2020-04-22  A23403G  Brazil=27 [100.0%] Colombia=5 [100.0%] Peru=5 [100.0%] Chile=3 [100.0%] Argentina=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1746" cy="1411" r="8" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2020-04-22  G25088T  Brazil=10 [37.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="2096" cy="1547" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-04-22  G25135T  Brazil=2 [7.7%]  surface glycoprotein, K1191N</title>
+	<title>2020-04-22  G25135T  Brazil=2 [7.4%]  surface glycoprotein, K1191N</title>
 	<circle cx="2106" cy="1550" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -1771,12 +1759,12 @@
 	<circle cx="1717" cy="1475" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-04-29  A23403G  Brazil=23 [100.0%] Chile=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1717" cy="1475" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-04-29  A23403G  Brazil=23 [100.0%] Argentina=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1717" cy="1475" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-04-29  A23403G  Brazil=23 [100.0%] Chile=3 [100.0%] Argentina=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1717" cy="1475" r="8" style="fill:orange;" class="cv" />
+	<title>2020-04-29  A23403G  Brazil=23 [100.0%] Argentina=3 [100.0%] Chile=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1717" cy="1475" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-04-29  G25088T  Brazil=6 [26.1%]  surface glycoprotein, V1176F</title>
@@ -1852,7 +1840,7 @@
 </g>
 <g>
 	<title>2020-05-01 Bolivia=2</title>
-	<line x1="1220.9" y1="1212.1" x2="1222.8" y2="1213.2" style="stroke:red;" class="sb" />
+	<line x1="1220.9" y1="1212.1" x2="1222.8" y2="1213.2" style="stroke:#7FFFD4;" class="sb" />
 </g>
 <g>
 	<title>2020-05-01  A23403G  Argentina=9 [100.0%]  surface glycoprotein, D614G</title>
@@ -1872,7 +1860,7 @@
 </g>
 <g>
 	<title>2020-05-01  A23403G  Argentina=9 [100.0%] Chile=6 [100.0%] Brazil=4 [100.0%] Colombia=3 [100.0%] Bolivia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1707" cy="1493" r="8" style="fill:red;" class="cv" />
+	<circle cx="1707" cy="1493" r="8" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
 	<title>2020-05-01  G25088T  Brazil=3 [75.0%]  surface glycoprotein, V1176F</title>
@@ -1911,12 +1899,12 @@
 	<circle cx="1702" cy="1501" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-05-02  A23403G  Colombia=8 [100.0%] Argentina=7 [100.0%] Chile=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1702" cy="1501" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-05-02  A23403G  Colombia=8 [100.0%] Argentina=7 [100.0%] Brazil=4 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1702" cy="1501" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-05-02  A23403G  Colombia=8 [100.0%] Argentina=7 [100.0%] Chile=4 [100.0%] Brazil=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1702" cy="1501" r="8" style="fill:cyan;" class="cv" />
+	<title>2020-05-02  A23403G  Colombia=8 [100.0%] Argentina=7 [100.0%] Brazil=4 [100.0%] Chile=4 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1702" cy="1501" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-05-02  A23403G  Peru=7 [87.5%]  surface glycoprotein, D614G</title>
@@ -2003,12 +1991,12 @@
 	<circle cx="1691" cy="1518" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-05-04  A23403G  Colombia=27 [100.0%] Peru=24 [100.0%] Brazil=13 [100.0%] Chile=11 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1691" cy="1518" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-05-04  A23403G  Colombia=27 [100.0%] Peru=24 [100.0%] Brazil=13 [100.0%] Argentina=11 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1691" cy="1518" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-05-04  A23403G  Colombia=27 [100.0%] Peru=24 [100.0%] Brazil=13 [100.0%] Chile=11 [100.0%] Argentina=11 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1691" cy="1518" r="8" style="fill:orange;" class="cv" />
+	<title>2020-05-04  A23403G  Colombia=27 [100.0%] Peru=24 [100.0%] Brazil=13 [100.0%] Argentina=11 [100.0%] Chile=11 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1691" cy="1518" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-05-04  G23755T  Peru=2 [8.3%]  surface glycoprotein, M731I</title>
@@ -2236,7 +2224,7 @@
 </g>
 <g>
 	<title>2020-05-12 Bolivia=2</title>
-	<line x1="1218.3" y1="1215.8" x2="1219.9" y2="1217.2" style="stroke:red;" class="sb" />
+	<line x1="1218.3" y1="1215.8" x2="1219.9" y2="1217.2" style="stroke:#7FFFD4;" class="sb" />
 </g>
 <g>
 	<title>2020-05-12  A23403G  Chile=28 [100.0%]  surface glycoprotein, D614G</title>
@@ -2252,7 +2240,7 @@
 </g>
 <g>
 	<title>2020-05-12  A23403G  Chile=28 [100.0%] Argentina=7 [100.0%] Brazil=5 [100.0%] Bolivia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1643" cy="1583" r="8" style="fill:red;" class="cv" />
+	<circle cx="1643" cy="1583" r="8" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
 	<title>2020-05-12  G25088T  Brazil=3 [60.0%]  surface glycoprotein, V1176F</title>
@@ -2336,7 +2324,7 @@
 </g>
 <g>
 	<title>2020-05-16 Bolivia=3</title>
-	<line x1="1210.3" y1="1210.2" x2="1212.2" y2="1212.1" style="stroke:red;" class="sb" />
+	<line x1="1210.3" y1="1210.2" x2="1212.2" y2="1212.1" style="stroke:#7FFFD4;" class="sb" />
 </g>
 <g>
 	<title>2020-05-16  A23403G  Argentina=9 [100.0%]  surface glycoprotein, D614G</title>
@@ -2344,7 +2332,7 @@
 </g>
 <g>
 	<title>2020-05-16  A23403G  Argentina=9 [100.0%] Bolivia=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1616" cy="1612" r="8" style="fill:red;" class="cv" />
+	<circle cx="1616" cy="1612" r="8" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
 	<title>2020-05-17 Argentina=5</title>
@@ -2428,11 +2416,11 @@
 </g>
 <g>
 	<title>2020-05-21 Uruguay=9</title>
-	<line x1="1211.0" y1="1213.0" x2="1213.9" y2="1216.4" style="stroke:#6495ED;" class="sb" />
+	<line x1="1211.0" y1="1213.0" x2="1213.9" y2="1216.4" style="stroke:red;" class="sb" />
 </g>
 <g>
 	<title>2020-05-21  A23403G  Uruguay=9 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1579" cy="1646" r="8" style="fill:#6495ED;" class="cv" />
+	<circle cx="1579" cy="1646" r="8" style="fill:red;" class="cv" />
 </g>
 <g>
 	<title>2020-05-21  A23403G  Uruguay=9 [100.0%] Argentina=8 [100.0%]  surface glycoprotein, D614G</title>
@@ -2444,7 +2432,7 @@
 </g>
 <g>
 	<title>2020-05-21  G24872T  Uruguay=9 [100.0%]  surface glycoprotein, V1104L</title>
-	<circle cx="1791" cy="1896" r="8" style="fill:#6495ED;" class="cv" />
+	<circle cx="1791" cy="1896" r="8" style="fill:red;" class="cv" />
 </g>
 <g>
 	<title>2020-05-21  G25088T  Brazil=2 [66.7%]  surface glycoprotein, V1176F</title>
@@ -2559,12 +2547,12 @@
 	<circle cx="1523" cy="1688" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-05-28  A23403G  Brazil=5 [100.0%] Ecuador=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1523" cy="1688" r="8" style="fill:lime;" class="cv" />
+	<title>2020-05-28  A23403G  Brazil=5 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1523" cy="1688" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-05-28  A23403G  Brazil=5 [100.0%] Ecuador=2 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1523" cy="1688" r="8" style="fill:orange;" class="cv" />
+	<title>2020-05-28  A23403G  Brazil=5 [100.0%] Argentina=2 [100.0%] Ecuador=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1523" cy="1688" r="8" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-05-28  G25088T  Brazil=3 [60.0%]  surface glycoprotein, V1176F</title>
@@ -2767,12 +2755,12 @@
 	<line x1="1204.1" y1="1211.4" x2="1204.8" y2="1213.5" style="stroke:orange;" class="sb" />
 </g>
 <g>
-	<title>2020-06-11  A23403G  Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1397" cy="1751" r="8" style="fill:cyan;" class="cv" />
+	<title>2020-06-11  A23403G  Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1397" cy="1751" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-06-11  A23403G  Brazil=2 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1397" cy="1751" r="8" style="fill:orange;" class="cv" />
+	<title>2020-06-11  A23403G  Argentina=2 [100.0%] Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1397" cy="1751" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-06-12 Brazil=2</title>
@@ -2888,7 +2876,7 @@
 </g>
 <g>
 	<title>2020-06-18 Uruguay=2</title>
-	<line x1="1203.9" y1="1217.4" x2="1204.4" y2="1219.4" style="stroke:#6495ED;" class="sb" />
+	<line x1="1203.9" y1="1217.4" x2="1204.4" y2="1219.4" style="stroke:red;" class="sb" />
 </g>
 <g>
 	<title>2020-06-18  A21917G  Peru=2 [11.8%]  surface glycoprotein, I119V</title>
@@ -2900,7 +2888,7 @@
 </g>
 <g>
 	<title>2020-06-18  A23403G  Peru=17 [100.0%] Uruguay=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1330" cy="1771" r="8" style="fill:#6495ED;" class="cv" />
+	<circle cx="1330" cy="1771" r="8" style="fill:red;" class="cv" />
 </g>
 <g>
 	<title>2020-06-18  A23403G  Peru=17 [100.0%] Uruguay=2 [100.0%] Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -2919,12 +2907,12 @@
 	<line x1="1202.5" y1="1211.9" x2="1202.9" y2="1214.0" style="stroke:orange;" class="sb" />
 </g>
 <g>
-	<title>2020-06-19  A23403G  Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1320" cy="1773" r="8" style="fill:orange;" class="cv" />
+	<title>2020-06-19  A23403G  Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1320" cy="1773" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-06-19  A23403G  Argentina=2 [100.0%] Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1320" cy="1773" r="8" style="fill:cyan;" class="cv" />
+	<title>2020-06-19  A23403G  Brazil=2 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1320" cy="1773" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-06-20 Brazil=7</title>
@@ -3012,7 +3000,7 @@
 </g>
 <g>
 	<title>2020-06-24 Uruguay=2</title>
-	<line x1="1202.7" y1="1222.4" x2="1203.0" y2="1224.6" style="stroke:#6495ED;" class="sb" />
+	<line x1="1202.7" y1="1222.4" x2="1203.0" y2="1224.6" style="stroke:red;" class="sb" />
 </g>
 <g>
 	<title>2020-06-24  A23403G  Chile=9 [100.0%]  surface glycoprotein, D614G</title>
@@ -3023,16 +3011,16 @@
 	<circle cx="1270" cy="1781" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-06-24  A23403G  Chile=9 [100.0%] Brazil=6 [100.0%] Colombia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1270" cy="1781" r="8" style="fill:yellow;" class="cv" />
+	<title>2020-06-24  A23403G  Chile=9 [100.0%] Brazil=6 [100.0%] Uruguay=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1270" cy="1781" r="8" style="fill:red;" class="cv" />
 </g>
 <g>
-	<title>2020-06-24  A23403G  Chile=9 [100.0%] Brazil=6 [100.0%] Colombia=2 [100.0%] Uruguay=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1270" cy="1781" r="8" style="fill:#6495ED;" class="cv" />
-</g>
-<g>
-	<title>2020-06-24  A23403G  Chile=9 [100.0%] Brazil=6 [100.0%] Colombia=2 [100.0%] Uruguay=2 [100.0%] Peru=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-06-24  A23403G  Chile=9 [100.0%] Brazil=6 [100.0%] Uruguay=2 [100.0%] Peru=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1270" cy="1781" r="8" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2020-06-24  A23403G  Chile=9 [100.0%] Brazil=6 [100.0%] Uruguay=2 [100.0%] Peru=2 [100.0%] Colombia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1270" cy="1781" r="8" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2020-06-24  G25088T  Brazil=4 [66.7%]  surface glycoprotein, V1176F</title>
@@ -3052,7 +3040,7 @@
 </g>
 <g>
 	<title>2020-06-25 Uruguay=2</title>
-	<line x1="1202.3" y1="1222.7" x2="1202.6" y2="1224.9" style="stroke:#6495ED;" class="sb" />
+	<line x1="1202.3" y1="1222.7" x2="1202.6" y2="1224.9" style="stroke:red;" class="sb" />
 </g>
 <g>
 	<title>2020-06-25  A22404T  Suriname=16 [100.0%]  surface glycoprotein, E281V</title>
@@ -3067,12 +3055,12 @@
 	<circle cx="1260" cy="1782" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-06-25  A23403G  Suriname=16 [100.0%] Chile=13 [100.0%] Uruguay=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1260" cy="1782" r="8" style="fill:#6495ED;" class="cv" />
+	<title>2020-06-25  A23403G  Suriname=16 [100.0%] Chile=13 [100.0%] Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1260" cy="1782" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-06-25  A23403G  Suriname=16 [100.0%] Chile=13 [100.0%] Uruguay=2 [100.0%] Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1260" cy="1782" r="8" style="fill:cyan;" class="cv" />
+	<title>2020-06-25  A23403G  Suriname=16 [100.0%] Chile=13 [100.0%] Brazil=2 [100.0%] Uruguay=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1260" cy="1782" r="8" style="fill:red;" class="cv" />
 </g>
 <g>
 	<title>2020-06-26 Brazil=8</title>
@@ -3244,11 +3232,11 @@
 </g>
 <g>
 	<title>2020-07-02 Uruguay=2</title>
-	<line x1="1199.7" y1="1219.2" x2="1199.6" y2="1221.4" style="stroke:#6495ED;" class="sb" />
+	<line x1="1199.7" y1="1219.2" x2="1199.6" y2="1221.4" style="stroke:red;" class="sb" />
 </g>
 <g>
 	<title>2020-07-02  A23403G  Uruguay=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1190" cy="1785" r="8" style="fill:#6495ED;" class="cv" />
+	<circle cx="1190" cy="1785" r="8" style="fill:red;" class="cv" />
 </g>
 <g>
 	<title>2020-07-02  A23403G  Brazil=14 [93.3%]  surface glycoprotein, D614G</title>
@@ -3276,7 +3264,7 @@
 </g>
 <g>
 	<title>2020-07-03 Bolivia=2</title>
-	<line x1="1199.3" y1="1219.9" x2="1199.2" y2="1222.0" style="stroke:red;" class="sb" />
+	<line x1="1199.3" y1="1219.9" x2="1199.2" y2="1222.0" style="stroke:#7FFFD4;" class="sb" />
 </g>
 <g>
 	<title>2020-07-03  G21786T  Peru=2 [16.7%]  surface glycoprotein, G75V</title>
@@ -3291,12 +3279,12 @@
 	<circle cx="1180" cy="1785" r="8" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-07-03  A23403G  Peru=12 [100.0%] Ecuador=3 [100.0%] Bolivia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1180" cy="1785" r="8" style="fill:red;" class="cv" />
+	<title>2020-07-03  A23403G  Peru=12 [100.0%] Ecuador=3 [100.0%] Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1180" cy="1785" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-07-03  A23403G  Peru=12 [100.0%] Ecuador=3 [100.0%] Bolivia=2 [100.0%] Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1180" cy="1785" r="8" style="fill:cyan;" class="cv" />
+	<title>2020-07-03  A23403G  Peru=12 [100.0%] Ecuador=3 [100.0%] Brazil=2 [100.0%] Bolivia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1180" cy="1785" r="8" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
 	<title>2020-07-03  G24794T  Peru=2 [16.7%]  surface glycoprotein, A1078S</title>
@@ -3507,12 +3495,12 @@
 	<circle cx="1032" cy="1761" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-07-18  A23403G  Chile=13 [100.0%] Suriname=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1032" cy="1761" r="8" style="fill:#FFBBFF;" class="cv" />
+	<title>2020-07-18  A23403G  Chile=13 [100.0%] Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1032" cy="1761" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-07-18  A23403G  Chile=13 [100.0%] Suriname=2 [100.0%] Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1032" cy="1761" r="8" style="fill:cyan;" class="cv" />
+	<title>2020-07-18  A23403G  Chile=13 [100.0%] Brazil=2 [100.0%] Suriname=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1032" cy="1761" r="8" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g>
 	<title>2020-07-19 Chile=2</title>
@@ -3696,7 +3684,7 @@
 </g>
 <g>
 	<title>2020-08-03 Bolivia=2</title>
-	<line x1="1192.3" y1="1212.1" x2="1191.2" y2="1213.9" style="stroke:red;" class="sb" />
+	<line x1="1192.3" y1="1212.1" x2="1191.2" y2="1213.9" style="stroke:#7FFFD4;" class="sb" />
 </g>
 <g>
 	<title>2020-08-03  A23403G  Brazil=8 [100.0%]  surface glycoprotein, D614G</title>
@@ -3704,7 +3692,7 @@
 </g>
 <g>
 	<title>2020-08-03  A23403G  Brazil=8 [100.0%] Bolivia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="886" cy="1694" r="8" style="fill:red;" class="cv" />
+	<circle cx="886" cy="1694" r="8" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
 	<title>2020-08-03  G25088T  Brazil=2 [25.0%]  surface glycoprotein, V1176F</title>
@@ -3836,7 +3824,7 @@
 </g>
 <g>
 	<title>2020-08-11 Curacao=3</title>
-	<line x1="1189.7" y1="1212.1" x2="1188.0" y2="1214.2" style="stroke:#b2df8a;" class="sb" />
+	<line x1="1189.7" y1="1212.1" x2="1188.0" y2="1214.2" style="stroke:#6495ED;" class="sb" />
 </g>
 <g>
 	<title>2020-08-11  A21792T  Peru=2 [50.0%]  surface glycoprotein, K77M</title>
@@ -3847,12 +3835,12 @@
 	<circle cx="821" cy="1646" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-08-11  A23403G  Peru=4 [100.0%] Curacao=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="821" cy="1646" r="8" style="fill:#b2df8a;" class="cv" />
+	<title>2020-08-11  A23403G  Peru=4 [100.0%] Brazil=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="821" cy="1646" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-08-11  A23403G  Peru=4 [100.0%] Curacao=3 [100.0%] Brazil=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="821" cy="1646" r="8" style="fill:cyan;" class="cv" />
+	<title>2020-08-11  A23403G  Peru=4 [100.0%] Brazil=3 [100.0%] Curacao=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="821" cy="1646" r="8" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2020-08-12 Brazil=4</title>
@@ -3868,7 +3856,7 @@
 </g>
 <g>
 	<title>2020-08-12 Bolivia=3</title>
-	<line x1="1187.2" y1="1214.5" x2="1185.4" y2="1216.6" style="stroke:red;" class="sb" />
+	<line x1="1187.2" y1="1214.5" x2="1185.4" y2="1216.6" style="stroke:#7FFFD4;" class="sb" />
 </g>
 <g>
 	<title>2020-08-12  C22482T  Chile=2 [100.0%]  surface glycoprotein, T307I</title>
@@ -3884,7 +3872,7 @@
 </g>
 <g>
 	<title>2020-08-12  A23403G  Ecuador=7 [100.0%] Brazil=4 [100.0%] Bolivia=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="814" cy="1640" r="8" style="fill:red;" class="cv" />
+	<circle cx="814" cy="1640" r="8" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
 	<title>2020-08-12  A23403G  Ecuador=7 [100.0%] Brazil=4 [100.0%] Bolivia=3 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -4340,7 +4328,7 @@
 </g>
 <g>
 	<title>2020-09-08 St Eustatius=3</title>
-	<line x1="1185.8" y1="1205.8" x2="1183.3" y2="1206.8" style="stroke:#FFD700;" class="sb" />
+	<line x1="1185.8" y1="1205.8" x2="1183.3" y2="1206.8" style="stroke:#F08080;" class="sb" />
 </g>
 <g>
 	<title>2020-09-08  A21792T  Peru=2 [50.0%]  surface glycoprotein, K77M</title>
@@ -4352,7 +4340,7 @@
 </g>
 <g>
 	<title>2020-09-08  A23403G  Peru=4 [100.0%] St Eustatius=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="658" cy="1420" r="8" style="fill:#FFD700;" class="cv" />
+	<circle cx="658" cy="1420" r="8" style="fill:#F08080;" class="cv" />
 </g>
 <g>
 	<title>2020-09-08  A23403G  Peru=4 [100.0%] St Eustatius=3 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -4551,15 +4539,15 @@
 	<line x1="1184.7" y1="1200.7" x2="1181.6" y2="1200.8" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2020-09-28  A23403G  Chile=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="615" cy="1225" r="8" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
-	<title>2020-09-28  A23403G  Chile=4 [100.0%] Peru=4 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-09-28  A23403G  Peru=4 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="615" cy="1225" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-09-28  A23403G  Chile=4 [100.0%] Peru=4 [100.0%] Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-09-28  A23403G  Peru=4 [100.0%] Chile=4 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="615" cy="1225" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2020-09-28  A23403G  Peru=4 [100.0%] Chile=4 [100.0%] Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="615" cy="1225" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -4623,12 +4611,12 @@
 	<circle cx="615" cy="1195" r="8" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-10-01  A23403G  Ecuador=3 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="615" cy="1195" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-10-01  A23403G  Ecuador=3 [100.0%] Peru=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="615" cy="1195" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-10-01  A23403G  Ecuador=3 [100.0%] Chile=2 [100.0%] Peru=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="615" cy="1195" r="8" style="fill:white;" class="cv" />
+	<title>2020-10-01  A23403G  Ecuador=3 [100.0%] Peru=2 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="615" cy="1195" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-10-02 Chile=3</title>
@@ -4735,12 +4723,12 @@
 	<circle cx="655" cy="1110" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-10-10  A23403G  Ecuador=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="622" cy="1105" r="8" style="fill:lime;" class="cv" />
+	<title>2020-10-10  A23403G  Chile=4 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="622" cy="1105" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-10-10  A23403G  Ecuador=4 [100.0%] Chile=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="622" cy="1105" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-10-10  A23403G  Chile=4 [100.0%] Ecuador=4 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="622" cy="1105" r="8" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-10-12 Chile=4</title>
@@ -4855,11 +4843,11 @@
 	<circle cx="189" cy="961" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-10-14  G25471T  Peru=2 [5.9%]  ORF3a protein, D27Y</title>
+	<title>2020-10-14  G25471C  Peru=2 [5.9%]  ORF3a protein, D27H</title>
 	<circle cx="182" cy="960" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-10-14  G25471C  Peru=2 [5.9%]  ORF3a protein, D27H</title>
+	<title>2020-10-14  G25471T  Peru=2 [5.9%]  ORF3a protein, D27Y</title>
 	<circle cx="182" cy="960" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
@@ -4999,12 +4987,20 @@
 	<line x1="1190.9" y1="1195.8" x2="1186.1" y2="1193.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
+	<title>2020-10-26 Curacao=2</title>
+	<line x1="1186.1" y1="1193.5" x2="1184.2" y2="1192.6" style="stroke:#6495ED;" class="sb" />
+</g>
+<g>
 	<title>2020-10-26  G23012A  Brazil=3 [21.4%]  surface glycoprotein, E484K</title>
 	<circle cx="749" cy="989" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-26  A23403G  Brazil=14 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="670" cy="952" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-10-26  A23403G  Brazil=14 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="670" cy="952" r="8" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2020-10-26  G25088T  Brazil=8 [57.1%]  surface glycoprotein, V1176F</title>
@@ -5071,12 +5067,28 @@
 	<line x1="1191.3" y1="1195.1" x2="1188.5" y2="1193.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
+	<title>2020-10-30 Ecuador=3</title>
+	<line x1="1188.5" y1="1193.6" x2="1186.1" y2="1192.3" style="stroke:lime;" class="sb" />
+</g>
+<g>
+	<title>2020-10-30 Curacao=2</title>
+	<line x1="1186.1" y1="1192.3" x2="1184.3" y2="1191.3" style="stroke:#6495ED;" class="sb" />
+</g>
+<g>
 	<title>2020-10-30  G23012A  Brazil=2 [50.0%]  surface glycoprotein, E484K</title>
 	<circle cx="764" cy="958" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-30  A23403G  Brazil=4 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="688" cy="916" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-10-30  A23403G  Brazil=4 [100.0%] Ecuador=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="688" cy="916" r="8" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-10-30  A23403G  Brazil=4 [100.0%] Ecuador=3 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="688" cy="916" r="8" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2020-10-30  G25088T  Brazil=2 [50.0%]  surface glycoprotein, V1176F</title>
@@ -5087,12 +5099,20 @@
 	<line x1="1191.3" y1="1195.0" x2="1189.5" y2="1193.9" style="stroke:orange;" class="sb" />
 </g>
 <g>
+	<title>2020-10-31 Curacao=2</title>
+	<line x1="1189.5" y1="1193.9" x2="1187.6" y2="1192.9" style="stroke:#6495ED;" class="sb" />
+</g>
+<g>
 	<title>2020-10-31  A22803G  Argentina=2 [100.0%]  surface glycoprotein, Q414R</title>
 	<circle cx="809" cy="974" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-10-31  A23403G  Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="693" cy="907" r="8" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2020-10-31  A23403G  Argentina=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="693" cy="907" r="8" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2020-11-02 Argentina=2</title>
@@ -5173,6 +5193,14 @@
 <g>
 	<title>2020-11-06  A23403G  Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="726" cy="857" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-11-07 Curacao=2</title>
+	<line x1="1192.0" y1="1194.0" x2="1190.3" y2="1192.7" style="stroke:#6495ED;" class="sb" />
+</g>
+<g>
+	<title>2020-11-07  A23403G  Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="732" cy="849" r="8" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2020-11-09 Brazil=5</title>
@@ -5539,12 +5567,20 @@
 	<line x1="1194.6" y1="1189.1" x2="1193.6" y2="1187.2" style="stroke:orange;" class="sb" />
 </g>
 <g>
-	<title>2020-12-04  A23403G  Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-04 Curacao=2</title>
+	<line x1="1193.6" y1="1187.2" x2="1192.6" y2="1185.3" style="stroke:#6495ED;" class="sb" />
+</g>
+<g>
+	<title>2020-12-04  A23403G  Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="938" cy="676" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-04  A23403G  Brazil=2 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="938" cy="676" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-12-04  A23403G  Argentina=2 [100.0%] Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="938" cy="676" r="8" style="fill:cyan;" class="cv" />
+	<title>2020-12-04  A23403G  Brazil=2 [100.0%] Argentina=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="938" cy="676" r="8" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2020-12-06 Brazil=2</title>
@@ -5799,6 +5835,10 @@
 	<line x1="1196.6" y1="1187.8" x2="1196.0" y2="1185.7" style="stroke:lime;" class="sb" />
 </g>
 <g>
+	<title>2020-12-15 Curacao=2</title>
+	<line x1="1196.0" y1="1185.7" x2="1195.4" y2="1183.6" style="stroke:#6495ED;" class="sb" />
+</g>
+<g>
 	<title>2020-12-15  G23012A  Brazil=2 [66.7%]  surface glycoprotein, E484K</title>
 	<circle cx="1065" cy="720" r="7" style="fill:cyan;" class="cv" />
 </g>
@@ -5809,6 +5849,10 @@
 <g>
 	<title>2020-12-15  A23403G  Brazil=3 [100.0%] Ecuador=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1041" cy="637" r="8" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-12-15  A23403G  Brazil=3 [100.0%] Ecuador=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1041" cy="637" r="8" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2020-12-15  G25088T  Brazil=3 [100.0%]  surface glycoprotein, V1176F</title>
@@ -5843,7 +5887,15 @@
 	<line x1="1197.8" y1="1190.2" x2="1197.3" y2="1188.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2020-12-18  A23403G  Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-18 Curacao=4</title>
+	<line x1="1197.3" y1="1188.2" x2="1196.6" y2="1185.1" style="stroke:#6495ED;" class="sb" />
+</g>
+<g>
+	<title>2020-12-18  A23403G  Curacao=4 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1070" cy="629" r="8" style="fill:#6495ED;" class="cv" />
+</g>
+<g>
+	<title>2020-12-18  A23403G  Curacao=4 [100.0%] Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1070" cy="629" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -5903,12 +5955,12 @@
 	<circle cx="1100" cy="623" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  A23403G  Brazil=5 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1100" cy="623" r="8" style="fill:#ADD8E6;" class="cv" />
+	<title>2020-12-21  A23403G  Brazil=5 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1100" cy="623" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  A23403G  Brazil=5 [100.0%] French Guiana=2 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1100" cy="623" r="8" style="fill:orange;" class="cv" />
+	<title>2020-12-21  A23403G  Brazil=5 [100.0%] Argentina=2 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1100" cy="623" r="8" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  C23525T  Brazil=2 [40.0%]  surface glycoprotein, H655Y</title>
@@ -5971,12 +6023,12 @@
 	<circle cx="1143" cy="726" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-12-24  A23403G  Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1130" cy="619" r="8" style="fill:orange;" class="cv" />
+	<title>2020-12-24  A23403G  Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1130" cy="619" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-24  A23403G  Argentina=2 [100.0%] Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1130" cy="619" r="8" style="fill:cyan;" class="cv" />
+	<title>2020-12-24  A23403G  Brazil=2 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1130" cy="619" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  G23587T  Brazil=2 [100.0%]  surface glycoprotein, Q675H</title>
@@ -5999,8 +6051,16 @@
 	<line x1="1199.1" y1="1190.0" x2="1199.0" y2="1187.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
+	<title>2020-12-26 Curacao=2</title>
+	<line x1="1199.0" y1="1187.9" x2="1198.8" y2="1185.8" style="stroke:#6495ED;" class="sb" />
+</g>
+<g>
 	<title>2020-12-26  A23403G  Brazil=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1150" cy="617" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-26  A23403G  Brazil=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1150" cy="617" r="8" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  G25088T  Brazil=2 [100.0%]  surface glycoprotein, V1176F</title>
@@ -6013,6 +6073,10 @@
 <g>
 	<title>2020-12-28 Ecuador=4</title>
 	<line x1="1199.3" y1="1186.9" x2="1199.2" y2="1183.7" style="stroke:lime;" class="sb" />
+</g>
+<g>
+	<title>2020-12-28 Curacao=2</title>
+	<line x1="1199.2" y1="1183.7" x2="1199.1" y2="1181.6" style="stroke:#6495ED;" class="sb" />
 </g>
 <g>
 	<title>2020-12-28  G21974T  Brazil=3 [75.0%]  surface glycoprotein, D138Y</title>
@@ -6041,6 +6105,10 @@
 <g>
 	<title>2020-12-28  A23403G  Ecuador=4 [100.0%] Brazil=4 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1170" cy="615" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-28  A23403G  Ecuador=4 [100.0%] Brazil=4 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1170" cy="615" r="8" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  C23525T  Brazil=3 [75.0%]  surface glycoprotein, H655Y</title>
@@ -6119,7 +6187,7 @@
 	<line x1="1200.0" y1="1190.0" x2="1200.0" y2="1187.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
-	<title>2020-12-31  ATTA21993A  Brazil=2 [100.0%]  surface glycoprotein, Y145H</title>
+	<title>2020-12-31  ATTA21993A  Brazil=2 [100.0%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1200" cy="929" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -6155,8 +6223,8 @@
 	<circle cx="1200" cy="278" r="8" style="fill:cyan;" class="cv" />
 </g>
 <rect x="1865" y="140" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
-<text font-size="1.8em" x="1880" y="170" fill="white">Data from 16 regions in South America</text>
+<text font-size="1.8em" x="1880" y="170" fill="white">Data from 14 regions in South America</text>
 <text font-size="1.8em" x="1880" y="200" fill="white">Total genomes≥10  Genomes/day≥2</text>
 <text font-size="1.8em" x="1880" y="230" fill="white">103 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-15</text>
+<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-19</text>
 </svg>
