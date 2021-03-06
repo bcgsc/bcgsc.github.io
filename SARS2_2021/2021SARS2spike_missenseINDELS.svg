@@ -32,7 +32,7 @@
 <title>main menu</title>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 variants 2021 timemap</text>
 </a>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 166,888 GISAID genomes</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 166,889 GISAID genomes</text>
 <line x1="1200" y1="89.1314031180401" x2="1200" y2="139.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="79.1314031180401" fill="white">Winter</text>
 <line x1="2261" y1="1200" x2="2311" y2="1200" style="stroke:white;stroke-width:4" />
@@ -1692,12 +1692,12 @@
 	<line x1="1233.7" y1="1157.6" x2="1238.7" y2="1151.3" style="stroke:lime;" class="sb" />
 </g>
 <g>
-	<title>2021-02-08  T21982TGGGTG  Europe=2 [0.0%]  surface glycoprotein, L141G/ins</title>
-	<circle cx="1364" cy="994" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-02-08  T21982TGGGTG  Asia=2 [0.7%]  surface glycoprotein, L141G/ins</title>
+	<circle cx="1364" cy="994" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-02-08  T21982TGGGTG  Europe=2 [0.0%] Asia=2 [0.7%]  surface glycoprotein, L141G/ins</title>
-	<circle cx="1364" cy="994" r="2" style="fill:white;" class="cv" />
+	<title>2021-02-08  T21982TGGGTG  Asia=2 [0.7%] Europe=2 [0.0%]  surface glycoprotein, L141G/ins</title>
+	<circle cx="1364" cy="994" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-08  ATTA21993A  Europe=3054 [65.4%]  surface glycoprotein, Y145H/del</title>
@@ -1852,12 +1852,12 @@
 	<circle cx="1379" cy="1004" r="3" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-02-12  ATTA21993A  South America=4 [12.5%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1379" cy="1004" r="3" style="fill:lime;" class="cv" />
+	<title>2021-02-12  ATTA21993A  Asia=4 [17.4%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1379" cy="1004" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-02-12  ATTA21993A  South America=4 [12.5%] Asia=4 [17.4%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1379" cy="1004" r="3" style="fill:white;" class="cv" />
+	<title>2021-02-12  ATTA21993A  Asia=4 [17.4%] South America=4 [12.5%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1379" cy="1004" r="3" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-02-13 Europe=1800</title>
@@ -2220,12 +2220,20 @@
 	<line x1="1218.7" y1="1187.5" x2="1221.3" y2="1185.7" style="stroke:white;" class="sb" />
 </g>
 <g>
+	<title>2021-02-26 Oceania=2</title>
+	<line x1="1221.3" y1="1185.7" x2="1223.1" y2="1184.5" style="stroke:yellow;" class="sb" />
+</g>
+<g>
 	<title>2021-02-26  ATTA21993A  Europe=10 [35.7%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1421" cy="1052" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-26  ATTA21993A  North America=2 [10.0%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1421" cy="1052" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-26  ATTA21993A  North America=2 [10.0%] Oceania=2 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1421" cy="1052" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2021-02-27 Europe=8</title>

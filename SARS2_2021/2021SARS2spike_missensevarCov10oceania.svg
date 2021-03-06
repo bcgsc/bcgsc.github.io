@@ -32,7 +32,7 @@
 <title>main menu</title>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 variants 2021 timemap</text>
 </a>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 208 GISAID genomes</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 240 GISAID genomes</text>
 <line x1="1200" y1="83.1314031180401" x2="1200" y2="133.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="73.1314031180401" fill="white">Winter</text>
 <line x1="2267" y1="1200" x2="2317" y2="1200" style="stroke:white;stroke-width:4" />
@@ -308,12 +308,12 @@
 	<circle cx="1265" cy="937" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-14  A23063T  Australia=3 [75.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1322" cy="705" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-01-14  A23063T  New Zealand=3 [75.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1322" cy="705" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-14  A23063T  Australia=3 [75.0%] New Zealand=3 [75.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1322" cy="705" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-14  A23063T  New Zealand=3 [75.0%] Australia=3 [75.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1322" cy="705" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14  C23271A  New Zealand=2 [50.0%]  surface glycoprotein, A570D</title>
@@ -332,12 +332,12 @@
 	<circle cx="1340" cy="632" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-14  C23604A  Australia=2 [50.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1350" cy="588" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-01-14  C23604A  New Zealand=2 [50.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1350" cy="588" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-14  C23604A  Australia=2 [50.0%] New Zealand=2 [50.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1350" cy="588" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-14  C23604A  New Zealand=2 [50.0%] Australia=2 [50.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1350" cy="588" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14  C23709T  Australia=2 [50.0%]  surface glycoprotein, T716I</title>
@@ -592,11 +592,11 @@
 	<circle cx="1416" cy="656" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-22  C23604G  Australia=2 [28.6%]  surface glycoprotein, P681R</title>
+	<title>2021-01-22  C23604A  Australia=2 [28.6%]  surface glycoprotein, P681H</title>
 	<circle cx="1433" cy="615" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-22  C23604A  Australia=2 [28.6%]  surface glycoprotein, P681H</title>
+	<title>2021-01-22  C23604G  Australia=2 [28.6%]  surface glycoprotein, P681R</title>
 	<circle cx="1433" cy="615" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -752,6 +752,26 @@
 	<circle cx="1641" cy="391" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
+	<title>2021-01-31 Australia=2</title>
+	<line x1="1205.1" y1="1191.4" x2="1206.2" y2="1189.5" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-01-31  G22017T  Australia=2 [100.0%]  surface glycoprotein, W152L</title>
+	<circle cx="1341" cy="962" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-31  G23012A  Australia=2 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1453" cy="771" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-31  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1498" cy="696" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-31  G23868T  Australia=2 [100.0%]  surface glycoprotein, G769V</title>
+	<circle cx="1550" cy="607" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
 	<title>2021-02-02 Australia=3</title>
 	<line x1="1205.4" y1="1191.6" x2="1206.8" y2="1189.3" style="stroke:cyan;" class="sb" />
 </g>
@@ -818,6 +838,14 @@
 <g>
 	<title>2021-02-03  G24914C  Australia=5 [100.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="1709" cy="432" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-05 Australia=3</title>
+	<line x1="1205.8" y1="1191.9" x2="1207.4" y2="1189.7" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-02-05  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1540" cy="724" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-08 Australia=4</title>
@@ -1068,44 +1096,220 @@
 	<circle cx="1650" cy="826" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
+	<title>2021-02-22 Australia=2</title>
+	<line x1="1207.9" y1="1193.9" x2="1209.6" y2="1192.6" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-02-22  C21597T  Australia=2 [100.0%]  surface glycoprotein, S12F</title>
+	<circle cx="1345" cy="1088" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-22  C22227T  Australia=2 [100.0%]  surface glycoprotein, A222V</title>
+	<circle cx="1456" cy="1002" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-22  T22917G  Australia=2 [100.0%]  surface glycoprotein, L452R</title>
+	<circle cx="1577" cy="908" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-22  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1663" cy="842" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-22  G23593T  Australia=2 [100.0%]  surface glycoprotein, Q677H</title>
+	<circle cx="1696" cy="816" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-23 Australia=3</title>
+	<line x1="1208.0" y1="1194.0" x2="1210.2" y2="1192.4" style="stroke:cyan;" class="sb" />
+</g>
+<g>
 	<title>2021-02-23 New Zealand=2</title>
-	<line x1="1208.0" y1="1194.0" x2="1209.7" y2="1192.7" style="stroke:fuchsia;" class="sb" />
+	<line x1="1210.2" y1="1192.4" x2="1211.9" y2="1191.1" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2021-02-23  ATTA21993A  New Zealand=2 [100.0%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1417" cy="1038" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
+	<title>2021-02-23  ATTA21993A  Australia=2 [66.7%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1417" cy="1038" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
 	<title>2021-02-23  A23063T  New Zealand=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1608" cy="895" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-23  A23063T  Australia=2 [66.7%]  surface glycoprotein, N501Y</title>
+	<circle cx="1608" cy="895" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-23  C23271A  New Zealand=2 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1645" cy="867" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-23  A23403G  New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-02-23  C23271A  Australia=2 [66.7%]  surface glycoprotein, A570D</title>
+	<circle cx="1645" cy="867" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-23  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1669" cy="850" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-23  A23403G  Australia=3 [100.0%] New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1669" cy="850" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-23  C23604A  New Zealand=2 [100.0%]  surface glycoprotein, P681H</title>
+	<title>2021-02-23  C23604A  Australia=2 [66.7%]  surface glycoprotein, P681H</title>
+	<circle cx="1705" cy="823" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-23  C23604A  Australia=2 [66.7%] New Zealand=2 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1705" cy="823" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-23  C23709T  New Zealand=2 [100.0%]  surface glycoprotein, T716I</title>
+	<title>2021-02-23  C23709T  Australia=2 [66.7%]  surface glycoprotein, T716I</title>
+	<circle cx="1724" cy="809" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-23  C23709T  Australia=2 [66.7%] New Zealand=2 [100.0%]  surface glycoprotein, T716I</title>
 	<circle cx="1724" cy="809" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-23  T24506G  New Zealand=2 [100.0%]  surface glycoprotein, S982A</title>
+	<title>2021-02-23  T24506G  Australia=2 [66.7%]  surface glycoprotein, S982A</title>
+	<circle cx="1866" cy="703" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-23  T24506G  Australia=2 [66.7%] New Zealand=2 [100.0%]  surface glycoprotein, S982A</title>
 	<circle cx="1866" cy="703" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-23  G24914C  New Zealand=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<title>2021-02-23  G24914C  Australia=2 [66.7%]  surface glycoprotein, D1118H</title>
+	<circle cx="1939" cy="649" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-23  G24914C  Australia=2 [66.7%] New Zealand=2 [100.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="1939" cy="649" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-24 Australia=3</title>
+	<line x1="1208.1" y1="1194.2" x2="1210.3" y2="1192.6" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-02-24  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1675" cy="858" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-25 Australia=2</title>
+	<line x1="1208.2" y1="1194.3" x2="1210.0" y2="1193.1" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-02-25  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1681" cy="866" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-27 Australia=6</title>
+	<line x1="1208.4" y1="1194.6" x2="1211.6" y2="1192.5" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-02-27  ATTA21993A  Australia=4 [66.7%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1428" cy="1053" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-27  A23063T  Australia=4 [66.7%]  surface glycoprotein, N501Y</title>
+	<circle cx="1628" cy="924" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-27  C23271A  Australia=4 [66.7%]  surface glycoprotein, A570D</title>
+	<circle cx="1667" cy="899" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-27  A23403G  Australia=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1692" cy="883" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-27  C23604A  Australia=4 [66.7%]  surface glycoprotein, P681H</title>
+	<circle cx="1730" cy="859" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-27  C23709T  Australia=4 [66.7%]  surface glycoprotein, T716I</title>
+	<circle cx="1749" cy="846" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-27  T24506G  Australia=4 [66.7%]  surface glycoprotein, S982A</title>
+	<circle cx="1899" cy="750" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-27  G24914C  Australia=4 [66.7%]  surface glycoprotein, D1118H</title>
+	<circle cx="1975" cy="701" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-28 Australia=2</title>
+	<line x1="1208.5" y1="1194.7" x2="1210.3" y2="1193.6" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-02-28  G21974T  Australia=2 [100.0%]  surface glycoprotein, D138Y</title>
+	<circle cx="1427" cy="1059" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-28  G22992A  Australia=2 [100.0%]  surface glycoprotein, S477N</title>
+	<circle cx="1620" cy="940" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-28  G23126T  Australia=2 [100.0%]  surface glycoprotein, A522S</title>
+	<circle cx="1645" cy="924" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-28  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1697" cy="891" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-28  A23586G  Australia=2 [100.0%]  surface glycoprotein, Q675R</title>
+	<circle cx="1732" cy="870" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-28  G24095T  Australia=2 [100.0%]  surface glycoprotein, A845S</title>
+	<circle cx="1828" cy="810" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-03-02 Australia=2</title>
+	<line x1="1208.7" y1="1195.0" x2="1210.5" y2="1194.0" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-03-02  C22879A  Australia=2 [100.0%]  surface glycoprotein, N439K</title>
+	<circle cx="1606" cy="967" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-03-02  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1708" cy="909" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-03-03 Australia=2</title>
+	<line x1="1208.8" y1="1195.2" x2="1210.6" y2="1194.1" style="stroke:cyan;" class="sb" />
+</g>
+<g>
+	<title>2021-03-03  G22992A  Australia=2 [100.0%]  surface glycoprotein, S477N</title>
+	<circle cx="1632" cy="962" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-03-03  G23126T  Australia=2 [100.0%]  surface glycoprotein, A522S</title>
+	<circle cx="1659" cy="947" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-03-03  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1713" cy="918" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-03-03  A23586G  Australia=2 [100.0%]  surface glycoprotein, Q675R</title>
+	<circle cx="1748" cy="898" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-03-03  G24095T  Australia=2 [100.0%]  surface glycoprotein, A845S</title>
+	<circle cx="1848" cy="843" r="2" style="fill:cyan;" class="cv" />
 </g>
 <rect x="1865" y="140" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="170" fill="white">Data from 2 regions in Oceania</text>
 <text font-size="1.8em" x="1880" y="200" fill="white">Total genomes≥10  Genomes/day≥2</text>
-<text font-size="1.8em" x="1880" y="230" fill="white">24 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-02-26</text>
+<text font-size="1.8em" x="1880" y="230" fill="white">34 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-03-06</text>
 </svg>

@@ -32,7 +32,7 @@
 <title>main menu</title>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 variants 2021 timemap</text>
 </a>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 166,888 GISAID genomes</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 166,889 GISAID genomes</text>
 <line x1="1200" y1="89.1314031180401" x2="1200" y2="139.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="79.1314031180401" fill="white">Winter</text>
 <line x1="2261" y1="1200" x2="2311" y2="1200" style="stroke:white;stroke-width:4" />
@@ -656,12 +656,12 @@
 	<circle cx="1221" cy="579" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  G23593T  missense=51 [3.3%]  surface glycoprotein, Q677H</title>
-	<circle cx="1221" cy="578" r="7" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-02  G23593C  missense=11 [0.7%]  surface glycoprotein, Q677H</title>
 	<circle cx="1221" cy="578" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-02  G23593T  missense=51 [3.3%]  surface glycoprotein, Q677H</title>
+	<circle cx="1221" cy="578" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-02  C23604A  missense=304 [19.4%]  surface glycoprotein, P681H</title>
@@ -932,12 +932,12 @@
 	<circle cx="1212" cy="977" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  C21811T  silent=6 [0.4%]  surface glycoprotein, silent</title>
-	<circle cx="1212" cy="975" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-03  C21811A  silent=10 [0.6%]  surface glycoprotein, silent</title>
 	<circle cx="1212" cy="975" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-03  C21811T  silent=6 [0.4%]  surface glycoprotein, silent</title>
+	<circle cx="1212" cy="975" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  C21846T  missense=9 [0.6%]  surface glycoprotein, T95I</title>
@@ -1164,16 +1164,12 @@
 	<circle cx="1232" cy="579" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  G23593T  missense=57 [3.6%]  surface glycoprotein, Q677H</title>
-	<circle cx="1232" cy="579" r="7" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-03  G23593C  missense=10 [0.6%]  surface glycoprotein, Q677H</title>
 	<circle cx="1232" cy="579" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  C23604T  missense=6 [0.4%]  surface glycoprotein, P681L</title>
-	<circle cx="1232" cy="576" r="3" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-03  G23593T  missense=57 [3.6%]  surface glycoprotein, Q677H</title>
+	<circle cx="1232" cy="579" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  C23604A  missense=337 [21.4%]  surface glycoprotein, P681H</title>
@@ -1182,6 +1178,10 @@
 <g>
 	<title>2021-01-03  C23604G  missense=16 [1.0%]  surface glycoprotein, P681R</title>
 	<circle cx="1232" cy="576" r="5" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-03  C23604T  missense=6 [0.4%]  surface glycoprotein, P681L</title>
+	<circle cx="1232" cy="576" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-03  C23625T  missense=10 [0.6%]  surface glycoprotein, A688V</title>
@@ -1216,11 +1216,11 @@
 	<circle cx="1234" cy="548" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  A23756G  missense=6 [0.4%]  surface glycoprotein, T732A</title>
+	<title>2021-01-03  A23756T  missense=6 [0.4%]  surface glycoprotein, T732S</title>
 	<circle cx="1234" cy="543" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-03  A23756T  missense=6 [0.4%]  surface glycoprotein, T732S</title>
+	<title>2021-01-03  A23756G  missense=6 [0.4%]  surface glycoprotein, T732A</title>
 	<circle cx="1234" cy="543" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -1508,12 +1508,12 @@
 	<circle cx="1215" cy="978" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C21811T  silent=12 [0.2%]  surface glycoprotein, silent</title>
-	<circle cx="1216" cy="975" r="4" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-04  C21811A  silent=29 [0.5%]  surface glycoprotein, silent</title>
 	<circle cx="1216" cy="975" r="6" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04  C21811T  silent=12 [0.2%]  surface glycoprotein, silent</title>
+	<circle cx="1216" cy="975" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  T21823C  silent=7 [0.1%]  surface glycoprotein, silent</title>
@@ -1524,12 +1524,12 @@
 	<circle cx="1216" cy="971" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C21846A  missense=7 [0.1%]  surface glycoprotein, T95N</title>
-	<circle cx="1216" cy="968" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-04  C21846T  missense=22 [0.4%]  surface glycoprotein, T95I</title>
 	<circle cx="1216" cy="968" r="5" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04  C21846A  missense=7 [0.1%]  surface glycoprotein, T95N</title>
+	<circle cx="1216" cy="968" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  G21848C  missense=7 [0.1%]  surface glycoprotein, E96Q</title>
@@ -1988,12 +1988,12 @@
 	<circle cx="1243" cy="582" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G23587C  missense=11 [0.2%]  surface glycoprotein, Q675H</title>
-	<circle cx="1243" cy="581" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-04  G23587T  missense=37 [0.6%]  surface glycoprotein, Q675H</title>
 	<circle cx="1243" cy="581" r="6" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04  G23587C  missense=11 [0.2%]  surface glycoprotein, Q675H</title>
+	<circle cx="1243" cy="581" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  A23592C  missense=24 [0.4%]  surface glycoprotein, Q677P</title>
@@ -2012,12 +2012,12 @@
 	<circle cx="1243" cy="578" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  C23604G  missense=17 [0.3%]  surface glycoprotein, P681R</title>
-	<circle cx="1243" cy="577" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-04  C23604A  missense=627 [10.8%]  surface glycoprotein, P681H</title>
 	<circle cx="1243" cy="577" r="11" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04  C23604G  missense=17 [0.3%]  surface glycoprotein, P681R</title>
+	<circle cx="1243" cy="577" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  G23608T  silent=9 [0.2%]  surface glycoprotein, silent</title>
@@ -2064,12 +2064,12 @@
 	<circle cx="1245" cy="549" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  A23756T  missense=7 [0.1%]  surface glycoprotein, T732S</title>
-	<circle cx="1245" cy="543" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-04  A23756G  missense=33 [0.6%]  surface glycoprotein, T732A</title>
 	<circle cx="1245" cy="543" r="6" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04  A23756T  missense=7 [0.1%]  surface glycoprotein, T732S</title>
+	<circle cx="1245" cy="543" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  C23758T  silent=22 [0.4%]  surface glycoprotein, silent</title>
@@ -2200,11 +2200,11 @@
 	<circle cx="1254" cy="411" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G24368T  missense=9 [0.2%]  surface glycoprotein, D936Y</title>
+	<title>2021-01-04  G24368A  missense=10 [0.2%]  surface glycoprotein, D936N</title>
 	<circle cx="1255" cy="407" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  G24368A  missense=10 [0.2%]  surface glycoprotein, D936N</title>
+	<title>2021-01-04  G24368T  missense=9 [0.2%]  surface glycoprotein, D936Y</title>
 	<circle cx="1255" cy="407" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -2296,12 +2296,12 @@
 	<circle cx="1261" cy="313" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  T24814A  missense=10 [0.2%]  surface glycoprotein, D1084E</title>
-	<circle cx="1262" cy="308" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-04  T24814C  silent=505 [8.7%]  surface glycoprotein, silent</title>
 	<circle cx="1262" cy="308" r="11" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04  T24814A  missense=10 [0.2%]  surface glycoprotein, D1084E</title>
+	<circle cx="1262" cy="308" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  G24816C  missense=11 [0.2%]  surface glycoprotein, G1085A</title>
@@ -2904,12 +2904,12 @@
 	<circle cx="1253" cy="582" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G23587C  missense=9 [0.3%]  surface glycoprotein, Q675H</title>
-	<circle cx="1253" cy="582" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-05  G23587T  missense=40 [1.4%]  surface glycoprotein, Q675H</title>
 	<circle cx="1253" cy="582" r="6" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-05  G23587C  missense=9 [0.3%]  surface glycoprotein, Q675H</title>
+	<circle cx="1253" cy="582" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-05  A23592C  missense=30 [1.1%]  surface glycoprotein, Q677P</title>
@@ -3056,12 +3056,12 @@
 	<circle cx="1268" cy="413" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-05  G24368T  missense=8 [0.3%]  surface glycoprotein, D936Y</title>
-	<circle cx="1268" cy="408" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-05  G24368A  missense=6 [0.2%]  surface glycoprotein, D936N</title>
 	<circle cx="1268" cy="408" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-05  G24368T  missense=8 [0.3%]  surface glycoprotein, D936Y</title>
+	<circle cx="1268" cy="408" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-05  C24370T  silent=5 [0.2%]  surface glycoprotein, silent</title>
@@ -3564,12 +3564,12 @@
 	<circle cx="1264" cy="581" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  G23593C  missense=8 [0.4%]  surface glycoprotein, Q677H</title>
-	<circle cx="1264" cy="581" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-06  G23593T  missense=94 [4.6%]  surface glycoprotein, Q677H</title>
 	<circle cx="1264" cy="581" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-06  G23593C  missense=8 [0.4%]  surface glycoprotein, Q677H</title>
+	<circle cx="1264" cy="581" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-06  T23599A  missense=9 [0.4%]  surface glycoprotein, N679K</title>
@@ -4160,12 +4160,12 @@
 	<circle cx="1273" cy="596" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  G23587T  missense=49 [2.0%]  surface glycoprotein, Q675H</title>
-	<circle cx="1275" cy="584" r="7" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-07  G23587C  missense=13 [0.5%]  surface glycoprotein, Q675H</title>
 	<circle cx="1275" cy="584" r="5" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-07  G23587T  missense=49 [2.0%]  surface glycoprotein, Q675H</title>
+	<circle cx="1275" cy="584" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-07  A23592C  missense=20 [0.8%]  surface glycoprotein, Q677P</title>
@@ -4180,12 +4180,12 @@
 	<circle cx="1275" cy="582" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-07  C23604A  missense=746 [30.5%]  surface glycoprotein, P681H</title>
-	<circle cx="1275" cy="580" r="11" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-07  C23604G  missense=9 [0.4%]  surface glycoprotein, P681R</title>
 	<circle cx="1275" cy="580" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-07  C23604A  missense=746 [30.5%]  surface glycoprotein, P681H</title>
+	<circle cx="1275" cy="580" r="11" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-07  C23625T  missense=8 [0.3%]  surface glycoprotein, A688V</title>
@@ -4840,12 +4840,12 @@
 	<circle cx="1285" cy="587" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  G23587T  missense=30 [1.2%]  surface glycoprotein, Q675H</title>
-	<circle cx="1285" cy="585" r="6" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-08  G23587C  missense=6 [0.2%]  surface glycoprotein, Q675H</title>
 	<circle cx="1285" cy="585" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  G23587T  missense=30 [1.2%]  surface glycoprotein, Q675H</title>
+	<circle cx="1285" cy="585" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-08  A23592C  missense=24 [1.0%]  surface glycoprotein, Q677P</title>
@@ -4860,12 +4860,12 @@
 	<circle cx="1285" cy="584" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  C23604A  missense=670 [27.3%]  surface glycoprotein, P681H</title>
-	<circle cx="1286" cy="581" r="11" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-08  C23604G  missense=5 [0.2%]  surface glycoprotein, P681R</title>
 	<circle cx="1286" cy="581" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  C23604A  missense=670 [27.3%]  surface glycoprotein, P681H</title>
+	<circle cx="1286" cy="581" r="11" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-08  C23625T  missense=8 [0.3%]  surface glycoprotein, A688V</title>
@@ -4980,11 +4980,11 @@
 	<circle cx="1309" cy="417" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  G24368A  missense=5 [0.2%]  surface glycoprotein, D936N</title>
+	<title>2021-01-08  G24368T  missense=5 [0.2%]  surface glycoprotein, D936Y</title>
 	<circle cx="1309" cy="413" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  G24368T  missense=5 [0.2%]  surface glycoprotein, D936Y</title>
+	<title>2021-01-08  G24368A  missense=5 [0.2%]  surface glycoprotein, D936N</title>
 	<circle cx="1309" cy="413" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -5432,12 +5432,12 @@
 	<circle cx="1295" cy="593" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-09  G23587T  missense=22 [1.1%]  surface glycoprotein, Q675H</title>
-	<circle cx="1296" cy="587" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-09  G23587C  missense=6 [0.3%]  surface glycoprotein, Q675H</title>
 	<circle cx="1296" cy="587" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-09  G23587T  missense=22 [1.1%]  surface glycoprotein, Q675H</title>
+	<circle cx="1296" cy="587" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-09  A23592C  missense=31 [1.5%]  surface glycoprotein, Q677P</title>
@@ -5452,12 +5452,12 @@
 	<circle cx="1296" cy="585" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-09  C23604A  missense=727 [35.1%]  surface glycoprotein, P681H</title>
-	<circle cx="1296" cy="583" r="11" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-09  C23604G  missense=14 [0.7%]  surface glycoprotein, P681R</title>
 	<circle cx="1296" cy="583" r="5" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-09  C23604A  missense=727 [35.1%]  surface glycoprotein, P681H</title>
+	<circle cx="1296" cy="583" r="11" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-09  C23625T  missense=8 [0.4%]  surface glycoprotein, A688V</title>
@@ -5892,12 +5892,12 @@
 	<circle cx="1307" cy="587" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-10  C23604A  missense=749 [43.3%]  surface glycoprotein, P681H</title>
-	<circle cx="1307" cy="585" r="12" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-10  C23604G  missense=9 [0.5%]  surface glycoprotein, P681R</title>
 	<circle cx="1307" cy="585" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-10  C23604A  missense=749 [43.3%]  surface glycoprotein, P681H</title>
+	<circle cx="1307" cy="585" r="12" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-10  C23625T  missense=11 [0.6%]  surface glycoprotein, A688V</title>
@@ -6176,12 +6176,12 @@
 	<circle cx="1242" cy="981" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  C21811A  silent=39 [0.6%]  surface glycoprotein, silent</title>
-	<circle cx="1242" cy="979" r="6" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-11  C21811T  silent=8 [0.1%]  surface glycoprotein, silent</title>
 	<circle cx="1242" cy="979" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  C21811A  silent=39 [0.6%]  surface glycoprotein, silent</title>
+	<circle cx="1242" cy="979" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  C21812T  silent=7 [0.1%]  surface glycoprotein, silent</title>
@@ -6512,12 +6512,12 @@
 	<circle cx="1292" cy="721" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  C22993G  missense=16 [0.3%]  surface glycoprotein, S477R</title>
-	<circle cx="1292" cy="720" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-11  C22993T  silent=5 [0.1%]  surface glycoprotein, silent</title>
 	<circle cx="1292" cy="720" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  C22993G  missense=16 [0.3%]  surface glycoprotein, S477R</title>
+	<circle cx="1292" cy="720" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  C22995A  missense=32 [0.5%]  surface glycoprotein, T478K</title>
@@ -6632,11 +6632,11 @@
 	<circle cx="1315" cy="598" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  C23557T  silent=8 [0.1%]  surface glycoprotein, silent</title>
+	<title>2021-01-11  C23557A  silent=8 [0.1%]  surface glycoprotein, silent</title>
 	<circle cx="1316" cy="597" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  C23557A  silent=8 [0.1%]  surface glycoprotein, silent</title>
+	<title>2021-01-11  C23557T  silent=8 [0.1%]  surface glycoprotein, silent</title>
 	<circle cx="1316" cy="597" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -6656,12 +6656,12 @@
 	<circle cx="1317" cy="592" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  G23587T  missense=32 [0.5%]  surface glycoprotein, Q675H</title>
-	<circle cx="1317" cy="590" r="6" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-11  G23587C  missense=9 [0.1%]  surface glycoprotein, Q675H</title>
 	<circle cx="1317" cy="590" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  G23587T  missense=32 [0.5%]  surface glycoprotein, Q675H</title>
+	<circle cx="1317" cy="590" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  A23592C  missense=38 [0.6%]  surface glycoprotein, Q677P</title>
@@ -6744,12 +6744,12 @@
 	<circle cx="1324" cy="553" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  C23758A  silent=5 [0.1%]  surface glycoprotein, silent</title>
-	<circle cx="1324" cy="553" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-11  C23758T  silent=18 [0.3%]  surface glycoprotein, silent</title>
 	<circle cx="1324" cy="553" r="5" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  C23758A  silent=5 [0.1%]  surface glycoprotein, silent</title>
+	<circle cx="1324" cy="553" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  A23779T  silent=6 [0.1%]  surface glycoprotein, silent</title>
@@ -6960,12 +6960,12 @@
 	<circle cx="1367" cy="326" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  T24814A  missense=6 [0.1%]  surface glycoprotein, D1084E</title>
-	<circle cx="1368" cy="322" r="3" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-11  T24814C  silent=396 [6.2%]  surface glycoprotein, silent</title>
 	<circle cx="1368" cy="322" r="10" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  T24814A  missense=6 [0.1%]  surface glycoprotein, D1084E</title>
+	<circle cx="1368" cy="322" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  G24816C  missense=5 [0.1%]  surface glycoprotein, G1085A</title>
@@ -7028,12 +7028,12 @@
 	<circle cx="1378" cy="271" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-11  C25047G  missense=8 [0.1%]  surface glycoprotein, P1162R</title>
-	<circle cx="1378" cy="271" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-11  C25047T  missense=6 [0.1%]  surface glycoprotein, P1162L</title>
 	<circle cx="1378" cy="271" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-11  C25047G  missense=8 [0.1%]  surface glycoprotein, P1162R</title>
+	<circle cx="1378" cy="271" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-11  G25049T  missense=35 [0.5%]  surface glycoprotein, D1163Y</title>
@@ -7360,12 +7360,12 @@
 	<circle cx="1251" cy="958" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-12  G21974T  missense=21 [0.5%]  surface glycoprotein, D138Y</title>
-	<circle cx="1254" cy="944" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-12  G21974C  missense=8 [0.2%]  surface glycoprotein, D138H</title>
 	<circle cx="1254" cy="944" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-12  G21974T  missense=21 [0.5%]  surface glycoprotein, D138Y</title>
+	<circle cx="1254" cy="944" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-12  G21985T  missense=6 [0.2%]  surface glycoprotein, L141F</title>
@@ -7432,11 +7432,11 @@
 	<circle cx="1262" cy="903" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-12  G22205T  missense=6 [0.2%]  surface glycoprotein, D215Y</title>
+	<title>2021-01-12  G22205C  missense=5 [0.1%]  surface glycoprotein, D215H</title>
 	<circle cx="1264" cy="894" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-12  G22205C  missense=5 [0.1%]  surface glycoprotein, D215H</title>
+	<title>2021-01-12  G22205T  missense=6 [0.2%]  surface glycoprotein, D215Y</title>
 	<circle cx="1264" cy="894" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -8120,12 +8120,12 @@
 	<circle cx="1252" cy="970" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-13  G21974C  missense=7 [0.2%]  surface glycoprotein, D138H</title>
-	<circle cx="1258" cy="945" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-13  G21974T  missense=20 [0.7%]  surface glycoprotein, D138Y</title>
 	<circle cx="1258" cy="945" r="5" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-13  G21974C  missense=7 [0.2%]  surface glycoprotein, D138H</title>
+	<circle cx="1258" cy="945" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-13  ATTA21993A  missense=1042 [35.7%]  surface glycoprotein, Y145H/del</title>
@@ -8396,12 +8396,12 @@
 	<circle cx="1338" cy="594" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-13  G23593C  missense=13 [0.4%]  surface glycoprotein, Q677H</title>
-	<circle cx="1338" cy="593" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-13  G23593T  missense=52 [1.8%]  surface glycoprotein, Q677H</title>
 	<circle cx="1338" cy="593" r="7" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-13  G23593C  missense=13 [0.4%]  surface glycoprotein, Q677H</title>
+	<circle cx="1338" cy="593" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-13  C23604G  missense=13 [0.4%]  surface glycoprotein, P681R</title>
@@ -8452,12 +8452,12 @@
 	<circle cx="1345" cy="563" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-13  A23756T  missense=8 [0.3%]  surface glycoprotein, T732S</title>
-	<circle cx="1346" cy="558" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-13  A23756G  missense=31 [1.1%]  surface glycoprotein, T732A</title>
 	<circle cx="1346" cy="558" r="6" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-13  A23756T  missense=8 [0.3%]  surface glycoprotein, T732S</title>
+	<circle cx="1346" cy="558" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-13  C23758T  silent=10 [0.3%]  surface glycoprotein, silent</title>
@@ -8776,12 +8776,12 @@
 	<circle cx="1253" cy="984" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-14  C21811T  silent=9 [0.3%]  surface glycoprotein, silent</title>
-	<circle cx="1254" cy="981" r="4" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-14  C21811A  silent=25 [0.8%]  surface glycoprotein, silent</title>
 	<circle cx="1254" cy="981" r="6" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-14  C21811T  silent=9 [0.3%]  surface glycoprotein, silent</title>
+	<circle cx="1254" cy="981" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14  C21846T  missense=24 [0.7%]  surface glycoprotein, T95I</title>
@@ -9096,12 +9096,12 @@
 	<circle cx="1347" cy="604" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-14  G23587C  missense=16 [0.5%]  surface glycoprotein, Q675H</title>
-	<circle cx="1348" cy="597" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-14  G23587T  missense=27 [0.8%]  surface glycoprotein, Q675H</title>
 	<circle cx="1348" cy="597" r="6" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-14  G23587C  missense=16 [0.5%]  surface glycoprotein, Q675H</title>
+	<circle cx="1348" cy="597" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-14  A23592C  missense=25 [0.8%]  surface glycoprotein, Q677P</title>
@@ -9568,12 +9568,12 @@
 	<circle cx="1265" cy="952" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-15  G21974C  missense=15 [0.4%]  surface glycoprotein, D138H</title>
-	<circle cx="1267" cy="947" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-15  G21974T  missense=24 [0.7%]  surface glycoprotein, D138Y</title>
 	<circle cx="1267" cy="947" r="6" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-15  G21974C  missense=15 [0.4%]  surface glycoprotein, D138H</title>
+	<circle cx="1267" cy="947" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-15  ATTA21993A  missense=1597 [44.4%]  surface glycoprotein, Y145H/del</title>
@@ -9880,12 +9880,12 @@
 	<circle cx="1359" cy="599" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-15  G23593C  missense=10 [0.3%]  surface glycoprotein, Q677H</title>
-	<circle cx="1359" cy="599" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-15  G23593T  missense=65 [1.8%]  surface glycoprotein, Q677H</title>
 	<circle cx="1359" cy="599" r="7" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-15  G23593C  missense=10 [0.3%]  surface glycoprotein, Q677H</title>
+	<circle cx="1359" cy="599" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-15  C23604G  missense=10 [0.3%]  surface glycoprotein, P681R</title>
@@ -10496,12 +10496,12 @@
 	<circle cx="1366" cy="614" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-16  G23587C  missense=7 [0.3%]  surface glycoprotein, Q675H</title>
-	<circle cx="1369" cy="603" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-16  G23587T  missense=17 [0.7%]  surface glycoprotein, Q675H</title>
 	<circle cx="1369" cy="603" r="5" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-16  G23587C  missense=7 [0.3%]  surface glycoprotein, Q675H</title>
+	<circle cx="1369" cy="603" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-16  A23592C  missense=31 [1.3%]  surface glycoprotein, Q677P</title>
@@ -10520,12 +10520,12 @@
 	<circle cx="1370" cy="600" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-16  C23604G  missense=7 [0.3%]  surface glycoprotein, P681R</title>
-	<circle cx="1370" cy="599" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-16  C23604A  missense=1229 [50.6%]  surface glycoprotein, P681H</title>
 	<circle cx="1370" cy="599" r="12" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-16  C23604G  missense=7 [0.3%]  surface glycoprotein, P681R</title>
+	<circle cx="1370" cy="599" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-16  C23625T  missense=7 [0.3%]  surface glycoprotein, A688V</title>
@@ -10828,12 +10828,12 @@
 	<circle cx="1264" cy="987" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-17  C21811T  silent=5 [0.2%]  surface glycoprotein, silent</title>
-	<circle cx="1265" cy="984" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-17  C21811A  silent=13 [0.6%]  surface glycoprotein, silent</title>
 	<circle cx="1265" cy="984" r="5" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-17  C21811T  silent=5 [0.2%]  surface glycoprotein, silent</title>
+	<circle cx="1265" cy="984" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-17  C21846T  missense=10 [0.4%]  surface glycoprotein, T95I</title>
@@ -10948,12 +10948,12 @@
 	<circle cx="1334" cy="757" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-17  T22917A  missense=13 [0.6%]  surface glycoprotein, L452Q</title>
-	<circle cx="1336" cy="749" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-17  T22917G  missense=67 [2.9%]  surface glycoprotein, L452R</title>
 	<circle cx="1336" cy="749" r="7" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-17  T22917A  missense=13 [0.6%]  surface glycoprotein, L452Q</title>
+	<circle cx="1336" cy="749" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-17  G22992A  missense=59 [2.6%]  surface glycoprotein, S477N</title>
@@ -11032,12 +11032,12 @@
 	<circle cx="1379" cy="605" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-17  G23593T  missense=36 [1.6%]  surface glycoprotein, Q677H</title>
-	<circle cx="1379" cy="604" r="6" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-17  G23593C  missense=7 [0.3%]  surface glycoprotein, Q677H</title>
 	<circle cx="1379" cy="604" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-17  G23593T  missense=36 [1.6%]  surface glycoprotein, Q677H</title>
+	<circle cx="1379" cy="604" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-17  C23604A  missense=1338 [58.2%]  surface glycoprotein, P681H</title>
@@ -11264,12 +11264,12 @@
 	<circle cx="1254" cy="1031" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  G21600C  missense=9 [0.1%]  surface glycoprotein, S13T</title>
-	<circle cx="1254" cy="1030" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-18  G21600T  missense=107 [1.8%]  surface glycoprotein, S13I</title>
 	<circle cx="1254" cy="1030" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-18  G21600C  missense=9 [0.1%]  surface glycoprotein, S13T</title>
+	<circle cx="1254" cy="1030" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  C21614T  missense=331 [5.5%]  surface glycoprotein, L18F</title>
@@ -11356,20 +11356,20 @@
 	<circle cx="1268" cy="988" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  A21801G  missense=5 [0.1%]  surface glycoprotein, D80G</title>
-	<circle cx="1268" cy="988" r="3" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-18  A21801C  missense=48 [0.8%]  surface glycoprotein, D80A</title>
 	<circle cx="1268" cy="988" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  C21811A  silent=16 [0.3%]  surface glycoprotein, silent</title>
-	<circle cx="1269" cy="986" r="5" style="fill:cyan;" class="cv" />
+	<title>2021-01-18  A21801G  missense=5 [0.1%]  surface glycoprotein, D80G</title>
+	<circle cx="1268" cy="988" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  C21811T  silent=12 [0.2%]  surface glycoprotein, silent</title>
 	<circle cx="1269" cy="986" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-18  C21811A  silent=16 [0.3%]  surface glycoprotein, silent</title>
+	<circle cx="1269" cy="986" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  C21812T  silent=5 [0.1%]  surface glycoprotein, silent</title>
@@ -11808,12 +11808,12 @@
 	<circle cx="1389" cy="609" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  G23587T  missense=47 [0.8%]  surface glycoprotein, Q675H</title>
-	<circle cx="1389" cy="609" r="7" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-18  G23587C  missense=13 [0.2%]  surface glycoprotein, Q675H</title>
 	<circle cx="1389" cy="609" r="5" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-18  G23587T  missense=47 [0.8%]  surface glycoprotein, Q675H</title>
+	<circle cx="1389" cy="609" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  A23592C  missense=16 [0.3%]  surface glycoprotein, Q677P</title>
@@ -11832,12 +11832,12 @@
 	<circle cx="1390" cy="606" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  C23604A  missense=1954 [32.4%]  surface glycoprotein, P681H</title>
-	<circle cx="1390" cy="605" r="13" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-18  C23604G  missense=16 [0.3%]  surface glycoprotein, P681R</title>
 	<circle cx="1390" cy="605" r="5" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-18  C23604A  missense=1954 [32.4%]  surface glycoprotein, P681H</title>
+	<circle cx="1390" cy="605" r="13" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  G23608T  silent=22 [0.4%]  surface glycoprotein, silent</title>
@@ -12016,12 +12016,12 @@
 	<circle cx="1441" cy="447" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-18  G24368A  missense=5 [0.1%]  surface glycoprotein, D936N</title>
-	<circle cx="1442" cy="443" r="3" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-18  G24368T  missense=10 [0.2%]  surface glycoprotein, D936Y</title>
 	<circle cx="1442" cy="443" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-18  G24368A  missense=5 [0.1%]  surface glycoprotein, D936N</title>
+	<circle cx="1442" cy="443" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-18  C24374T  missense=10 [0.2%]  surface glycoprotein, L938F</title>
@@ -12492,12 +12492,12 @@
 	<circle cx="1282" cy="957" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19  G21974C  missense=7 [0.2%]  surface glycoprotein, D138H</title>
-	<circle cx="1284" cy="952" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-19  G21974T  missense=55 [1.5%]  surface glycoprotein, D138Y</title>
 	<circle cx="1284" cy="952" r="7" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  G21974C  missense=7 [0.2%]  surface glycoprotein, D138H</title>
+	<circle cx="1284" cy="952" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-19  ATTA21993A  missense=1616 [43.0%]  surface glycoprotein, Y145H/del</title>
@@ -12820,12 +12820,12 @@
 	<circle cx="1400" cy="611" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-19  G23593C  missense=14 [0.4%]  surface glycoprotein, Q677H</title>
-	<circle cx="1400" cy="611" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-19  G23593T  missense=83 [2.2%]  surface glycoprotein, Q677H</title>
 	<circle cx="1400" cy="611" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-19  G23593C  missense=14 [0.4%]  surface glycoprotein, Q677H</title>
+	<circle cx="1400" cy="611" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-19  T23599A  missense=6 [0.2%]  surface glycoprotein, N679K</title>
@@ -13376,12 +13376,12 @@
 	<circle cx="1287" cy="958" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-20  G21974T  missense=30 [0.8%]  surface glycoprotein, D138Y</title>
-	<circle cx="1288" cy="954" r="6" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-20  G21974C  missense=14 [0.4%]  surface glycoprotein, D138H</title>
 	<circle cx="1288" cy="954" r="5" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-20  G21974T  missense=30 [0.8%]  surface glycoprotein, D138Y</title>
+	<circle cx="1288" cy="954" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-20  G21986A  missense=7 [0.2%]  surface glycoprotein, G142S</title>
@@ -13688,24 +13688,24 @@
 	<circle cx="1410" cy="616" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-20  G23587A  silent=6 [0.2%]  surface glycoprotein, silent</title>
-	<circle cx="1410" cy="616" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-20  G23587C  missense=13 [0.4%]  surface glycoprotein, Q675H</title>
 	<circle cx="1410" cy="616" r="5" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-20  G23587A  silent=6 [0.2%]  surface glycoprotein, silent</title>
+	<circle cx="1410" cy="616" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-20  A23592C  missense=31 [0.9%]  surface glycoprotein, Q677P</title>
 	<circle cx="1410" cy="615" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-20  G23593T  missense=66 [1.8%]  surface glycoprotein, Q677H</title>
-	<circle cx="1410" cy="614" r="7" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-20  G23593C  missense=5 [0.1%]  surface glycoprotein, Q677H</title>
 	<circle cx="1410" cy="614" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-20  G23593T  missense=66 [1.8%]  surface glycoprotein, Q677H</title>
+	<circle cx="1410" cy="614" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-20  C23604A  missense=1600 [44.8%]  surface glycoprotein, P681H</title>
@@ -14140,12 +14140,12 @@
 	<circle cx="1279" cy="991" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-21  C21811A  silent=23 [0.8%]  surface glycoprotein, silent</title>
-	<circle cx="1280" cy="989" r="6" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-21  C21811T  silent=6 [0.2%]  surface glycoprotein, silent</title>
 	<circle cx="1280" cy="989" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-21  C21811A  silent=23 [0.8%]  surface glycoprotein, silent</title>
+	<circle cx="1280" cy="989" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-21  C21846T  missense=19 [0.6%]  surface glycoprotein, T95I</title>
@@ -14296,11 +14296,11 @@
 	<circle cx="1331" cy="855" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-21  G22468A  silent=9 [0.3%]  surface glycoprotein, silent</title>
+	<title>2021-01-21  G22468T  silent=11 [0.4%]  surface glycoprotein, silent</title>
 	<circle cx="1331" cy="853" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-21  G22468T  silent=11 [0.4%]  surface glycoprotein, silent</title>
+	<title>2021-01-21  G22468A  silent=9 [0.3%]  surface glycoprotein, silent</title>
 	<circle cx="1331" cy="853" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -14344,12 +14344,12 @@
 	<circle cx="1364" cy="767" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-21  T22917G  missense=130 [4.3%]  surface glycoprotein, L452R</title>
-	<circle cx="1367" cy="759" r="8" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-21  T22917A  missense=5 [0.2%]  surface glycoprotein, L452Q</title>
 	<circle cx="1367" cy="759" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-21  T22917G  missense=130 [4.3%]  surface glycoprotein, L452R</title>
+	<circle cx="1367" cy="759" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-21  G22918T  silent=6 [0.2%]  surface glycoprotein, silent</title>
@@ -14480,12 +14480,12 @@
 	<circle cx="1420" cy="619" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-21  A23592G  missense=8 [0.3%]  surface glycoprotein, Q677R</title>
-	<circle cx="1420" cy="618" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-21  A23592C  missense=20 [0.7%]  surface glycoprotein, Q677P</title>
 	<circle cx="1420" cy="618" r="5" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-21  A23592G  missense=8 [0.3%]  surface glycoprotein, Q677R</title>
+	<circle cx="1420" cy="618" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-21  G23593T  missense=85 [2.8%]  surface glycoprotein, Q677H</title>
@@ -14608,11 +14608,11 @@
 	<circle cx="1480" cy="461" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-21  G24368A  missense=7 [0.2%]  surface glycoprotein, D936N</title>
+	<title>2021-01-21  G24368T  missense=11 [0.4%]  surface glycoprotein, D936Y</title>
 	<circle cx="1481" cy="457" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-21  G24368T  missense=11 [0.4%]  surface glycoprotein, D936Y</title>
+	<title>2021-01-21  G24368A  missense=7 [0.2%]  surface glycoprotein, D936N</title>
 	<circle cx="1481" cy="457" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -14940,12 +14940,12 @@
 	<circle cx="1295" cy="962" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-22  G21974T  missense=24 [0.8%]  surface glycoprotein, D138Y</title>
-	<circle cx="1297" cy="957" r="6" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-22  G21974C  missense=6 [0.2%]  surface glycoprotein, D138H</title>
 	<circle cx="1297" cy="957" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  G21974T  missense=24 [0.8%]  surface glycoprotein, D138Y</title>
+	<circle cx="1297" cy="957" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-22  G21986A  missense=5 [0.2%]  surface glycoprotein, G142S</title>
@@ -15232,12 +15232,12 @@
 	<circle cx="1430" cy="622" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-22  G23593T  missense=54 [1.7%]  surface glycoprotein, Q677H</title>
-	<circle cx="1430" cy="622" r="7" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-22  G23593C  missense=6 [0.2%]  surface glycoprotein, Q677H</title>
 	<circle cx="1430" cy="622" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-22  G23593T  missense=54 [1.7%]  surface glycoprotein, Q677H</title>
+	<circle cx="1430" cy="622" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-22  C23604A  missense=1807 [57.0%]  surface glycoprotein, P681H</title>
@@ -15756,12 +15756,12 @@
 	<circle cx="1435" cy="638" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-23  G23587T  missense=7 [0.3%]  surface glycoprotein, Q675H</title>
-	<circle cx="1439" cy="627" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-23  G23587C  missense=5 [0.2%]  surface glycoprotein, Q675H</title>
 	<circle cx="1439" cy="627" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-23  G23587T  missense=7 [0.3%]  surface glycoprotein, Q675H</title>
+	<circle cx="1439" cy="627" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-23  A23592C  missense=9 [0.4%]  surface glycoprotein, Q677P</title>
@@ -15776,12 +15776,12 @@
 	<circle cx="1440" cy="626" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-23  C23604A  missense=1320 [63.6%]  surface glycoprotein, P681H</title>
-	<circle cx="1441" cy="624" r="12" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-23  C23604G  missense=12 [0.6%]  surface glycoprotein, P681R</title>
 	<circle cx="1441" cy="624" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-23  C23604A  missense=1320 [63.6%]  surface glycoprotein, P681H</title>
+	<circle cx="1441" cy="624" r="12" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-23  C23638T  silent=6 [0.3%]  surface glycoprotein, silent</title>
@@ -16148,11 +16148,11 @@
 	<circle cx="1444" cy="643" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-24  G23587C  missense=9 [0.5%]  surface glycoprotein, Q675H</title>
+	<title>2021-01-24  G23587T  missense=11 [0.6%]  surface glycoprotein, Q675H</title>
 	<circle cx="1449" cy="632" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-24  G23587T  missense=11 [0.6%]  surface glycoprotein, Q675H</title>
+	<title>2021-01-24  G23587C  missense=9 [0.5%]  surface glycoprotein, Q675H</title>
 	<circle cx="1449" cy="632" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -16356,11 +16356,11 @@
 	<circle cx="1276" cy="1034" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  C21622A  silent=6 [0.1%]  surface glycoprotein, silent</title>
+	<title>2021-01-25  C21622T  silent=6 [0.1%]  surface glycoprotein, silent</title>
 	<circle cx="1276" cy="1034" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  C21622T  silent=6 [0.1%]  surface glycoprotein, silent</title>
+	<title>2021-01-25  C21622A  silent=6 [0.1%]  surface glycoprotein, silent</title>
 	<circle cx="1276" cy="1034" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -16384,11 +16384,11 @@
 	<circle cx="1278" cy="1030" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  C21639A  missense=7 [0.1%]  surface glycoprotein, P26H</title>
+	<title>2021-01-25  C21639T  missense=11 [0.1%]  surface glycoprotein, P26L</title>
 	<circle cx="1278" cy="1030" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  C21639T  missense=11 [0.1%]  surface glycoprotein, P26L</title>
+	<title>2021-01-25  C21639A  missense=7 [0.1%]  surface glycoprotein, P26H</title>
 	<circle cx="1278" cy="1030" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -16472,11 +16472,11 @@
 	<circle cx="1293" cy="997" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  C21811A  silent=40 [0.5%]  surface glycoprotein, silent</title>
+	<title>2021-01-25  C21811T  silent=25 [0.3%]  surface glycoprotein, silent</title>
 	<circle cx="1294" cy="995" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  C21811T  silent=25 [0.3%]  surface glycoprotein, silent</title>
+	<title>2021-01-25  C21811A  silent=40 [0.5%]  surface glycoprotein, silent</title>
 	<circle cx="1294" cy="995" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -16516,12 +16516,12 @@
 	<circle cx="1309" cy="962" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  G21974C  missense=26 [0.4%]  surface glycoprotein, D138H</title>
-	<circle cx="1309" cy="962" r="6" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-25  G21974A  missense=7 [0.1%]  surface glycoprotein, D138N</title>
 	<circle cx="1309" cy="962" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-25  G21974C  missense=26 [0.4%]  surface glycoprotein, D138H</title>
+	<circle cx="1309" cy="962" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-25  G21986A  missense=9 [0.1%]  surface glycoprotein, G142S</title>
@@ -16984,12 +16984,12 @@
 	<circle cx="1456" cy="642" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  T23560A  silent=6 [0.1%]  surface glycoprotein, silent</title>
-	<circle cx="1456" cy="641" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-25  T23560C  silent=10 [0.1%]  surface glycoprotein, silent</title>
 	<circle cx="1456" cy="641" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-25  T23560A  silent=6 [0.1%]  surface glycoprotein, silent</title>
+	<circle cx="1456" cy="641" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-25  C23577T  missense=5 [0.1%]  surface glycoprotein, A672V</title>
@@ -17008,20 +17008,20 @@
 	<circle cx="1459" cy="636" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  G23587T  missense=51 [0.7%]  surface glycoprotein, Q675H</title>
-	<circle cx="1459" cy="636" r="7" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-25  G23587C  missense=17 [0.2%]  surface glycoprotein, Q675H</title>
 	<circle cx="1459" cy="636" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  A23592G  missense=12 [0.2%]  surface glycoprotein, Q677R</title>
-	<circle cx="1459" cy="635" r="4" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-25  G23587T  missense=51 [0.7%]  surface glycoprotein, Q675H</title>
+	<circle cx="1459" cy="636" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-25  A23592C  missense=42 [0.6%]  surface glycoprotein, Q677P</title>
 	<circle cx="1459" cy="635" r="7" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-25  A23592G  missense=12 [0.2%]  surface glycoprotein, Q677R</title>
+	<circle cx="1459" cy="635" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-25  G23593T  missense=116 [1.6%]  surface glycoprotein, Q677H</title>
@@ -17260,12 +17260,12 @@
 	<circle cx="1530" cy="482" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  G24368A  missense=7 [0.1%]  surface glycoprotein, D936N</title>
-	<circle cx="1532" cy="478" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-25  G24368T  missense=24 [0.3%]  surface glycoprotein, D936Y</title>
 	<circle cx="1532" cy="478" r="6" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-25  G24368A  missense=7 [0.1%]  surface glycoprotein, D936N</title>
+	<circle cx="1532" cy="478" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-25  C24370T  silent=17 [0.2%]  surface glycoprotein, silent</title>
@@ -17516,11 +17516,11 @@
 	<circle cx="1618" cy="289" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  C25317A  missense=6 [0.1%]  surface glycoprotein, S1252Y</title>
+	<title>2021-01-25  C25317T  missense=6 [0.1%]  surface glycoprotein, S1252F</title>
 	<circle cx="1620" cy="286" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  C25317T  missense=6 [0.1%]  surface glycoprotein, S1252F</title>
+	<title>2021-01-25  C25317A  missense=6 [0.1%]  surface glycoprotein, S1252Y</title>
 	<circle cx="1620" cy="286" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -17592,12 +17592,12 @@
 	<circle cx="1634" cy="255" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-25  G25471C  missense=10 [0.1%]  ORF3a protein, D27H</title>
-	<circle cx="1634" cy="255" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-25  G25471T  missense=15 [0.2%]  ORF3a protein, D27Y</title>
 	<circle cx="1634" cy="255" r="5" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-25  G25471C  missense=10 [0.1%]  ORF3a protein, D27H</title>
+	<circle cx="1634" cy="255" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-25  A25472G  missense=6 [0.1%]  ORF3a protein, D27G</title>
@@ -17664,11 +17664,11 @@
 	<circle cx="1279" cy="1035" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-26  C21622A  silent=7 [0.2%]  surface glycoprotein, silent</title>
+	<title>2021-01-26  C21622T  silent=12 [0.3%]  surface glycoprotein, silent</title>
 	<circle cx="1279" cy="1035" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-26  C21622T  silent=12 [0.3%]  surface glycoprotein, silent</title>
+	<title>2021-01-26  C21622A  silent=7 [0.2%]  surface glycoprotein, silent</title>
 	<circle cx="1279" cy="1035" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -17736,12 +17736,12 @@
 	<circle cx="1296" cy="999" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-26  C21811A  silent=20 [0.5%]  surface glycoprotein, silent</title>
-	<circle cx="1297" cy="997" r="5" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-26  C21811T  silent=7 [0.2%]  surface glycoprotein, silent</title>
 	<circle cx="1297" cy="997" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-26  C21811A  silent=20 [0.5%]  surface glycoprotein, silent</title>
+	<circle cx="1297" cy="997" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-26  C21812T  silent=6 [0.1%]  surface glycoprotein, silent</title>
@@ -18104,32 +18104,32 @@
 	<circle cx="1468" cy="641" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-26  G23587T  missense=16 [0.4%]  surface glycoprotein, Q675H</title>
-	<circle cx="1469" cy="640" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-26  G23587C  missense=9 [0.2%]  surface glycoprotein, Q675H</title>
 	<circle cx="1469" cy="640" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-26  A23592G  missense=5 [0.1%]  surface glycoprotein, Q677R</title>
-	<circle cx="1469" cy="639" r="3" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-26  G23587T  missense=16 [0.4%]  surface glycoprotein, Q675H</title>
+	<circle cx="1469" cy="640" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-26  A23592C  missense=20 [0.5%]  surface glycoprotein, Q677P</title>
 	<circle cx="1469" cy="639" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
+	<title>2021-01-26  A23592G  missense=5 [0.1%]  surface glycoprotein, Q677R</title>
+	<circle cx="1469" cy="639" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
 	<title>2021-01-26  G23593T  missense=61 [1.4%]  surface glycoprotein, Q677H</title>
 	<circle cx="1469" cy="639" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-26  C23604A  missense=2492 [57.1%]  surface glycoprotein, P681H</title>
-	<circle cx="1470" cy="637" r="14" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-26  C23604G  missense=10 [0.2%]  surface glycoprotein, P681R</title>
 	<circle cx="1470" cy="637" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-26  C23604A  missense=2492 [57.1%]  surface glycoprotein, P681H</title>
+	<circle cx="1470" cy="637" r="14" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-26  C23625T  missense=7 [0.2%]  surface glycoprotein, A688V</title>
@@ -18612,19 +18612,19 @@
 	<circle cx="1300" cy="1001" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-27  A21801C  missense=67 [1.6%]  surface glycoprotein, D80A</title>
-	<circle cx="1300" cy="1001" r="7" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-27  A21801G  missense=6 [0.1%]  surface glycoprotein, D80G</title>
 	<circle cx="1300" cy="1001" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-27  C21811T  silent=9 [0.2%]  surface glycoprotein, silent</title>
-	<circle cx="1301" cy="999" r="4" style="fill:cyan;" class="cv" />
+	<title>2021-01-27  A21801C  missense=67 [1.6%]  surface glycoprotein, D80A</title>
+	<circle cx="1300" cy="1001" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-27  C21811A  silent=10 [0.2%]  surface glycoprotein, silent</title>
+	<circle cx="1301" cy="999" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-27  C21811T  silent=9 [0.2%]  surface glycoprotein, silent</title>
 	<circle cx="1301" cy="999" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -18984,12 +18984,12 @@
 	<circle cx="1478" cy="645" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-27  G23587C  missense=12 [0.3%]  surface glycoprotein, Q675H</title>
-	<circle cx="1478" cy="645" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-27  G23587T  missense=32 [0.8%]  surface glycoprotein, Q675H</title>
 	<circle cx="1478" cy="645" r="6" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-27  G23587C  missense=12 [0.3%]  surface glycoprotein, Q675H</title>
+	<circle cx="1478" cy="645" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-27  A23592C  missense=10 [0.2%]  surface glycoprotein, Q677P</title>
@@ -19012,12 +19012,12 @@
 	<circle cx="1479" cy="643" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-27  C23604G  missense=9 [0.2%]  surface glycoprotein, P681R</title>
-	<circle cx="1480" cy="642" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-27  C23604A  missense=2452 [57.9%]  surface glycoprotein, P681H</title>
 	<circle cx="1480" cy="642" r="14" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-27  C23604G  missense=9 [0.2%]  surface glycoprotein, P681R</title>
+	<circle cx="1480" cy="642" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-27  C23625T  missense=10 [0.2%]  surface glycoprotein, A688V</title>
@@ -19488,12 +19488,12 @@
 	<circle cx="1303" cy="1002" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-28  C21811T  silent=6 [0.2%]  surface glycoprotein, silent</title>
-	<circle cx="1304" cy="1000" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-28  C21811A  silent=14 [0.4%]  surface glycoprotein, silent</title>
 	<circle cx="1304" cy="1000" r="5" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-28  C21811T  silent=6 [0.2%]  surface glycoprotein, silent</title>
+	<circle cx="1304" cy="1000" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-28  C21843T  missense=7 [0.2%]  surface glycoprotein, S94F</title>
@@ -19864,11 +19864,11 @@
 	<circle cx="1488" cy="650" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-28  G23587C  missense=13 [0.3%]  surface glycoprotein, Q675H</title>
+	<title>2021-01-28  G23587T  missense=20 [0.5%]  surface glycoprotein, Q675H</title>
 	<circle cx="1488" cy="650" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-28  G23587T  missense=20 [0.5%]  surface glycoprotein, Q675H</title>
+	<title>2021-01-28  G23587C  missense=13 [0.3%]  surface glycoprotein, Q675H</title>
 	<circle cx="1488" cy="650" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -19888,12 +19888,12 @@
 	<circle cx="1489" cy="648" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-28  C23604G  missense=9 [0.2%]  surface glycoprotein, P681R</title>
-	<circle cx="1490" cy="647" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-28  C23604A  missense=2243 [57.9%]  surface glycoprotein, P681H</title>
 	<circle cx="1490" cy="647" r="13" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-28  C23604G  missense=9 [0.2%]  surface glycoprotein, P681R</title>
+	<circle cx="1490" cy="647" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-28  G23608T  silent=5 [0.1%]  surface glycoprotein, silent</title>
@@ -20372,11 +20372,11 @@
 	<circle cx="1318" cy="983" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-29  G21974C  missense=28 [0.7%]  surface glycoprotein, D138H</title>
+	<title>2021-01-29  G21974T  missense=36 [0.8%]  surface glycoprotein, D138Y</title>
 	<circle cx="1325" cy="970" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-29  G21974T  missense=36 [0.8%]  surface glycoprotein, D138Y</title>
+	<title>2021-01-29  G21974C  missense=28 [0.7%]  surface glycoprotein, D138H</title>
 	<circle cx="1325" cy="970" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -20580,12 +20580,12 @@
 	<circle cx="1434" cy="771" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-29  C22995G  missense=5 [0.1%]  surface glycoprotein, T478R</title>
-	<circle cx="1434" cy="771" r="3" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-29  C22995A  missense=29 [0.7%]  surface glycoprotein, T478K</title>
 	<circle cx="1434" cy="771" r="6" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-29  C22995G  missense=5 [0.1%]  surface glycoprotein, T478R</title>
+	<circle cx="1434" cy="771" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-29  G23012A  missense=97 [2.3%]  surface glycoprotein, E484K</title>
@@ -20652,12 +20652,12 @@
 	<circle cx="1463" cy="717" r="14" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-29  G23311C  missense=5 [0.1%]  surface glycoprotein, E583D</title>
-	<circle cx="1468" cy="709" r="3" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-29  G23311T  missense=8 [0.2%]  surface glycoprotein, E583D</title>
 	<circle cx="1468" cy="709" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-29  G23311C  missense=5 [0.1%]  surface glycoprotein, E583D</title>
+	<circle cx="1468" cy="709" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-29  T23323C  silent=27 [0.6%]  surface glycoprotein, silent</title>
@@ -20716,20 +20716,20 @@
 	<circle cx="1498" cy="654" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-29  G23593C  missense=12 [0.3%]  surface glycoprotein, Q677H</title>
-	<circle cx="1498" cy="654" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-29  G23593T  missense=66 [1.6%]  surface glycoprotein, Q677H</title>
 	<circle cx="1498" cy="654" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-29  C23604A  missense=2762 [64.9%]  surface glycoprotein, P681H</title>
-	<circle cx="1499" cy="652" r="14" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-29  G23593C  missense=12 [0.3%]  surface glycoprotein, Q677H</title>
+	<circle cx="1498" cy="654" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-29  C23604G  missense=7 [0.2%]  surface glycoprotein, P681R</title>
 	<circle cx="1499" cy="652" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-29  C23604A  missense=2762 [64.9%]  surface glycoprotein, P681H</title>
+	<circle cx="1499" cy="652" r="14" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-29  C23625T  missense=13 [0.3%]  surface glycoprotein, A688V</title>
@@ -21096,12 +21096,12 @@
 	<circle cx="1310" cy="1006" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-30  C21811T  silent=7 [0.2%]  surface glycoprotein, silent</title>
-	<circle cx="1311" cy="1004" r="4" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-01-30  C21811A  silent=6 [0.2%]  surface glycoprotein, silent</title>
 	<circle cx="1311" cy="1004" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-30  C21811T  silent=7 [0.2%]  surface glycoprotein, silent</title>
+	<circle cx="1311" cy="1004" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-01-30  C21812T  silent=6 [0.2%]  surface glycoprotein, silent</title>
@@ -21368,11 +21368,11 @@
 	<circle cx="1504" cy="665" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-30  G23587C  missense=12 [0.4%]  surface glycoprotein, Q675H</title>
+	<title>2021-01-30  G23587T  missense=7 [0.2%]  surface glycoprotein, Q675H</title>
 	<circle cx="1507" cy="660" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-30  G23587T  missense=7 [0.2%]  surface glycoprotein, Q675H</title>
+	<title>2021-01-30  G23587C  missense=12 [0.4%]  surface glycoprotein, Q675H</title>
 	<circle cx="1507" cy="660" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -21384,12 +21384,12 @@
 	<circle cx="1507" cy="659" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-30  C23604G  missense=12 [0.4%]  surface glycoprotein, P681R</title>
-	<circle cx="1508" cy="657" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-30  C23604A  missense=2170 [71.5%]  surface glycoprotein, P681H</title>
 	<circle cx="1508" cy="657" r="13" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-30  C23604G  missense=12 [0.4%]  surface glycoprotein, P681R</title>
+	<circle cx="1508" cy="657" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-30  C23625T  missense=15 [0.5%]  surface glycoprotein, A688V</title>
@@ -21880,12 +21880,12 @@
 	<circle cx="1510" cy="676" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-31  G23587C  missense=6 [0.3%]  surface glycoprotein, Q675H</title>
-	<circle cx="1516" cy="666" r="3" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-31  G23587T  missense=9 [0.4%]  surface glycoprotein, Q675H</title>
 	<circle cx="1516" cy="666" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-31  G23587C  missense=6 [0.3%]  surface glycoprotein, Q675H</title>
+	<circle cx="1516" cy="666" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-31  A23592C  missense=15 [0.7%]  surface glycoprotein, Q677P</title>
@@ -21904,12 +21904,12 @@
 	<circle cx="1517" cy="664" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-31  C23604G  missense=6 [0.3%]  surface glycoprotein, P681R</title>
-	<circle cx="1518" cy="662" r="3" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-01-31  C23604A  missense=1223 [58.8%]  surface glycoprotein, P681H</title>
 	<circle cx="1518" cy="662" r="12" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-01-31  C23604G  missense=6 [0.3%]  surface glycoprotein, P681R</title>
+	<circle cx="1518" cy="662" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-31  C23635T  silent=10 [0.5%]  surface glycoprotein, silent</title>
@@ -22196,12 +22196,12 @@
 	<circle cx="1317" cy="1010" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-01  C21811T  silent=5 [0.1%]  surface glycoprotein, silent</title>
-	<circle cx="1318" cy="1008" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-02-01  C21811A  silent=32 [0.6%]  surface glycoprotein, silent</title>
 	<circle cx="1318" cy="1008" r="6" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-01  C21811T  silent=5 [0.1%]  surface glycoprotein, silent</title>
+	<circle cx="1318" cy="1008" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-01  C21812T  silent=8 [0.1%]  surface glycoprotein, silent</title>
@@ -22620,12 +22620,12 @@
 	<circle cx="1525" cy="671" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-01  G23587C  missense=8 [0.1%]  surface glycoprotein, Q675H</title>
-	<circle cx="1525" cy="671" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-01  G23587T  missense=26 [0.5%]  surface glycoprotein, Q675H</title>
 	<circle cx="1525" cy="671" r="6" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-01  G23587C  missense=8 [0.1%]  surface glycoprotein, Q675H</title>
+	<circle cx="1525" cy="671" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-01  A23592G  missense=5 [0.1%]  surface glycoprotein, Q677R</title>
@@ -22648,12 +22648,12 @@
 	<circle cx="1526" cy="669" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-01  C23604G  missense=16 [0.3%]  surface glycoprotein, P681R</title>
-	<circle cx="1527" cy="668" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-01  C23604A  missense=2516 [46.5%]  surface glycoprotein, P681H</title>
 	<circle cx="1527" cy="668" r="14" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-01  C23604G  missense=16 [0.3%]  surface glycoprotein, P681R</title>
+	<circle cx="1527" cy="668" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-01  G23608T  silent=5 [0.1%]  surface glycoprotein, silent</title>
@@ -23100,12 +23100,12 @@
 	<circle cx="1744" cy="314" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-01  G25471T  missense=36 [0.7%]  ORF3a protein, D27Y</title>
-	<circle cx="1744" cy="314" r="6" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-01  G25471C  missense=8 [0.1%]  ORF3a protein, D27H</title>
 	<circle cx="1744" cy="314" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-01  G25471T  missense=36 [0.7%]  ORF3a protein, D27Y</title>
+	<circle cx="1744" cy="314" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-01  G25494T  silent=12 [0.2%]  ORF3a protein, silent</title>
@@ -23248,12 +23248,12 @@
 	<circle cx="1333" cy="992" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-02  G21974C  missense=18 [0.5%]  surface glycoprotein, D138H</title>
-	<circle cx="1341" cy="980" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-02  G21974T  missense=51 [1.5%]  surface glycoprotein, D138Y</title>
 	<circle cx="1341" cy="980" r="7" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-02  G21974C  missense=18 [0.5%]  surface glycoprotein, D138H</title>
+	<circle cx="1341" cy="980" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-02  G21986A  missense=21 [0.6%]  surface glycoprotein, G142S</title>
@@ -23504,12 +23504,12 @@
 	<circle cx="1496" cy="736" r="13" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-02  G23311C  missense=5 [0.1%]  surface glycoprotein, E583D</title>
-	<circle cx="1501" cy="729" r="3" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-02  G23311T  missense=10 [0.3%]  surface glycoprotein, E583D</title>
 	<circle cx="1501" cy="729" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-02  G23311C  missense=5 [0.1%]  surface glycoprotein, E583D</title>
+	<circle cx="1501" cy="729" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-02  T23323C  silent=21 [0.6%]  surface glycoprotein, silent</title>
@@ -23548,12 +23548,12 @@
 	<circle cx="1534" cy="677" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-02  G23587A  silent=7 [0.2%]  surface glycoprotein, silent</title>
-	<circle cx="1534" cy="677" r="4" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-02-02  G23587C  missense=5 [0.1%]  surface glycoprotein, Q675H</title>
 	<circle cx="1534" cy="677" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-02  G23587A  silent=7 [0.2%]  surface glycoprotein, silent</title>
+	<circle cx="1534" cy="677" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-02  G23587T  missense=23 [0.7%]  surface glycoprotein, Q675H</title>
@@ -23564,24 +23564,24 @@
 	<circle cx="1535" cy="676" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-02  G23593C  missense=15 [0.4%]  surface glycoprotein, Q677H</title>
-	<circle cx="1535" cy="676" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-02  G23593T  missense=82 [2.4%]  surface glycoprotein, Q677H</title>
 	<circle cx="1535" cy="676" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-02  G23593C  missense=15 [0.4%]  surface glycoprotein, Q677H</title>
+	<circle cx="1535" cy="676" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-02  T23599A  missense=7 [0.2%]  surface glycoprotein, N679K</title>
 	<circle cx="1535" cy="675" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-02  C23604A  missense=1610 [47.3%]  surface glycoprotein, P681H</title>
-	<circle cx="1536" cy="674" r="13" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-02  C23604G  missense=11 [0.3%]  surface glycoprotein, P681R</title>
 	<circle cx="1536" cy="674" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-02  C23604A  missense=1610 [47.3%]  surface glycoprotein, P681H</title>
+	<circle cx="1536" cy="674" r="13" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-02  C23625T  missense=9 [0.3%]  surface glycoprotein, A688V</title>
@@ -24028,12 +24028,12 @@
 	<circle cx="1318" cy="1022" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-03  A21801C  missense=23 [0.8%]  surface glycoprotein, D80A</title>
-	<circle cx="1323" cy="1014" r="6" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-03  A21801G  missense=10 [0.4%]  surface glycoprotein, D80G</title>
 	<circle cx="1323" cy="1014" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-03  A21801C  missense=23 [0.8%]  surface glycoprotein, D80A</title>
+	<circle cx="1323" cy="1014" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-03  C21811A  silent=18 [0.6%]  surface glycoprotein, silent</title>
@@ -24060,12 +24060,12 @@
 	<circle cx="1330" cy="1003" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-03  G21974T  missense=19 [0.7%]  surface glycoprotein, D138Y</title>
-	<circle cx="1344" cy="982" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-03  G21974C  missense=10 [0.4%]  surface glycoprotein, D138H</title>
 	<circle cx="1344" cy="982" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-03  G21974T  missense=19 [0.7%]  surface glycoprotein, D138Y</title>
+	<circle cx="1344" cy="982" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-03  G21986A  missense=11 [0.4%]  surface glycoprotein, G142S</title>
@@ -24320,20 +24320,20 @@
 	<circle cx="1543" cy="682" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-03  G23593T  missense=36 [1.3%]  surface glycoprotein, Q677H</title>
-	<circle cx="1544" cy="681" r="6" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-03  G23593C  missense=10 [0.4%]  surface glycoprotein, Q677H</title>
 	<circle cx="1544" cy="681" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-03  C23604G  missense=8 [0.3%]  surface glycoprotein, P681R</title>
-	<circle cx="1545" cy="679" r="4" style="fill:fuchsia;" class="cv" />
+	<title>2021-02-03  G23593T  missense=36 [1.3%]  surface glycoprotein, Q677H</title>
+	<circle cx="1544" cy="681" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-03  C23604A  missense=1589 [56.6%]  surface glycoprotein, P681H</title>
 	<circle cx="1545" cy="679" r="13" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-03  C23604G  missense=8 [0.3%]  surface glycoprotein, P681R</title>
+	<circle cx="1545" cy="679" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-03  C23625T  missense=7 [0.2%]  surface glycoprotein, A688V</title>
@@ -24360,12 +24360,12 @@
 	<circle cx="1561" cy="656" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-03  A23756G  missense=41 [1.5%]  surface glycoprotein, T732A</title>
-	<circle cx="1564" cy="651" r="6" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-03  A23756T  missense=5 [0.2%]  surface glycoprotein, T732S</title>
 	<circle cx="1564" cy="651" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-03  A23756G  missense=41 [1.5%]  surface glycoprotein, T732A</title>
+	<circle cx="1564" cy="651" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-03  C23758T  silent=16 [0.6%]  surface glycoprotein, silent</title>
@@ -24688,12 +24688,12 @@
 	<circle cx="1326" cy="1016" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-04  C21811A  silent=6 [0.2%]  surface glycoprotein, silent</title>
-	<circle cx="1328" cy="1014" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-02-04  C21811T  silent=10 [0.4%]  surface glycoprotein, silent</title>
 	<circle cx="1328" cy="1014" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-04  C21811A  silent=6 [0.2%]  surface glycoprotein, silent</title>
+	<circle cx="1328" cy="1014" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-04  C21846T  missense=25 [0.9%]  surface glycoprotein, T95I</title>
@@ -24968,12 +24968,12 @@
 	<circle cx="1552" cy="689" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-04  G23587T  missense=23 [0.8%]  surface glycoprotein, Q675H</title>
-	<circle cx="1552" cy="689" r="6" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-04  G23587C  missense=8 [0.3%]  surface glycoprotein, Q675H</title>
 	<circle cx="1552" cy="689" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-04  G23587T  missense=23 [0.8%]  surface glycoprotein, Q675H</title>
+	<circle cx="1552" cy="689" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-04  G23593T  missense=55 [1.9%]  surface glycoprotein, Q677H</title>
@@ -25280,12 +25280,12 @@
 	<circle cx="1336" cy="1009" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-05  G21974T  missense=29 [1.2%]  surface glycoprotein, D138Y</title>
-	<circle cx="1352" cy="987" r="6" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-05  G21974C  missense=6 [0.3%]  surface glycoprotein, D138H</title>
 	<circle cx="1352" cy="987" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-05  G21974T  missense=29 [1.2%]  surface glycoprotein, D138Y</title>
+	<circle cx="1352" cy="987" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-05  G21986A  missense=9 [0.4%]  surface glycoprotein, G142S</title>
@@ -25516,20 +25516,20 @@
 	<circle cx="1560" cy="695" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-05  G23587A  silent=5 [0.2%]  surface glycoprotein, silent</title>
-	<circle cx="1561" cy="695" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-02-05  G23587T  missense=19 [0.8%]  surface glycoprotein, Q675H</title>
 	<circle cx="1561" cy="695" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-05  G23593T  missense=42 [1.8%]  surface glycoprotein, Q677H</title>
-	<circle cx="1561" cy="694" r="7" style="fill:fuchsia;" class="cv" />
+	<title>2021-02-05  G23587A  silent=5 [0.2%]  surface glycoprotein, silent</title>
+	<circle cx="1561" cy="695" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-05  G23593C  missense=7 [0.3%]  surface glycoprotein, Q677H</title>
 	<circle cx="1561" cy="694" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-05  G23593T  missense=42 [1.8%]  surface glycoprotein, Q677H</title>
+	<circle cx="1561" cy="694" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-05  T23599A  missense=5 [0.2%]  surface glycoprotein, N679K</title>
@@ -26640,12 +26640,12 @@
 	<circle cx="1339" cy="1026" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-08  A21801G  missense=9 [0.2%]  surface glycoprotein, D80G</title>
-	<circle cx="1339" cy="1025" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-08  A21801C  missense=130 [2.2%]  surface glycoprotein, D80A</title>
 	<circle cx="1339" cy="1025" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-08  A21801G  missense=9 [0.2%]  surface glycoprotein, D80G</title>
+	<circle cx="1339" cy="1025" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-08  C21811T  silent=15 [0.3%]  surface glycoprotein, silent</title>
@@ -26692,12 +26692,12 @@
 	<circle cx="1360" cy="999" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-08  G21974C  missense=16 [0.3%]  surface glycoprotein, D138H</title>
-	<circle cx="1363" cy="995" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-08  G21974T  missense=46 [0.8%]  surface glycoprotein, D138Y</title>
 	<circle cx="1363" cy="995" r="7" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-08  G21974C  missense=16 [0.3%]  surface glycoprotein, D138H</title>
+	<circle cx="1363" cy="995" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-08  G21986A  missense=24 [0.4%]  surface glycoprotein, G142S</title>
@@ -26936,12 +26936,12 @@
 	<circle cx="1503" cy="819" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-08  G22992T  missense=7 [0.1%]  surface glycoprotein, S477I</title>
-	<circle cx="1504" cy="818" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-08  G22992A  missense=175 [2.9%]  surface glycoprotein, S477N</title>
 	<circle cx="1504" cy="818" r="9" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-08  G22992T  missense=7 [0.1%]  surface glycoprotein, S477I</title>
+	<circle cx="1504" cy="818" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-08  C22993T  silent=5 [0.1%]  surface glycoprotein, silent</title>
@@ -27100,12 +27100,12 @@
 	<circle cx="1587" cy="713" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-08  G23593C  missense=19 [0.3%]  surface glycoprotein, Q677H</title>
-	<circle cx="1587" cy="713" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-08  G23593T  missense=125 [2.1%]  surface glycoprotein, Q677H</title>
 	<circle cx="1587" cy="713" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-08  G23593C  missense=19 [0.3%]  surface glycoprotein, Q677H</title>
+	<circle cx="1587" cy="713" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-08  C23595T  missense=6 [0.1%]  surface glycoprotein, T678I</title>
@@ -27260,12 +27260,12 @@
 	<circle cx="1661" cy="619" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-08  C24138T  missense=13 [0.2%]  surface glycoprotein, T859I</title>
-	<circle cx="1662" cy="618" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-08  C24138A  missense=8 [0.1%]  surface glycoprotein, T859N</title>
 	<circle cx="1662" cy="618" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-08  C24138T  missense=13 [0.2%]  surface glycoprotein, T859I</title>
+	<circle cx="1662" cy="618" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-08  C24198T  missense=11 [0.2%]  surface glycoprotein, A879V</title>
@@ -27692,12 +27692,12 @@
 	<circle cx="1342" cy="1028" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-09  C21811T  silent=9 [0.2%]  surface glycoprotein, silent</title>
-	<circle cx="1343" cy="1026" r="4" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-02-09  C21811A  silent=26 [0.7%]  surface glycoprotein, silent</title>
 	<circle cx="1343" cy="1026" r="6" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-09  C21811T  silent=9 [0.2%]  surface glycoprotein, silent</title>
+	<circle cx="1343" cy="1026" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-09  C21812T  silent=5 [0.1%]  surface glycoprotein, silent</title>
@@ -28040,12 +28040,12 @@
 	<circle cx="1596" cy="719" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-09  C23604G  missense=6 [0.2%]  surface glycoprotein, P681R</title>
-	<circle cx="1597" cy="718" r="3" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-09  C23604A  missense=2103 [56.7%]  surface glycoprotein, P681H</title>
 	<circle cx="1597" cy="718" r="13" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-09  C23604G  missense=6 [0.2%]  surface glycoprotein, P681R</title>
+	<circle cx="1597" cy="718" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-09  G23608T  silent=5 [0.1%]  surface glycoprotein, silent</title>
@@ -28408,12 +28408,12 @@
 	<circle cx="1319" cy="1061" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-10  C21622A  silent=5 [0.1%]  surface glycoprotein, silent</title>
-	<circle cx="1319" cy="1061" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-02-10  C21622T  silent=12 [0.3%]  surface glycoprotein, silent</title>
 	<circle cx="1319" cy="1061" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-10  C21622A  silent=5 [0.1%]  surface glycoprotein, silent</title>
+	<circle cx="1319" cy="1061" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-10  G21624C  missense=5 [0.1%]  surface glycoprotein, R21T</title>
@@ -28480,20 +28480,20 @@
 	<circle cx="1341" cy="1035" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-10  A21801G  missense=7 [0.2%]  surface glycoprotein, D80G</title>
-	<circle cx="1345" cy="1030" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-10  A21801C  missense=35 [0.9%]  surface glycoprotein, D80A</title>
 	<circle cx="1345" cy="1030" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-10  C21811A  silent=25 [0.7%]  surface glycoprotein, silent</title>
-	<circle cx="1346" cy="1029" r="6" style="fill:cyan;" class="cv" />
+	<title>2021-02-10  A21801G  missense=7 [0.2%]  surface glycoprotein, D80G</title>
+	<circle cx="1345" cy="1030" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-10  C21811T  silent=8 [0.2%]  surface glycoprotein, silent</title>
 	<circle cx="1346" cy="1029" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-10  C21811A  silent=25 [0.7%]  surface glycoprotein, silent</title>
+	<circle cx="1346" cy="1029" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-10  C21812T  silent=6 [0.2%]  surface glycoprotein, silent</title>
@@ -29072,12 +29072,12 @@
 	<circle cx="1813" cy="480" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-10  C25047G  missense=5 [0.1%]  surface glycoprotein, P1162R</title>
-	<circle cx="1814" cy="480" r="3" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-10  C25047T  missense=7 [0.2%]  surface glycoprotein, P1162L</title>
 	<circle cx="1814" cy="480" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-10  C25047G  missense=5 [0.1%]  surface glycoprotein, P1162R</title>
+	<circle cx="1814" cy="480" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-10  G25088T  missense=30 [0.8%]  surface glycoprotein, V1176F</title>
@@ -29216,12 +29216,12 @@
 	<circle cx="1320" cy="1064" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-11  C21622A  silent=10 [0.3%]  surface glycoprotein, silent</title>
-	<circle cx="1321" cy="1063" r="4" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-02-11  C21622T  silent=5 [0.1%]  surface glycoprotein, silent</title>
 	<circle cx="1321" cy="1063" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-11  C21622A  silent=10 [0.3%]  surface glycoprotein, silent</title>
+	<circle cx="1321" cy="1063" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-11  C21627T  missense=8 [0.2%]  surface glycoprotein, T22I</title>
@@ -29284,12 +29284,12 @@
 	<circle cx="1347" cy="1033" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-11  C21811A  silent=26 [0.7%]  surface glycoprotein, silent</title>
-	<circle cx="1349" cy="1031" r="6" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-02-11  C21811T  silent=8 [0.2%]  surface glycoprotein, silent</title>
 	<circle cx="1349" cy="1031" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-11  C21811A  silent=26 [0.7%]  surface glycoprotein, silent</title>
+	<circle cx="1349" cy="1031" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-11  C21812T  silent=5 [0.1%]  surface glycoprotein, silent</title>
@@ -29608,12 +29608,12 @@
 	<circle cx="1610" cy="735" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-11  G23587T  missense=18 [0.5%]  surface glycoprotein, Q675H</title>
-	<circle cx="1611" cy="735" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-11  G23587C  missense=11 [0.3%]  surface glycoprotein, Q675H</title>
 	<circle cx="1611" cy="735" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-11  G23587T  missense=18 [0.5%]  surface glycoprotein, Q675H</title>
+	<circle cx="1611" cy="735" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-11  A23592C  missense=26 [0.7%]  surface glycoprotein, Q677P</title>
@@ -29628,12 +29628,12 @@
 	<circle cx="1612" cy="734" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-11  C23604A  missense=1987 [57.3%]  surface glycoprotein, P681H</title>
-	<circle cx="1613" cy="732" r="13" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-11  C23604G  missense=5 [0.1%]  surface glycoprotein, P681R</title>
 	<circle cx="1613" cy="732" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-11  C23604A  missense=1987 [57.3%]  surface glycoprotein, P681H</title>
+	<circle cx="1613" cy="732" r="13" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-11  G23608T  silent=5 [0.1%]  surface glycoprotein, silent</title>
@@ -29664,12 +29664,12 @@
 	<circle cx="1632" cy="710" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-11  A23756G  missense=49 [1.4%]  surface glycoprotein, T732A</title>
-	<circle cx="1636" cy="706" r="7" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-11  A23756T  missense=8 [0.2%]  surface glycoprotein, T732S</title>
 	<circle cx="1636" cy="706" r="4" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-11  A23756G  missense=49 [1.4%]  surface glycoprotein, T732A</title>
+	<circle cx="1636" cy="706" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-11  C23758T  silent=17 [0.5%]  surface glycoprotein, silent</title>
@@ -30008,11 +30008,11 @@
 	<circle cx="1350" cy="1035" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-12  C21811A  silent=6 [0.2%]  surface glycoprotein, silent</title>
+	<title>2021-02-12  C21811T  silent=6 [0.2%]  surface glycoprotein, silent</title>
 	<circle cx="1352" cy="1034" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-12  C21811T  silent=6 [0.2%]  surface glycoprotein, silent</title>
+	<title>2021-02-12  C21811A  silent=6 [0.2%]  surface glycoprotein, silent</title>
 	<circle cx="1352" cy="1034" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -30668,12 +30668,12 @@
 	<circle cx="1361" cy="1029" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-13  G21974C  missense=9 [0.4%]  surface glycoprotein, D138H</title>
-	<circle cx="1380" cy="1010" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-13  G21974T  missense=28 [1.3%]  surface glycoprotein, D138Y</title>
 	<circle cx="1380" cy="1010" r="6" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-13  G21974C  missense=9 [0.4%]  surface glycoprotein, D138H</title>
+	<circle cx="1380" cy="1010" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-13  G21986A  missense=5 [0.2%]  surface glycoprotein, G142S</title>
@@ -31016,11 +31016,11 @@
 	<circle cx="1885" cy="476" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-13  C25350T  missense=5 [0.2%]  surface glycoprotein, P1263L</title>
+	<title>2021-02-13  C25350G  missense=5 [0.2%]  surface glycoprotein, P1263R</title>
 	<circle cx="1896" cy="464" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-13  C25350G  missense=5 [0.2%]  surface glycoprotein, P1263R</title>
+	<title>2021-02-13  C25350T  missense=5 [0.2%]  surface glycoprotein, P1263L</title>
 	<circle cx="1896" cy="464" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -31080,12 +31080,12 @@
 	<circle cx="1344" cy="1052" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-14  A21801C  missense=9 [0.4%]  surface glycoprotein, D80A</title>
-	<circle cx="1356" cy="1041" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-14  A21801G  missense=5 [0.2%]  surface glycoprotein, D80G</title>
 	<circle cx="1356" cy="1041" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-14  A21801C  missense=9 [0.4%]  surface glycoprotein, D80A</title>
+	<circle cx="1356" cy="1041" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-14  C21846T  missense=39 [1.8%]  surface glycoprotein, T95I</title>
@@ -31520,20 +31520,20 @@
 	<circle cx="1357" cy="1045" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-15  A21801G  missense=11 [0.2%]  surface glycoprotein, D80G</title>
-	<circle cx="1359" cy="1043" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-15  A21801C  missense=44 [0.8%]  surface glycoprotein, D80A</title>
 	<circle cx="1359" cy="1043" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-15  C21811A  silent=11 [0.2%]  surface glycoprotein, silent</title>
-	<circle cx="1360" cy="1042" r="4" style="fill:cyan;" class="cv" />
+	<title>2021-02-15  A21801G  missense=11 [0.2%]  surface glycoprotein, D80G</title>
+	<circle cx="1359" cy="1043" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-15  C21811T  silent=6 [0.1%]  surface glycoprotein, silent</title>
 	<circle cx="1360" cy="1042" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-15  C21811A  silent=11 [0.2%]  surface glycoprotein, silent</title>
+	<circle cx="1360" cy="1042" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-15  C21812T  silent=7 [0.1%]  surface glycoprotein, silent</title>
@@ -31908,16 +31908,16 @@
 	<circle cx="1641" cy="765" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-15  G23587T  missense=12 [0.2%]  surface glycoprotein, Q675H</title>
-	<circle cx="1642" cy="764" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-15  G23587C  missense=6 [0.1%]  surface glycoprotein, Q675H</title>
 	<circle cx="1642" cy="764" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-15  G23587A  silent=10 [0.2%]  surface glycoprotein, silent</title>
 	<circle cx="1642" cy="764" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-15  G23587T  missense=12 [0.2%]  surface glycoprotein, Q675H</title>
+	<circle cx="1642" cy="764" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-15  A23592C  missense=12 [0.2%]  surface glycoprotein, Q677P</title>
@@ -32376,12 +32376,12 @@
 	<circle cx="1328" cy="1077" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-16  G21600C  missense=9 [0.3%]  surface glycoprotein, S13T</title>
-	<circle cx="1329" cy="1077" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-16  G21600T  missense=46 [1.3%]  surface glycoprotein, S13I</title>
 	<circle cx="1329" cy="1077" r="7" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-16  G21600C  missense=9 [0.3%]  surface glycoprotein, S13T</title>
+	<circle cx="1329" cy="1077" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-16  C21614T  missense=140 [4.0%]  surface glycoprotein, L18F</title>
@@ -32420,12 +32420,12 @@
 	<circle cx="1349" cy="1058" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-16  A21801G  missense=8 [0.2%]  surface glycoprotein, D80G</title>
-	<circle cx="1361" cy="1046" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-16  A21801C  missense=22 [0.6%]  surface glycoprotein, D80A</title>
 	<circle cx="1361" cy="1046" r="5" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-16  A21801G  missense=8 [0.2%]  surface glycoprotein, D80G</title>
+	<circle cx="1361" cy="1046" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-16  C21811A  silent=6 [0.2%]  surface glycoprotein, silent</title>
@@ -32716,12 +32716,12 @@
 	<circle cx="1649" cy="772" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-16  G23587T  missense=9 [0.3%]  surface glycoprotein, Q675H</title>
-	<circle cx="1649" cy="772" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-16  G23587A  silent=8 [0.2%]  surface glycoprotein, silent</title>
 	<circle cx="1649" cy="772" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-16  G23587T  missense=9 [0.3%]  surface glycoprotein, Q675H</title>
+	<circle cx="1649" cy="772" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-16  A23592C  missense=6 [0.2%]  surface glycoprotein, Q677P</title>
@@ -33092,11 +33092,11 @@
 	<circle cx="1364" cy="1049" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-17  A21801G  missense=12 [0.5%]  surface glycoprotein, D80G</title>
+	<title>2021-02-17  A21801C  missense=12 [0.5%]  surface glycoprotein, D80A</title>
 	<circle cx="1364" cy="1049" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-17  A21801C  missense=12 [0.5%]  surface glycoprotein, D80A</title>
+	<title>2021-02-17  A21801G  missense=12 [0.5%]  surface glycoprotein, D80G</title>
 	<circle cx="1364" cy="1049" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -34060,12 +34060,12 @@
 	<circle cx="1357" cy="1065" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-19  A21801C  missense=13 [0.6%]  surface glycoprotein, D80A</title>
-	<circle cx="1369" cy="1055" r="5" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-19  A21801G  missense=6 [0.3%]  surface glycoprotein, D80G</title>
 	<circle cx="1369" cy="1055" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-19  A21801C  missense=13 [0.6%]  surface glycoprotein, D80A</title>
+	<circle cx="1369" cy="1055" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-19  G21809A  missense=5 [0.2%]  surface glycoprotein, V83I</title>
@@ -35028,12 +35028,12 @@
 	<circle cx="1691" cy="820" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-22  G23593C  missense=7 [0.5%]  surface glycoprotein, Q677H</title>
-	<circle cx="1692" cy="819" r="4" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-22  G23593T  missense=15 [1.2%]  surface glycoprotein, Q677H</title>
 	<circle cx="1692" cy="819" r="5" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-02-22  G23593C  missense=7 [0.5%]  surface glycoprotein, Q677H</title>
+	<circle cx="1692" cy="819" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-22  C23604A  missense=894 [69.6%]  surface glycoprotein, P681H</title>
@@ -35492,67 +35492,67 @@
 	<circle cx="1953" cy="677" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26 samples=53</title>
+	<title>2021-02-26 samples=54</title>
 	<line x1="1208.3" y1="1194.4" x2="1214.8" y2="1190.1" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-02-26 samples=53</title>
-	<line x1="1214.8" y1="1190.1" x2="1221.3" y2="1185.8" style="stroke:white;" class="sb" />
+	<title>2021-02-26 samples=54</title>
+	<line x1="1214.8" y1="1190.1" x2="1221.3" y2="1185.7" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2021-02-26  G21600T  missense=7 [13.2%]  surface glycoprotein, S13I</title>
+	<title>2021-02-26  G21600T  missense=7 [13.0%]  surface glycoprotein, S13I</title>
 	<circle cx="1348" cy="1101" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  ATTA21993A  missense=14 [26.4%]  surface glycoprotein, Y145H/del</title>
+	<title>2021-02-26  ATTA21993A  missense=15 [27.8%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1421" cy="1052" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  G22018T  missense=7 [13.2%]  surface glycoprotein, W152C</title>
+	<title>2021-02-26  G22018T  missense=7 [13.0%]  surface glycoprotein, W152C</title>
 	<circle cx="1425" cy="1049" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  C22227T  missense=10 [18.9%]  surface glycoprotein, A222V</title>
+	<title>2021-02-26  C22227T  missense=10 [18.5%]  surface glycoprotein, A222V</title>
 	<circle cx="1464" cy="1023" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  T22917G  missense=9 [17.0%]  surface glycoprotein, L452R</title>
+	<title>2021-02-26  T22917G  missense=9 [16.7%]  surface glycoprotein, L452R</title>
 	<circle cx="1592" cy="938" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  A23063T  missense=18 [34.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-02-26  A23063T  missense=19 [35.2%]  surface glycoprotein, N501Y</title>
 	<circle cx="1619" cy="920" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  C23271A  missense=18 [34.0%]  surface glycoprotein, A570D</title>
+	<title>2021-02-26  C23271A  missense=19 [35.2%]  surface glycoprotein, A570D</title>
 	<circle cx="1657" cy="894" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  A23403G  missense=53 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-02-26  A23403G  missense=54 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1682" cy="878" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  G23587T  missense=9 [17.0%]  surface glycoprotein, Q675H</title>
+	<title>2021-02-26  G23587T  missense=9 [16.7%]  surface glycoprotein, Q675H</title>
 	<circle cx="1716" cy="855" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  C23604A  missense=18 [34.0%]  surface glycoprotein, P681H</title>
+	<title>2021-02-26  C23604A  missense=19 [35.2%]  surface glycoprotein, P681H</title>
 	<circle cx="1719" cy="853" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  C23709T  missense=18 [34.0%]  surface glycoprotein, T716I</title>
+	<title>2021-02-26  C23709T  missense=19 [35.2%]  surface glycoprotein, T716I</title>
 	<circle cx="1739" cy="840" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  T24349C  silent=5 [9.4%]  surface glycoprotein, silent</title>
+	<title>2021-02-26  T24349C  silent=5 [9.3%]  surface glycoprotein, silent</title>
 	<circle cx="1857" cy="761" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  T24506G  missense=18 [34.0%]  surface glycoprotein, S982A</title>
+	<title>2021-02-26  T24506G  missense=19 [35.2%]  surface glycoprotein, S982A</title>
 	<circle cx="1886" cy="741" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  G24914C  missense=18 [34.0%]  surface glycoprotein, D1118H</title>
+	<title>2021-02-26  G24914C  missense=19 [35.2%]  surface glycoprotein, D1118H</title>
 	<circle cx="1962" cy="691" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>

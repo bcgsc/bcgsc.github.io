@@ -46,7 +46,7 @@
 <title>main menu</title>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 variants 2021 timemap</text>
 </a>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 166,888 GISAID genomes</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 166,889 GISAID genomes</text>
 <line x1="1200" y1="82.9384615384615" x2="1200" y2="132.938461538462" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="72.9384615384615" fill="white">Winter</text>
 <line x1="2267" y1="1200" x2="2317" y2="1200" style="stroke:white;stroke-width:4" />
@@ -186,15 +186,15 @@
 	<circle cx="1228" cy="391" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  ATTA21993A  Africa=4 [13.8%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1228" cy="391" r="3" style="fill:orange;" class="cv" />
-</g>
-<g>
 	<title>2021-01-02  ATTA21993A  Asia=4 [4.2%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1228" cy="391" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-02  ATTA21993A  Asia=4 [4.2%] North America=3 [0.5%]  surface glycoprotein, Y145H/del</title>
+	<title>2021-01-02  ATTA21993A  Asia=4 [4.2%] Africa=4 [13.8%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1228" cy="391" r="3" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2021-01-02  ATTA21993A  North America=3 [0.5%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1228" cy="391" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -334,12 +334,12 @@
 	<circle cx="1265" cy="265" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  TGTT26157T  North America=2 [0.1%]  ORF3a protein, V256N/del</title>
-	<circle cx="1265" cy="265" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2021-01-04  TGTT26157T  Europe=2 [0.1%]  ORF3a protein, V256N/del</title>
+	<circle cx="1265" cy="265" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  TGTT26157T  North America=2 [0.1%] Europe=2 [0.1%]  ORF3a protein, V256N/del</title>
-	<circle cx="1265" cy="265" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-01-04  TGTT26157T  Europe=2 [0.1%] North America=2 [0.1%]  ORF3a protein, V256N/del</title>
+	<circle cx="1265" cy="265" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  GTTA26158G  Europe=2 [0.1%]  ORF3a protein, V256D/del</title>
@@ -646,12 +646,12 @@
 	<circle cx="1327" cy="284" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-01-08  TGTTA26157T  Asia=2 [1.4%]  ORF3a protein, V256I/del</title>
-	<circle cx="1329" cy="272" r="2" style="fill:white;" class="cv" />
-</g>
-<g>
 	<title>2021-01-08  TGTT26157T  Europe=2 [0.2%]  ORF3a protein, V256N/del</title>
 	<circle cx="1329" cy="272" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-01-08  TGTTA26157T  Asia=2 [1.4%]  ORF3a protein, V256I/del</title>
+	<circle cx="1329" cy="272" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-08  CA28253C  North America=6 [0.6%]  ORF8 protein, I121S/del</title>
@@ -1450,12 +1450,12 @@
 	<circle cx="1473" cy="439" r="7" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-20  ATTA21993A  North America=49 [4.6%] Asia=47 [34.8%] Oceania=2 [66.7%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1473" cy="439" r="2" style="fill:yellow;" class="cv" />
-</g>
-<g>
 	<title>2021-01-20  ATTA21993A  South America=2 [6.5%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1473" cy="439" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2021-01-20  ATTA21993A  South America=2 [6.5%] Oceania=2 [66.7%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1473" cy="439" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2021-01-20  T25704TCCC  North America=2 [0.2%]  ORF3a protein, F105P/ins</title>
@@ -1690,12 +1690,12 @@
 	<circle cx="1512" cy="454" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-23  ATTA21993A  North America=31 [9.4%] Asia=9 [29.0%] Oceania=4 [100.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1512" cy="454" r="3" style="fill:yellow;" class="cv" />
+	<title>2021-01-23  ATTA21993A  North America=31 [9.4%] Asia=9 [29.0%] South America=4 [25.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1512" cy="454" r="3" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-01-23  ATTA21993A  South America=4 [25.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1512" cy="454" r="3" style="fill:lime;" class="cv" />
+	<title>2021-01-23  ATTA21993A  North America=31 [9.4%] Asia=9 [29.0%] South America=4 [25.0%] Oceania=4 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1512" cy="454" r="3" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2021-01-23  AATT27578A  Europe=2 [0.1%]  ORF7a protein, Q62H/del</title>
@@ -2838,12 +2838,12 @@
 	<circle cx="1644" cy="641" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-08  T21982TGGGTG  Europe=2 [0.0%]  surface glycoprotein, L141G/ins</title>
-	<circle cx="1703" cy="567" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-02-08  T21982TGGGTG  Asia=2 [0.7%]  surface glycoprotein, L141G/ins</title>
+	<circle cx="1703" cy="567" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-02-08  T21982TGGGTG  Europe=2 [0.0%] Asia=2 [0.7%]  surface glycoprotein, L141G/ins</title>
-	<circle cx="1703" cy="567" r="2" style="fill:white;" class="cv" />
+	<title>2021-02-08  T21982TGGGTG  Asia=2 [0.7%] Europe=2 [0.0%]  surface glycoprotein, L141G/ins</title>
+	<circle cx="1703" cy="567" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-08  ATTA21993A  Europe=3054 [65.4%]  surface glycoprotein, Y145H/del</title>
@@ -2866,12 +2866,12 @@
 	<circle cx="1703" cy="567" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-02-08  TGTT26157T  Europe=8 [0.2%]  ORF3a protein, V256N/del</title>
-	<circle cx="1783" cy="466" r="4" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-02-08  TGTTA26157T  Europe=4 [0.1%]  ORF3a protein, V256I/del</title>
 	<circle cx="1783" cy="466" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-08  TGTT26157T  Europe=8 [0.2%]  ORF3a protein, V256N/del</title>
+	<circle cx="1783" cy="466" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-08  GTTA26158G  Europe=21 [0.4%]  ORF3a protein, V256D/del</title>
@@ -3690,12 +3690,12 @@
 	<circle cx="1831" cy="694" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-02-21  TGTTA26157T  Europe=2 [0.2%]  ORF3a protein, V256I/del</title>
-	<circle cx="1931" cy="614" r="2" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-02-21  TGTT26157T  Europe=4 [0.3%]  ORF3a protein, V256N/del</title>
 	<circle cx="1931" cy="614" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-21  TGTTA26157T  Europe=2 [0.2%]  ORF3a protein, V256I/del</title>
+	<circle cx="1931" cy="614" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-02-21  AA27744A  Europe=2 [0.2%]  ORF7a protein, R118E/del</title>
@@ -3746,11 +3746,11 @@
 	<circle cx="1840" cy="705" r="6" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-22  TGTTA26157T  Europe=2 [0.2%]  ORF3a protein, V256I/del</title>
+	<title>2021-02-22  TGTT26157T  Europe=2 [0.2%]  ORF3a protein, V256N/del</title>
 	<circle cx="1941" cy="627" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-22  TGTT26157T  Europe=2 [0.2%]  ORF3a protein, V256N/del</title>
+	<title>2021-02-22  TGTTA26157T  Europe=2 [0.2%]  ORF3a protein, V256I/del</title>
 	<circle cx="1941" cy="627" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -3858,8 +3858,16 @@
 	<line x1="1226.8" y1="1182.1" x2="1231.5" y2="1178.9" style="stroke:white;" class="sb" />
 </g>
 <g>
+	<title>2021-02-26 Oceania=2</title>
+	<line x1="1231.5" y1="1178.9" x2="1234.6" y2="1176.8" style="stroke:yellow;" class="sb" />
+</g>
+<g>
 	<title>2021-02-26  ATTA21993A  Europe=10 [35.7%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1872" cy="750" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-26  ATTA21993A  Europe=10 [35.7%] Oceania=2 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1872" cy="750" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2021-02-26  ATTA21993A  North America=2 [10.0%]  surface glycoprotein, Y145H/del</title>
