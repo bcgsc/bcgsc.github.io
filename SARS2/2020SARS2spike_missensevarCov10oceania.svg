@@ -32,7 +32,7 @@
 <title>main menu</title>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 </a>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 13,236 GISAID genomes</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 13,245 GISAID genomes</text>
 <line x1="1200" y1="83.1314031180401" x2="1200" y2="133.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="73.1314031180401" fill="white">Winter</text>
 <line x1="2267" y1="1200" x2="2317" y2="1200" style="stroke:white;stroke-width:4" />
@@ -66,9 +66,9 @@
 <circle cx="60" cy="235" r="8" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="2.0em" x="75" y="245" fill="white">New Zealand</text>
 <circle cx="60" cy="265" r="8" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="275" fill="white">Papua New Guinea</text>
+<text font-size="2.0em" x="75" y="275" fill="white">Guam</text>
 <circle cx="60" cy="295" r="8" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="305" fill="white">Guam</text>
+<text font-size="2.0em" x="75" y="305" fill="white">Papua New Guinea</text>
 <circle cx="60" cy="350" r="1.90848501887865" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <circle cx="101" cy="350" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <circle cx="142" cy="350" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
@@ -421,7 +421,7 @@
 </g>
 <g>
 	<title>2020-03-24 Guam=2</title>
-	<line x1="1224.6" y1="1196.8" x2="1226.8" y2="1196.5" style="stroke:orange;" class="sb" />
+	<line x1="1224.6" y1="1196.8" x2="1226.8" y2="1196.5" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-03-24  G23342A  Australia=2 [2.0%]  surface glycoprotein, G594S</title>
@@ -2073,7 +2073,7 @@
 </g>
 <g>
 	<title>2020-07-20 Papua New Guinea=2</title>
-	<line x1="1193.4" y1="1219.5" x2="1192.7" y2="1221.5" style="stroke:white;" class="sb" />
+	<line x1="1193.4" y1="1219.5" x2="1192.7" y2="1221.5" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2020-07-20  C21575T  Australia=2 [0.9%]  surface glycoprotein, L5F</title>
@@ -2125,7 +2125,7 @@
 </g>
 <g>
 	<title>2020-07-21 Papua New Guinea=3</title>
-	<line x1="1193.0" y1="1219.6" x2="1192.1" y2="1222.1" style="stroke:white;" class="sb" />
+	<line x1="1193.0" y1="1219.6" x2="1192.1" y2="1222.1" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2020-07-21  G22992A  Australia=244 [97.2%]  surface glycoprotein, S477N</title>
@@ -4285,7 +4285,7 @@
 </g>
 <g>
 	<title>2020-10-06 Papua New Guinea=2</title>
-	<line x1="1184.1" y1="1198.5" x2="1182.0" y2="1198.3" style="stroke:white;" class="sb" />
+	<line x1="1184.1" y1="1198.5" x2="1182.0" y2="1198.3" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2020-10-06  G22992A  Australia=3 [50.0%]  surface glycoprotein, S477N</title>
@@ -4664,12 +4664,12 @@
 	<circle cx="923" cy="1034" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-11-01  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="698" cy="899" r="2" style="fill:cyan;" class="cv" />
+	<title>2020-11-01  A23403G  New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="698" cy="899" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-11-01  A23403G  Australia=2 [100.0%] New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="698" cy="899" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2020-11-01  A23403G  New Zealand=2 [100.0%] Australia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="698" cy="899" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-01  G23587T  Australia=2 [100.0%]  surface glycoprotein, Q675H</title>
@@ -4704,12 +4704,12 @@
 	<line x1="1189.8" y1="1193.4" x2="1188.0" y2="1192.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2020-11-03  A23403G  New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="709" cy="882" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2020-11-03  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="709" cy="882" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-11-03  A23403G  New Zealand=2 [100.0%] Australia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="709" cy="882" r="2" style="fill:cyan;" class="cv" />
+	<title>2020-11-03  A23403G  Australia=2 [100.0%] New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="709" cy="882" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-11-03  T23599G  Australia=2 [100.0%]  surface glycoprotein, N679K</title>
@@ -5108,6 +5108,10 @@
 	<line x1="1196.6" y1="1187.8" x2="1196.0" y2="1185.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
+	<title>2020-12-15 Guam=3</title>
+	<line x1="1196.0" y1="1185.7" x2="1195.2" y2="1183.1" style="stroke:white;" class="sb" />
+</g>
+<g>
 	<title>2020-12-15  C22227T  New Zealand=2 [100.0%]  surface glycoprotein, A222V</title>
 	<circle cx="1112" cy="889" r="2" style="fill:fuchsia;" class="cv" />
 </g>
@@ -5116,7 +5120,11 @@
 	<circle cx="1041" cy="637" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-15  A23403G  Australia=3 [100.0%] New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-15  A23403G  Australia=3 [100.0%] Guam=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1041" cy="637" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2020-12-15  A23403G  Australia=3 [100.0%] Guam=3 [100.0%] New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1041" cy="637" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -5355,5 +5363,5 @@
 <text font-size="1.8em" x="1880" y="170" fill="white">Data from 4 regions in Oceania</text>
 <text font-size="1.8em" x="1880" y="200" fill="white">Total genomes≥10  Genomes/day≥2</text>
 <text font-size="1.8em" x="1880" y="230" fill="white">114 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-03-13</text>
+<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-03-19</text>
 </svg>
