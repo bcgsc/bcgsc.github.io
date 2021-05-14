@@ -32,7 +32,7 @@
 <title>main menu</title>
 <text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 </a>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 739 GISAID genomes</text>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 740 GISAID genomes</text>
 <line x1="1200" y1="89.1314031180401" x2="1200" y2="139.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="79.1314031180401" fill="white">Winter</text>
 <line x1="2261" y1="1200" x2="2311" y2="1200" style="stroke:white;stroke-width:4" />
@@ -2221,8 +2221,16 @@
 	<line x1="1196.5" y1="1185.6" x2="1196.0" y2="1183.5" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
+	<title>2020-12-17 Asia=1</title>
+	<line x1="1196.0" y1="1183.5" x2="1195.6" y2="1182.2" style="stroke:white;" class="sb" />
+</g>
+<g>
 	<title>2020-12-17  C21614T  Europe=2 [100.0%]  surface glycoprotein, L18F</title>
 	<circle cx="1157" cy="1024" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2020-12-17  C21614T  Europe=2 [100.0%] Asia=1 [100.0%]  surface glycoprotein, L18F</title>
+	<circle cx="1157" cy="1024" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  C21614T  Africa=1 [9.1%]  surface glycoprotein, L18F</title>
@@ -2235,6 +2243,10 @@
 <g>
 	<title>2020-12-17  A21801C  Africa=11 [100.0%] Europe=2 [100.0%]  surface glycoprotein, D80A</title>
 	<circle cx="1147" cy="983" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2020-12-17  A21801C  Africa=11 [100.0%] Europe=2 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D80A</title>
+	<circle cx="1147" cy="983" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  A22206G  Africa=11 [100.0%]  surface glycoprotein, D215G</title>
@@ -2253,12 +2265,20 @@
 	<circle cx="1093" cy="765" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
+	<title>2020-12-17  G22813T  Africa=11 [100.0%] Europe=2 [100.0%] Asia=1 [100.0%]  surface glycoprotein, K417N</title>
+	<circle cx="1093" cy="765" r="8" style="fill:white;" class="cv" />
+</g>
+<g>
 	<title>2020-12-17  G23012A  Africa=11 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1083" cy="722" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  G23012A  Africa=11 [100.0%] Europe=2 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1083" cy="722" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2020-12-17  G23012A  Africa=11 [100.0%] Europe=2 [100.0%] Asia=1 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1083" cy="722" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  A23063T  Africa=11 [100.0%]  surface glycoprotein, N501Y</title>
@@ -2269,12 +2289,20 @@
 	<circle cx="1080" cy="710" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
+	<title>2020-12-17  A23063T  Africa=11 [100.0%] Europe=2 [100.0%] Asia=1 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1080" cy="710" r="8" style="fill:white;" class="cv" />
+</g>
+<g>
 	<title>2020-12-17  A23403G  Africa=11 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1062" cy="637" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  A23403G  Africa=11 [100.0%] Europe=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1062" cy="637" r="8" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2020-12-17  A23403G  Africa=11 [100.0%] Europe=2 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1062" cy="637" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  G23564T  Europe=2 [100.0%]  surface glycoprotein, A668S</title>
@@ -2289,8 +2317,20 @@
 	<circle cx="1048" cy="580" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
+	<title>2020-12-17  C23664T  Africa=11 [100.0%] Europe=2 [100.0%] Asia=1 [100.0%]  surface glycoprotein, A701V</title>
+	<circle cx="1048" cy="580" r="8" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2020-12-17  G24620T  Asia=1 [100.0%]  surface glycoprotein, A1020S</title>
+	<circle cx="997" cy="374" r="8" style="fill:white;" class="cv" />
+</g>
+<g>
 	<title>2020-12-17  A24803G  Africa=1 [9.1%]  surface glycoprotein, I1081V</title>
 	<circle cx="988" cy="334" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-17  G25217T  Asia=1 [100.0%]  surface glycoprotein, G1219C</title>
+	<circle cx="966" cy="245" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  G25429T  Europe=2 [100.0%]  ORF3a protein, V13L</title>
@@ -2433,12 +2473,12 @@
 	<circle cx="1136" cy="893" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A22206G  Africa=4 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D215G</title>
-	<circle cx="1136" cy="893" r="8" style="fill:white;" class="cv" />
+	<title>2020-12-19  A22206G  Africa=4 [100.0%] Europe=1 [100.0%]  surface glycoprotein, D215G</title>
+	<circle cx="1136" cy="893" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A22206G  Africa=4 [100.0%] Asia=1 [100.0%] Europe=1 [100.0%]  surface glycoprotein, D215G</title>
-	<circle cx="1136" cy="893" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-19  A22206G  Africa=4 [100.0%] Europe=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D215G</title>
+	<circle cx="1136" cy="893" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G22813T  Africa=4 [100.0%]  surface glycoprotein, K417N</title>
@@ -2457,48 +2497,48 @@
 	<circle cx="1099" cy="718" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  G23012A  Africa=4 [100.0%] Europe=1 [100.0%]  surface glycoprotein, E484K</title>
-	<circle cx="1099" cy="718" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-19  G23012A  Africa=4 [100.0%] Asia=1 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1099" cy="718" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  G23012A  Africa=4 [100.0%] Europe=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, E484K</title>
-	<circle cx="1099" cy="718" r="8" style="fill:white;" class="cv" />
+	<title>2020-12-19  G23012A  Africa=4 [100.0%] Asia=1 [100.0%] Europe=1 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1099" cy="718" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  A23063T  Africa=4 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1097" cy="707" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A23063T  Africa=4 [100.0%] Europe=1 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1097" cy="707" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-19  A23063T  Africa=4 [100.0%] Asia=1 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1097" cy="707" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A23063T  Africa=4 [100.0%] Europe=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1097" cy="707" r="8" style="fill:white;" class="cv" />
+	<title>2020-12-19  A23063T  Africa=4 [100.0%] Asia=1 [100.0%] Europe=1 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1097" cy="707" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  A23403G  Africa=4 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1081" cy="633" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A23403G  Africa=4 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1081" cy="633" r="8" style="fill:white;" class="cv" />
+	<title>2020-12-19  A23403G  Africa=4 [100.0%] Europe=1 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1081" cy="633" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A23403G  Africa=4 [100.0%] Asia=1 [100.0%] Europe=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1081" cy="633" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-19  A23403G  Africa=4 [100.0%] Europe=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1081" cy="633" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  C23664T  Africa=4 [100.0%]  surface glycoprotein, A701V</title>
 	<circle cx="1070" cy="576" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C23664T  Africa=4 [100.0%] Europe=1 [100.0%]  surface glycoprotein, A701V</title>
-	<circle cx="1070" cy="576" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-19  C23664T  Africa=4 [100.0%] Asia=1 [100.0%]  surface glycoprotein, A701V</title>
+	<circle cx="1070" cy="576" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C23664T  Africa=4 [100.0%] Europe=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, A701V</title>
-	<circle cx="1070" cy="576" r="8" style="fill:white;" class="cv" />
+	<title>2020-12-19  C23664T  Africa=4 [100.0%] Asia=1 [100.0%] Europe=1 [100.0%]  surface glycoprotein, A701V</title>
+	<circle cx="1070" cy="576" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20 Africa=7</title>
@@ -3936,5 +3976,5 @@
 <text font-size="1.8em" x="1880" y="170" fill="white">Data from 6 continents</text>
 <text font-size="1.8em" x="1880" y="200" fill="white">Total genomes≥10  Genomes/day≥1</text>
 <text font-size="1.8em" x="1880" y="230" fill="white">98 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-05-07</text>
+<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-05-14</text>
 </svg>
