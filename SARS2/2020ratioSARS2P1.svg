@@ -1409,14 +1409,15 @@
             matrixGroup.setAttributeNS(null, "transform", newMatrix);
         }
     ]]></script>
-<text font-size="2.5em" x="75" y="175" fill="white">Continents</text>
-<circle cx="60" cy="205" r="8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="215" fill="white">South America</text>
-<circle cx="60" cy="260" r="1" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="100" cy="260" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="140" cy="260" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="2.0em" x="50" y="305" fill="white">1      10        100% daily</text>
-<text font-size="2.0em" x="50" y="335" fill="white">sample fraction</text>
+<rect x="2" y="130" width="450" height="320" rx="1" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<text font-size="2.2em" x="55" y="160" fill="white">Continents</text>
+<circle cx="40" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.8em" x="55" y="200" fill="white">South America</text>
+<circle cx="40" cy="240" r="1" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="80" cy="240" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="120" cy="240" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="1.8em" x="30" y="285" fill="white">1      10        100% daily</text>
+<text font-size="1.8em" x="30" y="315" fill="white">sample fraction</text>
 <rect x="1865" y="2" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 6 continents</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥1</text>
