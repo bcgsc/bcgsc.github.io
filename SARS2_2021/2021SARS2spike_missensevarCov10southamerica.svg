@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg width="2400" height="2400" xmlns="http://www.w3.org/2000/svg" style="background-color:black">
+<svg width="2400" height="2400" xmlns="http://www.w3.org/2000/svg" style="background-color:black" viewBox="0 0 2400 2400" id="map-svg">
 <defs>
 	<style type="text/css"><![CDATA[
 	.sb {
 	stroke-width:0.8;
 	stroke-opacity:50%;
+	}
+	.compass {
+	fill: #fff;
+	stroke: #000;
+	stroke-width: 1;
+	}
+	.button {
+	fill: #225EA8;
+	stroke: #0C2C84;
+	stroke-width: 0.5;
+	stroke-miterlimit:6;
+	stroke-linecap: round;
+	}
+	.button:hover {
+	stroke-width: 1;
+	}
+	.plus-minus {
+	fill: #fff;
+	pointer-events: none;
 	}
 	.cv {
 	stroke: none;
@@ -22,17 +41,14 @@
 	}
 	]]></style>
 </defs>
+<text font-size="4.0em" x="50" y="47" fill="white">SARS-CoV-2 variants 2021 timemap</text>
+<g id="matrix-group" transform="matrix(1 0 0 1 0 0)">
 <circle cx="1200" cy="1200" r="1052" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="1028" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <circle cx="1200" cy="1200" r="1026" style="fill:gainsboro;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="175" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <circle cx="1200" cy="1200" r="173" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="161" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
-<a href="https://bcgsc.github.io/SARS2_2021">
-<title>main menu</title>
-<text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 variants 2021 timemap</text>
-</a>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 6,864 GISAID genomes</text>
 <line x1="1200" y1="83.1314031180401" x2="1200" y2="133.13140311804" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="73.1314031180401" fill="white">Winter</text>
 <line x1="2267" y1="1200" x2="2317" y2="1200" style="stroke:white;stroke-width:4" />
@@ -60,39 +76,6 @@
 <line x1="1210" y1="1039" x2="1215" y2="1064" style="stroke:white;stroke-width:2" />
 <text font-size="2.0em" x="1215" y="123.13140311804" fill="white">25.5 kb</text>
 <text font-size="2.0em" x="1215" y="1084" fill="white">21.5 kb</text>
-<text font-size="2.5em" x="110" y="175" fill="white">Top regions</text>
-<circle cx="60" cy="205" r="8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="215" fill="white">Brazil</text>
-<circle cx="60" cy="235" r="8" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="245" fill="white">Aruba</text>
-<circle cx="60" cy="265" r="8" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="275" fill="white">Chile</text>
-<circle cx="60" cy="295" r="8" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="305" fill="white">Curacao</text>
-<circle cx="60" cy="325" r="8" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="335" fill="white">French Guiana</text>
-<circle cx="60" cy="355" r="8" style="fill:lime;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="365" fill="white">Bonaire</text>
-<circle cx="60" cy="385" r="8" style="fill:#FFBBFF;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="395" fill="white">Peru</text>
-<circle cx="60" cy="415" r="8" style="fill:#6495ED;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="425" fill="white">Argentina</text>
-<circle cx="60" cy="445" r="8" style="fill:red;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="455" fill="white">Colombia</text>
-<circle cx="60" cy="475" r="8" style="fill:#7FFFD4;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="485" fill="white">Suriname</text>
-<circle cx="280" cy="205" r="8" style="fill:#FFD700;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="295" y="215" fill="white">Ecuador</text>
-<circle cx="280" cy="235" r="8" style="fill:#ADD8E6;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="295" y="245" fill="white">Uruguay</text>
-<circle cx="280" cy="265" r="8" style="fill:#F08080;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="295" y="275" fill="white">Bolivia</text>
-<circle cx="60" cy="530" r="1.90848501887865" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="101" cy="530" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="142" cy="530" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="183" cy="530" r="12.0017363099173" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="2.0em" x="50" y="575" fill="white">2      10        100        1k</text>
-<text font-size="2.0em" x="50" y="605" fill="white">genome samples</text>
 <g>
 	<title>2021-01-01 Brazil=3</title>
 	<line x1="1200.2" y1="1190.0" x2="1200.2" y2="1187.3" style="stroke:cyan;" class="sb" />
@@ -318,12 +301,12 @@
 	<circle cx="1240" cy="616" r="3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g>
-	<title>2021-01-04  A23403G  Brazil=22 [100.0%] Ecuador=8 [100.0%] Chile=7 [100.0%] Peru=4 [100.0%] Colombia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1240" cy="616" r="2" style="fill:red;" class="cv" />
-</g>
-<g>
 	<title>2021-01-04  A23403G  Argentina=2 [66.7%]  surface glycoprotein, D614G</title>
 	<circle cx="1240" cy="616" r="2" style="fill:#6495ED;" class="cv" />
+</g>
+<g>
+	<title>2021-01-04  A23403G  Argentina=2 [66.7%] Colombia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1240" cy="616" r="2" style="fill:red;" class="cv" />
 </g>
 <g>
 	<title>2021-01-04  C23525T  Brazil=4 [18.2%]  surface glycoprotein, H655Y</title>
@@ -550,16 +533,16 @@
 	<circle cx="1260" cy="618" r="2" style="fill:#FFD700;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  A23403G  Brazil=17 [100.0%] Chile=4 [100.0%] Ecuador=3 [100.0%] Peru=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1260" cy="618" r="2" style="fill:#FFBBFF;" class="cv" />
-</g>
-<g>
-	<title>2021-01-06  A23403G  Brazil=17 [100.0%] Chile=4 [100.0%] Ecuador=3 [100.0%] Peru=2 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-01-06  A23403G  Brazil=17 [100.0%] Chile=4 [100.0%] Ecuador=3 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1260" cy="618" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-01-06  A23403G  Brazil=17 [100.0%] Chile=4 [100.0%] Ecuador=3 [100.0%] Peru=2 [100.0%] Argentina=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-01-06  A23403G  Brazil=17 [100.0%] Chile=4 [100.0%] Ecuador=3 [100.0%] Argentina=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1260" cy="618" r="2" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2021-01-06  A23403G  Brazil=17 [100.0%] Chile=4 [100.0%] Ecuador=3 [100.0%] Argentina=2 [100.0%] Curacao=2 [100.0%] Peru=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1260" cy="618" r="2" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g>
 	<title>2021-01-06  C23525T  Brazil=6 [35.3%]  surface glycoprotein, H655Y</title>
@@ -1230,12 +1213,12 @@
 	<circle cx="1330" cy="629" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-01-13  A23403G  Brazil=19 [100.0%] Aruba=9 [100.0%] Chile=5 [100.0%] Peru=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1330" cy="629" r="2" style="fill:#FFBBFF;" class="cv" />
+	<title>2021-01-13  A23403G  Brazil=19 [100.0%] Aruba=9 [100.0%] Chile=5 [100.0%] Colombia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1330" cy="629" r="2" style="fill:red;" class="cv" />
 </g>
 <g>
-	<title>2021-01-13  A23403G  Brazil=19 [100.0%] Aruba=9 [100.0%] Chile=5 [100.0%] Peru=2 [100.0%] Colombia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1330" cy="629" r="2" style="fill:red;" class="cv" />
+	<title>2021-01-13  A23403G  Brazil=19 [100.0%] Aruba=9 [100.0%] Chile=5 [100.0%] Colombia=2 [100.0%] Peru=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1330" cy="629" r="2" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g>
 	<title>2021-01-13  C23525T  Brazil=6 [31.6%]  surface glycoprotein, H655Y</title>
@@ -2702,16 +2685,16 @@
 	<circle cx="1471" cy="681" r="3" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-01-28  A23403G  Aruba=73 [100.0%] Brazil=21 [100.0%] French Guiana=5 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-01-28  A23403G  Aruba=73 [100.0%] Brazil=21 [100.0%] French Guiana=5 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1471" cy="681" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-01-28  A23403G  Aruba=73 [100.0%] Brazil=21 [100.0%] French Guiana=5 [100.0%] Chile=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1471" cy="681" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-01-28  A23403G  Aruba=73 [100.0%] Brazil=21 [100.0%] French Guiana=5 [100.0%] Curacao=2 [100.0%] Bolivia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-01-28  A23403G  Aruba=73 [100.0%] Brazil=21 [100.0%] French Guiana=5 [100.0%] Chile=2 [100.0%] Curacao=2 [100.0%] Bolivia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1471" cy="681" r="2" style="fill:#F08080;" class="cv" />
-</g>
-<g>
-	<title>2021-01-28  A23403G  Aruba=73 [100.0%] Brazil=21 [100.0%] French Guiana=5 [100.0%] Curacao=2 [100.0%] Bolivia=2 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1471" cy="681" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-01-28  C23525T  Brazil=6 [28.6%]  surface glycoprotein, H655Y</title>
@@ -3198,12 +3181,12 @@
 	<circle cx="1468" cy="780" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-02  G23012A  Brazil=17 [68.0%] French Guiana=2 [66.7%]  surface glycoprotein, E484K</title>
-	<circle cx="1468" cy="780" r="2" style="fill:yellow;" class="cv" />
+	<title>2021-02-02  G23012A  Brazil=17 [68.0%] Suriname=2 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1468" cy="780" r="2" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
-	<title>2021-02-02  G23012A  Brazil=17 [68.0%] French Guiana=2 [66.7%] Suriname=2 [100.0%]  surface glycoprotein, E484K</title>
-	<circle cx="1468" cy="780" r="2" style="fill:#7FFFD4;" class="cv" />
+	<title>2021-02-02  G23012A  French Guiana=2 [66.7%]  surface glycoprotein, E484K</title>
+	<circle cx="1468" cy="780" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2021-02-02  A23063T  Brazil=8 [32.0%]  surface glycoprotein, N501Y</title>
@@ -3214,24 +3197,24 @@
 	<circle cx="1515" cy="707" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-02  A23403G  Brazil=25 [100.0%] French Guiana=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1515" cy="707" r="2" style="fill:yellow;" class="cv" />
-</g>
-<g>
-	<title>2021-02-02  A23403G  Brazil=25 [100.0%] French Guiana=3 [100.0%] Peru=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-02-02  A23403G  Brazil=25 [100.0%] Peru=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1515" cy="707" r="2" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g>
-	<title>2021-02-02  A23403G  Brazil=25 [100.0%] French Guiana=3 [100.0%] Peru=3 [100.0%] Suriname=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1515" cy="707" r="2" style="fill:#7FFFD4;" class="cv" />
+	<title>2021-02-02  A23403G  Brazil=25 [100.0%] Peru=3 [100.0%] French Guiana=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1515" cy="707" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-02-02  A23403G  Brazil=25 [100.0%] French Guiana=3 [100.0%] Peru=3 [100.0%] Suriname=2 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-02-02  A23403G  Brazil=25 [100.0%] Peru=3 [100.0%] French Guiana=3 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1515" cy="707" r="2" style="fill:#6495ED;" class="cv" />
+</g>
+<g>
+	<title>2021-02-02  A23403G  Brazil=25 [100.0%] Peru=3 [100.0%] French Guiana=3 [100.0%] Argentina=2 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1515" cy="707" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-02-02  A23403G  Brazil=25 [100.0%] French Guiana=3 [100.0%] Peru=3 [100.0%] Suriname=2 [100.0%] Chile=2 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1515" cy="707" r="2" style="fill:#6495ED;" class="cv" />
+	<title>2021-02-02  A23403G  Brazil=25 [100.0%] Peru=3 [100.0%] French Guiana=3 [100.0%] Argentina=2 [100.0%] Chile=2 [100.0%] Suriname=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1515" cy="707" r="2" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
 	<title>2021-02-02  C23525T  Brazil=7 [28.0%]  surface glycoprotein, H655Y</title>
@@ -3478,12 +3461,12 @@
 	<circle cx="1540" cy="724" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-05  A23403G  Brazil=33 [100.0%] Bolivia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1540" cy="724" r="2" style="fill:#F08080;" class="cv" />
+	<title>2021-02-05  A23403G  Brazil=33 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1540" cy="724" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-02-05  A23403G  Brazil=33 [100.0%] Bolivia=2 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1540" cy="724" r="2" style="fill:white;" class="cv" />
+	<title>2021-02-05  A23403G  Brazil=33 [100.0%] Chile=2 [100.0%] Bolivia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1540" cy="724" r="2" style="fill:#F08080;" class="cv" />
 </g>
 <g>
 	<title>2021-02-05  C23525T  Brazil=13 [39.4%]  surface glycoprotein, H655Y</title>
@@ -3750,12 +3733,12 @@
 	<circle cx="1564" cy="742" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-02-08  A23403G  Brazil=44 [100.0%] Aruba=30 [96.8%] Chile=6 [100.0%] Curacao=4 [100.0%] Suriname=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1564" cy="742" r="2" style="fill:#7FFFD4;" class="cv" />
+	<title>2021-02-08  A23403G  Brazil=44 [100.0%] Aruba=30 [96.8%] Chile=6 [100.0%] Curacao=4 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1564" cy="742" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-02-08  A23403G  Brazil=44 [100.0%] Aruba=30 [96.8%] Chile=6 [100.0%] Curacao=4 [100.0%] Suriname=2 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1564" cy="742" r="2" style="fill:yellow;" class="cv" />
+	<title>2021-02-08  A23403G  Brazil=44 [100.0%] Aruba=30 [96.8%] Chile=6 [100.0%] Curacao=4 [100.0%] French Guiana=2 [100.0%] Suriname=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1564" cy="742" r="2" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
 	<title>2021-02-08  C23525T  Brazil=17 [38.6%]  surface glycoprotein, H655Y</title>
@@ -4586,19 +4569,19 @@
 	<circle cx="1630" cy="803" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-02-17  A23403G  Brazil=20 [100.0%] Curacao=5 [100.0%] Argentina=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1630" cy="803" r="3" style="fill:#6495ED;" class="cv" />
-</g>
-<g>
-	<title>2021-02-17  A23403G  Brazil=20 [100.0%] Curacao=5 [100.0%] Argentina=4 [100.0%] Chile=4 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-02-17  A23403G  Brazil=20 [100.0%] Curacao=5 [100.0%] Chile=4 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1630" cy="803" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-02-17  A23403G  Brazil=20 [100.0%] Curacao=5 [100.0%] Argentina=4 [100.0%] Chile=4 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-02-17  A23403G  Brazil=20 [100.0%] Curacao=5 [100.0%] Chile=4 [100.0%] Argentina=4 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1630" cy="803" r="3" style="fill:#6495ED;" class="cv" />
+</g>
+<g>
+	<title>2021-02-17  A23403G  Brazil=20 [100.0%] Curacao=5 [100.0%] Chile=4 [100.0%] Argentina=4 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1630" cy="803" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-02-17  A23403G  Brazil=20 [100.0%] Curacao=5 [100.0%] Argentina=4 [100.0%] Chile=4 [100.0%] Bonaire=2 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-02-17  A23403G  Brazil=20 [100.0%] Curacao=5 [100.0%] Chile=4 [100.0%] Argentina=4 [100.0%] Bonaire=2 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1630" cy="803" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -4750,12 +4733,12 @@
 	<circle cx="1637" cy="811" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-02-18  A23403G  Brazil=11 [100.0%] Curacao=10 [100.0%] Bonaire=5 [100.0%] Chile=4 [100.0%] Argentina=3 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1637" cy="811" r="2" style="fill:yellow;" class="cv" />
+	<title>2021-02-18  A23403G  Brazil=11 [100.0%] Curacao=10 [100.0%] Bonaire=5 [100.0%] Chile=4 [100.0%] Argentina=3 [100.0%] Suriname=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1637" cy="811" r="2" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
-	<title>2021-02-18  A23403G  Brazil=11 [100.0%] Curacao=10 [100.0%] Bonaire=5 [100.0%] Chile=4 [100.0%] Argentina=3 [100.0%] French Guiana=2 [100.0%] Suriname=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1637" cy="811" r="2" style="fill:#7FFFD4;" class="cv" />
+	<title>2021-02-18  A23403G  Brazil=11 [100.0%] Curacao=10 [100.0%] Bonaire=5 [100.0%] Chile=4 [100.0%] Argentina=3 [100.0%] Suriname=2 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1637" cy="811" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2021-02-18  C23525T  Brazil=7 [63.6%]  surface glycoprotein, H655Y</title>
@@ -5094,12 +5077,12 @@
 	<circle cx="1589" cy="888" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-21  A23063T  Curacao=5 [71.4%]  surface glycoprotein, N501Y</title>
-	<circle cx="1598" cy="881" r="3" style="fill:orange;" class="cv" />
+	<title>2021-02-21  A23063T  Brazil=5 [71.4%]  surface glycoprotein, N501Y</title>
+	<circle cx="1598" cy="881" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-21  A23063T  Curacao=5 [71.4%] Brazil=5 [71.4%]  surface glycoprotein, N501Y</title>
-	<circle cx="1598" cy="881" r="3" style="fill:cyan;" class="cv" />
+	<title>2021-02-21  A23063T  Brazil=5 [71.4%] Curacao=5 [71.4%]  surface glycoprotein, N501Y</title>
+	<circle cx="1598" cy="881" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-02-21  A23063T  Aruba=2 [40.0%]  surface glycoprotein, N501Y</title>
@@ -5118,15 +5101,15 @@
 	<circle cx="1657" cy="834" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-02-21  A23403G  Chile=9 [100.0%] Brazil=7 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1657" cy="834" r="4" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2021-02-21  A23403G  Chile=9 [100.0%] Brazil=7 [100.0%] Curacao=7 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-02-21  A23403G  Chile=9 [100.0%] Curacao=7 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1657" cy="834" r="4" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-02-21  A23403G  Chile=9 [100.0%] Brazil=7 [100.0%] Curacao=7 [100.0%] Aruba=5 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-02-21  A23403G  Chile=9 [100.0%] Curacao=7 [100.0%] Brazil=7 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1657" cy="834" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-21  A23403G  Chile=9 [100.0%] Curacao=7 [100.0%] Brazil=7 [100.0%] Aruba=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1657" cy="834" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -5138,12 +5121,12 @@
 	<circle cx="1692" cy="806" r="4" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-02-21  C23604A  Aruba=2 [40.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1692" cy="806" r="2" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-02-21  C23604A  Chile=2 [22.2%]  surface glycoprotein, P681H</title>
 	<circle cx="1692" cy="806" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-02-21  C23604A  Chile=2 [22.2%] Aruba=2 [40.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1692" cy="806" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-21  C23643T  Curacao=2 [28.6%]  surface glycoprotein, A694V</title>
@@ -5270,12 +5253,12 @@
 	<circle cx="1663" cy="842" r="4" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
-	<title>2021-02-22  A23403G  Brazil=13 [100.0%] Aruba=10 [100.0%] Suriname=7 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1663" cy="842" r="2" style="fill:white;" class="cv" />
+	<title>2021-02-22  A23403G  Brazil=13 [100.0%] Aruba=10 [100.0%] Suriname=7 [100.0%] Peru=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1663" cy="842" r="2" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g>
-	<title>2021-02-22  A23403G  Brazil=13 [100.0%] Aruba=10 [100.0%] Suriname=7 [100.0%] Chile=2 [100.0%] Peru=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1663" cy="842" r="2" style="fill:#FFBBFF;" class="cv" />
+	<title>2021-02-22  A23403G  Brazil=13 [100.0%] Aruba=10 [100.0%] Suriname=7 [100.0%] Peru=2 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1663" cy="842" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-02-22  C23525T  Brazil=10 [76.9%]  surface glycoprotein, H655Y</title>
@@ -5542,19 +5525,19 @@
 	<circle cx="1675" cy="858" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-24  A23403G  Brazil=15 [93.8%] Curacao=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1675" cy="858" r="3" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2021-02-24  A23403G  Brazil=15 [93.8%] Curacao=4 [100.0%] Chile=4 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-02-24  A23403G  Brazil=15 [93.8%] Chile=4 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1675" cy="858" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-02-24  A23403G  Brazil=15 [93.8%] Curacao=4 [100.0%] Chile=4 [100.0%] Bonaire=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-02-24  A23403G  Brazil=15 [93.8%] Chile=4 [100.0%] Curacao=4 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1675" cy="858" r="3" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2021-02-24  A23403G  Brazil=15 [93.8%] Chile=4 [100.0%] Curacao=4 [100.0%] Bonaire=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1675" cy="858" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-02-24  A23403G  Brazil=15 [93.8%] Curacao=4 [100.0%] Chile=4 [100.0%] Bonaire=3 [100.0%] Suriname=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-02-24  A23403G  Brazil=15 [93.8%] Chile=4 [100.0%] Curacao=4 [100.0%] Bonaire=3 [100.0%] Suriname=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1675" cy="858" r="2" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
@@ -5638,12 +5621,12 @@
 	<circle cx="1419" cy="1048" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-25  ATTA21993A  Aruba=6 [40.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1423" cy="1045" r="3" style="fill:fuchsia;" class="cv" />
+	<title>2021-02-25  ATTA21993A  Curacao=6 [85.7%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1423" cy="1045" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-02-25  ATTA21993A  Aruba=6 [40.0%] Curacao=6 [85.7%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1423" cy="1045" r="3" style="fill:orange;" class="cv" />
+	<title>2021-02-25  ATTA21993A  Aruba=6 [40.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1423" cy="1045" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-25  G22132T  Brazil=5 [50.0%]  surface glycoprotein, R190S</title>
@@ -5670,15 +5653,15 @@
 	<circle cx="1609" cy="916" r="2" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
-	<title>2021-02-25  A23063T  Brazil=7 [70.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1619" cy="909" r="4" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2021-02-25  A23063T  Aruba=7 [46.7%]  surface glycoprotein, N501Y</title>
 	<circle cx="1619" cy="909" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-25  A23063T  Aruba=7 [46.7%] Curacao=6 [85.7%]  surface glycoprotein, N501Y</title>
+	<title>2021-02-25  A23063T  Aruba=7 [46.7%] Brazil=7 [70.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1619" cy="909" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-02-25  A23063T  Aruba=7 [46.7%] Brazil=7 [70.0%] Curacao=6 [85.7%]  surface glycoprotein, N501Y</title>
 	<circle cx="1619" cy="909" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
@@ -5738,12 +5721,12 @@
 	<circle cx="1718" cy="841" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-02-25  C23709T  Aruba=6 [40.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1737" cy="827" r="3" style="fill:fuchsia;" class="cv" />
+	<title>2021-02-25  C23709T  Curacao=6 [85.7%]  surface glycoprotein, T716I</title>
+	<circle cx="1737" cy="827" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-02-25  C23709T  Aruba=6 [40.0%] Curacao=6 [85.7%]  surface glycoprotein, T716I</title>
-	<circle cx="1737" cy="827" r="3" style="fill:orange;" class="cv" />
+	<title>2021-02-25  C23709T  Aruba=6 [40.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1737" cy="827" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-25  C23709T  Brazil=2 [20.0%]  surface glycoprotein, T716I</title>
@@ -5762,12 +5745,12 @@
 	<circle cx="1788" cy="792" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-02-25  T24506G  Aruba=6 [40.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1883" cy="726" r="3" style="fill:fuchsia;" class="cv" />
+	<title>2021-02-25  T24506G  Curacao=6 [85.7%]  surface glycoprotein, S982A</title>
+	<circle cx="1883" cy="726" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-02-25  T24506G  Aruba=6 [40.0%] Curacao=6 [85.7%]  surface glycoprotein, S982A</title>
-	<circle cx="1883" cy="726" r="3" style="fill:orange;" class="cv" />
+	<title>2021-02-25  T24506G  Aruba=6 [40.0%]  surface glycoprotein, S982A</title>
+	<circle cx="1883" cy="726" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-02-25  T24506G  Brazil=2 [20.0%]  surface glycoprotein, S982A</title>
@@ -5854,12 +5837,12 @@
 	<circle cx="1425" cy="1049" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  ATTA21993A  Bonaire=2 [50.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1425" cy="1049" r="2" style="fill:lime;" class="cv" />
+	<title>2021-02-26  ATTA21993A  Aruba=8 [88.9%] Curacao=2 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1425" cy="1049" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  ATTA21993A  Bonaire=2 [50.0%] Curacao=2 [100.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1425" cy="1049" r="2" style="fill:orange;" class="cv" />
+	<title>2021-02-26  ATTA21993A  Bonaire=2 [50.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1425" cy="1049" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-02-26  T22020C  Brazil=2 [5.0%]  surface glycoprotein, M153T</title>
@@ -5898,24 +5881,24 @@
 	<circle cx="1624" cy="917" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  A23063T  Bonaire=2 [50.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1624" cy="917" r="2" style="fill:lime;" class="cv" />
+	<title>2021-02-26  A23063T  Brazil=26 [65.0%] Aruba=9 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1624" cy="917" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  A23063T  Bonaire=2 [50.0%] Curacao=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1624" cy="917" r="2" style="fill:orange;" class="cv" />
+	<title>2021-02-26  A23063T  Bonaire=2 [50.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1624" cy="917" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-02-26  C23271A  Aruba=8 [88.9%]  surface glycoprotein, A570D</title>
 	<circle cx="1662" cy="891" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  C23271A  Bonaire=2 [50.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1662" cy="891" r="2" style="fill:lime;" class="cv" />
+	<title>2021-02-26  C23271A  Aruba=8 [88.9%] Curacao=2 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1662" cy="891" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-02-26  C23271A  Bonaire=2 [50.0%] Curacao=2 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1662" cy="891" r="2" style="fill:orange;" class="cv" />
+	<title>2021-02-26  C23271A  Bonaire=2 [50.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1662" cy="891" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-02-26  A23403G  Brazil=40 [100.0%]  surface glycoprotein, D614G</title>
@@ -6474,12 +6457,12 @@
 	<circle cx="1433" cy="1061" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-01  ATTA21993A  Aruba=8 [36.4%] Bonaire=4 [80.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1433" cy="1061" r="3" style="fill:lime;" class="cv" />
+	<title>2021-03-01  ATTA21993A  Aruba=8 [36.4%] Curacao=4 [80.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1433" cy="1061" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-01  ATTA21993A  Aruba=8 [36.4%] Bonaire=4 [80.0%] Curacao=4 [80.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1433" cy="1061" r="3" style="fill:orange;" class="cv" />
+	<title>2021-03-01  ATTA21993A  Aruba=8 [36.4%] Curacao=4 [80.0%] Bonaire=4 [80.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1433" cy="1061" r="3" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-01  G22018T  Aruba=4 [18.2%]  surface glycoprotein, W152C</title>
@@ -6574,12 +6557,12 @@
 	<circle cx="1677" cy="915" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-01  C23271A  Aruba=8 [36.4%] Curacao=4 [80.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1677" cy="915" r="3" style="fill:orange;" class="cv" />
+	<title>2021-03-01  C23271A  Aruba=8 [36.4%] Bonaire=4 [80.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1677" cy="915" r="3" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-01  C23271A  Aruba=8 [36.4%] Curacao=4 [80.0%] Bonaire=4 [80.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1677" cy="915" r="3" style="fill:lime;" class="cv" />
+	<title>2021-03-01  C23271A  Aruba=8 [36.4%] Bonaire=4 [80.0%] Curacao=4 [80.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1677" cy="915" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-03-01  A23403G  Aruba=22 [100.0%]  surface glycoprotein, D614G</title>
@@ -6594,24 +6577,24 @@
 	<circle cx="1703" cy="900" r="3" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-01  A23403G  Aruba=22 [100.0%] Brazil=17 [100.0%] Bonaire=5 [100.0%] Curacao=5 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1703" cy="900" r="3" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2021-03-01  A23403G  Aruba=22 [100.0%] Brazil=17 [100.0%] Bonaire=5 [100.0%] Curacao=5 [100.0%] French Guiana=5 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-01  A23403G  Aruba=22 [100.0%] Brazil=17 [100.0%] Bonaire=5 [100.0%] French Guiana=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1703" cy="900" r="3" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-03-01  A23403G  Aruba=22 [100.0%] Brazil=17 [100.0%] Bonaire=5 [100.0%] Curacao=5 [100.0%] French Guiana=5 [100.0%] Suriname=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-01  A23403G  Aruba=22 [100.0%] Brazil=17 [100.0%] Bonaire=5 [100.0%] French Guiana=5 [100.0%] Curacao=5 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1703" cy="900" r="3" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2021-03-01  A23403G  Aruba=22 [100.0%] Brazil=17 [100.0%] Bonaire=5 [100.0%] French Guiana=5 [100.0%] Curacao=5 [100.0%] Suriname=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1703" cy="900" r="2" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
-	<title>2021-03-01  A23403G  Aruba=22 [100.0%] Brazil=17 [100.0%] Bonaire=5 [100.0%] Curacao=5 [100.0%] French Guiana=5 [100.0%] Suriname=3 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1703" cy="900" r="2" style="fill:white;" class="cv" />
+	<title>2021-03-01  A23403G  Aruba=22 [100.0%] Brazil=17 [100.0%] Bonaire=5 [100.0%] French Guiana=5 [100.0%] Curacao=5 [100.0%] Suriname=3 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1703" cy="900" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-01  A23403G  Aruba=22 [100.0%] Brazil=17 [100.0%] Bonaire=5 [100.0%] Curacao=5 [100.0%] French Guiana=5 [100.0%] Suriname=3 [100.0%] Chile=2 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1703" cy="900" r="2" style="fill:#6495ED;" class="cv" />
+	<title>2021-03-01  A23403G  Aruba=22 [100.0%] Brazil=17 [100.0%] Bonaire=5 [100.0%] French Guiana=5 [100.0%] Curacao=5 [100.0%] Suriname=3 [100.0%] Argentina=2 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1703" cy="900" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-03-01  C23525T  Brazil=7 [41.2%]  surface glycoprotein, H655Y</title>
@@ -6686,12 +6669,12 @@
 	<circle cx="1992" cy="728" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-01  G24914C  Aruba=8 [36.4%] Bonaire=4 [80.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1992" cy="728" r="3" style="fill:lime;" class="cv" />
+	<title>2021-03-01  G24914C  Aruba=8 [36.4%] Curacao=4 [80.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="1992" cy="728" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-01  G24914C  Aruba=8 [36.4%] Bonaire=4 [80.0%] Curacao=4 [80.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1992" cy="728" r="3" style="fill:orange;" class="cv" />
+	<title>2021-03-01  G24914C  Aruba=8 [36.4%] Curacao=4 [80.0%] Bonaire=4 [80.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="1992" cy="728" r="3" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-01  G25088T  Brazil=17 [100.0%]  surface glycoprotein, V1176F</title>
@@ -6966,23 +6949,23 @@
 	<circle cx="1713" cy="918" r="4" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-03  A23403G  Brazil=28 [100.0%] Bonaire=8 [100.0%] Chile=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1713" cy="918" r="2" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2021-03-03  A23403G  Brazil=28 [100.0%] Bonaire=8 [100.0%] Chile=3 [100.0%] French Guiana=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-03  A23403G  Brazil=28 [100.0%] Bonaire=8 [100.0%] French Guiana=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1713" cy="918" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-03-03  A23403G  Brazil=28 [100.0%] Bonaire=8 [100.0%] Chile=3 [100.0%] French Guiana=3 [100.0%] Suriname=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1713" cy="918" r="2" style="fill:#7FFFD4;" class="cv" />
-</g>
-<g>
-	<title>2021-03-03  A23403G  Brazil=28 [100.0%] Bonaire=8 [100.0%] Chile=3 [100.0%] French Guiana=3 [100.0%] Suriname=3 [100.0%] Curacao=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-03  A23403G  Brazil=28 [100.0%] Bonaire=8 [100.0%] French Guiana=3 [100.0%] Curacao=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1713" cy="918" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-03  A23403G  Brazil=28 [100.0%] Bonaire=8 [100.0%] Chile=3 [100.0%] French Guiana=3 [100.0%] Suriname=3 [100.0%] Curacao=3 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-03  A23403G  Brazil=28 [100.0%] Bonaire=8 [100.0%] French Guiana=3 [100.0%] Curacao=3 [100.0%] Chile=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1713" cy="918" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-03-03  A23403G  Brazil=28 [100.0%] Bonaire=8 [100.0%] French Guiana=3 [100.0%] Curacao=3 [100.0%] Chile=3 [100.0%] Suriname=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1713" cy="918" r="2" style="fill:#7FFFD4;" class="cv" />
+</g>
+<g>
+	<title>2021-03-03  A23403G  Brazil=28 [100.0%] Bonaire=8 [100.0%] French Guiana=3 [100.0%] Curacao=3 [100.0%] Chile=3 [100.0%] Suriname=3 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1713" cy="918" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
@@ -7054,15 +7037,15 @@
 	<circle cx="2041" cy="737" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-03  G25088T  Brazil=26 [92.9%] Suriname=3 [100.0%]  surface glycoprotein, V1176F</title>
-	<circle cx="2041" cy="737" r="2" style="fill:#7FFFD4;" class="cv" />
-</g>
-<g>
-	<title>2021-03-03  G25088T  Brazil=26 [92.9%] Suriname=3 [100.0%] French Guiana=3 [100.0%]  surface glycoprotein, V1176F</title>
+	<title>2021-03-03  G25088T  Brazil=26 [92.9%] French Guiana=3 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="2041" cy="737" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-03-03  G25088T  Brazil=26 [92.9%] Suriname=3 [100.0%] French Guiana=3 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, V1176F</title>
+	<title>2021-03-03  G25088T  Brazil=26 [92.9%] French Guiana=3 [100.0%] Suriname=3 [100.0%]  surface glycoprotein, V1176F</title>
+	<circle cx="2041" cy="737" r="2" style="fill:#7FFFD4;" class="cv" />
+</g>
+<g>
+	<title>2021-03-03  G25088T  Brazil=26 [92.9%] French Guiana=3 [100.0%] Suriname=3 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="2041" cy="737" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
@@ -7282,12 +7265,12 @@
 	<circle cx="1655" cy="970" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-05  A23063T  Aruba=9 [56.2%] French Guiana=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1655" cy="970" r="2" style="fill:yellow;" class="cv" />
+	<title>2021-03-05  A23063T  Aruba=9 [56.2%] Suriname=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1655" cy="970" r="2" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
-	<title>2021-03-05  A23063T  Aruba=9 [56.2%] French Guiana=2 [100.0%] Suriname=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1655" cy="970" r="2" style="fill:#7FFFD4;" class="cv" />
+	<title>2021-03-05  A23063T  Aruba=9 [56.2%] Suriname=2 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1655" cy="970" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2021-03-05  C23271A  Curacao=11 [91.7%]  surface glycoprotein, A570D</title>
@@ -7318,12 +7301,12 @@
 	<circle cx="1722" cy="935" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-05  A23403G  Brazil=24 [100.0%] Aruba=16 [100.0%] Curacao=12 [100.0%] Chile=3 [100.0%] Argentina=2 [100.0%] Suriname=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1722" cy="935" r="2" style="fill:#7FFFD4;" class="cv" />
+	<title>2021-03-05  A23403G  Brazil=24 [100.0%] Aruba=16 [100.0%] Curacao=12 [100.0%] Chile=3 [100.0%] Argentina=2 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1722" cy="935" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-03-05  A23403G  Brazil=24 [100.0%] Aruba=16 [100.0%] Curacao=12 [100.0%] Chile=3 [100.0%] Argentina=2 [100.0%] Suriname=2 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1722" cy="935" r="2" style="fill:yellow;" class="cv" />
+	<title>2021-03-05  A23403G  Brazil=24 [100.0%] Aruba=16 [100.0%] Curacao=12 [100.0%] Chile=3 [100.0%] Argentina=2 [100.0%] French Guiana=2 [100.0%] Suriname=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1722" cy="935" r="2" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
 	<title>2021-03-05  C23525T  Brazil=22 [91.7%]  surface glycoprotein, H655Y</title>
@@ -7482,15 +7465,15 @@
 	<circle cx="1658" cy="977" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
+	<title>2021-03-06  A23063T  Bonaire=3 [60.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1658" cy="977" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
 	<title>2021-03-06  A23063T  Aruba=3 [37.5%]  surface glycoprotein, N501Y</title>
 	<circle cx="1658" cy="977" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-06  A23063T  Aruba=3 [37.5%] Bonaire=3 [60.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1658" cy="977" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2021-03-06  A23063T  Aruba=3 [37.5%] Bonaire=3 [60.0%] Curacao=2 [66.7%]  surface glycoprotein, N501Y</title>
+	<title>2021-03-06  A23063T  Aruba=3 [37.5%] Curacao=2 [66.7%]  surface glycoprotein, N501Y</title>
 	<circle cx="1658" cy="977" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
@@ -7534,15 +7517,15 @@
 	<circle cx="1751" cy="933" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
+	<title>2021-03-06  C23604A  Bonaire=5 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1767" cy="925" r="3" style="fill:lime;" class="cv" />
+</g>
+<g>
 	<title>2021-03-06  C23604A  Aruba=5 [62.5%]  surface glycoprotein, P681H</title>
 	<circle cx="1767" cy="925" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-06  C23604A  Aruba=5 [62.5%] Bonaire=5 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1767" cy="925" r="3" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2021-03-06  C23604A  Curacao=2 [66.7%]  surface glycoprotein, P681H</title>
+	<title>2021-03-06  C23604A  Aruba=5 [62.5%] Curacao=2 [66.7%]  surface glycoprotein, P681H</title>
 	<circle cx="1767" cy="925" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
@@ -7818,16 +7801,16 @@
 	<circle cx="1420" cy="1102" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
+	<title>2021-03-08  G21974C  Brazil=2 [2.6%]  surface glycoprotein, D138H</title>
+	<circle cx="1444" cy="1092" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
 	<title>2021-03-08  G21974T  Brazil=54 [71.1%]  surface glycoprotein, D138Y</title>
 	<circle cx="1444" cy="1092" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-03-08  G21974T  Brazil=54 [71.1%] Uruguay=2 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1444" cy="1092" r="2" style="fill:#ADD8E6;" class="cv" />
-</g>
-<g>
-	<title>2021-03-08  G21974C  Brazil=2 [2.6%]  surface glycoprotein, D138H</title>
-	<circle cx="1444" cy="1092" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-03-08  ATTA21993A  Aruba=19 [63.3%]  surface glycoprotein, Y145H/del</title>
@@ -7838,12 +7821,12 @@
 	<circle cx="1448" cy="1090" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  ATTA21993A  Brazil=2 [2.6%] Bonaire=2 [100.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1448" cy="1090" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-08  ATTA21993A  Brazil=2 [2.6%] Curacao=2 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1448" cy="1090" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  ATTA21993A  Brazil=2 [2.6%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1448" cy="1090" r="2" style="fill:orange;" class="cv" />
+	<title>2021-03-08  ATTA21993A  Brazil=2 [2.6%] Curacao=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1448" cy="1090" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-08  G22018T  Aruba=6 [20.0%]  surface glycoprotein, W152C</title>
@@ -7890,15 +7873,15 @@
 	<circle cx="1655" cy="998" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  G23012A  Brazil=69 [90.8%] Uruguay=2 [100.0%]  surface glycoprotein, E484K</title>
-	<circle cx="1655" cy="998" r="2" style="fill:#ADD8E6;" class="cv" />
-</g>
-<g>
 	<title>2021-03-08  G23012A  Aruba=2 [6.7%]  surface glycoprotein, E484K</title>
 	<circle cx="1655" cy="998" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  G23012A  Aruba=2 [6.7%] Chile=2 [100.0%]  surface glycoprotein, E484K</title>
+	<title>2021-03-08  G23012A  Aruba=2 [6.7%] Uruguay=2 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1655" cy="998" r="2" style="fill:#ADD8E6;" class="cv" />
+</g>
+<g>
+	<title>2021-03-08  G23012A  Aruba=2 [6.7%] Uruguay=2 [100.0%] Chile=2 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1655" cy="998" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
@@ -7914,12 +7897,12 @@
 	<circle cx="1666" cy="993" r="2" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  A23063T  Aruba=19 [63.3%] Uruguay=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1666" cy="993" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-08  A23063T  Aruba=19 [63.3%] Uruguay=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1666" cy="993" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  A23063T  Aruba=19 [63.3%] Uruguay=2 [100.0%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1666" cy="993" r="2" style="fill:orange;" class="cv" />
+	<title>2021-03-08  A23063T  Aruba=19 [63.3%] Uruguay=2 [100.0%] Curacao=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1666" cy="993" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-08  C23271A  Aruba=19 [63.3%]  surface glycoprotein, A570D</title>
@@ -7930,12 +7913,12 @@
 	<circle cx="1708" cy="975" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  C23271A  Brazil=6 [7.9%] Curacao=2 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1708" cy="975" r="2" style="fill:orange;" class="cv" />
+	<title>2021-03-08  C23271A  Brazil=6 [7.9%] Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1708" cy="975" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  C23271A  Brazil=6 [7.9%] Curacao=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1708" cy="975" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-08  C23271A  Brazil=6 [7.9%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1708" cy="975" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-03-08  A23403G  Brazil=76 [100.0%]  surface glycoprotein, D614G</title>
@@ -7954,16 +7937,16 @@
 	<circle cx="1735" cy="963" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  A23403G  Brazil=76 [100.0%] Aruba=30 [100.0%] Ecuador=4 [100.0%] Bonaire=2 [100.0%] Uruguay=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1735" cy="963" r="2" style="fill:#ADD8E6;" class="cv" />
-</g>
-<g>
-	<title>2021-03-08  A23403G  Brazil=76 [100.0%] Aruba=30 [100.0%] Ecuador=4 [100.0%] Bonaire=2 [100.0%] Uruguay=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-08  A23403G  Brazil=76 [100.0%] Aruba=30 [100.0%] Ecuador=4 [100.0%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1735" cy="963" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  A23403G  Brazil=76 [100.0%] Aruba=30 [100.0%] Ecuador=4 [100.0%] Bonaire=2 [100.0%] Uruguay=2 [100.0%] Curacao=2 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-08  A23403G  Brazil=76 [100.0%] Aruba=30 [100.0%] Ecuador=4 [100.0%] Bonaire=2 [100.0%] Curacao=2 [100.0%] Chile=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1735" cy="963" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-03-08  A23403G  Brazil=76 [100.0%] Aruba=30 [100.0%] Ecuador=4 [100.0%] Bonaire=2 [100.0%] Curacao=2 [100.0%] Chile=2 [100.0%] Uruguay=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1735" cy="963" r="2" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g>
 	<title>2021-03-08  C23525T  Brazil=61 [80.3%]  surface glycoprotein, H655Y</title>
@@ -7982,12 +7965,12 @@
 	<circle cx="1776" cy="945" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  C23604A  Brazil=6 [7.9%] Bonaire=2 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1776" cy="945" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-08  C23604A  Brazil=6 [7.9%] Curacao=2 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1776" cy="945" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  C23604A  Brazil=6 [7.9%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1776" cy="945" r="2" style="fill:orange;" class="cv" />
+	<title>2021-03-08  C23604A  Brazil=6 [7.9%] Curacao=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1776" cy="945" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-08  C23664T  Aruba=2 [6.7%]  surface glycoprotein, A701V</title>
@@ -8030,12 +8013,12 @@
 	<circle cx="1960" cy="863" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  T24506G  Brazil=6 [7.9%] Curacao=2 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1960" cy="863" r="2" style="fill:orange;" class="cv" />
+	<title>2021-03-08  T24506G  Brazil=6 [7.9%] Bonaire=2 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="1960" cy="863" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  T24506G  Brazil=6 [7.9%] Curacao=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1960" cy="863" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-08  T24506G  Brazil=6 [7.9%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="1960" cy="863" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-03-08  C24642T  Brazil=61 [80.3%]  surface glycoprotein, T1027I</title>
@@ -8054,24 +8037,24 @@
 	<circle cx="2043" cy="826" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  G24914C  Brazil=6 [7.9%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2043" cy="826" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-08  G24914C  Brazil=6 [7.9%] Curacao=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2043" cy="826" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  G24914C  Brazil=6 [7.9%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2043" cy="826" r="2" style="fill:orange;" class="cv" />
+	<title>2021-03-08  G24914C  Brazil=6 [7.9%] Curacao=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2043" cy="826" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-08  G25088T  Brazil=70 [92.1%]  surface glycoprotein, V1176F</title>
 	<circle cx="2078" cy="811" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  G25088T  Brazil=70 [92.1%] Uruguay=2 [100.0%]  surface glycoprotein, V1176F</title>
-	<circle cx="2078" cy="811" r="2" style="fill:#ADD8E6;" class="cv" />
+	<title>2021-03-08  G25088T  Brazil=70 [92.1%] Chile=2 [100.0%]  surface glycoprotein, V1176F</title>
+	<circle cx="2078" cy="811" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-08  G25088T  Brazil=70 [92.1%] Uruguay=2 [100.0%] Chile=2 [100.0%]  surface glycoprotein, V1176F</title>
-	<circle cx="2078" cy="811" r="2" style="fill:white;" class="cv" />
+	<title>2021-03-08  G25088T  Brazil=70 [92.1%] Chile=2 [100.0%] Uruguay=2 [100.0%]  surface glycoprotein, V1176F</title>
+	<circle cx="2078" cy="811" r="2" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g>
 	<title>2021-03-08  G25440T  Brazil=2 [2.6%]  ORF3a protein, K16N</title>
@@ -8126,16 +8109,16 @@
 	<circle cx="1450" cy="1094" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  ATTA21993A  Brazil=5 [6.8%] Aruba=2 [33.3%]  surface glycoprotein, Y145H/del</title>
+	<title>2021-03-09  ATTA21993A  Brazil=5 [6.8%] Chile=2 [33.3%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1450" cy="1094" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-03-09  ATTA21993A  Brazil=5 [6.8%] Chile=2 [33.3%] Aruba=2 [33.3%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1450" cy="1094" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  ATTA21993A  Brazil=5 [6.8%] Aruba=2 [33.3%] Curacao=2 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<title>2021-03-09  ATTA21993A  Brazil=5 [6.8%] Chile=2 [33.3%] Aruba=2 [33.3%] Curacao=2 [100.0%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1450" cy="1094" r="2" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2021-03-09  ATTA21993A  Chile=2 [33.3%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1450" cy="1094" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-03-09  G22018T  Aruba=2 [33.3%]  surface glycoprotein, W152C</title>
@@ -8170,32 +8153,32 @@
 	<circle cx="1669" cy="1001" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  A23063T  Chile=2 [33.3%]  surface glycoprotein, N501Y</title>
-	<circle cx="1669" cy="1001" r="2" style="fill:white;" class="cv" />
+	<title>2021-03-09  A23063T  Aruba=2 [33.3%]  surface glycoprotein, N501Y</title>
+	<circle cx="1669" cy="1001" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  A23063T  Chile=2 [33.3%] Curacao=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-03-09  A23063T  Aruba=2 [33.3%] Curacao=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1669" cy="1001" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  A23063T  Aruba=2 [33.3%]  surface glycoprotein, N501Y</title>
-	<circle cx="1669" cy="1001" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2021-03-09  A23063T  Chile=2 [33.3%]  surface glycoprotein, N501Y</title>
+	<circle cx="1669" cy="1001" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-03-09  C23271A  Brazil=4 [5.5%]  surface glycoprotein, A570D</title>
 	<circle cx="1712" cy="983" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  C23271A  Brazil=4 [5.5%] Aruba=2 [33.3%]  surface glycoprotein, A570D</title>
-	<circle cx="1712" cy="983" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2021-03-09  C23271A  Brazil=4 [5.5%] Chile=2 [33.3%]  surface glycoprotein, A570D</title>
+	<circle cx="1712" cy="983" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  C23271A  Brazil=4 [5.5%] Aruba=2 [33.3%] Curacao=2 [100.0%]  surface glycoprotein, A570D</title>
+	<title>2021-03-09  C23271A  Brazil=4 [5.5%] Chile=2 [33.3%] Curacao=2 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1712" cy="983" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  C23271A  Chile=2 [33.3%]  surface glycoprotein, A570D</title>
-	<circle cx="1712" cy="983" r="2" style="fill:white;" class="cv" />
+	<title>2021-03-09  C23271A  Aruba=2 [33.3%]  surface glycoprotein, A570D</title>
+	<circle cx="1712" cy="983" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-03-09  A23403G  Brazil=73 [100.0%]  surface glycoprotein, D614G</title>
@@ -8242,16 +8225,16 @@
 	<circle cx="1780" cy="955" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  C23604A  Brazil=6 [8.2%] Aruba=3 [50.0%] Bonaire=2 [100.0%]  surface glycoprotein, P681H</title>
+	<title>2021-03-09  C23604A  Chile=2 [33.3%]  surface glycoprotein, P681H</title>
+	<circle cx="1780" cy="955" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-03-09  C23604A  Chile=2 [33.3%] Bonaire=2 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1780" cy="955" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  C23604A  Brazil=6 [8.2%] Aruba=3 [50.0%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, P681H</title>
+	<title>2021-03-09  C23604A  Chile=2 [33.3%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1780" cy="955" r="2" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2021-03-09  C23604A  Chile=2 [33.3%]  surface glycoprotein, P681H</title>
-	<circle cx="1780" cy="955" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-03-09  G23628T  Brazil=2 [2.7%]  surface glycoprotein, S689I</title>
@@ -8274,16 +8257,16 @@
 	<circle cx="1802" cy="945" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  C23709T  Chile=2 [33.3%]  surface glycoprotein, T716I</title>
-	<circle cx="1802" cy="945" r="2" style="fill:white;" class="cv" />
+	<title>2021-03-09  C23709T  Brazil=6 [8.2%] Aruba=3 [50.0%] Bonaire=2 [100.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1802" cy="945" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  C23709T  Chile=2 [33.3%] Curacao=2 [100.0%]  surface glycoprotein, T716I</title>
+	<title>2021-03-09  C23709T  Brazil=6 [8.2%] Aruba=3 [50.0%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, T716I</title>
 	<circle cx="1802" cy="945" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  C23709T  Chile=2 [33.3%] Curacao=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1802" cy="945" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-09  C23709T  Chile=2 [33.3%]  surface glycoprotein, T716I</title>
+	<circle cx="1802" cy="945" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-03-09  G24095T  Brazil=2 [2.7%]  surface glycoprotein, A845S</title>
@@ -8294,15 +8277,15 @@
 	<circle cx="1965" cy="876" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  T24506G  Brazil=6 [8.2%] Aruba=2 [33.3%]  surface glycoprotein, S982A</title>
-	<circle cx="1965" cy="876" r="2" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
-	<title>2021-03-09  T24506G  Brazil=6 [8.2%] Aruba=2 [33.3%] Curacao=2 [100.0%]  surface glycoprotein, S982A</title>
+	<title>2021-03-09  T24506G  Brazil=6 [8.2%] Curacao=2 [100.0%]  surface glycoprotein, S982A</title>
 	<circle cx="1965" cy="876" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  T24506G  Chile=2 [33.3%]  surface glycoprotein, S982A</title>
+	<title>2021-03-09  T24506G  Aruba=2 [33.3%]  surface glycoprotein, S982A</title>
+	<circle cx="1965" cy="876" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-03-09  T24506G  Aruba=2 [33.3%] Chile=2 [33.3%]  surface glycoprotein, S982A</title>
 	<circle cx="1965" cy="876" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
@@ -8314,16 +8297,16 @@
 	<circle cx="2049" cy="841" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  G24914C  Brazil=6 [8.2%] Aruba=2 [33.3%]  surface glycoprotein, D1118H</title>
-	<circle cx="2049" cy="841" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2021-03-09  G24914C  Brazil=6 [8.2%] Chile=2 [33.3%]  surface glycoprotein, D1118H</title>
+	<circle cx="2049" cy="841" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  G24914C  Brazil=6 [8.2%] Aruba=2 [33.3%] Curacao=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<title>2021-03-09  G24914C  Brazil=6 [8.2%] Chile=2 [33.3%] Curacao=2 [100.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="2049" cy="841" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-09  G24914C  Chile=2 [33.3%]  surface glycoprotein, D1118H</title>
-	<circle cx="2049" cy="841" r="2" style="fill:white;" class="cv" />
+	<title>2021-03-09  G24914C  Aruba=2 [33.3%]  surface glycoprotein, D1118H</title>
+	<circle cx="2049" cy="841" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-03-09  G25062C  Chile=3 [50.0%]  surface glycoprotein, G1167A</title>
@@ -8394,20 +8377,20 @@
 	<circle cx="1452" cy="1099" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-10  ATTA21993A  Aruba=14 [51.9%] Argentina=3 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<title>2021-03-10  ATTA21993A  Aruba=14 [51.9%] Curacao=3 [75.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1452" cy="1099" r="2" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2021-03-10  ATTA21993A  Aruba=14 [51.9%] Curacao=3 [75.0%] Argentina=3 [100.0%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1452" cy="1099" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-10  ATTA21993A  Curacao=3 [75.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1452" cy="1099" r="2" style="fill:orange;" class="cv" />
+	<title>2021-03-10  ATTA21993A  Aruba=14 [51.9%] Curacao=3 [75.0%] Argentina=3 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1452" cy="1099" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-10  ATTA21993A  Brazil=2 [5.0%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1452" cy="1099" r="2" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2021-03-10  ATTA21993A  Brazil=2 [5.0%] Bonaire=2 [100.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1452" cy="1099" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-10  G22018T  Aruba=4 [14.8%]  surface glycoprotein, W152C</title>
@@ -8458,15 +8441,15 @@
 	<circle cx="1673" cy="1010" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-10  A23063T  Aruba=15 [55.6%] Argentina=3 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1673" cy="1010" r="2" style="fill:#6495ED;" class="cv" />
-</g>
-<g>
-	<title>2021-03-10  A23063T  Curacao=3 [75.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-03-10  A23063T  Aruba=15 [55.6%] Curacao=3 [75.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1673" cy="1010" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-10  A23063T  Curacao=3 [75.0%] Bonaire=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-03-10  A23063T  Aruba=15 [55.6%] Curacao=3 [75.0%] Argentina=3 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1673" cy="1010" r="2" style="fill:#6495ED;" class="cv" />
+</g>
+<g>
+	<title>2021-03-10  A23063T  Aruba=15 [55.6%] Curacao=3 [75.0%] Argentina=3 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1673" cy="1010" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
@@ -8478,19 +8461,19 @@
 	<circle cx="1716" cy="992" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
+	<title>2021-03-10  C23271A  Aruba=14 [51.9%] Curacao=3 [75.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1716" cy="992" r="2" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2021-03-10  C23271A  Aruba=14 [51.9%] Curacao=3 [75.0%] Argentina=3 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1716" cy="992" r="2" style="fill:#6495ED;" class="cv" />
+</g>
+<g>
 	<title>2021-03-10  C23271A  Brazil=3 [7.5%]  surface glycoprotein, A570D</title>
 	<circle cx="1716" cy="992" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-10  C23271A  Brazil=3 [7.5%] Argentina=3 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1716" cy="992" r="2" style="fill:#6495ED;" class="cv" />
-</g>
-<g>
-	<title>2021-03-10  C23271A  Curacao=3 [75.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1716" cy="992" r="2" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2021-03-10  C23271A  Curacao=3 [75.0%] Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
+	<title>2021-03-10  C23271A  Brazil=3 [7.5%] Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1716" cy="992" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
@@ -8510,16 +8493,16 @@
 	<circle cx="1743" cy="981" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-10  A23403G  Brazil=40 [100.0%] Aruba=27 [100.0%] Curacao=4 [100.0%] Argentina=3 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-10  A23403G  Chile=2 [66.7%]  surface glycoprotein, D614G</title>
+	<circle cx="1743" cy="981" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-03-10  A23403G  Chile=2 [66.7%] French Guiana=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1743" cy="981" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-03-10  A23403G  Brazil=40 [100.0%] Aruba=27 [100.0%] Curacao=4 [100.0%] Argentina=3 [100.0%] French Guiana=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-10  A23403G  Chile=2 [66.7%] French Guiana=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1743" cy="981" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2021-03-10  A23403G  Chile=2 [66.7%]  surface glycoprotein, D614G</title>
-	<circle cx="1743" cy="981" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-03-10  C23525T  Brazil=30 [75.0%]  surface glycoprotein, H655Y</title>
@@ -8538,19 +8521,19 @@
 	<circle cx="1784" cy="964" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-10  C23604A  Aruba=18 [66.7%] Curacao=3 [75.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1784" cy="964" r="2" style="fill:orange;" class="cv" />
+	<title>2021-03-10  C23604A  Aruba=18 [66.7%] Argentina=3 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1784" cy="964" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2021-03-10  C23604A  Brazil=3 [7.5%]  surface glycoprotein, P681H</title>
 	<circle cx="1784" cy="964" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-10  C23604A  Brazil=3 [7.5%] Argentina=3 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1784" cy="964" r="2" style="fill:#6495ED;" class="cv" />
+	<title>2021-03-10  C23604A  Brazil=3 [7.5%] Curacao=3 [75.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1784" cy="964" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-10  C23604A  Brazil=3 [7.5%] Argentina=3 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, P681H</title>
+	<title>2021-03-10  C23604A  Brazil=3 [7.5%] Curacao=3 [75.0%] Bonaire=2 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1784" cy="964" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
@@ -8618,19 +8601,19 @@
 	<circle cx="2055" cy="855" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
+	<title>2021-03-10  G24914C  Aruba=13 [48.1%] Argentina=3 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2055" cy="855" r="2" style="fill:#6495ED;" class="cv" />
+</g>
+<g>
 	<title>2021-03-10  G24914C  Brazil=3 [7.5%]  surface glycoprotein, D1118H</title>
 	<circle cx="2055" cy="855" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-10  G24914C  Brazil=3 [7.5%] Argentina=3 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2055" cy="855" r="2" style="fill:#6495ED;" class="cv" />
-</g>
-<g>
-	<title>2021-03-10  G24914C  Curacao=3 [75.0%]  surface glycoprotein, D1118H</title>
+	<title>2021-03-10  G24914C  Brazil=3 [7.5%] Curacao=3 [75.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="2055" cy="855" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-10  G24914C  Curacao=3 [75.0%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<title>2021-03-10  G24914C  Brazil=3 [7.5%] Curacao=3 [75.0%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="2055" cy="855" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
@@ -8718,12 +8701,12 @@
 	<circle cx="1676" cy="1018" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-11  A23063T  Bonaire=2 [66.7%]  surface glycoprotein, N501Y</title>
-	<circle cx="1676" cy="1018" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-11  A23063T  Brazil=15 [83.3%] Curacao=4 [100.0%] Uruguay=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1676" cy="1018" r="2" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g>
-	<title>2021-03-11  A23063T  Bonaire=2 [66.7%] Uruguay=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1676" cy="1018" r="2" style="fill:#ADD8E6;" class="cv" />
+	<title>2021-03-11  A23063T  Bonaire=2 [66.7%]  surface glycoprotein, N501Y</title>
+	<circle cx="1676" cy="1018" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-11  C23271A  Curacao=4 [100.0%]  surface glycoprotein, A570D</title>
@@ -8894,12 +8877,12 @@
 	<circle cx="1679" cy="1026" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-12  A23063T  Chile=2 [66.7%]  surface glycoprotein, N501Y</title>
-	<circle cx="1679" cy="1026" r="2" style="fill:white;" class="cv" />
+	<title>2021-03-12  A23063T  Brazil=13 [92.9%] Curacao=4 [100.0%] Bonaire=3 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1679" cy="1026" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-03-12  A23063T  Chile=2 [66.7%] French Guiana=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1679" cy="1026" r="2" style="fill:yellow;" class="cv" />
+	<title>2021-03-12  A23063T  Chile=2 [66.7%]  surface glycoprotein, N501Y</title>
+	<circle cx="1679" cy="1026" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-03-12  C23271A  Curacao=4 [100.0%]  surface glycoprotein, A570D</title>
@@ -9070,12 +9053,12 @@
 	<circle cx="1753" cy="1010" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-13  A23403G  Brazil=15 [100.0%] Chile=7 [100.0%] Uruguay=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1753" cy="1010" r="3" style="fill:#ADD8E6;" class="cv" />
+	<title>2021-03-13  A23403G  Brazil=15 [100.0%] Chile=7 [100.0%] Curacao=4 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1753" cy="1010" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-13  A23403G  Brazil=15 [100.0%] Chile=7 [100.0%] Uruguay=4 [100.0%] Curacao=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1753" cy="1010" r="3" style="fill:orange;" class="cv" />
+	<title>2021-03-13  A23403G  Brazil=15 [100.0%] Chile=7 [100.0%] Curacao=4 [100.0%] Uruguay=4 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1753" cy="1010" r="3" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g>
 	<title>2021-03-13  C23525T  Brazil=14 [93.3%]  surface glycoprotein, H655Y</title>
@@ -9182,12 +9165,12 @@
 	<circle cx="1729" cy="1028" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-14  C23271A  Brazil=4 [19.0%] Chile=2 [40.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1729" cy="1028" r="2" style="fill:white;" class="cv" />
+	<title>2021-03-14  C23271A  Brazil=4 [19.0%] Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1729" cy="1028" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-14  C23271A  Brazil=4 [19.0%] Chile=2 [40.0%] Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1729" cy="1028" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-14  C23271A  Chile=2 [40.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1729" cy="1028" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-03-14  A23403G  Brazil=21 [100.0%]  surface glycoprotein, D614G</title>
@@ -9210,12 +9193,12 @@
 	<circle cx="1799" cy="1005" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-14  C23604A  Brazil=4 [19.0%] Chile=2 [40.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1799" cy="1005" r="2" style="fill:white;" class="cv" />
+	<title>2021-03-14  C23604A  Brazil=4 [19.0%] Bonaire=2 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1799" cy="1005" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-14  C23604A  Brazil=4 [19.0%] Chile=2 [40.0%] Bonaire=2 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1799" cy="1005" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-14  C23604A  Chile=2 [40.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1799" cy="1005" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-03-14  C23625T  Brazil=2 [9.5%]  surface glycoprotein, A688V</title>
@@ -9254,12 +9237,12 @@
 	<circle cx="2077" cy="915" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-14  G24914C  Brazil=4 [19.0%] Chile=2 [40.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2077" cy="915" r="2" style="fill:white;" class="cv" />
+	<title>2021-03-14  G24914C  Brazil=4 [19.0%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2077" cy="915" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-14  G24914C  Brazil=4 [19.0%] Chile=2 [40.0%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2077" cy="915" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-14  G24914C  Chile=2 [40.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2077" cy="915" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-03-14  G25062C  Chile=2 [40.0%]  surface glycoprotein, G1167A</title>
@@ -9318,12 +9301,12 @@
 	<circle cx="1459" cy="1121" r="4" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-15  ATTA21993A  Curacao=11 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1459" cy="1121" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
 	<title>2021-03-15  ATTA21993A  Brazil=2 [3.1%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1459" cy="1121" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-03-15  ATTA21993A  Brazil=2 [3.1%] Bonaire=2 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1459" cy="1121" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-15  G22017T  Brazil=2 [3.1%]  surface glycoprotein, W152L</title>
@@ -9402,12 +9385,12 @@
 	<circle cx="1687" cy="1051" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-15  A23063T  Chile=6 [28.6%] Bonaire=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1687" cy="1051" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-15  A23063T  Chile=6 [28.6%] French Guiana=2 [66.7%]  surface glycoprotein, N501Y</title>
+	<circle cx="1687" cy="1051" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-03-15  A23063T  French Guiana=2 [66.7%]  surface glycoprotein, N501Y</title>
-	<circle cx="1687" cy="1051" r="2" style="fill:yellow;" class="cv" />
+	<title>2021-03-15  A23063T  Chile=6 [28.6%] French Guiana=2 [66.7%] Bonaire=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1687" cy="1051" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-15  C23220T  Brazil=2 [3.1%]  surface glycoprotein, T553I</title>
@@ -9686,12 +9669,12 @@
 	<circle cx="1690" cy="1059" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-16  A23063T  Aruba=9 [75.0%] Curacao=4 [100.0%] Bonaire=3 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1690" cy="1059" r="2" style="fill:#6495ED;" class="cv" />
-</g>
-<g>
 	<title>2021-03-16  A23063T  Chile=2 [40.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1690" cy="1059" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-03-16  A23063T  Chile=2 [40.0%] Argentina=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1690" cy="1059" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2021-03-16  C23271A  Aruba=9 [75.0%]  surface glycoprotein, A570D</title>
@@ -10066,12 +10049,12 @@
 	<circle cx="1683" cy="1079" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-18  G23012A  Brazil=19 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, E484K</title>
-	<circle cx="1683" cy="1079" r="2" style="fill:yellow;" class="cv" />
-</g>
-<g>
 	<title>2021-03-18  G23012A  Chile=2 [50.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1683" cy="1079" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-03-18  G23012A  Chile=2 [50.0%] French Guiana=2 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1683" cy="1079" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2021-03-18  A23063T  Brazil=19 [100.0%]  surface glycoprotein, N501Y</title>
@@ -10146,15 +10129,15 @@
 	<circle cx="1794" cy="1051" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
+	<title>2021-03-18  C23604A  Bonaire=5 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1811" cy="1047" r="3" style="fill:lime;" class="cv" />
+</g>
+<g>
 	<title>2021-03-18  C23604A  Aruba=5 [83.3%]  surface glycoprotein, P681H</title>
 	<circle cx="1811" cy="1047" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-18  C23604A  Aruba=5 [83.3%] Bonaire=5 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1811" cy="1047" r="3" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2021-03-18  C23604A  Aruba=5 [83.3%] Bonaire=5 [100.0%] Curacao=3 [100.0%]  surface glycoprotein, P681H</title>
+	<title>2021-03-18  C23604A  Aruba=5 [83.3%] Curacao=3 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1811" cy="1047" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
@@ -10186,15 +10169,15 @@
 	<circle cx="1917" cy="1020" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
+	<title>2021-03-18  T24506G  Bonaire=5 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="2006" cy="998" r="3" style="fill:lime;" class="cv" />
+</g>
+<g>
 	<title>2021-03-18  T24506G  Aruba=5 [83.3%]  surface glycoprotein, S982A</title>
 	<circle cx="2006" cy="998" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-18  T24506G  Aruba=5 [83.3%] Bonaire=5 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="2006" cy="998" r="3" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2021-03-18  T24506G  Aruba=5 [83.3%] Bonaire=5 [100.0%] Curacao=3 [100.0%]  surface glycoprotein, S982A</title>
+	<title>2021-03-18  T24506G  Aruba=5 [83.3%] Curacao=3 [100.0%]  surface glycoprotein, S982A</title>
 	<circle cx="2006" cy="998" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
@@ -10206,15 +10189,15 @@
 	<circle cx="2035" cy="991" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
+	<title>2021-03-18  G24914C  Bonaire=5 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2094" cy="976" r="3" style="fill:lime;" class="cv" />
+</g>
+<g>
 	<title>2021-03-18  G24914C  Aruba=5 [83.3%]  surface glycoprotein, D1118H</title>
 	<circle cx="2094" cy="976" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-18  G24914C  Aruba=5 [83.3%] Bonaire=5 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2094" cy="976" r="3" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2021-03-18  G24914C  Aruba=5 [83.3%] Bonaire=5 [100.0%] Curacao=3 [100.0%]  surface glycoprotein, D1118H</title>
+	<title>2021-03-18  G24914C  Aruba=5 [83.3%] Curacao=3 [100.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="2094" cy="976" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
@@ -10338,12 +10321,12 @@
 	<circle cx="1696" cy="1085" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-19  A23063T  Curacao=4 [80.0%] Bonaire=3 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1696" cy="1085" r="2" style="fill:yellow;" class="cv" />
-</g>
-<g>
 	<title>2021-03-19  A23063T  Suriname=2 [50.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1696" cy="1085" r="2" style="fill:#7FFFD4;" class="cv" />
+</g>
+<g>
+	<title>2021-03-19  A23063T  Suriname=2 [50.0%] French Guiana=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1696" cy="1085" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2021-03-19  C23271A  Curacao=4 [80.0%]  surface glycoprotein, A570D</title>
@@ -10362,23 +10345,23 @@
 	<circle cx="1770" cy="1068" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-19  A23403G  Brazil=9 [100.0%] Curacao=5 [100.0%] Uruguay=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1770" cy="1068" r="3" style="fill:#ADD8E6;" class="cv" />
-</g>
-<g>
-	<title>2021-03-19  A23403G  Brazil=9 [100.0%] Curacao=5 [100.0%] Uruguay=4 [100.0%] Suriname=4 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-19  A23403G  Brazil=9 [100.0%] Curacao=5 [100.0%] Suriname=4 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1770" cy="1068" r="3" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
-	<title>2021-03-19  A23403G  Brazil=9 [100.0%] Curacao=5 [100.0%] Uruguay=4 [100.0%] Suriname=4 [100.0%] Bonaire=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1770" cy="1068" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-19  A23403G  Brazil=9 [100.0%] Curacao=5 [100.0%] Suriname=4 [100.0%] Uruguay=4 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1770" cy="1068" r="3" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g>
-	<title>2021-03-19  A23403G  Brazil=9 [100.0%] Curacao=5 [100.0%] Uruguay=4 [100.0%] Suriname=4 [100.0%] Bonaire=3 [100.0%] Chile=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-19  A23403G  Brazil=9 [100.0%] Curacao=5 [100.0%] Suriname=4 [100.0%] Uruguay=4 [100.0%] Chile=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1770" cy="1068" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-19  A23403G  Brazil=9 [100.0%] Curacao=5 [100.0%] Uruguay=4 [100.0%] Suriname=4 [100.0%] Bonaire=3 [100.0%] Chile=3 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-19  A23403G  Brazil=9 [100.0%] Curacao=5 [100.0%] Suriname=4 [100.0%] Uruguay=4 [100.0%] Chile=3 [100.0%] Bonaire=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1770" cy="1068" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2021-03-19  A23403G  Brazil=9 [100.0%] Curacao=5 [100.0%] Suriname=4 [100.0%] Uruguay=4 [100.0%] Chile=3 [100.0%] Bonaire=3 [100.0%] French Guiana=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1770" cy="1068" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -10554,23 +10537,23 @@
 	<circle cx="1772" cy="1078" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-20  A23403G  Brazil=15 [100.0%] Curacao=5 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1772" cy="1078" r="3" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2021-03-20  A23403G  Brazil=15 [100.0%] Curacao=5 [100.0%] Ecuador=5 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-20  A23403G  Brazil=15 [100.0%] Ecuador=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1772" cy="1078" r="3" style="fill:#FFD700;" class="cv" />
 </g>
 <g>
-	<title>2021-03-20  A23403G  Brazil=15 [100.0%] Curacao=5 [100.0%] Ecuador=5 [100.0%] Suriname=4 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-20  A23403G  Brazil=15 [100.0%] Ecuador=5 [100.0%] Curacao=5 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1772" cy="1078" r="3" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2021-03-20  A23403G  Brazil=15 [100.0%] Ecuador=5 [100.0%] Curacao=5 [100.0%] Suriname=4 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1772" cy="1078" r="3" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
-	<title>2021-03-20  A23403G  Brazil=15 [100.0%] Curacao=5 [100.0%] Ecuador=5 [100.0%] Suriname=4 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-20  A23403G  Brazil=15 [100.0%] Ecuador=5 [100.0%] Curacao=5 [100.0%] Suriname=4 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1772" cy="1078" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-20  A23403G  Brazil=15 [100.0%] Curacao=5 [100.0%] Ecuador=5 [100.0%] Suriname=4 [100.0%] Argentina=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-20  A23403G  Brazil=15 [100.0%] Ecuador=5 [100.0%] Curacao=5 [100.0%] Suriname=4 [100.0%] Argentina=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1772" cy="1078" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
@@ -10754,15 +10737,15 @@
 	<circle cx="1746" cy="1093" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-21  C23271A  Aruba=9 [100.0%] Bonaire=6 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1746" cy="1093" r="3" style="fill:lime;" class="cv" />
-</g>
-<g>
 	<title>2021-03-21  C23271A  Brazil=6 [4.6%]  surface glycoprotein, A570D</title>
 	<circle cx="1746" cy="1093" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-21  C23271A  Brazil=6 [4.6%] Curacao=4 [100.0%]  surface glycoprotein, A570D</title>
+	<title>2021-03-21  C23271A  Brazil=6 [4.6%] Bonaire=6 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1746" cy="1093" r="3" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2021-03-21  C23271A  Brazil=6 [4.6%] Bonaire=6 [100.0%] Curacao=4 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1746" cy="1093" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
@@ -10802,15 +10785,15 @@
 	<circle cx="1818" cy="1079" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-21  C23604A  Aruba=9 [100.0%] Bonaire=6 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1818" cy="1079" r="3" style="fill:lime;" class="cv" />
-</g>
-<g>
 	<title>2021-03-21  C23604A  Brazil=6 [4.6%]  surface glycoprotein, P681H</title>
 	<circle cx="1818" cy="1079" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-21  C23604A  Brazil=6 [4.6%] Curacao=4 [100.0%]  surface glycoprotein, P681H</title>
+	<title>2021-03-21  C23604A  Brazil=6 [4.6%] Bonaire=6 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1818" cy="1079" r="3" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2021-03-21  C23604A  Brazil=6 [4.6%] Bonaire=6 [100.0%] Curacao=4 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1818" cy="1079" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
@@ -10826,15 +10809,15 @@
 	<circle cx="1841" cy="1074" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
+	<title>2021-03-21  C23709T  Aruba=9 [100.0%] Bonaire=6 [100.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1841" cy="1074" r="3" style="fill:lime;" class="cv" />
+</g>
+<g>
 	<title>2021-03-21  C23709T  Brazil=6 [4.6%]  surface glycoprotein, T716I</title>
 	<circle cx="1841" cy="1074" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-21  C23709T  Brazil=6 [4.6%] Bonaire=6 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1841" cy="1074" r="3" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2021-03-21  C23709T  Brazil=6 [4.6%] Bonaire=6 [100.0%] Curacao=4 [100.0%]  surface glycoprotein, T716I</title>
+	<title>2021-03-21  C23709T  Brazil=6 [4.6%] Curacao=4 [100.0%]  surface glycoprotein, T716I</title>
 	<circle cx="1841" cy="1074" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
@@ -11050,15 +11033,15 @@
 	<circle cx="1702" cy="1111" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
+	<title>2021-03-22  A23063T  Aruba=14 [82.4%] Curacao=6 [100.0%] Bonaire=5 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1702" cy="1111" r="3" style="fill:lime;" class="cv" />
+</g>
+<g>
 	<title>2021-03-22  A23063T  Chile=5 [41.7%]  surface glycoprotein, N501Y</title>
 	<circle cx="1702" cy="1111" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-22  A23063T  Chile=5 [41.7%] Bonaire=5 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1702" cy="1111" r="3" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2021-03-22  A23063T  Suriname=4 [57.1%]  surface glycoprotein, N501Y</title>
+	<title>2021-03-22  A23063T  Chile=5 [41.7%] Suriname=4 [57.1%]  surface glycoprotein, N501Y</title>
 	<circle cx="1702" cy="1111" r="3" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g>
@@ -11098,19 +11081,19 @@
 	<circle cx="1776" cy="1097" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-22  A23403G  Brazil=177 [99.4%] Aruba=17 [100.0%] Chile=12 [100.0%] Suriname=7 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1776" cy="1097" r="4" style="fill:#7FFFD4;" class="cv" />
-</g>
-<g>
-	<title>2021-03-22  A23403G  Brazil=177 [99.4%] Aruba=17 [100.0%] Chile=12 [100.0%] Suriname=7 [100.0%] Argentina=7 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-22  A23403G  Brazil=177 [99.4%] Aruba=17 [100.0%] Chile=12 [100.0%] Argentina=7 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1776" cy="1097" r="4" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-22  A23403G  Brazil=177 [99.4%] Aruba=17 [100.0%] Chile=12 [100.0%] Suriname=7 [100.0%] Argentina=7 [100.0%] Curacao=6 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-22  A23403G  Brazil=177 [99.4%] Aruba=17 [100.0%] Chile=12 [100.0%] Argentina=7 [100.0%] Suriname=7 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1776" cy="1097" r="4" style="fill:#7FFFD4;" class="cv" />
+</g>
+<g>
+	<title>2021-03-22  A23403G  Brazil=177 [99.4%] Aruba=17 [100.0%] Chile=12 [100.0%] Argentina=7 [100.0%] Suriname=7 [100.0%] Curacao=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1776" cy="1097" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-22  A23403G  Brazil=177 [99.4%] Aruba=17 [100.0%] Chile=12 [100.0%] Suriname=7 [100.0%] Argentina=7 [100.0%] Curacao=6 [100.0%] Bonaire=5 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-22  A23403G  Brazil=177 [99.4%] Aruba=17 [100.0%] Chile=12 [100.0%] Argentina=7 [100.0%] Suriname=7 [100.0%] Curacao=6 [100.0%] Bonaire=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1776" cy="1097" r="3" style="fill:lime;" class="cv" />
 </g>
 <g>
@@ -11734,12 +11717,12 @@
 	<circle cx="1932" cy="1095" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-24  T24506G  Curacao=2 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="2023" cy="1082" r="2" style="fill:orange;" class="cv" />
-</g>
-<g>
 	<title>2021-03-24  T24506G  Brazil=2 [2.5%]  surface glycoprotein, S982A</title>
 	<circle cx="2023" cy="1082" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-03-24  T24506G  Brazil=2 [2.5%] Curacao=2 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="2023" cy="1082" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-03-24  C24642T  Brazil=68 [84.0%]  surface glycoprotein, T1027I</title>
@@ -11750,12 +11733,12 @@
 	<circle cx="2053" cy="1078" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-24  G24914C  Curacao=2 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2113" cy="1069" r="2" style="fill:orange;" class="cv" />
-</g>
-<g>
 	<title>2021-03-24  G24914C  Brazil=2 [2.5%]  surface glycoprotein, D1118H</title>
 	<circle cx="2113" cy="1069" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-03-24  G24914C  Brazil=2 [2.5%] Curacao=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2113" cy="1069" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-03-24  G25012T  Brazil=2 [2.5%]  surface glycoprotein, E1150D</title>
@@ -11806,12 +11789,12 @@
 	<circle cx="1469" cy="1166" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-25  ATTA21993A  Brazil=3 [2.6%] Bonaire=2 [100.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1469" cy="1166" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-25  ATTA21993A  Brazil=3 [2.6%] Argentina=2 [66.7%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1469" cy="1166" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-25  ATTA21993A  Argentina=2 [66.7%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1469" cy="1166" r="2" style="fill:#6495ED;" class="cv" />
+	<title>2021-03-25  ATTA21993A  Brazil=3 [2.6%] Argentina=2 [66.7%] Bonaire=2 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1469" cy="1166" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-25  G22132T  Brazil=111 [96.5%]  surface glycoprotein, R190S</title>
@@ -11854,12 +11837,12 @@
 	<circle cx="1752" cy="1131" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-25  C23271A  Brazil=3 [2.6%] Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1752" cy="1131" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-25  C23271A  Brazil=3 [2.6%] Argentina=2 [66.7%]  surface glycoprotein, A570D</title>
+	<circle cx="1752" cy="1131" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-25  C23271A  Argentina=2 [66.7%]  surface glycoprotein, A570D</title>
-	<circle cx="1752" cy="1131" r="2" style="fill:#6495ED;" class="cv" />
+	<title>2021-03-25  C23271A  Brazil=3 [2.6%] Argentina=2 [66.7%] Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1752" cy="1131" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-25  A23403G  Brazil=115 [100.0%]  surface glycoprotein, D614G</title>
@@ -11890,12 +11873,12 @@
 	<circle cx="1825" cy="1122" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-25  C23604A  Brazil=3 [2.6%] Argentina=2 [66.7%]  surface glycoprotein, P681H</title>
-	<circle cx="1825" cy="1122" r="2" style="fill:#6495ED;" class="cv" />
+	<title>2021-03-25  C23604A  Brazil=3 [2.6%] Bonaire=2 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1825" cy="1122" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-25  C23604A  Brazil=3 [2.6%] Argentina=2 [66.7%] Bonaire=2 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1825" cy="1122" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-25  C23604A  Argentina=2 [66.7%]  surface glycoprotein, P681H</title>
+	<circle cx="1825" cy="1122" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2021-03-25  C23709T  Curacao=7 [100.0%]  surface glycoprotein, T716I</title>
@@ -11906,12 +11889,12 @@
 	<circle cx="1848" cy="1119" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-25  C23709T  Brazil=3 [2.6%] Bonaire=2 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1848" cy="1119" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-25  C23709T  Brazil=3 [2.6%] Argentina=2 [66.7%]  surface glycoprotein, T716I</title>
+	<circle cx="1848" cy="1119" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-25  C23709T  Argentina=2 [66.7%]  surface glycoprotein, T716I</title>
-	<circle cx="1848" cy="1119" r="2" style="fill:#6495ED;" class="cv" />
+	<title>2021-03-25  C23709T  Brazil=3 [2.6%] Argentina=2 [66.7%] Bonaire=2 [100.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1848" cy="1119" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-25  T24506G  Curacao=7 [100.0%]  surface glycoprotein, S982A</title>
@@ -11922,12 +11905,12 @@
 	<circle cx="2024" cy="1097" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-25  T24506G  Brazil=3 [2.6%] Bonaire=2 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="2024" cy="1097" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-25  T24506G  Brazil=3 [2.6%] Argentina=2 [66.7%]  surface glycoprotein, S982A</title>
+	<circle cx="2024" cy="1097" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-25  T24506G  Argentina=2 [66.7%]  surface glycoprotein, S982A</title>
-	<circle cx="2024" cy="1097" r="2" style="fill:#6495ED;" class="cv" />
+	<title>2021-03-25  T24506G  Brazil=3 [2.6%] Argentina=2 [66.7%] Bonaire=2 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="2024" cy="1097" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-25  C24642T  Brazil=111 [96.5%]  surface glycoprotein, T1027I</title>
@@ -11942,12 +11925,12 @@
 	<circle cx="2115" cy="1085" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-25  G24914C  Brazil=3 [2.6%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2115" cy="1085" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-25  G24914C  Brazil=3 [2.6%] Argentina=2 [66.7%]  surface glycoprotein, D1118H</title>
+	<circle cx="2115" cy="1085" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-25  G24914C  Argentina=2 [66.7%]  surface glycoprotein, D1118H</title>
-	<circle cx="2115" cy="1085" r="2" style="fill:#6495ED;" class="cv" />
+	<title>2021-03-25  G24914C  Brazil=3 [2.6%] Argentina=2 [66.7%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2115" cy="1085" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-25  G25088T  Brazil=112 [97.4%]  surface glycoprotein, V1176F</title>
@@ -12126,10 +12109,6 @@
 	<circle cx="1466" cy="1176" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-27  ATTA21993A  Argentina=2 [66.7%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1470" cy="1176" r="2" style="fill:#6495ED;" class="cv" />
-</g>
-<g>
 	<title>2021-03-27  ATTA21993A  Chile=2 [16.7%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1470" cy="1176" r="2" style="fill:white;" class="cv" />
 </g>
@@ -12138,7 +12117,11 @@
 	<circle cx="1470" cy="1176" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-27  ATTA21993A  Chile=2 [16.7%] Curacao=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<title>2021-03-27  ATTA21993A  Argentina=2 [66.7%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1470" cy="1176" r="2" style="fill:#6495ED;" class="cv" />
+</g>
+<g>
+	<title>2021-03-27  ATTA21993A  Argentina=2 [66.7%] Bonaire=2 [100.0%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1470" cy="1176" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
@@ -12178,28 +12161,28 @@
 	<circle cx="1707" cy="1154" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-27  A23063T  Chile=8 [66.7%] Argentina=3 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-03-27  A23063T  Chile=8 [66.7%] Argentina=3 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1707" cy="1154" r="2" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2021-03-27  A23063T  Chile=8 [66.7%] Argentina=3 [100.0%] Curacao=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1707" cy="1154" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-27  A23063T  Chile=8 [66.7%] Argentina=3 [100.0%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1707" cy="1154" r="2" style="fill:orange;" class="cv" />
+	<title>2021-03-27  C23271A  Curacao=2 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1754" cy="1150" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-03-27  C23271A  Chile=2 [16.7%]  surface glycoprotein, A570D</title>
 	<circle cx="1754" cy="1150" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-27  C23271A  Chile=2 [16.7%] Argentina=2 [66.7%]  surface glycoprotein, A570D</title>
-	<circle cx="1754" cy="1150" r="2" style="fill:#6495ED;" class="cv" />
-</g>
-<g>
-	<title>2021-03-27  C23271A  Chile=2 [16.7%] Argentina=2 [66.7%] Curacao=2 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1754" cy="1150" r="2" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2021-03-27  C23271A  Chile=2 [16.7%] Argentina=2 [66.7%] Curacao=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
+	<title>2021-03-27  C23271A  Chile=2 [16.7%] Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1754" cy="1150" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2021-03-27  C23271A  Argentina=2 [66.7%]  surface glycoprotein, A570D</title>
+	<circle cx="1754" cy="1150" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2021-03-27  A23403G  Brazil=17 [100.0%]  surface glycoprotein, D614G</title>
@@ -12214,12 +12197,12 @@
 	<circle cx="1783" cy="1147" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-27  A23403G  Brazil=17 [100.0%] Chile=12 [100.0%] Argentina=3 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1783" cy="1147" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-27  A23403G  Brazil=17 [100.0%] Chile=12 [100.0%] Argentina=3 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1783" cy="1147" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-27  A23403G  Brazil=17 [100.0%] Chile=12 [100.0%] Argentina=3 [100.0%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1783" cy="1147" r="2" style="fill:orange;" class="cv" />
+	<title>2021-03-27  A23403G  Brazil=17 [100.0%] Chile=12 [100.0%] Argentina=3 [100.0%] Curacao=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1783" cy="1147" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-27  C23525T  Brazil=16 [94.1%]  surface glycoprotein, H655Y</title>
@@ -12234,39 +12217,35 @@
 	<circle cx="1827" cy="1143" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-27  C23604A  Chile=2 [16.7%] Argentina=2 [66.7%]  surface glycoprotein, P681H</title>
+	<title>2021-03-27  C23604A  Chile=2 [16.7%] Curacao=2 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1827" cy="1143" r="2" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2021-03-27  C23604A  Argentina=2 [66.7%]  surface glycoprotein, P681H</title>
 	<circle cx="1827" cy="1143" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-27  C23604A  Chile=2 [16.7%] Argentina=2 [66.7%] Bonaire=2 [100.0%]  surface glycoprotein, P681H</title>
+	<title>2021-03-27  C23604A  Argentina=2 [66.7%] Bonaire=2 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1827" cy="1143" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-27  C23604A  Chile=2 [16.7%] Argentina=2 [66.7%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1827" cy="1143" r="2" style="fill:orange;" class="cv" />
+	<title>2021-03-27  C23709T  Bonaire=2 [100.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1851" cy="1141" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-27  C23709T  Argentina=2 [66.7%]  surface glycoprotein, T716I</title>
 	<circle cx="1851" cy="1141" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
+	<title>2021-03-27  C23709T  Argentina=2 [66.7%] Curacao=2 [100.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1851" cy="1141" r="2" style="fill:orange;" class="cv" />
+</g>
+<g>
 	<title>2021-03-27  C23709T  Chile=2 [16.7%]  surface glycoprotein, T716I</title>
 	<circle cx="1851" cy="1141" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-27  C23709T  Chile=2 [16.7%] Bonaire=2 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1851" cy="1141" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2021-03-27  C23709T  Chile=2 [16.7%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1851" cy="1141" r="2" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2021-03-27  T24506G  Bonaire=2 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="2028" cy="1125" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2021-03-27  T24506G  Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, S982A</title>
+	<title>2021-03-27  T24506G  Curacao=2 [100.0%]  surface glycoprotein, S982A</title>
 	<circle cx="2028" cy="1125" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
@@ -12274,7 +12253,11 @@
 	<circle cx="2028" cy="1125" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-27  T24506G  Chile=2 [16.7%] Argentina=2 [66.7%]  surface glycoprotein, S982A</title>
+	<title>2021-03-27  T24506G  Chile=2 [16.7%] Bonaire=2 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="2028" cy="1125" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2021-03-27  T24506G  Argentina=2 [66.7%]  surface glycoprotein, S982A</title>
 	<circle cx="2028" cy="1125" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
@@ -12290,12 +12273,12 @@
 	<circle cx="2118" cy="1117" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-27  G24914C  Chile=2 [16.7%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2118" cy="1117" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-27  G24914C  Chile=2 [16.7%] Curacao=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2118" cy="1117" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-27  G24914C  Chile=2 [16.7%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2118" cy="1117" r="2" style="fill:orange;" class="cv" />
+	<title>2021-03-27  G24914C  Chile=2 [16.7%] Curacao=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2118" cy="1117" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-03-27  G25088T  Brazil=16 [94.1%]  surface glycoprotein, V1176F</title>
@@ -12366,12 +12349,12 @@
 	<circle cx="1652" cy="1167" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-28  A22812C  Chile=6 [35.3%] Argentina=2 [100.0%]  surface glycoprotein, K417T</title>
-	<circle cx="1652" cy="1167" r="2" style="fill:#6495ED;" class="cv" />
-</g>
-<g>
 	<title>2021-03-28  A22812C  Brazil=2 [28.6%]  surface glycoprotein, K417T</title>
 	<circle cx="1652" cy="1167" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-03-28  A22812C  Brazil=2 [28.6%] Argentina=2 [100.0%]  surface glycoprotein, K417T</title>
+	<circle cx="1652" cy="1167" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
 	<title>2021-03-28  G23012A  Chile=8 [47.1%]  surface glycoprotein, E484K</title>
@@ -12394,24 +12377,24 @@
 	<circle cx="1708" cy="1163" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-28  A23063T  Chile=8 [47.1%] Brazil=7 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1708" cy="1163" r="2" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2021-03-28  A23063T  Chile=8 [47.1%] Brazil=7 [100.0%] Curacao=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1708" cy="1163" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2021-03-28  A23063T  Chile=8 [47.1%] Brazil=7 [100.0%] Curacao=2 [100.0%] Bonaire=2 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-03-28  A23063T  Chile=8 [47.1%] Brazil=7 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1708" cy="1163" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-28  C23271A  Curacao=2 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1754" cy="1159" r="2" style="fill:orange;" class="cv" />
+	<title>2021-03-28  A23063T  Chile=8 [47.1%] Brazil=7 [100.0%] Argentina=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1708" cy="1163" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-28  C23271A  Curacao=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
+	<title>2021-03-28  A23063T  Chile=8 [47.1%] Brazil=7 [100.0%] Argentina=2 [100.0%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1708" cy="1163" r="2" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2021-03-28  C23271A  Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1754" cy="1159" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2021-03-28  C23271A  Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1754" cy="1159" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-03-28  A23403G  Chile=17 [100.0%]  surface glycoprotein, D614G</title>
@@ -12426,12 +12409,12 @@
 	<circle cx="1784" cy="1157" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-28  A23403G  Chile=17 [100.0%] Brazil=7 [100.0%] Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1784" cy="1157" r="2" style="fill:orange;" class="cv" />
+	<title>2021-03-28  A23403G  Chile=17 [100.0%] Brazil=7 [100.0%] Bonaire=2 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1784" cy="1157" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-03-28  A23403G  Chile=17 [100.0%] Brazil=7 [100.0%] Bonaire=2 [100.0%] Curacao=2 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1784" cy="1157" r="2" style="fill:#6495ED;" class="cv" />
+	<title>2021-03-28  A23403G  Chile=17 [100.0%] Brazil=7 [100.0%] Bonaire=2 [100.0%] Argentina=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1784" cy="1157" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-03-28  C23525T  Chile=10 [58.8%]  surface glycoprotein, H655Y</title>
@@ -12466,12 +12449,12 @@
 	<circle cx="1998" cy="1142" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-28  T24506G  Curacao=2 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="2029" cy="1139" r="2" style="fill:orange;" class="cv" />
+	<title>2021-03-28  T24506G  Bonaire=2 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="2029" cy="1139" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-03-28  T24506G  Curacao=2 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="2029" cy="1139" r="2" style="fill:lime;" class="cv" />
+	<title>2021-03-28  T24506G  Bonaire=2 [100.0%] Curacao=2 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="2029" cy="1139" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-03-28  C24642T  Chile=8 [47.1%]  surface glycoprotein, T1027I</title>
@@ -13102,12 +13085,12 @@
 	<circle cx="1467" cy="1194" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-31  ATTA21993A  Chile=4 [40.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1471" cy="1194" r="3" style="fill:white;" class="cv" />
+	<title>2021-03-31  ATTA21993A  Curacao=4 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1471" cy="1194" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-31  ATTA21993A  Chile=4 [40.0%] Curacao=4 [100.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1471" cy="1194" r="3" style="fill:orange;" class="cv" />
+	<title>2021-03-31  ATTA21993A  Chile=4 [40.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1471" cy="1194" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-03-31  G22132T  Brazil=45 [95.7%]  surface glycoprotein, R190S</title>
@@ -13146,12 +13129,12 @@
 	<circle cx="1709" cy="1189" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-31  C23271A  Chile=4 [40.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1756" cy="1188" r="3" style="fill:white;" class="cv" />
+	<title>2021-03-31  C23271A  Curacao=4 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1756" cy="1188" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-31  C23271A  Chile=4 [40.0%] Curacao=4 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1756" cy="1188" r="3" style="fill:orange;" class="cv" />
+	<title>2021-03-31  C23271A  Chile=4 [40.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1756" cy="1188" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-03-31  A23403G  Brazil=47 [100.0%]  surface glycoprotein, D614G</title>
@@ -13174,12 +13157,12 @@
 	<circle cx="1812" cy="1187" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-31  C23604A  Chile=4 [40.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1830" cy="1186" r="3" style="fill:white;" class="cv" />
+	<title>2021-03-31  C23604A  Curacao=4 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1830" cy="1186" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-31  C23604A  Chile=4 [40.0%] Curacao=4 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1830" cy="1186" r="3" style="fill:orange;" class="cv" />
+	<title>2021-03-31  C23604A  Chile=4 [40.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1830" cy="1186" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-03-31  C23709T  Chile=4 [40.0%]  surface glycoprotein, T716I</title>
@@ -13206,12 +13189,12 @@
 	<circle cx="2061" cy="1182" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-03-31  G24914C  Chile=4 [40.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2122" cy="1180" r="3" style="fill:white;" class="cv" />
+	<title>2021-03-31  G24914C  Curacao=4 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2122" cy="1180" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-03-31  G24914C  Chile=4 [40.0%] Curacao=4 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2122" cy="1180" r="3" style="fill:orange;" class="cv" />
+	<title>2021-03-31  G24914C  Chile=4 [40.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2122" cy="1180" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-03-31  G25062C  Chile=2 [20.0%]  surface glycoprotein, G1167A</title>
@@ -13474,12 +13457,12 @@
 	<circle cx="1756" cy="1207" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-02  C23271A  Chile=3 [37.5%] Curacao=2 [66.7%]  surface glycoprotein, A570D</title>
-	<circle cx="1756" cy="1207" r="2" style="fill:orange;" class="cv" />
+	<title>2021-04-02  C23271A  Chile=3 [37.5%] Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1756" cy="1207" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-04-02  C23271A  Chile=3 [37.5%] Curacao=2 [66.7%] Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1756" cy="1207" r="2" style="fill:lime;" class="cv" />
+	<title>2021-04-02  C23271A  Curacao=2 [66.7%]  surface glycoprotein, A570D</title>
+	<circle cx="1756" cy="1207" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-04-02  A23403G  Brazil=11 [100.0%]  surface glycoprotein, D614G</title>
@@ -13514,24 +13497,24 @@
 	<circle cx="1853" cy="1208" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-02  C23709T  Chile=3 [37.5%] Bonaire=2 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1853" cy="1208" r="2" style="fill:lime;" class="cv" />
+	<title>2021-04-02  C23709T  Chile=3 [37.5%] Curacao=2 [66.7%]  surface glycoprotein, T716I</title>
+	<circle cx="1853" cy="1208" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-04-02  C23709T  Curacao=2 [66.7%]  surface glycoprotein, T716I</title>
-	<circle cx="1853" cy="1208" r="2" style="fill:orange;" class="cv" />
+	<title>2021-04-02  C23709T  Chile=3 [37.5%] Curacao=2 [66.7%] Bonaire=2 [100.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1853" cy="1208" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-04-02  T24506G  Chile=3 [37.5%]  surface glycoprotein, S982A</title>
 	<circle cx="2031" cy="1211" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-02  T24506G  Chile=3 [37.5%] Bonaire=2 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="2031" cy="1211" r="2" style="fill:lime;" class="cv" />
+	<title>2021-04-02  T24506G  Chile=3 [37.5%] Curacao=2 [66.7%]  surface glycoprotein, S982A</title>
+	<circle cx="2031" cy="1211" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-04-02  T24506G  Curacao=2 [66.7%]  surface glycoprotein, S982A</title>
-	<circle cx="2031" cy="1211" r="2" style="fill:orange;" class="cv" />
+	<title>2021-04-02  T24506G  Chile=3 [37.5%] Curacao=2 [66.7%] Bonaire=2 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="2031" cy="1211" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-04-02  C24642T  Brazil=11 [100.0%]  surface glycoprotein, T1027I</title>
@@ -13546,12 +13529,12 @@
 	<circle cx="2122" cy="1212" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-02  G24914C  Chile=3 [37.5%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2122" cy="1212" r="2" style="fill:lime;" class="cv" />
+	<title>2021-04-02  G24914C  Chile=3 [37.5%] Curacao=2 [66.7%]  surface glycoprotein, D1118H</title>
+	<circle cx="2122" cy="1212" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-04-02  G24914C  Curacao=2 [66.7%]  surface glycoprotein, D1118H</title>
-	<circle cx="2122" cy="1212" r="2" style="fill:orange;" class="cv" />
+	<title>2021-04-02  G24914C  Chile=3 [37.5%] Curacao=2 [66.7%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2122" cy="1212" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-04-02  G25088T  Brazil=11 [100.0%]  surface glycoprotein, V1176F</title>
@@ -13818,15 +13801,15 @@
 	<circle cx="1709" cy="1224" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-04-04  C23271A  Curacao=6 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1755" cy="1226" r="3" style="fill:orange;" class="cv" />
-</g>
-<g>
 	<title>2021-04-04  C23271A  Brazil=6 [7.7%]  surface glycoprotein, A570D</title>
 	<circle cx="1755" cy="1226" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-04-04  C23271A  Brazil=6 [7.7%] Chile=2 [14.3%]  surface glycoprotein, A570D</title>
+	<title>2021-04-04  C23271A  Brazil=6 [7.7%] Curacao=6 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1755" cy="1226" r="3" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2021-04-04  C23271A  Chile=2 [14.3%]  surface glycoprotein, A570D</title>
 	<circle cx="1755" cy="1226" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
@@ -13850,15 +13833,15 @@
 	<circle cx="1812" cy="1229" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
+	<title>2021-04-04  C23604A  Curacao=6 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1829" cy="1230" r="3" style="fill:orange;" class="cv" />
+</g>
+<g>
 	<title>2021-04-04  C23604A  Brazil=6 [7.7%]  surface glycoprotein, P681H</title>
 	<circle cx="1829" cy="1230" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-04-04  C23604A  Brazil=6 [7.7%] Curacao=6 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1829" cy="1230" r="3" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2021-04-04  C23604A  Chile=2 [14.3%]  surface glycoprotein, P681H</title>
+	<title>2021-04-04  C23604A  Brazil=6 [7.7%] Chile=2 [14.3%]  surface glycoprotein, P681H</title>
 	<circle cx="1829" cy="1230" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
@@ -13898,15 +13881,15 @@
 	<circle cx="2060" cy="1241" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
+	<title>2021-04-04  G24914C  Curacao=6 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2121" cy="1244" r="3" style="fill:orange;" class="cv" />
+</g>
+<g>
 	<title>2021-04-04  G24914C  Brazil=6 [7.7%]  surface glycoprotein, D1118H</title>
 	<circle cx="2121" cy="1244" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-04-04  G24914C  Brazil=6 [7.7%] Curacao=6 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2121" cy="1244" r="3" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2021-04-04  G24914C  Chile=2 [14.3%]  surface glycoprotein, D1118H</title>
+	<title>2021-04-04  G24914C  Brazil=6 [7.7%] Chile=2 [14.3%]  surface glycoprotein, D1118H</title>
 	<circle cx="2121" cy="1244" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
@@ -14086,15 +14069,15 @@
 	<circle cx="1709" cy="1233" r="4" style="fill:orange;" class="cv" />
 </g>
 <g>
+	<title>2021-04-05  A23063T  Chile=17 [68.0%] Curacao=7 [100.0%] French Guiana=3 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1709" cy="1233" r="2" style="fill:yellow;" class="cv" />
+</g>
+<g>
 	<title>2021-04-05  A23063T  Aruba=3 [60.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1709" cy="1233" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-04-05  A23063T  Aruba=3 [60.0%] French Guiana=3 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1709" cy="1233" r="2" style="fill:yellow;" class="cv" />
-</g>
-<g>
-	<title>2021-04-05  A23063T  Aruba=3 [60.0%] French Guiana=3 [100.0%] Colombia=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-04-05  A23063T  Aruba=3 [60.0%] Colombia=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1709" cy="1233" r="2" style="fill:red;" class="cv" />
 </g>
 <g>
@@ -14450,12 +14433,12 @@
 	<circle cx="1697" cy="1241" r="3" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-04-06  G23012A  Ecuador=2 [33.3%]  surface glycoprotein, E484K</title>
-	<circle cx="1697" cy="1241" r="2" style="fill:#FFD700;" class="cv" />
-</g>
-<g>
 	<title>2021-04-06  G23012A  Aruba=2 [7.1%]  surface glycoprotein, E484K</title>
 	<circle cx="1697" cy="1241" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-04-06  G23012A  Aruba=2 [7.1%] Ecuador=2 [33.3%]  surface glycoprotein, E484K</title>
+	<circle cx="1697" cy="1241" r="2" style="fill:#FFD700;" class="cv" />
 </g>
 <g>
 	<title>2021-04-06  A23063T  Brazil=49 [92.5%]  surface glycoprotein, N501Y</title>
@@ -14470,19 +14453,19 @@
 	<circle cx="1708" cy="1242" r="5" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-06  A23063T  Aruba=20 [71.4%] Chile=16 [80.0%] Ecuador=6 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1708" cy="1242" r="3" style="fill:#FFD700;" class="cv" />
-</g>
-<g>
-	<title>2021-04-06  A23063T  Aruba=20 [71.4%] Chile=16 [80.0%] Ecuador=6 [100.0%] French Guiana=6 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-04-06  A23063T  Aruba=20 [71.4%] Chile=16 [80.0%] French Guiana=6 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1708" cy="1242" r="3" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-04-06  A23063T  Aruba=20 [71.4%] Chile=16 [80.0%] Ecuador=6 [100.0%] French Guiana=6 [100.0%] Curacao=4 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-04-06  A23063T  Aruba=20 [71.4%] Chile=16 [80.0%] French Guiana=6 [100.0%] Ecuador=6 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1708" cy="1242" r="3" style="fill:#FFD700;" class="cv" />
+</g>
+<g>
+	<title>2021-04-06  A23063T  Aruba=20 [71.4%] Chile=16 [80.0%] French Guiana=6 [100.0%] Ecuador=6 [100.0%] Curacao=4 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1708" cy="1242" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-04-06  A23063T  Aruba=20 [71.4%] Chile=16 [80.0%] Ecuador=6 [100.0%] French Guiana=6 [100.0%] Curacao=4 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-04-06  A23063T  Aruba=20 [71.4%] Chile=16 [80.0%] French Guiana=6 [100.0%] Ecuador=6 [100.0%] Curacao=4 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1708" cy="1242" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
@@ -14490,7 +14473,11 @@
 	<circle cx="1754" cy="1245" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-04-06  C23271A  Aruba=20 [71.4%] Ecuador=4 [66.7%]  surface glycoprotein, A570D</title>
+	<title>2021-04-06  C23271A  Aruba=20 [71.4%] Curacao=4 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1754" cy="1245" r="3" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2021-04-06  C23271A  Ecuador=4 [66.7%]  surface glycoprotein, A570D</title>
 	<circle cx="1754" cy="1245" r="3" style="fill:#FFD700;" class="cv" />
 </g>
 <g>
@@ -14498,19 +14485,15 @@
 	<circle cx="1754" cy="1245" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-06  C23271A  Chile=4 [20.0%] Curacao=4 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1754" cy="1245" r="3" style="fill:orange;" class="cv" />
+	<title>2021-04-06  C23271A  Chile=4 [20.0%] Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1754" cy="1245" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-04-06  C23271A  Brazil=2 [3.8%]  surface glycoprotein, A570D</title>
 	<circle cx="1754" cy="1245" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-04-06  C23271A  Brazil=2 [3.8%] Bonaire=2 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1754" cy="1245" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2021-04-06  C23271A  French Guiana=2 [33.3%]  surface glycoprotein, A570D</title>
+	<title>2021-04-06  C23271A  Brazil=2 [3.8%] French Guiana=2 [33.3%]  surface glycoprotein, A570D</title>
 	<circle cx="1754" cy="1245" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -14566,16 +14549,16 @@
 	<circle cx="1828" cy="1251" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-04-06  C23604A  Aruba=21 [75.0%] Curacao=4 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1828" cy="1251" r="3" style="fill:orange;" class="cv" />
-</g>
-<g>
 	<title>2021-04-06  C23604A  Chile=4 [20.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1828" cy="1251" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-04-06  C23604A  Chile=4 [20.0%] Ecuador=4 [66.7%]  surface glycoprotein, P681H</title>
 	<circle cx="1828" cy="1251" r="3" style="fill:#FFD700;" class="cv" />
+</g>
+<g>
+	<title>2021-04-06  C23604A  Chile=4 [20.0%] Ecuador=4 [66.7%] Curacao=4 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1828" cy="1251" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-04-06  C23604A  Brazil=3 [5.7%]  surface glycoprotein, P681H</title>
@@ -14614,15 +14597,15 @@
 	<circle cx="1851" cy="1253" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
+	<title>2021-04-06  C23709T  French Guiana=2 [33.3%]  surface glycoprotein, T716I</title>
+	<circle cx="1851" cy="1253" r="2" style="fill:yellow;" class="cv" />
+</g>
+<g>
 	<title>2021-04-06  C23709T  Brazil=2 [3.8%]  surface glycoprotein, T716I</title>
 	<circle cx="1851" cy="1253" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-04-06  C23709T  Brazil=2 [3.8%] French Guiana=2 [33.3%]  surface glycoprotein, T716I</title>
-	<circle cx="1851" cy="1253" r="2" style="fill:yellow;" class="cv" />
-</g>
-<g>
-	<title>2021-04-06  C23709T  Brazil=2 [3.8%] French Guiana=2 [33.3%] Bonaire=2 [100.0%]  surface glycoprotein, T716I</title>
+	<title>2021-04-06  C23709T  Brazil=2 [3.8%] Bonaire=2 [100.0%]  surface glycoprotein, T716I</title>
 	<circle cx="1851" cy="1253" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
@@ -14638,28 +14621,28 @@
 	<circle cx="2028" cy="1268" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
+	<title>2021-04-06  T24506G  Aruba=20 [71.4%] Ecuador=4 [66.7%]  surface glycoprotein, S982A</title>
+	<circle cx="2028" cy="1268" r="3" style="fill:#FFD700;" class="cv" />
+</g>
+<g>
+	<title>2021-04-06  T24506G  Aruba=20 [71.4%] Ecuador=4 [66.7%] Curacao=4 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="2028" cy="1268" r="3" style="fill:orange;" class="cv" />
+</g>
+<g>
 	<title>2021-04-06  T24506G  Chile=4 [20.0%]  surface glycoprotein, S982A</title>
 	<circle cx="2028" cy="1268" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-06  T24506G  Chile=4 [20.0%] Ecuador=4 [66.7%]  surface glycoprotein, S982A</title>
-	<circle cx="2028" cy="1268" r="3" style="fill:#FFD700;" class="cv" />
+	<title>2021-04-06  T24506G  Chile=4 [20.0%] French Guiana=2 [33.3%]  surface glycoprotein, S982A</title>
+	<circle cx="2028" cy="1268" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-04-06  T24506G  Chile=4 [20.0%] Ecuador=4 [66.7%] Curacao=4 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="2028" cy="1268" r="3" style="fill:orange;" class="cv" />
+	<title>2021-04-06  T24506G  Chile=4 [20.0%] French Guiana=2 [33.3%] Bonaire=2 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="2028" cy="1268" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-04-06  T24506G  Brazil=2 [3.8%]  surface glycoprotein, S982A</title>
 	<circle cx="2028" cy="1268" r="2" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2021-04-06  T24506G  Brazil=2 [3.8%] French Guiana=2 [33.3%]  surface glycoprotein, S982A</title>
-	<circle cx="2028" cy="1268" r="2" style="fill:yellow;" class="cv" />
-</g>
-<g>
-	<title>2021-04-06  T24506G  Brazil=2 [3.8%] French Guiana=2 [33.3%] Bonaire=2 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="2028" cy="1268" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-04-06  C24642T  Brazil=46 [86.8%]  surface glycoprotein, T1027I</title>
@@ -14682,20 +14665,16 @@
 	<circle cx="2119" cy="1275" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-04-06  G24914C  Aruba=20 [71.4%] Curacao=4 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2119" cy="1275" r="3" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2021-04-06  G24914C  Ecuador=4 [66.7%]  surface glycoprotein, D1118H</title>
-	<circle cx="2119" cy="1275" r="3" style="fill:#FFD700;" class="cv" />
-</g>
-<g>
 	<title>2021-04-06  G24914C  Chile=4 [20.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="2119" cy="1275" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-06  G24914C  Chile=4 [20.0%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2119" cy="1275" r="2" style="fill:lime;" class="cv" />
+	<title>2021-04-06  G24914C  Chile=4 [20.0%] Ecuador=4 [66.7%]  surface glycoprotein, D1118H</title>
+	<circle cx="2119" cy="1275" r="3" style="fill:#FFD700;" class="cv" />
+</g>
+<g>
+	<title>2021-04-06  G24914C  Chile=4 [20.0%] Ecuador=4 [66.7%] Curacao=4 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2119" cy="1275" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-04-06  G24914C  French Guiana=2 [33.3%]  surface glycoprotein, D1118H</title>
@@ -14704,6 +14683,10 @@
 <g>
 	<title>2021-04-06  G24914C  Brazil=2 [3.8%]  surface glycoprotein, D1118H</title>
 	<circle cx="2119" cy="1275" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-04-06  G24914C  Brazil=2 [3.8%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2119" cy="1275" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2021-04-06  G25088T  Brazil=51 [96.2%]  surface glycoprotein, V1176F</title>
@@ -14886,15 +14869,15 @@
 	<circle cx="1814" cy="1261" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
+	<title>2021-04-07  C23604A  Curacao=4 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1827" cy="1262" r="3" style="fill:orange;" class="cv" />
+</g>
+<g>
 	<title>2021-04-07  C23604A  French Guiana=4 [36.4%]  surface glycoprotein, P681H</title>
 	<circle cx="1827" cy="1262" r="3" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-04-07  C23604A  French Guiana=4 [36.4%] Curacao=4 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1827" cy="1262" r="3" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2021-04-07  C23604A  French Guiana=4 [36.4%] Curacao=4 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, P681H</title>
+	<title>2021-04-07  C23604A  French Guiana=4 [36.4%] Bonaire=2 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1827" cy="1262" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
@@ -14942,15 +14925,15 @@
 	<circle cx="2057" cy="1285" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-07  G24914C  Curacao=4 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2117" cy="1291" r="3" style="fill:orange;" class="cv" />
-</g>
-<g>
 	<title>2021-04-07  G24914C  French Guiana=4 [36.4%]  surface glycoprotein, D1118H</title>
 	<circle cx="2117" cy="1291" r="3" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-04-07  G24914C  French Guiana=4 [36.4%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<title>2021-04-07  G24914C  French Guiana=4 [36.4%] Curacao=4 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2117" cy="1291" r="3" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2021-04-07  G24914C  French Guiana=4 [36.4%] Curacao=4 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="2117" cy="1291" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
@@ -15078,15 +15061,15 @@
 	<circle cx="1706" cy="1259" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
+	<title>2021-04-08  A23063T  Brazil=125 [88.0%] Curacao=4 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1706" cy="1259" r="3" style="fill:orange;" class="cv" />
+</g>
+<g>
 	<title>2021-04-08  A23063T  Chile=4 [57.1%]  surface glycoprotein, N501Y</title>
 	<circle cx="1706" cy="1259" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-08  A23063T  Chile=4 [57.1%] Curacao=4 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1706" cy="1259" r="3" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2021-04-08  A23063T  Chile=4 [57.1%] Curacao=4 [100.0%] French Guiana=3 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-04-08  A23063T  Chile=4 [57.1%] French Guiana=3 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1706" cy="1259" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -15334,19 +15317,19 @@
 	<circle cx="1705" cy="1268" r="4" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-04-09  A23063T  Aruba=6 [85.7%]  surface glycoprotein, N501Y</title>
-	<circle cx="1705" cy="1268" r="3" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2021-04-09  A23063T  Chile=6 [66.7%]  surface glycoprotein, N501Y</title>
 	<circle cx="1705" cy="1268" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-09  A23063T  Chile=6 [66.7%] Curacao=4 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-04-09  A23063T  Chile=6 [66.7%] Aruba=6 [85.7%]  surface glycoprotein, N501Y</title>
+	<circle cx="1705" cy="1268" r="3" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-04-09  A23063T  Chile=6 [66.7%] Aruba=6 [85.7%] Curacao=4 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1705" cy="1268" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-04-09  A23063T  Chile=6 [66.7%] Curacao=4 [100.0%] Colombia=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-04-09  A23063T  Chile=6 [66.7%] Aruba=6 [85.7%] Curacao=4 [100.0%] Colombia=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1705" cy="1268" r="2" style="fill:red;" class="cv" />
 </g>
 <g>
@@ -16034,15 +16017,15 @@
 	<circle cx="1701" cy="1294" r="5" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-12  A23063T  Brazil=62 [98.4%] Chile=16 [94.1%] French Guiana=8 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1701" cy="1294" r="4" style="fill:yellow;" class="cv" />
-</g>
-<g>
 	<title>2021-04-12  A23063T  Curacao=8 [88.9%]  surface glycoprotein, N501Y</title>
 	<circle cx="1701" cy="1294" r="4" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-04-12  A23063T  Curacao=8 [88.9%] Bonaire=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-04-12  A23063T  Curacao=8 [88.9%] French Guiana=8 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1701" cy="1294" r="4" style="fill:yellow;" class="cv" />
+</g>
+<g>
+	<title>2021-04-12  A23063T  Curacao=8 [88.9%] French Guiana=8 [100.0%] Bonaire=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1701" cy="1294" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
@@ -16118,12 +16101,12 @@
 	<circle cx="1842" cy="1320" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-12  C23709T  Brazil=2 [3.2%]  surface glycoprotein, T716I</title>
-	<circle cx="1842" cy="1320" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-04-12  C23709T  Chile=4 [23.5%] Bonaire=2 [100.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1842" cy="1320" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2021-04-12  C23709T  Brazil=2 [3.2%] Bonaire=2 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1842" cy="1320" r="2" style="fill:lime;" class="cv" />
+	<title>2021-04-12  C23709T  Brazil=2 [3.2%]  surface glycoprotein, T716I</title>
+	<circle cx="1842" cy="1320" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-04-12  T24506G  Curacao=8 [88.9%]  surface glycoprotein, S982A</title>
@@ -16302,16 +16285,16 @@
 	<circle cx="1699" cy="1302" r="5" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-04-13  A23063T  Chile=6 [54.5%]  surface glycoprotein, N501Y</title>
-	<circle cx="1699" cy="1302" r="3" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2021-04-13  A23063T  Chile=6 [54.5%] French Guiana=6 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-04-13  A23063T  Brazil=28 [48.3%] Aruba=17 [94.4%] French Guiana=6 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1699" cy="1302" r="3" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-04-13  A23063T  Chile=6 [54.5%] French Guiana=6 [100.0%] Curacao=6 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-04-13  A23063T  Brazil=28 [48.3%] Aruba=17 [94.4%] French Guiana=6 [100.0%] Curacao=6 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1699" cy="1302" r="3" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2021-04-13  A23063T  Chile=6 [54.5%]  surface glycoprotein, N501Y</title>
+	<circle cx="1699" cy="1302" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-04-13  C23271A  Aruba=16 [88.9%]  surface glycoprotein, A570D</title>
@@ -16334,15 +16317,15 @@
 	<circle cx="1773" cy="1318" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-13  A23403G  Brazil=58 [100.0%] Aruba=18 [100.0%] Chile=11 [100.0%] French Guiana=6 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1773" cy="1318" r="3" style="fill:yellow;" class="cv" />
-</g>
-<g>
-	<title>2021-04-13  A23403G  Brazil=58 [100.0%] Aruba=18 [100.0%] Chile=11 [100.0%] French Guiana=6 [100.0%] Curacao=6 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-04-13  A23403G  Brazil=58 [100.0%] Aruba=18 [100.0%] Chile=11 [100.0%] Curacao=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1773" cy="1318" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-04-13  A23403G  Brazil=58 [100.0%] Aruba=18 [100.0%] Chile=11 [100.0%] French Guiana=6 [100.0%] Curacao=6 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-04-13  A23403G  Brazil=58 [100.0%] Aruba=18 [100.0%] Chile=11 [100.0%] Curacao=6 [100.0%] French Guiana=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1773" cy="1318" r="3" style="fill:yellow;" class="cv" />
+</g>
+<g>
+	<title>2021-04-13  A23403G  Brazil=58 [100.0%] Aruba=18 [100.0%] Chile=11 [100.0%] Curacao=6 [100.0%] French Guiana=6 [100.0%] Argentina=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1773" cy="1318" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
@@ -16538,12 +16521,12 @@
 	<circle cx="1643" cy="1299" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-04-14  A22812C  Brazil=30 [56.6%] French Guiana=5 [62.5%]  surface glycoprotein, K417T</title>
-	<circle cx="1643" cy="1299" r="3" style="fill:yellow;" class="cv" />
-</g>
-<g>
 	<title>2021-04-14  A22812C  Chile=5 [33.3%]  surface glycoprotein, K417T</title>
 	<circle cx="1643" cy="1299" r="3" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2021-04-14  A22812C  Chile=5 [33.3%] French Guiana=5 [62.5%]  surface glycoprotein, K417T</title>
+	<circle cx="1643" cy="1299" r="3" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2021-04-14  A22812C  Aruba=3 [21.4%]  surface glycoprotein, K417T</title>
@@ -16558,12 +16541,12 @@
 	<circle cx="1686" cy="1309" r="4" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-14  G23012A  Aruba=5 [35.7%]  surface glycoprotein, E484K</title>
-	<circle cx="1686" cy="1309" r="3" style="fill:fuchsia;" class="cv" />
+	<title>2021-04-14  G23012A  French Guiana=5 [62.5%]  surface glycoprotein, E484K</title>
+	<circle cx="1686" cy="1309" r="3" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-04-14  G23012A  Aruba=5 [35.7%] French Guiana=5 [62.5%]  surface glycoprotein, E484K</title>
-	<circle cx="1686" cy="1309" r="3" style="fill:yellow;" class="cv" />
+	<title>2021-04-14  G23012A  Aruba=5 [35.7%]  surface glycoprotein, E484K</title>
+	<circle cx="1686" cy="1309" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-04-14  A23063T  Brazil=52 [98.1%]  surface glycoprotein, N501Y</title>
@@ -16682,12 +16665,12 @@
 	<circle cx="1838" cy="1342" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-04-14  G24095T  Brazil=2 [3.8%]  surface glycoprotein, A845S</title>
-	<circle cx="1922" cy="1361" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-04-14  G24095T  French Guiana=2 [25.0%]  surface glycoprotein, A845S</title>
+	<circle cx="1922" cy="1361" r="2" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2021-04-14  G24095T  Brazil=2 [3.8%] French Guiana=2 [25.0%]  surface glycoprotein, A845S</title>
-	<circle cx="1922" cy="1361" r="2" style="fill:yellow;" class="cv" />
+	<title>2021-04-14  G24095T  Brazil=2 [3.8%]  surface glycoprotein, A845S</title>
+	<circle cx="1922" cy="1361" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-04-14  T24506G  Aruba=8 [57.1%]  surface glycoprotein, S982A</title>
@@ -17146,12 +17129,12 @@
 	<circle cx="1686" cy="1335" r="2" style="fill:#6495ED;" class="cv" />
 </g>
 <g>
-	<title>2021-04-17  A23063T  Chile=5 [83.3%]  surface glycoprotein, N501Y</title>
-	<circle cx="1691" cy="1336" r="3" style="fill:white;" class="cv" />
+	<title>2021-04-17  A23063T  Curacao=5 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1691" cy="1336" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-04-17  A23063T  Chile=5 [83.3%] Curacao=5 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1691" cy="1336" r="3" style="fill:orange;" class="cv" />
+	<title>2021-04-17  A23063T  Chile=5 [83.3%]  surface glycoprotein, N501Y</title>
+	<circle cx="1691" cy="1336" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-04-17  A23063T  Argentina=3 [60.0%]  surface glycoprotein, N501Y</title>
@@ -17362,15 +17345,15 @@
 	<circle cx="1733" cy="1358" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-04-18  C23271A  Aruba=9 [64.3%] Curacao=3 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1733" cy="1358" r="2" style="fill:orange;" class="cv" />
-</g>
-<g>
 	<title>2021-04-18  C23271A  Brazil=3 [6.1%]  surface glycoprotein, A570D</title>
 	<circle cx="1733" cy="1358" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-04-18  C23271A  Brazil=3 [6.1%] Chile=2 [10.5%]  surface glycoprotein, A570D</title>
+	<title>2021-04-18  C23271A  Brazil=3 [6.1%] Curacao=3 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1733" cy="1358" r="2" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2021-04-18  C23271A  Chile=2 [10.5%]  surface glycoprotein, A570D</title>
 	<circle cx="1733" cy="1358" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
@@ -17542,12 +17525,12 @@
 	<circle cx="1459" cy="1282" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-04-19  ATTA21993A  Brazil=4 [4.8%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1459" cy="1282" r="3" style="fill:cyan;" class="cv" />
+	<title>2021-04-19  ATTA21993A  Aruba=10 [66.7%] Curacao=4 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1459" cy="1282" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-04-19  ATTA21993A  Brazil=4 [4.8%] Curacao=4 [100.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1459" cy="1282" r="3" style="fill:orange;" class="cv" />
+	<title>2021-04-19  ATTA21993A  Brazil=4 [4.8%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1459" cy="1282" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-04-19  G22132T  Brazil=75 [90.4%]  surface glycoprotein, R190S</title>
@@ -17710,12 +17693,12 @@
 	<circle cx="2079" cy="1477" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-04-19  G24914C  Aruba=10 [66.7%] Curacao=4 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="2079" cy="1477" r="3" style="fill:orange;" class="cv" />
-</g>
-<g>
 	<title>2021-04-19  G24914C  Brazil=4 [4.8%]  surface glycoprotein, D1118H</title>
 	<circle cx="2079" cy="1477" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2021-04-19  G24914C  Brazil=4 [4.8%] Curacao=4 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="2079" cy="1477" r="3" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-04-19  G25062C  Chile=5 [35.7%]  surface glycoprotein, G1167A</title>
@@ -18014,12 +17997,12 @@
 	<circle cx="1522" cy="1320" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-04-22  A22812C  Brazil=2 [14.3%]  surface glycoprotein, K417T</title>
-	<circle cx="1625" cy="1359" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-04-22  A22812C  Chile=2 [66.7%]  surface glycoprotein, K417T</title>
+	<circle cx="1625" cy="1359" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-22  A22812C  Brazil=2 [14.3%] Chile=2 [66.7%]  surface glycoprotein, K417T</title>
-	<circle cx="1625" cy="1359" r="2" style="fill:white;" class="cv" />
+	<title>2021-04-22  A22812C  Brazil=2 [14.3%]  surface glycoprotein, K417T</title>
+	<circle cx="1625" cy="1359" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-04-22  T22917G  Aruba=2 [10.5%]  surface glycoprotein, L452R</title>
@@ -18654,20 +18637,20 @@
 	<circle cx="1447" cy="1312" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
+	<title>2021-04-26  G22132T  Chile=2 [66.7%]  surface glycoprotein, R190S</title>
+	<circle cx="1475" cy="1325" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
 	<title>2021-04-26  G22132T  Aruba=2 [25.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1475" cy="1325" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-04-26  G22132T  Aruba=2 [25.0%] Chile=2 [66.7%]  surface glycoprotein, R190S</title>
-	<circle cx="1475" cy="1325" r="2" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2021-04-26  A22812C  Chile=2 [66.7%]  surface glycoprotein, K417T</title>
-	<circle cx="1613" cy="1387" r="2" style="fill:white;" class="cv" />
-</g>
-<g>
 	<title>2021-04-26  A22812C  Aruba=2 [25.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1613" cy="1387" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-04-26  A22812C  Aruba=2 [25.0%] Chile=2 [66.7%]  surface glycoprotein, K417T</title>
+	<circle cx="1613" cy="1387" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-04-26  G23012A  Aruba=3 [37.5%]  surface glycoprotein, E484K</title>
@@ -18702,12 +18685,12 @@
 	<circle cx="1733" cy="1442" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-04-26  A23403G  Aruba=8 [100.0%] Curacao=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1733" cy="1442" r="2" style="fill:orange;" class="cv" />
+	<title>2021-04-26  A23403G  Aruba=8 [100.0%] Chile=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1733" cy="1442" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-26  A23403G  Aruba=8 [100.0%] Curacao=3 [100.0%] Chile=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1733" cy="1442" r="2" style="fill:white;" class="cv" />
+	<title>2021-04-26  A23403G  Aruba=8 [100.0%] Chile=3 [100.0%] Curacao=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1733" cy="1442" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2021-04-26  C23525T  Chile=2 [66.7%]  surface glycoprotein, H655Y</title>
@@ -18746,12 +18729,12 @@
 	<circle cx="1957" cy="1543" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-04-26  C24642T  Aruba=2 [25.0%]  surface glycoprotein, T1027I</title>
-	<circle cx="1984" cy="1556" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2021-04-26  C24642T  Chile=2 [66.7%]  surface glycoprotein, T1027I</title>
+	<circle cx="1984" cy="1556" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2021-04-26  C24642T  Aruba=2 [25.0%] Chile=2 [66.7%]  surface glycoprotein, T1027I</title>
-	<circle cx="1984" cy="1556" r="2" style="fill:white;" class="cv" />
+	<title>2021-04-26  C24642T  Aruba=2 [25.0%]  surface glycoprotein, T1027I</title>
+	<circle cx="1984" cy="1556" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2021-04-26  G24914C  Aruba=5 [62.5%]  surface glycoprotein, D1118H</title>
@@ -18762,12 +18745,12 @@
 	<circle cx="2039" cy="1581" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2021-04-26  G25088T  Chile=2 [66.7%]  surface glycoprotein, V1176F</title>
-	<circle cx="2075" cy="1597" r="2" style="fill:white;" class="cv" />
-</g>
-<g>
 	<title>2021-04-26  G25088T  Aruba=2 [25.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="2075" cy="1597" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2021-04-26  G25088T  Aruba=2 [25.0%] Chile=2 [66.7%]  surface glycoprotein, V1176F</title>
+	<circle cx="2075" cy="1597" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-04-27 Brazil=29</title>
@@ -18866,12 +18849,12 @@
 	<line x1="1215.9" y1="1208.2" x2="1219.9" y2="1210.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2021-04-29  C21575T  Brazil=2 [3.6%]  surface glycoprotein, L5F</title>
-	<circle cx="1358" cy="1282" r="2" style="fill:cyan;" class="cv" />
+	<title>2021-04-29  C21575T  Aruba=2 [22.2%]  surface glycoprotein, L5F</title>
+	<circle cx="1358" cy="1282" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-04-29  C21575T  Brazil=2 [3.6%] Aruba=2 [22.2%]  surface glycoprotein, L5F</title>
-	<circle cx="1358" cy="1282" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2021-04-29  C21575T  Brazil=2 [3.6%]  surface glycoprotein, L5F</title>
+	<circle cx="1358" cy="1282" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2021-04-29  G21974T  Brazil=26 [47.3%]  surface glycoprotein, D138Y</title>
@@ -19149,9 +19132,85 @@
 	<title>2021-05-02  G25135T  Aruba=2 [33.3%]  surface glycoprotein, K1191N</title>
 	<circle cx="2038" cy="1690" r="2" style="fill:fuchsia;" class="cv" />
 </g>
-<rect x="1865" y="140" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
-<text font-size="1.8em" x="1880" y="170" fill="white">Data from 13 regions in South America</text>
-<text font-size="1.8em" x="1880" y="200" fill="white">Total genomes≥10  Genomes/day≥2</text>
-<text font-size="1.8em" x="1880" y="230" fill="white">183 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-05-14</text>
+</g>
+<rect x="2" y="2" width="1035" height="120" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<a href="https://bcgsc.github.io/SARS2_2021">
+<title>main menu</title>
+<text font-size="4.0em" x="50" y="47" fill="white">SARS-CoV-2 variants 2021 timemap</text>
+</a>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 6,864 GISAID genomes</text>
+ <circle cx="25" cy="25" r="21" fill="white" opacity="0.75"/>
+    <path class="button" onclick="pan(0, 25)" d="M25 5 l6 10 a20 35 0 0 0 -12 0z" />
+    <path class="button" onclick="pan(25, 0)" d="M5 25 l10 -6 a35 20 0 0 0 0 12z" />
+    <path class="button" onclick="pan(0,-25)" d="M25 45 l6 -10 a20, 35 0 0,1 -12,0z" />
+    <path class="button" onclick="pan(-25, 0)" d="M45 25 l-10 -6 a35 20 0 0 1 0 12z" />
+    <circle class="compass" cx="25" cy="25" r="10"/>
+    <circle class="button"  cx="25" cy="20.5" r="4" onclick="zoom(0.8)"/>
+    <circle class="button"  cx="25" cy="29.5" r="4" onclick="zoom(1.25)"/>
+    <rect class="plus-minus" x="23" y="20" width="4" height="1"/>
+    <rect class="plus-minus" x="23" y="29" width="4" height="1"/>
+    <rect class="plus-minus" x="24.5" y="27.5" width="1" height="4"/>
+ <script type="text/javascript"><![CDATA[
+        var transformMatrix = [1, 0, 0, 1, 0, 0];
+        var svg = document.getElementById('map-svg');
+        var viewbox = svg.getAttributeNS(null, "viewBox").split(" ");
+        var centerX = parseFloat(viewbox[2]) / 2;
+        var centerY = parseFloat(viewbox[3]) / 2;
+        var matrixGroup = svg.getElementById("matrix-group");
+        function pan(dx, dy) {
+            transformMatrix[4] += dx;
+            transformMatrix[5] += dy;
+            setMatrix();
+        }
+        function zoom(scale) {
+            for (var i = 0; i < 6; i++) {
+                transformMatrix[i] *= scale;
+            }
+            transformMatrix[4] += (1 - scale) * centerX;
+            transformMatrix[5] += (1 - scale) * centerY;
+            setMatrix();
+        }
+        function setMatrix() {
+            var newMatrix = "matrix(" +  transformMatrix.join(' ') + ")";
+            matrixGroup.setAttributeNS(null, "transform", newMatrix);
+        }
+    ]]></script>
+<text font-size="2.5em" x="110" y="175" fill="white">Top regions</text>
+<circle cx="60" cy="205" r="8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="215" fill="white">Brazil</text>
+<circle cx="60" cy="235" r="8" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="245" fill="white">Aruba</text>
+<circle cx="60" cy="265" r="8" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="275" fill="white">Chile</text>
+<circle cx="60" cy="295" r="8" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="305" fill="white">Curacao</text>
+<circle cx="60" cy="325" r="8" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="335" fill="white">French Guiana</text>
+<circle cx="60" cy="355" r="8" style="fill:lime;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="365" fill="white">Bonaire</text>
+<circle cx="60" cy="385" r="8" style="fill:#FFBBFF;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="395" fill="white">Peru</text>
+<circle cx="60" cy="415" r="8" style="fill:#6495ED;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="425" fill="white">Argentina</text>
+<circle cx="60" cy="445" r="8" style="fill:red;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="455" fill="white">Colombia</text>
+<circle cx="60" cy="475" r="8" style="fill:#7FFFD4;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="485" fill="white">Suriname</text>
+<circle cx="280" cy="205" r="8" style="fill:#FFD700;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="295" y="215" fill="white">Ecuador</text>
+<circle cx="280" cy="235" r="8" style="fill:#ADD8E6;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="295" y="245" fill="white">Uruguay</text>
+<circle cx="280" cy="265" r="8" style="fill:#F08080;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="295" y="275" fill="white">Bolivia</text>
+<circle cx="60" cy="530" r="1.90848501887865" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="101" cy="530" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="142" cy="530" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="183" cy="530" r="12.0017363099173" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="2.0em" x="50" y="575" fill="white">2      10        100        1k</text>
+<text font-size="2.0em" x="50" y="605" fill="white">genome samples</text>
+<rect x="1865" y="2" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
+<text font-size="1.8em" x="1880" y="32" fill="white">Data from 13 regions in South America</text>
+<text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥2</text>
+<text font-size="1.8em" x="1880" y="92" fill="white">183 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-17</text>
 </svg>

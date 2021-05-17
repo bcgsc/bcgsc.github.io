@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg width="2400" height="2400" xmlns="http://www.w3.org/2000/svg" style="background-color:black">
+<svg width="2400" height="2400" xmlns="http://www.w3.org/2000/svg" style="background-color:black" viewBox="0 0 2400 2400" id="map-svg">
 <defs>
 	<style type="text/css"><![CDATA[
 	.sb {
 	stroke-width:0.8;
 	stroke-opacity:50%;
+	}
+	.compass {
+	fill: #fff;
+	stroke: #000;
+	stroke-width: 1;
+	}
+	.button {
+	fill: #225EA8;
+	stroke: #0C2C84;
+	stroke-width: 0.5;
+	stroke-miterlimit:6;
+	stroke-linecap: round;
+	}
+	.button:hover {
+	stroke-width: 1;
+	}
+	.plus-minus {
+	fill: #fff;
+	pointer-events: none;
 	}
 	.cv {
 	stroke: none;
@@ -22,6 +41,8 @@
 	}
 	]]></style>
 </defs>
+<text font-size="4.0em" x="50" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
+<g id="matrix-group" transform="matrix(1 0 0 1 0 0)">
 <circle cx="1200" cy="1200" r="1045" style="fill:gainsboro;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="1041" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <circle cx="1200" cy="1200" r="1040" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
@@ -42,11 +63,6 @@
 <circle cx="1200" cy="1200" r="795" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <circle cx="1200" cy="1200" r="795" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="140" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
-<a href="https://bcgsc.github.io/SARS2/">
-<title>main menu</title>
-<text font-size="4.0em" x="50" y="60" fill="white">SARS-CoV-2 variants 2020 timemap</text>
-</a>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 12,197 GISAID genomes</text>
 <line x1="1200" y1="82.9384615384615" x2="1200" y2="132.938461538462" style="stroke:white;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="72.9384615384615" fill="white">Winter</text>
 <line x1="2267" y1="1200" x2="2317" y2="1200" style="stroke:white;stroke-width:4" />
@@ -102,25 +118,6 @@
 <line x1="1210" y1="1068" x2="1215" y2="1093" style="stroke:white;stroke-width:2" />
 <text font-size="2.0em" x="1215" y="122.938461538462" fill="white">29.9 kb</text>
 <text font-size="2.0em" x="1215" y="1113" fill="white">1</text>
-<text font-size="2.5em" x="75" y="175" fill="white">Continents</text>
-<circle cx="60" cy="205" r="8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="215" fill="white">Europe</text>
-<circle cx="60" cy="235" r="8" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="245" fill="white">Asia</text>
-<circle cx="60" cy="265" r="8" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="275" fill="white">North America</text>
-<circle cx="60" cy="295" r="8" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="305" fill="white">South America</text>
-<circle cx="60" cy="325" r="8" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="335" fill="white">Africa</text>
-<circle cx="60" cy="355" r="8" style="fill:lime;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="2.0em" x="75" y="365" fill="white">Oceania</text>
-<circle cx="60" cy="410" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="101" cy="410" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="142" cy="410" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="183" cy="410" r="12.0017363099173" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="2.0em" x="50" y="455" fill="white">1      10        100        1k</text>
-<text font-size="2.0em" x="50" y="485" fill="white">genome samples</text>
 <g>
 	<title>2020-05-01 Asia=1</title>
 	<line x1="1208.7" y1="1205.0" x2="1210.7" y2="1206.2" style="stroke:fuchsia;" class="sb" />
@@ -2118,11 +2115,11 @@
 	<circle cx="1040" cy="1031" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-11-17  G3638T  Europe=1 [4.5%]  orf1ab polyprotein, G1125C</title>
+	<title>2020-11-17  G3638C  Europe=1 [4.5%]  orf1ab polyprotein, G1125R</title>
 	<circle cx="1033" cy="1022" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-11-17  G3638C  Europe=1 [4.5%]  orf1ab polyprotein, G1125R</title>
+	<title>2020-11-17  G3638T  Europe=1 [4.5%]  orf1ab polyprotein, G1125C</title>
 	<circle cx="1033" cy="1022" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -3274,12 +3271,12 @@
 	<circle cx="1062" cy="1013" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  C3267T  Europe=7 [100.0%] North America=1 [100.0%]  orf1ab polyprotein, T1001I</title>
-	<circle cx="1062" cy="1013" r="1" style="fill:white;" class="cv" />
+	<title>2020-11-24  C3267T  Europe=7 [100.0%] Asia=1 [100.0%]  orf1ab polyprotein, T1001I</title>
+	<circle cx="1062" cy="1013" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  C3267T  Europe=7 [100.0%] North America=1 [100.0%] Asia=1 [100.0%]  orf1ab polyprotein, T1001I</title>
-	<circle cx="1062" cy="1013" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-11-24  C3267T  Europe=7 [100.0%] Asia=1 [100.0%] North America=1 [100.0%]  orf1ab polyprotein, T1001I</title>
+	<circle cx="1062" cy="1013" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-11-24  A4964G  Europe=2 [28.6%]  orf1ab polyprotein, T1567A</title>
@@ -3290,12 +3287,12 @@
 	<circle cx="1023" cy="960" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  C5388A  Europe=7 [100.0%] North America=1 [100.0%]  orf1ab polyprotein, A1708D</title>
-	<circle cx="1023" cy="960" r="1" style="fill:white;" class="cv" />
+	<title>2020-11-24  C5388A  Europe=7 [100.0%] Asia=1 [100.0%]  orf1ab polyprotein, A1708D</title>
+	<circle cx="1023" cy="960" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  C5388A  Europe=7 [100.0%] North America=1 [100.0%] Asia=1 [100.0%]  orf1ab polyprotein, A1708D</title>
-	<circle cx="1023" cy="960" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-11-24  C5388A  Europe=7 [100.0%] Asia=1 [100.0%] North America=1 [100.0%]  orf1ab polyprotein, A1708D</title>
+	<circle cx="1023" cy="960" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-11-24  C5886T  North America=1 [100.0%]  orf1ab polyprotein, T1874I</title>
@@ -3310,12 +3307,12 @@
 	<circle cx="995" cy="921" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  T6954C  Europe=7 [100.0%] North America=1 [100.0%]  orf1ab polyprotein, I2230T</title>
-	<circle cx="995" cy="921" r="1" style="fill:white;" class="cv" />
+	<title>2020-11-24  T6954C  Europe=7 [100.0%] Asia=1 [100.0%]  orf1ab polyprotein, I2230T</title>
+	<circle cx="995" cy="921" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  T6954C  Europe=7 [100.0%] North America=1 [100.0%] Asia=1 [100.0%]  orf1ab polyprotein, I2230T</title>
-	<circle cx="995" cy="921" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-11-24  T6954C  Europe=7 [100.0%] Asia=1 [100.0%] North America=1 [100.0%]  orf1ab polyprotein, I2230T</title>
+	<circle cx="995" cy="921" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-11-24  C7299T  North America=1 [100.0%]  orf1ab polyprotein, A2345V</title>
@@ -3338,12 +3335,12 @@
 	<circle cx="859" cy="737" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  C14408T  Europe=7 [100.0%] North America=1 [100.0%]  orf1ab polyprotein, P4715L</title>
-	<circle cx="859" cy="737" r="1" style="fill:white;" class="cv" />
+	<title>2020-11-24  C14408T  Europe=7 [100.0%] Asia=1 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<circle cx="859" cy="737" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  C14408T  Europe=7 [100.0%] North America=1 [100.0%] Asia=1 [100.0%]  orf1ab polyprotein, P4715L</title>
-	<circle cx="859" cy="737" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-11-24  C14408T  Europe=7 [100.0%] Asia=1 [100.0%] North America=1 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<circle cx="859" cy="737" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-11-24  A17615G  Europe=4 [57.1%]  orf1ab polyprotein, K5784R</title>
@@ -3374,12 +3371,12 @@
 	<circle cx="701" cy="522" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  A23063T  Europe=7 [100.0%] North America=1 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="701" cy="522" r="1" style="fill:white;" class="cv" />
+	<title>2020-11-24  A23063T  Europe=7 [100.0%] Asia=1 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="701" cy="522" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  A23063T  Europe=7 [100.0%] North America=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="701" cy="522" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-11-24  A23063T  Europe=7 [100.0%] Asia=1 [100.0%] North America=1 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="701" cy="522" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-11-24  C23271A  Europe=7 [100.0%]  surface glycoprotein, A570D</title>
@@ -3434,36 +3431,36 @@
 	<circle cx="674" cy="487" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  T24506G  Europe=7 [100.0%] Asia=1 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="674" cy="487" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-11-24  T24506G  Europe=7 [100.0%] North America=1 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="674" cy="487" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  T24506G  Europe=7 [100.0%] Asia=1 [100.0%] North America=1 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="674" cy="487" r="1" style="fill:white;" class="cv" />
+	<title>2020-11-24  T24506G  Europe=7 [100.0%] North America=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="674" cy="487" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-11-24  G24914C  Europe=7 [100.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="667" cy="476" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  G24914C  Europe=7 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="667" cy="476" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-11-24  G24914C  Europe=7 [100.0%] North America=1 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="667" cy="476" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  G24914C  Europe=7 [100.0%] Asia=1 [100.0%] North America=1 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="667" cy="476" r="1" style="fill:white;" class="cv" />
+	<title>2020-11-24  G24914C  Europe=7 [100.0%] North America=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="667" cy="476" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-11-24  C27972T  Europe=7 [100.0%]  ORF8 protein, Q27*</title>
 	<circle cx="611" cy="401" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  C27972T  Europe=7 [100.0%] North America=1 [100.0%]  ORF8 protein, Q27*</title>
-	<circle cx="611" cy="401" r="1" style="fill:white;" class="cv" />
+	<title>2020-11-24  C27972T  Europe=7 [100.0%] Asia=1 [100.0%]  ORF8 protein, Q27*</title>
+	<circle cx="611" cy="401" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  C27972T  Europe=7 [100.0%] North America=1 [100.0%] Asia=1 [100.0%]  ORF8 protein, Q27*</title>
-	<circle cx="611" cy="401" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-11-24  C27972T  Europe=7 [100.0%] Asia=1 [100.0%] North America=1 [100.0%]  ORF8 protein, Q27*</title>
+	<circle cx="611" cy="401" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-11-24  G28048T  Europe=7 [100.0%]  ORF8 protein, R52I</title>
@@ -3478,12 +3475,12 @@
 	<circle cx="610" cy="399" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  A28095T  Asia=1 [100.0%]  ORF8 protein, K68*</title>
-	<circle cx="609" cy="398" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-11-24  A28095T  North America=1 [100.0%]  ORF8 protein, K68*</title>
+	<circle cx="609" cy="398" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-11-24  A28095T  Asia=1 [100.0%] North America=1 [100.0%]  ORF8 protein, K68*</title>
-	<circle cx="609" cy="398" r="1" style="fill:white;" class="cv" />
+	<title>2020-11-24  A28095T  North America=1 [100.0%] Asia=1 [100.0%]  ORF8 protein, K68*</title>
+	<circle cx="609" cy="398" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-11-24  A28111G  Europe=7 [100.0%]  ORF8 protein, Y73C</title>
@@ -11610,12 +11607,12 @@
 	<circle cx="923" cy="218" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-15  C28928G  Europe=4 [0.6%]  nucleocapsid phosphoprotein, L219V</title>
-	<circle cx="923" cy="216" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-12-15  C28928T  Europe=1 [0.2%]  nucleocapsid phosphoprotein, L219F</title>
 	<circle cx="923" cy="216" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-15  C28928G  Europe=4 [0.6%]  nucleocapsid phosphoprotein, L219V</title>
+	<circle cx="923" cy="216" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-15  C28969A  Europe=1 [0.2%]  nucleocapsid phosphoprotein, S232R</title>
@@ -11958,12 +11955,12 @@
 	<circle cx="1138" cy="964" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-16  G3638C  Europe=1 [0.2%]  orf1ab polyprotein, G1125R</title>
-	<circle cx="1138" cy="964" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-12-16  G3638T  Europe=19 [3.0%]  orf1ab polyprotein, G1125C</title>
 	<circle cx="1138" cy="964" r="5" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-16  G3638C  Europe=1 [0.2%]  orf1ab polyprotein, G1125R</title>
+	<circle cx="1138" cy="964" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-16  C3686T  Europe=4 [0.6%]  orf1ab polyprotein, H1141Y</title>
@@ -12674,11 +12671,11 @@
 	<circle cx="1005" cy="458" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-16  C21077A  Europe=2 [0.3%]  orf1ab polyprotein, T6938K</title>
+	<title>2020-12-16  C21077T  Europe=2 [0.3%]  orf1ab polyprotein, T6938I</title>
 	<circle cx="1001" cy="445" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-16  C21077T  Europe=2 [0.3%]  orf1ab polyprotein, T6938I</title>
+	<title>2020-12-16  C21077A  Europe=2 [0.3%]  orf1ab polyprotein, T6938K</title>
 	<circle cx="1001" cy="445" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -12974,12 +12971,12 @@
 	<circle cx="965" cy="308" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-16  G25687A  Europe=6 [0.9%]  ORF3a protein, A99T</title>
-	<circle cx="965" cy="308" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-12-16  G25687T  Europe=1 [0.2%]  ORF3a protein, A99S</title>
 	<circle cx="965" cy="308" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-16  G25687A  Europe=6 [0.9%]  ORF3a protein, A99T</title>
+	<circle cx="965" cy="308" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-16  C25688T  Europe=1 [0.2%]  ORF3a protein, A99V</title>
@@ -14310,11 +14307,11 @@
 	<circle cx="1038" cy="541" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-17  C17977T  Europe=1 [0.1%]  orf1ab polyprotein, L5905F</title>
+	<title>2020-12-17  C17977A  Europe=1 [0.1%]  orf1ab polyprotein, L5905I</title>
 	<circle cx="1037" cy="534" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-17  C17977A  Europe=1 [0.1%]  orf1ab polyprotein, L5905I</title>
+	<title>2020-12-17  C17977T  Europe=1 [0.1%]  orf1ab polyprotein, L5905F</title>
 	<circle cx="1037" cy="534" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -14410,11 +14407,11 @@
 	<circle cx="1022" cy="474" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-17  G20014T  Europe=1 [0.1%]  orf1ab polyprotein, D6584Y</title>
+	<title>2020-12-17  G20014A  Europe=1 [0.1%]  orf1ab polyprotein, D6584N</title>
 	<circle cx="1022" cy="473" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-17  G20014A  Europe=1 [0.1%]  orf1ab polyprotein, D6584N</title>
+	<title>2020-12-17  G20014T  Europe=1 [0.1%]  orf1ab polyprotein, D6584Y</title>
 	<circle cx="1022" cy="473" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -15154,11 +15151,11 @@
 	<circle cx="962" cy="227" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-17  G28307T  Europe=1 [0.1%]  nucleocapsid phosphoprotein, A12S</title>
+	<title>2020-12-17  G28307A  Europe=1 [0.1%]  nucleocapsid phosphoprotein, A12T</title>
 	<circle cx="961" cy="226" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-17  G28307A  Europe=1 [0.1%]  nucleocapsid phosphoprotein, A12T</title>
+	<title>2020-12-17  G28307T  Europe=1 [0.1%]  nucleocapsid phosphoprotein, A12S</title>
 	<circle cx="961" cy="226" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -17758,12 +17755,12 @@
 	<circle cx="1139" cy="908" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C5388A  Europe=458 [99.8%] Asia=2 [100.0%] North America=1 [100.0%]  orf1ab polyprotein, A1708D</title>
-	<circle cx="1139" cy="908" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-19  C5388A  Europe=458 [99.8%] Asia=2 [100.0%] Oceania=1 [100.0%]  orf1ab polyprotein, A1708D</title>
+	<circle cx="1139" cy="908" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C5388A  Europe=458 [99.8%] Asia=2 [100.0%] North America=1 [100.0%] Oceania=1 [100.0%]  orf1ab polyprotein, A1708D</title>
-	<circle cx="1139" cy="908" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-19  C5388A  Europe=458 [99.8%] Asia=2 [100.0%] Oceania=1 [100.0%] North America=1 [100.0%]  orf1ab polyprotein, A1708D</title>
+	<circle cx="1139" cy="908" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  T5619C  Europe=2 [0.4%]  orf1ab polyprotein, I1785T</title>
@@ -18146,12 +18143,12 @@
 	<circle cx="1082" cy="637" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C14408T  Europe=458 [99.8%] Asia=2 [100.0%] North America=1 [100.0%]  orf1ab polyprotein, P4715L</title>
-	<circle cx="1082" cy="637" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-19  C14408T  Europe=458 [99.8%] Asia=2 [100.0%] Oceania=1 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<circle cx="1082" cy="637" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C14408T  Europe=458 [99.8%] Asia=2 [100.0%] North America=1 [100.0%] Oceania=1 [100.0%]  orf1ab polyprotein, P4715L</title>
-	<circle cx="1082" cy="637" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-19  C14408T  Europe=458 [99.8%] Asia=2 [100.0%] Oceania=1 [100.0%] North America=1 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<circle cx="1082" cy="637" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  A14882G  Europe=1 [0.2%]  orf1ab polyprotein, D4873G</title>
@@ -18214,12 +18211,12 @@
 	<circle cx="1062" cy="540" r="9" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A17615G  Europe=184 [40.1%] North America=1 [100.0%]  orf1ab polyprotein, K5784R</title>
-	<circle cx="1062" cy="540" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-19  A17615G  Europe=184 [40.1%] Asia=1 [50.0%]  orf1ab polyprotein, K5784R</title>
+	<circle cx="1062" cy="540" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A17615G  Asia=1 [50.0%]  orf1ab polyprotein, K5784R</title>
-	<circle cx="1062" cy="540" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-19  A17615G  Europe=184 [40.1%] Asia=1 [50.0%] North America=1 [100.0%]  orf1ab polyprotein, K5784R</title>
+	<circle cx="1062" cy="540" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G18106T  Europe=1 [0.2%]  orf1ab polyprotein, A5948S</title>
@@ -18314,12 +18311,12 @@
 	<circle cx="1040" cy="436" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A21137G  Europe=1 [0.2%]  orf1ab polyprotein, K6958R</title>
-	<circle cx="1040" cy="434" r="1" style="fill:cyan;" class="cv" />
+	<title>2020-12-19  A21137G  North America=1 [100.0%]  orf1ab polyprotein, K6958R</title>
+	<circle cx="1040" cy="434" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A21137G  Europe=1 [0.2%] North America=1 [100.0%]  orf1ab polyprotein, K6958R</title>
-	<circle cx="1040" cy="434" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-19  A21137G  Europe=1 [0.2%]  orf1ab polyprotein, K6958R</title>
+	<circle cx="1040" cy="434" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  A21194G  Europe=4 [0.9%]  orf1ab polyprotein, D6977G</title>
@@ -18394,12 +18391,12 @@
 	<circle cx="1035" cy="408" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  ATTA21993A  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1035" cy="408" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-19  ATTA21993A  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1035" cy="408" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  ATTA21993A  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%] North America=1 [100.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1035" cy="408" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-19  ATTA21993A  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1035" cy="408" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G22021T  Europe=1 [0.2%]  surface glycoprotein, M153I</title>
@@ -18458,12 +18455,12 @@
 	<circle cx="1028" cy="376" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A23063T  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1028" cy="376" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-19  A23063T  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1028" cy="376" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A23063T  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1028" cy="376" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-19  A23063T  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%] North America=1 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1028" cy="376" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  C23081G  Europe=1 [0.2%]  surface glycoprotein, P507A</title>
@@ -18486,12 +18483,12 @@
 	<circle cx="1027" cy="370" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C23271A  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1027" cy="370" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-19  C23271A  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1027" cy="370" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C23271A  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1027" cy="370" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-19  C23271A  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%] North America=1 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1027" cy="370" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G23311T  Europe=2 [0.4%]  surface glycoprotein, E583D</title>
@@ -18506,12 +18503,12 @@
 	<circle cx="1026" cy="366" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A23403G  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1026" cy="366" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-19  A23403G  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1026" cy="366" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A23403G  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%] North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1026" cy="366" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-19  A23403G  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1026" cy="366" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G23438A  Europe=2 [0.4%]  surface glycoprotein, A626T</title>
@@ -18550,12 +18547,12 @@
 	<circle cx="1024" cy="356" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C23709T  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1024" cy="356" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-19  C23709T  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1024" cy="356" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C23709T  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%] North America=1 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1024" cy="356" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-19  C23709T  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1024" cy="356" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  C23757T  Europe=1 [0.2%]  surface glycoprotein, T732I</title>
@@ -18602,12 +18599,12 @@
 	<circle cx="1019" cy="332" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  T24506G  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1019" cy="332" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-19  T24506G  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="1019" cy="332" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  T24506G  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1019" cy="332" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-19  T24506G  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%] North America=1 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="1019" cy="332" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  C24621T  Europe=1 [0.2%]  surface glycoprotein, A1020V</title>
@@ -18858,12 +18855,12 @@
 	<circle cx="997" cy="228" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C27972T  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%]  ORF8 protein, Q27*</title>
-	<circle cx="997" cy="228" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-19  C27972T  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%]  ORF8 protein, Q27*</title>
+	<circle cx="997" cy="228" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C27972T  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%] Oceania=1 [100.0%]  ORF8 protein, Q27*</title>
-	<circle cx="997" cy="228" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-19  C27972T  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%] North America=1 [100.0%]  ORF8 protein, Q27*</title>
+	<circle cx="997" cy="228" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G28048T  Europe=459 [100.0%]  ORF8 protein, R52I</title>
@@ -18874,12 +18871,12 @@
 	<circle cx="996" cy="226" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  G28048T  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%]  ORF8 protein, R52I</title>
-	<circle cx="996" cy="226" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-19  G28048T  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%]  ORF8 protein, R52I</title>
+	<circle cx="996" cy="226" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  G28048T  Europe=459 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%] North America=1 [100.0%]  ORF8 protein, R52I</title>
-	<circle cx="996" cy="226" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-19  G28048T  Europe=459 [100.0%] Asia=2 [100.0%] North America=1 [100.0%] Oceania=1 [100.0%]  ORF8 protein, R52I</title>
+	<circle cx="996" cy="226" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  T28078C  Europe=2 [0.4%]  ORF8 protein, V62A</title>
@@ -18954,12 +18951,12 @@
 	<circle cx="991" cy="198" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C28977T  Europe=458 [99.8%] Asia=2 [100.0%] Oceania=1 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
-	<circle cx="991" cy="198" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-19  C28977T  Europe=458 [99.8%] Asia=2 [100.0%] North America=1 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
+	<circle cx="991" cy="198" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C28977T  Europe=458 [99.8%] Asia=2 [100.0%] Oceania=1 [100.0%] North America=1 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
-	<circle cx="991" cy="198" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-19  C28977T  Europe=458 [99.8%] Asia=2 [100.0%] North America=1 [100.0%] Oceania=1 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
+	<circle cx="991" cy="198" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G29000T  Europe=1 [0.2%]  nucleocapsid phosphoprotein, G243C</title>
@@ -19194,16 +19191,16 @@
 	<circle cx="1156" cy="971" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  C3267T  Europe=406 [100.0%] Asia=2 [100.0%]  orf1ab polyprotein, T1001I</title>
-	<circle cx="1156" cy="971" r="2" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
-	<title>2020-12-20  C3267T  Europe=406 [100.0%] Asia=2 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, T1001I</title>
+	<title>2020-12-20  C3267T  Europe=406 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, T1001I</title>
 	<circle cx="1156" cy="971" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  C3267T  Europe=406 [100.0%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  orf1ab polyprotein, T1001I</title>
+	<title>2020-12-20  C3267T  Europe=406 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  orf1ab polyprotein, T1001I</title>
 	<circle cx="1156" cy="971" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-12-20  C3267T  Europe=406 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%]  orf1ab polyprotein, T1001I</title>
+	<circle cx="1156" cy="971" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  C3330T  Europe=1 [0.2%]  orf1ab polyprotein, T1022I</title>
@@ -19390,16 +19387,16 @@
 	<circle cx="1135" cy="860" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  T6954C  Europe=406 [100.0%] Asia=2 [100.0%]  orf1ab polyprotein, I2230T</title>
-	<circle cx="1135" cy="860" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-20  T6954C  Europe=406 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, I2230T</title>
+	<circle cx="1135" cy="860" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  T6954C  Europe=406 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%]  orf1ab polyprotein, I2230T</title>
+	<title>2020-12-20  T6954C  Europe=406 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  orf1ab polyprotein, I2230T</title>
 	<circle cx="1135" cy="860" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  T6954C  Europe=406 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, I2230T</title>
-	<circle cx="1135" cy="860" r="2" style="fill:white;" class="cv" />
+	<title>2020-12-20  T6954C  Europe=406 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%]  orf1ab polyprotein, I2230T</title>
+	<circle cx="1135" cy="860" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  A7097G  Europe=6 [1.5%]  orf1ab polyprotein, I2278V</title>
@@ -19666,12 +19663,12 @@
 	<circle cx="1092" cy="635" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  C14408T  Europe=405 [99.8%] Asia=2 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, P4715L</title>
-	<circle cx="1092" cy="635" r="2" style="fill:white;" class="cv" />
+	<title>2020-12-20  C14408T  Europe=405 [99.8%] Asia=2 [100.0%] Oceania=2 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<circle cx="1092" cy="635" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  C14408T  Europe=405 [99.8%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  orf1ab polyprotein, P4715L</title>
-	<circle cx="1092" cy="635" r="2" style="fill:lime;" class="cv" />
+	<title>2020-12-20  C14408T  Europe=405 [99.8%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<circle cx="1092" cy="635" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  C14980T  Europe=1 [0.2%]  orf1ab polyprotein, L4906F</title>
@@ -19730,15 +19727,15 @@
 	<circle cx="1073" cy="538" r="9" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  A17615G  Europe=195 [48.0%] North America=1 [50.0%]  orf1ab polyprotein, K5784R</title>
-	<circle cx="1073" cy="538" r="1" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2020-12-20  A17615G  Europe=195 [48.0%] North America=1 [50.0%] Oceania=1 [50.0%]  orf1ab polyprotein, K5784R</title>
+	<title>2020-12-20  A17615G  Europe=195 [48.0%] Oceania=1 [50.0%]  orf1ab polyprotein, K5784R</title>
 	<circle cx="1073" cy="538" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  A17615G  Europe=195 [48.0%] North America=1 [50.0%] Oceania=1 [50.0%] Asia=1 [50.0%]  orf1ab polyprotein, K5784R</title>
+	<title>2020-12-20  A17615G  Europe=195 [48.0%] Oceania=1 [50.0%] North America=1 [50.0%]  orf1ab polyprotein, K5784R</title>
+	<circle cx="1073" cy="538" r="1" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2020-12-20  A17615G  Europe=195 [48.0%] Oceania=1 [50.0%] North America=1 [50.0%] Asia=1 [50.0%]  orf1ab polyprotein, K5784R</title>
 	<circle cx="1073" cy="538" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -19954,16 +19951,16 @@
 	<circle cx="1042" cy="373" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  A23063T  Europe=406 [100.0%] Asia=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1042" cy="373" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-20  A23063T  Europe=406 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1042" cy="373" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  A23063T  Europe=406 [100.0%] Asia=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2020-12-20  A23063T  Europe=406 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1042" cy="373" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  A23063T  Europe=406 [100.0%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1042" cy="373" r="2" style="fill:lime;" class="cv" />
+	<title>2020-12-20  A23063T  Europe=406 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1042" cy="373" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  G23126T  Europe=1 [0.2%]  surface glycoprotein, A522S</title>
@@ -19998,12 +19995,12 @@
 	<circle cx="1040" cy="363" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  A23403G  Europe=405 [99.8%] Asia=2 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1040" cy="363" r="2" style="fill:lime;" class="cv" />
+	<title>2020-12-20  A23403G  Europe=405 [99.8%] Asia=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1040" cy="363" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  A23403G  Europe=405 [99.8%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1040" cy="363" r="2" style="fill:white;" class="cv" />
+	<title>2020-12-20  A23403G  Europe=405 [99.8%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1040" cy="363" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  C23444A  Europe=1 [0.2%]  surface glycoprotein, Q628K</title>
@@ -20018,16 +20015,16 @@
 	<circle cx="1039" cy="357" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  C23604A  Europe=406 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, P681H</title>
+	<title>2020-12-20  C23604A  Europe=406 [100.0%] Asia=2 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1039" cy="357" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2020-12-20  C23604A  Europe=406 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1039" cy="357" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  C23604A  Europe=406 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, P681H</title>
+	<title>2020-12-20  C23604A  Europe=406 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1039" cy="357" r="2" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2020-12-20  C23604A  Europe=406 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1039" cy="357" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  C23664T  Europe=1 [0.2%]  surface glycoprotein, A701V</title>
@@ -20046,12 +20043,12 @@
 	<circle cx="1038" cy="354" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  C23709T  Europe=406 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1038" cy="354" r="2" style="fill:lime;" class="cv" />
+	<title>2020-12-20  C23709T  Europe=406 [100.0%] Asia=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1038" cy="354" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  C23709T  Europe=406 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1038" cy="354" r="2" style="fill:white;" class="cv" />
+	<title>2020-12-20  C23709T  Europe=406 [100.0%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1038" cy="354" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  C23757T  Europe=1 [0.2%]  surface glycoprotein, T732I</title>
@@ -20078,16 +20075,16 @@
 	<circle cx="1034" cy="329" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  T24506G  Europe=406 [100.0%] North America=2 [100.0%]  surface glycoprotein, S982A</title>
+	<title>2020-12-20  T24506G  Europe=406 [100.0%] Asia=2 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="1034" cy="329" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2020-12-20  T24506G  Europe=406 [100.0%] Asia=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, S982A</title>
 	<circle cx="1034" cy="329" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  T24506G  Europe=406 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, S982A</title>
+	<title>2020-12-20  T24506G  Europe=406 [100.0%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, S982A</title>
 	<circle cx="1034" cy="329" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2020-12-20  T24506G  Europe=406 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1034" cy="329" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  C24734T  Europe=2 [0.5%]  surface glycoprotein, H1058Y</title>
@@ -20098,16 +20095,16 @@
 	<circle cx="1031" cy="317" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  G24914C  Europe=406 [100.0%] Asia=2 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1031" cy="317" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-20  G24914C  Europe=406 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="1031" cy="317" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  G24914C  Europe=406 [100.0%] Asia=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<title>2020-12-20  G24914C  Europe=406 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="1031" cy="317" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  G24914C  Europe=406 [100.0%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1031" cy="317" r="2" style="fill:lime;" class="cv" />
+	<title>2020-12-20  G24914C  Europe=406 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="1031" cy="317" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  G24933T  Europe=1 [0.2%]  surface glycoprotein, G1124V</title>
@@ -20186,12 +20183,12 @@
 	<circle cx="1026" cy="289" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  C25844T  Asia=1 [50.0%]  ORF3a protein, T151I</title>
-	<circle cx="1026" cy="289" r="1" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2020-12-20  C25844T  Europe=1 [0.2%]  ORF3a protein, T151I</title>
 	<circle cx="1026" cy="289" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-20  C25844T  Europe=1 [0.2%] Asia=1 [50.0%]  ORF3a protein, T151I</title>
+	<circle cx="1026" cy="289" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  G25954T  Europe=1 [0.2%]  ORF3a protein, G188C</title>
@@ -20222,12 +20219,12 @@
 	<circle cx="1021" cy="262" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  G26730C  Europe=12 [3.0%] Asia=1 [50.0%]  membrane glycoprotein, V70L</title>
-	<circle cx="1021" cy="262" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-20  G26730C  Europe=12 [3.0%] North America=1 [50.0%]  membrane glycoprotein, V70L</title>
+	<circle cx="1021" cy="262" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  G26730C  Europe=12 [3.0%] Asia=1 [50.0%] North America=1 [50.0%]  membrane glycoprotein, V70L</title>
-	<circle cx="1021" cy="262" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-20  G26730C  Europe=12 [3.0%] North America=1 [50.0%] Asia=1 [50.0%]  membrane glycoprotein, V70L</title>
+	<circle cx="1021" cy="262" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  G26775A  Oceania=1 [50.0%]  membrane glycoprotein, A85T</title>
@@ -20330,32 +20327,32 @@
 	<circle cx="1014" cy="225" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  C27972T  Europe=406 [100.0%] Oceania=2 [100.0%]  ORF8 protein, Q27*</title>
-	<circle cx="1014" cy="225" r="2" style="fill:lime;" class="cv" />
+	<title>2020-12-20  C27972T  Europe=406 [100.0%] Asia=2 [100.0%]  ORF8 protein, Q27*</title>
+	<circle cx="1014" cy="225" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  C27972T  Europe=406 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  ORF8 protein, Q27*</title>
+	<title>2020-12-20  C27972T  Europe=406 [100.0%] Asia=2 [100.0%] North America=2 [100.0%]  ORF8 protein, Q27*</title>
 	<circle cx="1014" cy="225" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  C27972T  Europe=406 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%]  ORF8 protein, Q27*</title>
-	<circle cx="1014" cy="225" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-20  C27972T  Europe=406 [100.0%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  ORF8 protein, Q27*</title>
+	<circle cx="1014" cy="225" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  G28048T  Europe=406 [100.0%]  ORF8 protein, R52I</title>
 	<circle cx="1013" cy="222" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  G28048T  Europe=406 [100.0%] Oceania=2 [100.0%]  ORF8 protein, R52I</title>
-	<circle cx="1013" cy="222" r="2" style="fill:lime;" class="cv" />
+	<title>2020-12-20  G28048T  Europe=406 [100.0%] Asia=2 [100.0%]  ORF8 protein, R52I</title>
+	<circle cx="1013" cy="222" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  G28048T  Europe=406 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  ORF8 protein, R52I</title>
+	<title>2020-12-20  G28048T  Europe=406 [100.0%] Asia=2 [100.0%] North America=2 [100.0%]  ORF8 protein, R52I</title>
 	<circle cx="1013" cy="222" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  G28048T  Europe=406 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%]  ORF8 protein, R52I</title>
-	<circle cx="1013" cy="222" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-20  G28048T  Europe=406 [100.0%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  ORF8 protein, R52I</title>
+	<circle cx="1013" cy="222" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  C28059T  Europe=1 [0.2%]  ORF8 protein, P56S</title>
@@ -20374,15 +20371,15 @@
 	<circle cx="1013" cy="220" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  A28111G  Europe=406 [100.0%] North America=2 [100.0%]  ORF8 protein, Y73C</title>
-	<circle cx="1013" cy="220" r="2" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2020-12-20  A28111G  Europe=406 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  ORF8 protein, Y73C</title>
+	<title>2020-12-20  A28111G  Europe=406 [100.0%] Oceania=2 [100.0%]  ORF8 protein, Y73C</title>
 	<circle cx="1013" cy="220" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-20  A28111G  Europe=406 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%]  ORF8 protein, Y73C</title>
+	<title>2020-12-20  A28111G  Europe=406 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  ORF8 protein, Y73C</title>
+	<circle cx="1013" cy="220" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2020-12-20  A28111G  Europe=406 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%]  ORF8 protein, Y73C</title>
 	<circle cx="1013" cy="220" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -20794,16 +20791,16 @@
 	<circle cx="1159" cy="962" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  G3638C  Europe=1 [0.2%]  orf1ab polyprotein, G1125R</title>
-	<circle cx="1158" cy="959" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-12-21  G3638T  Europe=9 [1.5%]  orf1ab polyprotein, G1125C</title>
 	<circle cx="1158" cy="959" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  G3638T  Europe=9 [1.5%] South America=1 [50.0%]  orf1ab polyprotein, G1125C</title>
 	<circle cx="1158" cy="959" r="1" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2020-12-21  G3638C  Europe=1 [0.2%]  orf1ab polyprotein, G1125R</title>
+	<circle cx="1158" cy="959" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  C3686T  Europe=1 [0.2%]  orf1ab polyprotein, H1141Y</title>
@@ -20838,12 +20835,12 @@
 	<circle cx="1155" cy="942" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  T4237A  Asia=1 [16.7%]  orf1ab polyprotein, N1324K</title>
-	<circle cx="1155" cy="941" r="1" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2020-12-21  T4237A  Europe=1 [0.2%]  orf1ab polyprotein, N1324K</title>
 	<circle cx="1155" cy="941" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-21  T4237A  Europe=1 [0.2%] Asia=1 [16.7%]  orf1ab polyprotein, N1324K</title>
+	<circle cx="1155" cy="941" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  C4400T  Europe=1 [0.2%]  orf1ab polyprotein, L1379F</title>
@@ -21014,15 +21011,15 @@
 	<circle cx="1141" cy="859" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  T6954C  Europe=605 [99.8%] Asia=6 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, I2230T</title>
-	<circle cx="1141" cy="859" r="2" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2020-12-21  T6954C  Europe=605 [99.8%] Asia=6 [100.0%] North America=2 [100.0%] South America=2 [100.0%]  orf1ab polyprotein, I2230T</title>
+	<title>2020-12-21  T6954C  Europe=605 [99.8%] Asia=6 [100.0%] South America=2 [100.0%]  orf1ab polyprotein, I2230T</title>
 	<circle cx="1141" cy="859" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  T6954C  Europe=605 [99.8%] Asia=6 [100.0%] North America=2 [100.0%] South America=2 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, I2230T</title>
+	<title>2020-12-21  T6954C  Europe=605 [99.8%] Asia=6 [100.0%] South America=2 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, I2230T</title>
+	<circle cx="1141" cy="859" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2020-12-21  T6954C  Europe=605 [99.8%] Asia=6 [100.0%] South America=2 [100.0%] North America=2 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, I2230T</title>
 	<circle cx="1141" cy="859" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -21354,15 +21351,15 @@
 	<circle cx="1102" cy="633" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  C14408T  Europe=606 [100.0%] Asia=6 [100.0%] South America=2 [100.0%]  orf1ab polyprotein, P4715L</title>
-	<circle cx="1102" cy="633" r="2" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2020-12-21  C14408T  Europe=606 [100.0%] Asia=6 [100.0%] South America=2 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<title>2020-12-21  C14408T  Europe=606 [100.0%] Asia=6 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1102" cy="633" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  C14408T  Europe=606 [100.0%] Asia=6 [100.0%] South America=2 [100.0%] North America=2 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<title>2020-12-21  C14408T  Europe=606 [100.0%] Asia=6 [100.0%] North America=2 [100.0%] South America=2 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<circle cx="1102" cy="633" r="2" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2020-12-21  C14408T  Europe=606 [100.0%] Asia=6 [100.0%] North America=2 [100.0%] South America=2 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1102" cy="633" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -21646,15 +21643,15 @@
 	<circle cx="1062" cy="403" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  ATTA21993A  Europe=606 [100.0%] Asia=6 [100.0%] North America=2 [100.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1062" cy="403" r="2" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2020-12-21  ATTA21993A  Europe=606 [100.0%] Asia=6 [100.0%] North America=2 [100.0%] South America=2 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<title>2020-12-21  ATTA21993A  Europe=606 [100.0%] Asia=6 [100.0%] South America=2 [100.0%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1062" cy="403" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  ATTA21993A  Europe=606 [100.0%] Asia=6 [100.0%] North America=2 [100.0%] South America=2 [100.0%] Africa=1 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<title>2020-12-21  ATTA21993A  Europe=606 [100.0%] Asia=6 [100.0%] South America=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1062" cy="403" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2020-12-21  ATTA21993A  Europe=606 [100.0%] Asia=6 [100.0%] South America=2 [100.0%] North America=2 [100.0%] Africa=1 [100.0%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1062" cy="403" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -21826,15 +21823,15 @@
 	<circle cx="1053" cy="351" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  C23709T  Europe=606 [100.0%] Asia=6 [100.0%] South America=2 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1053" cy="351" r="2" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2020-12-21  C23709T  Europe=606 [100.0%] Asia=6 [100.0%] South America=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, T716I</title>
+	<title>2020-12-21  C23709T  Europe=606 [100.0%] Asia=6 [100.0%] North America=2 [100.0%]  surface glycoprotein, T716I</title>
 	<circle cx="1053" cy="351" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  C23709T  Europe=606 [100.0%] Asia=6 [100.0%] South America=2 [100.0%] North America=2 [100.0%] Africa=1 [100.0%]  surface glycoprotein, T716I</title>
+	<title>2020-12-21  C23709T  Europe=606 [100.0%] Asia=6 [100.0%] North America=2 [100.0%] South America=2 [100.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1053" cy="351" r="2" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2020-12-21  C23709T  Europe=606 [100.0%] Asia=6 [100.0%] North America=2 [100.0%] South America=2 [100.0%] Africa=1 [100.0%]  surface glycoprotein, T716I</title>
 	<circle cx="1053" cy="351" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -22238,15 +22235,15 @@
 	<circle cx="1030" cy="219" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  G28048T  Europe=606 [100.0%] Asia=6 [100.0%] North America=2 [100.0%]  ORF8 protein, R52I</title>
-	<circle cx="1030" cy="219" r="2" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2020-12-21  G28048T  Europe=606 [100.0%] Asia=6 [100.0%] North America=2 [100.0%] South America=2 [100.0%]  ORF8 protein, R52I</title>
+	<title>2020-12-21  G28048T  Europe=606 [100.0%] Asia=6 [100.0%] South America=2 [100.0%]  ORF8 protein, R52I</title>
 	<circle cx="1030" cy="219" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  G28048T  Europe=606 [100.0%] Asia=6 [100.0%] North America=2 [100.0%] South America=2 [100.0%] Africa=1 [100.0%]  ORF8 protein, R52I</title>
+	<title>2020-12-21  G28048T  Europe=606 [100.0%] Asia=6 [100.0%] South America=2 [100.0%] North America=2 [100.0%]  ORF8 protein, R52I</title>
+	<circle cx="1030" cy="219" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2020-12-21  G28048T  Europe=606 [100.0%] Asia=6 [100.0%] South America=2 [100.0%] North America=2 [100.0%] Africa=1 [100.0%]  ORF8 protein, R52I</title>
 	<circle cx="1030" cy="219" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -22262,12 +22259,12 @@
 	<circle cx="1030" cy="218" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  A28095T  Europe=57 [9.4%] North America=1 [50.0%]  ORF8 protein, K68*</title>
-	<circle cx="1030" cy="218" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-21  A28095T  Europe=57 [9.4%] Africa=1 [100.0%]  ORF8 protein, K68*</title>
+	<circle cx="1030" cy="218" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-12-21  A28095T  Europe=57 [9.4%] North America=1 [50.0%] Africa=1 [100.0%]  ORF8 protein, K68*</title>
-	<circle cx="1030" cy="218" r="1" style="fill:yellow;" class="cv" />
+	<title>2020-12-21  A28095T  North America=1 [50.0%]  ORF8 protein, K68*</title>
+	<circle cx="1030" cy="218" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  A28111G  Europe=606 [100.0%]  ORF8 protein, Y73C</title>
@@ -22842,12 +22839,12 @@
 	<circle cx="1146" cy="856" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-22  A7097G  South America=1 [50.0%]  orf1ab polyprotein, I2278V</title>
-	<circle cx="1146" cy="854" r="1" style="fill:orange;" class="cv" />
-</g>
-<g>
 	<title>2020-12-22  A7097G  Europe=1 [0.3%]  orf1ab polyprotein, I2278V</title>
 	<circle cx="1146" cy="854" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-22  A7097G  Europe=1 [0.3%] South America=1 [50.0%]  orf1ab polyprotein, I2278V</title>
+	<circle cx="1146" cy="854" r="1" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-12-22  C7224T  Europe=2 [0.5%]  orf1ab polyprotein, A2320V</title>
@@ -24022,15 +24019,15 @@
 	<circle cx="1168" cy="969" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C3267T  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%]  orf1ab polyprotein, T1001I</title>
-	<circle cx="1168" cy="969" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  C3267T  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, T1001I</title>
+	<title>2020-12-23  C3267T  Europe=338 [100.0%] Asia=2 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, T1001I</title>
 	<circle cx="1168" cy="969" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C3267T  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, T1001I</title>
+	<title>2020-12-23  C3267T  Europe=338 [100.0%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  orf1ab polyprotein, T1001I</title>
+	<circle cx="1168" cy="969" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  C3267T  Europe=338 [100.0%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, T1001I</title>
 	<circle cx="1168" cy="969" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -24150,15 +24147,15 @@
 	<circle cx="1159" cy="905" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C5388A  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%]  orf1ab polyprotein, A1708D</title>
-	<circle cx="1159" cy="905" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  C5388A  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, A1708D</title>
+	<title>2020-12-23  C5388A  Europe=338 [100.0%] Asia=2 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, A1708D</title>
 	<circle cx="1159" cy="905" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C5388A  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, A1708D</title>
+	<title>2020-12-23  C5388A  Europe=338 [100.0%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  orf1ab polyprotein, A1708D</title>
+	<circle cx="1159" cy="905" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  C5388A  Europe=338 [100.0%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, A1708D</title>
 	<circle cx="1159" cy="905" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -24222,19 +24219,19 @@
 	<circle cx="1153" cy="857" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  T6954C  Europe=336 [99.4%] Asia=2 [100.0%]  orf1ab polyprotein, I2230T</title>
-	<circle cx="1153" cy="857" r="2" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  T6954C  Europe=336 [99.4%] Asia=2 [100.0%] Oceania=2 [100.0%]  orf1ab polyprotein, I2230T</title>
-	<circle cx="1153" cy="857" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  T6954C  Europe=336 [99.4%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, I2230T</title>
+	<title>2020-12-23  T6954C  Europe=336 [99.4%] North America=2 [100.0%]  orf1ab polyprotein, I2230T</title>
 	<circle cx="1153" cy="857" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  T6954C  Europe=336 [99.4%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, I2230T</title>
+	<title>2020-12-23  T6954C  Europe=336 [99.4%] North America=2 [100.0%] Oceania=2 [100.0%]  orf1ab polyprotein, I2230T</title>
+	<circle cx="1153" cy="857" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  T6954C  Europe=336 [99.4%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%]  orf1ab polyprotein, I2230T</title>
+	<circle cx="1153" cy="857" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  T6954C  Europe=336 [99.4%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, I2230T</title>
 	<circle cx="1153" cy="857" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -24442,12 +24439,12 @@
 	<circle cx="1122" cy="639" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C14120T  Europe=10 [3.0%] Oceania=1 [50.0%]  orf1ab polyprotein, P4619L</title>
-	<circle cx="1122" cy="639" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-23  C14120T  Europe=10 [3.0%] Africa=1 [100.0%]  orf1ab polyprotein, P4619L</title>
+	<circle cx="1122" cy="639" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C14120T  Europe=10 [3.0%] Oceania=1 [50.0%] Africa=1 [100.0%]  orf1ab polyprotein, P4619L</title>
-	<circle cx="1122" cy="639" r="1" style="fill:yellow;" class="cv" />
+	<title>2020-12-23  C14120T  Oceania=1 [50.0%]  orf1ab polyprotein, P4619L</title>
+	<circle cx="1122" cy="639" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-23  A14125G  Europe=1 [0.3%]  orf1ab polyprotein, S4621G</title>
@@ -24462,19 +24459,19 @@
 	<circle cx="1121" cy="630" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C14408T  Europe=338 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, P4715L</title>
-	<circle cx="1121" cy="630" r="2" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  C14408T  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  orf1ab polyprotein, P4715L</title>
-	<circle cx="1121" cy="630" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  C14408T  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<title>2020-12-23  C14408T  Europe=338 [100.0%] Asia=2 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1121" cy="630" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C14408T  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<title>2020-12-23  C14408T  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<circle cx="1121" cy="630" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  C14408T  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<circle cx="1121" cy="630" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  C14408T  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1121" cy="630" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -24782,19 +24779,19 @@
 	<circle cx="1084" cy="360" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C23271A  Europe=338 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1084" cy="360" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  C23271A  Europe=338 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, A570D</title>
+	<title>2020-12-23  C23271A  Europe=338 [100.0%] North America=2 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1084" cy="360" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C23271A  Europe=338 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%]  surface glycoprotein, A570D</title>
+	<title>2020-12-23  C23271A  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1084" cy="360" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  C23271A  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1084" cy="360" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C23271A  Europe=338 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%] Africa=1 [100.0%]  surface glycoprotein, A570D</title>
+	<title>2020-12-23  C23271A  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%] Africa=1 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1084" cy="360" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -24802,19 +24799,19 @@
 	<circle cx="1083" cy="356" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  A23403G  Europe=338 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1083" cy="356" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  A23403G  Europe=338 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1083" cy="356" r="2" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  A23403G  Europe=338 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-23  A23403G  Europe=338 [100.0%] Asia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1083" cy="356" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  A23403G  Europe=338 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%] Africa=1 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-23  A23403G  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1083" cy="356" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  A23403G  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1083" cy="356" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  A23403G  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Africa=1 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1083" cy="356" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -24858,19 +24855,19 @@
 	<circle cx="1082" cy="346" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C23709T  Europe=338 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1082" cy="346" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  C23709T  Europe=338 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, T716I</title>
+	<title>2020-12-23  C23709T  Europe=338 [100.0%] North America=2 [100.0%]  surface glycoprotein, T716I</title>
 	<circle cx="1082" cy="346" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C23709T  Europe=338 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%]  surface glycoprotein, T716I</title>
+	<title>2020-12-23  C23709T  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1082" cy="346" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  C23709T  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%]  surface glycoprotein, T716I</title>
 	<circle cx="1082" cy="346" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C23709T  Europe=338 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%] Africa=1 [100.0%]  surface glycoprotein, T716I</title>
+	<title>2020-12-23  C23709T  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%] Africa=1 [100.0%]  surface glycoprotein, T716I</title>
 	<circle cx="1082" cy="346" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -24890,19 +24887,19 @@
 	<circle cx="1079" cy="322" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  T24506G  Europe=338 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1079" cy="322" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  T24506G  Europe=338 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, S982A</title>
+	<title>2020-12-23  T24506G  Europe=338 [100.0%] North America=2 [100.0%]  surface glycoprotein, S982A</title>
 	<circle cx="1079" cy="322" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  T24506G  Europe=338 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%]  surface glycoprotein, S982A</title>
+	<title>2020-12-23  T24506G  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="1079" cy="322" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  T24506G  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%]  surface glycoprotein, S982A</title>
 	<circle cx="1079" cy="322" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  T24506G  Europe=338 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%] Africa=1 [100.0%]  surface glycoprotein, S982A</title>
+	<title>2020-12-23  T24506G  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%] Africa=1 [100.0%]  surface glycoprotein, S982A</title>
 	<circle cx="1079" cy="322" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -24918,19 +24915,19 @@
 	<circle cx="1077" cy="310" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  G24914C  Europe=338 [100.0%] North America=2 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1077" cy="310" r="2" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  G24914C  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<title>2020-12-23  G24914C  Europe=338 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="1077" cy="310" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  G24914C  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<title>2020-12-23  G24914C  Europe=338 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="1077" cy="310" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  G24914C  Europe=338 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="1077" cy="310" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  G24914C  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%] Africa=1 [100.0%]  surface glycoprotein, D1118H</title>
+	<title>2020-12-23  G24914C  Europe=338 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Asia=2 [100.0%] Africa=1 [100.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="1077" cy="310" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -25110,12 +25107,12 @@
 	<circle cx="1066" cy="229" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C27577T  Europe=1 [0.3%]  ORF7a protein, Q62*</title>
-	<circle cx="1066" cy="228" r="1" style="fill:cyan;" class="cv" />
+	<title>2020-12-23  C27577T  Asia=1 [50.0%]  ORF7a protein, Q62*</title>
+	<circle cx="1066" cy="228" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C27577T  Europe=1 [0.3%] Asia=1 [50.0%]  ORF7a protein, Q62*</title>
-	<circle cx="1066" cy="228" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-23  C27577T  Europe=1 [0.3%]  ORF7a protein, Q62*</title>
+	<circle cx="1066" cy="228" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-23  G27598T  Europe=1 [0.3%]  ORF7a protein, D69Y</title>
@@ -25166,19 +25163,19 @@
 	<circle cx="1064" cy="214" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  G28048T  Europe=338 [100.0%] Asia=2 [100.0%]  ORF8 protein, R52I</title>
-	<circle cx="1064" cy="214" r="2" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  G28048T  Europe=338 [100.0%] Asia=2 [100.0%] North America=2 [100.0%]  ORF8 protein, R52I</title>
+	<title>2020-12-23  G28048T  Europe=338 [100.0%] North America=2 [100.0%]  ORF8 protein, R52I</title>
 	<circle cx="1064" cy="214" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  G28048T  Europe=338 [100.0%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  ORF8 protein, R52I</title>
+	<title>2020-12-23  G28048T  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  ORF8 protein, R52I</title>
 	<circle cx="1064" cy="214" r="2" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  G28048T  Europe=338 [100.0%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Africa=1 [100.0%]  ORF8 protein, R52I</title>
+	<title>2020-12-23  G28048T  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%]  ORF8 protein, R52I</title>
+	<circle cx="1064" cy="214" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  G28048T  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%] Africa=1 [100.0%]  ORF8 protein, R52I</title>
 	<circle cx="1064" cy="214" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -25198,12 +25195,12 @@
 	<circle cx="1064" cy="213" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  A28095T  Europe=43 [12.7%] Asia=1 [50.0%] Oceania=1 [50.0%]  ORF8 protein, K68*</title>
-	<circle cx="1064" cy="213" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-23  A28095T  Europe=43 [12.7%] Asia=1 [50.0%] Africa=1 [100.0%]  ORF8 protein, K68*</title>
+	<circle cx="1064" cy="213" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  A28095T  Europe=43 [12.7%] Asia=1 [50.0%] Oceania=1 [50.0%] Africa=1 [100.0%]  ORF8 protein, K68*</title>
-	<circle cx="1064" cy="213" r="1" style="fill:yellow;" class="cv" />
+	<title>2020-12-23  A28095T  Oceania=1 [50.0%]  ORF8 protein, K68*</title>
+	<circle cx="1064" cy="213" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-23  A28111G  Europe=338 [100.0%]  ORF8 protein, Y73C</title>
@@ -25214,15 +25211,15 @@
 	<circle cx="1063" cy="212" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  A28111G  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%]  ORF8 protein, Y73C</title>
-	<circle cx="1063" cy="212" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  A28111G  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  ORF8 protein, Y73C</title>
+	<title>2020-12-23  A28111G  Europe=338 [100.0%] Asia=2 [100.0%] North America=2 [100.0%]  ORF8 protein, Y73C</title>
 	<circle cx="1063" cy="212" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  A28111G  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Africa=1 [100.0%]  ORF8 protein, Y73C</title>
+	<title>2020-12-23  A28111G  Europe=338 [100.0%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  ORF8 protein, Y73C</title>
+	<circle cx="1063" cy="212" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  A28111G  Europe=338 [100.0%] Asia=2 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Africa=1 [100.0%]  ORF8 protein, Y73C</title>
 	<circle cx="1063" cy="212" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -25258,19 +25255,19 @@
 	<circle cx="1060" cy="186" r="10" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C28977T  Europe=338 [100.0%] North America=2 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
-	<circle cx="1060" cy="186" r="2" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  C28977T  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
-	<circle cx="1060" cy="186" r="2" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  C28977T  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
+	<title>2020-12-23  C28977T  Europe=338 [100.0%] Asia=2 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
 	<circle cx="1060" cy="186" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-23  C28977T  Europe=338 [100.0%] North America=2 [100.0%] Oceania=2 [100.0%] Asia=2 [100.0%] Africa=1 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
+	<title>2020-12-23  C28977T  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
+	<circle cx="1060" cy="186" r="2" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  C28977T  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
+	<circle cx="1060" cy="186" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2020-12-23  C28977T  Europe=338 [100.0%] Asia=2 [100.0%] Oceania=2 [100.0%] North America=2 [100.0%] Africa=1 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
 	<circle cx="1060" cy="186" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
@@ -25406,12 +25403,12 @@
 	<circle cx="1175" cy="994" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-24  G2494T  Europe=1 [0.3%]  orf1ab polyprotein, E743D</title>
-	<circle cx="1175" cy="992" r="1" style="fill:cyan;" class="cv" />
+	<title>2020-12-24  G2494T  Asia=1 [1.7%]  orf1ab polyprotein, E743D</title>
+	<circle cx="1175" cy="992" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-24  G2494T  Europe=1 [0.3%] Asia=1 [1.7%]  orf1ab polyprotein, E743D</title>
-	<circle cx="1175" cy="992" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-24  G2494T  Asia=1 [1.7%] Europe=1 [0.3%]  orf1ab polyprotein, E743D</title>
+	<circle cx="1175" cy="992" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  C2544T  Europe=2 [0.6%]  orf1ab polyprotein, T760I</title>
@@ -26626,12 +26623,12 @@
 	<circle cx="1078" cy="187" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-24  C28928A  Europe=5 [1.4%]  nucleocapsid phosphoprotein, L219I</title>
-	<circle cx="1077" cy="185" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-12-24  C28928G  Europe=1 [0.3%]  nucleocapsid phosphoprotein, L219V</title>
 	<circle cx="1077" cy="185" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-24  C28928A  Europe=5 [1.4%]  nucleocapsid phosphoprotein, L219I</title>
+	<circle cx="1077" cy="185" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  C28961T  Europe=2 [0.6%]  nucleocapsid phosphoprotein, L230F</title>
@@ -26726,11 +26723,11 @@
 	<circle cx="1183" cy="1036" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-25  C1191A  Europe=1 [0.5%]  orf1ab polyprotein, P309Q</title>
+	<title>2020-12-25  C1191T  Europe=1 [0.5%]  orf1ab polyprotein, P309L</title>
 	<circle cx="1183" cy="1032" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-25  C1191T  Europe=1 [0.5%]  orf1ab polyprotein, P309L</title>
+	<title>2020-12-25  C1191A  Europe=1 [0.5%]  orf1ab polyprotein, P309Q</title>
 	<circle cx="1183" cy="1032" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -27742,12 +27739,12 @@
 	<circle cx="1093" cy="168" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-25  G29440T  Asia=1 [16.7%]  nucleocapsid phosphoprotein, Q389H</title>
-	<circle cx="1093" cy="167" r="1" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2020-12-25  G29440T  Europe=1 [0.5%]  nucleocapsid phosphoprotein, Q389H</title>
 	<circle cx="1093" cy="167" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-25  G29440T  Europe=1 [0.5%] Asia=1 [16.7%]  nucleocapsid phosphoprotein, Q389H</title>
+	<circle cx="1093" cy="167" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25  C29523T  Europe=1 [0.5%]  nucleocapsid phosphoprotein, T417I</title>
@@ -27854,16 +27851,16 @@
 	<circle cx="1186" cy="1033" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
+	<title>2020-12-26  C1191A  Europe=1 [0.1%]  orf1ab polyprotein, P309Q</title>
+	<circle cx="1186" cy="1032" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
 	<title>2020-12-26  C1191T  Europe=2 [0.3%]  orf1ab polyprotein, P309L</title>
 	<circle cx="1186" cy="1032" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  C1191T  Europe=2 [0.3%] North America=1 [6.2%]  orf1ab polyprotein, P309L</title>
 	<circle cx="1186" cy="1032" r="1" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2020-12-26  C1191A  Europe=1 [0.1%]  orf1ab polyprotein, P309Q</title>
-	<circle cx="1186" cy="1032" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  C1214T  Asia=1 [6.7%]  orf1ab polyprotein, L317F</title>
@@ -28098,12 +28095,12 @@
 	<circle cx="1179" cy="960" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-26  C3602T  Europe=1 [0.1%]  orf1ab polyprotein, H1113Y</title>
-	<circle cx="1179" cy="958" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-12-26  C3602A  Asia=1 [6.7%]  orf1ab polyprotein, H1113N</title>
 	<circle cx="1179" cy="958" r="1" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2020-12-26  C3602T  Europe=1 [0.1%]  orf1ab polyprotein, H1113Y</title>
+	<circle cx="1179" cy="958" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  G3620T  Europe=1 [0.1%]  orf1ab polyprotein, G1119C</title>
@@ -29446,12 +29443,12 @@
 	<circle cx="1127" cy="350" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-26  C23520T  North America=2 [12.5%]  surface glycoprotein, A653V</title>
-	<circle cx="1127" cy="347" r="2" style="fill:white;" class="cv" />
-</g>
-<g>
 	<title>2020-12-26  C23520T  Europe=2 [0.3%]  surface glycoprotein, A653V</title>
 	<circle cx="1127" cy="347" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-26  C23520T  Europe=2 [0.3%] North America=2 [12.5%]  surface glycoprotein, A653V</title>
+	<circle cx="1127" cy="347" r="2" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  C23525T  Europe=1 [0.1%]  surface glycoprotein, H655Y</title>
@@ -30222,12 +30219,12 @@
 	<circle cx="1111" cy="166" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-26  G29440T  Asia=1 [6.7%]  nucleocapsid phosphoprotein, Q389H</title>
-	<circle cx="1111" cy="166" r="1" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2020-12-26  G29440T  Europe=1 [0.1%]  nucleocapsid phosphoprotein, Q389H</title>
 	<circle cx="1111" cy="166" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-26  G29440T  Europe=1 [0.1%] Asia=1 [6.7%]  nucleocapsid phosphoprotein, Q389H</title>
+	<circle cx="1111" cy="166" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  A29475C  Europe=1 [0.1%]  nucleocapsid phosphoprotein, D401A</title>
@@ -30450,15 +30447,15 @@
 	<circle cx="1184" cy="968" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C3267T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] South America=1 [100.0%]  orf1ab polyprotein, T1001I</title>
-	<circle cx="1184" cy="968" r="1" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2020-12-27  C3267T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] South America=1 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, T1001I</title>
+	<title>2020-12-27  C3267T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, T1001I</title>
 	<circle cx="1184" cy="968" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C3267T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] South America=1 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%]  orf1ab polyprotein, T1001I</title>
+	<title>2020-12-27  C3267T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%]  orf1ab polyprotein, T1001I</title>
+	<circle cx="1184" cy="968" r="1" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2020-12-27  C3267T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%] Oceania=1 [100.0%]  orf1ab polyprotein, T1001I</title>
 	<circle cx="1184" cy="968" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
@@ -30642,16 +30639,16 @@
 	<circle cx="1180" cy="903" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C5388A  Europe=487 [99.2%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, A1708D</title>
-	<circle cx="1180" cy="903" r="1" style="fill:yellow;" class="cv" />
-</g>
-<g>
-	<title>2020-12-27  C5388A  Europe=487 [99.2%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%]  orf1ab polyprotein, A1708D</title>
+	<title>2020-12-27  C5388A  Europe=487 [99.2%] Asia=36 [100.0%] North America=6 [100.0%] South America=1 [100.0%]  orf1ab polyprotein, A1708D</title>
 	<circle cx="1180" cy="903" r="1" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C5388A  Europe=487 [99.2%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%] Oceania=1 [100.0%]  orf1ab polyprotein, A1708D</title>
+	<title>2020-12-27  C5388A  Europe=487 [99.2%] Asia=36 [100.0%] North America=6 [100.0%] South America=1 [100.0%] Oceania=1 [100.0%]  orf1ab polyprotein, A1708D</title>
 	<circle cx="1180" cy="903" r="1" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-12-27  C5388A  Europe=487 [99.2%] Asia=36 [100.0%] North America=6 [100.0%] South America=1 [100.0%] Oceania=1 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, A1708D</title>
+	<circle cx="1180" cy="903" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  A5535T  Asia=1 [2.8%]  orf1ab polyprotein, Q1757L</title>
@@ -30778,15 +30775,15 @@
 	<circle cx="1176" cy="855" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  T6954C  Europe=490 [99.8%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%]  orf1ab polyprotein, I2230T</title>
-	<circle cx="1176" cy="855" r="1" style="fill:lime;" class="cv" />
-</g>
-<g>
-	<title>2020-12-27  T6954C  Europe=490 [99.8%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, I2230T</title>
+	<title>2020-12-27  T6954C  Europe=490 [99.8%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, I2230T</title>
 	<circle cx="1176" cy="855" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  T6954C  Europe=490 [99.8%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%] Africa=1 [100.0%] South America=1 [100.0%]  orf1ab polyprotein, I2230T</title>
+	<title>2020-12-27  T6954C  Europe=490 [99.8%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%]  orf1ab polyprotein, I2230T</title>
+	<circle cx="1176" cy="855" r="1" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-12-27  T6954C  Europe=490 [99.8%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%]  orf1ab polyprotein, I2230T</title>
 	<circle cx="1176" cy="855" r="1" style="fill:orange;" class="cv" />
 </g>
 <g>
@@ -30806,12 +30803,12 @@
 	<circle cx="1176" cy="850" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  A7097G  Europe=2 [0.4%] Asia=1 [2.8%]  orf1ab polyprotein, I2278V</title>
-	<circle cx="1176" cy="850" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-27  A7097G  Europe=2 [0.4%] South America=1 [100.0%]  orf1ab polyprotein, I2278V</title>
+	<circle cx="1176" cy="850" r="1" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  A7097G  Europe=2 [0.4%] Asia=1 [2.8%] South America=1 [100.0%]  orf1ab polyprotein, I2278V</title>
-	<circle cx="1176" cy="850" r="1" style="fill:orange;" class="cv" />
+	<title>2020-12-27  A7097G  Asia=1 [2.8%]  orf1ab polyprotein, I2278V</title>
+	<circle cx="1176" cy="850" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  C7113T  Europe=1 [0.2%]  orf1ab polyprotein, T2283I</title>
@@ -31014,11 +31011,11 @@
 	<circle cx="1166" cy="699" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  G12067T  Europe=1 [0.2%]  orf1ab polyprotein, M3934I</title>
+	<title>2020-12-27  G12067A  Europe=1 [0.2%]  orf1ab polyprotein, M3934I</title>
 	<circle cx="1165" cy="698" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  G12067A  Europe=1 [0.2%]  orf1ab polyprotein, M3934I</title>
+	<title>2020-12-27  G12067T  Europe=1 [0.2%]  orf1ab polyprotein, M3934I</title>
 	<circle cx="1165" cy="698" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -31126,12 +31123,12 @@
 	<circle cx="1161" cy="635" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C14120T  Europe=16 [3.3%] Asia=2 [5.6%] Africa=1 [100.0%]  orf1ab polyprotein, P4619L</title>
-	<circle cx="1161" cy="635" r="1" style="fill:yellow;" class="cv" />
+	<title>2020-12-27  C14120T  Europe=16 [3.3%] Asia=2 [5.6%] North America=1 [16.7%]  orf1ab polyprotein, P4619L</title>
+	<circle cx="1161" cy="635" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C14120T  North America=1 [16.7%]  orf1ab polyprotein, P4619L</title>
-	<circle cx="1161" cy="635" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-27  C14120T  Europe=16 [3.3%] Asia=2 [5.6%] North America=1 [16.7%] Africa=1 [100.0%]  orf1ab polyprotein, P4619L</title>
+	<circle cx="1161" cy="635" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  G14294A  Europe=1 [0.2%]  orf1ab polyprotein, R4677H</title>
@@ -31158,15 +31155,15 @@
 	<circle cx="1161" cy="626" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C14408T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] South America=1 [100.0%]  orf1ab polyprotein, P4715L</title>
-	<circle cx="1161" cy="626" r="1" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2020-12-27  C14408T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] South America=1 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<title>2020-12-27  C14408T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1161" cy="626" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C14408T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] South America=1 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<title>2020-12-27  C14408T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%]  orf1ab polyprotein, P4715L</title>
+	<circle cx="1161" cy="626" r="1" style="fill:orange;" class="cv" />
+</g>
+<g>
+	<title>2020-12-27  C14408T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%] Oceania=1 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1161" cy="626" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
@@ -31206,12 +31203,12 @@
 	<circle cx="1156" cy="563" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C16468T  Europe=4 [0.8%] Oceania=1 [100.0%]  orf1ab polyprotein, P5402S</title>
-	<circle cx="1156" cy="563" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-27  C16468T  Europe=4 [0.8%] Asia=1 [2.8%]  orf1ab polyprotein, P5402S</title>
+	<circle cx="1156" cy="563" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C16468T  Asia=1 [2.8%]  orf1ab polyprotein, P5402S</title>
-	<circle cx="1156" cy="563" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-27  C16468T  Europe=4 [0.8%] Asia=1 [2.8%] Oceania=1 [100.0%]  orf1ab polyprotein, P5402S</title>
+	<circle cx="1156" cy="563" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  C16580T  Europe=1 [0.2%]  orf1ab polyprotein, T5439I</title>
@@ -31246,12 +31243,12 @@
 	<circle cx="1154" cy="527" r="3" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  A17615G  Asia=4 [11.1%] Oceania=1 [100.0%]  orf1ab polyprotein, K5784R</title>
-	<circle cx="1154" cy="527" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-27  A17615G  Asia=4 [11.1%] South America=1 [100.0%]  orf1ab polyprotein, K5784R</title>
+	<circle cx="1154" cy="527" r="1" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  A17615G  Asia=4 [11.1%] Oceania=1 [100.0%] South America=1 [100.0%]  orf1ab polyprotein, K5784R</title>
-	<circle cx="1154" cy="527" r="1" style="fill:orange;" class="cv" />
+	<title>2020-12-27  A17615G  Asia=4 [11.1%] South America=1 [100.0%] Oceania=1 [100.0%]  orf1ab polyprotein, K5784R</title>
+	<circle cx="1154" cy="527" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  A17635G  Europe=1 [0.2%]  orf1ab polyprotein, K5791E</title>
@@ -31318,12 +31315,12 @@
 	<circle cx="1151" cy="482" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  A19079G  Europe=14 [2.9%] South America=1 [100.0%]  orf1ab polyprotein, E6272G</title>
-	<circle cx="1151" cy="482" r="1" style="fill:orange;" class="cv" />
+	<title>2020-12-27  A19079G  Europe=14 [2.9%] Asia=1 [2.8%]  orf1ab polyprotein, E6272G</title>
+	<circle cx="1151" cy="482" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  A19079G  Asia=1 [2.8%]  orf1ab polyprotein, E6272G</title>
-	<circle cx="1151" cy="482" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-27  A19079G  Europe=14 [2.9%] Asia=1 [2.8%] South America=1 [100.0%]  orf1ab polyprotein, E6272G</title>
+	<circle cx="1151" cy="482" r="1" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  G19109T  Europe=1 [0.2%]  orf1ab polyprotein, S6282I</title>
@@ -31510,16 +31507,16 @@
 	<circle cx="1145" cy="393" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  ATTA21993A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<title>2020-12-27  ATTA21993A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1145" cy="393" r="1" style="fill:yellow;" class="cv" />
+</g>
+<g>
+	<title>2020-12-27  ATTA21993A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1145" cy="393" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  ATTA21993A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<title>2020-12-27  ATTA21993A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1145" cy="393" r="1" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2020-12-27  ATTA21993A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%] Africa=1 [100.0%]  surface glycoprotein, Y145H/del</title>
-	<circle cx="1145" cy="393" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  T22016C  Europe=1 [0.2%]  surface glycoprotein, W152R</title>
@@ -31594,12 +31591,12 @@
 	<circle cx="1142" cy="360" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  A23063T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1142" cy="360" r="1" style="fill:orange;" class="cv" />
+	<title>2020-12-27  A23063T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1142" cy="360" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  A23063T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1142" cy="360" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-27  A23063T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1142" cy="360" r="1" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  G23120T  Europe=1 [0.2%]  surface glycoprotein, A520S</title>
@@ -31622,16 +31619,16 @@
 	<circle cx="1142" cy="354" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C23271A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] South America=1 [100.0%]  surface glycoprotein, A570D</title>
-	<circle cx="1142" cy="354" r="1" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2020-12-27  C23271A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] South America=1 [100.0%] Africa=1 [100.0%]  surface glycoprotein, A570D</title>
+	<title>2020-12-27  C23271A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1142" cy="354" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C23271A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] South America=1 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, A570D</title>
+	<title>2020-12-27  C23271A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1142" cy="354" r="1" style="fill:lime;" class="cv" />
+</g>
+<g>
+	<title>2020-12-27  C23271A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, A570D</title>
+	<circle cx="1142" cy="354" r="1" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  C23280T  Europe=1 [0.2%]  surface glycoprotein, T573I</title>
@@ -31654,28 +31651,28 @@
 	<circle cx="1142" cy="350" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  A23403G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-27  A23403G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1142" cy="350" r="1" style="fill:yellow;" class="cv" />
+</g>
+<g>
+	<title>2020-12-27  A23403G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1142" cy="350" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  A23403G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-27  A23403G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1142" cy="350" r="1" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2020-12-27  A23403G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%] Africa=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1142" cy="350" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  C23424T  Europe=1 [0.2%]  surface glycoprotein, P621L</title>
 	<circle cx="1142" cy="349" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  G23426C  Europe=1 [0.2%]  surface glycoprotein, V622L</title>
-	<circle cx="1142" cy="349" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-12-27  G23426T  Europe=2 [0.4%]  surface glycoprotein, V622F</title>
 	<circle cx="1142" cy="349" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-27  G23426C  Europe=1 [0.2%]  surface glycoprotein, V622L</title>
+	<circle cx="1142" cy="349" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  G23438A  Europe=1 [0.2%]  surface glycoprotein, A626T</title>
@@ -31710,12 +31707,12 @@
 	<circle cx="1141" cy="343" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C23604A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1141" cy="343" r="1" style="fill:orange;" class="cv" />
+	<title>2020-12-27  C23604A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1141" cy="343" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C23604A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1141" cy="343" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-27  C23604A  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1141" cy="343" r="1" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  C23625T  Europe=1 [0.2%]  surface glycoprotein, A688V</title>
@@ -31746,12 +31743,12 @@
 	<circle cx="1141" cy="340" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C23709T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1141" cy="340" r="1" style="fill:orange;" class="cv" />
+	<title>2020-12-27  C23709T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1141" cy="340" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C23709T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1141" cy="340" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-27  C23709T  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, T716I</title>
+	<circle cx="1141" cy="340" r="1" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  C23718T  Europe=1 [0.2%]  surface glycoprotein, T719I</title>
@@ -31814,12 +31811,12 @@
 	<circle cx="1139" cy="316" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  T24506G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1139" cy="316" r="1" style="fill:orange;" class="cv" />
+	<title>2020-12-27  T24506G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="1139" cy="316" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  T24506G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, S982A</title>
-	<circle cx="1139" cy="316" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-27  T24506G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="1139" cy="316" r="1" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  G24649T  Europe=1 [0.2%]  surface glycoprotein, M1029I</title>
@@ -31846,16 +31843,16 @@
 	<circle cx="1138" cy="303" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  G24914C  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1138" cy="303" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-27  G24914C  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="1138" cy="303" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  G24914C  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, D1118H</title>
+	<title>2020-12-27  G24914C  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="1138" cy="303" r="1" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  G24914C  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%] Africa=1 [100.0%]  surface glycoprotein, D1118H</title>
-	<circle cx="1138" cy="303" r="1" style="fill:yellow;" class="cv" />
+	<title>2020-12-27  G24914C  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="1138" cy="303" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  G24932A  Europe=1 [0.2%]  surface glycoprotein, G1124S</title>
@@ -32078,11 +32075,11 @@
 	<circle cx="1132" cy="210" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C27945G  Europe=1 [0.2%]  ORF8 protein, Q18E</title>
+	<title>2020-12-27  C27945T  Europe=1 [0.2%]  ORF8 protein, Q18*</title>
 	<circle cx="1132" cy="210" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C27945T  Europe=1 [0.2%]  ORF8 protein, Q18*</title>
+	<title>2020-12-27  C27945G  Europe=1 [0.2%]  ORF8 protein, Q18E</title>
 	<circle cx="1132" cy="210" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -32174,16 +32171,16 @@
 	<circle cx="1132" cy="205" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  A28111G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%]  ORF8 protein, Y73C</title>
+	<title>2020-12-27  A28111G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%]  ORF8 protein, Y73C</title>
+	<circle cx="1132" cy="205" r="1" style="fill:yellow;" class="cv" />
+</g>
+<g>
+	<title>2020-12-27  A28111G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%]  ORF8 protein, Y73C</title>
 	<circle cx="1132" cy="205" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  A28111G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%]  ORF8 protein, Y73C</title>
+	<title>2020-12-27  A28111G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%]  ORF8 protein, Y73C</title>
 	<circle cx="1132" cy="205" r="1" style="fill:orange;" class="cv" />
-</g>
-<g>
-	<title>2020-12-27  A28111G  Europe=491 [100.0%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%] Africa=1 [100.0%]  ORF8 protein, Y73C</title>
-	<circle cx="1132" cy="205" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  T28334C  Europe=1 [0.2%]  nucleocapsid phosphoprotein, S21P</title>
@@ -32262,16 +32259,16 @@
 	<circle cx="1130" cy="179" r="3" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C28977T  Europe=490 [99.8%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
-	<circle cx="1130" cy="179" r="1" style="fill:lime;" class="cv" />
+	<title>2020-12-27  C28977T  Europe=490 [99.8%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
+	<circle cx="1130" cy="179" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C28977T  Europe=490 [99.8%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
+	<title>2020-12-27  C28977T  Europe=490 [99.8%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
 	<circle cx="1130" cy="179" r="1" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  C28977T  Europe=490 [99.8%] Asia=36 [100.0%] North America=6 [100.0%] Oceania=1 [100.0%] South America=1 [100.0%] Africa=1 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
-	<circle cx="1130" cy="179" r="1" style="fill:yellow;" class="cv" />
+	<title>2020-12-27  C28977T  Europe=490 [99.8%] Asia=36 [100.0%] North America=6 [100.0%] Africa=1 [100.0%] South America=1 [100.0%] Oceania=1 [100.0%]  nucleocapsid phosphoprotein, S235F</title>
+	<circle cx="1130" cy="179" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  C28988A  Europe=1 [0.2%]  nucleocapsid phosphoprotein, Q239K</title>
@@ -32902,12 +32899,12 @@
 	<circle cx="1181" cy="826" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-28  C7926T  Europe=1 [0.2%]  orf1ab polyprotein, A2554V</title>
-	<circle cx="1181" cy="824" r="1" style="fill:cyan;" class="cv" />
+	<title>2020-12-28  C7926T  Asia=1 [3.7%]  orf1ab polyprotein, A2554V</title>
+	<circle cx="1181" cy="824" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-28  C7926T  Europe=1 [0.2%] Asia=1 [3.7%]  orf1ab polyprotein, A2554V</title>
-	<circle cx="1181" cy="824" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-28  C7926T  Asia=1 [3.7%] Europe=1 [0.2%]  orf1ab polyprotein, A2554V</title>
+	<circle cx="1181" cy="824" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  A8001G  Europe=1 [0.2%]  orf1ab polyprotein, D2579G</title>
@@ -33342,12 +33339,12 @@
 	<circle cx="1163" cy="491" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-28  G18985T  North America=1 [9.1%]  orf1ab polyprotein, V6241F</title>
-	<circle cx="1163" cy="485" r="1" style="fill:white;" class="cv" />
-</g>
-<g>
 	<title>2020-12-28  G18985T  Europe=1 [0.2%]  orf1ab polyprotein, V6241F</title>
 	<circle cx="1163" cy="485" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-28  G18985T  Europe=1 [0.2%] North America=1 [9.1%]  orf1ab polyprotein, V6241F</title>
+	<circle cx="1163" cy="485" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  A19079G  Europe=19 [3.5%]  orf1ab polyprotein, E6272G</title>
@@ -33514,12 +33511,12 @@
 	<circle cx="1159" cy="403" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-28  C21627T  Europe=1 [0.2%]  surface glycoprotein, T22I</title>
-	<circle cx="1159" cy="403" r="1" style="fill:cyan;" class="cv" />
+	<title>2020-12-28  C21627T  North America=1 [9.1%]  surface glycoprotein, T22I</title>
+	<circle cx="1159" cy="403" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-28  C21627T  Europe=1 [0.2%] North America=1 [9.1%]  surface glycoprotein, T22I</title>
-	<circle cx="1159" cy="403" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-28  C21627T  Europe=1 [0.2%]  surface glycoprotein, T22I</title>
+	<circle cx="1159" cy="403" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  T21633C  Europe=1 [0.2%]  surface glycoprotein, L24S</title>
@@ -34302,12 +34299,12 @@
 	<circle cx="1147" cy="181" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-28  C28928G  Europe=2 [0.4%]  nucleocapsid phosphoprotein, L219V</title>
-	<circle cx="1147" cy="179" r="2" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-12-28  C28928A  Europe=1 [0.2%]  nucleocapsid phosphoprotein, L219I</title>
 	<circle cx="1147" cy="179" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-28  C28928G  Europe=2 [0.4%]  nucleocapsid phosphoprotein, L219V</title>
+	<circle cx="1147" cy="179" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  C28969A  Europe=3 [0.6%]  nucleocapsid phosphoprotein, S232R</title>
@@ -34762,11 +34759,11 @@
 	<circle cx="1193" cy="997" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-29  C2388G  Europe=1 [0.1%]  orf1ab polyprotein, T708R</title>
+	<title>2020-12-29  C2388T  Europe=1 [0.1%]  orf1ab polyprotein, T708I</title>
 	<circle cx="1193" cy="994" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-29  C2388T  Europe=1 [0.1%]  orf1ab polyprotein, T708I</title>
+	<title>2020-12-29  C2388G  Europe=1 [0.1%]  orf1ab polyprotein, T708R</title>
 	<circle cx="1193" cy="994" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -35178,12 +35175,12 @@
 	<circle cx="1189" cy="893" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-29  C5730T  Africa=1 [33.3%]  orf1ab polyprotein, T1822I</title>
-	<circle cx="1189" cy="892" r="1" style="fill:yellow;" class="cv" />
-</g>
-<g>
 	<title>2020-12-29  C5730T  Europe=1 [0.1%]  orf1ab polyprotein, T1822I</title>
 	<circle cx="1189" cy="892" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-29  C5730T  Europe=1 [0.1%] Africa=1 [33.3%]  orf1ab polyprotein, T1822I</title>
+	<circle cx="1189" cy="892" r="1" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  T5762C  Europe=4 [0.4%]  orf1ab polyprotein, C1833R</title>
@@ -35334,6 +35331,14 @@
 	<circle cx="1188" cy="854" r="1" style="fill:orange;" class="cv" />
 </g>
 <g>
+	<title>2020-12-29  G7042A  Europe=1 [0.1%]  orf1ab polyprotein, M2259I</title>
+	<circle cx="1188" cy="851" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-29  G7042T  Africa=1 [33.3%]  orf1ab polyprotein, M2259I</title>
+	<circle cx="1188" cy="851" r="1" style="fill:yellow;" class="cv" />
+</g>
+<g>
 	<title>2020-12-29  G7042T  Europe=1 [0.1%]  orf1ab polyprotein, M2259I</title>
 	<circle cx="1188" cy="851" r="1" style="fill:cyan;" class="cv" />
 </g>
@@ -35342,24 +35347,16 @@
 	<circle cx="1188" cy="851" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-29  G7042T  Europe=1 [0.1%] North America=1 [6.2%] Africa=1 [33.3%]  orf1ab polyprotein, M2259I</title>
-	<circle cx="1188" cy="851" r="1" style="fill:yellow;" class="cv" />
-</g>
-<g>
-	<title>2020-12-29  G7042A  Europe=1 [0.1%]  orf1ab polyprotein, M2259I</title>
+	<title>2020-12-29  C7056A  Europe=1 [0.1%]  orf1ab polyprotein, T2264N</title>
 	<circle cx="1188" cy="851" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-29  C7056A  Europe=1 [0.1%]  orf1ab polyprotein, T2264N</title>
+	<title>2020-12-29  G7058A  Europe=1 [0.1%]  orf1ab polyprotein, G2265S</title>
 	<circle cx="1188" cy="851" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  GGTT7058G  Europe=2 [0.2%]  orf1ab polyprotein, G2265D/del</title>
 	<circle cx="1188" cy="851" r="2" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-29  G7058A  Europe=1 [0.1%]  orf1ab polyprotein, G2265S</title>
-	<circle cx="1188" cy="851" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  G7078T  Europe=1 [0.1%]  orf1ab polyprotein, L2271F</title>
@@ -36158,12 +36155,12 @@
 	<circle cx="1175" cy="473" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-29  C19390T  Asia=1 [4.3%]  orf1ab polyprotein, P6376S</title>
-	<circle cx="1175" cy="472" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-29  C19390T  North America=1 [6.2%]  orf1ab polyprotein, P6376S</title>
+	<circle cx="1175" cy="472" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-29  C19390T  Asia=1 [4.3%] North America=1 [6.2%]  orf1ab polyprotein, P6376S</title>
-	<circle cx="1175" cy="472" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-29  C19390T  North America=1 [6.2%] Asia=1 [4.3%]  orf1ab polyprotein, P6376S</title>
+	<circle cx="1175" cy="472" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  A19496G  Europe=2 [0.2%]  orf1ab polyprotein, H6411R</title>
@@ -37010,12 +37007,12 @@
 	<circle cx="1168" cy="271" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-29  C25916T  Asia=1 [4.3%]  ORF3a protein, T175I</title>
-	<circle cx="1168" cy="271" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-29  C25916T  Europe=1 [0.1%]  ORF3a protein, T175I</title>
+	<circle cx="1168" cy="271" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-29  C25916T  Asia=1 [4.3%] Europe=1 [0.1%]  ORF3a protein, T175I</title>
-	<circle cx="1168" cy="271" r="1" style="fill:cyan;" class="cv" />
+	<title>2020-12-29  C25916T  Europe=1 [0.1%] Asia=1 [4.3%]  ORF3a protein, T175I</title>
+	<circle cx="1168" cy="271" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  G25947C  Europe=2 [0.2%]  ORF3a protein, Q185H</title>
@@ -37166,11 +37163,11 @@
 	<circle cx="1167" cy="233" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-29  G27163T  Europe=1 [0.1%]  membrane glycoprotein, S214I</title>
+	<title>2020-12-29  G27163A  Europe=1 [0.1%]  membrane glycoprotein, S214N</title>
 	<circle cx="1167" cy="233" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-29  G27163A  Europe=1 [0.1%]  membrane glycoprotein, S214N</title>
+	<title>2020-12-29  G27163T  Europe=1 [0.1%]  membrane glycoprotein, S214I</title>
 	<circle cx="1167" cy="233" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -37238,12 +37235,12 @@
 	<circle cx="1166" cy="221" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-29  C27532T  Europe=2 [0.2%]  ORF7a protein, H47Y</title>
-	<circle cx="1166" cy="221" r="2" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-12-29  C27532A  Europe=1 [0.1%]  ORF7a protein, H47N</title>
 	<circle cx="1166" cy="221" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-29  C27532T  Europe=2 [0.2%]  ORF7a protein, H47Y</title>
+	<circle cx="1166" cy="221" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  C27535T  Europe=1 [0.1%]  ORF7a protein, P48S</title>
@@ -37746,11 +37743,11 @@
 	<circle cx="1197" cy="1038" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-30  A1005T  Europe=1 [0.1%]  orf1ab polyprotein, K247M</title>
+	<title>2020-12-30  A1005G  Europe=1 [0.1%]  orf1ab polyprotein, K247R</title>
 	<circle cx="1197" cy="1037" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-30  A1005G  Europe=1 [0.1%]  orf1ab polyprotein, K247R</title>
+	<title>2020-12-30  A1005T  Europe=1 [0.1%]  orf1ab polyprotein, K247M</title>
 	<circle cx="1197" cy="1037" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -39710,12 +39707,12 @@
 	<circle cx="1183" cy="219" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-30  C27577T  Asia=2 [40.0%]  ORF7a protein, Q62*</title>
-	<circle cx="1183" cy="219" r="2" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2020-12-30  C27577T  Europe=2 [0.3%]  ORF7a protein, Q62*</title>
 	<circle cx="1183" cy="219" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-30  C27577T  Europe=2 [0.3%] Asia=2 [40.0%]  ORF7a protein, Q62*</title>
+	<circle cx="1183" cy="219" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-30  G27589T  Europe=1 [0.1%]  ORF7a protein, A66S</title>
@@ -39978,12 +39975,12 @@
 	<circle cx="1183" cy="178" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-30  C28928T  Europe=1 [0.1%]  nucleocapsid phosphoprotein, L219F</title>
-	<circle cx="1183" cy="178" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-12-30  C28928A  Europe=4 [0.6%]  nucleocapsid phosphoprotein, L219I</title>
 	<circle cx="1183" cy="178" r="3" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-30  C28928T  Europe=1 [0.1%]  nucleocapsid phosphoprotein, L219F</title>
+	<circle cx="1183" cy="178" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-30  C28932T  Europe=2 [0.3%]  nucleocapsid phosphoprotein, A220V</title>
@@ -41454,12 +41451,12 @@
 	<circle cx="1200" cy="526" r="5" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-31  A17615G  Europe=368 [46.3%] North America=16 [72.7%] Oceania=1 [100.0%]  orf1ab polyprotein, K5784R</title>
-	<circle cx="1200" cy="526" r="1" style="fill:lime;" class="cv" />
-</g>
-<g>
 	<title>2020-12-31  A17615G  Asia=1 [4.3%]  orf1ab polyprotein, K5784R</title>
 	<circle cx="1200" cy="526" r="1" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
+	<title>2020-12-31  A17615G  Asia=1 [4.3%] Oceania=1 [100.0%]  orf1ab polyprotein, K5784R</title>
+	<circle cx="1200" cy="526" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
 	<title>2020-12-31  T17731C  Europe=1 [0.1%]  orf1ab polyprotein, F5823L</title>
@@ -41554,11 +41551,11 @@
 	<circle cx="1200" cy="486" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-31  G18985A  Europe=1 [0.1%]  orf1ab polyprotein, V6241I</title>
+	<title>2020-12-31  G18985T  Europe=1 [0.1%]  orf1ab polyprotein, V6241F</title>
 	<circle cx="1200" cy="484" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-31  G18985T  Europe=1 [0.1%]  orf1ab polyprotein, V6241F</title>
+	<title>2020-12-31  G18985A  Europe=1 [0.1%]  orf1ab polyprotein, V6241I</title>
 	<circle cx="1200" cy="484" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -41706,12 +41703,12 @@
 	<circle cx="1200" cy="421" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-31  C21077T  Europe=4 [0.5%]  orf1ab polyprotein, T6938I</title>
-	<circle cx="1200" cy="419" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-12-31  C21077A  Europe=1 [0.1%]  orf1ab polyprotein, T6938K</title>
 	<circle cx="1200" cy="419" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-31  C21077T  Europe=4 [0.5%]  orf1ab polyprotein, T6938I</title>
+	<circle cx="1200" cy="419" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-31  A21089C  Europe=1 [0.1%]  orf1ab polyprotein, D6942A</title>
@@ -41946,12 +41943,12 @@
 	<circle cx="1200" cy="348" r="1" style="fill:lime;" class="cv" />
 </g>
 <g>
-	<title>2020-12-31  G23426T  Europe=4 [0.5%]  surface glycoprotein, V622F</title>
-	<circle cx="1200" cy="347" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-12-31  G23426C  Europe=1 [0.1%]  surface glycoprotein, V622L</title>
 	<circle cx="1200" cy="347" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-31  G23426T  Europe=4 [0.5%]  surface glycoprotein, V622F</title>
+	<circle cx="1200" cy="347" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-31  G23429T  Europe=1 [0.1%]  surface glycoprotein, A623S</title>
@@ -42869,9 +42866,71 @@
 	<title>2020-12-31  C29670T  Europe=1 [0.1%]  ORF10 protein, T38I</title>
 	<circle cx="1200" cy="155" r="1" style="fill:cyan;" class="cv" />
 </g>
-<rect x="1865" y="140" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
-<text font-size="1.8em" x="1880" y="170" fill="white">Data from 6 continents</text>
-<text font-size="1.8em" x="1880" y="200" fill="white">Total genomes≥10  Genomes/day≥1</text>
-<text font-size="1.8em" x="1880" y="230" fill="white">2,683 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="260" fill="white">Updated 2021-05-14</text>
+</g>
+<rect x="2" y="2" width="1035" height="120" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<a href="https://bcgsc.github.io/SARS2/">
+<title>main menu</title>
+<text font-size="4.0em" x="50" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
+</a>
+<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 12,197 GISAID genomes</text>
+ <circle cx="25" cy="25" r="21" fill="white" opacity="0.75"/>
+    <path class="button" onclick="pan(0, 25)" d="M25 5 l6 10 a20 35 0 0 0 -12 0z" />
+    <path class="button" onclick="pan(25, 0)" d="M5 25 l10 -6 a35 20 0 0 0 0 12z" />
+    <path class="button" onclick="pan(0,-25)" d="M25 45 l6 -10 a20, 35 0 0,1 -12,0z" />
+    <path class="button" onclick="pan(-25, 0)" d="M45 25 l-10 -6 a35 20 0 0 1 0 12z" />
+    <circle class="compass" cx="25" cy="25" r="10"/>
+    <circle class="button"  cx="25" cy="20.5" r="4" onclick="zoom(0.8)"/>
+    <circle class="button"  cx="25" cy="29.5" r="4" onclick="zoom(1.25)"/>
+    <rect class="plus-minus" x="23" y="20" width="4" height="1"/>
+    <rect class="plus-minus" x="23" y="29" width="4" height="1"/>
+    <rect class="plus-minus" x="24.5" y="27.5" width="1" height="4"/>
+ <script type="text/javascript"><![CDATA[
+        var transformMatrix = [1, 0, 0, 1, 0, 0];
+        var svg = document.getElementById('map-svg');
+        var viewbox = svg.getAttributeNS(null, "viewBox").split(" ");
+        var centerX = parseFloat(viewbox[2]) / 2;
+        var centerY = parseFloat(viewbox[3]) / 2;
+        var matrixGroup = svg.getElementById("matrix-group");
+        function pan(dx, dy) {
+            transformMatrix[4] += dx;
+            transformMatrix[5] += dy;
+            setMatrix();
+        }
+        function zoom(scale) {
+            for (var i = 0; i < 6; i++) {
+                transformMatrix[i] *= scale;
+            }
+            transformMatrix[4] += (1 - scale) * centerX;
+            transformMatrix[5] += (1 - scale) * centerY;
+            setMatrix();
+        }
+        function setMatrix() {
+            var newMatrix = "matrix(" +  transformMatrix.join(' ') + ")";
+            matrixGroup.setAttributeNS(null, "transform", newMatrix);
+        }
+    ]]></script>
+<text font-size="2.5em" x="75" y="175" fill="white">Continents</text>
+<circle cx="60" cy="205" r="8" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="215" fill="white">Europe</text>
+<circle cx="60" cy="235" r="8" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="245" fill="white">Asia</text>
+<circle cx="60" cy="265" r="8" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="275" fill="white">North America</text>
+<circle cx="60" cy="295" r="8" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="305" fill="white">South America</text>
+<circle cx="60" cy="325" r="8" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="335" fill="white">Africa</text>
+<circle cx="60" cy="355" r="8" style="fill:lime;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="2.0em" x="75" y="365" fill="white">Oceania</text>
+<circle cx="60" cy="410" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="101" cy="410" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="142" cy="410" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="183" cy="410" r="12.0017363099173" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="2.0em" x="50" y="455" fill="white">1      10        100        1k</text>
+<text font-size="2.0em" x="50" y="485" fill="white">genome samples</text>
+<rect x="1865" y="2" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
+<text font-size="1.8em" x="1880" y="32" fill="white">Data from 6 continents</text>
+<text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥1</text>
+<text font-size="1.8em" x="1880" y="92" fill="white">2,683 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-17</text>
 </svg>
