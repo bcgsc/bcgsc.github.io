@@ -3572,12 +3572,12 @@
 	<circle cx="1418" cy="2089" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-06-17  TGTT26157T  Europe=2 [0.6%]  ORF3a protein, V256N/del</title>
-	<circle cx="1423" cy="2110" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-06-17  TGTTA26157T  Asia=2 [1.6%]  ORF3a protein, V256I/del</title>
 	<circle cx="1423" cy="2110" r="2" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2020-06-17  TGTT26157T  Europe=2 [0.6%]  ORF3a protein, V256N/del</title>
+	<circle cx="1423" cy="2110" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-06-17  GTTA26158G  Asia=2 [1.6%]  ORF3a protein, V256D/del</title>
@@ -8296,11 +8296,11 @@
 	<circle cx="439" cy="565" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-11-10  A27914ATTT  North America=3 [0.4%]  ORF8 protein, G8F/ins</title>
+	<title>2020-11-10  A27914AT  North America=3 [0.4%]  ORF8 protein, G8W/ins</title>
 	<circle cx="439" cy="565" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-11-10  A27914AT  North America=3 [0.4%]  ORF8 protein, G8W/ins</title>
+	<title>2020-11-10  A27914ATTT  North America=3 [0.4%]  ORF8 protein, G8F/ins</title>
 	<circle cx="439" cy="565" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -9660,15 +9660,15 @@
 	<circle cx="915" cy="443" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
+	<title>2020-12-10  TGTTA26157T  Europe=2 [0.1%]  ORF3a protein, V256I/del</title>
+	<circle cx="869" cy="323" r="0" style="fill:cyan;" class="cv" />
+</g>
+<g>
 	<title>2020-12-10  TGTT26157T  North America=2 [0.4%]  ORF3a protein, V256N/del</title>
 	<circle cx="869" cy="323" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-10  TGTT26157T  North America=2 [0.4%] Europe=3 [0.2%]  ORF3a protein, V256N/del</title>
-	<circle cx="869" cy="323" r="0" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-10  TGTTA26157T  Europe=2 [0.1%]  ORF3a protein, V256I/del</title>
 	<circle cx="869" cy="323" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -11008,11 +11008,11 @@
 	<circle cx="1184" cy="275" r="0" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-30  TGTT26157T  Europe=3 [0.2%]  ORF3a protein, V256N/del</title>
+	<title>2020-12-30  TGTTA26157T  Europe=2 [0.1%]  ORF3a protein, V256I/del</title>
 	<circle cx="1184" cy="263" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-30  TGTTA26157T  Europe=2 [0.1%]  ORF3a protein, V256I/del</title>
+	<title>2020-12-30  TGTT26157T  Europe=3 [0.2%]  ORF3a protein, V256N/del</title>
 	<circle cx="1184" cy="263" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -11122,7 +11122,7 @@
 <text font-size="3.6em" x="100" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 </a>
 <text font-size="2.5em" x="100" y="105" fill="white">Genbank MN908947 vs 373,320 GISAID genomes</text>
-<circle cx="50" cy="50" r="42" fill="gainsboro" opacity="0.75" onclick="rotatex(90,1200,1200)"/>
+<circle cx="50" cy="50" r="42" fill="#225EA8" opacity="0.3" onclick="rotatex(90,1200,1200)"/>
 	<path class="button" onclick="pan( 0, 50)" d="M50 10 l12   20 a40, 70 0 0,0 -24,  0z" />
 	<path class="button" onclick="pan( 50, 0)" d="M10 50 l20  -12 a70, 40 0 0,0   0, 24z" />
 	<path class="button" onclick="pan( 0,-50)" d="M50 90 l12  -20 a40, 70 0 0,1 -24,  0z" />
@@ -11219,7 +11219,8 @@
         }
       }
     ]]></script>
-<rect x="2" y="123" width="430" height="327" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="2" y="123" width="235" height="227" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="2" y="351" width="235" height="110" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
 <text font-size="2.1em" x="50" y="160" fill="white">Continents</text>
 <circle cx="35" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="1.6em" x="50" y="200" fill="white">Europe</text>
@@ -11233,11 +11234,11 @@
 <text font-size="1.6em" x="50" y="300" fill="white">Africa</text>
 <circle cx="35" cy="315" r="6" style="fill:lime;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="1.6em" x="50" y="325" fill="white">South America</text>
-<circle cx="35" cy="365" r="1" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="70" cy="365" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="105" cy="365" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="1.7em" x="25" y="410" fill="white">1      10        100% daily</text>
-<text font-size="1.7em" x="25" y="440" fill="white">sample fraction</text>
+<circle cx="35" cy="375" r="1" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="70" cy="375" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="105" cy="375" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="1.7em" x="25" y="415" fill="white">1      10        100% daily</text>
+<text font-size="1.7em" x="25" y="445" fill="white">sample fraction</text>
 <rect x="1865" y="2" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 6 continents</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥2</text>

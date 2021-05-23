@@ -2278,12 +2278,12 @@
 	<circle cx="1157" cy="1024" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-17  C21614T  Europe=2 [100.0%] Asia=1 [100.0%]  surface glycoprotein, L18F</title>
-	<circle cx="1157" cy="1024" r="1" style="fill:white;" class="cv" />
-</g>
-<g>
 	<title>2020-12-17  C21614T  Africa=1 [8.3%]  surface glycoprotein, L18F</title>
 	<circle cx="1157" cy="1024" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-17  C21614T  Africa=1 [8.3%] Asia=1 [100.0%]  surface glycoprotein, L18F</title>
+	<circle cx="1157" cy="1024" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  A21801C  Africa=12 [100.0%]  surface glycoprotein, D80A</title>
@@ -2490,12 +2490,12 @@
 	<line x1="1198.1" y1="1190.7" x2="1197.8" y2="1189.4" style="stroke:white;" class="sb" />
 </g>
 <g>
-	<title>2020-12-19  C21575T  Europe=1 [100.0%]  surface glycoprotein, L5F</title>
-	<circle cx="1165" cy="1031" r="1" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
 	<title>2020-12-19  C21575T  Africa=1 [25.0%]  surface glycoprotein, L5F</title>
 	<circle cx="1165" cy="1031" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-19  C21575T  Africa=1 [25.0%] Europe=1 [100.0%]  surface glycoprotein, L5F</title>
+	<circle cx="1165" cy="1031" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  C21614T  Africa=2 [50.0%]  surface glycoprotein, L18F</title>
@@ -2510,12 +2510,12 @@
 	<circle cx="1154" cy="982" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A21801C  Africa=4 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D80A</title>
-	<circle cx="1154" cy="982" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-19  A21801C  Africa=4 [100.0%] Europe=1 [100.0%]  surface glycoprotein, D80A</title>
+	<circle cx="1154" cy="982" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A21801C  Africa=4 [100.0%] Asia=1 [100.0%] Europe=1 [100.0%]  surface glycoprotein, D80A</title>
-	<circle cx="1154" cy="982" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-19  A21801C  Africa=4 [100.0%] Europe=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D80A</title>
+	<circle cx="1154" cy="982" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  A22206G  Africa=4 [100.0%]  surface glycoprotein, D215G</title>
@@ -2534,12 +2534,12 @@
 	<circle cx="1108" cy="761" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  G22813T  Africa=4 [100.0%] Europe=1 [100.0%]  surface glycoprotein, K417N</title>
-	<circle cx="1108" cy="761" r="1" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-19  G22813T  Africa=4 [100.0%] Asia=1 [100.0%]  surface glycoprotein, K417N</title>
+	<circle cx="1108" cy="761" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  G22813T  Africa=4 [100.0%] Europe=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, K417N</title>
-	<circle cx="1108" cy="761" r="1" style="fill:white;" class="cv" />
+	<title>2020-12-19  G22813T  Africa=4 [100.0%] Asia=1 [100.0%] Europe=1 [100.0%]  surface glycoprotein, K417N</title>
+	<circle cx="1108" cy="761" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G23012A  Africa=4 [100.0%]  surface glycoprotein, E484K</title>
@@ -4036,7 +4036,7 @@
 <text font-size="3.6em" x="100" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 </a>
 <text font-size="2.5em" x="100" y="105" fill="white">Genbank MN908947 vs 762 GISAID genomes</text>
-<circle cx="50" cy="50" r="42" fill="gainsboro" opacity="0.75" onclick="rotatex(90,1200,1200)"/>
+<circle cx="50" cy="50" r="42" fill="#225EA8" opacity="0.3" onclick="rotatex(90,1200,1200)"/>
 	<path class="button" onclick="pan( 0, 50)" d="M50 10 l12   20 a40, 70 0 0,0 -24,  0z" />
 	<path class="button" onclick="pan( 50, 0)" d="M10 50 l20  -12 a70, 40 0 0,0   0, 24z" />
 	<path class="button" onclick="pan( 0,-50)" d="M50 90 l12  -20 a40, 70 0 0,1 -24,  0z" />
@@ -4133,7 +4133,8 @@
         }
       }
     ]]></script>
-<rect x="2" y="123" width="430" height="327" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="2" y="123" width="235" height="227" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="2" y="351" width="235" height="110" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
 <text font-size="2.1em" x="50" y="160" fill="white">Continents</text>
 <circle cx="35" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="1.6em" x="50" y="200" fill="white">Africa</text>
@@ -4145,12 +4146,12 @@
 <text font-size="1.6em" x="50" y="275" fill="white">Oceania</text>
 <circle cx="35" cy="290" r="6" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="1.6em" x="50" y="300" fill="white">North America</text>
-<circle cx="35" cy="340" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="71" cy="340" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="107" cy="340" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="143" cy="340" r="12.0017363099173" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="1.8em" x="25" y="385" fill="white">1      10        100        1k</text>
-<text font-size="1.8em" x="25" y="415" fill="white">genome samples</text>
+<circle cx="35" cy="375" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="71" cy="375" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="107" cy="375" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="143" cy="375" r="12.0017363099173" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="1.8em" x="25" y="415" fill="white">1      10        100        1k</text>
+<text font-size="1.8em" x="25" y="445" fill="white">genome samples</text>
 <rect x="1865" y="2" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 6 continents</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥1</text>

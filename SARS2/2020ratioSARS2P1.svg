@@ -1386,7 +1386,7 @@
 <text font-size="3.6em" x="100" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 </a>
 <text font-size="2.5em" x="100" y="105" fill="white">Genbank MN908947 vs 62 GISAID genomes</text>
-<circle cx="50" cy="50" r="42" fill="gainsboro" opacity="0.75" onclick="rotatex(90,1200,1200)"/>
+<circle cx="50" cy="50" r="42" fill="#225EA8" opacity="0.3" onclick="rotatex(90,1200,1200)"/>
 	<path class="button" onclick="pan( 0, 50)" d="M50 10 l12   20 a40, 70 0 0,0 -24,  0z" />
 	<path class="button" onclick="pan( 50, 0)" d="M10 50 l20  -12 a70, 40 0 0,0   0, 24z" />
 	<path class="button" onclick="pan( 0,-50)" d="M50 90 l12  -20 a40, 70 0 0,1 -24,  0z" />
@@ -1483,15 +1483,16 @@
         }
       }
     ]]></script>
-<rect x="2" y="123" width="430" height="327" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="2" y="123" width="235" height="227" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="2" y="351" width="235" height="110" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
 <text font-size="2.1em" x="50" y="160" fill="white">Continents</text>
 <circle cx="35" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="1.6em" x="50" y="200" fill="white">South America</text>
-<circle cx="35" cy="240" r="1" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="70" cy="240" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="105" cy="240" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="1.7em" x="25" y="285" fill="white">1      10        100% daily</text>
-<text font-size="1.7em" x="25" y="315" fill="white">sample fraction</text>
+<circle cx="35" cy="375" r="1" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="70" cy="375" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="105" cy="375" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="1.7em" x="25" y="415" fill="white">1      10        100% daily</text>
+<text font-size="1.7em" x="25" y="445" fill="white">sample fraction</text>
 <rect x="1865" y="2" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 6 continents</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥1</text>

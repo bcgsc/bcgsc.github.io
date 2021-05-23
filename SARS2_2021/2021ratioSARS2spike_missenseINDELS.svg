@@ -2762,15 +2762,15 @@
 	<circle cx="1369" cy="1069" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
+	<title>2021-02-22  T21982TGGTGT  Europe=2 [0.0%]  surface glycoprotein, L141G/ins</title>
+	<circle cx="1408" cy="1039" r="0" style="fill:cyan;" class="cv" />
+</g>
+<g>
 	<title>2021-02-22  T21982TGGGTG  Asia=2 [0.5%]  surface glycoprotein, L141G/ins</title>
 	<circle cx="1408" cy="1039" r="1" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2021-02-22  T21982TGGGTG  Asia=2 [0.5%] Europe=2 [0.0%]  surface glycoprotein, L141G/ins</title>
-	<circle cx="1408" cy="1039" r="0" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2021-02-22  T21982TGGTGT  Europe=2 [0.0%]  surface glycoprotein, L141G/ins</title>
 	<circle cx="1408" cy="1039" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -4070,11 +4070,11 @@
 	<circle cx="1406" cy="1137" r="0" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2021-03-15  T21982TGGTGT  Europe=2 [0.0%]  surface glycoprotein, L141G/ins</title>
+	<title>2021-03-15  T21982TGGGTG  Europe=3 [0.0%]  surface glycoprotein, L141G/ins</title>
 	<circle cx="1452" cy="1123" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2021-03-15  T21982TGGGTG  Europe=3 [0.0%]  surface glycoprotein, L141G/ins</title>
+	<title>2021-03-15  T21982TGGTGT  Europe=2 [0.0%]  surface glycoprotein, L141G/ins</title>
 	<circle cx="1452" cy="1123" r="0" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -7924,7 +7924,7 @@
 <text font-size="3.6em" x="100" y="47" fill="white">SARS-CoV-2 variants 2021 timemap</text>
 </a>
 <text font-size="2.5em" x="100" y="105" fill="white">Genbank MN908947 vs 839,909 GISAID genomes</text>
-<circle cx="50" cy="50" r="42" fill="gainsboro" opacity="0.75" onclick="rotatex(90,1200,1200)"/>
+<circle cx="50" cy="50" r="42" fill="#225EA8" opacity="0.3" onclick="rotatex(90,1200,1200)"/>
 	<path class="button" onclick="pan( 0, 50)" d="M50 10 l12   20 a40, 70 0 0,0 -24,  0z" />
 	<path class="button" onclick="pan( 50, 0)" d="M10 50 l20  -12 a70, 40 0 0,0   0, 24z" />
 	<path class="button" onclick="pan( 0,-50)" d="M50 90 l12  -20 a40, 70 0 0,1 -24,  0z" />
@@ -8021,7 +8021,8 @@
         }
       }
     ]]></script>
-<rect x="2" y="123" width="430" height="327" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="2" y="123" width="235" height="227" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="2" y="351" width="235" height="110" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
 <text font-size="2.1em" x="50" y="160" fill="white">Continents</text>
 <circle cx="35" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="1.6em" x="50" y="200" fill="white">Europe</text>
@@ -8035,11 +8036,11 @@
 <text font-size="1.6em" x="50" y="300" fill="white">Africa</text>
 <circle cx="35" cy="315" r="6" style="fill:lime;stroke:black;stroke-width:0;fill-opacity:0.6;" />
 <text font-size="1.6em" x="50" y="325" fill="white">Oceania</text>
-<circle cx="35" cy="365" r="1" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="70" cy="365" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="105" cy="365" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="1.7em" x="25" y="410" fill="white">1      10        100% daily</text>
-<text font-size="1.7em" x="25" y="440" fill="white">sample fraction</text>
+<circle cx="35" cy="375" r="1" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="70" cy="375" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="105" cy="375" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="1.7em" x="25" y="415" fill="white">1      10        100% daily</text>
+<text font-size="1.7em" x="25" y="445" fill="white">sample fraction</text>
 <rect x="1865" y="2" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 6 continents</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥2</text>
