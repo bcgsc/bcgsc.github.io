@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg width="2400" height="2400" xmlns="http://www.w3.org/2000/svg" style="background-color:black" viewBox="0 0 2400 2400" id="map-svg">
+<svg width="2400" height="2400" xmlns="http://www.w3.org/2000/svg" style="background-color:black" viewBox="0 0 2400 2400" id="map-svg" onload="makeDraggable(evt)" >
 <defs>
 	<style type="text/css"><![CDATA[
 	.sb {
@@ -39,10 +39,23 @@
 	g:hover, g:active {
 	outline: dotted 2px yellow;
 	}
+	.static {
+	cursor: not-allowed;
+	}
+	.draggable, .draggable-group {
+	cursor: pointer;
+	}
+	svg text {
+	cursor: default;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	}
 	]]></style>
 </defs>
-<text font-size="4.0em" x="50" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
-<g id="matrix-group" transform="matrix(1 0 0 1 0 0)">
+<text font-size="3.6em" x="100" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
+<g id="matrix-group" transform="matrix(1 0 0 1 0 0)" class="draggable-group">
 <circle cx="1200" cy="1200" r="1052" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="1028" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <circle cx="1200" cy="1200" r="1026" style="fill:gainsboro;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
@@ -78,27 +91,27 @@
 <text font-size="2.0em" x="1215" y="1084" fill="white">21.5 kb</text>
 <g>
 	<title>2020-01-24 Australia=3</title>
-	<line x1="1204.0" y1="1190.8" x2="1205.1" y2="1188.4" style="stroke:cyan;" class="sb" />
+	<line x1="1202.0" y1="1195.4" x2="1203.1" y2="1192.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-01-25 Australia=3</title>
-	<line x1="1204.2" y1="1190.9" x2="1205.3" y2="1188.4" style="stroke:cyan;" class="sb" />
+	<line x1="1202.1" y1="1195.5" x2="1203.2" y2="1193.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-01-30 Australia=8</title>
-	<line x1="1204.9" y1="1191.3" x2="1207.0" y2="1187.6" style="stroke:cyan;" class="sb" />
+	<line x1="1202.5" y1="1195.6" x2="1204.6" y2="1191.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-02-05 Australia=2</title>
-	<line x1="1205.8" y1="1191.8" x2="1207.0" y2="1190.1" style="stroke:cyan;" class="sb" />
+	<line x1="1202.9" y1="1195.9" x2="1204.1" y2="1194.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-02-22 Australia=2</title>
-	<line x1="1207.9" y1="1193.9" x2="1209.6" y2="1192.5" style="stroke:cyan;" class="sb" />
+	<line x1="1203.9" y1="1196.9" x2="1205.6" y2="1195.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-02-28 Australia=6</title>
-	<line x1="1208.5" y1="1194.7" x2="1211.7" y2="1192.7" style="stroke:cyan;" class="sb" />
+	<line x1="1204.2" y1="1197.4" x2="1207.5" y2="1195.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-02-28  G25323T  Australia=3 [50.0%]  surface glycoprotein, C1254F</title>
@@ -106,27 +119,27 @@
 </g>
 <g>
 	<title>2020-02-29 Australia=3</title>
-	<line x1="1208.6" y1="1194.9" x2="1210.9" y2="1193.5" style="stroke:cyan;" class="sb" />
+	<line x1="1204.3" y1="1197.4" x2="1206.6" y2="1196.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-02 Australia=3</title>
-	<line x1="1208.7" y1="1195.1" x2="1211.1" y2="1193.8" style="stroke:cyan;" class="sb" />
+	<line x1="1204.4" y1="1197.6" x2="1206.7" y2="1196.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-03 Australia=6</title>
-	<line x1="1208.8" y1="1195.3" x2="1212.2" y2="1193.5" style="stroke:cyan;" class="sb" />
+	<line x1="1204.4" y1="1197.7" x2="1207.8" y2="1195.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-04 Australia=9</title>
-	<line x1="1208.9" y1="1195.5" x2="1212.9" y2="1193.4" style="stroke:cyan;" class="sb" />
+	<line x1="1204.5" y1="1197.7" x2="1208.5" y2="1195.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-05 Australia=4</title>
-	<line x1="1209.0" y1="1195.6" x2="1211.8" y2="1194.2" style="stroke:cyan;" class="sb" />
+	<line x1="1204.5" y1="1197.8" x2="1207.3" y2="1196.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-06 Australia=6</title>
-	<line x1="1209.1" y1="1195.8" x2="1212.5" y2="1194.1" style="stroke:cyan;" class="sb" />
+	<line x1="1204.5" y1="1197.9" x2="1208.0" y2="1196.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-06  A23403G  Australia=2 [33.3%]  surface glycoprotein, D614G</title>
@@ -134,11 +147,11 @@
 </g>
 <g>
 	<title>2020-03-07 Australia=4</title>
-	<line x1="1209.1" y1="1195.9" x2="1212.0" y2="1194.6" style="stroke:cyan;" class="sb" />
+	<line x1="1204.6" y1="1198.0" x2="1207.4" y2="1196.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-08 Australia=8</title>
-	<line x1="1209.2" y1="1196.1" x2="1213.1" y2="1194.4" style="stroke:cyan;" class="sb" />
+	<line x1="1204.6" y1="1198.0" x2="1208.5" y2="1196.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-08  A23403G  Australia=2 [25.0%]  surface glycoprotein, D614G</title>
@@ -146,7 +159,7 @@
 </g>
 <g>
 	<title>2020-03-09 Australia=11</title>
-	<line x1="1209.3" y1="1196.2" x2="1213.8" y2="1194.4" style="stroke:cyan;" class="sb" />
+	<line x1="1204.6" y1="1198.1" x2="1209.1" y2="1196.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-09  A23403G  Australia=3 [27.3%]  surface glycoprotein, D614G</title>
@@ -154,7 +167,7 @@
 </g>
 <g>
 	<title>2020-03-10 Australia=26</title>
-	<line x1="1209.3" y1="1196.4" x2="1215.3" y2="1194.1" style="stroke:cyan;" class="sb" />
+	<line x1="1204.7" y1="1198.2" x2="1210.7" y2="1195.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-10  A23403G  Australia=4 [15.4%]  surface glycoprotein, D614G</title>
@@ -162,11 +175,11 @@
 </g>
 <g>
 	<title>2020-03-11 Australia=24</title>
-	<line x1="1209.4" y1="1196.6" x2="1215.3" y2="1194.4" style="stroke:cyan;" class="sb" />
+	<line x1="1204.7" y1="1198.3" x2="1210.6" y2="1196.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-11 New Zealand=3</title>
-	<line x1="1215.3" y1="1194.4" x2="1217.8" y2="1193.5" style="stroke:fuchsia;" class="sb" />
+	<line x1="1210.6" y1="1196.1" x2="1213.1" y2="1195.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-11  A23403G  Australia=9 [37.5%]  surface glycoprotein, D614G</title>
@@ -174,7 +187,7 @@
 </g>
 <g>
 	<title>2020-03-12 Australia=17</title>
-	<line x1="1209.4" y1="1196.7" x2="1214.8" y2="1194.9" style="stroke:cyan;" class="sb" />
+	<line x1="1204.7" y1="1198.4" x2="1210.1" y2="1196.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-12  A23403G  Australia=8 [47.1%]  surface glycoprotein, D614G</title>
@@ -182,7 +195,7 @@
 </g>
 <g>
 	<title>2020-03-13 Australia=20</title>
-	<line x1="1209.5" y1="1196.9" x2="1215.2" y2="1195.0" style="stroke:cyan;" class="sb" />
+	<line x1="1204.7" y1="1198.4" x2="1210.4" y2="1196.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-13  A23403G  Australia=8 [40.0%]  surface glycoprotein, D614G</title>
@@ -194,7 +207,7 @@
 </g>
 <g>
 	<title>2020-03-14 Australia=24</title>
-	<line x1="1209.6" y1="1197.0" x2="1215.6" y2="1195.2" style="stroke:cyan;" class="sb" />
+	<line x1="1204.8" y1="1198.5" x2="1210.8" y2="1196.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-14  A23403G  Australia=7 [29.2%]  surface glycoprotein, D614G</title>
@@ -202,11 +215,11 @@
 </g>
 <g>
 	<title>2020-03-15 Australia=23</title>
-	<line x1="1209.6" y1="1197.2" x2="1215.6" y2="1195.5" style="stroke:cyan;" class="sb" />
+	<line x1="1204.8" y1="1198.6" x2="1210.8" y2="1196.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-15 New Zealand=3</title>
-	<line x1="1215.6" y1="1195.5" x2="1218.2" y2="1194.7" style="stroke:fuchsia;" class="sb" />
+	<line x1="1210.8" y1="1196.9" x2="1213.4" y2="1196.1" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-15  A23403G  Australia=9 [39.1%]  surface glycoprotein, D614G</title>
@@ -214,11 +227,11 @@
 </g>
 <g>
 	<title>2020-03-16 Australia=37</title>
-	<line x1="1209.6" y1="1197.4" x2="1216.5" y2="1195.5" style="stroke:cyan;" class="sb" />
+	<line x1="1204.8" y1="1198.7" x2="1211.7" y2="1196.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-16 New Zealand=5</title>
-	<line x1="1216.5" y1="1195.5" x2="1219.9" y2="1194.6" style="stroke:fuchsia;" class="sb" />
+	<line x1="1211.7" y1="1196.8" x2="1215.1" y2="1195.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-16  A23403G  Australia=13 [35.1%]  surface glycoprotein, D614G</title>
@@ -230,11 +243,11 @@
 </g>
 <g>
 	<title>2020-03-17 Australia=43</title>
-	<line x1="1209.7" y1="1197.5" x2="1216.9" y2="1195.7" style="stroke:cyan;" class="sb" />
+	<line x1="1204.8" y1="1198.8" x2="1212.0" y2="1196.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-17 New Zealand=7</title>
-	<line x1="1216.9" y1="1195.7" x2="1220.8" y2="1194.7" style="stroke:fuchsia;" class="sb" />
+	<line x1="1212.0" y1="1196.9" x2="1216.0" y2="1195.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-17  C22224T  Australia=2 [4.7%]  surface glycoprotein, S221L</title>
@@ -250,11 +263,11 @@
 </g>
 <g>
 	<title>2020-03-18 Australia=55</title>
-	<line x1="1209.7" y1="1197.7" x2="1217.4" y2="1195.9" style="stroke:cyan;" class="sb" />
+	<line x1="1204.9" y1="1198.9" x2="1212.5" y2="1197.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-18 New Zealand=6</title>
-	<line x1="1217.4" y1="1195.9" x2="1221.1" y2="1195.0" style="stroke:fuchsia;" class="sb" />
+	<line x1="1212.5" y1="1197.0" x2="1216.2" y2="1196.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-18  G21624T  Australia=2 [3.6%]  surface glycoprotein, R21I</title>
@@ -274,11 +287,11 @@
 </g>
 <g>
 	<title>2020-03-19 Australia=91</title>
-	<line x1="1209.8" y1="1197.9" x2="1218.4" y2="1196.0" style="stroke:cyan;" class="sb" />
+	<line x1="1204.9" y1="1198.9" x2="1213.5" y2="1197.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-19 New Zealand=5</title>
-	<line x1="1218.4" y1="1196.0" x2="1221.8" y2="1195.2" style="stroke:fuchsia;" class="sb" />
+	<line x1="1213.5" y1="1197.1" x2="1216.9" y2="1196.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-19  A23403G  Australia=50 [54.9%]  surface glycoprotein, D614G</title>
@@ -290,11 +303,11 @@
 </g>
 <g>
 	<title>2020-03-20 Australia=136</title>
-	<line x1="1209.8" y1="1198.0" x2="1219.2" y2="1196.2" style="stroke:cyan;" class="sb" />
+	<line x1="1204.9" y1="1199.0" x2="1214.3" y2="1197.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-20 New Zealand=24</title>
-	<line x1="1219.2" y1="1196.2" x2="1225.4" y2="1194.9" style="stroke:fuchsia;" class="sb" />
+	<line x1="1214.3" y1="1197.1" x2="1220.5" y2="1195.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-20  G22346A  Australia=2 [1.5%]  surface glycoprotein, A262T</title>
@@ -314,11 +327,11 @@
 </g>
 <g>
 	<title>2020-03-21 Australia=135</title>
-	<line x1="1209.8" y1="1198.2" x2="1219.3" y2="1196.5" style="stroke:cyan;" class="sb" />
+	<line x1="1204.9" y1="1199.1" x2="1214.4" y2="1197.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-21 New Zealand=18</title>
-	<line x1="1219.3" y1="1196.5" x2="1224.9" y2="1195.5" style="stroke:fuchsia;" class="sb" />
+	<line x1="1214.4" y1="1197.4" x2="1220.0" y2="1196.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-21  C21614T  Australia=2 [1.5%]  surface glycoprotein, L18F</title>
@@ -350,11 +363,11 @@
 </g>
 <g>
 	<title>2020-03-22 Australia=178</title>
-	<line x1="1209.9" y1="1198.4" x2="1219.9" y2="1196.7" style="stroke:cyan;" class="sb" />
+	<line x1="1204.9" y1="1199.2" x2="1214.9" y2="1197.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-22 New Zealand=15</title>
-	<line x1="1219.9" y1="1196.7" x2="1225.2" y2="1195.9" style="stroke:fuchsia;" class="sb" />
+	<line x1="1214.9" y1="1197.5" x2="1220.3" y2="1196.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-22  G22346A  Australia=2 [1.1%]  surface glycoprotein, A262T</title>
@@ -386,11 +399,11 @@
 </g>
 <g>
 	<title>2020-03-23 Australia=141</title>
-	<line x1="1209.9" y1="1198.5" x2="1219.5" y2="1197.1" style="stroke:cyan;" class="sb" />
+	<line x1="1204.9" y1="1199.3" x2="1214.5" y2="1197.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-23 New Zealand=24</title>
-	<line x1="1219.5" y1="1197.1" x2="1225.7" y2="1196.2" style="stroke:fuchsia;" class="sb" />
+	<line x1="1214.5" y1="1197.9" x2="1220.8" y2="1197.0" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-23  C22326T  Australia=2 [1.4%]  surface glycoprotein, S255F</title>
@@ -414,15 +427,15 @@
 </g>
 <g>
 	<title>2020-03-24 Australia=99</title>
-	<line x1="1209.9" y1="1198.7" x2="1218.8" y2="1197.6" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1199.4" x2="1213.9" y2="1198.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-24 New Zealand=19</title>
-	<line x1="1218.8" y1="1197.6" x2="1224.6" y2="1196.8" style="stroke:fuchsia;" class="sb" />
+	<line x1="1213.9" y1="1198.2" x2="1219.7" y2="1197.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-24 Guam=2</title>
-	<line x1="1224.6" y1="1196.8" x2="1226.8" y2="1196.5" style="stroke:orange;" class="sb" />
+	<line x1="1219.7" y1="1197.4" x2="1221.8" y2="1197.2" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2020-03-24  G23342A  Australia=2 [2.0%]  surface glycoprotein, G594S</title>
@@ -446,11 +459,11 @@
 </g>
 <g>
 	<title>2020-03-25 Australia=121</title>
-	<line x1="1209.9" y1="1198.9" x2="1219.3" y2="1197.8" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1199.4" x2="1214.3" y2="1198.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-25 New Zealand=22</title>
-	<line x1="1219.3" y1="1197.8" x2="1225.4" y2="1197.2" style="stroke:fuchsia;" class="sb" />
+	<line x1="1214.3" y1="1198.4" x2="1220.4" y2="1197.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-25  C21575T  Australia=2 [1.7%]  surface glycoprotein, L5F</title>
@@ -478,11 +491,11 @@
 </g>
 <g>
 	<title>2020-03-26 Australia=107</title>
-	<line x1="1210.0" y1="1199.1" x2="1219.1" y2="1198.2" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1199.5" x2="1214.1" y2="1198.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-26 New Zealand=35</title>
-	<line x1="1219.1" y1="1198.2" x2="1226.0" y2="1197.5" style="stroke:fuchsia;" class="sb" />
+	<line x1="1214.1" y1="1198.7" x2="1221.1" y2="1198.0" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-26  A23403G  Australia=69 [64.5%]  surface glycoprotein, D614G</title>
@@ -510,11 +523,11 @@
 </g>
 <g>
 	<title>2020-03-27 Australia=99</title>
-	<line x1="1210.0" y1="1199.2" x2="1218.9" y2="1198.5" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1199.6" x2="1214.0" y2="1198.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-27 New Zealand=27</title>
-	<line x1="1218.9" y1="1198.5" x2="1225.4" y2="1198.0" style="stroke:fuchsia;" class="sb" />
+	<line x1="1214.0" y1="1198.9" x2="1220.5" y2="1198.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-27  A23403G  Australia=57 [57.6%]  surface glycoprotein, D614G</title>
@@ -534,11 +547,11 @@
 </g>
 <g>
 	<title>2020-03-28 Australia=72</title>
-	<line x1="1210.0" y1="1199.4" x2="1218.4" y2="1198.9" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1199.7" x2="1213.4" y2="1199.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-28 New Zealand=12</title>
-	<line x1="1218.4" y1="1198.9" x2="1223.4" y2="1198.6" style="stroke:fuchsia;" class="sb" />
+	<line x1="1213.4" y1="1199.2" x2="1218.4" y2="1198.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-28  A23403G  Australia=49 [68.1%]  surface glycoprotein, D614G</title>
@@ -558,11 +571,11 @@
 </g>
 <g>
 	<title>2020-03-29 Australia=53</title>
-	<line x1="1210.0" y1="1199.6" x2="1217.8" y2="1199.2" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1199.8" x2="1212.8" y2="1199.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-29 New Zealand=6</title>
-	<line x1="1217.8" y1="1199.2" x2="1221.6" y2="1199.1" style="stroke:fuchsia;" class="sb" />
+	<line x1="1212.8" y1="1199.5" x2="1216.6" y2="1199.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-29  A23403G  Australia=40 [75.5%]  surface glycoprotein, D614G</title>
@@ -574,11 +587,11 @@
 </g>
 <g>
 	<title>2020-03-30 Australia=69</title>
-	<line x1="1210.0" y1="1199.7" x2="1218.3" y2="1199.5" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1199.9" x2="1213.3" y2="1199.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-30 New Zealand=12</title>
-	<line x1="1218.3" y1="1199.5" x2="1223.3" y2="1199.4" style="stroke:fuchsia;" class="sb" />
+	<line x1="1213.3" y1="1199.7" x2="1218.3" y2="1199.5" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-30  C21707T  Australia=2 [2.9%]  surface glycoprotein, H49Y</title>
@@ -598,11 +611,11 @@
 </g>
 <g>
 	<title>2020-03-31 Australia=69</title>
-	<line x1="1210.0" y1="1199.9" x2="1218.3" y2="1199.8" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1200.0" x2="1213.3" y2="1199.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-03-31 New Zealand=12</title>
-	<line x1="1218.3" y1="1199.8" x2="1223.3" y2="1199.8" style="stroke:fuchsia;" class="sb" />
+	<line x1="1213.3" y1="1199.9" x2="1218.3" y2="1199.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-03-31  C21597T  Australia=2 [2.9%]  surface glycoprotein, S12F</title>
@@ -622,11 +635,11 @@
 </g>
 <g>
 	<title>2020-04-01 Australia=55</title>
-	<line x1="1210.0" y1="1200.1" x2="1217.9" y2="1200.2" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1200.0" x2="1212.9" y2="1200.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-01 New Zealand=31</title>
-	<line x1="1217.9" y1="1200.2" x2="1224.6" y2="1200.2" style="stroke:fuchsia;" class="sb" />
+	<line x1="1212.9" y1="1200.1" x2="1219.6" y2="1200.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-01  A23403G  Australia=41 [74.5%]  surface glycoprotein, D614G</title>
@@ -638,11 +651,11 @@
 </g>
 <g>
 	<title>2020-04-02 Australia=38</title>
-	<line x1="1210.0" y1="1200.3" x2="1217.2" y2="1200.4" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1200.1" x2="1212.2" y2="1200.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-02 New Zealand=11</title>
-	<line x1="1217.2" y1="1200.4" x2="1222.0" y2="1200.6" style="stroke:fuchsia;" class="sb" />
+	<line x1="1212.2" y1="1200.3" x2="1217.0" y2="1200.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-02  A23403G  Australia=27 [71.1%]  surface glycoprotein, D614G</title>
@@ -654,11 +667,11 @@
 </g>
 <g>
 	<title>2020-04-03 Australia=34</title>
-	<line x1="1210.0" y1="1200.4" x2="1216.9" y2="1200.7" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1200.2" x2="1211.9" y2="1200.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-03 New Zealand=9</title>
-	<line x1="1216.9" y1="1200.7" x2="1221.4" y2="1200.9" style="stroke:fuchsia;" class="sb" />
+	<line x1="1211.9" y1="1200.5" x2="1216.4" y2="1200.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-03  A23403G  Australia=23 [67.6%]  surface glycoprotein, D614G</title>
@@ -670,11 +683,11 @@
 </g>
 <g>
 	<title>2020-04-04 Australia=40</title>
-	<line x1="1210.0" y1="1200.6" x2="1217.2" y2="1201.0" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1200.3" x2="1212.2" y2="1200.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-04 New Zealand=8</title>
-	<line x1="1217.2" y1="1201.0" x2="1221.5" y2="1201.3" style="stroke:fuchsia;" class="sb" />
+	<line x1="1212.2" y1="1200.7" x2="1216.5" y2="1201.0" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-04  A23403G  Australia=29 [72.5%]  surface glycoprotein, D614G</title>
@@ -702,11 +715,11 @@
 </g>
 <g>
 	<title>2020-04-05 Australia=34</title>
-	<line x1="1210.0" y1="1200.8" x2="1216.9" y2="1201.3" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1200.4" x2="1211.9" y2="1200.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-05 New Zealand=11</title>
-	<line x1="1216.9" y1="1201.3" x2="1221.7" y2="1201.7" style="stroke:fuchsia;" class="sb" />
+	<line x1="1211.9" y1="1200.9" x2="1216.8" y2="1201.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-05  G21974C  Australia=3 [8.8%]  surface glycoprotein, D138H</title>
@@ -726,11 +739,11 @@
 </g>
 <g>
 	<title>2020-04-06 Australia=32</title>
-	<line x1="1210.0" y1="1200.9" x2="1216.8" y2="1201.6" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1200.5" x2="1211.8" y2="1201.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-06 New Zealand=8</title>
-	<line x1="1216.8" y1="1201.6" x2="1221.0" y2="1202.0" style="stroke:fuchsia;" class="sb" />
+	<line x1="1211.8" y1="1201.1" x2="1216.1" y2="1201.5" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-06  A23403G  Australia=18 [56.2%]  surface glycoprotein, D614G</title>
@@ -746,11 +759,11 @@
 </g>
 <g>
 	<title>2020-04-07 Australia=24</title>
-	<line x1="1209.9" y1="1201.1" x2="1216.2" y2="1201.8" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1200.6" x2="1211.2" y2="1201.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-07 New Zealand=5</title>
-	<line x1="1216.2" y1="1201.8" x2="1219.7" y2="1202.2" style="stroke:fuchsia;" class="sb" />
+	<line x1="1211.2" y1="1201.3" x2="1214.7" y2="1201.6" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-07  A23403G  Australia=16 [66.7%]  surface glycoprotein, D614G</title>
@@ -762,11 +775,11 @@
 </g>
 <g>
 	<title>2020-04-08 Australia=30</title>
-	<line x1="1209.9" y1="1201.3" x2="1216.6" y2="1202.1" style="stroke:cyan;" class="sb" />
+	<line x1="1205.0" y1="1200.6" x2="1211.6" y2="1201.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-08 New Zealand=4</title>
-	<line x1="1216.6" y1="1202.1" x2="1219.7" y2="1202.6" style="stroke:fuchsia;" class="sb" />
+	<line x1="1211.6" y1="1201.5" x2="1214.7" y2="1201.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-08  A23403G  Australia=23 [76.7%]  surface glycoprotein, D614G</title>
@@ -778,11 +791,11 @@
 </g>
 <g>
 	<title>2020-04-09 Australia=33</title>
-	<line x1="1209.9" y1="1201.5" x2="1216.7" y2="1202.5" style="stroke:cyan;" class="sb" />
+	<line x1="1204.9" y1="1200.7" x2="1211.8" y2="1201.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-09 New Zealand=5</title>
-	<line x1="1216.7" y1="1202.5" x2="1220.2" y2="1203.0" style="stroke:fuchsia;" class="sb" />
+	<line x1="1211.8" y1="1201.7" x2="1215.2" y2="1202.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-09  A23403G  Australia=24 [72.7%]  surface glycoprotein, D614G</title>
@@ -802,11 +815,11 @@
 </g>
 <g>
 	<title>2020-04-10 Australia=19</title>
-	<line x1="1209.9" y1="1201.6" x2="1215.6" y2="1202.6" style="stroke:cyan;" class="sb" />
+	<line x1="1204.9" y1="1200.8" x2="1210.7" y2="1201.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-10 New Zealand=4</title>
-	<line x1="1215.6" y1="1202.6" x2="1218.7" y2="1203.1" style="stroke:fuchsia;" class="sb" />
+	<line x1="1210.7" y1="1201.8" x2="1213.8" y2="1202.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-10  A23403G  Australia=9 [47.4%]  surface glycoprotein, D614G</title>
@@ -822,11 +835,11 @@
 </g>
 <g>
 	<title>2020-04-11 Australia=18</title>
-	<line x1="1209.8" y1="1201.8" x2="1215.5" y2="1202.8" style="stroke:cyan;" class="sb" />
+	<line x1="1204.9" y1="1200.9" x2="1210.6" y2="1201.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-11 New Zealand=3</title>
-	<line x1="1215.5" y1="1202.8" x2="1218.2" y2="1203.3" style="stroke:fuchsia;" class="sb" />
+	<line x1="1210.6" y1="1201.9" x2="1213.2" y2="1202.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-11  A23403G  Australia=10 [55.6%]  surface glycoprotein, D614G</title>
@@ -846,11 +859,11 @@
 </g>
 <g>
 	<title>2020-04-12 Australia=8</title>
-	<line x1="1209.8" y1="1202.0" x2="1214.0" y2="1202.8" style="stroke:cyan;" class="sb" />
+	<line x1="1204.9" y1="1201.0" x2="1209.1" y2="1201.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-12 New Zealand=2</title>
-	<line x1="1214.0" y1="1202.8" x2="1216.1" y2="1203.2" style="stroke:fuchsia;" class="sb" />
+	<line x1="1209.1" y1="1201.8" x2="1211.2" y2="1202.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-12  A23403G  Australia=6 [75.0%]  surface glycoprotein, D614G</title>
@@ -866,7 +879,7 @@
 </g>
 <g>
 	<title>2020-04-13 Australia=24</title>
-	<line x1="1209.8" y1="1202.1" x2="1215.9" y2="1203.5" style="stroke:cyan;" class="sb" />
+	<line x1="1204.9" y1="1201.1" x2="1211.0" y2="1202.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-13  A23403G  Australia=10 [41.7%]  surface glycoprotein, D614G</title>
@@ -874,7 +887,7 @@
 </g>
 <g>
 	<title>2020-04-14 Australia=29</title>
-	<line x1="1209.7" y1="1202.3" x2="1216.2" y2="1203.8" style="stroke:cyan;" class="sb" />
+	<line x1="1204.9" y1="1201.1" x2="1211.3" y2="1202.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-14  A23403G  Australia=24 [82.8%]  surface glycoprotein, D614G</title>
@@ -882,11 +895,11 @@
 </g>
 <g>
 	<title>2020-04-15 Australia=12</title>
-	<line x1="1209.7" y1="1202.5" x2="1214.6" y2="1203.7" style="stroke:cyan;" class="sb" />
+	<line x1="1204.8" y1="1201.2" x2="1209.7" y2="1202.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-15 New Zealand=11</title>
-	<line x1="1214.6" y1="1203.7" x2="1219.3" y2="1204.9" style="stroke:fuchsia;" class="sb" />
+	<line x1="1209.7" y1="1202.5" x2="1214.4" y2="1203.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-15  A23403G  New Zealand=9 [81.8%]  surface glycoprotein, D614G</title>
@@ -898,7 +911,7 @@
 </g>
 <g>
 	<title>2020-04-16 Australia=6</title>
-	<line x1="1209.6" y1="1202.6" x2="1213.3" y2="1203.6" style="stroke:cyan;" class="sb" />
+	<line x1="1204.8" y1="1201.3" x2="1208.5" y2="1202.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-16  A23403G  Australia=4 [66.7%]  surface glycoprotein, D614G</title>
@@ -906,11 +919,11 @@
 </g>
 <g>
 	<title>2020-04-17 Australia=14</title>
-	<line x1="1209.6" y1="1202.8" x2="1214.7" y2="1204.3" style="stroke:cyan;" class="sb" />
+	<line x1="1204.8" y1="1201.4" x2="1209.9" y2="1202.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-17 New Zealand=2</title>
-	<line x1="1214.7" y1="1204.3" x2="1216.7" y2="1204.9" style="stroke:fuchsia;" class="sb" />
+	<line x1="1209.9" y1="1202.9" x2="1211.9" y2="1203.5" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-17  A23403G  Australia=13 [92.9%]  surface glycoprotein, D614G</title>
@@ -926,11 +939,11 @@
 </g>
 <g>
 	<title>2020-04-18 Australia=4</title>
-	<line x1="1209.6" y1="1203.0" x2="1212.6" y2="1203.9" style="stroke:cyan;" class="sb" />
+	<line x1="1204.8" y1="1201.5" x2="1207.8" y2="1202.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-19 Australia=4</title>
-	<line x1="1209.5" y1="1203.1" x2="1212.5" y2="1204.1" style="stroke:cyan;" class="sb" />
+	<line x1="1204.7" y1="1201.6" x2="1207.7" y2="1202.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-19  A23403G  Australia=4 [100.0%]  surface glycoprotein, D614G</title>
@@ -938,11 +951,11 @@
 </g>
 <g>
 	<title>2020-04-20 Australia=4</title>
-	<line x1="1209.4" y1="1203.3" x2="1212.4" y2="1204.3" style="stroke:cyan;" class="sb" />
+	<line x1="1204.7" y1="1201.6" x2="1207.7" y2="1202.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-20 New Zealand=2</title>
-	<line x1="1212.4" y1="1204.3" x2="1214.4" y2="1205.0" style="stroke:fuchsia;" class="sb" />
+	<line x1="1207.7" y1="1202.7" x2="1209.7" y2="1203.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-20  A23403G  Australia=4 [100.0%]  surface glycoprotein, D614G</title>
@@ -954,7 +967,7 @@
 </g>
 <g>
 	<title>2020-04-21 Australia=7</title>
-	<line x1="1209.4" y1="1203.4" x2="1213.2" y2="1204.8" style="stroke:cyan;" class="sb" />
+	<line x1="1204.7" y1="1201.7" x2="1208.5" y2="1203.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-21  A23403G  Australia=3 [42.9%]  surface glycoprotein, D614G</title>
@@ -962,11 +975,11 @@
 </g>
 <g>
 	<title>2020-04-22 Australia=3</title>
-	<line x1="1209.3" y1="1203.6" x2="1211.9" y2="1204.6" style="stroke:cyan;" class="sb" />
+	<line x1="1204.7" y1="1201.8" x2="1207.2" y2="1202.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-23 Australia=7</title>
-	<line x1="1209.3" y1="1203.8" x2="1213.0" y2="1205.3" style="stroke:cyan;" class="sb" />
+	<line x1="1204.6" y1="1201.9" x2="1208.4" y2="1203.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-23  A23403G  Australia=5 [71.4%]  surface glycoprotein, D614G</title>
@@ -974,7 +987,7 @@
 </g>
 <g>
 	<title>2020-04-25 New Zealand=8</title>
-	<line x1="1209.1" y1="1204.1" x2="1213.0" y2="1205.8" style="stroke:fuchsia;" class="sb" />
+	<line x1="1204.6" y1="1202.0" x2="1208.5" y2="1203.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-25  A23403G  New Zealand=6 [75.0%]  surface glycoprotein, D614G</title>
@@ -982,7 +995,7 @@
 </g>
 <g>
 	<title>2020-04-26 Australia=2</title>
-	<line x1="1209.1" y1="1204.2" x2="1211.0" y2="1205.1" style="stroke:cyan;" class="sb" />
+	<line x1="1204.5" y1="1202.1" x2="1206.5" y2="1203.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-26  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -990,7 +1003,7 @@
 </g>
 <g>
 	<title>2020-04-27 Australia=8</title>
-	<line x1="1209.0" y1="1204.4" x2="1212.8" y2="1206.3" style="stroke:cyan;" class="sb" />
+	<line x1="1204.5" y1="1202.2" x2="1208.3" y2="1204.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-27  A23403G  Australia=2 [25.0%]  surface glycoprotein, D614G</title>
@@ -998,7 +1011,7 @@
 </g>
 <g>
 	<title>2020-04-28 Australia=4</title>
-	<line x1="1208.9" y1="1204.5" x2="1211.7" y2="1206.0" style="stroke:cyan;" class="sb" />
+	<line x1="1204.5" y1="1202.3" x2="1207.3" y2="1203.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-28  A23403G  Australia=3 [75.0%]  surface glycoprotein, D614G</title>
@@ -1006,11 +1019,11 @@
 </g>
 <g>
 	<title>2020-04-29 Australia=6</title>
-	<line x1="1208.8" y1="1204.7" x2="1212.2" y2="1206.5" style="stroke:cyan;" class="sb" />
+	<line x1="1204.4" y1="1202.3" x2="1207.8" y2="1204.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-29 New Zealand=2</title>
-	<line x1="1212.2" y1="1206.5" x2="1214.1" y2="1207.5" style="stroke:fuchsia;" class="sb" />
+	<line x1="1207.8" y1="1204.1" x2="1209.7" y2="1205.1" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-04-29  A23403G  Australia=3 [50.0%]  surface glycoprotein, D614G</title>
@@ -1022,7 +1035,7 @@
 </g>
 <g>
 	<title>2020-04-30 Australia=4</title>
-	<line x1="1208.7" y1="1204.9" x2="1211.5" y2="1206.4" style="stroke:cyan;" class="sb" />
+	<line x1="1204.4" y1="1202.4" x2="1207.1" y2="1204.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-04-30  A23403G  Australia=2 [50.0%]  surface glycoprotein, D614G</title>
@@ -1030,7 +1043,7 @@
 </g>
 <g>
 	<title>2020-05-01 Australia=3</title>
-	<line x1="1208.7" y1="1205.0" x2="1211.0" y2="1206.4" style="stroke:cyan;" class="sb" />
+	<line x1="1204.3" y1="1202.5" x2="1206.7" y2="1203.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-01  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -1038,7 +1051,7 @@
 </g>
 <g>
 	<title>2020-05-02 Australia=9</title>
-	<line x1="1208.6" y1="1205.1" x2="1212.4" y2="1207.5" style="stroke:cyan;" class="sb" />
+	<line x1="1204.3" y1="1202.6" x2="1208.1" y2="1204.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-02  G23224T  Australia=2 [22.2%]  surface glycoprotein, E554D</title>
@@ -1050,7 +1063,7 @@
 </g>
 <g>
 	<title>2020-05-03 Australia=4</title>
-	<line x1="1208.5" y1="1205.3" x2="1211.2" y2="1207.0" style="stroke:cyan;" class="sb" />
+	<line x1="1204.2" y1="1202.6" x2="1206.9" y2="1204.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-03  A23403G  Australia=4 [100.0%]  surface glycoprotein, D614G</title>
@@ -1058,7 +1071,7 @@
 </g>
 <g>
 	<title>2020-05-04 Australia=4</title>
-	<line x1="1208.4" y1="1205.4" x2="1211.0" y2="1207.1" style="stroke:cyan;" class="sb" />
+	<line x1="1204.2" y1="1202.7" x2="1206.8" y2="1204.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-04  A23403G  Australia=4 [100.0%]  surface glycoprotein, D614G</title>
@@ -1066,7 +1079,7 @@
 </g>
 <g>
 	<title>2020-05-05 Australia=6</title>
-	<line x1="1208.3" y1="1205.6" x2="1211.5" y2="1207.7" style="stroke:cyan;" class="sb" />
+	<line x1="1204.1" y1="1202.8" x2="1207.3" y2="1204.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-05  G23015C  Australia=3 [50.0%]  surface glycoprotein, G485R</title>
@@ -1078,7 +1091,7 @@
 </g>
 <g>
 	<title>2020-05-06 Australia=7</title>
-	<line x1="1208.2" y1="1205.7" x2="1211.5" y2="1208.1" style="stroke:cyan;" class="sb" />
+	<line x1="1204.1" y1="1202.9" x2="1207.4" y2="1205.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-06  A23403G  Australia=6 [85.7%]  surface glycoprotein, D614G</title>
@@ -1086,7 +1099,7 @@
 </g>
 <g>
 	<title>2020-05-07 Australia=6</title>
-	<line x1="1208.1" y1="1205.9" x2="1211.2" y2="1208.1" style="stroke:cyan;" class="sb" />
+	<line x1="1204.1" y1="1202.9" x2="1207.1" y2="1205.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-07  A23403G  Australia=6 [100.0%]  surface glycoprotein, D614G</title>
@@ -1094,7 +1107,7 @@
 </g>
 <g>
 	<title>2020-05-08 Australia=2</title>
-	<line x1="1208.0" y1="1206.0" x2="1209.7" y2="1207.3" style="stroke:cyan;" class="sb" />
+	<line x1="1204.0" y1="1203.0" x2="1205.7" y2="1204.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-08  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -1102,11 +1115,11 @@
 </g>
 <g>
 	<title>2020-05-09 Australia=6</title>
-	<line x1="1207.9" y1="1206.1" x2="1210.9" y2="1208.5" style="stroke:cyan;" class="sb" />
+	<line x1="1203.9" y1="1203.1" x2="1206.9" y2="1205.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-09 New Zealand=2</title>
-	<line x1="1210.9" y1="1208.5" x2="1212.6" y2="1209.8" style="stroke:fuchsia;" class="sb" />
+	<line x1="1206.9" y1="1205.4" x2="1208.6" y2="1206.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-05-09  G23015C  Australia=3 [50.0%]  surface glycoprotein, G485R</title>
@@ -1122,7 +1135,7 @@
 </g>
 <g>
 	<title>2020-05-10 Australia=6</title>
-	<line x1="1207.8" y1="1206.3" x2="1210.7" y2="1208.7" style="stroke:cyan;" class="sb" />
+	<line x1="1203.9" y1="1203.1" x2="1206.9" y2="1205.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-10  A23403G  Australia=5 [83.3%]  surface glycoprotein, D614G</title>
@@ -1130,7 +1143,7 @@
 </g>
 <g>
 	<title>2020-05-11 Australia=4</title>
-	<line x1="1207.7" y1="1206.4" x2="1210.1" y2="1208.4" style="stroke:cyan;" class="sb" />
+	<line x1="1203.8" y1="1203.2" x2="1206.3" y2="1205.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-11  A23403G  Australia=4 [100.0%]  surface glycoprotein, D614G</title>
@@ -1138,7 +1151,7 @@
 </g>
 <g>
 	<title>2020-05-12 Australia=12</title>
-	<line x1="1207.6" y1="1206.5" x2="1211.4" y2="1209.8" style="stroke:cyan;" class="sb" />
+	<line x1="1203.8" y1="1203.3" x2="1207.6" y2="1206.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-12  G23015C  Australia=7 [58.3%]  surface glycoprotein, G485R</title>
@@ -1150,7 +1163,7 @@
 </g>
 <g>
 	<title>2020-05-13 Australia=3</title>
-	<line x1="1207.5" y1="1206.7" x2="1209.5" y2="1208.5" style="stroke:cyan;" class="sb" />
+	<line x1="1203.7" y1="1203.3" x2="1205.7" y2="1205.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-13  A23403G  Australia=2 [66.7%]  surface glycoprotein, D614G</title>
@@ -1158,11 +1171,11 @@
 </g>
 <g>
 	<title>2020-05-14 Australia=3</title>
-	<line x1="1207.3" y1="1206.8" x2="1209.3" y2="1208.6" style="stroke:cyan;" class="sb" />
+	<line x1="1203.7" y1="1203.4" x2="1205.7" y2="1205.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-15 Australia=2</title>
-	<line x1="1207.2" y1="1206.9" x2="1208.8" y2="1208.4" style="stroke:cyan;" class="sb" />
+	<line x1="1203.6" y1="1203.5" x2="1205.2" y2="1204.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-15  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -1170,7 +1183,7 @@
 </g>
 <g>
 	<title>2020-05-16 Australia=3</title>
-	<line x1="1207.1" y1="1207.0" x2="1209.0" y2="1208.9" style="stroke:cyan;" class="sb" />
+	<line x1="1203.6" y1="1203.5" x2="1205.5" y2="1205.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-16  A23403G  Australia=2 [66.7%]  surface glycoprotein, D614G</title>
@@ -1178,7 +1191,7 @@
 </g>
 <g>
 	<title>2020-05-19 Australia=4</title>
-	<line x1="1206.7" y1="1207.4" x2="1208.8" y2="1209.7" style="stroke:cyan;" class="sb" />
+	<line x1="1203.4" y1="1203.7" x2="1205.5" y2="1206.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-19  G22992A  Australia=4 [100.0%]  surface glycoprotein, S477N</title>
@@ -1186,7 +1199,7 @@
 </g>
 <g>
 	<title>2020-05-20 Australia=3</title>
-	<line x1="1206.6" y1="1207.5" x2="1208.4" y2="1209.5" style="stroke:cyan;" class="sb" />
+	<line x1="1203.3" y1="1203.8" x2="1205.1" y2="1205.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-20  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -1194,15 +1207,15 @@
 </g>
 <g>
 	<title>2020-05-23 Australia=2</title>
-	<line x1="1206.2" y1="1207.8" x2="1207.5" y2="1209.5" style="stroke:cyan;" class="sb" />
+	<line x1="1203.1" y1="1203.9" x2="1204.4" y2="1205.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-24 Australia=2</title>
-	<line x1="1206.1" y1="1207.9" x2="1207.4" y2="1209.7" style="stroke:cyan;" class="sb" />
+	<line x1="1203.0" y1="1204.0" x2="1204.3" y2="1205.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-25 Australia=3</title>
-	<line x1="1205.9" y1="1208.0" x2="1207.5" y2="1210.2" style="stroke:cyan;" class="sb" />
+	<line x1="1203.0" y1="1204.0" x2="1204.6" y2="1206.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-25  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -1210,7 +1223,7 @@
 </g>
 <g>
 	<title>2020-05-27 Australia=10</title>
-	<line x1="1205.7" y1="1208.2" x2="1208.3" y2="1212.1" style="stroke:cyan;" class="sb" />
+	<line x1="1202.8" y1="1204.1" x2="1205.5" y2="1208.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-27  G22992A  Australia=2 [20.0%]  surface glycoprotein, S477N</title>
@@ -1226,7 +1239,7 @@
 </g>
 <g>
 	<title>2020-05-28 Australia=12</title>
-	<line x1="1205.5" y1="1208.3" x2="1208.3" y2="1212.5" style="stroke:cyan;" class="sb" />
+	<line x1="1202.8" y1="1204.2" x2="1205.5" y2="1208.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-28  G22992A  Australia=4 [33.3%]  surface glycoprotein, S477N</title>
@@ -1242,11 +1255,11 @@
 </g>
 <g>
 	<title>2020-05-29 Australia=3</title>
-	<line x1="1205.4" y1="1208.4" x2="1206.8" y2="1210.7" style="stroke:cyan;" class="sb" />
+	<line x1="1202.7" y1="1204.2" x2="1204.1" y2="1206.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-30 Australia=6</title>
-	<line x1="1205.2" y1="1208.5" x2="1207.2" y2="1211.8" style="stroke:cyan;" class="sb" />
+	<line x1="1202.6" y1="1204.3" x2="1204.6" y2="1207.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-30  G22992A  Australia=3 [50.0%]  surface glycoprotein, S477N</title>
@@ -1258,7 +1271,7 @@
 </g>
 <g>
 	<title>2020-05-31 Australia=4</title>
-	<line x1="1205.1" y1="1208.6" x2="1206.7" y2="1211.3" style="stroke:cyan;" class="sb" />
+	<line x1="1202.5" y1="1204.3" x2="1204.1" y2="1207.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-05-31  A23403G  Australia=4 [100.0%]  surface glycoprotein, D614G</title>
@@ -1266,7 +1279,7 @@
 </g>
 <g>
 	<title>2020-06-01 Australia=4</title>
-	<line x1="1204.9" y1="1208.7" x2="1206.5" y2="1211.4" style="stroke:cyan;" class="sb" />
+	<line x1="1202.5" y1="1204.4" x2="1204.0" y2="1207.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-01  A23403G  Australia=3 [75.0%]  surface glycoprotein, D614G</title>
@@ -1274,7 +1287,7 @@
 </g>
 <g>
 	<title>2020-06-03 Australia=2</title>
-	<line x1="1204.6" y1="1208.9" x2="1205.6" y2="1210.8" style="stroke:cyan;" class="sb" />
+	<line x1="1202.3" y1="1204.4" x2="1203.3" y2="1206.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-03  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -1282,7 +1295,7 @@
 </g>
 <g>
 	<title>2020-06-05 Australia=4</title>
-	<line x1="1204.3" y1="1209.0" x2="1205.7" y2="1211.9" style="stroke:cyan;" class="sb" />
+	<line x1="1202.2" y1="1204.5" x2="1203.5" y2="1207.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-05  G22992A  Australia=3 [75.0%]  surface glycoprotein, S477N</title>
@@ -1290,7 +1303,7 @@
 </g>
 <g>
 	<title>2020-06-06 Australia=3</title>
-	<line x1="1204.2" y1="1209.1" x2="1205.3" y2="1211.6" style="stroke:cyan;" class="sb" />
+	<line x1="1202.1" y1="1204.5" x2="1203.2" y2="1207.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-06  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -1298,7 +1311,7 @@
 </g>
 <g>
 	<title>2020-06-07 Australia=2</title>
-	<line x1="1204.0" y1="1209.2" x2="1204.9" y2="1211.1" style="stroke:cyan;" class="sb" />
+	<line x1="1202.0" y1="1204.6" x2="1202.9" y2="1206.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-07  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -1306,11 +1319,11 @@
 </g>
 <g>
 	<title>2020-06-08 Australia=2</title>
-	<line x1="1203.8" y1="1209.2" x2="1204.7" y2="1211.2" style="stroke:cyan;" class="sb" />
+	<line x1="1201.9" y1="1204.6" x2="1202.7" y2="1206.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-09 Australia=9</title>
-	<line x1="1203.7" y1="1209.3" x2="1205.3" y2="1213.5" style="stroke:cyan;" class="sb" />
+	<line x1="1201.8" y1="1204.6" x2="1203.5" y2="1208.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-09  G22992A  Australia=4 [44.4%]  surface glycoprotein, S477N</title>
@@ -1322,7 +1335,7 @@
 </g>
 <g>
 	<title>2020-06-10 Australia=6</title>
-	<line x1="1203.5" y1="1209.4" x2="1204.9" y2="1212.9" style="stroke:cyan;" class="sb" />
+	<line x1="1201.8" y1="1204.7" x2="1203.1" y2="1208.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-10  G22992A  Australia=2 [33.3%]  surface glycoprotein, S477N</title>
@@ -1334,7 +1347,7 @@
 </g>
 <g>
 	<title>2020-06-11 Australia=8</title>
-	<line x1="1203.4" y1="1209.4" x2="1204.8" y2="1213.5" style="stroke:cyan;" class="sb" />
+	<line x1="1201.7" y1="1204.7" x2="1203.1" y2="1208.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-11  G22992A  Australia=4 [50.0%]  surface glycoprotein, S477N</title>
@@ -1346,7 +1359,7 @@
 </g>
 <g>
 	<title>2020-06-12 Australia=11</title>
-	<line x1="1203.2" y1="1209.5" x2="1204.8" y2="1214.1" style="stroke:cyan;" class="sb" />
+	<line x1="1201.6" y1="1204.7" x2="1203.2" y2="1209.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-12  G22992A  Australia=4 [36.4%]  surface glycoprotein, S477N</title>
@@ -1366,7 +1379,7 @@
 </g>
 <g>
 	<title>2020-06-13 Australia=8</title>
-	<line x1="1203.0" y1="1209.5" x2="1204.3" y2="1213.6" style="stroke:cyan;" class="sb" />
+	<line x1="1201.5" y1="1204.8" x2="1202.8" y2="1208.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-13  G22992A  Australia=6 [75.0%]  surface glycoprotein, S477N</title>
@@ -1378,7 +1391,7 @@
 </g>
 <g>
 	<title>2020-06-14 Australia=10</title>
-	<line x1="1202.9" y1="1209.6" x2="1204.2" y2="1214.1" style="stroke:cyan;" class="sb" />
+	<line x1="1201.4" y1="1204.8" x2="1202.8" y2="1209.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-14  G22992A  Australia=3 [30.0%]  surface glycoprotein, S477N</title>
@@ -1390,7 +1403,7 @@
 </g>
 <g>
 	<title>2020-06-15 Australia=15</title>
-	<line x1="1202.7" y1="1209.6" x2="1204.2" y2="1214.8" style="stroke:cyan;" class="sb" />
+	<line x1="1201.4" y1="1204.8" x2="1202.8" y2="1210.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-15  G22992A  Australia=9 [60.0%]  surface glycoprotein, S477N</title>
@@ -1406,7 +1419,7 @@
 </g>
 <g>
 	<title>2020-06-16 Australia=16</title>
-	<line x1="1202.5" y1="1209.7" x2="1204.0" y2="1215.0" style="stroke:cyan;" class="sb" />
+	<line x1="1201.3" y1="1204.8" x2="1202.7" y2="1210.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-16  G22992A  Australia=8 [50.0%]  surface glycoprotein, S477N</title>
@@ -1418,7 +1431,7 @@
 </g>
 <g>
 	<title>2020-06-17 Australia=13</title>
-	<line x1="1202.4" y1="1209.7" x2="1203.6" y2="1214.7" style="stroke:cyan;" class="sb" />
+	<line x1="1201.2" y1="1204.9" x2="1202.4" y2="1209.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-17  G22992A  Australia=6 [46.2%]  surface glycoprotein, S477N</title>
@@ -1434,7 +1447,7 @@
 </g>
 <g>
 	<title>2020-06-18 Australia=6</title>
-	<line x1="1202.2" y1="1209.8" x2="1203.1" y2="1213.5" style="stroke:cyan;" class="sb" />
+	<line x1="1201.1" y1="1204.9" x2="1201.9" y2="1208.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-18  G22992A  Australia=2 [33.3%]  surface glycoprotein, S477N</title>
@@ -1450,7 +1463,7 @@
 </g>
 <g>
 	<title>2020-06-19 Australia=21</title>
-	<line x1="1202.0" y1="1209.8" x2="1203.3" y2="1215.7" style="stroke:cyan;" class="sb" />
+	<line x1="1201.0" y1="1204.9" x2="1202.3" y2="1210.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-19  C21627T  Australia=2 [9.5%]  surface glycoprotein, T22I</title>
@@ -1474,7 +1487,7 @@
 </g>
 <g>
 	<title>2020-06-20 Australia=11</title>
-	<line x1="1201.9" y1="1209.8" x2="1202.8" y2="1214.6" style="stroke:cyan;" class="sb" />
+	<line x1="1200.9" y1="1204.9" x2="1201.9" y2="1209.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-20  G22992A  Australia=4 [36.4%]  surface glycoprotein, S477N</title>
@@ -1486,7 +1499,7 @@
 </g>
 <g>
 	<title>2020-06-21 Australia=9</title>
-	<line x1="1201.7" y1="1209.9" x2="1202.5" y2="1214.3" style="stroke:cyan;" class="sb" />
+	<line x1="1200.9" y1="1204.9" x2="1201.6" y2="1209.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-21  G22992A  Australia=5 [55.6%]  surface glycoprotein, S477N</title>
@@ -1498,7 +1511,7 @@
 </g>
 <g>
 	<title>2020-06-22 Australia=13</title>
-	<line x1="1201.5" y1="1209.9" x2="1202.3" y2="1215.0" style="stroke:cyan;" class="sb" />
+	<line x1="1200.8" y1="1204.9" x2="1201.6" y2="1210.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-22  G22992A  Australia=7 [53.8%]  surface glycoprotein, S477N</title>
@@ -1510,7 +1523,7 @@
 </g>
 <g>
 	<title>2020-06-23 Australia=24</title>
-	<line x1="1201.4" y1="1209.9" x2="1202.2" y2="1216.1" style="stroke:cyan;" class="sb" />
+	<line x1="1200.7" y1="1205.0" x2="1201.5" y2="1211.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-23  G22992A  Australia=18 [75.0%]  surface glycoprotein, S477N</title>
@@ -1526,7 +1539,7 @@
 </g>
 <g>
 	<title>2020-06-24 Australia=38</title>
-	<line x1="1201.2" y1="1209.9" x2="1202.1" y2="1217.0" style="stroke:cyan;" class="sb" />
+	<line x1="1200.6" y1="1205.0" x2="1201.5" y2="1212.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-24  G22992A  Australia=31 [81.6%]  surface glycoprotein, S477N</title>
@@ -1542,7 +1555,7 @@
 </g>
 <g>
 	<title>2020-06-25 Australia=41</title>
-	<line x1="1201.0" y1="1209.9" x2="1201.8" y2="1217.2" style="stroke:cyan;" class="sb" />
+	<line x1="1200.5" y1="1205.0" x2="1201.3" y2="1212.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-25  G22992A  Australia=35 [85.4%]  surface glycoprotein, S477N</title>
@@ -1558,7 +1571,7 @@
 </g>
 <g>
 	<title>2020-06-26 Australia=52</title>
-	<line x1="1200.9" y1="1210.0" x2="1201.5" y2="1217.7" style="stroke:cyan;" class="sb" />
+	<line x1="1200.4" y1="1205.0" x2="1201.1" y2="1212.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-26  G22992A  Australia=44 [84.6%]  surface glycoprotein, S477N</title>
@@ -1570,7 +1583,7 @@
 </g>
 <g>
 	<title>2020-06-27 Australia=40</title>
-	<line x1="1200.7" y1="1210.0" x2="1201.2" y2="1217.2" style="stroke:cyan;" class="sb" />
+	<line x1="1200.3" y1="1205.0" x2="1200.8" y2="1212.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-27  G22992A  Australia=30 [75.0%]  surface glycoprotein, S477N</title>
@@ -1586,7 +1599,7 @@
 </g>
 <g>
 	<title>2020-06-28 Australia=46</title>
-	<line x1="1200.5" y1="1210.0" x2="1200.9" y2="1217.5" style="stroke:cyan;" class="sb" />
+	<line x1="1200.3" y1="1205.0" x2="1200.6" y2="1212.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-28  G22992A  Australia=41 [89.1%]  surface glycoprotein, S477N</title>
@@ -1598,7 +1611,7 @@
 </g>
 <g>
 	<title>2020-06-29 Australia=58</title>
-	<line x1="1200.3" y1="1210.0" x2="1200.6" y2="1218.0" style="stroke:cyan;" class="sb" />
+	<line x1="1200.2" y1="1205.0" x2="1200.4" y2="1213.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-29  G22992A  Australia=49 [84.5%]  surface glycoprotein, S477N</title>
@@ -1618,7 +1631,7 @@
 </g>
 <g>
 	<title>2020-06-30 Australia=54</title>
-	<line x1="1200.2" y1="1210.0" x2="1200.3" y2="1217.8" style="stroke:cyan;" class="sb" />
+	<line x1="1200.1" y1="1205.0" x2="1200.2" y2="1212.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-06-30  G22992A  Australia=45 [83.3%]  surface glycoprotein, S477N</title>
@@ -1630,7 +1643,7 @@
 </g>
 <g>
 	<title>2020-07-01 Australia=51</title>
-	<line x1="1200.0" y1="1210.0" x2="1200.0" y2="1217.7" style="stroke:cyan;" class="sb" />
+	<line x1="1200.0" y1="1205.0" x2="1200.0" y2="1212.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-01  G22992A  Australia=46 [90.2%]  surface glycoprotein, S477N</title>
@@ -1646,7 +1659,7 @@
 </g>
 <g>
 	<title>2020-07-02 Australia=70</title>
-	<line x1="1199.8" y1="1210.0" x2="1199.7" y2="1218.3" style="stroke:cyan;" class="sb" />
+	<line x1="1199.9" y1="1205.0" x2="1199.8" y2="1213.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-02  G22992A  Australia=63 [90.0%]  surface glycoprotein, S477N</title>
@@ -1670,7 +1683,7 @@
 </g>
 <g>
 	<title>2020-07-03 Australia=59</title>
-	<line x1="1199.7" y1="1210.0" x2="1199.4" y2="1218.0" style="stroke:cyan;" class="sb" />
+	<line x1="1199.8" y1="1205.0" x2="1199.6" y2="1213.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-03  G22992A  Australia=51 [86.4%]  surface glycoprotein, S477N</title>
@@ -1690,7 +1703,7 @@
 </g>
 <g>
 	<title>2020-07-04 Australia=93</title>
-	<line x1="1199.5" y1="1210.0" x2="1199.0" y2="1218.9" style="stroke:cyan;" class="sb" />
+	<line x1="1199.7" y1="1205.0" x2="1199.3" y2="1213.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-04  G22021T  Australia=2 [2.2%]  surface glycoprotein, M153I</title>
@@ -1722,7 +1735,7 @@
 </g>
 <g>
 	<title>2020-07-05 Australia=93</title>
-	<line x1="1199.3" y1="1210.0" x2="1198.7" y2="1218.8" style="stroke:cyan;" class="sb" />
+	<line x1="1199.7" y1="1205.0" x2="1199.0" y2="1213.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-05  ATTA22190A  Australia=2 [2.2%]  surface glycoprotein, I210N/del</title>
@@ -1746,7 +1759,7 @@
 </g>
 <g>
 	<title>2020-07-06 Australia=117</title>
-	<line x1="1199.1" y1="1210.0" x2="1198.3" y2="1219.3" style="stroke:cyan;" class="sb" />
+	<line x1="1199.6" y1="1205.0" x2="1198.8" y2="1214.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-06  G22992A  Australia=110 [94.0%]  surface glycoprotein, S477N</title>
@@ -1774,7 +1787,7 @@
 </g>
 <g>
 	<title>2020-07-07 Australia=149</title>
-	<line x1="1199.0" y1="1209.9" x2="1198.0" y2="1219.7" style="stroke:cyan;" class="sb" />
+	<line x1="1199.5" y1="1205.0" x2="1198.5" y2="1214.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-07  G22992A  Australia=138 [92.6%]  surface glycoprotein, S477N</title>
@@ -1802,7 +1815,7 @@
 </g>
 <g>
 	<title>2020-07-08 Australia=132</title>
-	<line x1="1198.8" y1="1209.9" x2="1197.7" y2="1219.4" style="stroke:cyan;" class="sb" />
+	<line x1="1199.4" y1="1205.0" x2="1198.3" y2="1214.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-08  G22992A  Australia=125 [94.7%]  surface glycoprotein, S477N</title>
@@ -1826,7 +1839,7 @@
 </g>
 <g>
 	<title>2020-07-09 Australia=95</title>
-	<line x1="1198.6" y1="1209.9" x2="1197.4" y2="1218.7" style="stroke:cyan;" class="sb" />
+	<line x1="1199.3" y1="1205.0" x2="1198.1" y2="1213.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-09  G22992A  Australia=91 [95.8%]  surface glycoprotein, S477N</title>
@@ -1846,7 +1859,7 @@
 </g>
 <g>
 	<title>2020-07-10 Australia=104</title>
-	<line x1="1198.5" y1="1209.9" x2="1197.1" y2="1218.9" style="stroke:cyan;" class="sb" />
+	<line x1="1199.2" y1="1204.9" x2="1197.8" y2="1213.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-10  G22992A  Australia=102 [98.1%]  surface glycoprotein, S477N</title>
@@ -1866,7 +1879,7 @@
 </g>
 <g>
 	<title>2020-07-11 Australia=81</title>
-	<line x1="1198.3" y1="1209.9" x2="1196.8" y2="1218.3" style="stroke:cyan;" class="sb" />
+	<line x1="1199.1" y1="1204.9" x2="1197.7" y2="1213.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-11  G22992A  Australia=80 [98.8%]  surface glycoprotein, S477N</title>
@@ -1882,7 +1895,7 @@
 </g>
 <g>
 	<title>2020-07-12 Australia=92</title>
-	<line x1="1198.1" y1="1209.8" x2="1196.5" y2="1218.5" style="stroke:cyan;" class="sb" />
+	<line x1="1199.1" y1="1204.9" x2="1197.4" y2="1213.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-12  G22992A  Australia=89 [96.7%]  surface glycoprotein, S477N</title>
@@ -1898,7 +1911,7 @@
 </g>
 <g>
 	<title>2020-07-13 Australia=232</title>
-	<line x1="1198.0" y1="1209.8" x2="1195.8" y2="1220.2" style="stroke:cyan;" class="sb" />
+	<line x1="1199.0" y1="1204.9" x2="1196.8" y2="1215.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-13  C22323T  Australia=4 [1.7%]  surface glycoprotein, S254F</title>
@@ -1930,7 +1943,7 @@
 </g>
 <g>
 	<title>2020-07-14 Australia=183</title>
-	<line x1="1197.8" y1="1209.8" x2="1195.5" y2="1219.7" style="stroke:cyan;" class="sb" />
+	<line x1="1198.9" y1="1204.9" x2="1196.6" y2="1214.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-14  G22992A  Australia=181 [98.9%]  surface glycoprotein, S477N</title>
@@ -1954,7 +1967,7 @@
 </g>
 <g>
 	<title>2020-07-15 Australia=167</title>
-	<line x1="1197.6" y1="1209.7" x2="1195.2" y2="1219.4" style="stroke:cyan;" class="sb" />
+	<line x1="1198.8" y1="1204.9" x2="1196.4" y2="1214.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-15  G22992A  Australia=162 [97.0%]  surface glycoprotein, S477N</title>
@@ -1978,7 +1991,7 @@
 </g>
 <g>
 	<title>2020-07-16 Australia=188</title>
-	<line x1="1197.5" y1="1209.7" x2="1194.8" y2="1219.6" style="stroke:cyan;" class="sb" />
+	<line x1="1198.7" y1="1204.8" x2="1196.1" y2="1214.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-16  G22992A  Australia=181 [96.3%]  surface glycoprotein, S477N</title>
@@ -2006,7 +2019,7 @@
 </g>
 <g>
 	<title>2020-07-17 Australia=222</title>
-	<line x1="1197.3" y1="1209.6" x2="1194.4" y2="1219.8" style="stroke:cyan;" class="sb" />
+	<line x1="1198.6" y1="1204.8" x2="1195.8" y2="1215.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-17  C21774T  Australia=2 [0.9%]  surface glycoprotein, S71F</title>
@@ -2030,7 +2043,7 @@
 </g>
 <g>
 	<title>2020-07-18 Australia=279</title>
-	<line x1="1197.1" y1="1209.6" x2="1194.0" y2="1220.1" style="stroke:cyan;" class="sb" />
+	<line x1="1198.6" y1="1204.8" x2="1195.4" y2="1215.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-18  C22323T  Australia=2 [0.7%]  surface glycoprotein, S254F</title>
@@ -2054,7 +2067,7 @@
 </g>
 <g>
 	<title>2020-07-19 Australia=163</title>
-	<line x1="1197.0" y1="1209.5" x2="1193.9" y2="1219.0" style="stroke:cyan;" class="sb" />
+	<line x1="1198.5" y1="1204.8" x2="1195.4" y2="1214.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-19  G22992A  Australia=155 [95.1%]  surface glycoprotein, S477N</title>
@@ -2070,11 +2083,11 @@
 </g>
 <g>
 	<title>2020-07-20 Australia=225</title>
-	<line x1="1196.8" y1="1209.5" x2="1193.4" y2="1219.5" style="stroke:cyan;" class="sb" />
+	<line x1="1198.4" y1="1204.7" x2="1195.0" y2="1214.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-20 Papua New Guinea=2</title>
-	<line x1="1193.4" y1="1219.5" x2="1192.7" y2="1221.5" style="stroke:white;" class="sb" />
+	<line x1="1195.0" y1="1214.8" x2="1194.3" y2="1216.8" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-07-20  C21575T  Australia=2 [0.9%]  surface glycoprotein, L5F</title>
@@ -2122,11 +2135,11 @@
 </g>
 <g>
 	<title>2020-07-21 Australia=254</title>
-	<line x1="1196.6" y1="1209.4" x2="1193.0" y2="1219.6" style="stroke:cyan;" class="sb" />
+	<line x1="1198.3" y1="1204.7" x2="1194.7" y2="1214.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-21 Papua New Guinea=3</title>
-	<line x1="1193.0" y1="1219.6" x2="1192.1" y2="1222.2" style="stroke:white;" class="sb" />
+	<line x1="1194.7" y1="1214.9" x2="1193.8" y2="1217.5" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-07-21  G22992A  Australia=247 [97.2%]  surface glycoprotein, S477N</title>
@@ -2158,7 +2171,7 @@
 </g>
 <g>
 	<title>2020-07-22 Australia=214</title>
-	<line x1="1196.5" y1="1209.4" x2="1192.8" y2="1219.2" style="stroke:cyan;" class="sb" />
+	<line x1="1198.2" y1="1204.7" x2="1194.5" y2="1214.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-22  C22323T  Australia=2 [0.9%]  surface glycoprotein, S254F</title>
@@ -2190,7 +2203,7 @@
 </g>
 <g>
 	<title>2020-07-23 Australia=348</title>
-	<line x1="1196.3" y1="1209.3" x2="1192.1" y2="1219.9" style="stroke:cyan;" class="sb" />
+	<line x1="1198.2" y1="1204.6" x2="1193.9" y2="1215.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-23  G22992A  Australia=331 [95.1%]  surface glycoprotein, S477N</title>
@@ -2214,7 +2227,7 @@
 </g>
 <g>
 	<title>2020-07-24 Australia=230</title>
-	<line x1="1196.2" y1="1209.2" x2="1192.1" y2="1219.0" style="stroke:cyan;" class="sb" />
+	<line x1="1198.1" y1="1204.6" x2="1194.0" y2="1214.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-24  G21666T  Australia=2 [0.9%]  surface glycoprotein, G35V</title>
@@ -2250,7 +2263,7 @@
 </g>
 <g>
 	<title>2020-07-25 Australia=201</title>
-	<line x1="1196.0" y1="1209.2" x2="1191.8" y2="1218.7" style="stroke:cyan;" class="sb" />
+	<line x1="1198.0" y1="1204.6" x2="1193.8" y2="1214.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-25  G22992A  Australia=197 [98.0%]  surface glycoprotein, S477N</title>
@@ -2274,7 +2287,7 @@
 </g>
 <g>
 	<title>2020-07-26 Australia=115</title>
-	<line x1="1195.8" y1="1209.1" x2="1192.0" y2="1217.5" style="stroke:cyan;" class="sb" />
+	<line x1="1197.9" y1="1204.5" x2="1194.1" y2="1213.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-26  G22992A  Australia=110 [95.7%]  surface glycoprotein, S477N</title>
@@ -2294,7 +2307,7 @@
 </g>
 <g>
 	<title>2020-07-27 Australia=287</title>
-	<line x1="1195.7" y1="1209.0" x2="1190.9" y2="1219.0" style="stroke:cyan;" class="sb" />
+	<line x1="1197.8" y1="1204.5" x2="1193.1" y2="1214.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-27  C22323T  Australia=2 [0.7%]  surface glycoprotein, S254F</title>
@@ -2330,7 +2343,7 @@
 </g>
 <g>
 	<title>2020-07-28 Australia=287</title>
-	<line x1="1195.5" y1="1208.9" x2="1190.6" y2="1218.8" style="stroke:cyan;" class="sb" />
+	<line x1="1197.8" y1="1204.5" x2="1192.8" y2="1214.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-28  C21575T  Australia=2 [0.7%]  surface glycoprotein, L5F</title>
@@ -2366,7 +2379,7 @@
 </g>
 <g>
 	<title>2020-07-29 Australia=275</title>
-	<line x1="1195.4" y1="1208.9" x2="1190.3" y2="1218.6" style="stroke:cyan;" class="sb" />
+	<line x1="1197.7" y1="1204.4" x2="1192.6" y2="1214.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-29  C21575T  Australia=3 [1.1%]  surface glycoprotein, L5F</title>
@@ -2398,7 +2411,7 @@
 </g>
 <g>
 	<title>2020-07-30 Australia=207</title>
-	<line x1="1195.2" y1="1208.8" x2="1190.2" y2="1218.0" style="stroke:cyan;" class="sb" />
+	<line x1="1197.6" y1="1204.4" x2="1192.6" y2="1213.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-30  C21575T  Australia=3 [1.4%]  surface glycoprotein, L5F</title>
@@ -2430,7 +2443,7 @@
 </g>
 <g>
 	<title>2020-07-31 Australia=180</title>
-	<line x1="1195.1" y1="1208.7" x2="1190.1" y2="1217.5" style="stroke:cyan;" class="sb" />
+	<line x1="1197.5" y1="1204.4" x2="1192.5" y2="1213.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-31  C22323T  Australia=5 [2.8%]  surface glycoprotein, S254F</title>
@@ -2470,7 +2483,7 @@
 </g>
 <g>
 	<title>2020-08-01 Australia=176</title>
-	<line x1="1194.9" y1="1208.6" x2="1189.8" y2="1217.3" style="stroke:cyan;" class="sb" />
+	<line x1="1197.5" y1="1204.3" x2="1192.3" y2="1213.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-01  C22323T  Australia=2 [1.1%]  surface glycoprotein, S254F</title>
@@ -2514,7 +2527,7 @@
 </g>
 <g>
 	<title>2020-08-02 Australia=195</title>
-	<line x1="1194.8" y1="1208.5" x2="1189.4" y2="1217.3" style="stroke:cyan;" class="sb" />
+	<line x1="1197.4" y1="1204.3" x2="1192.0" y2="1213.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-02  C22323T  Australia=4 [2.1%]  surface glycoprotein, S254F</title>
@@ -2550,7 +2563,7 @@
 </g>
 <g>
 	<title>2020-08-03 Australia=233</title>
-	<line x1="1194.6" y1="1208.4" x2="1188.9" y2="1217.4" style="stroke:cyan;" class="sb" />
+	<line x1="1197.3" y1="1204.2" x2="1191.6" y2="1213.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-03  G22992A  Australia=210 [90.1%]  surface glycoprotein, S477N</title>
@@ -2582,7 +2595,7 @@
 </g>
 <g>
 	<title>2020-08-04 Australia=199</title>
-	<line x1="1194.5" y1="1208.3" x2="1188.8" y2="1217.0" style="stroke:cyan;" class="sb" />
+	<line x1="1197.2" y1="1204.2" x2="1191.5" y2="1212.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-04  C21575T  Australia=2 [1.0%]  surface glycoprotein, L5F</title>
@@ -2622,7 +2635,7 @@
 </g>
 <g>
 	<title>2020-08-05 Australia=147</title>
-	<line x1="1194.3" y1="1208.2" x2="1188.8" y2="1216.3" style="stroke:cyan;" class="sb" />
+	<line x1="1197.2" y1="1204.1" x2="1191.7" y2="1212.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-05  C22323T  Australia=2 [1.4%]  surface glycoprotein, S254F</title>
@@ -2650,7 +2663,7 @@
 </g>
 <g>
 	<title>2020-08-06 Australia=219</title>
-	<line x1="1194.2" y1="1208.2" x2="1188.1" y2="1216.7" style="stroke:cyan;" class="sb" />
+	<line x1="1197.1" y1="1204.1" x2="1191.0" y2="1212.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-06  C21575T  Australia=3 [1.4%]  surface glycoprotein, L5F</title>
@@ -2694,7 +2707,7 @@
 </g>
 <g>
 	<title>2020-08-07 Australia=118</title>
-	<line x1="1194.1" y1="1208.0" x2="1188.5" y2="1215.6" style="stroke:cyan;" class="sb" />
+	<line x1="1197.0" y1="1204.0" x2="1191.5" y2="1211.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-07  C21575T  Australia=3 [2.5%]  surface glycoprotein, L5F</title>
@@ -2734,7 +2747,7 @@
 </g>
 <g>
 	<title>2020-08-08 Australia=97</title>
-	<line x1="1193.9" y1="1207.9" x2="1188.5" y2="1215.1" style="stroke:cyan;" class="sb" />
+	<line x1="1197.0" y1="1204.0" x2="1191.5" y2="1211.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-08  G22992A  Australia=84 [86.6%]  surface glycoprotein, S477N</title>
@@ -2766,7 +2779,7 @@
 </g>
 <g>
 	<title>2020-08-09 Australia=108</title>
-	<line x1="1193.8" y1="1207.8" x2="1188.1" y2="1215.0" style="stroke:cyan;" class="sb" />
+	<line x1="1196.9" y1="1203.9" x2="1191.2" y2="1211.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-09  G22520A  Australia=2 [1.9%]  surface glycoprotein, V320I</title>
@@ -2798,7 +2811,7 @@
 </g>
 <g>
 	<title>2020-08-10 Australia=112</title>
-	<line x1="1193.7" y1="1207.7" x2="1187.8" y2="1214.9" style="stroke:cyan;" class="sb" />
+	<line x1="1196.8" y1="1203.9" x2="1191.0" y2="1211.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-10  G22520A  Australia=2 [1.8%]  surface glycoprotein, V320I</title>
@@ -2834,7 +2847,7 @@
 </g>
 <g>
 	<title>2020-08-11 Australia=122</title>
-	<line x1="1193.5" y1="1207.6" x2="1187.4" y2="1214.8" style="stroke:cyan;" class="sb" />
+	<line x1="1196.8" y1="1203.8" x2="1190.7" y2="1211.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-11  G21800T  Australia=3 [2.5%]  surface glycoprotein, D80Y</title>
@@ -2870,7 +2883,7 @@
 </g>
 <g>
 	<title>2020-08-12 Australia=129</title>
-	<line x1="1193.4" y1="1207.5" x2="1187.1" y2="1214.7" style="stroke:cyan;" class="sb" />
+	<line x1="1196.7" y1="1203.8" x2="1190.4" y2="1210.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-12  A21551G  Australia=2 [1.6%]  orf1ab polyprotein, N7096S</title>
@@ -2906,11 +2919,11 @@
 </g>
 <g>
 	<title>2020-08-13 Australia=123</title>
-	<line x1="1193.3" y1="1207.4" x2="1186.9" y2="1214.4" style="stroke:cyan;" class="sb" />
+	<line x1="1196.6" y1="1203.7" x2="1190.3" y2="1210.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-13 New Zealand=8</title>
-	<line x1="1186.9" y1="1214.4" x2="1184.0" y2="1217.5" style="stroke:fuchsia;" class="sb" />
+	<line x1="1190.3" y1="1210.7" x2="1187.4" y2="1213.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-08-13  C22227T  Australia=2 [1.6%]  surface glycoprotein, A222V</title>
@@ -2942,11 +2955,11 @@
 </g>
 <g>
 	<title>2020-08-14 Australia=111</title>
-	<line x1="1193.1" y1="1207.3" x2="1186.8" y2="1214.0" style="stroke:cyan;" class="sb" />
+	<line x1="1196.6" y1="1203.6" x2="1190.3" y2="1210.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-14 New Zealand=6</title>
-	<line x1="1186.8" y1="1214.0" x2="1184.2" y2="1216.8" style="stroke:fuchsia;" class="sb" />
+	<line x1="1190.3" y1="1210.4" x2="1187.6" y2="1213.1" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-08-14  G22520A  Australia=2 [1.8%]  surface glycoprotein, V320I</title>
@@ -2982,11 +2995,11 @@
 </g>
 <g>
 	<title>2020-08-15 Australia=88</title>
-	<line x1="1193.0" y1="1207.2" x2="1186.9" y2="1213.4" style="stroke:cyan;" class="sb" />
+	<line x1="1196.5" y1="1203.6" x2="1190.4" y2="1209.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-15 New Zealand=2</title>
-	<line x1="1186.9" y1="1213.4" x2="1185.4" y2="1215.0" style="stroke:fuchsia;" class="sb" />
+	<line x1="1190.4" y1="1209.9" x2="1188.9" y2="1211.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-08-15  G21800T  Australia=2 [2.3%]  surface glycoprotein, D80Y</title>
@@ -3030,11 +3043,11 @@
 </g>
 <g>
 	<title>2020-08-16 Australia=83</title>
-	<line x1="1192.9" y1="1207.0" x2="1186.7" y2="1213.1" style="stroke:cyan;" class="sb" />
+	<line x1="1196.4" y1="1203.5" x2="1190.3" y2="1209.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-16 New Zealand=4</title>
-	<line x1="1186.7" y1="1213.1" x2="1184.5" y2="1215.4" style="stroke:fuchsia;" class="sb" />
+	<line x1="1190.3" y1="1209.6" x2="1188.1" y2="1211.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-08-16  A21551G  Australia=2 [2.4%]  orf1ab polyprotein, N7096S</title>
@@ -3078,11 +3091,11 @@
 </g>
 <g>
 	<title>2020-08-17 Australia=129</title>
-	<line x1="1192.8" y1="1206.9" x2="1185.9" y2="1213.5" style="stroke:cyan;" class="sb" />
+	<line x1="1196.4" y1="1203.5" x2="1189.5" y2="1210.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-17 New Zealand=4</title>
-	<line x1="1185.9" y1="1213.5" x2="1183.6" y2="1215.7" style="stroke:fuchsia;" class="sb" />
+	<line x1="1189.5" y1="1210.0" x2="1187.2" y2="1212.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-08-17  C22227T  Australia=4 [3.1%]  surface glycoprotein, A222V</title>
@@ -3138,11 +3151,11 @@
 </g>
 <g>
 	<title>2020-08-18 Australia=92</title>
-	<line x1="1192.7" y1="1206.8" x2="1186.2" y2="1212.8" style="stroke:cyan;" class="sb" />
+	<line x1="1196.3" y1="1203.4" x2="1189.8" y2="1209.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-18 New Zealand=3</title>
-	<line x1="1186.2" y1="1212.8" x2="1184.2" y2="1214.7" style="stroke:fuchsia;" class="sb" />
+	<line x1="1189.8" y1="1209.4" x2="1187.8" y2="1211.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-08-18  G21800T  Australia=2 [2.2%]  surface glycoprotein, D80Y</title>
@@ -3170,11 +3183,11 @@
 </g>
 <g>
 	<title>2020-08-19 Australia=98</title>
-	<line x1="1192.5" y1="1206.7" x2="1185.9" y2="1212.7" style="stroke:cyan;" class="sb" />
+	<line x1="1196.3" y1="1203.3" x2="1189.6" y2="1209.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-19 New Zealand=5</title>
-	<line x1="1185.9" y1="1212.7" x2="1183.2" y2="1215.0" style="stroke:fuchsia;" class="sb" />
+	<line x1="1189.6" y1="1209.3" x2="1187.0" y2="1211.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-08-19  G22520A  Australia=4 [4.1%]  surface glycoprotein, V320I</title>
@@ -3222,7 +3235,7 @@
 </g>
 <g>
 	<title>2020-08-20 Australia=103</title>
-	<line x1="1192.4" y1="1206.5" x2="1185.6" y2="1212.5" style="stroke:cyan;" class="sb" />
+	<line x1="1196.2" y1="1203.3" x2="1189.3" y2="1209.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-20  G21666T  Australia=5 [4.9%]  surface glycoprotein, G35V</title>
@@ -3262,7 +3275,7 @@
 </g>
 <g>
 	<title>2020-08-21 Australia=115</title>
-	<line x1="1192.3" y1="1206.4" x2="1185.2" y2="1212.4" style="stroke:cyan;" class="sb" />
+	<line x1="1196.2" y1="1203.2" x2="1189.0" y2="1209.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-21  C21767T  Australia=5 [4.3%]  surface glycoprotein, H69Y</title>
@@ -3310,7 +3323,7 @@
 </g>
 <g>
 	<title>2020-08-22 Australia=60</title>
-	<line x1="1192.2" y1="1206.3" x2="1186.0" y2="1211.3" style="stroke:cyan;" class="sb" />
+	<line x1="1196.1" y1="1203.1" x2="1189.8" y2="1208.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-22  G21800T  Australia=2 [3.3%]  surface glycoprotein, D80Y</title>
@@ -3350,11 +3363,11 @@
 </g>
 <g>
 	<title>2020-08-23 Australia=63</title>
-	<line x1="1192.1" y1="1206.1" x2="1185.7" y2="1211.1" style="stroke:cyan;" class="sb" />
+	<line x1="1196.1" y1="1203.1" x2="1189.6" y2="1208.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-23 New Zealand=3</title>
-	<line x1="1185.7" y1="1211.1" x2="1183.6" y2="1212.8" style="stroke:fuchsia;" class="sb" />
+	<line x1="1189.6" y1="1208.1" x2="1187.5" y2="1209.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-08-23  C21767T  Australia=6 [9.5%]  surface glycoprotein, H69Y</title>
@@ -3382,11 +3395,11 @@
 </g>
 <g>
 	<title>2020-08-24 Australia=99</title>
-	<line x1="1192.0" y1="1206.0" x2="1184.8" y2="1211.4" style="stroke:cyan;" class="sb" />
+	<line x1="1196.0" y1="1203.0" x2="1188.8" y2="1208.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-24 New Zealand=2</title>
-	<line x1="1184.8" y1="1211.4" x2="1183.1" y2="1212.7" style="stroke:fuchsia;" class="sb" />
+	<line x1="1188.8" y1="1208.4" x2="1187.1" y2="1209.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-08-24  C22227T  Australia=2 [2.0%]  surface glycoprotein, A222V</title>
@@ -3434,11 +3447,11 @@
 </g>
 <g>
 	<title>2020-08-25 Australia=59</title>
-	<line x1="1191.9" y1="1205.9" x2="1185.4" y2="1210.6" style="stroke:cyan;" class="sb" />
+	<line x1="1195.9" y1="1202.9" x2="1189.5" y2="1207.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-25 New Zealand=3</title>
-	<line x1="1185.4" y1="1210.6" x2="1183.2" y2="1212.1" style="stroke:fuchsia;" class="sb" />
+	<line x1="1189.5" y1="1207.6" x2="1187.3" y2="1209.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-08-25  G21800T  Australia=3 [5.1%]  surface glycoprotein, D80Y</title>
@@ -3466,7 +3479,7 @@
 </g>
 <g>
 	<title>2020-08-26 Australia=72</title>
-	<line x1="1191.8" y1="1205.7" x2="1184.9" y2="1210.5" style="stroke:cyan;" class="sb" />
+	<line x1="1195.9" y1="1202.9" x2="1189.0" y2="1207.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-26  G21800T  Australia=5 [6.9%]  surface glycoprotein, D80Y</title>
@@ -3506,11 +3519,11 @@
 </g>
 <g>
 	<title>2020-08-27 Australia=61</title>
-	<line x1="1191.7" y1="1205.6" x2="1185.0" y2="1210.1" style="stroke:cyan;" class="sb" />
+	<line x1="1195.9" y1="1202.8" x2="1189.2" y2="1207.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-27 New Zealand=4</title>
-	<line x1="1185.0" y1="1210.1" x2="1182.4" y2="1211.8" style="stroke:fuchsia;" class="sb" />
+	<line x1="1189.2" y1="1207.3" x2="1186.5" y2="1209.0" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-08-27  G21666T  Australia=2 [3.3%]  surface glycoprotein, G35V</title>
@@ -3550,11 +3563,11 @@
 </g>
 <g>
 	<title>2020-08-28 Australia=55</title>
-	<line x1="1191.6" y1="1205.4" x2="1185.0" y2="1209.7" style="stroke:cyan;" class="sb" />
+	<line x1="1195.8" y1="1202.7" x2="1189.2" y2="1207.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-28 New Zealand=3</title>
-	<line x1="1185.0" y1="1209.7" x2="1182.7" y2="1211.2" style="stroke:fuchsia;" class="sb" />
+	<line x1="1189.2" y1="1207.0" x2="1186.9" y2="1208.5" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-08-28  G21666T  Australia=4 [7.3%]  surface glycoprotein, G35V</title>
@@ -3598,11 +3611,11 @@
 </g>
 <g>
 	<title>2020-08-29 Australia=52</title>
-	<line x1="1191.5" y1="1205.3" x2="1184.9" y2="1209.4" style="stroke:cyan;" class="sb" />
+	<line x1="1195.8" y1="1202.6" x2="1189.2" y2="1206.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-29 New Zealand=3</title>
-	<line x1="1184.9" y1="1209.4" x2="1182.6" y2="1210.8" style="stroke:fuchsia;" class="sb" />
+	<line x1="1189.2" y1="1206.8" x2="1186.9" y2="1208.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-08-29  G21604T  Australia=2 [3.8%]  surface glycoprotein, Q14H</title>
@@ -3642,7 +3655,7 @@
 </g>
 <g>
 	<title>2020-08-30 Australia=32</title>
-	<line x1="1191.4" y1="1205.1" x2="1185.6" y2="1208.7" style="stroke:cyan;" class="sb" />
+	<line x1="1195.7" y1="1202.6" x2="1189.9" y2="1206.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-30  G21666T  Australia=2 [6.2%]  surface glycoprotein, G35V</title>
@@ -3662,7 +3675,7 @@
 </g>
 <g>
 	<title>2020-08-31 Australia=56</title>
-	<line x1="1191.3" y1="1205.0" x2="1184.5" y2="1209.0" style="stroke:cyan;" class="sb" />
+	<line x1="1195.7" y1="1202.5" x2="1188.8" y2="1206.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-08-31  G21666T  Australia=2 [3.6%]  surface glycoprotein, G35V</title>
@@ -3690,7 +3703,7 @@
 </g>
 <g>
 	<title>2020-09-01 Australia=62</title>
-	<line x1="1191.3" y1="1204.9" x2="1184.2" y2="1208.8" style="stroke:cyan;" class="sb" />
+	<line x1="1195.6" y1="1202.4" x2="1188.5" y2="1206.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-01  G21666T  Australia=2 [3.2%]  surface glycoprotein, G35V</title>
@@ -3718,7 +3731,7 @@
 </g>
 <g>
 	<title>2020-09-02 Australia=41</title>
-	<line x1="1191.2" y1="1204.7" x2="1184.7" y2="1208.1" style="stroke:cyan;" class="sb" />
+	<line x1="1195.6" y1="1202.3" x2="1189.1" y2="1205.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-02  G22992A  Australia=37 [90.2%]  surface glycoprotein, S477N</title>
@@ -3742,11 +3755,11 @@
 </g>
 <g>
 	<title>2020-09-03 Australia=32</title>
-	<line x1="1191.1" y1="1204.5" x2="1185.0" y2="1207.7" style="stroke:cyan;" class="sb" />
+	<line x1="1195.5" y1="1202.3" x2="1189.5" y2="1205.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-03 New Zealand=2</title>
-	<line x1="1185.0" y1="1207.7" x2="1183.1" y2="1208.6" style="stroke:fuchsia;" class="sb" />
+	<line x1="1189.5" y1="1205.4" x2="1187.5" y2="1206.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-09-03  G22992A  Australia=28 [87.5%]  surface glycoprotein, S477N</title>
@@ -3766,7 +3779,7 @@
 </g>
 <g>
 	<title>2020-09-04 Australia=39</title>
-	<line x1="1191.0" y1="1204.4" x2="1184.5" y2="1207.6" style="stroke:cyan;" class="sb" />
+	<line x1="1195.5" y1="1202.2" x2="1189.0" y2="1205.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-04  G22992A  Australia=29 [74.4%]  surface glycoprotein, S477N</title>
@@ -3786,7 +3799,7 @@
 </g>
 <g>
 	<title>2020-09-05 Australia=28</title>
-	<line x1="1190.9" y1="1204.2" x2="1185.0" y2="1207.0" style="stroke:cyan;" class="sb" />
+	<line x1="1195.5" y1="1202.1" x2="1189.5" y2="1204.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-05  G22992A  Australia=19 [67.9%]  surface glycoprotein, S477N</title>
@@ -3802,7 +3815,7 @@
 </g>
 <g>
 	<title>2020-09-06 Australia=33</title>
-	<line x1="1190.9" y1="1204.1" x2="1184.6" y2="1206.9" style="stroke:cyan;" class="sb" />
+	<line x1="1195.4" y1="1202.0" x2="1189.1" y2="1204.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-06  G21666T  Australia=3 [9.1%]  surface glycoprotein, G35V</title>
@@ -3822,7 +3835,7 @@
 </g>
 <g>
 	<title>2020-09-07 Australia=40</title>
-	<line x1="1190.8" y1="1203.9" x2="1184.1" y2="1206.8" style="stroke:cyan;" class="sb" />
+	<line x1="1195.4" y1="1202.0" x2="1188.7" y2="1204.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-07  G21666T  Australia=3 [7.5%]  surface glycoprotein, G35V</title>
@@ -3846,7 +3859,7 @@
 </g>
 <g>
 	<title>2020-09-08 Australia=29</title>
-	<line x1="1190.7" y1="1203.8" x2="1184.6" y2="1206.3" style="stroke:cyan;" class="sb" />
+	<line x1="1195.4" y1="1201.9" x2="1189.2" y2="1204.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-08  G22992A  Australia=22 [75.9%]  surface glycoprotein, S477N</title>
@@ -3866,7 +3879,7 @@
 </g>
 <g>
 	<title>2020-09-09 Australia=28</title>
-	<line x1="1190.7" y1="1203.6" x2="1184.5" y2="1206.0" style="stroke:cyan;" class="sb" />
+	<line x1="1195.3" y1="1201.8" x2="1189.2" y2="1204.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-09  G22992A  Australia=26 [92.9%]  surface glycoprotein, S477N</title>
@@ -3882,7 +3895,7 @@
 </g>
 <g>
 	<title>2020-09-10 Australia=25</title>
-	<line x1="1190.6" y1="1203.4" x2="1184.6" y2="1205.6" style="stroke:cyan;" class="sb" />
+	<line x1="1195.3" y1="1201.7" x2="1189.3" y2="1203.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-10  G21666T  Australia=3 [12.0%]  surface glycoprotein, G35V</title>
@@ -3906,7 +3919,7 @@
 </g>
 <g>
 	<title>2020-09-11 Australia=20</title>
-	<line x1="1190.6" y1="1203.3" x2="1184.9" y2="1205.2" style="stroke:cyan;" class="sb" />
+	<line x1="1195.3" y1="1201.6" x2="1189.7" y2="1203.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-11  G22992A  Australia=17 [85.0%]  surface glycoprotein, S477N</title>
@@ -3922,7 +3935,7 @@
 </g>
 <g>
 	<title>2020-09-12 Australia=19</title>
-	<line x1="1190.5" y1="1203.1" x2="1184.9" y2="1205.0" style="stroke:cyan;" class="sb" />
+	<line x1="1195.3" y1="1201.6" x2="1189.7" y2="1203.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-12  G22992A  Australia=15 [78.9%]  surface glycoprotein, S477N</title>
@@ -3946,11 +3959,11 @@
 </g>
 <g>
 	<title>2020-09-13 Australia=26</title>
-	<line x1="1190.4" y1="1203.0" x2="1184.3" y2="1204.9" style="stroke:cyan;" class="sb" />
+	<line x1="1195.2" y1="1201.5" x2="1189.1" y2="1203.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-13 New Zealand=2</title>
-	<line x1="1184.3" y1="1204.9" x2="1182.2" y2="1205.5" style="stroke:fuchsia;" class="sb" />
+	<line x1="1189.1" y1="1203.4" x2="1187.0" y2="1204.0" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-09-13  C21575T  Australia=2 [7.7%]  surface glycoprotein, L5F</title>
@@ -3982,7 +3995,7 @@
 </g>
 <g>
 	<title>2020-09-14 Australia=28</title>
-	<line x1="1190.4" y1="1202.8" x2="1184.1" y2="1204.6" style="stroke:cyan;" class="sb" />
+	<line x1="1195.2" y1="1201.4" x2="1188.9" y2="1203.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-14  G22992A  Australia=27 [96.4%]  surface glycoprotein, S477N</title>
@@ -3998,7 +4011,7 @@
 </g>
 <g>
 	<title>2020-09-15 Australia=23</title>
-	<line x1="1190.4" y1="1202.6" x2="1184.4" y2="1204.3" style="stroke:cyan;" class="sb" />
+	<line x1="1195.2" y1="1201.3" x2="1189.2" y2="1202.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-15  C21597T  Australia=2 [8.7%]  surface glycoprotein, S12F</title>
@@ -4026,7 +4039,7 @@
 </g>
 <g>
 	<title>2020-09-16 Australia=25</title>
-	<line x1="1190.3" y1="1202.5" x2="1184.1" y2="1204.0" style="stroke:cyan;" class="sb" />
+	<line x1="1195.2" y1="1201.2" x2="1189.0" y2="1202.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-16  G22992A  Australia=25 [100.0%]  surface glycoprotein, S477N</title>
@@ -4038,7 +4051,7 @@
 </g>
 <g>
 	<title>2020-09-17 Australia=16</title>
-	<line x1="1190.3" y1="1202.3" x2="1184.9" y2="1203.6" style="stroke:cyan;" class="sb" />
+	<line x1="1195.1" y1="1201.1" x2="1189.7" y2="1202.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-17  G22992A  Australia=12 [75.0%]  surface glycoprotein, S477N</title>
@@ -4058,7 +4071,7 @@
 </g>
 <g>
 	<title>2020-09-18 Australia=15</title>
-	<line x1="1190.2" y1="1202.1" x2="1184.9" y2="1203.3" style="stroke:cyan;" class="sb" />
+	<line x1="1195.1" y1="1201.1" x2="1189.8" y2="1202.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-18  G22992A  Australia=14 [93.3%]  surface glycoprotein, S477N</title>
@@ -4066,11 +4079,11 @@
 </g>
 <g>
 	<title>2020-09-19 Australia=14</title>
-	<line x1="1190.2" y1="1202.0" x2="1185.0" y2="1203.0" style="stroke:cyan;" class="sb" />
+	<line x1="1195.1" y1="1201.0" x2="1189.9" y2="1202.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-19 New Zealand=2</title>
-	<line x1="1185.0" y1="1203.0" x2="1182.9" y2="1203.4" style="stroke:fuchsia;" class="sb" />
+	<line x1="1189.9" y1="1202.0" x2="1187.8" y2="1202.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-09-19  G21785C  New Zealand=2 [100.0%]  surface glycoprotein, G75R</title>
@@ -4094,7 +4107,7 @@
 </g>
 <g>
 	<title>2020-09-20 Australia=10</title>
-	<line x1="1190.2" y1="1201.8" x2="1185.6" y2="1202.6" style="stroke:cyan;" class="sb" />
+	<line x1="1195.1" y1="1200.9" x2="1190.5" y2="1201.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-20  G22992A  Australia=9 [90.0%]  surface glycoprotein, S477N</title>
@@ -4102,11 +4115,11 @@
 </g>
 <g>
 	<title>2020-09-21 Australia=3</title>
-	<line x1="1190.1" y1="1201.6" x2="1187.5" y2="1202.1" style="stroke:cyan;" class="sb" />
+	<line x1="1195.1" y1="1200.8" x2="1192.4" y2="1201.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-21 New Zealand=3</title>
-	<line x1="1187.5" y1="1202.1" x2="1184.8" y2="1202.5" style="stroke:fuchsia;" class="sb" />
+	<line x1="1192.4" y1="1201.3" x2="1189.7" y2="1201.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-09-21  G21785C  New Zealand=2 [66.7%]  surface glycoprotein, G75R</title>
@@ -4122,7 +4135,7 @@
 </g>
 <g>
 	<title>2020-09-22 Australia=8</title>
-	<line x1="1190.1" y1="1201.5" x2="1185.9" y2="1202.1" style="stroke:cyan;" class="sb" />
+	<line x1="1195.1" y1="1200.7" x2="1190.8" y2="1201.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-22  G22992A  Australia=8 [100.0%]  surface glycoprotein, S477N</title>
@@ -4134,7 +4147,7 @@
 </g>
 <g>
 	<title>2020-09-23 Australia=10</title>
-	<line x1="1190.1" y1="1201.3" x2="1185.4" y2="1201.9" style="stroke:cyan;" class="sb" />
+	<line x1="1195.0" y1="1200.6" x2="1190.4" y2="1201.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-23  G22992A  Australia=7 [70.0%]  surface glycoprotein, S477N</title>
@@ -4146,7 +4159,7 @@
 </g>
 <g>
 	<title>2020-09-24 Australia=8</title>
-	<line x1="1190.1" y1="1201.1" x2="1185.8" y2="1201.6" style="stroke:cyan;" class="sb" />
+	<line x1="1195.0" y1="1200.6" x2="1190.8" y2="1201.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-24  G22992A  Australia=5 [62.5%]  surface glycoprotein, S477N</title>
@@ -4154,7 +4167,7 @@
 </g>
 <g>
 	<title>2020-09-25 Australia=7</title>
-	<line x1="1190.0" y1="1200.9" x2="1186.0" y2="1201.3" style="stroke:cyan;" class="sb" />
+	<line x1="1195.0" y1="1200.5" x2="1191.0" y2="1200.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-25  C21597T  Australia=4 [57.1%]  surface glycoprotein, S12F</title>
@@ -4178,7 +4191,7 @@
 </g>
 <g>
 	<title>2020-09-26 Australia=6</title>
-	<line x1="1190.0" y1="1200.8" x2="1186.2" y2="1201.1" style="stroke:cyan;" class="sb" />
+	<line x1="1195.0" y1="1200.4" x2="1191.2" y2="1200.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-26  C21597T  Australia=3 [50.0%]  surface glycoprotein, S12F</title>
@@ -4202,7 +4215,7 @@
 </g>
 <g>
 	<title>2020-09-27 Australia=4</title>
-	<line x1="1190.0" y1="1200.6" x2="1186.9" y2="1200.8" style="stroke:cyan;" class="sb" />
+	<line x1="1195.0" y1="1200.3" x2="1191.9" y2="1200.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-27  G22992A  Australia=4 [100.0%]  surface glycoprotein, S477N</title>
@@ -4210,7 +4223,7 @@
 </g>
 <g>
 	<title>2020-09-28 Australia=3</title>
-	<line x1="1190.0" y1="1200.4" x2="1187.3" y2="1200.5" style="stroke:cyan;" class="sb" />
+	<line x1="1195.0" y1="1200.2" x2="1192.3" y2="1200.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-28  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -4218,11 +4231,11 @@
 </g>
 <g>
 	<title>2020-09-29 Australia=3</title>
-	<line x1="1190.0" y1="1200.3" x2="1187.3" y2="1200.3" style="stroke:cyan;" class="sb" />
+	<line x1="1195.0" y1="1200.1" x2="1192.3" y2="1200.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-29 New Zealand=2</title>
-	<line x1="1187.3" y1="1200.3" x2="1185.1" y2="1200.4" style="stroke:fuchsia;" class="sb" />
+	<line x1="1192.3" y1="1200.2" x2="1190.1" y2="1200.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-09-29  G22992A  Australia=2 [66.7%]  surface glycoprotein, S477N</title>
@@ -4234,15 +4247,15 @@
 </g>
 <g>
 	<title>2020-09-30 Australia=2</title>
-	<line x1="1190.0" y1="1200.1" x2="1187.9" y2="1200.1" style="stroke:cyan;" class="sb" />
+	<line x1="1195.0" y1="1200.0" x2="1192.9" y2="1200.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-02 Australia=2</title>
-	<line x1="1190.0" y1="1199.7" x2="1187.9" y2="1199.7" style="stroke:cyan;" class="sb" />
+	<line x1="1195.0" y1="1199.9" x2="1192.9" y2="1199.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-02 New Zealand=2</title>
-	<line x1="1187.9" y1="1199.7" x2="1185.7" y2="1199.6" style="stroke:fuchsia;" class="sb" />
+	<line x1="1192.9" y1="1199.8" x2="1190.7" y2="1199.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-10-02  C22227T  New Zealand=2 [100.0%]  surface glycoprotein, A222V</title>
@@ -4254,7 +4267,7 @@
 </g>
 <g>
 	<title>2020-10-03 Australia=6</title>
-	<line x1="1190.0" y1="1199.6" x2="1186.2" y2="1199.4" style="stroke:cyan;" class="sb" />
+	<line x1="1195.0" y1="1199.8" x2="1191.2" y2="1199.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-03  G22992A  Australia=4 [66.7%]  surface glycoprotein, S477N</title>
@@ -4266,11 +4279,11 @@
 </g>
 <g>
 	<title>2020-10-04 Australia=4</title>
-	<line x1="1190.0" y1="1199.4" x2="1186.9" y2="1199.2" style="stroke:cyan;" class="sb" />
+	<line x1="1195.0" y1="1199.7" x2="1191.9" y2="1199.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-04 New Zealand=2</title>
-	<line x1="1186.9" y1="1199.2" x2="1184.7" y2="1199.1" style="stroke:fuchsia;" class="sb" />
+	<line x1="1191.9" y1="1199.5" x2="1189.7" y2="1199.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-10-04  A23403G  Australia=3 [75.0%]  surface glycoprotein, D614G</title>
@@ -4282,7 +4295,7 @@
 </g>
 <g>
 	<title>2020-10-05 Australia=2</title>
-	<line x1="1190.0" y1="1199.2" x2="1187.9" y2="1199.1" style="stroke:cyan;" class="sb" />
+	<line x1="1195.0" y1="1199.6" x2="1192.9" y2="1199.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-05  G22992A  Australia=2 [100.0%]  surface glycoprotein, S477N</title>
@@ -4290,15 +4303,15 @@
 </g>
 <g>
 	<title>2020-10-06 Australia=6</title>
-	<line x1="1190.0" y1="1199.1" x2="1186.3" y2="1198.7" style="stroke:cyan;" class="sb" />
+	<line x1="1195.0" y1="1199.5" x2="1191.2" y2="1199.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-06 New Zealand=2</title>
-	<line x1="1186.3" y1="1198.7" x2="1184.1" y2="1198.5" style="stroke:fuchsia;" class="sb" />
+	<line x1="1191.2" y1="1199.2" x2="1189.1" y2="1199.0" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-10-06 Papua New Guinea=2</title>
-	<line x1="1184.1" y1="1198.5" x2="1182.0" y2="1198.3" style="stroke:white;" class="sb" />
+	<line x1="1189.1" y1="1199.0" x2="1187.0" y2="1198.8" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-10-06  G22992A  Australia=3 [50.0%]  surface glycoprotein, S477N</title>
@@ -4318,7 +4331,7 @@
 </g>
 <g>
 	<title>2020-10-07 Australia=8</title>
-	<line x1="1190.1" y1="1198.9" x2="1185.8" y2="1198.4" style="stroke:cyan;" class="sb" />
+	<line x1="1195.0" y1="1199.4" x2="1190.8" y2="1199.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-07  C22383T  Australia=4 [50.0%]  surface glycoprotein, T274I</title>
@@ -4338,11 +4351,11 @@
 </g>
 <g>
 	<title>2020-10-08 Australia=5</title>
-	<line x1="1190.1" y1="1198.7" x2="1186.6" y2="1198.3" style="stroke:cyan;" class="sb" />
+	<line x1="1195.0" y1="1199.4" x2="1191.6" y2="1198.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-08 New Zealand=2</title>
-	<line x1="1186.6" y1="1198.3" x2="1184.5" y2="1198.0" style="stroke:fuchsia;" class="sb" />
+	<line x1="1191.6" y1="1198.9" x2="1189.4" y2="1198.6" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-10-08  C22227T  New Zealand=2 [100.0%]  surface glycoprotein, A222V</title>
@@ -4362,7 +4375,7 @@
 </g>
 <g>
 	<title>2020-10-09 Australia=4</title>
-	<line x1="1190.1" y1="1198.5" x2="1187.0" y2="1198.1" style="stroke:cyan;" class="sb" />
+	<line x1="1195.1" y1="1199.3" x2="1191.9" y2="1198.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-09  G22992A  Australia=2 [50.0%]  surface glycoprotein, S477N</title>
@@ -4378,7 +4391,7 @@
 </g>
 <g>
 	<title>2020-10-10 Australia=3</title>
-	<line x1="1190.1" y1="1198.4" x2="1187.5" y2="1197.9" style="stroke:cyan;" class="sb" />
+	<line x1="1195.1" y1="1199.2" x2="1192.4" y2="1198.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-10  C21575T  Australia=2 [66.7%]  surface glycoprotein, L5F</title>
@@ -4390,7 +4403,7 @@
 </g>
 <g>
 	<title>2020-10-11 Australia=9</title>
-	<line x1="1190.2" y1="1198.2" x2="1185.7" y2="1197.4" style="stroke:cyan;" class="sb" />
+	<line x1="1195.1" y1="1199.1" x2="1190.7" y2="1198.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-11  C21575T  Australia=2 [22.2%]  surface glycoprotein, L5F</title>
@@ -4414,7 +4427,7 @@
 </g>
 <g>
 	<title>2020-10-12 Australia=10</title>
-	<line x1="1190.2" y1="1198.0" x2="1185.6" y2="1197.1" style="stroke:cyan;" class="sb" />
+	<line x1="1195.1" y1="1199.0" x2="1190.5" y2="1198.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-12  C22120A  Australia=5 [50.0%]  surface glycoprotein, F186L</title>
@@ -4434,7 +4447,7 @@
 </g>
 <g>
 	<title>2020-10-13 Australia=4</title>
-	<line x1="1190.2" y1="1197.9" x2="1187.2" y2="1197.2" style="stroke:cyan;" class="sb" />
+	<line x1="1195.1" y1="1198.9" x2="1192.0" y2="1198.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-13  G22992A  Australia=3 [75.0%]  surface glycoprotein, S477N</title>
@@ -4442,7 +4455,7 @@
 </g>
 <g>
 	<title>2020-10-14 Australia=3</title>
-	<line x1="1190.3" y1="1197.7" x2="1187.6" y2="1197.1" style="stroke:cyan;" class="sb" />
+	<line x1="1195.1" y1="1198.9" x2="1192.5" y2="1198.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-14  G22992A  Australia=3 [100.0%]  surface glycoprotein, S477N</title>
@@ -4454,7 +4467,7 @@
 </g>
 <g>
 	<title>2020-10-15 Australia=3</title>
-	<line x1="1190.3" y1="1197.5" x2="1187.7" y2="1196.9" style="stroke:cyan;" class="sb" />
+	<line x1="1195.2" y1="1198.8" x2="1192.5" y2="1198.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-15  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -4462,7 +4475,7 @@
 </g>
 <g>
 	<title>2020-10-16 Australia=3</title>
-	<line x1="1190.4" y1="1197.4" x2="1187.7" y2="1196.7" style="stroke:cyan;" class="sb" />
+	<line x1="1195.2" y1="1198.7" x2="1192.6" y2="1198.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-16  G23236T  Australia=2 [66.7%]  surface glycoprotein, K558N</title>
@@ -4474,7 +4487,7 @@
 </g>
 <g>
 	<title>2020-10-17 Australia=2</title>
-	<line x1="1190.4" y1="1197.2" x2="1188.3" y2="1196.6" style="stroke:cyan;" class="sb" />
+	<line x1="1195.2" y1="1198.6" x2="1193.1" y2="1198.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-17  C21575T  Australia=2 [100.0%]  surface glycoprotein, L5F</title>
@@ -4482,7 +4495,7 @@
 </g>
 <g>
 	<title>2020-10-18 Australia=8</title>
-	<line x1="1190.4" y1="1197.0" x2="1186.3" y2="1195.8" style="stroke:cyan;" class="sb" />
+	<line x1="1195.2" y1="1198.5" x2="1191.1" y2="1197.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-18  G22343C  Australia=7 [87.5%]  surface glycoprotein, G261R</title>
@@ -4498,7 +4511,7 @@
 </g>
 <g>
 	<title>2020-10-20 Australia=3</title>
-	<line x1="1190.6" y1="1196.7" x2="1188.0" y2="1195.8" style="stroke:cyan;" class="sb" />
+	<line x1="1195.3" y1="1198.4" x2="1192.7" y2="1197.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-20  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -4506,7 +4519,7 @@
 </g>
 <g>
 	<title>2020-10-21 Australia=5</title>
-	<line x1="1190.6" y1="1196.6" x2="1187.3" y2="1195.3" style="stroke:cyan;" class="sb" />
+	<line x1="1195.3" y1="1198.3" x2="1192.0" y2="1197.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-21  C22227T  Australia=2 [40.0%]  surface glycoprotein, A222V</title>
@@ -4518,11 +4531,11 @@
 </g>
 <g>
 	<title>2020-10-22 Australia=5</title>
-	<line x1="1190.7" y1="1196.4" x2="1187.4" y2="1195.1" style="stroke:cyan;" class="sb" />
+	<line x1="1195.3" y1="1198.2" x2="1192.1" y2="1196.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-22 New Zealand=8</title>
-	<line x1="1187.4" y1="1195.1" x2="1183.4" y2="1193.6" style="stroke:fuchsia;" class="sb" />
+	<line x1="1192.1" y1="1196.9" x2="1188.1" y2="1195.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-10-22  A23403G  New Zealand=8 [100.0%]  surface glycoprotein, D614G</title>
@@ -4542,7 +4555,7 @@
 </g>
 <g>
 	<title>2020-10-23 Australia=2</title>
-	<line x1="1190.7" y1="1196.2" x2="1188.7" y2="1195.4" style="stroke:cyan;" class="sb" />
+	<line x1="1195.4" y1="1198.1" x2="1193.4" y2="1197.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-23  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -4550,7 +4563,7 @@
 </g>
 <g>
 	<title>2020-10-24 Australia=6</title>
-	<line x1="1190.8" y1="1196.1" x2="1187.3" y2="1194.6" style="stroke:cyan;" class="sb" />
+	<line x1="1195.4" y1="1198.0" x2="1191.9" y2="1196.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-24  A23403G  Australia=6 [100.0%]  surface glycoprotein, D614G</title>
@@ -4566,11 +4579,11 @@
 </g>
 <g>
 	<title>2020-10-25 Australia=2</title>
-	<line x1="1190.9" y1="1195.9" x2="1188.9" y2="1195.0" style="stroke:cyan;" class="sb" />
+	<line x1="1195.4" y1="1198.0" x2="1193.5" y2="1197.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-25 New Zealand=4</title>
-	<line x1="1188.9" y1="1195.0" x2="1186.0" y2="1193.8" style="stroke:fuchsia;" class="sb" />
+	<line x1="1193.5" y1="1197.1" x2="1190.6" y2="1195.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-10-25  A23403G  New Zealand=4 [100.0%]  surface glycoprotein, D614G</title>
@@ -4586,11 +4599,11 @@
 </g>
 <g>
 	<title>2020-10-26 Australia=4</title>
-	<line x1="1190.9" y1="1195.8" x2="1188.1" y2="1194.4" style="stroke:cyan;" class="sb" />
+	<line x1="1195.5" y1="1197.9" x2="1192.6" y2="1196.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-26 New Zealand=3</title>
-	<line x1="1188.1" y1="1194.4" x2="1185.6" y2="1193.3" style="stroke:fuchsia;" class="sb" />
+	<line x1="1192.6" y1="1196.5" x2="1190.2" y2="1195.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-10-26  G22992A  Australia=2 [50.0%]  surface glycoprotein, S477N</title>
@@ -4610,7 +4623,7 @@
 </g>
 <g>
 	<title>2020-10-27 Australia=4</title>
-	<line x1="1191.0" y1="1195.6" x2="1188.2" y2="1194.2" style="stroke:cyan;" class="sb" />
+	<line x1="1195.5" y1="1197.8" x2="1192.7" y2="1196.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-27  A23403G  Australia=3 [75.0%]  surface glycoprotein, D614G</title>
@@ -4618,11 +4631,11 @@
 </g>
 <g>
 	<title>2020-10-29 Australia=5</title>
-	<line x1="1191.2" y1="1195.3" x2="1188.1" y2="1193.7" style="stroke:cyan;" class="sb" />
+	<line x1="1195.6" y1="1197.7" x2="1192.5" y2="1196.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-29 New Zealand=3</title>
-	<line x1="1188.1" y1="1193.7" x2="1185.7" y2="1192.4" style="stroke:fuchsia;" class="sb" />
+	<line x1="1192.5" y1="1196.0" x2="1190.1" y2="1194.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-10-29  A23403G  Australia=5 [100.0%]  surface glycoprotein, D614G</title>
@@ -4634,11 +4647,11 @@
 </g>
 <g>
 	<title>2020-10-30 Australia=6</title>
-	<line x1="1191.3" y1="1195.1" x2="1187.9" y2="1193.3" style="stroke:cyan;" class="sb" />
+	<line x1="1195.6" y1="1197.6" x2="1192.3" y2="1195.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-30 New Zealand=3</title>
-	<line x1="1187.9" y1="1193.3" x2="1185.6" y2="1192.0" style="stroke:fuchsia;" class="sb" />
+	<line x1="1192.3" y1="1195.7" x2="1189.9" y2="1194.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-10-30  G22992A  Australia=4 [66.7%]  surface glycoprotein, S477N</title>
@@ -4654,39 +4667,39 @@
 </g>
 <g>
 	<title>2020-10-31 Australia=3</title>
-	<line x1="1191.3" y1="1195.0" x2="1189.0" y2="1193.6" style="stroke:cyan;" class="sb" />
+	<line x1="1195.7" y1="1197.5" x2="1193.3" y2="1196.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-31 New Zealand=3</title>
-	<line x1="1189.0" y1="1193.6" x2="1186.6" y2="1192.3" style="stroke:fuchsia;" class="sb" />
+	<line x1="1193.3" y1="1196.1" x2="1191.0" y2="1194.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2020-10-31  A23403G  New Zealand=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="693" cy="907" r="2" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
-	<title>2020-10-31  A23403G  New Zealand=3 [100.0%] Australia=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-10-31  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="693" cy="907" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
+	<title>2020-10-31  A23403G  Australia=3 [100.0%] New Zealand=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="693" cy="907" r="2" style="fill:fuchsia;" class="cv" />
+</g>
+<g>
 	<title>2020-11-01 Australia=2</title>
-	<line x1="1191.4" y1="1194.9" x2="1189.6" y2="1193.7" style="stroke:cyan;" class="sb" />
+	<line x1="1195.7" y1="1197.4" x2="1193.9" y2="1196.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-01 New Zealand=2</title>
-	<line x1="1189.6" y1="1193.7" x2="1187.7" y2="1192.6" style="stroke:fuchsia;" class="sb" />
+	<line x1="1193.9" y1="1196.3" x2="1192.0" y2="1195.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-11-01  C22227T  Australia=2 [100.0%]  surface glycoprotein, A222V</title>
 	<circle cx="923" cy="1034" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-11-01  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="698" cy="899" r="2" style="fill:cyan;" class="cv" />
+	<title>2020-11-01  A23403G  New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="698" cy="899" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-11-01  A23403G  Australia=2 [100.0%] New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="698" cy="899" r="2" style="fill:fuchsia;" class="cv" />
+	<title>2020-11-01  A23403G  New Zealand=2 [100.0%] Australia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="698" cy="899" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-01  G23587T  Australia=2 [100.0%]  surface glycoprotein, Q675H</title>
@@ -4694,7 +4707,7 @@
 </g>
 <g>
 	<title>2020-11-02 Australia=6</title>
-	<line x1="1191.5" y1="1194.7" x2="1188.3" y2="1192.7" style="stroke:cyan;" class="sb" />
+	<line x1="1195.8" y1="1197.4" x2="1192.5" y2="1195.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-02  C21855T  Australia=2 [33.3%]  surface glycoprotein, S98F</title>
@@ -4714,19 +4727,19 @@
 </g>
 <g>
 	<title>2020-11-03 Australia=2</title>
-	<line x1="1191.6" y1="1194.6" x2="1189.8" y2="1193.4" style="stroke:cyan;" class="sb" />
+	<line x1="1195.8" y1="1197.3" x2="1194.0" y2="1196.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-03 New Zealand=2</title>
-	<line x1="1189.8" y1="1193.4" x2="1188.0" y2="1192.2" style="stroke:fuchsia;" class="sb" />
+	<line x1="1194.0" y1="1196.1" x2="1192.2" y2="1194.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2020-11-03  A23403G  New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="709" cy="882" r="2" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
-	<title>2020-11-03  A23403G  New Zealand=2 [100.0%] Australia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-11-03  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="709" cy="882" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-11-03  A23403G  Australia=2 [100.0%] New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="709" cy="882" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-11-03  T23599G  Australia=2 [100.0%]  surface glycoprotein, N679K</title>
@@ -4734,11 +4747,11 @@
 </g>
 <g>
 	<title>2020-11-06 Australia=3</title>
-	<line x1="1191.9" y1="1194.1" x2="1189.7" y2="1192.5" style="stroke:cyan;" class="sb" />
+	<line x1="1195.9" y1="1197.1" x2="1193.8" y2="1195.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-06 New Zealand=2</title>
-	<line x1="1189.7" y1="1192.5" x2="1188.0" y2="1191.3" style="stroke:fuchsia;" class="sb" />
+	<line x1="1193.8" y1="1195.5" x2="1192.0" y2="1194.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-11-06  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -4750,7 +4763,7 @@
 </g>
 <g>
 	<title>2020-11-07 Australia=2</title>
-	<line x1="1192.0" y1="1194.0" x2="1190.3" y2="1192.7" style="stroke:cyan;" class="sb" />
+	<line x1="1196.0" y1="1197.0" x2="1194.3" y2="1195.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-07  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -4758,7 +4771,7 @@
 </g>
 <g>
 	<title>2020-11-08 Australia=9</title>
-	<line x1="1192.1" y1="1193.9" x2="1188.6" y2="1191.1" style="stroke:cyan;" class="sb" />
+	<line x1="1196.1" y1="1196.9" x2="1192.5" y2="1194.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-08  G23120T  Australia=2 [22.2%]  surface glycoprotein, A520S</title>
@@ -4770,7 +4783,7 @@
 </g>
 <g>
 	<title>2020-11-12 Australia=3</title>
-	<line x1="1192.5" y1="1193.3" x2="1190.5" y2="1191.5" style="stroke:cyan;" class="sb" />
+	<line x1="1196.3" y1="1196.7" x2="1194.3" y2="1194.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-12  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -4778,7 +4791,7 @@
 </g>
 <g>
 	<title>2020-11-13 Australia=2</title>
-	<line x1="1192.7" y1="1193.2" x2="1191.1" y2="1191.7" style="stroke:cyan;" class="sb" />
+	<line x1="1196.3" y1="1196.6" x2="1194.8" y2="1195.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-13  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -4786,7 +4799,7 @@
 </g>
 <g>
 	<title>2020-11-14 Australia=3</title>
-	<line x1="1192.8" y1="1193.1" x2="1190.8" y2="1191.2" style="stroke:cyan;" class="sb" />
+	<line x1="1196.4" y1="1196.5" x2="1194.4" y2="1194.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-14  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -4794,7 +4807,7 @@
 </g>
 <g>
 	<title>2020-11-16 Australia=13</title>
-	<line x1="1193.0" y1="1192.8" x2="1189.4" y2="1189.1" style="stroke:cyan;" class="sb" />
+	<line x1="1196.5" y1="1196.4" x2="1192.9" y2="1192.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-16  A23403G  Australia=13 [100.0%]  surface glycoprotein, D614G</title>
@@ -4802,11 +4815,11 @@
 </g>
 <g>
 	<title>2020-11-17 Australia=3</title>
-	<line x1="1193.1" y1="1192.7" x2="1191.3" y2="1190.7" style="stroke:cyan;" class="sb" />
+	<line x1="1196.6" y1="1196.4" x2="1194.7" y2="1194.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-17 New Zealand=2</title>
-	<line x1="1191.3" y1="1190.7" x2="1189.8" y2="1189.2" style="stroke:fuchsia;" class="sb" />
+	<line x1="1194.7" y1="1194.4" x2="1193.2" y2="1192.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-11-17  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -4818,7 +4831,7 @@
 </g>
 <g>
 	<title>2020-11-18 New Zealand=2</title>
-	<line x1="1193.3" y1="1192.6" x2="1191.8" y2="1191.0" style="stroke:fuchsia;" class="sb" />
+	<line x1="1196.6" y1="1196.3" x2="1195.2" y2="1194.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-11-18  A23403G  New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -4826,7 +4839,7 @@
 </g>
 <g>
 	<title>2020-11-19 Australia=5</title>
-	<line x1="1193.4" y1="1192.5" x2="1191.1" y2="1189.9" style="stroke:cyan;" class="sb" />
+	<line x1="1196.7" y1="1196.2" x2="1194.4" y2="1193.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-19  A23403G  Australia=5 [100.0%]  surface glycoprotein, D614G</title>
@@ -4834,11 +4847,11 @@
 </g>
 <g>
 	<title>2020-11-20 Australia=4</title>
-	<line x1="1193.5" y1="1192.4" x2="1191.5" y2="1190.0" style="stroke:cyan;" class="sb" />
+	<line x1="1196.8" y1="1196.2" x2="1194.7" y2="1193.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-20 New Zealand=2</title>
-	<line x1="1191.5" y1="1190.0" x2="1190.1" y2="1188.3" style="stroke:fuchsia;" class="sb" />
+	<line x1="1194.7" y1="1193.8" x2="1193.3" y2="1192.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-11-20  ATTA22190A  Australia=2 [50.0%]  surface glycoprotein, I210N/del</title>
@@ -4854,7 +4867,7 @@
 </g>
 <g>
 	<title>2020-11-21 New Zealand=2</title>
-	<line x1="1193.7" y1="1192.3" x2="1192.3" y2="1190.6" style="stroke:fuchsia;" class="sb" />
+	<line x1="1196.8" y1="1196.1" x2="1195.5" y2="1194.5" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-11-21  C21707T  New Zealand=2 [100.0%]  surface glycoprotein, H49Y</title>
@@ -4874,7 +4887,7 @@
 </g>
 <g>
 	<title>2020-11-24 Australia=2</title>
-	<line x1="1194.1" y1="1192.0" x2="1192.8" y2="1190.2" style="stroke:cyan;" class="sb" />
+	<line x1="1197.0" y1="1196.0" x2="1195.8" y2="1194.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-24  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -4890,19 +4903,19 @@
 </g>
 <g>
 	<title>2020-11-25 Australia=3</title>
-	<line x1="1194.2" y1="1191.8" x2="1192.6" y2="1189.6" style="stroke:cyan;" class="sb" />
+	<line x1="1197.1" y1="1195.9" x2="1195.5" y2="1193.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-25 New Zealand=3</title>
-	<line x1="1192.6" y1="1189.6" x2="1191.1" y2="1187.4" style="stroke:fuchsia;" class="sb" />
+	<line x1="1195.5" y1="1193.7" x2="1194.0" y2="1191.5" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2020-11-25  A23403G  New Zealand=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="861" cy="723" r="2" style="fill:fuchsia;" class="cv" />
-</g>
-<g>
-	<title>2020-11-25  A23403G  New Zealand=3 [100.0%] Australia=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-11-25  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="861" cy="723" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-11-25  A23403G  Australia=3 [100.0%] New Zealand=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="861" cy="723" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-11-25  A23586G  New Zealand=2 [66.7%]  surface glycoprotein, Q675R</title>
@@ -4910,7 +4923,7 @@
 </g>
 <g>
 	<title>2020-11-26 New Zealand=3</title>
-	<line x1="1194.3" y1="1191.8" x2="1192.8" y2="1189.5" style="stroke:fuchsia;" class="sb" />
+	<line x1="1197.2" y1="1195.9" x2="1195.6" y2="1193.6" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-11-26  A23403G  New Zealand=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -4918,7 +4931,7 @@
 </g>
 <g>
 	<title>2020-11-27 New Zealand=2</title>
-	<line x1="1194.5" y1="1191.7" x2="1193.3" y2="1189.9" style="stroke:fuchsia;" class="sb" />
+	<line x1="1197.2" y1="1195.8" x2="1196.1" y2="1194.0" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-11-27  A23403G  New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -4926,11 +4939,11 @@
 </g>
 <g>
 	<title>2020-11-28 Australia=4</title>
-	<line x1="1194.6" y1="1191.6" x2="1192.9" y2="1188.9" style="stroke:cyan;" class="sb" />
+	<line x1="1197.3" y1="1195.8" x2="1195.6" y2="1193.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-28 New Zealand=3</title>
-	<line x1="1192.9" y1="1188.9" x2="1191.5" y2="1186.6" style="stroke:fuchsia;" class="sb" />
+	<line x1="1195.6" y1="1193.1" x2="1194.2" y2="1190.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-11-28  C22879A  Australia=2 [50.0%]  surface glycoprotein, N439K</title>
@@ -4958,7 +4971,7 @@
 </g>
 <g>
 	<title>2020-11-29 Australia=3</title>
-	<line x1="1194.8" y1="1191.5" x2="1193.4" y2="1189.2" style="stroke:cyan;" class="sb" />
+	<line x1="1197.4" y1="1195.7" x2="1196.0" y2="1193.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-29  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -4966,7 +4979,7 @@
 </g>
 <g>
 	<title>2020-11-30 Australia=3</title>
-	<line x1="1194.9" y1="1191.4" x2="1193.6" y2="1189.0" style="stroke:cyan;" class="sb" />
+	<line x1="1197.5" y1="1195.7" x2="1196.1" y2="1193.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-30  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -4974,11 +4987,11 @@
 </g>
 <g>
 	<title>2020-12-01 Australia=5</title>
-	<line x1="1195.1" y1="1191.3" x2="1193.3" y2="1188.2" style="stroke:cyan;" class="sb" />
+	<line x1="1197.5" y1="1195.6" x2="1195.8" y2="1192.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-01 Papua New Guinea=5</title>
-	<line x1="1193.3" y1="1188.2" x2="1191.6" y2="1185.2" style="stroke:white;" class="sb" />
+	<line x1="1195.8" y1="1192.6" x2="1194.1" y2="1189.6" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-12-01  A23403G  Australia=5 [100.0%]  surface glycoprotein, D614G</title>
@@ -4986,7 +4999,7 @@
 </g>
 <g>
 	<title>2020-12-02 New Zealand=2</title>
-	<line x1="1195.2" y1="1191.2" x2="1194.2" y2="1189.3" style="stroke:fuchsia;" class="sb" />
+	<line x1="1197.6" y1="1195.6" x2="1196.6" y2="1193.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-02  A23403G  New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -4994,15 +5007,15 @@
 </g>
 <g>
 	<title>2020-12-03 Australia=2</title>
-	<line x1="1195.4" y1="1191.1" x2="1194.4" y2="1189.2" style="stroke:cyan;" class="sb" />
+	<line x1="1197.7" y1="1195.6" x2="1196.7" y2="1193.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-03 New Zealand=6</title>
-	<line x1="1194.4" y1="1189.2" x2="1192.6" y2="1185.9" style="stroke:fuchsia;" class="sb" />
+	<line x1="1196.7" y1="1193.7" x2="1194.9" y2="1190.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-03 Papua New Guinea=2</title>
-	<line x1="1192.6" y1="1185.9" x2="1191.6" y2="1184.0" style="stroke:white;" class="sb" />
+	<line x1="1194.9" y1="1190.3" x2="1193.9" y2="1188.4" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-12-03  A23403G  New Zealand=6 [100.0%]  surface glycoprotein, D614G</title>
@@ -5014,11 +5027,11 @@
 </g>
 <g>
 	<title>2020-12-04 Australia=4</title>
-	<line x1="1195.5" y1="1191.1" x2="1194.1" y2="1188.2" style="stroke:cyan;" class="sb" />
+	<line x1="1197.8" y1="1195.5" x2="1196.4" y2="1192.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-04 Papua New Guinea=4</title>
-	<line x1="1194.1" y1="1188.2" x2="1192.7" y2="1185.4" style="stroke:white;" class="sb" />
+	<line x1="1196.4" y1="1192.7" x2="1195.0" y2="1189.9" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-12-04  A23403G  Australia=4 [100.0%]  surface glycoprotein, D614G</title>
@@ -5026,15 +5039,15 @@
 </g>
 <g>
 	<title>2020-12-05 Papua New Guinea=2</title>
-	<line x1="1195.7" y1="1191.0" x2="1194.8" y2="1189.0" style="stroke:white;" class="sb" />
+	<line x1="1197.8" y1="1195.5" x2="1196.9" y2="1193.6" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-12-06 New Zealand=2</title>
-	<line x1="1195.8" y1="1190.9" x2="1194.9" y2="1189.0" style="stroke:fuchsia;" class="sb" />
+	<line x1="1197.9" y1="1195.5" x2="1197.0" y2="1193.5" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-06 Papua New Guinea=4</title>
-	<line x1="1194.9" y1="1189.0" x2="1193.6" y2="1186.1" style="stroke:white;" class="sb" />
+	<line x1="1197.0" y1="1193.5" x2="1195.7" y2="1190.6" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-12-06  A23403G  New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -5042,7 +5055,7 @@
 </g>
 <g>
 	<title>2020-12-07 Polynesia=2</title>
-	<line x1="1196.0" y1="1190.8" x2="1195.1" y2="1188.9" style="stroke:yellow;" class="sb" />
+	<line x1="1198.0" y1="1195.4" x2="1197.1" y2="1193.5" style="stroke:yellow;" class="sb" />
 </g>
 <g>
 	<title>2020-12-07  G22992A  Polynesia=2 [100.0%]  surface glycoprotein, S477N</title>
@@ -5054,7 +5067,7 @@
 </g>
 <g>
 	<title>2020-12-08 Australia=7</title>
-	<line x1="1196.2" y1="1190.8" x2="1194.6" y2="1187.0" style="stroke:cyan;" class="sb" />
+	<line x1="1198.1" y1="1195.4" x2="1196.5" y2="1191.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-08  G21600T  Australia=2 [28.6%]  surface glycoprotein, S13I</title>
@@ -5086,15 +5099,15 @@
 </g>
 <g>
 	<title>2020-12-09 Australia=2</title>
-	<line x1="1196.3" y1="1190.7" x2="1195.5" y2="1188.7" style="stroke:cyan;" class="sb" />
+	<line x1="1198.2" y1="1195.4" x2="1197.4" y2="1193.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-09 New Zealand=3</title>
-	<line x1="1195.5" y1="1188.7" x2="1194.5" y2="1186.2" style="stroke:fuchsia;" class="sb" />
+	<line x1="1197.4" y1="1193.4" x2="1196.4" y2="1190.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-09 Papua New Guinea=2</title>
-	<line x1="1194.5" y1="1186.2" x2="1193.7" y2="1184.2" style="stroke:white;" class="sb" />
+	<line x1="1196.4" y1="1190.8" x2="1195.6" y2="1188.8" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-12-09  A23403G  New Zealand=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -5106,7 +5119,7 @@
 </g>
 <g>
 	<title>2020-12-10 Australia=2</title>
-	<line x1="1196.5" y1="1190.6" x2="1195.7" y2="1188.6" style="stroke:cyan;" class="sb" />
+	<line x1="1198.2" y1="1195.3" x2="1197.5" y2="1193.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-10  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -5114,11 +5127,11 @@
 </g>
 <g>
 	<title>2020-12-11 Australia=5</title>
-	<line x1="1196.6" y1="1190.6" x2="1195.5" y2="1187.3" style="stroke:cyan;" class="sb" />
+	<line x1="1198.3" y1="1195.3" x2="1197.1" y2="1192.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-11 New Zealand=2</title>
-	<line x1="1195.5" y1="1187.3" x2="1194.7" y2="1185.3" style="stroke:fuchsia;" class="sb" />
+	<line x1="1197.1" y1="1192.0" x2="1196.4" y2="1190.0" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-11  C23271A  Australia=3 [60.0%]  surface glycoprotein, A570D</title>
@@ -5154,7 +5167,7 @@
 </g>
 <g>
 	<title>2020-12-12 Australia=2</title>
-	<line x1="1196.8" y1="1190.5" x2="1196.1" y2="1188.5" style="stroke:cyan;" class="sb" />
+	<line x1="1198.4" y1="1195.3" x2="1197.7" y2="1193.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-12  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -5162,7 +5175,7 @@
 </g>
 <g>
 	<title>2020-12-14 Australia=8</title>
-	<line x1="1197.1" y1="1190.4" x2="1195.9" y2="1186.3" style="stroke:cyan;" class="sb" />
+	<line x1="1198.6" y1="1195.2" x2="1197.3" y2="1191.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-14  C21627T  Australia=2 [25.0%]  surface glycoprotein, T22I</title>
@@ -5190,35 +5203,35 @@
 </g>
 <g>
 	<title>2020-12-15 Australia=3</title>
-	<line x1="1197.3" y1="1190.4" x2="1196.6" y2="1187.8" style="stroke:cyan;" class="sb" />
+	<line x1="1198.6" y1="1195.2" x2="1197.9" y2="1192.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-15 New Zealand=2</title>
-	<line x1="1196.6" y1="1187.8" x2="1196.0" y2="1185.7" style="stroke:fuchsia;" class="sb" />
+	<line x1="1197.9" y1="1192.6" x2="1197.3" y2="1190.5" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-15 Guam=3</title>
-	<line x1="1196.0" y1="1185.7" x2="1195.2" y2="1183.1" style="stroke:orange;" class="sb" />
+	<line x1="1197.3" y1="1190.5" x2="1196.6" y2="1187.9" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2020-12-15  C22227T  New Zealand=2 [100.0%]  surface glycoprotein, A222V</title>
 	<circle cx="1112" cy="889" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-15  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1041" cy="637" r="2" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-15  A23403G  Australia=3 [100.0%] Guam=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-15  A23403G  Guam=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1041" cy="637" r="2" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-12-15  A23403G  Australia=3 [100.0%] Guam=3 [100.0%] New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-15  A23403G  Guam=3 [100.0%] Australia=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1041" cy="637" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-15  A23403G  Guam=3 [100.0%] Australia=3 [100.0%] New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1041" cy="637" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-16 Australia=17</title>
-	<line x1="1197.5" y1="1190.3" x2="1196.0" y2="1184.9" style="stroke:cyan;" class="sb" />
+	<line x1="1198.7" y1="1195.2" x2="1197.3" y2="1189.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-16  A23064C  Australia=12 [70.6%]  surface glycoprotein, N501T</title>
@@ -5230,7 +5243,7 @@
 </g>
 <g>
 	<title>2020-12-17 Australia=24</title>
-	<line x1="1197.6" y1="1190.3" x2="1196.1" y2="1184.2" style="stroke:cyan;" class="sb" />
+	<line x1="1198.8" y1="1195.1" x2="1197.3" y2="1189.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-17  A23064C  Australia=21 [87.5%]  surface glycoprotein, N501T</title>
@@ -5242,7 +5255,7 @@
 </g>
 <g>
 	<title>2020-12-18 Australia=24</title>
-	<line x1="1197.8" y1="1190.2" x2="1196.4" y2="1184.1" style="stroke:cyan;" class="sb" />
+	<line x1="1198.9" y1="1195.1" x2="1197.5" y2="1189.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-18  G22132T  Australia=2 [8.3%]  surface glycoprotein, R190S</title>
@@ -5270,11 +5283,11 @@
 </g>
 <g>
 	<title>2020-12-19 Australia=10</title>
-	<line x1="1198.0" y1="1190.2" x2="1197.0" y2="1185.6" style="stroke:cyan;" class="sb" />
+	<line x1="1199.0" y1="1195.1" x2="1198.0" y2="1190.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-19 New Zealand=2</title>
-	<line x1="1197.0" y1="1185.6" x2="1196.6" y2="1183.5" style="stroke:fuchsia;" class="sb" />
+	<line x1="1198.0" y1="1190.5" x2="1197.6" y2="1188.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-19  A23064C  Australia=5 [50.0%]  surface glycoprotein, N501T</title>
@@ -5290,11 +5303,11 @@
 </g>
 <g>
 	<title>2020-12-20 Australia=11</title>
-	<line x1="1198.1" y1="1190.2" x2="1197.2" y2="1185.4" style="stroke:cyan;" class="sb" />
+	<line x1="1199.1" y1="1195.1" x2="1198.1" y2="1190.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-20 New Zealand=2</title>
-	<line x1="1197.2" y1="1185.4" x2="1196.8" y2="1183.3" style="stroke:fuchsia;" class="sb" />
+	<line x1="1198.1" y1="1190.3" x2="1197.7" y2="1188.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-20  ATTA21993A  New Zealand=2 [100.0%]  surface glycoprotein, Y145H/del</title>
@@ -5338,7 +5351,7 @@
 </g>
 <g>
 	<title>2020-12-21 Australia=8</title>
-	<line x1="1198.3" y1="1190.1" x2="1197.6" y2="1185.9" style="stroke:cyan;" class="sb" />
+	<line x1="1199.1" y1="1195.1" x2="1198.4" y2="1190.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-21  G21600T  Australia=2 [25.0%]  surface glycoprotein, S13I</title>
@@ -5362,7 +5375,7 @@
 </g>
 <g>
 	<title>2020-12-22 Australia=7</title>
-	<line x1="1198.5" y1="1190.1" x2="1197.8" y2="1186.1" style="stroke:cyan;" class="sb" />
+	<line x1="1199.2" y1="1195.1" x2="1198.6" y2="1191.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-22  C22227T  Australia=2 [28.6%]  surface glycoprotein, A222V</title>
@@ -5378,7 +5391,7 @@
 </g>
 <g>
 	<title>2020-12-23 Australia=4</title>
-	<line x1="1198.6" y1="1190.1" x2="1198.2" y2="1187.0" style="stroke:cyan;" class="sb" />
+	<line x1="1199.3" y1="1195.0" x2="1198.9" y2="1191.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-23  ATTA21993A  Australia=2 [50.0%]  surface glycoprotein, Y145H/del</title>
@@ -5418,7 +5431,7 @@
 </g>
 <g>
 	<title>2020-12-24 Australia=8</title>
-	<line x1="1198.8" y1="1190.1" x2="1198.3" y2="1185.8" style="stroke:cyan;" class="sb" />
+	<line x1="1199.4" y1="1195.0" x2="1198.9" y2="1190.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-24  A23064C  Australia=5 [62.5%]  surface glycoprotein, N501T</title>
@@ -5430,11 +5443,11 @@
 </g>
 <g>
 	<title>2020-12-25 Australia=9</title>
-	<line x1="1199.0" y1="1190.1" x2="1198.5" y2="1185.6" style="stroke:cyan;" class="sb" />
+	<line x1="1199.5" y1="1195.0" x2="1199.0" y2="1190.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-25 Papua New Guinea=8</title>
-	<line x1="1198.5" y1="1185.6" x2="1198.1" y2="1181.3" style="stroke:white;" class="sb" />
+	<line x1="1199.0" y1="1190.6" x2="1198.6" y2="1186.3" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-12-25  A21849T  Papua New Guinea=8 [100.0%]  surface glycoprotein, E96V</title>
@@ -5450,7 +5463,7 @@
 </g>
 <g>
 	<title>2020-12-26 Australia=6</title>
-	<line x1="1199.1" y1="1190.0" x2="1198.8" y2="1186.2" style="stroke:cyan;" class="sb" />
+	<line x1="1199.6" y1="1195.0" x2="1199.2" y2="1191.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-26  A21630G  Australia=3 [50.0%]  surface glycoprotein, Q23R</title>
@@ -5470,11 +5483,11 @@
 </g>
 <g>
 	<title>2020-12-27 Australia=5</title>
-	<line x1="1199.3" y1="1190.0" x2="1199.1" y2="1186.5" style="stroke:cyan;" class="sb" />
+	<line x1="1199.7" y1="1195.0" x2="1199.4" y2="1191.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-27 New Zealand=2</title>
-	<line x1="1199.1" y1="1186.5" x2="1198.9" y2="1184.4" style="stroke:fuchsia;" class="sb" />
+	<line x1="1199.4" y1="1191.5" x2="1199.3" y2="1189.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-27  A23064C  Australia=4 [80.0%]  surface glycoprotein, N501T</title>
@@ -5490,7 +5503,7 @@
 </g>
 <g>
 	<title>2020-12-28 Australia=18</title>
-	<line x1="1199.5" y1="1190.0" x2="1199.2" y2="1184.3" style="stroke:cyan;" class="sb" />
+	<line x1="1199.7" y1="1195.0" x2="1199.4" y2="1189.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-28  A23064C  Australia=14 [77.8%]  surface glycoprotein, N501T</title>
@@ -5502,11 +5515,11 @@
 </g>
 <g>
 	<title>2020-12-29 Australia=16</title>
-	<line x1="1199.7" y1="1190.0" x2="1199.5" y2="1184.5" style="stroke:cyan;" class="sb" />
+	<line x1="1199.8" y1="1195.0" x2="1199.6" y2="1189.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-29 New Zealand=3</title>
-	<line x1="1199.5" y1="1184.5" x2="1199.4" y2="1181.8" style="stroke:fuchsia;" class="sb" />
+	<line x1="1199.6" y1="1189.5" x2="1199.5" y2="1186.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-29  G21724T  Australia=2 [12.5%]  surface glycoprotein, L54F</title>
@@ -5550,7 +5563,7 @@
 </g>
 <g>
 	<title>2020-12-30 Australia=9</title>
-	<line x1="1199.8" y1="1190.0" x2="1199.8" y2="1185.5" style="stroke:cyan;" class="sb" />
+	<line x1="1199.9" y1="1195.0" x2="1199.8" y2="1190.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-30  A23064C  Australia=5 [55.6%]  surface glycoprotein, N501T</title>
@@ -5566,11 +5579,11 @@
 </g>
 <g>
 	<title>2020-12-31 Australia=16</title>
-	<line x1="1200.0" y1="1190.0" x2="1200.0" y2="1184.5" style="stroke:cyan;" class="sb" />
+	<line x1="1200.0" y1="1195.0" x2="1200.0" y2="1189.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-31 New Zealand=2</title>
-	<line x1="1200.0" y1="1184.5" x2="1200.0" y2="1182.3" style="stroke:fuchsia;" class="sb" />
+	<line x1="1200.0" y1="1189.5" x2="1200.0" y2="1187.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-31  A23064C  Australia=8 [50.0%]  surface glycoprotein, N501T</title>
@@ -5585,23 +5598,23 @@
 	<circle cx="1200" cy="615" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 </g>
-<rect x="2" y="2" width="1035" height="120" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="2" y="2" width="980" height="120" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
 <a href="https://bcgsc.github.io/SARS2/">
 <title>main menu</title>
-<text font-size="4.0em" x="50" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
+<text font-size="3.6em" x="100" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 </a>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 13,383 GISAID genomes</text>
- <circle cx="25" cy="25" r="21" fill="white" opacity="0.75"/>
-    <path class="button" onclick="pan(0, 25)" d="M25 5 l6 10 a20 35 0 0 0 -12 0z" />
-    <path class="button" onclick="pan(25, 0)" d="M5 25 l10 -6 a35 20 0 0 0 0 12z" />
-    <path class="button" onclick="pan(0,-25)" d="M25 45 l6 -10 a20, 35 0 0,1 -12,0z" />
-    <path class="button" onclick="pan(-25, 0)" d="M45 25 l-10 -6 a35 20 0 0 1 0 12z" />
-    <circle class="compass" cx="25" cy="25" r="10"/>
-    <circle class="button"  cx="25" cy="20.5" r="4" onclick="zoom(0.8)"/>
-    <circle class="button"  cx="25" cy="29.5" r="4" onclick="zoom(1.25)"/>
-    <rect class="plus-minus" x="23" y="20" width="4" height="1"/>
-    <rect class="plus-minus" x="23" y="29" width="4" height="1"/>
-    <rect class="plus-minus" x="24.5" y="27.5" width="1" height="4"/>
+<text font-size="2.5em" x="100" y="105" fill="white">Genbank MN908947 vs 13,383 GISAID genomes</text>
+<circle cx="50" cy="50" r="42" fill="gainsboro" opacity="0.75" onclick="rotatex(90,1200,1200)"/>
+	<path class="button" onclick="pan( 0, 50)" d="M50 10 l12   20 a40, 70 0 0,0 -24,  0z" />
+	<path class="button" onclick="pan( 50, 0)" d="M10 50 l20  -12 a70, 40 0 0,0   0, 24z" />
+	<path class="button" onclick="pan( 0,-50)" d="M50 90 l12  -20 a40, 70 0 0,1 -24,  0z" />
+	<path class="button" onclick="pan(-50, 0)" d="M90 50 l-20 -12 a70, 40 0 0,1   0, 24z" />
+	<circle class="compass" cx="50" cy="50" r="20"/>
+	<circle class="button" cx="50" cy="41" r="8" onclick="zoom(0.8)"/>
+	<circle class="button" cx="50" cy="59" r="8" onclick="zoom(1.25)"/>
+	<rect class="plus-minus" x="46" y="39.5" width="8" height="3"/>
+	<rect class="plus-minus" x="46" y="57.5" width="8" height="3"/>
+	<rect class="plus-minus" x="48.5" y="55" width="3" height="8"/>
  <script type="text/javascript"><![CDATA[
         var transformMatrix = [1, 0, 0, 1, 0, 0];
         var svg = document.getElementById('map-svg');
@@ -5624,31 +5637,92 @@
         }
         function setMatrix() {
             var newMatrix = "matrix(" +  transformMatrix.join(' ') + ")";
+            newMatrix += " rotate(" + 0 + "," + 1200 + "," + 1200 + ")";
             matrixGroup.setAttributeNS(null, "transform", newMatrix);
         }
+        function rotatex(angle,dx,dy) {
+        var rt = "matrix(" +  transformMatrix.join(' ') + ")";
+        rt += ' rotate(' + angle + ',' + dx + ',' + dy + ')';
+        matrixGroup.setAttributeNS(null, "transform", rt);
+        }
+      function makeDraggable(evt) {
+        var svg = evt.target;
+        svg.addEventListener('mousedown', startDrag);
+        svg.addEventListener('mousemove', drag);
+        svg.addEventListener('mouseup', endDrag);
+        svg.addEventListener('mouseleave', endDrag);
+        svg.addEventListener('touchstart', startDrag);
+        svg.addEventListener('touchmove', drag);
+        svg.addEventListener('touchend', endDrag);
+        svg.addEventListener('touchleave', endDrag);
+        svg.addEventListener('touchcancel', endDrag);
+        function getMousePosition(evt) {
+          var CTM = svg.getScreenCTM();
+          if (evt.touches) { evt = evt.touches[0]; }
+          return {
+            x: (evt.clientX - CTM.e) / CTM.a,
+            y: (evt.clientY - CTM.f) / CTM.d
+          };
+        }
+       var selectedElement, offset, transform;
+        function initialiseDragging(evt) {
+            offset = getMousePosition(evt);
+            // Make sure the first transform on the element is a translate transform
+            var transforms = selectedElement.transform.baseVal;
+            if (transforms.length === 0 || transforms.getItem(0).type !== SVGTransform.SVG_TRANSFORM_TRANSLATE) {
+              // Create an transform that translates by (0, 0)
+              var translate = svg.createSVGTransform();
+              translate.setTranslate(0, 0);
+              selectedElement.transform.baseVal.insertItemBefore(translate, 0);
+            }
+            // Get initial translation
+            transform = transforms.getItem(0);
+            offset.x -= transform.matrix.e;
+            offset.y -= transform.matrix.f;
+        }
+       function startDrag(evt) {
+          if (evt.target.classList.contains('draggable')) {
+            selectedElement = evt.target;
+            initialiseDragging(evt);
+          } else if (evt.target.parentNode.classList.contains('draggable-group')) {
+            selectedElement = evt.target.parentNode;
+            initialiseDragging(evt);
+          }
+        }
+        function drag(evt) {
+          if (selectedElement) {
+            evt.preventDefault();
+            var coord = getMousePosition(evt);
+            transform.setTranslate(coord.x - offset.x, coord.y - offset.y);
+          }
+        }
+        function endDrag(evt) {
+          selectedElement = false;
+        }
+      }
     ]]></script>
-<rect x="2" y="123" width="450" height="327" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="2" y="123" width="430" height="327" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
 <rect x="2" y="450" width="250" height="110" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
-<text font-size="2.1em" x="45" y="160" fill="white">Top regions</text>
-<circle cx="40" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="55" y="200" fill="white">Australia</text>
-<circle cx="40" cy="215" r="6" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="55" y="225" fill="white">New Zealand</text>
-<circle cx="40" cy="240" r="6" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="55" y="250" fill="white">Papua New Guinea</text>
-<circle cx="40" cy="265" r="6" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="55" y="275" fill="white">Guam</text>
-<circle cx="40" cy="290" r="6" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="55" y="300" fill="white">Polynesia</text>
-<circle cx="40" cy="340" r="1.90848501887865" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="76" cy="340" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="112" cy="340" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="148" cy="340" r="12.0017363099173" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="1.8em" x="30" y="385" fill="white">2      10        100        1k</text>
-<text font-size="1.8em" x="30" y="415" fill="white">genome samples</text>
+<text font-size="2.1em" x="40" y="160" fill="white">Top regions</text>
+<circle cx="35" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="50" y="200" fill="white">Australia</text>
+<circle cx="35" cy="215" r="6" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="50" y="225" fill="white">New Zealand</text>
+<circle cx="35" cy="240" r="6" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="50" y="250" fill="white">Papua New Guinea</text>
+<circle cx="35" cy="265" r="6" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="50" y="275" fill="white">Guam</text>
+<circle cx="35" cy="290" r="6" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="50" y="300" fill="white">Polynesia</text>
+<circle cx="35" cy="340" r="1.90848501887865" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="71" cy="340" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="107" cy="340" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="143" cy="340" r="12.0017363099173" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="1.8em" x="25" y="385" fill="white">2      10        100        1k</text>
+<text font-size="1.8em" x="25" y="415" fill="white">genome samples</text>
 <rect x="1865" y="2" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 5 regions in Oceania</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥2</text>
 <text font-size="1.8em" x="1880" y="92" fill="white">126 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-21</text>
+<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-23</text>
 </svg>

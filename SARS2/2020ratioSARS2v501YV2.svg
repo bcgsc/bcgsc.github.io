@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg width="2400" height="2400" xmlns="http://www.w3.org/2000/svg" style="background-color:black" viewBox="0 0 2400 2400" id="map-svg">
+<svg width="2400" height="2400" xmlns="http://www.w3.org/2000/svg" style="background-color:black" viewBox="0 0 2400 2400" id="map-svg" onload="makeDraggable(evt)" >
 <defs>
 	<style type="text/css"><![CDATA[
 	.sb {
@@ -39,10 +39,23 @@
 	g:hover, g:active {
 	outline: dotted 2px yellow;
 	}
+	.static {
+	cursor: not-allowed;
+	}
+	.draggable, .draggable-group {
+	cursor: pointer;
+	}
+	svg text {
+	cursor: default;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	}
 	]]></style>
 </defs>
-<text font-size="4.0em" x="50" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
-<g id="matrix-group" transform="matrix(1 0 0 1 0 0)">
+<text font-size="3.6em" x="100" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
+<g id="matrix-group" transform="matrix(1 0 0 1 0 0)" class="draggable-group">
 <circle cx="1200" cy="1200" r="1045" style="fill:gainsboro;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="1041" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <circle cx="1200" cy="1200" r="1040" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
@@ -120,7 +133,7 @@
 <text font-size="2.0em" x="1215" y="1113" fill="white">1</text>
 <g>
 	<title>2020-09-01 Africa=1</title>
-	<line x1="1191.3" y1="1204.9" x2="1189.1" y2="1206.0" style="stroke:cyan;" class="sb" />
+	<line x1="1195.6" y1="1202.4" x2="1193.5" y2="1203.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-09-01  C1059T  Africa=1 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -184,7 +197,7 @@
 </g>
 <g>
 	<title>2020-10-12 Africa=1</title>
-	<line x1="1190.2" y1="1198.0" x2="1187.8" y2="1197.6" style="stroke:cyan;" class="sb" />
+	<line x1="1195.1" y1="1199.0" x2="1192.7" y2="1198.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-12  C1059T  Africa=1 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -256,7 +269,7 @@
 </g>
 <g>
 	<title>2020-10-15 Africa=4</title>
-	<line x1="1190.3" y1="1197.5" x2="1184.9" y2="1196.2" style="stroke:cyan;" class="sb" />
+	<line x1="1195.2" y1="1198.8" x2="1189.7" y2="1197.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-15  C1059T  Africa=4 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -352,7 +365,7 @@
 </g>
 <g>
 	<title>2020-10-18 Africa=1</title>
-	<line x1="1190.4" y1="1197.0" x2="1188.1" y2="1196.3" style="stroke:cyan;" class="sb" />
+	<line x1="1195.2" y1="1198.5" x2="1192.9" y2="1197.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-18  C1059T  Africa=1 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -420,7 +433,7 @@
 </g>
 <g>
 	<title>2020-10-19 Africa=3</title>
-	<line x1="1190.5" y1="1196.9" x2="1185.9" y2="1195.4" style="stroke:cyan;" class="sb" />
+	<line x1="1195.3" y1="1198.4" x2="1190.7" y2="1196.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-19  C1059T  Africa=3 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -504,7 +517,7 @@
 </g>
 <g>
 	<title>2020-10-20 Africa=1</title>
-	<line x1="1190.6" y1="1196.7" x2="1188.3" y2="1195.9" style="stroke:cyan;" class="sb" />
+	<line x1="1195.3" y1="1198.4" x2="1193.0" y2="1197.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-20  C1059T  Africa=1 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -580,7 +593,7 @@
 </g>
 <g>
 	<title>2020-10-22 Africa=3</title>
-	<line x1="1190.7" y1="1196.4" x2="1186.2" y2="1194.7" style="stroke:cyan;" class="sb" />
+	<line x1="1195.3" y1="1198.2" x2="1190.8" y2="1196.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-22  C1059T  Africa=3 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -664,7 +677,7 @@
 </g>
 <g>
 	<title>2020-10-23 Africa=5</title>
-	<line x1="1190.7" y1="1196.2" x2="1185.0" y2="1193.9" style="stroke:cyan;" class="sb" />
+	<line x1="1195.4" y1="1198.1" x2="1189.6" y2="1195.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-23  C1059T  Africa=5 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -744,7 +757,7 @@
 </g>
 <g>
 	<title>2020-10-26 Africa=3</title>
-	<line x1="1190.9" y1="1195.8" x2="1186.6" y2="1193.7" style="stroke:cyan;" class="sb" />
+	<line x1="1195.5" y1="1197.9" x2="1191.1" y2="1195.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-26  C1059T  Africa=3 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -836,7 +849,7 @@
 </g>
 <g>
 	<title>2020-10-27 Africa=2</title>
-	<line x1="1191.0" y1="1195.6" x2="1187.6" y2="1193.9" style="stroke:cyan;" class="sb" />
+	<line x1="1195.5" y1="1197.8" x2="1192.1" y2="1196.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-27  C1059T  Africa=2 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -916,7 +929,7 @@
 </g>
 <g>
 	<title>2020-10-28 Africa=3</title>
-	<line x1="1191.1" y1="1195.5" x2="1186.8" y2="1193.3" style="stroke:cyan;" class="sb" />
+	<line x1="1195.5" y1="1197.7" x2="1191.3" y2="1195.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-28  C1059T  Africa=3 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -1008,7 +1021,7 @@
 </g>
 <g>
 	<title>2020-10-29 Africa=4</title>
-	<line x1="1191.2" y1="1195.3" x2="1186.2" y2="1192.7" style="stroke:cyan;" class="sb" />
+	<line x1="1195.6" y1="1197.7" x2="1190.7" y2="1195.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-29  C1059T  Africa=4 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -1104,7 +1117,7 @@
 </g>
 <g>
 	<title>2020-10-30 Africa=1</title>
-	<line x1="1191.3" y1="1195.1" x2="1189.1" y2="1194.0" style="stroke:cyan;" class="sb" />
+	<line x1="1195.6" y1="1197.6" x2="1193.5" y2="1196.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-30  C1059T  Africa=1 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -1176,7 +1189,7 @@
 </g>
 <g>
 	<title>2020-11-02 Africa=7</title>
-	<line x1="1191.5" y1="1194.7" x2="1185.4" y2="1190.9" style="stroke:cyan;" class="sb" />
+	<line x1="1195.8" y1="1197.4" x2="1189.6" y2="1193.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-02  C1059T  Africa=7 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -1280,7 +1293,7 @@
 </g>
 <g>
 	<title>2020-11-03 Africa=5</title>
-	<line x1="1191.6" y1="1194.6" x2="1186.4" y2="1191.2" style="stroke:cyan;" class="sb" />
+	<line x1="1195.8" y1="1197.3" x2="1190.6" y2="1193.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-03  C1059T  Africa=5 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -1364,7 +1377,7 @@
 </g>
 <g>
 	<title>2020-11-04 Africa=9</title>
-	<line x1="1191.7" y1="1194.4" x2="1185.1" y2="1190.0" style="stroke:cyan;" class="sb" />
+	<line x1="1195.9" y1="1197.2" x2="1189.2" y2="1192.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-04  C1059T  Africa=9 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -1480,7 +1493,7 @@
 </g>
 <g>
 	<title>2020-11-05 Africa=8</title>
-	<line x1="1191.8" y1="1194.3" x2="1185.5" y2="1189.9" style="stroke:cyan;" class="sb" />
+	<line x1="1195.9" y1="1197.1" x2="1189.6" y2="1192.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-05  C1059T  Africa=8 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -1596,7 +1609,7 @@
 </g>
 <g>
 	<title>2020-11-06 Africa=9</title>
-	<line x1="1191.9" y1="1194.1" x2="1185.4" y2="1189.4" style="stroke:cyan;" class="sb" />
+	<line x1="1195.9" y1="1197.1" x2="1189.5" y2="1192.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-06  C1059T  Africa=9 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -1716,7 +1729,7 @@
 </g>
 <g>
 	<title>2020-11-07 Africa=1</title>
-	<line x1="1192.0" y1="1194.0" x2="1190.1" y2="1192.6" style="stroke:cyan;" class="sb" />
+	<line x1="1196.0" y1="1197.0" x2="1194.1" y2="1195.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-07  C1059T  Africa=1 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -1784,7 +1797,7 @@
 </g>
 <g>
 	<title>2020-11-10 Africa=1</title>
-	<line x1="1192.3" y1="1193.6" x2="1190.5" y2="1192.1" style="stroke:cyan;" class="sb" />
+	<line x1="1196.2" y1="1196.8" x2="1194.3" y2="1195.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-10  C1059T  Africa=1 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -1856,7 +1869,7 @@
 </g>
 <g>
 	<title>2020-11-11 Africa=8</title>
-	<line x1="1192.4" y1="1193.5" x2="1186.7" y2="1188.5" style="stroke:cyan;" class="sb" />
+	<line x1="1196.2" y1="1196.7" x2="1190.4" y2="1191.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-11  C1059T  Africa=8 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -1972,7 +1985,7 @@
 </g>
 <g>
 	<title>2020-11-12 Africa=18</title>
-	<line x1="1192.5" y1="1193.3" x2="1184.9" y2="1186.5" style="stroke:cyan;" class="sb" />
+	<line x1="1196.3" y1="1196.7" x2="1188.6" y2="1189.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-12  C1059T  Africa=18 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -2136,7 +2149,7 @@
 </g>
 <g>
 	<title>2020-11-13 Africa=19</title>
-	<line x1="1192.7" y1="1193.2" x2="1185.0" y2="1186.1" style="stroke:cyan;" class="sb" />
+	<line x1="1196.3" y1="1196.6" x2="1188.7" y2="1189.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-13  G376T  Africa=2 [10.5%]  orf1ab polyprotein, E37D</title>
@@ -2280,7 +2293,7 @@
 </g>
 <g>
 	<title>2020-11-14 Africa=1</title>
-	<line x1="1192.8" y1="1193.1" x2="1191.0" y2="1191.4" style="stroke:cyan;" class="sb" />
+	<line x1="1196.4" y1="1196.5" x2="1194.7" y2="1194.9" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-14  C1059T  Africa=1 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -2360,7 +2373,7 @@
 </g>
 <g>
 	<title>2020-11-15 Africa=3</title>
-	<line x1="1192.9" y1="1193.0" x2="1189.5" y2="1189.6" style="stroke:cyan;" class="sb" />
+	<line x1="1196.4" y1="1196.5" x2="1193.0" y2="1193.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-15  C1059T  Africa=3 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -2468,7 +2481,7 @@
 </g>
 <g>
 	<title>2020-11-17 Africa=2</title>
-	<line x1="1193.1" y1="1192.7" x2="1190.5" y2="1189.9" style="stroke:cyan;" class="sb" />
+	<line x1="1196.6" y1="1196.4" x2="1194.0" y2="1193.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-17  C1059T  Africa=2 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -2548,7 +2561,7 @@
 </g>
 <g>
 	<title>2020-11-18 Africa=10</title>
-	<line x1="1193.3" y1="1192.6" x2="1187.7" y2="1186.4" style="stroke:cyan;" class="sb" />
+	<line x1="1196.6" y1="1196.3" x2="1191.0" y2="1190.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-18  G376T  Africa=1 [10.0%]  orf1ab polyprotein, E37D</title>
@@ -2692,7 +2705,7 @@
 </g>
 <g>
 	<title>2020-11-19 Africa=22</title>
-	<line x1="1193.4" y1="1192.5" x2="1186.2" y2="1184.3" style="stroke:cyan;" class="sb" />
+	<line x1="1196.7" y1="1196.2" x2="1189.5" y2="1188.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-19  C1059T  Africa=22 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -2900,7 +2913,7 @@
 </g>
 <g>
 	<title>2020-11-20 Africa=21</title>
-	<line x1="1193.5" y1="1192.4" x2="1186.6" y2="1184.2" style="stroke:cyan;" class="sb" />
+	<line x1="1196.8" y1="1196.2" x2="1189.8" y2="1188.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-20  A605G  Africa=1 [4.8%]  orf1ab polyprotein, I114V</title>
@@ -3100,7 +3113,7 @@
 </g>
 <g>
 	<title>2020-11-23 Africa=4</title>
-	<line x1="1193.9" y1="1192.1" x2="1190.5" y2="1187.6" style="stroke:cyan;" class="sb" />
+	<line x1="1197.0" y1="1196.0" x2="1193.6" y2="1191.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-23  C1059T  Africa=4 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -3188,7 +3201,7 @@
 </g>
 <g>
 	<title>2020-11-24 Africa=40</title>
-	<line x1="1194.1" y1="1192.0" x2="1186.4" y2="1181.6" style="stroke:cyan;" class="sb" />
+	<line x1="1197.0" y1="1196.0" x2="1189.4" y2="1185.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-24  G354A  Africa=1 [2.5%]  orf1ab polyprotein, G30D</title>
@@ -3440,7 +3453,7 @@
 </g>
 <g>
 	<title>2020-11-25 Africa=8</title>
-	<line x1="1194.2" y1="1191.8" x2="1189.8" y2="1185.6" style="stroke:cyan;" class="sb" />
+	<line x1="1197.1" y1="1195.9" x2="1192.7" y2="1189.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-25  G376T  Africa=1 [12.5%]  orf1ab polyprotein, E37D</title>
@@ -3592,7 +3605,7 @@
 </g>
 <g>
 	<title>2020-11-28 Africa=1</title>
-	<line x1="1194.6" y1="1191.6" x2="1193.3" y2="1189.5" style="stroke:cyan;" class="sb" />
+	<line x1="1197.3" y1="1195.8" x2="1196.0" y2="1193.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-28  C1059T  Africa=1 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -3668,7 +3681,7 @@
 </g>
 <g>
 	<title>2020-11-29 Africa=2</title>
-	<line x1="1194.8" y1="1191.5" x2="1192.8" y2="1188.2" style="stroke:cyan;" class="sb" />
+	<line x1="1197.4" y1="1195.7" x2="1195.4" y2="1192.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-29  C1059T  Africa=2 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -3756,7 +3769,7 @@
 </g>
 <g>
 	<title>2020-11-30 Africa=7</title>
-	<line x1="1194.9" y1="1191.4" x2="1191.3" y2="1185.2" style="stroke:cyan;" class="sb" />
+	<line x1="1197.5" y1="1195.7" x2="1193.8" y2="1189.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-11-30  C1059T  Africa=7 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -3868,7 +3881,7 @@
 </g>
 <g>
 	<title>2020-12-01 Africa=14</title>
-	<line x1="1195.1" y1="1191.3" x2="1190.4" y2="1183.1" style="stroke:cyan;" class="sb" />
+	<line x1="1197.5" y1="1195.6" x2="1192.9" y2="1187.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-01  C1059T  Africa=14 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -4044,7 +4057,7 @@
 </g>
 <g>
 	<title>2020-12-02 Africa=4</title>
-	<line x1="1195.2" y1="1191.2" x2="1192.6" y2="1186.3" style="stroke:cyan;" class="sb" />
+	<line x1="1197.6" y1="1195.6" x2="1194.9" y2="1190.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-02  G376T  Africa=1 [25.0%]  orf1ab polyprotein, E37D</title>
@@ -4156,7 +4169,7 @@
 </g>
 <g>
 	<title>2020-12-03 Africa=4</title>
-	<line x1="1195.4" y1="1191.1" x2="1192.8" y2="1186.2" style="stroke:cyan;" class="sb" />
+	<line x1="1197.7" y1="1195.6" x2="1195.1" y2="1190.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-03  C1059T  Africa=4 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -4240,7 +4253,7 @@
 </g>
 <g>
 	<title>2020-12-04 Africa=3</title>
-	<line x1="1195.5" y1="1191.1" x2="1193.4" y2="1186.7" style="stroke:cyan;" class="sb" />
+	<line x1="1197.8" y1="1195.5" x2="1195.6" y2="1191.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-04  C1059T  Africa=3 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -4340,7 +4353,7 @@
 </g>
 <g>
 	<title>2020-12-07 Africa=6</title>
-	<line x1="1196.0" y1="1190.8" x2="1193.3" y2="1184.6" style="stroke:cyan;" class="sb" />
+	<line x1="1198.0" y1="1195.4" x2="1195.3" y2="1189.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-07  C1059T  Africa=6 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -4391,12 +4404,12 @@
 	<circle cx="975" cy="685" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-07  C14408T  Africa=5 [83.3%]  orf1ab polyprotein, P4715L</title>
-	<circle cx="969" cy="673" r="8" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-12-07  C14408A  Africa=1 [16.7%]  orf1ab polyprotein, P4715H</title>
 	<circle cx="969" cy="673" r="5" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-07  C14408T  Africa=5 [83.3%]  orf1ab polyprotein, P4715L</title>
+	<circle cx="969" cy="673" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-07  C21614T  Africa=2 [33.3%]  surface glycoprotein, L18F</title>
@@ -4468,7 +4481,7 @@
 </g>
 <g>
 	<title>2020-12-09 Africa=5</title>
-	<line x1="1196.3" y1="1190.7" x2="1194.0" y2="1184.9" style="stroke:cyan;" class="sb" />
+	<line x1="1198.2" y1="1195.4" x2="1195.9" y2="1189.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-09  C1059T  Africa=5 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -4588,11 +4601,11 @@
 </g>
 <g>
 	<title>2020-12-10 Africa=3</title>
-	<line x1="1196.5" y1="1190.6" x2="1194.8" y2="1186.1" style="stroke:cyan;" class="sb" />
+	<line x1="1198.2" y1="1195.3" x2="1196.5" y2="1190.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-10 Europe=1</title>
-	<line x1="1194.8" y1="1186.1" x2="1193.9" y2="1183.9" style="stroke:fuchsia;" class="sb" />
+	<line x1="1196.5" y1="1190.8" x2="1195.7" y2="1188.6" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-10  C1059T  Africa=3 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -4752,11 +4765,11 @@
 </g>
 <g>
 	<title>2020-12-11 Africa=2</title>
-	<line x1="1196.6" y1="1190.6" x2="1195.3" y2="1187.0" style="stroke:cyan;" class="sb" />
+	<line x1="1198.3" y1="1195.3" x2="1197.0" y2="1191.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-11 Europe=1</title>
-	<line x1="1195.3" y1="1187.0" x2="1194.5" y2="1184.7" style="stroke:fuchsia;" class="sb" />
+	<line x1="1197.0" y1="1191.7" x2="1196.2" y2="1189.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-11  C1059T  Africa=2 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -4912,11 +4925,11 @@
 </g>
 <g>
 	<title>2020-12-12 Africa=4</title>
-	<line x1="1196.8" y1="1190.5" x2="1195.0" y2="1185.2" style="stroke:cyan;" class="sb" />
+	<line x1="1198.4" y1="1195.3" x2="1196.6" y2="1190.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-12 Europe=1</title>
-	<line x1="1195.0" y1="1185.2" x2="1194.2" y2="1182.9" style="stroke:fuchsia;" class="sb" />
+	<line x1="1196.6" y1="1190.0" x2="1195.8" y2="1187.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-12  C1059T  Africa=4 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -5092,11 +5105,11 @@
 </g>
 <g>
 	<title>2020-12-14 Africa=17</title>
-	<line x1="1197.1" y1="1190.4" x2="1194.2" y2="1180.8" style="stroke:cyan;" class="sb" />
+	<line x1="1198.6" y1="1195.2" x2="1195.7" y2="1185.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-14 Europe=1</title>
-	<line x1="1194.2" y1="1180.8" x2="1193.5" y2="1178.5" style="stroke:fuchsia;" class="sb" />
+	<line x1="1195.7" y1="1185.6" x2="1195.0" y2="1183.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-14  C1059T  Africa=17 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -5336,11 +5349,11 @@
 </g>
 <g>
 	<title>2020-12-15 Africa=34</title>
-	<line x1="1197.3" y1="1190.4" x2="1193.9" y2="1178.5" style="stroke:cyan;" class="sb" />
+	<line x1="1198.6" y1="1195.2" x2="1195.3" y2="1183.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-15 Europe=1</title>
-	<line x1="1193.9" y1="1178.5" x2="1193.3" y2="1176.2" style="stroke:fuchsia;" class="sb" />
+	<line x1="1195.3" y1="1183.3" x2="1194.6" y2="1181.0" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-15  T473C  Africa=2 [5.9%]  orf1ab polyprotein, F70L</title>
@@ -5680,11 +5693,11 @@
 </g>
 <g>
 	<title>2020-12-16 Africa=11</title>
-	<line x1="1197.5" y1="1190.3" x2="1195.3" y2="1182.0" style="stroke:cyan;" class="sb" />
+	<line x1="1198.7" y1="1195.2" x2="1196.5" y2="1186.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-16 Europe=3</title>
-	<line x1="1195.3" y1="1182.0" x2="1194.0" y2="1177.3" style="stroke:fuchsia;" class="sb" />
+	<line x1="1196.5" y1="1186.8" x2="1195.3" y2="1182.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-16  C335T  Africa=1 [9.1%]  orf1ab polyprotein, R24C</title>
@@ -5912,15 +5925,15 @@
 </g>
 <g>
 	<title>2020-12-17 Africa=12</title>
-	<line x1="1197.6" y1="1190.3" x2="1195.5" y2="1181.6" style="stroke:cyan;" class="sb" />
+	<line x1="1198.8" y1="1195.1" x2="1196.7" y2="1186.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-17 Europe=2</title>
-	<line x1="1195.5" y1="1181.6" x2="1194.6" y2="1177.9" style="stroke:fuchsia;" class="sb" />
+	<line x1="1196.7" y1="1186.5" x2="1195.8" y2="1182.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-17 Asia=1</title>
-	<line x1="1194.6" y1="1177.9" x2="1194.0" y2="1175.6" style="stroke:white;" class="sb" />
+	<line x1="1195.8" y1="1182.8" x2="1195.2" y2="1180.4" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-12-17  A605G  Europe=2 [100.0%]  orf1ab polyprotein, I114V</title>
@@ -6208,11 +6221,11 @@
 </g>
 <g>
 	<title>2020-12-18 Africa=34</title>
-	<line x1="1197.8" y1="1190.2" x2="1195.1" y2="1178.2" style="stroke:cyan;" class="sb" />
+	<line x1="1198.9" y1="1195.1" x2="1196.2" y2="1183.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-18 Europe=3</title>
-	<line x1="1195.1" y1="1178.2" x2="1194.0" y2="1173.5" style="stroke:fuchsia;" class="sb" />
+	<line x1="1196.2" y1="1183.1" x2="1195.1" y2="1178.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-18  C335T  Europe=1 [33.3%]  orf1ab polyprotein, R24C</title>
@@ -6556,15 +6569,15 @@
 </g>
 <g>
 	<title>2020-12-19 Africa=4</title>
-	<line x1="1198.0" y1="1190.2" x2="1196.8" y2="1184.7" style="stroke:cyan;" class="sb" />
+	<line x1="1199.0" y1="1195.1" x2="1197.8" y2="1189.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-19 Europe=1</title>
-	<line x1="1196.8" y1="1184.7" x2="1196.3" y2="1182.4" style="stroke:fuchsia;" class="sb" />
+	<line x1="1197.8" y1="1189.6" x2="1197.3" y2="1187.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-19 Asia=1</title>
-	<line x1="1196.3" y1="1182.4" x2="1195.8" y2="1180.0" style="stroke:white;" class="sb" />
+	<line x1="1197.3" y1="1187.3" x2="1196.8" y2="1184.9" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-12-19  C1059T  Africa=4 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -6635,12 +6648,12 @@
 	<circle cx="1108" cy="760" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A10323G  Africa=4 [100.0%] Europe=1 [100.0%]  orf1ab polyprotein, K3353R</title>
-	<circle cx="1108" cy="760" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-19  A10323G  Africa=4 [100.0%] Asia=1 [100.0%]  orf1ab polyprotein, K3353R</title>
+	<circle cx="1108" cy="760" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A10323G  Africa=4 [100.0%] Europe=1 [100.0%] Asia=1 [100.0%]  orf1ab polyprotein, K3353R</title>
-	<circle cx="1108" cy="760" r="8" style="fill:white;" class="cv" />
+	<title>2020-12-19  A10323G  Africa=4 [100.0%] Asia=1 [100.0%] Europe=1 [100.0%]  orf1ab polyprotein, K3353R</title>
+	<circle cx="1108" cy="760" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  C14408T  Africa=4 [100.0%]  orf1ab polyprotein, P4715L</title>
@@ -6679,12 +6692,12 @@
 	<circle cx="1036" cy="414" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A21801C  Africa=4 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D80A</title>
-	<circle cx="1036" cy="414" r="8" style="fill:white;" class="cv" />
+	<title>2020-12-19  A21801C  Africa=4 [100.0%] Europe=1 [100.0%]  surface glycoprotein, D80A</title>
+	<circle cx="1036" cy="414" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A21801C  Africa=4 [100.0%] Asia=1 [100.0%] Europe=1 [100.0%]  surface glycoprotein, D80A</title>
-	<circle cx="1036" cy="414" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-19  A21801C  Africa=4 [100.0%] Europe=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D80A</title>
+	<circle cx="1036" cy="414" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  A22206G  Africa=4 [100.0%]  surface glycoprotein, D215G</title>
@@ -6727,12 +6740,12 @@
 	<circle cx="1028" cy="376" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A23063T  Africa=4 [100.0%] Europe=1 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1028" cy="376" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-19  A23063T  Africa=4 [100.0%] Asia=1 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1028" cy="376" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A23063T  Africa=4 [100.0%] Europe=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1028" cy="376" r="8" style="fill:white;" class="cv" />
+	<title>2020-12-19  A23063T  Africa=4 [100.0%] Asia=1 [100.0%] Europe=1 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1028" cy="376" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  A23403G  Africa=4 [100.0%]  surface glycoprotein, D614G</title>
@@ -6751,12 +6764,12 @@
 	<circle cx="1024" cy="358" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C23664T  Africa=4 [100.0%] Europe=1 [100.0%]  surface glycoprotein, A701V</title>
-	<circle cx="1024" cy="358" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-19  C23664T  Africa=4 [100.0%] Asia=1 [100.0%]  surface glycoprotein, A701V</title>
+	<circle cx="1024" cy="358" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C23664T  Africa=4 [100.0%] Europe=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, A701V</title>
-	<circle cx="1024" cy="358" r="8" style="fill:white;" class="cv" />
+	<title>2020-12-19  C23664T  Africa=4 [100.0%] Asia=1 [100.0%] Europe=1 [100.0%]  surface glycoprotein, A701V</title>
+	<circle cx="1024" cy="358" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G25563T  Africa=4 [100.0%]  ORF3a protein, Q57H</title>
@@ -6771,12 +6784,12 @@
 	<circle cx="1010" cy="290" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C25904T  Africa=4 [100.0%] Europe=1 [100.0%]  ORF3a protein, S171L</title>
-	<circle cx="1010" cy="290" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-19  C25904T  Africa=4 [100.0%] Asia=1 [100.0%]  ORF3a protein, S171L</title>
+	<circle cx="1010" cy="290" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  C25904T  Africa=4 [100.0%] Europe=1 [100.0%] Asia=1 [100.0%]  ORF3a protein, S171L</title>
-	<circle cx="1010" cy="290" r="8" style="fill:white;" class="cv" />
+	<title>2020-12-19  C25904T  Africa=4 [100.0%] Asia=1 [100.0%] Europe=1 [100.0%]  ORF3a protein, S171L</title>
+	<circle cx="1010" cy="290" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  C26456T  Africa=4 [100.0%]  envelope protein, P71L</title>
@@ -6804,11 +6817,11 @@
 </g>
 <g>
 	<title>2020-12-20 Africa=8</title>
-	<line x1="1198.1" y1="1190.2" x2="1196.7" y2="1182.7" style="stroke:cyan;" class="sb" />
+	<line x1="1199.1" y1="1195.1" x2="1197.6" y2="1187.6" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-20 Europe=2</title>
-	<line x1="1196.7" y1="1182.7" x2="1196.0" y2="1178.9" style="stroke:fuchsia;" class="sb" />
+	<line x1="1197.6" y1="1187.6" x2="1196.9" y2="1183.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-20  G376T  Africa=1 [12.5%]  orf1ab polyprotein, E37D</title>
@@ -7008,11 +7021,11 @@
 </g>
 <g>
 	<title>2020-12-21 Africa=41</title>
-	<line x1="1198.3" y1="1190.1" x2="1196.1" y2="1177.4" style="stroke:cyan;" class="sb" />
+	<line x1="1199.1" y1="1195.1" x2="1196.9" y2="1182.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-21 Europe=2</title>
-	<line x1="1196.1" y1="1177.4" x2="1195.4" y2="1173.6" style="stroke:fuchsia;" class="sb" />
+	<line x1="1196.9" y1="1182.3" x2="1196.3" y2="1178.5" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-21  G376T  Africa=1 [2.4%]  orf1ab polyprotein, E37D</title>
@@ -7456,11 +7469,11 @@
 </g>
 <g>
 	<title>2020-12-22 Africa=28</title>
-	<line x1="1198.5" y1="1190.1" x2="1196.7" y2="1178.6" style="stroke:cyan;" class="sb" />
+	<line x1="1199.2" y1="1195.1" x2="1197.4" y2="1183.5" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-22 Europe=5</title>
-	<line x1="1196.7" y1="1178.6" x2="1195.7" y2="1172.4" style="stroke:fuchsia;" class="sb" />
+	<line x1="1197.4" y1="1183.5" x2="1196.5" y2="1177.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-22  C335T  Europe=1 [20.0%]  orf1ab polyprotein, R24C</title>
@@ -7824,11 +7837,11 @@
 </g>
 <g>
 	<title>2020-12-23 Africa=24</title>
-	<line x1="1198.6" y1="1190.1" x2="1197.1" y2="1179.0" style="stroke:cyan;" class="sb" />
+	<line x1="1199.3" y1="1195.0" x2="1197.8" y2="1184.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-23 Europe=2</title>
-	<line x1="1197.1" y1="1179.0" x2="1196.6" y2="1175.2" style="stroke:fuchsia;" class="sb" />
+	<line x1="1197.8" y1="1184.0" x2="1197.3" y2="1180.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-23  G376T  Africa=1 [4.2%]  orf1ab polyprotein, E37D</title>
@@ -8172,11 +8185,11 @@
 </g>
 <g>
 	<title>2020-12-24 Africa=19</title>
-	<line x1="1198.8" y1="1190.1" x2="1197.6" y2="1179.7" style="stroke:cyan;" class="sb" />
+	<line x1="1199.4" y1="1195.0" x2="1198.2" y2="1184.7" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-24 Europe=4</title>
-	<line x1="1197.6" y1="1179.7" x2="1196.9" y2="1174.2" style="stroke:fuchsia;" class="sb" />
+	<line x1="1198.2" y1="1184.7" x2="1197.5" y2="1179.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-24  C936T  Africa=1 [5.3%]  orf1ab polyprotein, T224I</title>
@@ -8484,11 +8497,11 @@
 </g>
 <g>
 	<title>2020-12-25 Africa=12</title>
-	<line x1="1199.0" y1="1190.1" x2="1198.1" y2="1181.2" style="stroke:cyan;" class="sb" />
+	<line x1="1199.5" y1="1195.0" x2="1198.6" y2="1186.2" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-25 North America=1</title>
-	<line x1="1198.1" y1="1181.2" x2="1197.8" y2="1178.8" style="stroke:yellow;" class="sb" />
+	<line x1="1198.6" y1="1186.2" x2="1198.3" y2="1183.8" style="stroke:yellow;" class="sb" />
 </g>
 <g>
 	<title>2020-12-25  A939G  Africa=1 [8.3%]  orf1ab polyprotein, K225R</title>
@@ -8712,15 +8725,15 @@
 </g>
 <g>
 	<title>2020-12-26 Africa=17</title>
-	<line x1="1199.1" y1="1190.0" x2="1198.3" y2="1180.0" style="stroke:cyan;" class="sb" />
+	<line x1="1199.6" y1="1195.0" x2="1198.7" y2="1185.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-26 Europe=4</title>
-	<line x1="1198.3" y1="1180.0" x2="1197.8" y2="1174.5" style="stroke:fuchsia;" class="sb" />
+	<line x1="1198.7" y1="1185.0" x2="1198.2" y2="1179.4" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-26 Asia=2</title>
-	<line x1="1197.8" y1="1174.5" x2="1197.5" y2="1170.7" style="stroke:white;" class="sb" />
+	<line x1="1198.2" y1="1179.4" x2="1197.9" y2="1175.6" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-12-26  G596A  Africa=1 [5.9%]  orf1ab polyprotein, V111M</title>
@@ -9048,15 +9061,15 @@
 </g>
 <g>
 	<title>2020-12-27 Africa=11</title>
-	<line x1="1199.3" y1="1190.0" x2="1198.7" y2="1181.4" style="stroke:cyan;" class="sb" />
+	<line x1="1199.7" y1="1195.0" x2="1199.1" y2="1186.4" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-27 Europe=2</title>
-	<line x1="1198.7" y1="1181.4" x2="1198.5" y2="1177.6" style="stroke:fuchsia;" class="sb" />
+	<line x1="1199.1" y1="1186.4" x2="1198.8" y2="1182.6" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-27 Asia=3</title>
-	<line x1="1198.5" y1="1177.6" x2="1198.1" y2="1172.8" style="stroke:white;" class="sb" />
+	<line x1="1198.8" y1="1182.6" x2="1198.5" y2="1177.8" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-12-27  C1059T  Africa=11 [100.0%]  orf1ab polyprotein, T265I</title>
@@ -9384,15 +9397,15 @@
 </g>
 <g>
 	<title>2020-12-28 Africa=28</title>
-	<line x1="1199.5" y1="1190.0" x2="1198.9" y2="1178.3" style="stroke:cyan;" class="sb" />
+	<line x1="1199.7" y1="1195.0" x2="1199.1" y2="1183.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-28 Europe=8</title>
-	<line x1="1198.9" y1="1178.3" x2="1198.5" y2="1170.7" style="stroke:fuchsia;" class="sb" />
+	<line x1="1199.1" y1="1183.3" x2="1198.7" y2="1175.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-28 Asia=1</title>
-	<line x1="1198.5" y1="1170.7" x2="1198.4" y2="1168.3" style="stroke:white;" class="sb" />
+	<line x1="1198.7" y1="1175.7" x2="1198.6" y2="1173.3" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-12-28  C335T  Africa=1 [3.6%]  orf1ab polyprotein, R24C</title>
@@ -9912,19 +9925,19 @@
 </g>
 <g>
 	<title>2020-12-29 Africa=55</title>
-	<line x1="1199.7" y1="1190.0" x2="1199.2" y2="1176.0" style="stroke:cyan;" class="sb" />
+	<line x1="1199.8" y1="1195.0" x2="1199.3" y2="1181.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-29 Europe=10</title>
-	<line x1="1199.2" y1="1176.0" x2="1198.9" y2="1167.7" style="stroke:fuchsia;" class="sb" />
+	<line x1="1199.3" y1="1181.0" x2="1199.1" y2="1172.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-29 Asia=3</title>
-	<line x1="1198.9" y1="1167.7" x2="1198.7" y2="1162.9" style="stroke:white;" class="sb" />
+	<line x1="1199.1" y1="1172.7" x2="1198.9" y2="1167.9" style="stroke:white;" class="sb" />
 </g>
 <g>
 	<title>2020-12-29 Oceania=2</title>
-	<line x1="1198.7" y1="1162.9" x2="1198.6" y2="1159.1" style="stroke:orange;" class="sb" />
+	<line x1="1198.9" y1="1167.9" x2="1198.8" y2="1164.1" style="stroke:orange;" class="sb" />
 </g>
 <g>
 	<title>2020-12-29  C335T  Africa=1 [1.8%]  orf1ab polyprotein, R24C</title>
@@ -10131,14 +10144,6 @@
 	<circle cx="1181" cy="640" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-29  C14408A  Asia=1 [33.3%]  orf1ab polyprotein, P4715H</title>
-	<circle cx="1180" cy="625" r="6" style="fill:white;" class="cv" />
-</g>
-<g>
-	<title>2020-12-29  C14408A  Africa=1 [1.8%]  orf1ab polyprotein, P4715H</title>
-	<circle cx="1180" cy="625" r="2" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-12-29  C14408T  Europe=10 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1180" cy="625" r="8" style="fill:fuchsia;" class="cv" />
 </g>
@@ -10153,6 +10158,14 @@
 <g>
 	<title>2020-12-29  C14408T  Asia=2 [66.7%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1180" cy="625" r="7" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2020-12-29  C14408A  Asia=1 [33.3%]  orf1ab polyprotein, P4715H</title>
+	<circle cx="1180" cy="625" r="6" style="fill:white;" class="cv" />
+</g>
+<g>
+	<title>2020-12-29  C14408A  Africa=1 [1.8%]  orf1ab polyprotein, P4715H</title>
+	<circle cx="1180" cy="625" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  G14792A  Africa=1 [1.8%]  orf1ab polyprotein, S4843N</title>
@@ -10523,11 +10536,11 @@
 	<circle cx="1166" cy="221" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-29  G27670A  Africa=1 [1.8%]  ORF7a protein, V93I</title>
+	<title>2020-12-29  G27670T  Africa=1 [1.8%]  ORF7a protein, V93F</title>
 	<circle cx="1166" cy="217" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-29  G27670T  Africa=1 [1.8%]  ORF7a protein, V93F</title>
+	<title>2020-12-29  G27670A  Africa=1 [1.8%]  ORF7a protein, V93I</title>
 	<circle cx="1166" cy="217" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
@@ -10616,11 +10629,11 @@
 </g>
 <g>
 	<title>2020-12-30 Africa=31</title>
-	<line x1="1199.8" y1="1190.0" x2="1199.6" y2="1178.0" style="stroke:cyan;" class="sb" />
+	<line x1="1199.9" y1="1195.0" x2="1199.7" y2="1183.0" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-30 Europe=2</title>
-	<line x1="1199.6" y1="1178.0" x2="1199.6" y2="1174.1" style="stroke:fuchsia;" class="sb" />
+	<line x1="1199.7" y1="1183.0" x2="1199.6" y2="1179.1" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-30  C344T  Africa=1 [3.2%]  orf1ab polyprotein, L27F</title>
@@ -11028,11 +11041,11 @@
 </g>
 <g>
 	<title>2020-12-31 Africa=22</title>
-	<line x1="1200.0" y1="1190.0" x2="1200.0" y2="1179.1" style="stroke:cyan;" class="sb" />
+	<line x1="1200.0" y1="1195.0" x2="1200.0" y2="1184.1" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-12-31 Europe=2</title>
-	<line x1="1200.0" y1="1179.1" x2="1200.0" y2="1175.3" style="stroke:fuchsia;" class="sb" />
+	<line x1="1200.0" y1="1184.1" x2="1200.0" y2="1180.3" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
 	<title>2020-12-31  C884T  Africa=1 [4.5%]  orf1ab polyprotein, R207C</title>
@@ -11139,16 +11152,16 @@
 	<circle cx="1200" cy="636" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-31  C14408A  Africa=1 [4.5%]  orf1ab polyprotein, P4715H</title>
-	<circle cx="1200" cy="624" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-12-31  C14408T  Europe=2 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1200" cy="624" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-31  C14408T  Europe=2 [100.0%] Africa=21 [95.5%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1200" cy="624" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-31  C14408A  Africa=1 [4.5%]  orf1ab polyprotein, P4715H</title>
+	<circle cx="1200" cy="624" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-31  C15026T  Africa=1 [4.5%]  orf1ab polyprotein, A4921V</title>
@@ -11351,23 +11364,23 @@
 	<circle cx="1200" cy="179" r="3" style="fill:cyan;" class="cv" />
 </g>
 </g>
-<rect x="2" y="2" width="1035" height="120" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="2" y="2" width="980" height="120" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
 <a href="https://bcgsc.github.io/SARS2/">
 <title>main menu</title>
-<text font-size="4.0em" x="50" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
+<text font-size="3.6em" x="100" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 </a>
-<text font-size="2.8em" x="50" y="105" fill="white">Genbank MN908947 vs 762 GISAID genomes</text>
- <circle cx="25" cy="25" r="21" fill="white" opacity="0.75"/>
-    <path class="button" onclick="pan(0, 25)" d="M25 5 l6 10 a20 35 0 0 0 -12 0z" />
-    <path class="button" onclick="pan(25, 0)" d="M5 25 l10 -6 a35 20 0 0 0 0 12z" />
-    <path class="button" onclick="pan(0,-25)" d="M25 45 l6 -10 a20, 35 0 0,1 -12,0z" />
-    <path class="button" onclick="pan(-25, 0)" d="M45 25 l-10 -6 a35 20 0 0 1 0 12z" />
-    <circle class="compass" cx="25" cy="25" r="10"/>
-    <circle class="button"  cx="25" cy="20.5" r="4" onclick="zoom(0.8)"/>
-    <circle class="button"  cx="25" cy="29.5" r="4" onclick="zoom(1.25)"/>
-    <rect class="plus-minus" x="23" y="20" width="4" height="1"/>
-    <rect class="plus-minus" x="23" y="29" width="4" height="1"/>
-    <rect class="plus-minus" x="24.5" y="27.5" width="1" height="4"/>
+<text font-size="2.5em" x="100" y="105" fill="white">Genbank MN908947 vs 762 GISAID genomes</text>
+<circle cx="50" cy="50" r="42" fill="gainsboro" opacity="0.75" onclick="rotatex(90,1200,1200)"/>
+	<path class="button" onclick="pan( 0, 50)" d="M50 10 l12   20 a40, 70 0 0,0 -24,  0z" />
+	<path class="button" onclick="pan( 50, 0)" d="M10 50 l20  -12 a70, 40 0 0,0   0, 24z" />
+	<path class="button" onclick="pan( 0,-50)" d="M50 90 l12  -20 a40, 70 0 0,1 -24,  0z" />
+	<path class="button" onclick="pan(-50, 0)" d="M90 50 l-20 -12 a70, 40 0 0,1   0, 24z" />
+	<circle class="compass" cx="50" cy="50" r="20"/>
+	<circle class="button" cx="50" cy="41" r="8" onclick="zoom(0.8)"/>
+	<circle class="button" cx="50" cy="59" r="8" onclick="zoom(1.25)"/>
+	<rect class="plus-minus" x="46" y="39.5" width="8" height="3"/>
+	<rect class="plus-minus" x="46" y="57.5" width="8" height="3"/>
+	<rect class="plus-minus" x="48.5" y="55" width="3" height="8"/>
  <script type="text/javascript"><![CDATA[
         var transformMatrix = [1, 0, 0, 1, 0, 0];
         var svg = document.getElementById('map-svg');
@@ -11390,29 +11403,90 @@
         }
         function setMatrix() {
             var newMatrix = "matrix(" +  transformMatrix.join(' ') + ")";
+            newMatrix += " rotate(" + 0 + "," + 1200 + "," + 1200 + ")";
             matrixGroup.setAttributeNS(null, "transform", newMatrix);
         }
+        function rotatex(angle,dx,dy) {
+        var rt = "matrix(" +  transformMatrix.join(' ') + ")";
+        rt += ' rotate(' + angle + ',' + dx + ',' + dy + ')';
+        matrixGroup.setAttributeNS(null, "transform", rt);
+        }
+      function makeDraggable(evt) {
+        var svg = evt.target;
+        svg.addEventListener('mousedown', startDrag);
+        svg.addEventListener('mousemove', drag);
+        svg.addEventListener('mouseup', endDrag);
+        svg.addEventListener('mouseleave', endDrag);
+        svg.addEventListener('touchstart', startDrag);
+        svg.addEventListener('touchmove', drag);
+        svg.addEventListener('touchend', endDrag);
+        svg.addEventListener('touchleave', endDrag);
+        svg.addEventListener('touchcancel', endDrag);
+        function getMousePosition(evt) {
+          var CTM = svg.getScreenCTM();
+          if (evt.touches) { evt = evt.touches[0]; }
+          return {
+            x: (evt.clientX - CTM.e) / CTM.a,
+            y: (evt.clientY - CTM.f) / CTM.d
+          };
+        }
+       var selectedElement, offset, transform;
+        function initialiseDragging(evt) {
+            offset = getMousePosition(evt);
+            // Make sure the first transform on the element is a translate transform
+            var transforms = selectedElement.transform.baseVal;
+            if (transforms.length === 0 || transforms.getItem(0).type !== SVGTransform.SVG_TRANSFORM_TRANSLATE) {
+              // Create an transform that translates by (0, 0)
+              var translate = svg.createSVGTransform();
+              translate.setTranslate(0, 0);
+              selectedElement.transform.baseVal.insertItemBefore(translate, 0);
+            }
+            // Get initial translation
+            transform = transforms.getItem(0);
+            offset.x -= transform.matrix.e;
+            offset.y -= transform.matrix.f;
+        }
+       function startDrag(evt) {
+          if (evt.target.classList.contains('draggable')) {
+            selectedElement = evt.target;
+            initialiseDragging(evt);
+          } else if (evt.target.parentNode.classList.contains('draggable-group')) {
+            selectedElement = evt.target.parentNode;
+            initialiseDragging(evt);
+          }
+        }
+        function drag(evt) {
+          if (selectedElement) {
+            evt.preventDefault();
+            var coord = getMousePosition(evt);
+            transform.setTranslate(coord.x - offset.x, coord.y - offset.y);
+          }
+        }
+        function endDrag(evt) {
+          selectedElement = false;
+        }
+      }
     ]]></script>
-<rect x="2" y="123" width="450" height="327" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
-<text font-size="2.1em" x="55" y="160" fill="white">Continents</text>
-<circle cx="40" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="55" y="200" fill="white">Africa</text>
-<circle cx="40" cy="215" r="6" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="55" y="225" fill="white">Europe</text>
-<circle cx="40" cy="240" r="6" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="55" y="250" fill="white">Asia</text>
-<circle cx="40" cy="265" r="6" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="55" y="275" fill="white">Oceania</text>
-<circle cx="40" cy="290" r="6" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="55" y="300" fill="white">North America</text>
-<circle cx="40" cy="340" r="1" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="75" cy="340" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="110" cy="340" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="1.7em" x="30" y="385" fill="white">1      10        100% daily</text>
-<text font-size="1.7em" x="30" y="415" fill="white">sample fraction</text>
+<rect x="2" y="123" width="430" height="327" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<text font-size="2.1em" x="50" y="160" fill="white">Continents</text>
+<circle cx="35" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="50" y="200" fill="white">Africa</text>
+<circle cx="35" cy="215" r="6" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="50" y="225" fill="white">Europe</text>
+<circle cx="35" cy="240" r="6" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="50" y="250" fill="white">Asia</text>
+<circle cx="35" cy="265" r="6" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="50" y="275" fill="white">Oceania</text>
+<circle cx="35" cy="290" r="6" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="50" y="300" fill="white">North America</text>
+<circle cx="35" cy="340" r="1" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="70" cy="340" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="105" cy="340" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="1.7em" x="25" y="385" fill="white">1      10        100% daily</text>
+<text font-size="1.7em" x="25" y="415" fill="white">sample fraction</text>
 <rect x="1865" y="2" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 6 continents</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥1</text>
 <text font-size="1.8em" x="1880" y="92" fill="white">617 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-21</text>
+<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-23</text>
 </svg>
