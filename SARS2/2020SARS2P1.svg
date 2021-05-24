@@ -54,7 +54,7 @@
 	}
 	]]></style>
 </defs>
-<text font-size="3.6em" x="100" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
+<text font-size="3.6em" x="20" y="55" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 <g id="matrix-group" transform="matrix(1 0 0 1 0 0)" class="draggable-group">
 <circle cx="1200" cy="1200" r="1045" style="fill:gainsboro;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="1041" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
@@ -1380,23 +1380,23 @@
 	<circle cx="1183" cy="191" r="4" style="fill:cyan;" class="cv" />
 </g>
 </g>
-<rect x="2" y="2" width="980" height="120" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="4" y="4" width="895" height="120" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
 <a href="https://bcgsc.github.io/SARS2/">
 <title>main menu</title>
-<text font-size="3.6em" x="100" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
+<text font-size="3.6em" x="20" y="55" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 </a>
-<text font-size="2.5em" x="100" y="105" fill="white">Genbank MN908947 vs 62 GISAID genomes</text>
-<circle cx="50" cy="50" r="42" fill="#225EA8" opacity="0.3" onclick="rotatex(90,1200,1200)"/>
-	<path class="button" onclick="pan( 0, 50)" d="M50 10 l12   20 a40, 70 0 0,0 -24,  0z" />
-	<path class="button" onclick="pan( 50, 0)" d="M10 50 l20  -12 a70, 40 0 0,0   0, 24z" />
-	<path class="button" onclick="pan( 0,-50)" d="M50 90 l12  -20 a40, 70 0 0,1 -24,  0z" />
-	<path class="button" onclick="pan(-50, 0)" d="M90 50 l-20 -12 a70, 40 0 0,1   0, 24z" />
-	<circle class="compass" cx="50" cy="50" r="20"/>
-	<circle class="button" cx="50" cy="41" r="8" onclick="zoom(0.8)"/>
-	<circle class="button" cx="50" cy="59" r="8" onclick="zoom(1.25)"/>
-	<rect class="plus-minus" x="46" y="39.5" width="8" height="3"/>
-	<rect class="plus-minus" x="46" y="57.5" width="8" height="3"/>
-	<rect class="plus-minus" x="48.5" y="55" width="3" height="8"/>
+<text font-size="2.5em" x="20" y="105" fill="white">Genbank MN908947 vs 62 GISAID genomes</text>
+<circle cx="950" cy="65" r="42" fill="#225EA8" opacity="0.4" onclick="rotatex(90,1200,1200)"/>
+	<path class="button" onclick="pan( 0, 50)" d="M950 25 l12   20 a40, 70 0 0,0 -24,  0z" />
+	<path class="button" onclick="pan( 50, 0)" d="M910 65 l20  -12 a70, 40 0 0,0   0, 24z" />
+	<path class="button" onclick="pan( 0,-50)" d="M950 105 l12  -20 a40, 70 0 0,1 -24,  0z" />
+	<path class="button" onclick="pan(-50, 0)" d="M990 65 l-20 -12 a70, 40 0 0,1   0, 24z" />
+	<circle class="compass" cx="950" cy="65" r="20"/>
+	<circle class="button" cx="950" cy="56" r="8" onclick="zoom(0.8)"/>
+	<circle class="button" cx="950" cy="74" r="8" onclick="zoom(1.25)"/>
+	<rect class="plus-minus" x="946" y="54.5" width="8" height="3"/>
+	<rect class="plus-minus" x="946" y="72.5" width="8" height="3"/>
+	<rect class="plus-minus" x="948.5" y="70" width="3" height="8"/>
  <script type="text/javascript"><![CDATA[
         var transformMatrix = [1, 0, 0, 1, 0, 0];
         var svg = document.getElementById('map-svg');
@@ -1483,20 +1483,20 @@
         }
       }
     ]]></script>
-<rect x="2" y="123" width="235" height="227" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
-<rect x="2" y="351" width="235" height="110" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
-<text font-size="2.1em" x="50" y="160" fill="white">Continents</text>
-<circle cx="35" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="50" y="200" fill="white">South America</text>
-<circle cx="35" cy="375" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="71" cy="375" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="107" cy="375" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="143" cy="375" r="12.0017363099173" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="1.8em" x="25" y="415" fill="white">1      10        100        1k</text>
-<text font-size="1.8em" x="25" y="445" fill="white">genome samples</text>
+<rect x="4" y="125" width="220" height="227" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="4" y="353" width="220" height="110" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<text font-size="2.1em" x="35" y="160" fill="white">Continents</text>
+<circle cx="25" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="40" y="198" fill="white">South America</text>
+<circle cx="25" cy="375" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="61" cy="375" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="97" cy="375" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="133" cy="375" r="12.0017363099173" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="1.8em" x="15" y="415" fill="white">1      10        100        1k</text>
+<text font-size="1.8em" x="15" y="445" fill="white">genome samples</text>
 <rect x="1865" y="2" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 6 continents</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥1</text>
 <text font-size="1.8em" x="1880" y="92" fill="white">55 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-23</text>
+<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-24</text>
 </svg>

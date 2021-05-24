@@ -54,7 +54,7 @@
 	}
 	]]></style>
 </defs>
-<text font-size="3.6em" x="100" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
+<text font-size="3.6em" x="20" y="55" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 <g id="matrix-group" transform="matrix(1 0 0 1 0 0)" class="draggable-group">
 <circle cx="1200" cy="1200" r="1052" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="1028" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
@@ -4734,12 +4734,12 @@
 	<line x1="1194.0" y1="1196.1" x2="1192.2" y2="1194.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g>
-	<title>2020-11-03  A23403G  Australia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="709" cy="882" r="8" style="fill:cyan;" class="cv" />
+	<title>2020-11-03  A23403G  New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="709" cy="882" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-11-03  A23403G  Australia=2 [100.0%] New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="709" cy="882" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-11-03  A23403G  New Zealand=2 [100.0%] Australia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="709" cy="882" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-03  T23599G  Australia=2 [100.0%]  surface glycoprotein, N679K</title>
@@ -5218,15 +5218,15 @@
 	<circle cx="1112" cy="889" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-15  A23403G  Australia=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1041" cy="637" r="8" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-15  A23403G  Australia=3 [100.0%] Guam=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-15  A23403G  Guam=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1041" cy="637" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
-	<title>2020-12-15  A23403G  Australia=3 [100.0%] Guam=3 [100.0%] New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-15  A23403G  Guam=3 [100.0%] Australia=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1041" cy="637" r="8" style="fill:cyan;" class="cv" />
+</g>
+<g>
+	<title>2020-12-15  A23403G  Guam=3 [100.0%] Australia=3 [100.0%] New Zealand=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1041" cy="637" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
@@ -5598,23 +5598,23 @@
 	<circle cx="1200" cy="615" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 </g>
-<rect x="2" y="2" width="980" height="120" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="4" y="4" width="895" height="120" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
 <a href="https://bcgsc.github.io/SARS2/">
 <title>main menu</title>
-<text font-size="3.6em" x="100" y="47" fill="white">SARS-CoV-2 variants 2020 timemap</text>
+<text font-size="3.6em" x="20" y="55" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 </a>
-<text font-size="2.5em" x="100" y="105" fill="white">Genbank MN908947 vs 13,383 GISAID genomes</text>
-<circle cx="50" cy="50" r="42" fill="#225EA8" opacity="0.3" onclick="rotatex(90,1200,1200)"/>
-	<path class="button" onclick="pan( 0, 50)" d="M50 10 l12   20 a40, 70 0 0,0 -24,  0z" />
-	<path class="button" onclick="pan( 50, 0)" d="M10 50 l20  -12 a70, 40 0 0,0   0, 24z" />
-	<path class="button" onclick="pan( 0,-50)" d="M50 90 l12  -20 a40, 70 0 0,1 -24,  0z" />
-	<path class="button" onclick="pan(-50, 0)" d="M90 50 l-20 -12 a70, 40 0 0,1   0, 24z" />
-	<circle class="compass" cx="50" cy="50" r="20"/>
-	<circle class="button" cx="50" cy="41" r="8" onclick="zoom(0.8)"/>
-	<circle class="button" cx="50" cy="59" r="8" onclick="zoom(1.25)"/>
-	<rect class="plus-minus" x="46" y="39.5" width="8" height="3"/>
-	<rect class="plus-minus" x="46" y="57.5" width="8" height="3"/>
-	<rect class="plus-minus" x="48.5" y="55" width="3" height="8"/>
+<text font-size="2.5em" x="20" y="105" fill="white">Genbank MN908947 vs 13,383 GISAID genomes</text>
+<circle cx="950" cy="65" r="42" fill="#225EA8" opacity="0.4" onclick="rotatex(90,1200,1200)"/>
+	<path class="button" onclick="pan( 0, 50)" d="M950 25 l12   20 a40, 70 0 0,0 -24,  0z" />
+	<path class="button" onclick="pan( 50, 0)" d="M910 65 l20  -12 a70, 40 0 0,0   0, 24z" />
+	<path class="button" onclick="pan( 0,-50)" d="M950 105 l12  -20 a40, 70 0 0,1 -24,  0z" />
+	<path class="button" onclick="pan(-50, 0)" d="M990 65 l-20 -12 a70, 40 0 0,1   0, 24z" />
+	<circle class="compass" cx="950" cy="65" r="20"/>
+	<circle class="button" cx="950" cy="56" r="8" onclick="zoom(0.8)"/>
+	<circle class="button" cx="950" cy="74" r="8" onclick="zoom(1.25)"/>
+	<rect class="plus-minus" x="946" y="54.5" width="8" height="3"/>
+	<rect class="plus-minus" x="946" y="72.5" width="8" height="3"/>
+	<rect class="plus-minus" x="948.5" y="70" width="3" height="8"/>
  <script type="text/javascript"><![CDATA[
         var transformMatrix = [1, 0, 0, 1, 0, 0];
         var svg = document.getElementById('map-svg');
@@ -5701,27 +5701,27 @@
         }
       }
     ]]></script>
-<rect x="2" y="123" width="435" height="327" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
-<rect x="2" y="451" width="235" height="110" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
-<text font-size="2.1em" x="40" y="160" fill="white">Top regions</text>
-<circle cx="35" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="50" y="200" fill="white">Australia</text>
-<circle cx="35" cy="215" r="6" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="50" y="225" fill="white">New Zealand</text>
-<circle cx="35" cy="240" r="6" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="50" y="250" fill="white">Papua New Guinea</text>
-<circle cx="35" cy="265" r="6" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="50" y="275" fill="white">Guam</text>
-<circle cx="35" cy="290" r="6" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="50" y="300" fill="white">Polynesia</text>
-<circle cx="35" cy="475" r="1" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="70" cy="475" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="105" cy="475" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="1.7em" x="25" y="515" fill="white">1      10        100% daily</text>
-<text font-size="1.7em" x="25" y="545" fill="white">sample fraction</text>
+<rect x="4" y="125" width="425" height="327" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="4" y="453" width="220" height="110" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<text font-size="2.1em" x="35" y="160" fill="white">Top regions</text>
+<circle cx="25" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="40" y="198" fill="white">Australia</text>
+<circle cx="25" cy="215" r="6" style="fill:fuchsia;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="40" y="223" fill="white">New Zealand</text>
+<circle cx="25" cy="240" r="6" style="fill:white;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="40" y="248" fill="white">Papua New Guinea</text>
+<circle cx="25" cy="265" r="6" style="fill:orange;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="40" y="273" fill="white">Guam</text>
+<circle cx="25" cy="290" r="6" style="fill:yellow;stroke:black;stroke-width:0;fill-opacity:0.6;" />
+<text font-size="1.6em" x="40" y="298" fill="white">Polynesia</text>
+<circle cx="25" cy="475" r="1" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="60" cy="475" r="4" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="95" cy="475" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="1.7em" x="15" y="515" fill="white">1      10        100% daily</text>
+<text font-size="1.7em" x="15" y="545" fill="white">sample fraction</text>
 <rect x="1865" y="2" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 5 regions in Oceania</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥2</text>
 <text font-size="1.8em" x="1880" y="92" fill="white">126 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-23</text>
+<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-24</text>
 </svg>
