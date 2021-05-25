@@ -56,32 +56,26 @@
 </defs>
 <text font-size="3.6em" x="20" y="55" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 <g id="matrix-group" transform="matrix(1 0 0 1 0 0)" class="draggable-group">
-<circle cx="1200" cy="1200" r="885" style="fill:gainsboro;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
-<circle cx="1200" cy="1200" r="854" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <circle cx="1200" cy="1200" r="834" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="305" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
-<line x1="1200" y1="250" x2="1200" y2="300" style="stroke:gainsboro;stroke-width:4" />
-<text font-size="3.0em" x="1176" y="240" fill="white">Winter</text>
-<line x1="2100" y1="1200" x2="2150" y2="1200" style="stroke:gainsboro;stroke-width:4" />
-<text font-size="3.0em" x="2100" y="1245" fill="white">Spring</text>
-<line x1="1200" y1="2100" x2="1200" y2="2150" style="stroke:gainsboro;stroke-width:4" />
-<text font-size="3.0em" x="1045" y="2185" fill="white">Summer</text>
-<line x1="300" y1="1200" x2="240" y2="1200" style="stroke:gainsboro;stroke-width:4" />
-<text font-size="3.0em" x="226" y="1185" fill="white">Fall</text>
+<line x1="1200" y1="292.857142857143" x2="1200" y2="342.857142857143" style="stroke:silver;stroke-width:4" />
+<text font-size="3.0em" x="1176" y="282.857142857143" fill="white">Winter</text>
+<line x1="2057" y1="1200" x2="2107" y2="1200" style="stroke:silver;stroke-width:4" />
+<text font-size="3.0em" x="2057" y="1245" fill="white">Spring</text>
+<line x1="1200" y1="2057" x2="1200" y2="2107" style="stroke:silver;stroke-width:4" />
+<text font-size="3.0em" x="1045" y="2142" fill="white">Summer</text>
+<line x1="343" y1="1200" x2="283" y2="1200" style="stroke:silver;stroke-width:4" />
+<text font-size="3.0em" x="269" y="1185" fill="white">Fall</text>
 <g>
 	<title>ORF6 gene (27202-27387)</title>
 	<line x1="1208" y1="895" x2="1208" y2="366" style="stroke:grey;stroke-width:8" />
 </g>
-<g>
-	<title>ORF7a gene (27394-27405)</title>
-	<line x1="1208" y1="346" x2="1208" y2="315" style="stroke:gainsboro;stroke-width:8" />
-</g>
-<line x1="1200" y1="315" x2="1200" y2="915" style="stroke:white;stroke-width:3" />
-<line x1="1204" y1="315" x2="1210" y2="315" style="stroke:grey;stroke-width:2" />
-<line x1="1210" y1="315" x2="1215" y2="290" style="stroke:grey;stroke-width:2" />
-<line x1="1204" y1="915" x2="1210" y2="915" style="stroke:grey;stroke-width:2" />
-<line x1="1210" y1="915" x2="1215" y2="940" style="stroke:grey;stroke-width:2" />
-<text font-size="2.0em" x="1215" y="290" fill="white">27.4kb</text>
+<line x1="1200" y1="357.857142857143" x2="1200" y2="915" style="stroke:white;stroke-width:3" />
+<line x1="1204" y1="357.857142857143" x2="1210" y2="357.857142857143" style="stroke:silver;stroke-width:2" />
+<line x1="1210" y1="357.857142857143" x2="1215" y2="332.857142857143" style="stroke:silver;stroke-width:2" />
+<line x1="1204" y1="915" x2="1210" y2="915" style="stroke:silver;stroke-width:2" />
+<line x1="1210" y1="915" x2="1215" y2="940" style="stroke:silver;stroke-width:2" />
+<text font-size="2.0em" x="1215" y="332.857142857143" fill="white">27.4kb</text>
 <text font-size="2.0em" x="1215" y="960" fill="white">27.2kb</text>
 <g>
 	<title>2020-01-13 Asia=5</title>
@@ -3764,10 +3758,6 @@
 	<line x1="1188.2" y1="1248.3" x2="1186.6" y2="1254.7" style="stroke:lime;" class="sb" />
 </g>
 <g>
-	<title>2020-07-15  A27400G  Europe=5 [1.9%]  ORF7a protein, I3V</title>
-	<circle cx="993" cy="2046" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-07-16 Europe=181</title>
 	<line x1="1198.7" y1="1204.8" x2="1196.1" y2="1214.7" style="stroke:cyan;" class="sb" />
 </g>
@@ -5282,10 +5272,6 @@
 <g>
 	<title>2020-09-10 Africa=17</title>
 	<line x1="1154.3" y1="1216.8" x2="1149.0" y2="1218.7" style="stroke:lime;" class="sb" />
-</g>
-<g>
-	<title>2020-09-10  A27403G  Europe=6 [0.5%]  ORF7a protein, I4V</title>
-	<circle cx="374" cy="1503" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-09-11 Europe=397</title>
@@ -6956,10 +6942,6 @@
 	<circle cx="626" cy="611" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-11-16  T27401C  Europe=5 [0.3%]  ORF7a protein, I3T</title>
-	<circle cx="590" cy="574" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-11-17 Europe=927</title>
 	<line x1="1196.6" y1="1196.4" x2="1187.4" y2="1186.6" style="stroke:cyan;" class="sb" />
 </g>
@@ -7124,10 +7106,6 @@
 	<circle cx="700" cy="546" r="4" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-11-23  T27401C  Europe=8 [0.3%]  ORF7a protein, I3T</title>
-	<circle cx="669" cy="505" r="4" style="fill:cyan;" class="cv" />
-</g>
-<g>
 	<title>2020-11-24 Europe=550</title>
 	<line x1="1197.0" y1="1196.0" x2="1189.7" y2="1186.0" style="stroke:cyan;" class="sb" />
 </g>
@@ -7278,10 +7256,6 @@
 <g>
 	<title>2020-11-30  G27366T  Europe=5 [0.2%]  ORF6 protein, E55D</title>
 	<circle cx="807" cy="533" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-11-30  T27401C  Europe=7 [0.2%]  ORF7a protein, I3T</title>
-	<circle cx="756" cy="447" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01 Europe=649</title>
@@ -8288,6 +8262,6 @@
 <rect x="1865" y="4" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 6 continents</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥5</text>
-<text font-size="1.8em" x="1880" y="92" fill="white">35 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="92" fill="white">32 distinct missense variants mapped</text>
 <text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-25</text>
 </svg>
