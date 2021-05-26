@@ -56,70 +56,58 @@
 </defs>
 <text font-size="3.6em" x="20" y="55" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 <g id="matrix-group" transform="matrix(1 0 0 1 0 0)" class="draggable-group">
-<circle cx="1200" cy="1200" r="1046" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
-<circle cx="1200" cy="1200" r="1022" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
-<circle cx="1200" cy="1200" r="1020" style="fill:gainsboro;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
-<circle cx="1200" cy="1200" r="169" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
-<circle cx="1200" cy="1200" r="168" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
-<circle cx="1200" cy="1200" r="155" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
-<line x1="1200" y1="89.1314031180401" x2="1200" y2="139.13140311804" style="stroke:white;stroke-width:4" />
-<text font-size="3.0em" x="1176" y="79.1314031180401" fill="white">Winter</text>
-<line x1="2261" y1="1200" x2="2311" y2="1200" style="stroke:white;stroke-width:4" />
-<text font-size="3.0em" x="2261" y="1245" fill="white">Spring</text>
-<line x1="1200" y1="2261" x2="1200" y2="2311" style="stroke:white;stroke-width:4" />
-<text font-size="3.0em" x="1045" y="2346" fill="white">Summer</text>
-<line x1="139" y1="1200" x2="79" y2="1200" style="stroke:white;stroke-width:4" />
-<text font-size="3.0em" x="65" y="1185" fill="white">Fall</text>
-<g>
-	<title>orf1ab gene (21500-21555)</title>
-	<line x1="1208" y1="1045" x2="1208" y2="1032" style="stroke:grey;stroke-width:8" />
-</g>
+<circle cx="1200" cy="1200" r="1011" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
+<circle cx="1200" cy="1200" r="171" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
+<line x1="1200" y1="122.362637362637" x2="1200" y2="172.362637362637" style="stroke:silver;stroke-width:4" />
+<text font-size="3.0em" x="1176" y="112.362637362637" fill="white">Winter</text>
+<line x1="2227" y1="1200" x2="2277" y2="1200" style="stroke:silver;stroke-width:4" />
+<text font-size="3.0em" x="2227" y="1245" fill="white">Spring</text>
+<line x1="1200" y1="2227" x2="1200" y2="2277" style="stroke:silver;stroke-width:4" />
+<text font-size="3.0em" x="1045" y="2312" fill="white">Summer</text>
+<line x1="173" y1="1200" x2="113" y2="1200" style="stroke:silver;stroke-width:4" />
+<text font-size="3.0em" x="99" y="1185" fill="white">Fall</text>
 <g>
 	<title>S gene (21563-25384)</title>
-	<line x1="1208" y1="1031" x2="1208" y2="180" style="stroke:gainsboro;stroke-width:8" />
+	<line x1="1208" y1="1029" x2="1208" y2="189" style="stroke:grey;stroke-width:8" />
 </g>
-<g>
-	<title>ORF3a gene (25393-25500)</title>
-	<line x1="1208" y1="178" x2="1208" y2="154" style="stroke:grey;stroke-width:8" />
-</g>
-<line x1="1200" y1="154.13140311804" x2="1200" y2="1045" style="stroke:white;stroke-width:3" />
-<line x1="1204" y1="154.13140311804" x2="1210" y2="154.13140311804" style="stroke:white;stroke-width:2" />
-<line x1="1210" y1="154.13140311804" x2="1215" y2="129.13140311804" style="stroke:white;stroke-width:2" />
-<line x1="1204" y1="1045" x2="1210" y2="1045" style="stroke:white;stroke-width:2" />
-<line x1="1210" y1="1045" x2="1215" y2="1070" style="stroke:white;stroke-width:2" />
-<text font-size="2.0em" x="1215" y="129.13140311804" fill="white">25.5 kb</text>
-<text font-size="2.0em" x="1215" y="1090" fill="white">21.5 kb</text>
+<line x1="1200" y1="187.362637362637" x2="1200" y2="1030" style="stroke:white;stroke-width:3" />
+<line x1="1204" y1="187.362637362637" x2="1210" y2="187.362637362637" style="stroke:silver;stroke-width:2" />
+<line x1="1210" y1="187.362637362637" x2="1215" y2="162.362637362637" style="stroke:silver;stroke-width:2" />
+<line x1="1204" y1="1030" x2="1210" y2="1030" style="stroke:silver;stroke-width:2" />
+<line x1="1210" y1="1030" x2="1215" y2="1055" style="stroke:silver;stroke-width:2" />
+<text font-size="2.0em" x="1215" y="162.362637362637" fill="white">25.4kb</text>
+<text font-size="2.0em" x="1215" y="1075" fill="white">21.6kb</text>
 <g>
 	<title>2020-10-02 Asia=1</title>
 	<line x1="1195.0" y1="1199.9" x2="1193.6" y2="1199.8" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-10-02  C21618G  Asia=1 [100.0%]  surface glycoprotein, T19R</title>
-	<circle cx="1018" cy="1195" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1016" cy="1195" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-02  GG21986G  Asia=1 [100.0%]  surface glycoprotein, G142V/del</title>
-	<circle cx="936" cy="1193" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="935" cy="1193" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-02  T22917G  Asia=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="729" cy="1188" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="731" cy="1188" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-02  G23012C  Asia=1 [100.0%]  surface glycoprotein, E484Q</title>
-	<circle cx="708" cy="1187" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="710" cy="1187" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-02  A23403G  Asia=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="620" cy="1185" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="624" cy="1185" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-02  C23604G  Asia=1 [100.0%]  surface glycoprotein, P681R</title>
-	<circle cx="576" cy="1184" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="580" cy="1184" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-02  G24410A  Asia=1 [100.0%]  surface glycoprotein, D950N</title>
-	<circle cx="396" cy="1179" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="403" cy="1179" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-03 Asia=3</title>
@@ -127,35 +115,35 @@
 </g>
 <g>
 	<title>2020-10-03  C21618G  Asia=3 [100.0%]  surface glycoprotein, T19R</title>
-	<circle cx="1018" cy="1192" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1016" cy="1192" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-03  GG21986G  Asia=1 [33.3%]  surface glycoprotein, G142V/del</title>
-	<circle cx="936" cy="1189" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="935" cy="1189" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-03  A22029AGAGTT  Asia=1 [33.3%]  surface glycoprotein, F157S/ins</title>
-	<circle cx="927" cy="1188" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="926" cy="1188" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-03  T22917G  Asia=3 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="729" cy="1180" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="731" cy="1180" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-03  G23012C  Asia=3 [100.0%]  surface glycoprotein, E484Q</title>
-	<circle cx="708" cy="1179" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="710" cy="1179" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-03  A23403G  Asia=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="621" cy="1175" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="624" cy="1175" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-03  C23604G  Asia=3 [100.0%]  surface glycoprotein, P681R</title>
-	<circle cx="576" cy="1173" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="580" cy="1173" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-03  AG24409A  Asia=3 [100.0%]  surface glycoprotein, D950M/del</title>
-	<circle cx="397" cy="1165" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="403" cy="1166" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-05 Asia=2</title>
@@ -163,43 +151,39 @@
 </g>
 <g>
 	<title>2020-10-05  C21846T  Asia=1 [50.0%]  surface glycoprotein, T95I</title>
-	<circle cx="968" cy="1182" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="967" cy="1182" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-05  GG21986G  Asia=2 [100.0%]  surface glycoprotein, G142V/del</title>
-	<circle cx="937" cy="1180" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="936" cy="1180" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-05  G22022A  Asia=2 [100.0%]  surface glycoprotein, E154K</title>
-	<circle cx="929" cy="1179" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="928" cy="1179" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-05  T22917G  Asia=2 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="730" cy="1164" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="732" cy="1164" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-05  G23012C  Asia=2 [100.0%]  surface glycoprotein, E484Q</title>
-	<circle cx="709" cy="1162" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="711" cy="1162" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-05  A23403G  Asia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="622" cy="1155" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="625" cy="1155" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-05  C23604G  Asia=2 [100.0%]  surface glycoprotein, P681R</title>
-	<circle cx="577" cy="1152" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="581" cy="1152" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-05  AA24774A  Asia=2 [100.0%]  surface glycoprotein, E1072K/del</title>
-	<circle cx="318" cy="1132" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="325" cy="1132" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-05  C24863G  Asia=1 [50.0%]  surface glycoprotein, H1101D</title>
-	<circle cx="298" cy="1130" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-10-05  C25469T  Asia=2 [100.0%]  ORF3a protein, S26L</title>
-	<circle cx="163" cy="1120" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="306" cy="1131" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01 Asia=1</title>
@@ -207,11 +191,11 @@
 </g>
 <g>
 	<title>2020-12-01  C21846T  Asia=1 [100.0%]  surface glycoprotein, T95I</title>
-	<circle cx="1085" cy="997" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1085" cy="996" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01  G21987A  Asia=1 [100.0%]  surface glycoprotein, G142D</title>
-	<circle cx="1070" cy="970" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1069" cy="969" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01  G22022A  Asia=1 [100.0%]  surface glycoprotein, E154K</title>
@@ -219,27 +203,23 @@
 </g>
 <g>
 	<title>2020-12-01  T22917G  Asia=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="968" cy="790" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="969" cy="791" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01  G23012C  Asia=1 [100.0%]  surface glycoprotein, E484Q</title>
-	<circle cx="957" cy="771" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="958" cy="773" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01  A23403G  Asia=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="914" cy="695" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="916" cy="698" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01  C23604G  Asia=1 [100.0%]  surface glycoprotein, P681R</title>
-	<circle cx="892" cy="657" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="894" cy="660" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01  A24775T  Asia=1 [100.0%]  surface glycoprotein, Q1071H</title>
-	<circle cx="764" cy="430" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-01  C25469T  Asia=1 [100.0%]  ORF3a protein, S26L</title>
-	<circle cx="688" cy="295" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="768" cy="436" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-05 Asia=1</title>
@@ -247,35 +227,31 @@
 </g>
 <g>
 	<title>2020-12-05  C21846T  Asia=1 [100.0%]  surface glycoprotein, T95I</title>
-	<circle cx="1099" cy="990" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1099" cy="989" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-05  G22022A  Asia=1 [100.0%]  surface glycoprotein, E154K</title>
-	<circle cx="1083" cy="954" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1082" cy="954" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-05  T22917G  Asia=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="996" cy="775" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="997" cy="777" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-05  G23012C  Asia=1 [100.0%]  surface glycoprotein, E484Q</title>
-	<circle cx="987" cy="756" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="988" cy="758" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-05  A23403G  Asia=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="950" cy="677" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="951" cy="680" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-05  C23604G  Asia=1 [100.0%]  surface glycoprotein, P681R</title>
-	<circle cx="930" cy="637" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="932" cy="640" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-05  A25121C  Asia=1 [100.0%]  surface glycoprotein, N1187H</title>
-	<circle cx="785" cy="332" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-05  C25469T  Asia=1 [100.0%]  ORF3a protein, S26L</title>
-	<circle cx="751" cy="262" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="788" cy="340" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-07 Asia=1</title>
@@ -283,31 +259,27 @@
 </g>
 <g>
 	<title>2020-12-07  G22022A  Asia=1 [100.0%]  surface glycoprotein, E154K</title>
-	<circle cx="1091" cy="951" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1091" cy="950" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-07  T22917G  Asia=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1011" cy="768" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1012" cy="770" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-07  G23012C  Asia=1 [100.0%]  surface glycoprotein, E484Q</title>
-	<circle cx="1003" cy="749" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1004" cy="751" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-07  A23403G  Asia=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="968" cy="669" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="969" cy="672" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-07  C23604G  Asia=1 [100.0%]  surface glycoprotein, P681R</title>
-	<circle cx="950" cy="628" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="952" cy="631" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-07  C24863G  Asia=1 [100.0%]  surface glycoprotein, H1101D</title>
-	<circle cx="838" cy="371" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-07  C25469T  Asia=1 [100.0%]  ORF3a protein, S26L</title>
-	<circle cx="784" cy="247" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="841" cy="378" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17 Asia=1</title>
@@ -315,35 +287,31 @@
 </g>
 <g>
 	<title>2020-12-17  G22022A  Asia=1 [100.0%]  surface glycoprotein, E154K</title>
-	<circle cx="1135" cy="936" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1135" cy="935" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  T22917G  Asia=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1088" cy="742" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1088" cy="744" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  G23012C  Asia=1 [100.0%]  surface glycoprotein, E484Q</title>
-	<circle cx="1083" cy="722" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1083" cy="724" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  G23309C  Asia=1 [100.0%]  surface glycoprotein, E583Q</title>
-	<circle cx="1067" cy="657" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1068" cy="660" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  A23403G  Asia=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1062" cy="637" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1063" cy="640" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  C23604G  Asia=1 [100.0%]  surface glycoprotein, P681R</title>
-	<circle cx="1051" cy="593" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1052" cy="597" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  C24863G  Asia=1 [100.0%]  surface glycoprotein, H1101D</title>
-	<circle cx="985" cy="321" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-17  C25469T  Asia=1 [100.0%]  ORF3a protein, S26L</title>
-	<circle cx="952" cy="190" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="986" cy="329" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18 Asia=1</title>
@@ -351,35 +319,31 @@
 </g>
 <g>
 	<title>2020-12-18  C21846T  Asia=1 [100.0%]  surface glycoprotein, T95I</title>
-	<circle cx="1148" cy="973" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1148" cy="972" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  G22022A  Asia=1 [100.0%]  surface glycoprotein, E154K</title>
-	<circle cx="1140" cy="935" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1140" cy="934" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  T22917G  Asia=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1096" cy="740" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1096" cy="742" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  G23012C  Asia=1 [100.0%]  surface glycoprotein, E484Q</title>
-	<circle cx="1091" cy="720" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1091" cy="722" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  A23403G  Asia=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1072" cy="635" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1072" cy="638" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  C23604G  Asia=1 [100.0%]  surface glycoprotein, P681R</title>
-	<circle cx="1062" cy="591" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1063" cy="595" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  A25121C  Asia=1 [100.0%]  surface glycoprotein, N1187H</title>
-	<circle cx="987" cy="262" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-18  C25469T  Asia=1 [100.0%]  ORF3a protein, S26L</title>
-	<circle cx="970" cy="186" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="989" cy="270" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19 Asia=1</title>
@@ -387,31 +351,27 @@
 </g>
 <g>
 	<title>2020-12-19  C21846T  Asia=1 [100.0%]  surface glycoprotein, T95I</title>
-	<circle cx="1152" cy="972" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1152" cy="971" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G22022A  Asia=1 [100.0%]  surface glycoprotein, E154K</title>
-	<circle cx="1144" cy="934" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1144" cy="933" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  T22917G  Asia=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1104" cy="738" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1104" cy="740" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G23012C  Asia=1 [100.0%]  surface glycoprotein, E484Q</title>
-	<circle cx="1099" cy="718" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1100" cy="720" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  A23403G  Asia=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1081" cy="633" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1082" cy="636" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  C23604G  Asia=1 [100.0%]  surface glycoprotein, P681R</title>
-	<circle cx="1072" cy="589" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-19  C25469T  Asia=1 [100.0%]  ORF3a protein, S26L</title>
-	<circle cx="987" cy="182" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1073" cy="593" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25 Asia=1</title>
@@ -419,7 +379,7 @@
 </g>
 <g>
 	<title>2020-12-25  C21846T  Asia=1 [100.0%]  surface glycoprotein, T95I</title>
-	<circle cx="1176" cy="968" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1176" cy="967" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25  GG21986G  Asia=1 [100.0%]  surface glycoprotein, G142V/del</title>
@@ -431,27 +391,23 @@
 </g>
 <g>
 	<title>2020-12-25  T22917G  Asia=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1152" cy="731" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1152" cy="733" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25  G23012C  Asia=1 [100.0%]  surface glycoprotein, E484Q</title>
-	<circle cx="1149" cy="710" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1150" cy="712" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25  A23403G  Asia=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1140" cy="623" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1141" cy="627" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25  C23604G  Asia=1 [100.0%]  surface glycoprotein, P681R</title>
-	<circle cx="1136" cy="579" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1136" cy="583" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25  AA24774A  Asia=1 [100.0%]  surface glycoprotein, E1072K/del</title>
-	<circle cx="1109" cy="320" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-25  C25469T  Asia=1 [100.0%]  ORF3a protein, S26L</title>
-	<circle cx="1093" cy="166" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1110" cy="327" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27 Europe=1</title>
@@ -459,27 +415,27 @@
 </g>
 <g>
 	<title>2020-12-27  G21785C  Europe=1 [100.0%]  surface glycoprotein, G75R</title>
-	<circle cx="1185" cy="981" r="1" style="fill:fuchsia;" class="cv" />
+	<circle cx="1185" cy="980" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  T22917G  Europe=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1168" cy="730" r="1" style="fill:fuchsia;" class="cv" />
+	<circle cx="1168" cy="732" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  G23012C  Europe=1 [100.0%]  surface glycoprotein, E484Q</title>
-	<circle cx="1166" cy="709" r="1" style="fill:fuchsia;" class="cv" />
+	<circle cx="1166" cy="711" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  A23403G  Europe=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1160" cy="622" r="1" style="fill:fuchsia;" class="cv" />
+	<circle cx="1161" cy="625" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  A25026T  Europe=1 [100.0%]  surface glycoprotein, Y1155F</title>
-	<circle cx="1135" cy="261" r="1" style="fill:fuchsia;" class="cv" />
+	<circle cx="1136" cy="269" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  G25244T  Europe=1 [100.0%]  surface glycoprotein, V1228L</title>
-	<circle cx="1132" cy="213" r="1" style="fill:fuchsia;" class="cv" />
+	<circle cx="1133" cy="221" r="1" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29 Europe=3</title>
@@ -487,27 +443,27 @@
 </g>
 <g>
 	<title>2020-12-29  G21785C  Europe=3 [100.0%]  surface glycoprotein, G75R</title>
-	<circle cx="1192" cy="981" r="2" style="fill:fuchsia;" class="cv" />
+	<circle cx="1192" cy="979" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  T22917G  Europe=3 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1184" cy="729" r="2" style="fill:fuchsia;" class="cv" />
+	<circle cx="1184" cy="731" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  G23012C  Europe=3 [100.0%]  surface glycoprotein, E484Q</title>
-	<circle cx="1183" cy="708" r="2" style="fill:fuchsia;" class="cv" />
+	<circle cx="1183" cy="710" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  A23403G  Europe=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1180" cy="621" r="2" style="fill:fuchsia;" class="cv" />
+	<circle cx="1180" cy="624" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  A25026T  Europe=3 [100.0%]  surface glycoprotein, Y1155F</title>
-	<circle cx="1168" cy="259" r="2" style="fill:fuchsia;" class="cv" />
+	<circle cx="1168" cy="268" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  G25244T  Europe=3 [100.0%]  surface glycoprotein, V1228L</title>
-	<circle cx="1166" cy="211" r="2" style="fill:fuchsia;" class="cv" />
+	<circle cx="1166" cy="220" r="2" style="fill:fuchsia;" class="cv" />
 </g>
 </g>
 <rect x="4" y="4" width="895" height="120" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
@@ -516,6 +472,7 @@
 <text font-size="3.6em" x="20" y="55" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 </a>
 <text font-size="2.5em" x="20" y="105" fill="white">Genbank MN908947 vs 17 GISAID genomes</text>
+<circle cx="950" cy="65" r="43" fill="black" opacity="0.8" />
 <circle cx="950" cy="65" r="42" fill="#225EA8" opacity="0.4" onclick="rotatex(90,1200,1200)"/>
 	<path class="button" onclick="pan( 0, 50)" d="M950 25 l12   20 a40, 70 0 0,0 -24,  0z" />
 	<path class="button" onclick="pan( 50, 0)" d="M910 65 l20  -12 a70, 40 0 0,0   0, 24z" />
@@ -626,9 +583,9 @@
 <circle cx="133" cy="375" r="12.0017363099173" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <text font-size="1.8em" x="15" y="415" fill="white">1      10        100        1k</text>
 <text font-size="1.8em" x="15" y="445" fill="white">genome samples</text>
-<rect x="1865" y="2" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
+<rect x="1865" y="4" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 6 continents</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥1</text>
-<text font-size="1.8em" x="1880" y="92" fill="white">21 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-24</text>
+<text font-size="1.8em" x="1880" y="92" fill="white">20 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-25</text>
 </svg>

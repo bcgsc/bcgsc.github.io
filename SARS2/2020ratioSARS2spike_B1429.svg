@@ -56,58 +56,46 @@
 </defs>
 <text font-size="3.6em" x="20" y="55" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 <g id="matrix-group" transform="matrix(1 0 0 1 0 0)" class="draggable-group">
-<circle cx="1200" cy="1200" r="1046" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
-<circle cx="1200" cy="1200" r="1022" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
-<circle cx="1200" cy="1200" r="1020" style="fill:gainsboro;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
-<circle cx="1200" cy="1200" r="169" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
-<circle cx="1200" cy="1200" r="168" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
-<circle cx="1200" cy="1200" r="155" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
-<line x1="1200" y1="89.1314031180401" x2="1200" y2="139.13140311804" style="stroke:white;stroke-width:4" />
-<text font-size="3.0em" x="1176" y="79.1314031180401" fill="white">Winter</text>
-<line x1="2261" y1="1200" x2="2311" y2="1200" style="stroke:white;stroke-width:4" />
-<text font-size="3.0em" x="2261" y="1245" fill="white">Spring</text>
-<line x1="1200" y1="2261" x2="1200" y2="2311" style="stroke:white;stroke-width:4" />
-<text font-size="3.0em" x="1045" y="2346" fill="white">Summer</text>
-<line x1="139" y1="1200" x2="79" y2="1200" style="stroke:white;stroke-width:4" />
-<text font-size="3.0em" x="65" y="1185" fill="white">Fall</text>
-<g>
-	<title>orf1ab gene (21500-21555)</title>
-	<line x1="1208" y1="1045" x2="1208" y2="1032" style="stroke:grey;stroke-width:8" />
-</g>
+<circle cx="1200" cy="1200" r="1011" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
+<circle cx="1200" cy="1200" r="171" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
+<line x1="1200" y1="122.362637362637" x2="1200" y2="172.362637362637" style="stroke:silver;stroke-width:4" />
+<text font-size="3.0em" x="1176" y="112.362637362637" fill="white">Winter</text>
+<line x1="2227" y1="1200" x2="2277" y2="1200" style="stroke:silver;stroke-width:4" />
+<text font-size="3.0em" x="2227" y="1245" fill="white">Spring</text>
+<line x1="1200" y1="2227" x2="1200" y2="2277" style="stroke:silver;stroke-width:4" />
+<text font-size="3.0em" x="1045" y="2312" fill="white">Summer</text>
+<line x1="173" y1="1200" x2="113" y2="1200" style="stroke:silver;stroke-width:4" />
+<text font-size="3.0em" x="99" y="1185" fill="white">Fall</text>
 <g>
 	<title>S gene (21563-25384)</title>
-	<line x1="1208" y1="1031" x2="1208" y2="180" style="stroke:gainsboro;stroke-width:8" />
+	<line x1="1208" y1="1029" x2="1208" y2="189" style="stroke:grey;stroke-width:8" />
 </g>
-<g>
-	<title>ORF3a gene (25393-25500)</title>
-	<line x1="1208" y1="178" x2="1208" y2="154" style="stroke:grey;stroke-width:8" />
-</g>
-<line x1="1200" y1="154.13140311804" x2="1200" y2="1045" style="stroke:white;stroke-width:3" />
-<line x1="1204" y1="154.13140311804" x2="1210" y2="154.13140311804" style="stroke:white;stroke-width:2" />
-<line x1="1210" y1="154.13140311804" x2="1215" y2="129.13140311804" style="stroke:white;stroke-width:2" />
-<line x1="1204" y1="1045" x2="1210" y2="1045" style="stroke:white;stroke-width:2" />
-<line x1="1210" y1="1045" x2="1215" y2="1070" style="stroke:white;stroke-width:2" />
-<text font-size="2.0em" x="1215" y="129.13140311804" fill="white">25.5 kb</text>
-<text font-size="2.0em" x="1215" y="1090" fill="white">21.5 kb</text>
+<line x1="1200" y1="187.362637362637" x2="1200" y2="1030" style="stroke:white;stroke-width:3" />
+<line x1="1204" y1="187.362637362637" x2="1210" y2="187.362637362637" style="stroke:silver;stroke-width:2" />
+<line x1="1210" y1="187.362637362637" x2="1215" y2="162.362637362637" style="stroke:silver;stroke-width:2" />
+<line x1="1204" y1="1030" x2="1210" y2="1030" style="stroke:silver;stroke-width:2" />
+<line x1="1210" y1="1030" x2="1215" y2="1055" style="stroke:silver;stroke-width:2" />
+<text font-size="2.0em" x="1215" y="162.362637362637" fill="white">25.4kb</text>
+<text font-size="2.0em" x="1215" y="1075" fill="white">21.6kb</text>
 <g>
 	<title>2020-07-06 North America=1</title>
 	<line x1="1199.6" y1="1205.0" x2="1199.5" y2="1206.3" style="stroke:cyan;" class="sb" />
 </g>
 <g>
 	<title>2020-07-06  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1185" cy="1378" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1185" cy="1379" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-07-06  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1177" cy="1470" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1177" cy="1471" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-07-06  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1160" cy="1670" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1160" cy="1668" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-07-06  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1150" cy="1778" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1151" cy="1774" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-07-14 North America=1</title>
@@ -115,7 +103,7 @@
 </g>
 <g>
 	<title>2020-07-14  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1161" cy="1374" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1160" cy="1376" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-07-14  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
@@ -123,11 +111,11 @@
 </g>
 <g>
 	<title>2020-07-14  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1096" cy="1660" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1096" cy="1658" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-07-14  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1072" cy="1765" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1072" cy="1762" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-09-12 North America=1</title>
@@ -135,7 +123,7 @@
 </g>
 <g>
 	<title>2020-09-12  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1031" cy="1256" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1029" cy="1256" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-09-12  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
@@ -143,11 +131,11 @@
 </g>
 <g>
 	<title>2020-09-12  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="752" cy="1347" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="754" cy="1347" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-09-12  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="649" cy="1381" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="653" cy="1380" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-09-14 North America=1</title>
@@ -155,19 +143,19 @@
 </g>
 <g>
 	<title>2020-09-14  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1029" cy="1250" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1027" cy="1250" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-09-14  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="940" cy="1276" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="939" cy="1276" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-09-14  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="747" cy="1332" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="749" cy="1331" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-09-14  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="643" cy="1362" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="647" cy="1361" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-09-19 North America=1</title>
@@ -175,23 +163,23 @@
 </g>
 <g>
 	<title>2020-09-19  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1025" cy="1235" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1023" cy="1235" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-09-19  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="934" cy="1253" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="933" cy="1253" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-09-19  C22624A  North America=1 [100.0%]  surface glycoprotein, N354K</title>
-	<circle cx="802" cy="1280" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="803" cy="1279" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-09-19  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="738" cy="1292" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="740" cy="1292" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-09-19  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="632" cy="1314" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="635" cy="1313" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-05 North America=1</title>
@@ -199,19 +187,19 @@
 </g>
 <g>
 	<title>2020-10-05  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1022" cy="1186" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1021" cy="1186" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-05  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="930" cy="1179" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="929" cy="1179" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-05  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="730" cy="1164" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="732" cy="1164" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-05  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="622" cy="1155" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="625" cy="1155" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-12 North America=1</title>
@@ -219,19 +207,19 @@
 </g>
 <g>
 	<title>2020-10-12  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1025" cy="1165" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1023" cy="1165" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-12  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="934" cy="1147" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="933" cy="1147" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-12  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="738" cy="1108" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="740" cy="1108" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-12  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="632" cy="1086" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="635" cy="1087" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-16 North America=1</title>
@@ -239,19 +227,19 @@
 </g>
 <g>
 	<title>2020-10-16  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1028" cy="1153" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1026" cy="1153" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-16  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="938" cy="1129" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="938" cy="1128" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-16  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="745" cy="1076" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="747" cy="1077" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-16  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="641" cy="1048" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="644" cy="1048" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-18 North America=1</title>
@@ -259,23 +247,23 @@
 </g>
 <g>
 	<title>2020-10-18  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1030" cy="1147" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1028" cy="1147" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-18  C21638T  North America=1 [100.0%]  surface glycoprotein, P26S</title>
-	<circle cx="1022" cy="1145" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1020" cy="1144" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-18  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="941" cy="1120" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="940" cy="1120" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-18  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="750" cy="1060" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="752" cy="1061" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-18  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="646" cy="1028" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="650" cy="1029" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-22 North America=1</title>
@@ -283,19 +271,19 @@
 </g>
 <g>
 	<title>2020-10-22  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1034" cy="1136" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1032" cy="1135" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-22  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="947" cy="1102" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="946" cy="1102" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-22  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="760" cy="1030" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="762" cy="1031" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-22  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="659" cy="991" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="663" cy="992" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-24 North America=1</title>
@@ -303,23 +291,23 @@
 </g>
 <g>
 	<title>2020-10-24  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1036" cy="1130" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1034" cy="1129" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-24  C21638T  North America=1 [100.0%]  surface glycoprotein, P26S</title>
-	<circle cx="1028" cy="1127" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1027" cy="1126" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-24  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="950" cy="1094" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="950" cy="1093" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-24  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="766" cy="1015" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="768" cy="1016" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-24  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="667" cy="972" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="670" cy="974" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-29 North America=1</title>
@@ -327,19 +315,19 @@
 </g>
 <g>
 	<title>2020-10-29  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1043" cy="1116" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1041" cy="1115" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-29  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="961" cy="1073" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="960" cy="1072" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-29  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="784" cy="978" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="786" cy="979" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-29  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="688" cy="928" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="691" cy="929" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-30 North America=1</title>
@@ -347,11 +335,11 @@
 </g>
 <g>
 	<title>2020-10-30  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1044" cy="1114" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1043" cy="1113" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-30  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="963" cy="1068" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="962" cy="1068" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-30  C22227T  North America=1 [100.0%]  surface glycoprotein, A222V</title>
@@ -359,11 +347,11 @@
 </g>
 <g>
 	<title>2020-10-30  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="788" cy="971" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="789" cy="972" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-10-30  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="693" cy="919" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="696" cy="920" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-02 North America=7</title>
@@ -371,23 +359,23 @@
 </g>
 <g>
 	<title>2020-11-02  G21600T  North America=7 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1049" cy="1106" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1047" cy="1105" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-02  C21638T  North America=6 [85.7%]  surface glycoprotein, P26S</title>
-	<circle cx="1042" cy="1101" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1040" cy="1100" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-02  G22018T  North America=7 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="970" cy="1056" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="969" cy="1056" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-02  T22917G  North America=7 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="800" cy="950" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="802" cy="951" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-02  A23403G  North America=7 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="708" cy="893" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="711" cy="895" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-03 North America=3</title>
@@ -395,11 +383,11 @@
 </g>
 <g>
 	<title>2020-11-03  G21600T  North America=3 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1050" cy="1103" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1049" cy="1102" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-03  C21638T  North America=1 [33.3%]  surface glycoprotein, P26S</title>
-	<circle cx="1043" cy="1098" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="1042" cy="1098" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-03  G22018T  North America=3 [100.0%]  surface glycoprotein, W152C</title>
@@ -407,11 +395,11 @@
 </g>
 <g>
 	<title>2020-11-03  T22917G  North America=3 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="804" cy="944" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="806" cy="945" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-03  A23403G  North America=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="714" cy="885" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="716" cy="887" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-04 North America=1</title>
@@ -419,19 +407,19 @@
 </g>
 <g>
 	<title>2020-11-04  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1052" cy="1101" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1051" cy="1100" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-04  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="975" cy="1049" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="974" cy="1048" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-04  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="809" cy="937" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="810" cy="938" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-04  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="719" cy="876" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="722" cy="878" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-05 North America=3</title>
@@ -439,19 +427,19 @@
 </g>
 <g>
 	<title>2020-11-05  G21600T  North America=3 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1054" cy="1098" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1052" cy="1097" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-05  G22018T  North America=3 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="978" cy="1045" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="977" cy="1044" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-05  T22917G  North America=3 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="813" cy="930" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="815" cy="931" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-05  A23403G  North America=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="725" cy="868" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="727" cy="870" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-06 North America=6</title>
@@ -459,11 +447,11 @@
 </g>
 <g>
 	<title>2020-11-06  G21600T  North America=6 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1056" cy="1096" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1054" cy="1094" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-06  C21638T  North America=1 [16.7%]  surface glycoprotein, P26S</title>
-	<circle cx="1049" cy="1091" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1047" cy="1090" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-06  G22018T  North America=6 [100.0%]  surface glycoprotein, W152C</title>
@@ -471,11 +459,11 @@
 </g>
 <g>
 	<title>2020-11-06  T22917G  North America=6 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="818" cy="924" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="820" cy="925" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-06  A23403G  North America=6 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="730" cy="860" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="733" cy="862" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-07 North America=2</title>
@@ -483,7 +471,7 @@
 </g>
 <g>
 	<title>2020-11-07  G21600T  North America=2 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1057" cy="1093" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1056" cy="1092" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-07  G22018T  North America=2 [100.0%]  surface glycoprotein, W152C</title>
@@ -495,11 +483,11 @@
 </g>
 <g>
 	<title>2020-11-07  T22917G  North America=2 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="823" cy="917" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="825" cy="918" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-07  A23403G  North America=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="736" cy="852" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="739" cy="854" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-08 North America=1</title>
@@ -507,19 +495,19 @@
 </g>
 <g>
 	<title>2020-11-08  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1059" cy="1091" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1058" cy="1090" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-08  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="986" cy="1033" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="985" cy="1033" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-08  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="828" cy="911" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="829" cy="912" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-08  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="742" cy="844" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="745" cy="846" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-09 North America=19</title>
@@ -527,15 +515,15 @@
 </g>
 <g>
 	<title>2020-11-09  G21600T  North America=19 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1061" cy="1088" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1060" cy="1087" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-09  C21638T  North America=11 [57.9%]  surface glycoprotein, P26S</title>
-	<circle cx="1055" cy="1083" r="7" style="fill:cyan;" class="cv" />
+	<circle cx="1053" cy="1082" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-09  G22018T  North America=19 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="989" cy="1030" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="988" cy="1029" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-09  C22224T  North America=1 [5.3%]  surface glycoprotein, S221L</title>
@@ -543,19 +531,19 @@
 </g>
 <g>
 	<title>2020-11-09  T22917G  North America=19 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="833" cy="904" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="834" cy="906" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-09  A23403G  North America=19 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="749" cy="836" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="751" cy="839" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-09  C24374T  North America=1 [5.3%]  surface glycoprotein, L938F</title>
-	<circle cx="580" cy="701" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="585" cy="705" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-09  G25166C  North America=1 [5.3%]  surface glycoprotein, E1202Q</title>
-	<circle cx="443" cy="590" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="449" cy="595" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-10 North America=9</title>
@@ -563,23 +551,23 @@
 </g>
 <g>
 	<title>2020-11-10  G21600T  North America=9 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1063" cy="1086" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1062" cy="1085" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-10  C21638T  North America=1 [11.1%]  surface glycoprotein, P26S</title>
-	<circle cx="1057" cy="1080" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1055" cy="1079" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-10  G22018T  North America=9 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="992" cy="1026" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="991" cy="1026" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-10  T22917G  North America=9 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="838" cy="898" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="840" cy="899" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-10  A23403G  North America=9 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="755" cy="829" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="758" cy="831" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-11 North America=2</title>
@@ -587,19 +575,19 @@
 </g>
 <g>
 	<title>2020-11-11  G21600T  North America=2 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1065" cy="1084" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1064" cy="1082" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-11  G22018T  North America=2 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="995" cy="1023" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="994" cy="1022" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-11  T22917G  North America=2 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="843" cy="892" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="845" cy="893" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-11  A23403G  North America=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="761" cy="821" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="764" cy="823" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-12 North America=5</title>
@@ -607,19 +595,19 @@
 </g>
 <g>
 	<title>2020-11-12  G21600T  North America=5 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1067" cy="1081" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1066" cy="1080" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-12  G22018T  North America=5 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="998" cy="1019" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="997" cy="1019" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-12  T22917G  North America=5 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="849" cy="886" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="850" cy="887" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-12  A23403G  North America=5 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="768" cy="814" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="770" cy="816" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-13 North America=3</title>
@@ -627,23 +615,23 @@
 </g>
 <g>
 	<title>2020-11-13  G21600T  North America=3 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1069" cy="1079" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1068" cy="1078" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-13  G22018T  North America=3 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1001" cy="1016" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1000" cy="1015" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-13  T22917G  North America=3 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="854" cy="880" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="855" cy="881" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-13  A23403G  North America=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="775" cy="806" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="777" cy="809" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-13  C24378T  North America=1 [33.3%]  surface glycoprotein, S939F</title>
-	<circle cx="615" cy="659" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="620" cy="663" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-14 North America=1</title>
@@ -651,7 +639,7 @@
 </g>
 <g>
 	<title>2020-11-14  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1071" cy="1077" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1070" cy="1075" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-14  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
@@ -659,15 +647,15 @@
 </g>
 <g>
 	<title>2020-11-14  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="860" cy="874" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="861" cy="875" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-14  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="781" cy="799" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="784" cy="801" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-14  G24812A  North America=1 [100.0%]  surface glycoprotein, D1084N</title>
-	<circle cx="555" cy="582" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="560" cy="587" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-16 North America=14</title>
@@ -675,15 +663,15 @@
 </g>
 <g>
 	<title>2020-11-16  G21600T  North America=14 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1076" cy="1072" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1074" cy="1071" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-16  C21638T  North America=10 [71.4%]  surface glycoprotein, P26S</title>
-	<circle cx="1070" cy="1066" r="7" style="fill:cyan;" class="cv" />
+	<circle cx="1069" cy="1065" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-16  G22018T  North America=14 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1011" cy="1006" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1010" cy="1005" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-16  C22224T  North America=1 [7.1%]  surface glycoprotein, S221L</title>
@@ -691,15 +679,15 @@
 </g>
 <g>
 	<title>2020-11-16  T22917G  North America=14 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="871" cy="862" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="872" cy="864" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-16  A23403G  North America=14 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="795" cy="785" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="798" cy="787" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-16  C24378T  North America=1 [7.1%]  surface glycoprotein, S939F</title>
-	<circle cx="644" cy="629" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="648" cy="634" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-17 North America=2</title>
@@ -707,27 +695,27 @@
 </g>
 <g>
 	<title>2020-11-17  G21600T  North America=2 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1078" cy="1070" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1077" cy="1069" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-17  C21638T  North America=1 [50.0%]  surface glycoprotein, P26S</title>
-	<circle cx="1072" cy="1064" r="7" style="fill:cyan;" class="cv" />
+	<circle cx="1071" cy="1063" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-17  G22018T  North America=2 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1014" cy="1003" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1014" cy="1002" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-17  T22917G  North America=2 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="877" cy="857" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="878" cy="858" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-17  A23403G  North America=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="803" cy="778" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="805" cy="780" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-17  G25166C  North America=1 [50.0%]  surface glycoprotein, E1202Q</title>
-	<circle cx="533" cy="492" r="7" style="fill:cyan;" class="cv" />
+	<circle cx="539" cy="498" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-18 North America=6</title>
@@ -735,11 +723,11 @@
 </g>
 <g>
 	<title>2020-11-18  G21600T  North America=6 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1080" cy="1068" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1079" cy="1067" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-18  C21638T  North America=2 [33.3%]  surface glycoprotein, P26S</title>
-	<circle cx="1074" cy="1062" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="1073" cy="1061" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-18  G22018T  North America=6 [100.0%]  surface glycoprotein, W152C</title>
@@ -747,15 +735,15 @@
 </g>
 <g>
 	<title>2020-11-18  T22917G  North America=6 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="883" cy="851" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="884" cy="853" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-18  A23403G  North America=6 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="810" cy="771" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="812" cy="774" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-18  C24374T  North America=1 [16.7%]  surface glycoprotein, L938F</title>
-	<circle cx="664" cy="611" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="669" cy="616" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-19 North America=6</title>
@@ -763,7 +751,7 @@
 </g>
 <g>
 	<title>2020-11-19  G21600T  North America=6 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1082" cy="1066" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1081" cy="1065" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-19  G22018T  North America=6 [100.0%]  surface glycoprotein, W152C</title>
@@ -771,15 +759,15 @@
 </g>
 <g>
 	<title>2020-11-19  T22917G  North America=6 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="889" cy="846" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="890" cy="847" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-19  A23403G  North America=6 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="817" cy="765" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="820" cy="767" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-19  G25135C  North America=1 [16.7%]  surface glycoprotein, K1191N</title>
-	<circle cx="563" cy="475" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="568" cy="481" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-20 North America=4</title>
@@ -787,11 +775,11 @@
 </g>
 <g>
 	<title>2020-11-20  G21600T  North America=4 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1085" cy="1064" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1084" cy="1063" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-20  C21638T  North America=2 [50.0%]  surface glycoprotein, P26S</title>
-	<circle cx="1079" cy="1058" r="7" style="fill:cyan;" class="cv" />
+	<circle cx="1078" cy="1056" r="7" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-20  G22018T  North America=4 [100.0%]  surface glycoprotein, W152C</title>
@@ -799,11 +787,11 @@
 </g>
 <g>
 	<title>2020-11-20  T22917G  North America=4 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="895" cy="841" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="896" cy="842" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-20  A23403G  North America=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="825" cy="758" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="827" cy="761" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-21 North America=4</title>
@@ -811,11 +799,11 @@
 </g>
 <g>
 	<title>2020-11-21  G21600T  North America=4 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1087" cy="1062" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1086" cy="1061" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-21  C21638T  North America=1 [25.0%]  surface glycoprotein, P26S</title>
-	<circle cx="1082" cy="1056" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="1081" cy="1054" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-21  G22018T  North America=4 [100.0%]  surface glycoprotein, W152C</title>
@@ -823,19 +811,19 @@
 </g>
 <g>
 	<title>2020-11-21  T22917G  North America=4 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="901" cy="835" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="902" cy="837" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-21  A23403G  North America=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="832" cy="752" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="835" cy="754" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-21  G25073A  North America=1 [25.0%]  surface glycoprotein, G1171S</title>
-	<circle cx="597" cy="464" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="602" cy="470" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-21  G25166C  North America=1 [25.0%]  surface glycoprotein, E1202Q</title>
-	<circle cx="584" cy="448" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="589" cy="455" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-22 North America=4</title>
@@ -843,15 +831,15 @@
 </g>
 <g>
 	<title>2020-11-22  G21600T  North America=4 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1089" cy="1060" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1088" cy="1059" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-22  C21638T  North America=3 [75.0%]  surface glycoprotein, P26S</title>
-	<circle cx="1084" cy="1054" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1083" cy="1052" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-22  G22018T  North America=4 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1032" cy="987" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1031" cy="987" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-22  C22224T  North America=1 [25.0%]  surface glycoprotein, S221L</title>
@@ -859,11 +847,11 @@
 </g>
 <g>
 	<title>2020-11-22  T22917G  North America=4 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="907" cy="830" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="909" cy="832" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-22  A23403G  North America=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="840" cy="745" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="842" cy="748" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-23 North America=9</title>
@@ -871,11 +859,11 @@
 </g>
 <g>
 	<title>2020-11-23  G21600T  North America=9 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1092" cy="1058" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1091" cy="1057" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-23  C21638T  North America=2 [22.2%]  surface glycoprotein, P26S</title>
-	<circle cx="1087" cy="1052" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1086" cy="1050" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-23  G22018T  North America=9 [100.0%]  surface glycoprotein, W152C</title>
@@ -883,11 +871,11 @@
 </g>
 <g>
 	<title>2020-11-23  T22917G  North America=9 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="914" cy="825" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="915" cy="827" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-23  A23403G  North America=9 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="848" cy="739" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="850" cy="742" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-24 North America=13</title>
@@ -895,15 +883,15 @@
 </g>
 <g>
 	<title>2020-11-24  G21600T  North America=13 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1094" cy="1057" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1093" cy="1055" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-24  C21638T  North America=3 [23.1%]  surface glycoprotein, P26S</title>
-	<circle cx="1089" cy="1050" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="1088" cy="1048" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-24  G22018T  North America=13 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1039" cy="982" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1039" cy="981" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-24  C22227T  North America=1 [7.7%]  surface glycoprotein, A222V</title>
@@ -911,11 +899,11 @@
 </g>
 <g>
 	<title>2020-11-24  T22917G  North America=13 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="920" cy="820" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="921" cy="822" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-24  A23403G  North America=13 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="856" cy="733" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="858" cy="736" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-25 North America=7</title>
@@ -923,15 +911,15 @@
 </g>
 <g>
 	<title>2020-11-25  G21600T  North America=7 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1097" cy="1055" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1096" cy="1053" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-25  C21638T  North America=2 [28.6%]  surface glycoprotein, P26S</title>
-	<circle cx="1092" cy="1048" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="1091" cy="1046" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-25  G22018T  North America=7 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1043" cy="979" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1042" cy="978" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-25  C22224T  North America=1 [14.3%]  surface glycoprotein, S221L</title>
@@ -939,11 +927,11 @@
 </g>
 <g>
 	<title>2020-11-25  T22917G  North America=7 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="927" cy="816" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="928" cy="817" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-25  A23403G  North America=7 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="864" cy="728" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="866" cy="730" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-26 North America=1</title>
@@ -951,23 +939,23 @@
 </g>
 <g>
 	<title>2020-11-26  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1099" cy="1053" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1098" cy="1052" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-26  C21638T  North America=1 [100.0%]  surface glycoprotein, P26S</title>
-	<circle cx="1094" cy="1046" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1094" cy="1045" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-26  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1047" cy="976" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1046" cy="976" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-26  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="933" cy="811" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="935" cy="813" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-26  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="872" cy="722" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="874" cy="725" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-27 North America=2</title>
@@ -975,19 +963,19 @@
 </g>
 <g>
 	<title>2020-11-27  G21600T  North America=2 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1102" cy="1051" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1101" cy="1050" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-27  G22018T  North America=2 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1051" cy="974" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1050" cy="973" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-27  T22917G  North America=2 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="940" cy="807" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="941" cy="808" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-27  A23403G  North America=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="881" cy="716" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="882" cy="719" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-28 North America=4</title>
@@ -995,7 +983,7 @@
 </g>
 <g>
 	<title>2020-11-28  G21600T  North America=4 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1104" cy="1050" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1103" cy="1048" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-28  G22018T  North America=4 [100.0%]  surface glycoprotein, W152C</title>
@@ -1003,11 +991,11 @@
 </g>
 <g>
 	<title>2020-11-28  T22917G  North America=4 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="947" cy="802" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="948" cy="804" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-28  A23403G  North America=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="889" cy="711" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="891" cy="714" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-29 North America=11</title>
@@ -1015,31 +1003,31 @@
 </g>
 <g>
 	<title>2020-11-29  G21600T  North America=11 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1107" cy="1048" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1106" cy="1046" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-29  C21638T  North America=4 [36.4%]  surface glycoprotein, P26S</title>
-	<circle cx="1103" cy="1041" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="1102" cy="1039" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-29  G22018T  North America=11 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1058" cy="969" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1058" cy="968" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-29  T22917G  North America=11 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="954" cy="798" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="955" cy="800" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-29  A23403G  North America=11 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="897" cy="706" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="899" cy="709" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-29  C24374T  North America=1 [9.1%]  surface glycoprotein, L938F</title>
-	<circle cx="784" cy="521" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="788" cy="527" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-29  G25135C  North America=4 [36.4%]  surface glycoprotein, K1191N</title>
-	<circle cx="696" cy="377" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="700" cy="384" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-30 North America=39</title>
@@ -1047,11 +1035,11 @@
 </g>
 <g>
 	<title>2020-11-30  G21600T  North America=39 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1110" cy="1046" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1109" cy="1045" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-30  C21638T  North America=8 [20.5%]  surface glycoprotein, P26S</title>
-	<circle cx="1105" cy="1039" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1104" cy="1038" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-30  G22018T  North America=39 [100.0%]  surface glycoprotein, W152C</title>
@@ -1063,31 +1051,27 @@
 </g>
 <g>
 	<title>2020-11-30  T22917G  North America=39 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="961" cy="794" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="962" cy="795" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-30  A23403G  North America=39 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="906" cy="700" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="908" cy="703" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-30  C24374T  North America=2 [5.1%]  surface glycoprotein, L938F</title>
-	<circle cx="796" cy="514" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="799" cy="520" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-30  T24869C  North America=1 [2.6%]  surface glycoprotein, F1103L</title>
-	<circle cx="740" cy="419" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="744" cy="426" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-30  G25135C  North America=3 [7.7%]  surface glycoprotein, K1191N</title>
-	<circle cx="710" cy="368" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="714" cy="375" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-11-30  G25166C  North America=1 [2.6%]  surface glycoprotein, E1202Q</title>
-	<circle cx="707" cy="362" r="2" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-11-30  G25489T  North America=1 [2.6%]  ORF3a protein, A33S</title>
-	<circle cx="670" cy="300" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="711" cy="370" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01 North America=14</title>
@@ -1095,43 +1079,39 @@
 </g>
 <g>
 	<title>2020-12-01  G21600T  North America=14 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1112" cy="1045" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1111" cy="1043" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01  C21638T  North America=4 [28.6%]  surface glycoprotein, P26S</title>
-	<circle cx="1108" cy="1038" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="1107" cy="1036" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01  G22018T  North America=14 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1066" cy="964" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1066" cy="963" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01  T22917G  North America=14 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="968" cy="790" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="969" cy="791" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01  A23403G  North America=14 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="914" cy="695" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="916" cy="698" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01  G24197A  North America=1 [7.1%]  surface glycoprotein, A879T</title>
-	<circle cx="827" cy="542" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="830" cy="547" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01  G24941T  North America=1 [7.1%]  surface glycoprotein, D1127Y</title>
-	<circle cx="746" cy="397" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="750" cy="404" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01  G25135C  North America=2 [14.3%]  surface glycoprotein, K1191N</title>
-	<circle cx="724" cy="360" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="729" cy="367" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-01  G25266T  North America=1 [7.1%]  surface glycoprotein, C1235F</title>
-	<circle cx="710" cy="334" r="4" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-01  G25483T  North America=1 [7.1%]  ORF3a protein, A31S</title>
-	<circle cx="686" cy="292" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="714" cy="342" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-02 North America=28</title>
@@ -1139,19 +1119,19 @@
 </g>
 <g>
 	<title>2020-12-02  G21600T  North America=28 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1115" cy="1043" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1114" cy="1042" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-02  C21638T  North America=9 [32.1%]  surface glycoprotein, P26S</title>
-	<circle cx="1111" cy="1036" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="1110" cy="1035" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-02  C21707T  North America=1 [3.6%]  surface glycoprotein, H49Y</title>
-	<circle cx="1104" cy="1023" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1103" cy="1021" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-02  G22018T  North America=28 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1070" cy="962" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1070" cy="961" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-02  C22227T  North America=2 [7.1%]  surface glycoprotein, A222V</title>
@@ -1159,19 +1139,19 @@
 </g>
 <g>
 	<title>2020-12-02  C22290T  North America=1 [3.6%]  surface glycoprotein, A243V</title>
-	<circle cx="1042" cy="908" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1042" cy="909" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-02  T22917G  North America=28 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="975" cy="786" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="976" cy="788" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-02  A23403G  North America=28 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="923" cy="691" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="925" cy="694" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-02  C24374T  North America=1 [3.6%]  surface glycoprotein, L938F</title>
-	<circle cx="820" cy="501" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="823" cy="506" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-03 North America=14</title>
@@ -1183,43 +1163,43 @@
 </g>
 <g>
 	<title>2020-12-03  G21600T  North America=14 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1118" cy="1042" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1117" cy="1040" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-03  G21600T  North America=14 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1118" cy="1042" r="8" style="fill:white;" class="cv" />
+	<circle cx="1117" cy="1040" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-03  C21638T  North America=3 [21.4%]  surface glycoprotein, P26S</title>
-	<circle cx="1114" cy="1035" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1113" cy="1033" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-03  G22018T  North America=14 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1075" cy="959" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1074" cy="959" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-03  G22018T  North America=14 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1075" cy="959" r="8" style="fill:white;" class="cv" />
+	<circle cx="1074" cy="959" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-03  T22917G  North America=14 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="982" cy="782" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="983" cy="784" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-03  T22917G  North America=14 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="982" cy="782" r="8" style="fill:white;" class="cv" />
+	<circle cx="983" cy="784" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-03  A23403G  North America=14 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="932" cy="686" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="934" cy="689" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-03  A23403G  North America=14 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="932" cy="686" r="8" style="fill:white;" class="cv" />
+	<circle cx="934" cy="689" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-03  G25135T  North America=1 [7.1%]  surface glycoprotein, K1191N</title>
-	<circle cx="754" cy="344" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="758" cy="352" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-04 North America=16</title>
@@ -1227,15 +1207,15 @@
 </g>
 <g>
 	<title>2020-12-04  G21600T  North America=16 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1120" cy="1041" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1120" cy="1039" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-04  C21638T  North America=4 [25.0%]  surface glycoprotein, P26S</title>
-	<circle cx="1117" cy="1033" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="1116" cy="1032" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-04  G22018T  North America=16 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1079" cy="957" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1078" cy="957" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-04  C22227T  North America=1 [6.2%]  surface glycoprotein, A222V</title>
@@ -1247,15 +1227,15 @@
 </g>
 <g>
 	<title>2020-12-04  T22917G  North America=16 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="989" cy="778" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="990" cy="780" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-04  A23403G  North America=16 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="941" cy="681" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="942" cy="685" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-04  G25135C  North America=1 [6.2%]  surface glycoprotein, K1191N</title>
-	<circle cx="768" cy="336" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="772" cy="344" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-05 North America=3</title>
@@ -1263,7 +1243,7 @@
 </g>
 <g>
 	<title>2020-12-05  G21600T  North America=3 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1123" cy="1039" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1122" cy="1038" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-05  G22018T  North America=3 [100.0%]  surface glycoprotein, W152C</title>
@@ -1271,11 +1251,11 @@
 </g>
 <g>
 	<title>2020-12-05  T22917G  North America=3 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="996" cy="775" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="997" cy="777" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-05  A23403G  North America=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="950" cy="677" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="951" cy="680" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-06 North America=1</title>
@@ -1283,7 +1263,7 @@
 </g>
 <g>
 	<title>2020-12-06  G21600T  North America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1126" cy="1038" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1125" cy="1036" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-06  G22018T  North America=1 [100.0%]  surface glycoprotein, W152C</title>
@@ -1291,15 +1271,15 @@
 </g>
 <g>
 	<title>2020-12-06  T22917G  North America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1004" cy="771" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1005" cy="773" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-06  A23403G  North America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="959" cy="673" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="960" cy="676" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-06  G25218T  North America=1 [100.0%]  surface glycoprotein, G1219V</title>
-	<circle cx="791" cy="305" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="794" cy="313" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-07 North America=16</title>
@@ -1307,11 +1287,11 @@
 </g>
 <g>
 	<title>2020-12-07  G21600T  North America=16 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1129" cy="1037" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1128" cy="1035" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-07  C21638T  North America=1 [6.2%]  surface glycoprotein, P26S</title>
-	<circle cx="1125" cy="1029" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1125" cy="1027" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-07  G22018T  North America=16 [100.0%]  surface glycoprotein, W152C</title>
@@ -1331,23 +1311,23 @@
 </g>
 <g>
 	<title>2020-12-07  T22917G  North America=16 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1011" cy="768" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1012" cy="770" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-07  A23403G  North America=16 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="968" cy="669" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="969" cy="672" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-07  A23541T  North America=1 [6.2%]  surface glycoprotein, Y660F</title>
-	<circle cx="956" cy="641" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="957" cy="644" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-07  C24374T  North America=2 [12.5%]  surface glycoprotein, L938F</title>
-	<circle cx="881" cy="471" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="884" cy="476" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-07  G24872C  North America=1 [6.2%]  surface glycoprotein, V1104L</title>
-	<circle cx="837" cy="369" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="840" cy="376" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-08 North America=21</title>
@@ -1359,55 +1339,55 @@
 </g>
 <g>
 	<title>2020-12-08  C21575T  North America=1 [4.8%]  surface glycoprotein, L5F</title>
-	<circle cx="1134" cy="1041" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1133" cy="1039" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-08  G21600T  North America=21 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1131" cy="1036" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1131" cy="1034" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-08  G21600T  North America=21 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1131" cy="1036" r="8" style="fill:white;" class="cv" />
+	<circle cx="1131" cy="1034" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-08  C21638T  Oceania=2 [100.0%]  surface glycoprotein, P26S</title>
-	<circle cx="1128" cy="1028" r="8" style="fill:white;" class="cv" />
+	<circle cx="1128" cy="1026" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-08  C21638T  North America=2 [9.5%]  surface glycoprotein, P26S</title>
-	<circle cx="1128" cy="1028" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1128" cy="1026" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-08  G22018T  North America=21 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1096" cy="950" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1095" cy="949" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-08  G22018T  North America=21 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1096" cy="950" r="8" style="fill:white;" class="cv" />
+	<circle cx="1095" cy="949" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-08  T22917G  North America=21 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1019" cy="765" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1019" cy="767" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-08  T22917G  North America=21 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1019" cy="765" r="8" style="fill:white;" class="cv" />
+	<circle cx="1019" cy="767" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-08  A23403G  North America=21 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="977" cy="665" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="978" cy="668" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-08  A23403G  North America=21 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="977" cy="665" r="8" style="fill:white;" class="cv" />
+	<circle cx="978" cy="668" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-08  C24198T  North America=1 [4.8%]  surface glycoprotein, A879V</title>
-	<circle cx="909" cy="501" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="911" cy="507" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-08  C24374T  North America=1 [4.8%]  surface glycoprotein, L938F</title>
-	<circle cx="894" cy="465" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="896" cy="471" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-09 North America=15</title>
@@ -1415,39 +1395,39 @@
 </g>
 <g>
 	<title>2020-12-09  G21600T  North America=15 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1134" cy="1034" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1134" cy="1033" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-09  C21638T  North America=4 [26.7%]  surface glycoprotein, P26S</title>
-	<circle cx="1131" cy="1027" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="1131" cy="1025" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-09  G22018T  North America=15 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1100" cy="948" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1100" cy="947" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-09  T22917G  North America=15 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1026" cy="762" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1027" cy="764" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-09  A23403G  North America=15 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="986" cy="661" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="987" cy="664" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-09  A23541T  North America=1 [6.7%]  surface glycoprotein, Y660F</title>
-	<circle cx="975" cy="633" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="976" cy="636" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-09  G24872C  North America=1 [6.7%]  surface glycoprotein, V1104L</title>
-	<circle cx="866" cy="357" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="868" cy="364" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-09  G25166C  North America=1 [6.7%]  surface glycoprotein, E1202Q</title>
-	<circle cx="841" cy="296" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="845" cy="304" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-09  G25266T  North America=1 [6.7%]  surface glycoprotein, C1235F</title>
-	<circle cx="833" cy="275" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="836" cy="284" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-10 North America=18</title>
@@ -1459,15 +1439,15 @@
 </g>
 <g>
 	<title>2020-12-10  G21600T  North America=18 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1137" cy="1033" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1136" cy="1032" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-10  G21600T  North America=18 [100.0%] Europe=2 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1137" cy="1033" r="8" style="fill:orange;" class="cv" />
+	<circle cx="1136" cy="1032" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-12-10  C21638T  North America=4 [22.2%]  surface glycoprotein, P26S</title>
-	<circle cx="1134" cy="1025" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1134" cy="1024" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-10  G22018T  North America=18 [100.0%]  surface glycoprotein, W152C</title>
@@ -1479,39 +1459,39 @@
 </g>
 <g>
 	<title>2020-12-10  T22917G  North America=18 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1034" cy="759" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1034" cy="761" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-10  T22917G  North America=18 [100.0%] Europe=2 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1034" cy="759" r="8" style="fill:orange;" class="cv" />
+	<circle cx="1034" cy="761" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-12-10  A23403G  North America=18 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="995" cy="658" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="997" cy="661" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-10  A23403G  North America=18 [100.0%] Europe=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="995" cy="658" r="8" style="fill:orange;" class="cv" />
+	<circle cx="997" cy="661" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-12-10  C24198T  North America=1 [5.6%]  surface glycoprotein, A879V</title>
-	<circle cx="933" cy="492" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="935" cy="497" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-10  C24374T  North America=1 [5.6%]  surface glycoprotein, L938F</title>
-	<circle cx="919" cy="455" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="921" cy="461" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-10  G25049T  North America=1 [5.6%]  surface glycoprotein, D1163Y</title>
-	<circle cx="866" cy="315" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="869" cy="322" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-10  G25073A  North America=2 [11.1%]  surface glycoprotein, G1171S</title>
-	<circle cx="864" cy="310" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="867" cy="317" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-10  G25266T  North America=1 [5.6%]  surface glycoprotein, C1235F</title>
-	<circle cx="849" cy="269" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="852" cy="278" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-11 North America=13</title>
@@ -1519,47 +1499,47 @@
 </g>
 <g>
 	<title>2020-12-11  G21600T  North America=13 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1140" cy="1032" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1139" cy="1031" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-11  C21638T  North America=1 [7.7%]  surface glycoprotein, P26S</title>
-	<circle cx="1137" cy="1024" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1137" cy="1023" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-11  G21850T  North America=1 [7.7%]  surface glycoprotein, E96D</title>
-	<circle cx="1121" cy="980" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1121" cy="979" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-11  G22018T  North America=13 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1109" cy="945" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1108" cy="944" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-11  C22716T  North America=1 [7.7%]  surface glycoprotein, T385I</title>
-	<circle cx="1056" cy="798" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1057" cy="800" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-11  T22917G  North America=13 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1041" cy="756" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1042" cy="758" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-11  A23403G  North America=13 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1005" cy="654" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1006" cy="657" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-11  A23541T  North America=1 [7.7%]  surface glycoprotein, Y660F</title>
-	<circle cx="995" cy="625" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="996" cy="629" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-11  C24374T  North America=1 [7.7%]  surface glycoprotein, L938F</title>
-	<circle cx="932" cy="450" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="934" cy="456" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-11  G24872C  North America=1 [7.7%]  surface glycoprotein, V1104L</title>
-	<circle cx="895" cy="346" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="897" cy="353" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-11  G25218T  North America=1 [7.7%]  surface glycoprotein, G1219V</title>
-	<circle cx="869" cy="273" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="872" cy="282" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-12 North America=12</title>
@@ -1567,35 +1547,35 @@
 </g>
 <g>
 	<title>2020-12-12  G21600T  North America=12 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1143" cy="1031" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1142" cy="1029" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-12  C21638T  North America=2 [16.7%]  surface glycoprotein, P26S</title>
-	<circle cx="1140" cy="1023" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1140" cy="1022" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-12  G21800T  North America=1 [8.3%]  surface glycoprotein, D80Y</title>
-	<circle cx="1129" cy="989" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1128" cy="988" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-12  G22018T  North America=12 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1113" cy="943" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1113" cy="942" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-12  T22917G  North America=12 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1049" cy="753" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1050" cy="755" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-12  A23403G  North America=12 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1014" cy="651" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1015" cy="654" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-12  C24374T  North America=1 [8.3%]  surface glycoprotein, L938F</title>
-	<circle cx="945" cy="446" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="947" cy="452" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-12  G24998T  North America=1 [8.3%]  surface glycoprotein, D1146Y</title>
-	<circle cx="900" cy="314" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="903" cy="322" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-13 North America=3</title>
@@ -1603,19 +1583,19 @@
 </g>
 <g>
 	<title>2020-12-13  G21600T  North America=3 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1146" cy="1030" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1145" cy="1029" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-13  G22018T  North America=3 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1118" cy="942" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1117" cy="941" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-13  T22917G  North America=3 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1057" cy="751" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1057" cy="753" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-13  A23403G  North America=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1024" cy="648" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1025" cy="651" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-14 North America=21</title>
@@ -1623,11 +1603,11 @@
 </g>
 <g>
 	<title>2020-12-14  G21600T  North America=21 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1149" cy="1029" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1148" cy="1028" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-14  C21638T  North America=5 [23.8%]  surface glycoprotein, P26S</title>
-	<circle cx="1146" cy="1021" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="1146" cy="1020" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-14  G22018T  North America=21 [100.0%]  surface glycoprotein, W152C</title>
@@ -1643,15 +1623,11 @@
 </g>
 <g>
 	<title>2020-12-14  T22917G  North America=21 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1064" cy="748" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1065" cy="750" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-14  A23403G  North America=21 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1033" cy="645" r="8" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-14  G25489T  North America=1 [4.8%]  ORF3a protein, A33S</title>
-	<circle cx="900" cy="200" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1034" cy="648" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-15 North America=32</title>
@@ -1659,11 +1635,11 @@
 </g>
 <g>
 	<title>2020-12-15  G21600T  North America=32 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1152" cy="1029" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1151" cy="1027" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-15  G22018T  North America=32 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1126" cy="939" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1126" cy="938" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-15  G22203A  North America=2 [6.2%]  surface glycoprotein, R214H</title>
@@ -1675,35 +1651,31 @@
 </g>
 <g>
 	<title>2020-12-15  G22902T  North America=1 [3.1%]  surface glycoprotein, G447V</title>
-	<circle cx="1073" cy="749" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1074" cy="751" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-15  T22917G  North America=32 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1072" cy="746" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1073" cy="748" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-15  A23403G  North America=32 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1043" cy="642" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1044" cy="645" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-15  C24026T  North America=1 [3.1%]  surface glycoprotein, L822F</title>
-	<circle cx="1005" cy="508" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1007" cy="514" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-15  G24095T  North America=1 [3.1%]  surface glycoprotein, A845S</title>
-	<circle cx="1001" cy="494" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1002" cy="499" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-15  G24933T  North America=1 [3.1%]  surface glycoprotein, G1124V</title>
-	<circle cx="950" cy="314" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="952" cy="322" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-15  G25135C  North America=2 [6.2%]  surface glycoprotein, K1191N</title>
-	<circle cx="938" cy="271" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-15  T25458A  North America=1 [3.1%]  ORF3a protein, D22E</title>
-	<circle cx="919" cy="201" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="940" cy="279" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-16 North America=28</title>
@@ -1715,55 +1687,51 @@
 </g>
 <g>
 	<title>2020-12-16  G21600T  North America=28 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1155" cy="1028" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1154" cy="1026" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-16  G21600T  North America=28 [100.0%] Europe=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1155" cy="1028" r="8" style="fill:orange;" class="cv" />
+	<circle cx="1154" cy="1026" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-12-16  C21638T  North America=4 [14.3%]  surface glycoprotein, P26S</title>
-	<circle cx="1152" cy="1020" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1152" cy="1018" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-16  G22018T  North America=28 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1131" cy="938" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1131" cy="937" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-16  G22018T  North America=28 [100.0%] Europe=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1131" cy="938" r="8" style="fill:orange;" class="cv" />
+	<circle cx="1131" cy="937" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-12-16  T22917G  North America=28 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1080" cy="744" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1080" cy="746" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-16  T22917G  North America=28 [100.0%] Europe=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1080" cy="744" r="8" style="fill:orange;" class="cv" />
+	<circle cx="1080" cy="746" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-12-16  A23403G  North America=28 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1052" cy="639" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1053" cy="643" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-16  A23403G  North America=28 [100.0%] Europe=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1052" cy="639" r="8" style="fill:orange;" class="cv" />
+	<circle cx="1053" cy="643" r="8" style="fill:orange;" class="cv" />
 </g>
 <g>
 	<title>2020-12-16  C24374T  North America=2 [7.1%]  surface glycoprotein, L938F</title>
-	<circle cx="997" cy="430" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="999" cy="436" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-16  G24620T  North America=1 [3.6%]  surface glycoprotein, A1020S</title>
-	<circle cx="983" cy="377" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="985" cy="384" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-16  G25073A  North America=1 [3.6%]  surface glycoprotein, G1171S</title>
-	<circle cx="958" cy="280" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-16  G25455T  North America=1 [3.6%]  ORF3a protein, K21N</title>
-	<circle cx="936" cy="197" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="960" cy="288" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17 North America=10</title>
@@ -1775,51 +1743,51 @@
 </g>
 <g>
 	<title>2020-12-17  G21600T  North America=10 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1158" cy="1027" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1157" cy="1025" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  G21600T  North America=10 [100.0%] Asia=4 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1158" cy="1027" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1157" cy="1025" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  C21638T  North America=1 [10.0%]  surface glycoprotein, P26S</title>
-	<circle cx="1156" cy="1019" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1155" cy="1017" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  C21855T  Asia=2 [50.0%]  surface glycoprotein, S98F</title>
-	<circle cx="1144" cy="972" r="7" style="fill:fuchsia;" class="cv" />
+	<circle cx="1144" cy="971" r="7" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  G22018T  North America=10 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1135" cy="937" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1135" cy="936" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  G22018T  North America=10 [100.0%] Asia=4 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1135" cy="937" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1135" cy="936" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  C22329T  Asia=4 [100.0%]  surface glycoprotein, S256L</title>
-	<circle cx="1119" cy="869" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1119" cy="870" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  T22917G  North America=10 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1088" cy="742" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1088" cy="744" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  T22917G  North America=10 [100.0%] Asia=4 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1088" cy="742" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1088" cy="744" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  A23403G  North America=10 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1062" cy="637" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1063" cy="640" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  A23403G  North America=10 [100.0%] Asia=4 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1062" cy="637" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1063" cy="640" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-17  G24368C  North America=1 [10.0%]  surface glycoprotein, D936H</title>
-	<circle cx="1011" cy="428" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1012" cy="434" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18 North America=25</title>
@@ -1831,19 +1799,19 @@
 </g>
 <g>
 	<title>2020-12-18  G21600T  North America=25 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1161" cy="1026" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1160" cy="1024" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  G21600T  North America=25 [100.0%] Asia=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1161" cy="1026" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1160" cy="1024" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  C21638T  North America=5 [20.0%]  surface glycoprotein, P26S</title>
-	<circle cx="1159" cy="1018" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1158" cy="1016" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  G21974T  North America=1 [4.0%]  surface glycoprotein, D138Y</title>
-	<circle cx="1142" cy="945" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1142" cy="944" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  G22018T  North America=25 [100.0%]  surface glycoprotein, W152C</title>
@@ -1859,47 +1827,43 @@
 </g>
 <g>
 	<title>2020-12-18  T22917G  North America=25 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1096" cy="740" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1096" cy="742" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  T22917G  North America=25 [100.0%] Asia=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1096" cy="740" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1096" cy="742" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  T23031C  North America=1 [4.0%]  surface glycoprotein, F490S</title>
-	<circle cx="1090" cy="715" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1091" cy="718" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  A23403G  North America=25 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1072" cy="635" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1072" cy="638" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  A23403G  North America=25 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1072" cy="635" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1072" cy="638" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  G23593C  North America=2 [8.0%]  surface glycoprotein, Q677H</title>
-	<circle cx="1062" cy="593" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1063" cy="597" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  T24845C  North America=2 [8.0%]  surface glycoprotein, F1095L</title>
-	<circle cx="1001" cy="321" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1002" cy="329" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  G25073A  North America=2 [8.0%]  surface glycoprotein, G1171S</title>
-	<circle cx="989" cy="272" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="991" cy="280" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  G25135C  North America=1 [4.0%]  surface glycoprotein, K1191N</title>
-	<circle cx="986" cy="258" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="988" cy="267" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-18  C25350T  North America=2 [8.0%]  surface glycoprotein, P1263L</title>
-	<circle cx="976" cy="212" r="4" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-18  G25440C  North America=2 [8.0%]  ORF3a protein, K16N</title>
-	<circle cx="971" cy="192" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="978" cy="221" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19 North America=23</title>
@@ -1915,35 +1879,35 @@
 </g>
 <g>
 	<title>2020-12-19  C21575T  North America=1 [4.3%]  surface glycoprotein, L5F</title>
-	<circle cx="1165" cy="1031" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1164" cy="1029" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G21600T  North America=23 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1164" cy="1026" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1163" cy="1024" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G21600T  North America=23 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1164" cy="1026" r="8" style="fill:white;" class="cv" />
+	<circle cx="1163" cy="1024" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G21600T  North America=23 [100.0%] Oceania=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1164" cy="1026" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1163" cy="1024" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  C21638T  North America=4 [17.4%]  surface glycoprotein, P26S</title>
-	<circle cx="1162" cy="1017" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1161" cy="1016" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G22018T  North America=23 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1145" cy="934" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1144" cy="934" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G22018T  North America=23 [100.0%] Asia=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1145" cy="934" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1144" cy="934" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G22018T  North America=23 [100.0%] Asia=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1145" cy="934" r="8" style="fill:white;" class="cv" />
+	<circle cx="1144" cy="934" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  C22329T  Asia=1 [100.0%]  surface glycoprotein, S256L</title>
@@ -1951,43 +1915,43 @@
 </g>
 <g>
 	<title>2020-12-19  T22917G  North America=23 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1104" cy="738" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1104" cy="740" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  T22917G  North America=23 [100.0%] Asia=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1104" cy="738" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1104" cy="740" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  T22917G  North America=23 [100.0%] Asia=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1104" cy="738" r="8" style="fill:white;" class="cv" />
+	<circle cx="1104" cy="740" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  C22986T  North America=1 [4.3%]  surface glycoprotein, A475V</title>
-	<circle cx="1100" cy="723" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1101" cy="726" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G23015C  North America=1 [4.3%]  surface glycoprotein, G485R</title>
-	<circle cx="1099" cy="717" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1100" cy="719" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  A23403G  North America=23 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1081" cy="633" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1082" cy="636" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A23403G  North America=23 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1081" cy="633" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-19  A23403G  North America=23 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1082" cy="636" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
-	<title>2020-12-19  A23403G  North America=23 [100.0%] Asia=1 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1081" cy="633" r="8" style="fill:white;" class="cv" />
+	<title>2020-12-19  A23403G  North America=23 [100.0%] Oceania=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1082" cy="636" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  C24374T  Oceania=1 [100.0%]  surface glycoprotein, L938F</title>
-	<circle cx="1037" cy="421" r="8" style="fill:white;" class="cv" />
+	<circle cx="1039" cy="427" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-19  G25135C  North America=1 [4.3%]  surface glycoprotein, K1191N</title>
-	<circle cx="1003" cy="255" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1004" cy="263" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20 North America=32</title>
@@ -1999,27 +1963,27 @@
 </g>
 <g>
 	<title>2020-12-20  G21600T  North America=32 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1167" cy="1025" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1166" cy="1023" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  G21600T  North America=32 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1167" cy="1025" r="8" style="fill:white;" class="cv" />
+	<circle cx="1166" cy="1023" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  C21638T  North America=10 [31.2%]  surface glycoprotein, P26S</title>
-	<circle cx="1165" cy="1017" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="1165" cy="1015" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  G21800T  North America=1 [3.1%]  surface glycoprotein, D80Y</title>
-	<circle cx="1158" cy="981" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1158" cy="980" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  G22018T  North America=32 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1149" cy="934" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1149" cy="933" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  G22018T  North America=32 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1149" cy="934" r="8" style="fill:white;" class="cv" />
+	<circle cx="1149" cy="933" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  C22088T  North America=1 [3.1%]  surface glycoprotein, L176F</title>
@@ -2027,39 +1991,39 @@
 </g>
 <g>
 	<title>2020-12-20  T22917G  North America=32 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1111" cy="737" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1112" cy="739" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  T22917G  North America=32 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1111" cy="737" r="8" style="fill:white;" class="cv" />
+	<circle cx="1112" cy="739" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  A23403G  North America=32 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1091" cy="631" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1092" cy="634" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  A23403G  North America=32 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1091" cy="631" r="8" style="fill:white;" class="cv" />
+	<circle cx="1092" cy="634" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  G24000T  North America=1 [3.1%]  surface glycoprotein, S813I</title>
-	<circle cx="1066" cy="500" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1067" cy="505" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  G24368C  North America=1 [3.1%]  surface glycoprotein, D936H</title>
-	<circle cx="1051" cy="419" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1052" cy="426" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  C24374T  North America=3 [9.4%]  surface glycoprotein, L938F</title>
-	<circle cx="1051" cy="418" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1052" cy="424" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  G24872T  North America=1 [3.1%]  surface glycoprotein, V1104L</title>
-	<circle cx="1030" cy="309" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1031" cy="317" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-20  G25166C  North America=1 [3.1%]  surface glycoprotein, E1202Q</title>
-	<circle cx="1017" cy="245" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1019" cy="253" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21 North America=54</title>
@@ -2071,35 +2035,35 @@
 </g>
 <g>
 	<title>2020-12-21  C21575T  North America=2 [3.7%]  surface glycoprotein, L5F</title>
-	<circle cx="1171" cy="1030" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1170" cy="1028" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  G21600T  North America=54 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1170" cy="1024" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1169" cy="1023" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  G21600T  North America=54 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1170" cy="1024" r="8" style="fill:white;" class="cv" />
+	<circle cx="1169" cy="1023" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  C21638T  Oceania=1 [50.0%]  surface glycoprotein, P26S</title>
-	<circle cx="1168" cy="1016" r="7" style="fill:white;" class="cv" />
+	<circle cx="1168" cy="1014" r="7" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  C21638T  North America=10 [18.5%]  surface glycoprotein, P26S</title>
-	<circle cx="1168" cy="1016" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1168" cy="1014" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  G21786T  Oceania=1 [50.0%]  surface glycoprotein, G75V</title>
-	<circle cx="1162" cy="984" r="7" style="fill:white;" class="cv" />
+	<circle cx="1162" cy="982" r="7" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  G22018T  North America=54 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1154" cy="933" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1154" cy="932" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  G22018T  North America=54 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1154" cy="933" r="8" style="fill:white;" class="cv" />
+	<circle cx="1154" cy="932" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  T22092C  North America=1 [1.9%]  surface glycoprotein, M177T</title>
@@ -2107,47 +2071,47 @@
 </g>
 <g>
 	<title>2020-12-21  T22917G  North America=54 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1119" cy="735" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1120" cy="737" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  T22917G  North America=54 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1119" cy="735" r="8" style="fill:white;" class="cv" />
+	<circle cx="1120" cy="737" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  A23403G  North America=54 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1101" cy="629" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1102" cy="632" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  A23403G  North America=54 [100.0%] Oceania=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1101" cy="629" r="8" style="fill:white;" class="cv" />
+	<circle cx="1102" cy="632" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  A23541T  North America=1 [1.9%]  surface glycoprotein, Y660F</title>
-	<circle cx="1096" cy="599" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1096" cy="602" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  G23545T  North America=1 [1.9%]  surface glycoprotein, E661D</title>
-	<circle cx="1096" cy="598" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1096" cy="601" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  G24197A  North America=2 [3.7%]  surface glycoprotein, A879T</title>
-	<circle cx="1071" cy="455" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1072" cy="460" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  C24374T  North America=1 [1.9%]  surface glycoprotein, L938F</title>
-	<circle cx="1064" cy="416" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1065" cy="422" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  G24834A  North America=1 [1.9%]  surface glycoprotein, R1091H</title>
-	<circle cx="1046" cy="315" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1048" cy="322" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  G25166C  North America=1 [1.9%]  surface glycoprotein, E1202Q</title>
-	<circle cx="1034" cy="242" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1035" cy="250" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-21  G25266T  North America=1 [1.9%]  surface glycoprotein, C1235F</title>
-	<circle cx="1030" cy="220" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1032" cy="229" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-22 North America=50</title>
@@ -2155,19 +2119,19 @@
 </g>
 <g>
 	<title>2020-12-22  C21575T  North America=1 [2.0%]  surface glycoprotein, L5F</title>
-	<circle cx="1173" cy="1029" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1173" cy="1028" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-22  G21600T  North America=50 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1173" cy="1024" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1172" cy="1022" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-22  C21638T  North America=13 [26.0%]  surface glycoprotein, P26S</title>
-	<circle cx="1171" cy="1016" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="1171" cy="1014" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-22  G22018T  North America=50 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1158" cy="932" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1158" cy="931" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-22  C22281T  North America=1 [2.0%]  surface glycoprotein, T240I</title>
@@ -2175,27 +2139,23 @@
 </g>
 <g>
 	<title>2020-12-22  T22917G  North America=50 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1127" cy="734" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1128" cy="736" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-22  A23403G  North America=50 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1111" cy="627" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1111" cy="631" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-22  A23541T  North America=1 [2.0%]  surface glycoprotein, Y660F</title>
-	<circle cx="1106" cy="597" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1107" cy="601" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-22  G24095T  North America=1 [2.0%]  surface glycoprotein, A845S</title>
-	<circle cx="1087" cy="475" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1088" cy="480" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-22  G25073A  North America=1 [2.0%]  surface glycoprotein, G1171S</title>
-	<circle cx="1054" cy="260" r="2" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-22  C25469T  North America=1 [2.0%]  ORF3a protein, S26L</title>
-	<circle cx="1040" cy="173" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1055" cy="268" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-23 North America=33</title>
@@ -2203,23 +2163,23 @@
 </g>
 <g>
 	<title>2020-12-23  G21600T  North America=33 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1176" cy="1024" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1175" cy="1022" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-23  C21638T  North America=6 [18.2%]  surface glycoprotein, P26S</title>
-	<circle cx="1174" cy="1015" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1174" cy="1013" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-23  C21762T  North America=1 [3.0%]  surface glycoprotein, A67V</title>
-	<circle cx="1171" cy="988" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1170" cy="986" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-23  C21789T  North America=1 [3.0%]  surface glycoprotein, T76I</title>
-	<circle cx="1170" cy="982" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1170" cy="981" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-23  G21800C  North America=1 [3.0%]  surface glycoprotein, D80H</title>
-	<circle cx="1170" cy="979" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1169" cy="978" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-23  G22018T  North America=33 [100.0%]  surface glycoprotein, W152C</title>
@@ -2227,31 +2187,27 @@
 </g>
 <g>
 	<title>2020-12-23  T22917G  North America=33 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1135" cy="733" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1136" cy="735" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-23  A23403G  North America=33 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1121" cy="626" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1121" cy="629" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-23  C24374T  North America=2 [6.1%]  surface glycoprotein, L938F</title>
-	<circle cx="1091" cy="412" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1092" cy="418" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-23  G25055T  North America=1 [3.0%]  surface glycoprotein, D1165Y</title>
-	<circle cx="1070" cy="261" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1071" cy="270" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-23  G25073A  North America=3 [9.1%]  surface glycoprotein, G1171S</title>
-	<circle cx="1070" cy="257" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1071" cy="266" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-23  G25218T  North America=2 [6.1%]  surface glycoprotein, G1219V</title>
-	<circle cx="1065" cy="225" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-23  G25489T  North America=1 [3.0%]  ORF3a protein, A33S</title>
-	<circle cx="1057" cy="166" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1066" cy="234" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24 North America=41</title>
@@ -2263,35 +2219,35 @@
 </g>
 <g>
 	<title>2020-12-24  C21575T  North America=1 [2.4%]  surface glycoprotein, L5F</title>
-	<circle cx="1179" cy="1029" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1179" cy="1027" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  G21600T  North America=41 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1179" cy="1023" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1178" cy="1021" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  G21600T  North America=41 [100.0%] Asia=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1179" cy="1023" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1178" cy="1021" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  C21638T  North America=3 [7.3%]  surface glycoprotein, P26S</title>
-	<circle cx="1178" cy="1015" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1177" cy="1013" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  C21767T  North America=1 [2.4%]  surface glycoprotein, H69Y</title>
-	<circle cx="1174" cy="986" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1174" cy="985" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  G21969T  North America=1 [2.4%]  surface glycoprotein, C136F</title>
-	<circle cx="1169" cy="942" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1169" cy="941" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  G22018T  North America=41 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1167" cy="931" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1167" cy="930" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  G22018T  North America=41 [100.0%] Asia=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1167" cy="931" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1167" cy="930" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  C22227T  North America=1 [2.4%]  surface glycoprotein, A222V</title>
@@ -2299,39 +2255,39 @@
 </g>
 <g>
 	<title>2020-12-24  T22917G  North America=41 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1143" cy="732" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1144" cy="734" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  T22917G  North America=41 [100.0%] Asia=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1143" cy="732" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1144" cy="734" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  G23126C  North America=1 [2.4%]  surface glycoprotein, A522P</title>
-	<circle cx="1138" cy="686" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1138" cy="688" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  A23180C  North America=1 [2.4%]  surface glycoprotein, N540H</title>
-	<circle cx="1136" cy="674" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1137" cy="677" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  A23403G  North America=41 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1130" cy="624" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1131" cy="628" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  A23403G  North America=41 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1130" cy="624" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1131" cy="628" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  G23835T  North America=1 [2.4%]  surface glycoprotein, S758I</title>
-	<circle cx="1119" cy="529" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1119" cy="534" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  C24374T  North America=1 [2.4%]  surface glycoprotein, L938F</title>
-	<circle cx="1105" cy="410" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1105" cy="416" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-24  G25073A  North America=2 [4.9%]  surface glycoprotein, G1171S</title>
-	<circle cx="1086" cy="255" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1087" cy="264" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25 North America=8</title>
@@ -2343,15 +2299,15 @@
 </g>
 <g>
 	<title>2020-12-25  G21600T  North America=8 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1182" cy="1023" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1181" cy="1021" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25  G21600T  North America=8 [100.0%] Asia=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1182" cy="1023" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1181" cy="1021" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25  C21638T  North America=3 [37.5%]  surface glycoprotein, P26S</title>
-	<circle cx="1181" cy="1014" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="1181" cy="1013" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25  G22018T  North America=8 [100.0%]  surface glycoprotein, W152C</title>
@@ -2363,31 +2319,31 @@
 </g>
 <g>
 	<title>2020-12-25  C22329T  Asia=1 [100.0%]  surface glycoprotein, S256L</title>
-	<circle cx="1165" cy="861" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1165" cy="862" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25  T22917G  North America=8 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1152" cy="731" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1152" cy="733" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25  T22917G  North America=8 [100.0%] Asia=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1152" cy="731" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1152" cy="733" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25  A23403G  North America=8 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1140" cy="623" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1141" cy="627" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25  A23403G  North America=8 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1140" cy="623" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1141" cy="627" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25  G24872C  North America=1 [12.5%]  surface glycoprotein, V1104L</title>
-	<circle cx="1107" cy="298" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1108" cy="306" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-25  A25122G  North America=1 [12.5%]  surface glycoprotein, N1187S</title>
-	<circle cx="1101" cy="243" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1102" cy="251" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26 North America=84</title>
@@ -2395,15 +2351,15 @@
 </g>
 <g>
 	<title>2020-12-26  G21600T  North America=84 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1185" cy="1022" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1185" cy="1021" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  C21638T  North America=19 [22.6%]  surface glycoprotein, P26S</title>
-	<circle cx="1184" cy="1014" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1184" cy="1012" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  G22018T  North America=84 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1177" cy="930" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1177" cy="929" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  T22092C  North America=1 [1.2%]  surface glycoprotein, M177T</title>
@@ -2411,67 +2367,59 @@
 </g>
 <g>
 	<title>2020-12-26  G22104T  North America=1 [1.2%]  surface glycoprotein, G181V</title>
-	<circle cx="1175" cy="911" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1175" cy="910" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  T22917G  North America=84 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1160" cy="730" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1160" cy="732" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  G22985A  North America=1 [1.2%]  surface glycoprotein, A475T</title>
-	<circle cx="1158" cy="715" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1158" cy="717" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  A23403G  North America=84 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1150" cy="622" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1151" cy="626" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  C23595T  North America=1 [1.2%]  surface glycoprotein, T678I</title>
-	<circle cx="1147" cy="580" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1147" cy="584" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  C23625T  North America=2 [2.4%]  surface glycoprotein, A688V</title>
-	<circle cx="1146" cy="573" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1146" cy="577" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  A24069T  North America=1 [1.2%]  surface glycoprotein, Q836L</title>
-	<circle cx="1138" cy="475" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1138" cy="480" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  C24374T  North America=3 [3.6%]  surface glycoprotein, L938F</title>
-	<circle cx="1132" cy="407" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1132" cy="413" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  G24764T  North America=1 [1.2%]  surface glycoprotein, V1068F</title>
-	<circle cx="1124" cy="320" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1125" cy="328" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  G24872T  North America=1 [1.2%]  surface glycoprotein, V1104L</title>
-	<circle cx="1122" cy="296" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1123" cy="304" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  G25166C  North America=1 [1.2%]  surface glycoprotein, E1202Q</title>
-	<circle cx="1117" cy="231" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1117" cy="240" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  G25218T  North America=1 [1.2%]  surface glycoprotein, G1219V</title>
-	<circle cx="1116" cy="220" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1116" cy="228" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  G25311T  North America=2 [2.4%]  surface glycoprotein, C1250F</title>
-	<circle cx="1114" cy="199" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1115" cy="208" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-26  C25350T  North America=1 [1.2%]  surface glycoprotein, P1263L</title>
-	<circle cx="1113" cy="190" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-26  C25418T  North America=1 [1.2%]  ORF3a protein, T9I</title>
-	<circle cx="1112" cy="175" r="1" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-26  G25489T  North America=1 [1.2%]  ORF3a protein, A33S</title>
-	<circle cx="1110" cy="160" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1114" cy="200" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27 North America=41</title>
@@ -2487,39 +2435,39 @@
 </g>
 <g>
 	<title>2020-12-27  C21575T  North America=2 [4.9%]  surface glycoprotein, L5F</title>
-	<circle cx="1188" cy="1028" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1188" cy="1026" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  G21600T  North America=41 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1188" cy="1022" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1188" cy="1020" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  G21600T  North America=41 [100.0%] Asia=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1188" cy="1022" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1188" cy="1020" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  G21600T  North America=41 [100.0%] Asia=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1188" cy="1022" r="8" style="fill:yellow;" class="cv" />
+	<circle cx="1188" cy="1020" r="8" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  C21638T  North America=4 [9.8%]  surface glycoprotein, P26S</title>
-	<circle cx="1187" cy="1014" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1187" cy="1012" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  C21846T  North America=1 [2.4%]  surface glycoprotein, T95I</title>
-	<circle cx="1184" cy="968" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1184" cy="966" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  G22018T  North America=41 [100.0%]  surface glycoprotein, W152C</title>
 	<circle cx="1181" cy="929" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  G22018T  North America=41 [100.0%] Asia=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1181" cy="929" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-27  G22018T  North America=41 [100.0%] South America=1 [100.0%]  surface glycoprotein, W152C</title>
+	<circle cx="1181" cy="929" r="8" style="fill:yellow;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  G22018T  North America=41 [100.0%] Asia=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1181" cy="929" r="8" style="fill:yellow;" class="cv" />
+	<title>2020-12-27  G22018T  North America=41 [100.0%] South America=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, W152C</title>
+	<circle cx="1181" cy="929" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  G22289T  North America=1 [2.4%]  surface glycoprotein, A243S</title>
@@ -2527,55 +2475,55 @@
 </g>
 <g>
 	<title>2020-12-27  C22329T  Asia=1 [100.0%]  surface glycoprotein, S256L</title>
-	<circle cx="1177" cy="860" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1177" cy="861" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  T22917G  North America=41 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1168" cy="730" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1168" cy="732" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  T22917G  North America=41 [100.0%] Asia=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1168" cy="730" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1168" cy="732" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  T22917G  North America=41 [100.0%] Asia=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1168" cy="730" r="8" style="fill:yellow;" class="cv" />
+	<circle cx="1168" cy="732" r="8" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  A23403G  North America=41 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1160" cy="622" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1161" cy="625" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  A23403G  North America=41 [100.0%] South America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1160" cy="622" r="8" style="fill:yellow;" class="cv" />
+	<title>2020-12-27  A23403G  North America=41 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1161" cy="625" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
-	<title>2020-12-27  A23403G  North America=41 [100.0%] South America=1 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1160" cy="622" r="8" style="fill:fuchsia;" class="cv" />
+	<title>2020-12-27  A23403G  North America=41 [100.0%] Asia=1 [100.0%] South America=1 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1161" cy="625" r="8" style="fill:yellow;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  T23672C  North America=1 [2.4%]  surface glycoprotein, S704P</title>
-	<circle cx="1156" cy="562" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1156" cy="566" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  G24095T  North America=1 [2.4%]  surface glycoprotein, A845S</title>
-	<circle cx="1150" cy="468" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1150" cy="473" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  C24138T  North America=1 [2.4%]  surface glycoprotein, T859I</title>
-	<circle cx="1149" cy="458" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1149" cy="464" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  C24374T  North America=1 [2.4%]  surface glycoprotein, L938F</title>
-	<circle cx="1145" cy="406" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1146" cy="412" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  G24620T  North America=2 [4.9%]  surface glycoprotein, A1020S</title>
-	<circle cx="1142" cy="351" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1142" cy="358" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-27  A24864G  North America=1 [2.4%]  surface glycoprotein, H1101R</title>
-	<circle cx="1138" cy="297" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1138" cy="305" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28 North America=125</title>
@@ -2591,39 +2539,39 @@
 </g>
 <g>
 	<title>2020-12-28  C21575T  North America=1 [0.8%]  surface glycoprotein, L5F</title>
-	<circle cx="1191" cy="1028" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1191" cy="1026" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  G21600T  North America=125 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1191" cy="1022" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1191" cy="1020" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  G21600T  North America=125 [100.0%] Asia=2 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1191" cy="1022" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1191" cy="1020" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  G21600T  North America=125 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1191" cy="1022" r="8" style="fill:white;" class="cv" />
+	<circle cx="1191" cy="1020" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  C21638T  Oceania=1 [100.0%]  surface glycoprotein, P26S</title>
-	<circle cx="1190" cy="1014" r="8" style="fill:white;" class="cv" />
+	<circle cx="1190" cy="1012" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  C21638T  North America=13 [10.4%]  surface glycoprotein, P26S</title>
-	<circle cx="1190" cy="1014" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1190" cy="1012" r="4" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  G22018T  North America=125 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1186" cy="929" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1186" cy="928" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  G22018T  North America=125 [100.0%] Asia=2 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1186" cy="929" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1186" cy="928" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  G22018T  North America=125 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1186" cy="929" r="8" style="fill:white;" class="cv" />
+	<circle cx="1186" cy="928" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  G22104T  North America=3 [2.4%]  surface glycoprotein, G181V</title>
@@ -2639,47 +2587,47 @@
 </g>
 <g>
 	<title>2020-12-28  T22917G  North America=125 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1176" cy="729" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1176" cy="731" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  T22917G  North America=125 [100.0%] Asia=2 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1176" cy="729" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1176" cy="731" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  T22917G  North America=125 [100.0%] Asia=2 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1176" cy="729" r="8" style="fill:white;" class="cv" />
+	<circle cx="1176" cy="731" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  A23403G  Asia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1170" cy="621" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1170" cy="624" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  A23403G  Asia=2 [100.0%] Oceania=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1170" cy="621" r="8" style="fill:white;" class="cv" />
+	<circle cx="1170" cy="624" r="8" style="fill:white;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  A23403G  Asia=2 [100.0%] Oceania=1 [100.0%] North America=124 [99.2%]  surface glycoprotein, D614G</title>
-	<circle cx="1170" cy="621" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1170" cy="624" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  A23541T  North America=1 [0.8%]  surface glycoprotein, Y660F</title>
-	<circle cx="1169" cy="590" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1169" cy="594" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  G24095T  North America=1 [0.8%]  surface glycoprotein, A845S</title>
-	<circle cx="1162" cy="467" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1163" cy="473" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  C24374T  North America=1 [0.8%]  surface glycoprotein, L938F</title>
-	<circle cx="1159" cy="405" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1159" cy="411" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  G24620T  North America=2 [1.6%]  surface glycoprotein, A1020S</title>
-	<circle cx="1156" cy="350" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1157" cy="357" r="2" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-28  G24883T  North America=1 [0.8%]  surface glycoprotein, R1107S</title>
-	<circle cx="1153" cy="292" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1154" cy="300" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29 North America=73</title>
@@ -2687,23 +2635,23 @@
 </g>
 <g>
 	<title>2020-12-29  C21575T  North America=1 [1.4%]  surface glycoprotein, L5F</title>
-	<circle cx="1194" cy="1027" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1194" cy="1026" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  G21600T  North America=73 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1194" cy="1022" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1194" cy="1020" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  C21627T  North America=3 [4.1%]  surface glycoprotein, T22I</title>
-	<circle cx="1194" cy="1016" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1194" cy="1014" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  C21638T  North America=22 [30.1%]  surface glycoprotein, P26S</title>
-	<circle cx="1194" cy="1013" r="6" style="fill:cyan;" class="cv" />
+	<circle cx="1194" cy="1012" r="6" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  G22018T  North America=73 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1191" cy="929" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1191" cy="928" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  T22197C  North America=1 [1.4%]  surface glycoprotein, L212S</title>
@@ -2719,27 +2667,23 @@
 </g>
 <g>
 	<title>2020-12-29  T22917G  North America=73 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1184" cy="729" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1184" cy="731" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  A23403G  North America=73 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1180" cy="621" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1180" cy="624" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  C24138T  North America=1 [1.4%]  surface glycoprotein, T859I</title>
-	<circle cx="1174" cy="457" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1175" cy="463" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  G24883T  North America=1 [1.4%]  surface glycoprotein, R1107S</title>
-	<circle cx="1169" cy="291" r="1" style="fill:cyan;" class="cv" />
+	<circle cx="1169" cy="299" r="1" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-29  G25135C  North America=3 [4.1%]  surface glycoprotein, K1191N</title>
-	<circle cx="1167" cy="235" r="3" style="fill:cyan;" class="cv" />
-</g>
-<g>
-	<title>2020-12-29  G25489T  North America=2 [2.7%]  ORF3a protein, A33S</title>
-	<circle cx="1164" cy="156" r="2" style="fill:cyan;" class="cv" />
+	<circle cx="1167" cy="244" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-30 North America=25</title>
@@ -2751,23 +2695,23 @@
 </g>
 <g>
 	<title>2020-12-30  G21600T  North America=25 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1197" cy="1022" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1197" cy="1020" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-30  G21600T  North America=25 [100.0%] Asia=1 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1197" cy="1022" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1197" cy="1020" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-30  C21638T  North America=5 [20.0%]  surface glycoprotein, P26S</title>
-	<circle cx="1197" cy="1013" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1197" cy="1012" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-30  G22018T  North America=25 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1195" cy="929" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1195" cy="928" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-30  G22018T  North America=25 [100.0%] Asia=1 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1195" cy="929" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1195" cy="928" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-30  C22227T  North America=1 [4.0%]  surface glycoprotein, A222V</title>
@@ -2775,35 +2719,35 @@
 </g>
 <g>
 	<title>2020-12-30  A22600C  North America=1 [4.0%]  surface glycoprotein, R346S</title>
-	<circle cx="1193" cy="799" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1193" cy="800" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-30  T22917G  North America=25 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1192" cy="729" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1192" cy="731" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-30  T22917G  North America=25 [100.0%] Asia=1 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1192" cy="729" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1192" cy="731" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-30  A23403G  North America=25 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1190" cy="620" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1190" cy="624" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-30  A23403G  North America=25 [100.0%] Asia=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1190" cy="620" r="8" style="fill:fuchsia;" class="cv" />
+	<circle cx="1190" cy="624" r="8" style="fill:fuchsia;" class="cv" />
 </g>
 <g>
 	<title>2020-12-30  A24894C  North America=1 [4.0%]  surface glycoprotein, E1111A</title>
-	<circle cx="1184" cy="288" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1185" cy="296" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-30  G25073A  North America=1 [4.0%]  surface glycoprotein, G1171S</title>
-	<circle cx="1184" cy="248" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1184" cy="257" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-30  C25317T  North America=1 [4.0%]  surface glycoprotein, S1252F</title>
-	<circle cx="1183" cy="194" r="3" style="fill:cyan;" class="cv" />
+	<circle cx="1183" cy="203" r="3" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-31 North America=19</title>
@@ -2811,27 +2755,27 @@
 </g>
 <g>
 	<title>2020-12-31  G21600T  North America=19 [100.0%]  surface glycoprotein, S13I</title>
-	<circle cx="1200" cy="1022" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1200" cy="1020" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-31  C21638T  North America=4 [21.1%]  surface glycoprotein, P26S</title>
-	<circle cx="1200" cy="1013" r="5" style="fill:cyan;" class="cv" />
+	<circle cx="1200" cy="1012" r="5" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-31  G22018T  North America=19 [100.0%]  surface glycoprotein, W152C</title>
-	<circle cx="1200" cy="929" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1200" cy="928" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-31  T22917G  North America=19 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1200" cy="729" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1200" cy="731" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-31  A23403G  North America=19 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1200" cy="620" r="8" style="fill:cyan;" class="cv" />
+	<circle cx="1200" cy="624" r="8" style="fill:cyan;" class="cv" />
 </g>
 <g>
 	<title>2020-12-31  C23897G  North America=2 [10.5%]  surface glycoprotein, Q779E</title>
-	<circle cx="1200" cy="510" r="4" style="fill:cyan;" class="cv" />
+	<circle cx="1200" cy="515" r="4" style="fill:cyan;" class="cv" />
 </g>
 </g>
 <rect x="4" y="4" width="895" height="120" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
@@ -2840,6 +2784,7 @@
 <text font-size="3.6em" x="20" y="55" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 </a>
 <text font-size="2.5em" x="20" y="105" fill="white">Genbank MN908947 vs 1,123 GISAID genomes</text>
+<circle cx="950" cy="65" r="43" fill="black" opacity="0.8" />
 <circle cx="950" cy="65" r="42" fill="#225EA8" opacity="0.4" onclick="rotatex(90,1200,1200)"/>
 	<path class="button" onclick="pan( 0, 50)" d="M950 25 l12   20 a40, 70 0 0,0 -24,  0z" />
 	<path class="button" onclick="pan( 50, 0)" d="M910 65 l20  -12 a70, 40 0 0,0   0, 24z" />
@@ -2955,9 +2900,9 @@
 <circle cx="95" cy="375" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <text font-size="1.7em" x="15" y="415" fill="white">1      10        100% daily</text>
 <text font-size="1.7em" x="15" y="445" fill="white">sample fraction</text>
-<rect x="1865" y="2" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
+<rect x="1865" y="4" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 6 continents</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥1</text>
-<text font-size="1.8em" x="1880" y="92" fill="white">93 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-24</text>
+<text font-size="1.8em" x="1880" y="92" fill="white">86 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-25</text>
 </svg>

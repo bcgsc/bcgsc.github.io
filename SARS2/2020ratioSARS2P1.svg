@@ -76,13 +76,13 @@
 <circle cx="1200" cy="1200" r="795" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
 <circle cx="1200" cy="1200" r="795" style="fill:grey;stroke:black;stroke-width:0;fill-opacity:0.085;"/>
 <circle cx="1200" cy="1200" r="140" style="fill:black;stroke:black;stroke-width:0;fill-opacity:1;"/>
-<line x1="1200" y1="82.9384615384615" x2="1200" y2="132.938461538462" style="stroke:white;stroke-width:4" />
+<line x1="1200" y1="82.9384615384615" x2="1200" y2="132.938461538462" style="stroke:silver;stroke-width:4" />
 <text font-size="3.0em" x="1176" y="72.9384615384615" fill="white">Winter</text>
-<line x1="2267" y1="1200" x2="2317" y2="1200" style="stroke:white;stroke-width:4" />
+<line x1="2267" y1="1200" x2="2317" y2="1200" style="stroke:silver;stroke-width:4" />
 <text font-size="3.0em" x="2267" y="1245" fill="white">Spring</text>
-<line x1="1200" y1="2267" x2="1200" y2="2317" style="stroke:white;stroke-width:4" />
+<line x1="1200" y1="2267" x2="1200" y2="2317" style="stroke:silver;stroke-width:4" />
 <text font-size="3.0em" x="1045" y="2352" fill="white">Summer</text>
-<line x1="133" y1="1200" x2="73" y2="1200" style="stroke:white;stroke-width:4" />
+<line x1="133" y1="1200" x2="73" y2="1200" style="stroke:silver;stroke-width:4" />
 <text font-size="3.0em" x="59" y="1185" fill="white">Fall</text>
 <g>
 	<title>orf1ab gene (266-21555)</title>
@@ -125,12 +125,12 @@
 	<line x1="1208" y1="159" x2="1208" y2="155" style="stroke:gainsboro;stroke-width:8" />
 </g>
 <line x1="1200" y1="147.938461538462" x2="1200" y2="1068" style="stroke:white;stroke-width:3" />
-<line x1="1204" y1="147.938461538462" x2="1210" y2="147.938461538462" style="stroke:white;stroke-width:2" />
-<line x1="1210" y1="147.938461538462" x2="1215" y2="122.938461538462" style="stroke:white;stroke-width:2" />
-<line x1="1204" y1="1068" x2="1210" y2="1068" style="stroke:white;stroke-width:2" />
-<line x1="1210" y1="1068" x2="1215" y2="1093" style="stroke:white;stroke-width:2" />
-<text font-size="2.0em" x="1215" y="122.938461538462" fill="white">29.9 kb</text>
-<text font-size="2.0em" x="1215" y="1113" fill="white">1</text>
+<line x1="1204" y1="147.938461538462" x2="1210" y2="147.938461538462" style="stroke:silver;stroke-width:2" />
+<line x1="1210" y1="147.938461538462" x2="1215" y2="122.938461538462" style="stroke:silver;stroke-width:2" />
+<line x1="1204" y1="1068" x2="1210" y2="1068" style="stroke:silver;stroke-width:2" />
+<line x1="1210" y1="1068" x2="1215" y2="1093" style="stroke:silver;stroke-width:2" />
+<text font-size="2.0em" x="1215" y="122.938461538462" fill="white">29.9kb</text>
+<text font-size="2.0em" x="1215" y="1113" fill="white">1kb</text>
 <g>
 	<title>2020-10-03 South America=1</title>
 	<line x1="1195.0" y1="1199.8" x2="1192.6" y2="1199.7" style="stroke:cyan;" class="sb" />
@@ -1386,6 +1386,7 @@
 <text font-size="3.6em" x="20" y="55" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 </a>
 <text font-size="2.5em" x="20" y="105" fill="white">Genbank MN908947 vs 62 GISAID genomes</text>
+<circle cx="950" cy="65" r="43" fill="black" opacity="0.8" />
 <circle cx="950" cy="65" r="42" fill="#225EA8" opacity="0.4" onclick="rotatex(90,1200,1200)"/>
 	<path class="button" onclick="pan( 0, 50)" d="M950 25 l12   20 a40, 70 0 0,0 -24,  0z" />
 	<path class="button" onclick="pan( 50, 0)" d="M910 65 l20  -12 a70, 40 0 0,0   0, 24z" />
@@ -1493,9 +1494,9 @@
 <circle cx="95" cy="375" r="8" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <text font-size="1.7em" x="15" y="415" fill="white">1      10        100% daily</text>
 <text font-size="1.7em" x="15" y="445" fill="white">sample fraction</text>
-<rect x="1865" y="2" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
+<rect x="1865" y="4" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 6 continents</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥1</text>
 <text font-size="1.8em" x="1880" y="92" fill="white">55 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-24</text>
+<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-25</text>
 </svg>
