@@ -5,7 +5,11 @@
 	<style type="text/css"><![CDATA[
 	.sb {
 	stroke-width:0.8;
-	stroke-opacity:50%;
+	stroke-opacity:0.7;
+	}
+	.sb:hover {
+	stroke-width:0.8;
+	stroke-opacity:1.0;
 	}
 	.compass {
 	fill: #fff;
@@ -26,9 +30,28 @@
 	fill: #fff;
 	pointer-events: none;
 	}
+	.legendcol {
+	stroke: none;
+	fill-opacity:0.85;
+	}
+	.legendcol:hover {
+	fill-opacity:1.0;
+	}
 	.cv {
 	stroke: none;
-	fill-opacity:0.25;
+	fill-opacity:0.35;
+	}
+	.cv:hover {
+	stroke: none;
+	fill-opacity:0.8;
+	}
+	.SouthAmerica {
+	stroke: none;
+	fill-opacity:0.6;
+	}
+	.SouthAmerica:hover {
+	stroke: none;
+	fill-opacity:1.0;
 	}
 	a:link, a:visited {
 	cursor: pointer;
@@ -77,637 +100,765 @@
 <line x1="1210" y1="1030" x2="1215" y2="1055" style="stroke:silver;stroke-width:2" />
 <text font-size="2.0em" x="1215" y="162.362637362637" fill="white">25.4kb</text>
 <text font-size="2.0em" x="1215" y="1075" fill="white">21.6kb</text>
-<g>
+<g class="SouthAmerica">
+	<title>2020-10-01 South America=1</title>
+	<line x1="1195.0" y1="1200.0" x2="1193.6" y2="1199.9" style="stroke:cyan;" class="sb" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-10-01  G21974T  South America=1 [100.0%]  surface glycoprotein, D138Y</title>
+	<circle cx="938" cy="1198" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-10-01  G22132T  South America=1 [100.0%]  surface glycoprotein, R190S</title>
+	<circle cx="903" cy="1197" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-10-01  A22812C  South America=1 [100.0%]  surface glycoprotein, K417T</title>
+	<circle cx="754" cy="1196" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-10-01  G23012A  South America=1 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="710" cy="1196" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-10-01  A23063T  South America=1 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="698" cy="1196" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-10-01  A23403G  South America=1 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="624" cy="1195" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-10-01  C23525T  South America=1 [100.0%]  surface glycoprotein, H655Y</title>
+	<circle cx="597" cy="1195" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-10-01  C24642T  South America=1 [100.0%]  surface glycoprotein, T1027I</title>
+	<circle cx="351" cy="1193" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-10-01  G25088T  South America=1 [100.0%]  surface glycoprotein, V1176F</title>
+	<circle cx="253" cy="1192" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
 	<title>2020-10-03 South America=1</title>
 	<line x1="1195.0" y1="1199.8" x2="1193.7" y2="1199.7" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  G21974T  South America=1 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="938" cy="1189" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  G22017T  South America=1 [100.0%]  surface glycoprotein, W152L</title>
 	<circle cx="929" cy="1188" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  G22132T  South America=1 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="903" cy="1187" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  A22812C  South America=1 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="754" cy="1181" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  G23012A  South America=1 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="710" cy="1179" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  A23063T  South America=1 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="699" cy="1178" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  A23403G  South America=1 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="624" cy="1175" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  C23525T  South America=1 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="597" cy="1174" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  G24095T  South America=1 [100.0%]  surface glycoprotein, A845S</title>
 	<circle cx="472" cy="1169" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  C24642T  South America=1 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="352" cy="1164" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  G25088T  South America=1 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="254" cy="1159" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03 South America=2</title>
 	<line x1="1195.8" y1="1197.3" x2="1194.0" y2="1196.1" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G21974T  South America=2 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="980" cy="1057" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G22017T  South America=1 [50.0%]  surface glycoprotein, W152L</title>
 	<circle cx="972" cy="1052" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G22132T  South America=2 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="951" cy="1039" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  A22812C  South America=2 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="825" cy="957" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G23012A  South America=2 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="789" cy="933" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  A23063T  South America=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="779" cy="927" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  A23403G  South America=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="716" cy="887" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  C23525T  South America=2 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="694" cy="872" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G24095T  South America=1 [50.0%]  surface glycoprotein, A845S</title>
 	<circle cx="589" cy="804" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  C24642T  South America=2 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="488" cy="738" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G25088T  South America=2 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="406" cy="685" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
+	<title>2020-11-18 South America=2</title>
+	<line x1="1196.6" y1="1196.3" x2="1195.2" y2="1194.7" style="stroke:cyan;" class="sb" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-11-18  G21974T  South America=2 [100.0%]  surface glycoprotein, D138Y</title>
+	<circle cx="1024" cy="1006" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-11-18  G22132T  South America=2 [100.0%]  surface glycoprotein, R190S</title>
+	<circle cx="1000" cy="980" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-11-18  G22352A  South America=1 [50.0%]  surface glycoprotein, A264T</title>
+	<circle cx="968" cy="945" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-11-18  A22812C  South America=2 [100.0%]  surface glycoprotein, K417T</title>
+	<circle cx="900" cy="870" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-11-18  G23012A  South America=2 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="870" cy="837" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-11-18  A23063T  South America=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="862" cy="829" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-11-18  A23403G  South America=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="812" cy="774" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-11-18  C23525T  South America=2 [100.0%]  surface glycoprotein, H655Y</title>
+	<circle cx="794" cy="754" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-11-18  C24642T  South America=2 [100.0%]  surface glycoprotein, T1027I</title>
+	<circle cx="629" cy="572" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-11-18  G25088T  South America=2 [100.0%]  surface glycoprotein, V1176F</title>
+	<circle cx="563" cy="500" r="2" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
 	<title>2020-12-04 South America=1</title>
 	<line x1="1197.8" y1="1195.5" x2="1197.2" y2="1194.3" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  G21974T  South America=1 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1083" cy="965" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  G22132T  South America=1 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1067" cy="934" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  A22812C  South America=1 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1000" cy="801" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  G23012A  South America=1 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="981" cy="761" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  A23063T  South America=1 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="976" cy="751" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  A23403G  South America=1 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="942" cy="685" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  C23525T  South America=1 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="930" cy="661" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  C24642T  South America=1 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="821" cy="441" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  G25088T  South America=1 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="777" cy="353" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16 South America=1</title>
 	<line x1="1198.7" y1="1195.2" x2="1198.4" y2="1193.9" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  G21974T  South America=1 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1133" cy="946" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  G22132T  South America=1 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1124" cy="913" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  A22812C  South America=1 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1086" cy="768" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  G23012A  South America=1 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1075" cy="726" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  A23063T  South America=1 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1072" cy="715" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  A23403G  South America=1 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1053" cy="643" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  C23525T  South America=1 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1046" cy="617" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  C24642T  South America=1 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="984" cy="379" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  G25088T  South America=1 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="959" cy="285" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17 South America=3</title>
 	<line x1="1198.8" y1="1195.1" x2="1198.2" y2="1192.5" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  G21974T  South America=3 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1138" cy="945" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  G22132T  South America=3 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1129" cy="912" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  A22812C  South America=3 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1094" cy="766" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  G23012A  South America=3 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1083" cy="724" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  A23063T  South America=3 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1081" cy="713" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  A23403G  South America=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1063" cy="640" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  C23525T  South America=3 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1056" cy="614" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  C24642T  South America=3 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="998" cy="376" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  G25088T  South America=3 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="975" cy="281" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18 South America=3</title>
 	<line x1="1198.9" y1="1195.1" x2="1198.3" y2="1192.5" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  G21974T  South America=3 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1142" cy="944" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  G22132T  South America=3 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1134" cy="910" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  A22812C  South America=3 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1101" cy="765" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  G23012A  South America=3 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1091" cy="722" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  A23063T  South America=3 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1089" cy="711" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  A23403G  South America=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1072" cy="638" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  C23525T  South America=3 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1066" cy="612" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  C24642T  South America=3 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1012" cy="372" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  G25088T  South America=3 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="990" cy="277" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21 South America=7</title>
 	<line x1="1199.1" y1="1195.1" x2="1198.5" y2="1191.1" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  G21974T  South America=7 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1155" cy="942" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  G22132T  South America=7 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1149" cy="907" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  A22812C  South America=7 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1124" cy="760" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  G23012A  South America=7 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1116" cy="717" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  A23063T  South America=7 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1114" cy="706" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  A23403G  South America=7 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1102" cy="632" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  C23525T  South America=7 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1097" cy="606" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  C24642T  South America=7 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1055" cy="364" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  G25088T  South America=7 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1038" cy="267" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22 South America=3</title>
 	<line x1="1199.2" y1="1195.1" x2="1198.8" y2="1192.4" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  G21974T  South America=3 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1160" cy="941" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  G22132T  South America=3 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1154" cy="907" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  A22812C  South America=3 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1131" cy="759" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  G23012A  South America=3 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1125" cy="716" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  A23063T  South America=3 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1123" cy="704" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  A23403G  South America=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1111" cy="631" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  C23525T  South America=3 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1107" cy="604" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  C24642T  South America=3 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1069" cy="362" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  G25088T  South America=3 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1054" cy="265" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23 South America=11</title>
 	<line x1="1199.3" y1="1195.0" x2="1198.7" y2="1190.2" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  C21614T  South America=2 [18.2%]  surface glycoprotein, L18F</title>
 	<circle cx="1175" cy="1019" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  C21638T  South America=2 [18.2%]  surface glycoprotein, P26S</title>
 	<circle cx="1174" cy="1013" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  G21974T  South America=11 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1164" cy="940" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  G22132T  South America=9 [81.8%]  surface glycoprotein, R190S</title>
 	<circle cx="1159" cy="906" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  A22812C  South America=11 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1139" cy="758" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  G23012A  South America=11 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1133" cy="714" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  A23063T  South America=11 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1131" cy="703" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  A23403G  South America=11 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1121" cy="629" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  C23525T  South America=9 [81.8%]  surface glycoprotein, H655Y</title>
 	<circle cx="1117" cy="603" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  C24642T  South America=9 [81.8%]  surface glycoprotein, T1027I</title>
 	<circle cx="1084" cy="359" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  G24977C  South America=2 [18.2%]  surface glycoprotein, D1139H</title>
 	<circle cx="1074" cy="286" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  G25088T  South America=11 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1070" cy="262" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24 South America=1</title>
 	<line x1="1199.4" y1="1195.0" x2="1199.2" y2="1193.7" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  G21974T  South America=1 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1169" cy="940" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  G22132T  South America=1 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1164" cy="905" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  A22812C  South America=1 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1146" cy="757" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  G23012A  South America=1 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1141" cy="713" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  A23063T  South America=1 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1140" cy="702" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  A23403G  South America=1 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1131" cy="628" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  C23525T  South America=1 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1128" cy="601" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  C24642T  South America=1 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1098" cy="358" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  G25088T  South America=1 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1086" cy="260" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-25 South America=1</title>
-	<line x1="1199.5" y1="1195.0" x2="1199.3" y2="1193.7" style="stroke:cyan;" class="sb" />
+<g class="SouthAmerica">
+	<title>2020-12-25 South America=2</title>
+	<line x1="1199.5" y1="1195.0" x2="1199.3" y2="1192.9" style="stroke:cyan;" class="sb" />
 </g>
-<g>
-	<title>2020-12-25  G21974T  South America=1 [100.0%]  surface glycoprotein, D138Y</title>
-	<circle cx="1173" cy="939" r="1" style="fill:cyan;" class="cv" />
+<g class="SouthAmerica">
+	<title>2020-12-25  G21974T  South America=2 [100.0%]  surface glycoprotein, D138Y</title>
+	<circle cx="1173" cy="939" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-25  G22132T  South America=1 [100.0%]  surface glycoprotein, R190S</title>
-	<circle cx="1169" cy="905" r="1" style="fill:cyan;" class="cv" />
+<g class="SouthAmerica">
+	<title>2020-12-25  G22132T  South America=2 [100.0%]  surface glycoprotein, R190S</title>
+	<circle cx="1169" cy="905" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-25  A22812C  South America=1 [100.0%]  surface glycoprotein, K417T</title>
-	<circle cx="1154" cy="756" r="1" style="fill:cyan;" class="cv" />
+<g class="SouthAmerica">
+	<title>2020-12-25  A22812C  South America=2 [100.0%]  surface glycoprotein, K417T</title>
+	<circle cx="1154" cy="756" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-25  G23012A  South America=1 [100.0%]  surface glycoprotein, E484K</title>
-	<circle cx="1150" cy="712" r="1" style="fill:cyan;" class="cv" />
+<g class="SouthAmerica">
+	<title>2020-12-25  G23012A  South America=2 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1150" cy="712" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-25  A23063T  South America=1 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1148" cy="701" r="1" style="fill:cyan;" class="cv" />
+<g class="SouthAmerica">
+	<title>2020-12-25  A23063T  South America=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1148" cy="701" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-25  A23403G  South America=1 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1141" cy="627" r="1" style="fill:cyan;" class="cv" />
+<g class="SouthAmerica">
+	<title>2020-12-25  A23403G  South America=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1141" cy="627" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-25  C23525T  South America=1 [100.0%]  surface glycoprotein, H655Y</title>
-	<circle cx="1138" cy="600" r="1" style="fill:cyan;" class="cv" />
+<g class="SouthAmerica">
+	<title>2020-12-25  C23525T  South America=2 [100.0%]  surface glycoprotein, H655Y</title>
+	<circle cx="1138" cy="600" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-25  C24642T  South America=1 [100.0%]  surface glycoprotein, T1027I</title>
-	<circle cx="1113" cy="356" r="1" style="fill:cyan;" class="cv" />
+<g class="SouthAmerica">
+	<title>2020-12-25  C24642T  South America=2 [100.0%]  surface glycoprotein, T1027I</title>
+	<circle cx="1113" cy="356" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-25  G25088T  South America=1 [100.0%]  surface glycoprotein, V1176F</title>
-	<circle cx="1103" cy="258" r="1" style="fill:cyan;" class="cv" />
+<g class="SouthAmerica">
+	<title>2020-12-25  G25088T  South America=2 [100.0%]  surface glycoprotein, V1176F</title>
+	<circle cx="1103" cy="258" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
+	<title>2020-12-26 South America=1</title>
+	<line x1="1199.6" y1="1195.0" x2="1199.5" y2="1193.7" style="stroke:cyan;" class="sb" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-12-26  G21974T  South America=1 [100.0%]  surface glycoprotein, D138Y</title>
+	<circle cx="1178" cy="939" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-12-26  G22132T  South America=1 [100.0%]  surface glycoprotein, R190S</title>
+	<circle cx="1175" cy="904" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-12-26  A22812C  South America=1 [100.0%]  surface glycoprotein, K417T</title>
+	<circle cx="1162" cy="755" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-12-26  G23012A  South America=1 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1158" cy="711" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-12-26  A23063T  South America=1 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1157" cy="700" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-12-26  A23403G  South America=1 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1151" cy="626" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-12-26  C23525T  South America=1 [100.0%]  surface glycoprotein, H655Y</title>
+	<circle cx="1148" cy="599" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-12-26  C24642T  South America=1 [100.0%]  surface glycoprotein, T1027I</title>
+	<circle cx="1127" cy="355" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-12-26  G25088T  South America=1 [100.0%]  surface glycoprotein, V1176F</title>
+	<circle cx="1119" cy="257" r="1" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
 	<title>2020-12-27 South America=2</title>
 	<line x1="1199.7" y1="1195.0" x2="1199.5" y2="1192.9" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  G21974T  South America=2 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1182" cy="938" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  G22132T  South America=2 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1180" cy="904" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  A22812C  South America=2 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1169" cy="755" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  G23012A  South America=2 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1166" cy="711" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  A23063T  South America=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1166" cy="700" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  A23403G  South America=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1161" cy="625" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  C23525T  South America=2 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1159" cy="598" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  C24642T  South America=2 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1142" cy="353" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  G25088T  South America=2 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1135" cy="256" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28 South America=13</title>
 	<line x1="1199.7" y1="1195.0" x2="1199.5" y2="1189.9" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  G21974T  South America=13 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1187" cy="938" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  G22132T  South America=13 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1185" cy="903" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  A22812C  South America=13 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1177" cy="754" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  G23012A  South America=13 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1175" cy="710" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  A23063T  South America=13 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1174" cy="699" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  A23403G  South America=13 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1170" cy="624" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  C23525T  South America=13 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1169" cy="598" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  C23997T  South America=1 [7.7%]  surface glycoprotein, P812L</title>
 	<circle cx="1164" cy="494" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  C24642T  South America=13 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1156" cy="353" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  G25088T  South America=13 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1151" cy="255" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29 South America=6</title>
 	<line x1="1199.8" y1="1195.0" x2="1199.7" y2="1191.2" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  G21974T  South America=6 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1191" cy="938" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  G22132T  South America=6 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1190" cy="903" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  A22812C  South America=6 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1185" cy="754" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  G23012A  South America=6 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1183" cy="710" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  A23063T  South America=6 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1183" cy="699" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  A23403G  South America=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1180" cy="624" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  C23525T  South America=6 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1179" cy="597" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  C24642T  South America=6 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1171" cy="352" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  G25088T  South America=6 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1167" cy="254" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-30 South America=7</title>
-	<line x1="1199.9" y1="1195.0" x2="1199.8" y2="1190.9" style="stroke:cyan;" class="sb" />
+<g class="SouthAmerica">
+	<title>2020-12-30 South America=9</title>
+	<line x1="1199.9" y1="1195.0" x2="1199.8" y2="1190.5" style="stroke:cyan;" class="sb" />
 </g>
-<g>
-	<title>2020-12-30  G21974T  South America=7 [100.0%]  surface glycoprotein, D138Y</title>
+<g class="SouthAmerica">
+	<title>2020-12-30  G21974T  South America=9 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1196" cy="938" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-30  G22132T  South America=7 [100.0%]  surface glycoprotein, R190S</title>
+<g class="SouthAmerica">
+	<title>2020-12-30  G22132T  South America=9 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1195" cy="903" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-30  A22812C  South America=7 [100.0%]  surface glycoprotein, K417T</title>
+<g class="SouthAmerica">
+	<title>2020-12-30  A22812C  South America=9 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1192" cy="754" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-30  G23012A  South America=7 [100.0%]  surface glycoprotein, E484K</title>
+<g class="SouthAmerica">
+	<title>2020-12-30  G23012A  South America=9 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1192" cy="710" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-30  A23063T  South America=7 [100.0%]  surface glycoprotein, N501Y</title>
+<g class="SouthAmerica">
+	<title>2020-12-30  A23063T  South America=9 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1191" cy="699" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-30  A23403G  South America=7 [100.0%]  surface glycoprotein, D614G</title>
+<g class="SouthAmerica">
+	<title>2020-12-30  A23403G  South America=9 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1190" cy="624" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-30  C23525T  South America=7 [100.0%]  surface glycoprotein, H655Y</title>
+<g class="SouthAmerica">
+	<title>2020-12-30  C23525T  South America=9 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1190" cy="597" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-30  C24642T  South America=7 [100.0%]  surface glycoprotein, T1027I</title>
+<g class="SouthAmerica">
+	<title>2020-12-30  C24642T  South America=9 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1185" cy="352" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
-	<title>2020-12-30  G25088T  South America=7 [100.0%]  surface glycoprotein, V1176F</title>
+<g class="SouthAmerica">
+	<title>2020-12-30  G25088T  South America=9 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1184" cy="254" r="4" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthAmerica">
+	<title>2020-12-30  A25225G  South America=1 [11.1%]  surface glycoprotein, I1221M</title>
+	<circle cx="1183" cy="223" r="1" style="fill:cyan;" class="cv" />
 </g>
 </g>
 <rect x="4" y="4" width="895" height="120" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
@@ -715,7 +866,7 @@
 <title>main menu</title>
 <text font-size="3.6em" x="20" y="55" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 </a>
-<text font-size="2.5em" x="20" y="105" fill="white">Genbank MN908947 vs 62 GISAID genomes</text>
+<text font-size="2.5em" x="20" y="105" fill="white">Genbank MN908947 vs 69 GISAID genomes</text>
 <circle cx="950" cy="65" r="43" fill="black" opacity="0.8" />
 <circle cx="950" cy="65" r="42" fill="#225EA8" opacity="0.4" onclick="rotatex(90,1200,1200)"/>
 	<path class="button" onclick="pan( 0, 50)" d="M950 25 l12   20 a40, 70 0 0,0 -24,  0z" />
@@ -728,6 +879,24 @@
 	<rect class="plus-minus" x="946" y="54.5" width="8" height="3"/>
 	<rect class="plus-minus" x="946" y="72.5" width="8" height="3"/>
 	<rect class="plus-minus" x="948.5" y="70" width="3" height="8"/>
+<rect x="4" y="125" width="220" height="227" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<rect x="4" y="353" width="220" height="110" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
+<text font-size="2.1em" x="35" y="160" fill="white">Continents</text>
+<g class="SouthAmerica">
+<circle cx="25" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;" class="legendcol" />
+</g>
+<text font-size="1.6em" x="40" y="198" fill="white">South America</text>
+<circle cx="25" cy="375" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="61" cy="375" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="97" cy="375" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<circle cx="133" cy="375" r="12.0017363099173" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
+<text font-size="1.8em" x="15" y="415" fill="white">1      10        100        1k</text>
+<text font-size="1.8em" x="15" y="445" fill="white">genome samples</text>
+<rect x="1865" y="4" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
+<text font-size="1.8em" x="1880" y="32" fill="white">Data from 6 continents</text>
+<text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥1</text>
+<text font-size="1.8em" x="1880" y="92" fill="white">17 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-28</text>
  <script type="text/javascript"><![CDATA[
         var transformMatrix = [1, 0, 0, 1, 0, 0];
         var svg = document.getElementById('map-svg');
@@ -813,21 +982,21 @@
           selectedElement = false;
         }
       }
+function hoverByClass(classname){
+        var elms=document.getElementsByClassName(classname);
+        for(var i=0;i<elms.length;i++){
+                elms[i].onmouseover = function(){
+                        for(var k=0;k<elms.length;k++){
+                                elms[k].style.opacity=1;
+                        }
+                };
+                elms[i].onmouseout = function(){
+                        for(var k=0;k<elms.length;k++){
+                                elms[k].style.opacity=0.7;
+                        }
+                };
+        }
+}
+hoverByClass("SouthAmerica");
     ]]></script>
-<rect x="4" y="125" width="220" height="227" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
-<rect x="4" y="353" width="220" height="110" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
-<text font-size="2.1em" x="35" y="160" fill="white">Continents</text>
-<circle cx="25" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;fill-opacity:0.6;" />
-<text font-size="1.6em" x="40" y="198" fill="white">South America</text>
-<circle cx="25" cy="375" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="61" cy="375" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="97" cy="375" r="8.01728549513057" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<circle cx="133" cy="375" r="12.0017363099173" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
-<text font-size="1.8em" x="15" y="415" fill="white">1      10        100        1k</text>
-<text font-size="1.8em" x="15" y="445" fill="white">genome samples</text>
-<rect x="1865" y="4" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
-<text font-size="1.8em" x="1880" y="32" fill="white">Data from 6 continents</text>
-<text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥1</text>
-<text font-size="1.8em" x="1880" y="92" fill="white">15 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-05-25</text>
 </svg>
