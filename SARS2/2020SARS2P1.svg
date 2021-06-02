@@ -5,7 +5,11 @@
 	<style type="text/css"><![CDATA[
 	.sb {
 	stroke-width:0.8;
-	stroke-opacity:50%;
+	stroke-opacity:0.7;
+	}
+	.sb:hover {
+	stroke-width:0.8;
+	stroke-opacity:1.0;
 	}
 	.compass {
 	fill: #fff;
@@ -26,19 +30,28 @@
 	fill: #fff;
 	pointer-events: none;
 	}
+	.legendcol {
+	stroke: none;
+	fill-opacity:0.85;
+	}
+	.legendcol:hover {
+	fill-opacity:1.0;
+	}
 	.cv {
 	stroke: none;
 	fill-opacity:0.15;
 	}
 	.cv:hover {
+	stroke: none;
 	fill-opacity:0.8;
 	}
-	.legendcol {
+	.SouthAmerica {
 	stroke: none;
 	fill-opacity:0.6;
 	}
-	.legendcol:hover {
-	fill-opacity:0.8;
+	.SouthAmerica:hover {
+	stroke: none;
+	fill-opacity:1.0;
 	}
 	a:link, a:visited {
 	cursor: pointer;
@@ -141,1503 +154,1503 @@
 <line x1="1210" y1="1068" x2="1215" y2="1093" style="stroke:silver;stroke-width:2" />
 <text font-size="2.0em" x="1215" y="122.938461538462" fill="white">29.9kb</text>
 <text font-size="2.0em" x="1215" y="1113" fill="white">1kb</text>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01 South America=1</title>
 	<line x1="1195.0" y1="1200.0" x2="1192.6" y2="1199.9" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  G713A  South America=1 [100.0%]  orf1ab polyprotein, G150S</title>
 	<circle cx="1046" cy="1199" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  C3828T  South America=1 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="950" cy="1198" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  A5648C  South America=1 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="894" cy="1197" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  C14408T  South America=1 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="624" cy="1195" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  G17259T  South America=1 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="537" cy="1194" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  G21974T  South America=1 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="392" cy="1193" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  G22132T  South America=1 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="387" cy="1193" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  A22812C  South America=1 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="366" cy="1193" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  G23012A  South America=1 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="360" cy="1193" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  A23063T  South America=1 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="358" cy="1193" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  A23403G  South America=1 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="348" cy="1193" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  C23525T  South America=1 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="344" cy="1193" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  C24642T  South America=1 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="310" cy="1192" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  G25088T  South America=1 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="296" cy="1192" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  T26149C  South America=1 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="263" cy="1192" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  G28167A  South America=1 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="201" cy="1191" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  C28512G  South America=1 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="190" cy="1191" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-01  G29414T  South America=1 [100.0%]  nucleocapsid phosphoprotein, A381S</title>
 	<circle cx="163" cy="1191" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03 South America=1</title>
 	<line x1="1195.0" y1="1199.8" x2="1192.6" y2="1199.7" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  C3828T  South America=1 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="950" cy="1189" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  A5648C  South America=1 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="894" cy="1187" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  G9105A  South America=1 [100.0%]  orf1ab polyprotein, S2947N</title>
 	<circle cx="788" cy="1182" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  C14408T  South America=1 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="625" cy="1175" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  G17259T  South America=1 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="537" cy="1172" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  G21974T  South America=1 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="392" cy="1165" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  G22017T  South America=1 [100.0%]  surface glycoprotein, W152L</title>
 	<circle cx="391" cy="1165" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  G22132T  South America=1 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="387" cy="1165" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  A22812C  South America=1 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="367" cy="1164" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  G23012A  South America=1 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="360" cy="1164" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  A23063T  South America=1 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="359" cy="1164" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  A23403G  South America=1 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="348" cy="1163" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  C23525T  South America=1 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="345" cy="1163" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  G24095T  South America=1 [100.0%]  surface glycoprotein, A845S</title>
 	<circle cx="327" cy="1163" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  C24642T  South America=1 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="310" cy="1162" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  G25088T  South America=1 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="297" cy="1161" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  T26149C  South America=1 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="264" cy="1160" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  A26449G  South America=1 [100.0%]  envelope protein, R69G</title>
 	<circle cx="255" cy="1159" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  G28167A  South America=1 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="202" cy="1157" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-10-03  C28512G  South America=1 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="191" cy="1157" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03 South America=2</title>
 	<line x1="1195.8" y1="1197.3" x2="1192.6" y2="1195.2" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  C3828T  South America=2 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="990" cy="1064" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  A5648C  South America=2 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="943" cy="1034" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  A8576C  South America=1 [50.0%]  orf1ab polyprotein, K2771Q</title>
 	<circle cx="868" cy="985" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G9105A  South America=1 [50.0%]  orf1ab polyprotein, S2947N</title>
 	<circle cx="854" cy="976" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G11083T  South America=1 [50.0%]  orf1ab polyprotein, L3606F</title>
 	<circle cx="803" cy="943" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  C14408T  South America=1 [50.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="717" cy="887" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G17259T  South America=2 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="643" cy="839" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G21974T  South America=2 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="522" cy="760" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G22017T  South America=1 [50.0%]  surface glycoprotein, W152L</title>
 	<circle cx="521" cy="760" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G22132T  South America=2 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="518" cy="758" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  A22812C  South America=2 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="500" cy="746" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G23012A  South America=2 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="495" cy="743" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  A23063T  South America=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="494" cy="742" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  A23403G  South America=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="485" cy="736" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  C23525T  South America=2 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="482" cy="734" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G24095T  South America=1 [50.0%]  surface glycoprotein, A845S</title>
 	<circle cx="467" cy="725" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  C24642T  South America=2 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="453" cy="716" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G25088T  South America=2 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="441" cy="708" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  T26149C  South America=2 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="414" cy="690" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  A26449G  South America=1 [50.0%]  envelope protein, R69G</title>
 	<circle cx="406" cy="685" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  G28167A  South America=2 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="362" cy="657" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-03  C28512G  South America=2 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="353" cy="651" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18 South America=2</title>
 	<line x1="1196.6" y1="1196.3" x2="1194.1" y2="1193.5" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  C3828T  South America=2 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="1032" cy="1015" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  A5648C  South America=2 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="994" cy="974" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  C7823T  South America=1 [50.0%]  orf1ab polyprotein, H2520Y</title>
 	<circle cx="949" cy="924" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  C8880A  South America=2 [100.0%]  orf1ab polyprotein, T2872K</title>
 	<circle cx="927" cy="900" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  C13967G  South America=2 [100.0%]  orf1ab polyprotein, A4568G</title>
 	<circle cx="822" cy="784" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  C14408T  South America=2 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="813" cy="774" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  G17259T  South America=2 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="754" cy="709" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  G21974T  South America=2 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="656" cy="602" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  G22132T  South America=2 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="653" cy="598" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  G22352A  South America=1 [50.0%]  surface glycoprotein, A264T</title>
 	<circle cx="648" cy="593" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  A22812C  South America=2 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="639" cy="583" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  G23012A  South America=2 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="634" cy="578" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  A23063T  South America=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="633" cy="577" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  A23403G  South America=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="626" cy="570" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  C23525T  South America=2 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="624" cy="567" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  C24642T  South America=2 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="601" cy="541" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  G25088T  South America=2 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="591" cy="531" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  G25793T  South America=1 [50.0%]  ORF3a protein, R134L</title>
 	<circle cx="577" cy="515" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  T26149C  South America=2 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="569" cy="507" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  G26538A  South America=1 [50.0%]  membrane glycoprotein, G6S</title>
 	<circle cx="561" cy="498" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  C28093T  South America=1 [50.0%]  ORF8 protein, S67F</title>
 	<circle cx="529" cy="463" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  G28167A  South America=2 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="528" cy="461" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-11-18  C28512G  South America=2 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="521" cy="453" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04 South America=1</title>
 	<line x1="1197.8" y1="1195.5" x2="1196.7" y2="1193.4" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  C3828T  South America=1 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="1088" cy="976" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  A5648C  South America=1 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="1063" cy="926" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  C14408T  South America=1 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="943" cy="685" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  G17259T  South America=1 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="903" cy="607" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  G21974T  South America=1 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="839" cy="477" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  G22132T  South America=1 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="836" cy="473" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  A22812C  South America=1 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="827" cy="454" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  G23012A  South America=1 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="824" cy="448" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  A23063T  South America=1 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="824" cy="447" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  A23403G  South America=1 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="819" cy="438" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  C23525T  South America=1 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="817" cy="434" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  C24642T  South America=1 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="802" cy="403" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  G25088T  South America=1 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="796" cy="391" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  T26149C  South America=1 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="781" cy="362" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  G28167A  South America=1 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="753" cy="306" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-04  C28512G  South America=1 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="749" cy="297" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16 South America=1</title>
 	<line x1="1198.7" y1="1195.2" x2="1198.1" y2="1192.8" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  C3828T  South America=1 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="1136" cy="958" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  A5648C  South America=1 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="1122" cy="904" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  C14408T  South America=1 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1053" cy="643" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  G17259T  South America=1 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="1031" cy="559" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  G21974T  South America=1 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="994" cy="418" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  G22132T  South America=1 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="993" cy="414" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  A22812C  South America=1 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="988" cy="393" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  G23012A  South America=1 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="986" cy="387" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  A23063T  South America=1 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="986" cy="386" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  A23403G  South America=1 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="983" cy="376" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  C23525T  South America=1 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="982" cy="372" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  C24642T  South America=1 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="973" cy="339" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  G25088T  South America=1 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="970" cy="326" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  T26149C  South America=1 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="961" cy="294" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  G28167A  South America=1 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="946" cy="234" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  C28320T  South America=1 [100.0%]  nucleocapsid phosphoprotein, T16M</title>
 	<circle cx="944" cy="229" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-16  C28512G  South America=1 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="943" cy="224" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17 South America=3</title>
 	<line x1="1198.8" y1="1195.1" x2="1197.7" y2="1190.5" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  C3828T  South America=3 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="1140" cy="957" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  A5648C  South America=3 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="1127" cy="903" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  T11296G  South America=1 [33.3%]  orf1ab polyprotein, F3677L</title>
 	<circle cx="1086" cy="734" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  C14408T  South America=3 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1063" cy="641" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  G17259T  South America=3 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="1042" cy="556" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  C19366T  South America=1 [33.3%]  orf1ab polyprotein, P6368S</title>
 	<circle cx="1027" cy="493" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  G21974T  South America=3 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1008" cy="415" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  G22132T  South America=3 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1006" cy="410" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  A22812C  South America=3 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1001" cy="390" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  G23012A  South America=3 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1000" cy="384" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  A23063T  South America=3 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1000" cy="382" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  A23403G  South America=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="997" cy="372" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  C23525T  South America=3 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="996" cy="368" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  C24642T  South America=3 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="988" cy="335" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  G25088T  South America=3 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="985" cy="322" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  T26149C  South America=3 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="977" cy="290" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  G28167A  South America=3 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="962" cy="230" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-17  C28512G  South America=3 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="960" cy="219" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18 South America=3</title>
 	<line x1="1198.9" y1="1195.1" x2="1197.8" y2="1190.4" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  C3828T  South America=3 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="1145" cy="956" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  A5648C  South America=3 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="1132" cy="902" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  C14408T  South America=3 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1073" cy="639" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  G17259T  South America=3 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="1053" cy="553" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  G21974T  South America=3 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1021" cy="412" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  G22132T  South America=3 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1020" cy="407" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  A22812C  South America=3 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1015" cy="387" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  G23012A  South America=3 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1014" cy="381" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  A23063T  South America=3 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1014" cy="379" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  A23403G  South America=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1011" cy="369" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  C23525T  South America=3 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1010" cy="365" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  C24642T  South America=3 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1003" cy="332" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  G25088T  South America=3 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1000" cy="318" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  T26149C  South America=3 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="993" cy="286" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  G28167A  South America=3 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="979" cy="226" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  C28512G  South America=3 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="977" cy="215" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-18  A29510G  South America=1 [33.3%]  nucleocapsid phosphoprotein, S413G</title>
 	<circle cx="970" cy="186" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21 South America=7</title>
 	<line x1="1199.1" y1="1195.1" x2="1197.9" y2="1188.0" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  C593T  South America=1 [14.3%]  orf1ab polyprotein, H110Y</title>
 	<circle cx="1174" cy="1052" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  C3828T  South America=7 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="1157" cy="954" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  A5648C  South America=7 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="1148" cy="898" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  C7923T  South America=1 [14.3%]  orf1ab polyprotein, S2553F</title>
 	<circle cx="1136" cy="829" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  C11750T  South America=1 [14.3%]  orf1ab polyprotein, L3829F</title>
 	<circle cx="1116" cy="713" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  C14408T  South America=7 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1102" cy="633" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  G17259T  South America=7 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="1087" cy="546" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  G21974T  South America=7 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1062" cy="403" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  G22132T  South America=7 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1061" cy="399" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  A22812C  South America=7 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1057" cy="378" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  G23012A  South America=7 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1056" cy="372" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  A23063T  South America=7 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1056" cy="370" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  A23403G  South America=7 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1054" cy="360" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  C23525T  South America=7 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1054" cy="356" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  C24642T  South America=7 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1048" cy="323" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  G25088T  South America=7 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1045" cy="309" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  T26149C  South America=7 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="1040" cy="277" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  G28167A  South America=7 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="1029" cy="216" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-21  C28512G  South America=7 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="1027" cy="205" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22 South America=3</title>
 	<line x1="1199.2" y1="1195.1" x2="1198.5" y2="1190.3" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  C3828T  South America=3 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="1162" cy="953" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  A5648C  South America=3 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="1153" cy="898" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  C12738T  South America=1 [33.3%]  orf1ab polyprotein, T4158I</title>
 	<circle cx="1119" cy="682" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  C14408T  South America=3 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1111" cy="631" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  G17259T  South America=3 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="1098" cy="545" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  C19366T  South America=1 [33.3%]  orf1ab polyprotein, P6368S</title>
 	<circle cx="1088" cy="481" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  G21974T  South America=3 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1076" cy="401" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  G22132T  South America=3 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1075" cy="396" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  A22812C  South America=3 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1072" cy="376" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  G23012A  South America=3 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1071" cy="370" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  A23063T  South America=3 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1070" cy="368" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  A23403G  South America=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1069" cy="358" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  C23525T  South America=3 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1068" cy="354" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  C24642T  South America=3 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1063" cy="320" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  G25088T  South America=3 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1061" cy="307" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  T26149C  South America=3 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="1056" cy="274" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  G28167A  South America=3 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="1046" cy="213" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-22  C28512G  South America=3 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="1045" cy="202" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23 South America=11</title>
 	<line x1="1199.3" y1="1195.0" x2="1198.1" y2="1186.5" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  A2172G  South America=2 [18.2%]  orf1ab polyprotein, K636R</title>
 	<circle cx="1173" cy="1003" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  A3275C  South America=2 [18.2%]  orf1ab polyprotein, T1004P</title>
 	<circle cx="1168" cy="969" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  C3828T  South America=9 [81.8%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="1166" cy="952" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  A5648C  South America=11 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="1158" cy="897" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  C6285T  South America=2 [18.2%]  orf1ab polyprotein, T2007I</title>
 	<circle cx="1155" cy="877" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  C6627T  South America=1 [9.1%]  orf1ab polyprotein, T2121I</title>
 	<circle cx="1154" cy="867" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  T11296G  South America=1 [9.1%]  orf1ab polyprotein, F3677L</title>
 	<circle cx="1134" cy="725" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  T11418C  South America=2 [18.2%]  orf1ab polyprotein, V3718A</title>
 	<circle cx="1134" cy="721" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  C14408T  South America=11 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1121" cy="630" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  C16457T  South America=2 [18.2%]  orf1ab polyprotein, S5398L</title>
 	<circle cx="1113" cy="567" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  G17259T  South America=9 [81.8%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="1109" cy="543" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  C21614T  South America=2 [18.2%]  surface glycoprotein, L18F</title>
 	<circle cx="1091" cy="410" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  C21638T  South America=2 [18.2%]  surface glycoprotein, P26S</title>
 	<circle cx="1091" cy="409" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  G21974T  South America=11 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1089" cy="399" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  G22132T  South America=9 [81.8%]  surface glycoprotein, R190S</title>
 	<circle cx="1089" cy="394" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  A22812C  South America=11 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1086" cy="374" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  G23012A  South America=11 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1085" cy="368" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  A23063T  South America=11 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1085" cy="366" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  A23403G  South America=11 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1083" cy="356" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  C23525T  South America=9 [81.8%]  surface glycoprotein, H655Y</title>
 	<circle cx="1083" cy="352" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  C24642T  South America=9 [81.8%]  surface glycoprotein, T1027I</title>
 	<circle cx="1078" cy="318" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  G24977C  South America=2 [18.2%]  surface glycoprotein, D1139H</title>
 	<circle cx="1077" cy="308" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  G25088T  South America=11 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1076" cy="304" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  T26149C  South America=11 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="1072" cy="272" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  A27897T  South America=2 [18.2%]  ORF8 protein, K2*</title>
 	<circle cx="1064" cy="219" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  G28167A  South America=9 [81.8%]  ORF8 protein, E92K</title>
 	<circle cx="1063" cy="210" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  C28512G  South America=11 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="1062" cy="200" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  G28628T  South America=1 [9.1%]  nucleocapsid phosphoprotein, A119S</title>
 	<circle cx="1061" cy="196" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-23  C29670T  South America=1 [9.1%]  ORF10 protein, T38I</title>
 	<circle cx="1057" cy="165" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24 South America=1</title>
 	<line x1="1199.4" y1="1195.0" x2="1199.1" y2="1192.6" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  C3828T  South America=1 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="1170" cy="952" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  A5648C  South America=1 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="1163" cy="896" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  C14408T  South America=1 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1131" cy="629" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  G17259T  South America=1 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="1120" cy="541" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  G21974T  South America=1 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1103" cy="397" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  G22132T  South America=1 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1102" cy="393" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  A22812C  South America=1 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1100" cy="372" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  G23012A  South America=1 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1099" cy="366" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  A23063T  South America=1 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1099" cy="364" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  A23403G  South America=1 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1098" cy="354" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  C23525T  South America=1 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1097" cy="350" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  C24642T  South America=1 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1093" cy="316" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  G25088T  South America=1 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1092" cy="302" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  T26149C  South America=1 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="1088" cy="270" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  G28167A  South America=1 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="1080" cy="208" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-24  C28512G  South America=1 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="1079" cy="198" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25 South America=2</title>
 	<line x1="1199.5" y1="1195.0" x2="1199.1" y2="1191.2" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  C3828T  South America=2 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="1174" cy="951" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  A5648C  South America=2 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="1169" cy="896" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  T11296G  South America=1 [50.0%]  orf1ab polyprotein, F3677L</title>
 	<circle cx="1151" cy="723" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  C11750T  South America=1 [50.0%]  orf1ab polyprotein, L3829F</title>
 	<circle cx="1149" cy="709" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  C14408T  South America=2 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1141" cy="627" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  G17259T  South America=2 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="1132" cy="540" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  C19366T  South America=1 [50.0%]  orf1ab polyprotein, P6368S</title>
 	<circle cx="1125" cy="476" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  G21974T  South America=2 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1117" cy="396" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  G22132T  South America=2 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1116" cy="391" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  A22812C  South America=2 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1114" cy="370" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  G23012A  South America=2 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1114" cy="364" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  A23063T  South America=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1113" cy="363" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  A23403G  South America=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1112" cy="352" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  C23525T  South America=2 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1112" cy="348" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  C24642T  South America=2 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1108" cy="314" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  G25088T  South America=2 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1107" cy="301" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  T26149C  South America=2 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="1104" cy="268" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  G28167A  South America=2 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="1097" cy="206" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  C28512G  South America=2 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="1096" cy="196" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-25  A29403G  South America=1 [50.0%]  nucleocapsid phosphoprotein, D377G</title>
 	<circle cx="1093" cy="169" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26 South America=1</title>
 	<line x1="1199.6" y1="1195.0" x2="1199.4" y2="1192.6" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  C3828T  South America=1 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="1179" cy="951" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  A5648C  South America=1 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="1174" cy="895" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  G11083T  South America=1 [100.0%]  orf1ab polyprotein, L3606F</title>
 	<circle cx="1159" cy="728" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  C14408T  South America=1 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1151" cy="627" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  G17259T  South America=1 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="1143" cy="539" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  G21974T  South America=1 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1131" cy="395" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  G22132T  South America=1 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1130" cy="390" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  A22812C  South America=1 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1128" cy="369" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  G23012A  South America=1 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1128" cy="363" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  A23063T  South America=1 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1128" cy="361" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  A23403G  South America=1 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1127" cy="351" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  C23525T  South America=1 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1127" cy="347" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  C24642T  South America=1 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1124" cy="313" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  G25088T  South America=1 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1122" cy="299" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  T26149C  South America=1 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="1120" cy="267" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  G28167A  South America=1 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="1114" cy="205" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-26  C28512G  South America=1 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="1113" cy="194" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27 South America=2</title>
 	<line x1="1199.7" y1="1195.0" x2="1199.4" y2="1191.2" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  G1358A  South America=1 [50.0%]  orf1ab polyprotein, V365I</title>
 	<circle cx="1188" cy="1026" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  C3828T  South America=2 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="1183" cy="951" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  A5648C  South America=2 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="1179" cy="895" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  T11296G  South America=1 [50.0%]  orf1ab polyprotein, F3677L</title>
 	<circle cx="1167" cy="721" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  C14408T  South America=2 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1161" cy="626" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  G17259T  South America=2 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="1155" cy="538" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  C19366T  South America=1 [50.0%]  orf1ab polyprotein, P6368S</title>
 	<circle cx="1150" cy="474" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  G21974T  South America=2 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1145" cy="394" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  G22132T  South America=2 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1144" cy="389" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  A22812C  South America=2 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1143" cy="368" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  G23012A  South America=2 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1142" cy="362" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  A23063T  South America=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1142" cy="360" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  A23403G  South America=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1142" cy="350" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  C23525T  South America=2 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1141" cy="346" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  C24642T  South America=2 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1139" cy="312" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  G25088T  South America=2 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1138" cy="298" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  T26149C  South America=2 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="1136" cy="265" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  G28167A  South America=2 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="1132" cy="203" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-27  C28512G  South America=2 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="1131" cy="193" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28 South America=13</title>
 	<line x1="1199.7" y1="1195.0" x2="1199.3" y2="1185.8" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  C3828T  South America=13 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="1187" cy="950" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  A5648C  South America=13 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="1184" cy="894" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  G6536T  South America=1 [7.7%]  orf1ab polyprotein, G2091C</title>
 	<circle cx="1183" cy="867" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  C6627T  South America=1 [7.7%]  orf1ab polyprotein, T2121I</title>
 	<circle cx="1183" cy="864" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  G14030A  South America=1 [7.7%]  orf1ab polyprotein, R4589Q</title>
 	<circle cx="1171" cy="637" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  C14120T  South America=1 [7.7%]  orf1ab polyprotein, P4619L</title>
 	<circle cx="1171" cy="634" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  C14408T  South America=13 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1170" cy="625" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  G17259T  South America=13 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="1166" cy="538" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  C19366T  South America=1 [7.7%]  orf1ab polyprotein, P6368S</title>
 	<circle cx="1163" cy="473" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  G21974T  South America=13 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1158" cy="393" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  G22132T  South America=13 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1158" cy="388" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  A22812C  South America=13 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1157" cy="367" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  G23012A  South America=13 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1157" cy="361" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  A23063T  South America=13 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1157" cy="359" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  A23403G  South America=13 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1156" cy="349" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  C23525T  South America=13 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1156" cy="345" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  C23997T  South America=1 [7.7%]  surface glycoprotein, P812L</title>
 	<circle cx="1155" cy="331" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  C24642T  South America=13 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1154" cy="311" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  G25088T  South America=13 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1153" cy="297" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  T26149C  South America=13 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="1152" cy="264" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  G26365T  South America=1 [7.7%]  envelope protein, A41S</title>
 	<circle cx="1151" cy="258" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  C27476T  South America=1 [7.7%]  ORF7a protein, T28I</title>
 	<circle cx="1150" cy="224" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  G28167A  South America=13 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="1149" cy="202" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-28  C28512G  South America=13 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="1148" cy="192" r="5" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29 South America=6</title>
 	<line x1="1199.8" y1="1195.0" x2="1199.6" y2="1188.2" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  C3828T  South America=6 [100.0%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="1191" cy="950" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  A5648C  South America=6 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="1189" cy="894" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  C7923T  South America=1 [16.7%]  orf1ab polyprotein, S2553F</title>
 	<circle cx="1187" cy="824" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  T11296G  South America=2 [33.3%]  orf1ab polyprotein, F3677L</title>
 	<circle cx="1184" cy="720" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  C14408T  South America=6 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1180" cy="625" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  G17259T  South America=6 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="1177" cy="537" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  C19366T  South America=1 [16.7%]  orf1ab polyprotein, P6368S</title>
 	<circle cx="1175" cy="472" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  G21974T  South America=6 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1172" cy="392" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  G22132T  South America=6 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1172" cy="387" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  A22812C  South America=6 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1171" cy="366" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  G23012A  South America=6 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1171" cy="360" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  A23063T  South America=6 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1171" cy="359" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  A23403G  South America=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1171" cy="348" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  C23525T  South America=6 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1171" cy="344" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  C24642T  South America=6 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1169" cy="310" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  G25088T  South America=6 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1169" cy="296" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  T26149C  South America=6 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="1168" cy="264" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  G28167A  South America=6 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="1166" cy="202" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  C28512G  South America=6 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="1165" cy="191" r="3" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  C28725T  South America=2 [33.3%]  nucleocapsid phosphoprotein, P151L</title>
 	<circle cx="1165" cy="184" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-29  C29073T  South America=2 [33.3%]  nucleocapsid phosphoprotein, A267V</title>
 	<circle cx="1165" cy="174" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30 South America=9</title>
 	<line x1="1199.9" y1="1195.0" x2="1199.8" y2="1187.0" style="stroke:cyan;" class="sb" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  C3828T  South America=8 [88.9%]  orf1ab polyprotein, S1188L</title>
 	<circle cx="1196" cy="950" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  G5036A  South America=1 [11.1%]  orf1ab polyprotein, G1591R</title>
 	<circle cx="1195" cy="913" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  A5648C  South America=9 [100.0%]  orf1ab polyprotein, K1795Q</title>
 	<circle cx="1195" cy="894" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  C10401T  South America=1 [11.1%]  orf1ab polyprotein, A3379V</title>
 	<circle cx="1192" cy="748" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  T11296G  South America=2 [22.2%]  orf1ab polyprotein, F3677L</title>
 	<circle cx="1192" cy="720" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  C14408T  South America=9 [100.0%]  orf1ab polyprotein, P4715L</title>
 	<circle cx="1190" cy="624" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  C16883A  South America=1 [11.1%]  orf1ab polyprotein, T5540N</title>
 	<circle cx="1189" cy="548" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  G17259T  South America=9 [100.0%]  orf1ab polyprotein, E5665D</title>
 	<circle cx="1189" cy="537" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  C19366T  South America=2 [22.2%]  orf1ab polyprotein, P6368S</title>
 	<circle cx="1188" cy="472" r="2" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  G21974T  South America=9 [100.0%]  surface glycoprotein, D138Y</title>
 	<circle cx="1186" cy="392" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  G22132T  South America=9 [100.0%]  surface glycoprotein, R190S</title>
 	<circle cx="1186" cy="387" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  A22812C  South America=9 [100.0%]  surface glycoprotein, K417T</title>
 	<circle cx="1186" cy="366" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  G23012A  South America=9 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1186" cy="360" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  A23063T  South America=9 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1186" cy="358" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  A23403G  South America=9 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1185" cy="348" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  C23525T  South America=9 [100.0%]  surface glycoprotein, H655Y</title>
 	<circle cx="1185" cy="344" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  C24642T  South America=9 [100.0%]  surface glycoprotein, T1027I</title>
 	<circle cx="1185" cy="310" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  G25088T  South America=9 [100.0%]  surface glycoprotein, V1176F</title>
 	<circle cx="1185" cy="296" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  A25225G  South America=1 [11.1%]  surface glycoprotein, I1221M</title>
 	<circle cx="1184" cy="292" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  T26149C  South America=9 [100.0%]  ORF3a protein, S253P</title>
 	<circle cx="1184" cy="263" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  G26428T  South America=1 [11.1%]  envelope protein, V62F</title>
 	<circle cx="1184" cy="255" r="1" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  G28167A  South America=9 [100.0%]  ORF8 protein, E92K</title>
 	<circle cx="1183" cy="201" r="4" style="fill:cyan;" class="cv" />
 </g>
-<g>
+<g class="SouthAmerica">
 	<title>2020-12-30  C28512G  South America=9 [100.0%]  nucleocapsid phosphoprotein, P80R</title>
 	<circle cx="1183" cy="191" r="4" style="fill:cyan;" class="cv" />
 </g>
@@ -1663,7 +1676,9 @@
 <rect x="4" y="125" width="220" height="227" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
 <rect x="4" y="353" width="220" height="110" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
 <text font-size="2.1em" x="35" y="160" fill="white">Continents</text>
+<g class="SouthAmerica">
 <circle cx="25" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;" class="legendcol" />
+</g>
 <text font-size="1.6em" x="40" y="198" fill="white">South America</text>
 <circle cx="25" cy="375" r="1.20411998265592" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
 <circle cx="61" cy="375" r="4.1655707406329" style="fill:white;stroke:lightgrey;stroke-width:0.2;" />
@@ -1761,5 +1776,21 @@
           selectedElement = false;
         }
       }
+function hoverByClass(classname){
+        var elms=document.getElementsByClassName(classname);
+        for(var i=0;i<elms.length;i++){
+                elms[i].onmouseover = function(){
+                        for(var k=0;k<elms.length;k++){
+                                elms[k].style.opacity=1;
+                        }
+                };
+                elms[i].onmouseout = function(){
+                        for(var k=0;k<elms.length;k++){
+                                elms[k].style.opacity=0.7;
+                        }
+                };
+        }
+}
+hoverByClass("SouthAmerica");
     ]]></script>
 </svg>
