@@ -110,12 +110,12 @@
 	<line x1="1208" y1="1029" x2="1208" y2="189" style="stroke:grey;stroke-width:8" />
 </g>
 <line x1="1200" y1="187.362637362637" x2="1200" y2="1030" style="stroke:white;stroke-width:3" />
-<line x1="1204" y1="187.362637362637" x2="1210" y2="187.362637362637" style="stroke:silver;stroke-width:2" />
-<line x1="1210" y1="187.362637362637" x2="1215" y2="162.362637362637" style="stroke:silver;stroke-width:2" />
-<line x1="1204" y1="1030" x2="1210" y2="1030" style="stroke:silver;stroke-width:2" />
-<line x1="1210" y1="1030" x2="1215" y2="1055" style="stroke:silver;stroke-width:2" />
-<text font-size="2.0em" x="1215" y="162.362637362637" fill="white">25.4kb</text>
-<text font-size="2.0em" x="1215" y="1075" fill="white">21.6kb</text>
+<line x1="1204" y1="187.362637362637" x2="1207" y2="187.362637362637" style="stroke:silver;stroke-width:2" />
+<line x1="1207" y1="187.362637362637" x2="1210" y2="172.362637362637" style="stroke:silver;stroke-width:2" />
+<line x1="1204" y1="1030" x2="1207" y2="1030" style="stroke:silver;stroke-width:2" />
+<line x1="1207" y1="1030" x2="1210" y2="1045" style="stroke:silver;stroke-width:2" />
+<text font-size="1.25em" x="1211" y="172.362637362637" fill="white">25.4kb</text>
+<text font-size="1.25em" x="1211" y="1058" fill="white">21.6kb</text>
 <g class="Asia">
 	<title>2020-10-02 Asia=1</title>
 	<line x1="1195.0" y1="1199.9" x2="1193.6" y2="1199.8" style="stroke:cyan;" class="sb" />
@@ -127,6 +127,10 @@
 <g class="Asia">
 	<title>2020-10-02  GG21986G  Asia=1 [100.0%]  surface glycoprotein, G142V/del</title>
 	<circle cx="935.3" cy="1193.2" r="9.4" style="fill:cyan;" class="cv" />
+</g>
+<g class="Asia">
+	<title>2020-10-02  C21998A  Asia=1 [100.0%]  surface glycoprotein, H146N</title>
+	<circle cx="932.6" cy="1193.1" r="9.4" style="fill:cyan;" class="cv" />
 </g>
 <g class="Asia">
 	<title>2020-10-02  T22917G  Asia=1 [100.0%]  surface glycoprotein, L452R</title>
@@ -159,6 +163,10 @@
 <g class="Asia">
 	<title>2020-10-03  GG21986G  Asia=1 [33.3%]  surface glycoprotein, G142V/del</title>
 	<circle cx="935.4" cy="1188.6" r="5.5" style="fill:cyan;" class="cv" />
+</g>
+<g class="Asia">
+	<title>2020-10-03  C21998A  Asia=1 [33.3%]  surface glycoprotein, H146N</title>
+	<circle cx="932.8" cy="1188.5" r="5.5" style="fill:cyan;" class="cv" />
 </g>
 <g class="Asia">
 	<title>2020-10-03  A22029AGAGTT  Asia=1 [33.3%]  surface glycoprotein, F157S/ins</title>
@@ -550,8 +558,8 @@
 <rect x="4" y="464" width="220" height="51" rx="15" style="fill:#1B1B1B;stroke-width:0;fill-opacity:0.8;" />
 <rect x="150" y="475" width="45" height="30" rx="16" style="fill:blue;stroke:black;stroke-width:2;" />
 <rect x="30" y="475" width="90" height="30" rx="16" style="fill:blue;stroke:black;stroke-width:2;" />
-<a href="https://bcgsc.github.io/SARS2_2021/2021ratioSARS2spike_B1617.svg"><text font-size="1.4em" x="55" y="497" fill="white">2021</text></a>
-<a href="https://bcgsc.github.io/SARS2/2020SARS2spike_B1617.svg"><text font-size="1.4em" x="165" y="497" fill="white">#</text></a>
+<a href="https://bcgsc.github.io/SARS2_2021/2021ratioSARS2spike_B1617.svg"><title>change year</title><text font-size="1.4em" x="55" y="497" fill="white">2021</text></a>
+<a href="https://bcgsc.github.io/SARS2/2020SARS2spike_B1617.svg"><title>view counts</title><text font-size="1.4em" x="165" y="497" fill="white">#</text></a>
 <text font-size="2.1em" x="35" y="160" fill="white">Continents</text>
 <g class="Asia">
 <circle cx="25" cy="190" r="6" style="fill:cyan;stroke:black;stroke-width:0;" class="legendcol" />
@@ -573,8 +581,8 @@
 <rect x="1865" y="4" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 6 continents</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥1</text>
-<text font-size="1.8em" x="1880" y="92" fill="white">20 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-06-03</text>
+<text font-size="1.8em" x="1880" y="92" fill="white">21 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-06-04</text>
  <script type="text/javascript"><![CDATA[
         var transformMatrix = [1, 0, 0, 1, 0, 0];
         var svg = document.getElementById('map-svg');
