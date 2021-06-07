@@ -237,19 +237,19 @@
 	stroke: none;
 	fill-opacity:1.0;
 	}
-	.BurkinaFaso {
-	stroke: none;
-	fill-opacity:0.6;
-	}
-	.BurkinaFaso:hover {
-	stroke: none;
-	fill-opacity:1.0;
-	}
 	.Botswana {
 	stroke: none;
 	fill-opacity:0.6;
 	}
 	.Botswana:hover {
+	stroke: none;
+	fill-opacity:1.0;
+	}
+	.BurkinaFaso {
+	stroke: none;
+	fill-opacity:0.6;
+	}
+	.BurkinaFaso:hover {
 	stroke: none;
 	fill-opacity:1.0;
 	}
@@ -493,7 +493,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-02 Burkina Faso=2</title>
-	<line x1="1200.9" y1="1173.4" x2="1201.0" y2="1171.2" style="stroke:#bc80bd;" class="sb" />
+	<line x1="1200.9" y1="1173.4" x2="1201.0" y2="1171.2" style="stroke:#ccebc5;" class="sb" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-01-02  C21614T  South Africa=8 [34.8%]  surface glycoprotein, L18F</title>
@@ -582,7 +582,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-02  A23403G  Senegal=4 [100.0%] Nigeria=4 [100.0%] Ghana=3 [100.0%] Burkina Faso=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1219.8" cy="624.1" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1219.8" cy="624.1" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Nigeria">
 	<title>2021-01-02  G23593C  Nigeria=3 [75.0%]  surface glycoprotein, Q677H</title>
@@ -610,7 +610,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-02  C24378T  Burkina Faso=2 [100.0%]  surface glycoprotein, S939F</title>
-	<circle cx="1227.2" cy="409.9" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1227.2" cy="409.9" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Ghana">
 	<title>2021-01-02  T24506G  Ghana=2 [66.7%]  surface glycoprotein, S982A</title>
@@ -908,20 +908,20 @@
 <g class="Rwanda">
 	<circle cx="1239.7" cy="625.1" r="1.3" style="fill:#6495ED;" class="cv" />
 </g>
-<g class="DRC">
-	<circle cx="1239.7" cy="625.1" r="1.3" style="fill:#b3de69;" class="cv" />
-</g>
 <g class="Ghana">
-	<title>2021-01-04  A23403G  Morocco=4 [100.0%] Senegal=3 [100.0%] Rwanda=2 [25.0%] DRC=2 [100.0%] Ghana=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1239.7" cy="625.1" r="1.3" style="fill:lime;" class="cv" />
 </g>
-<g class="Ghana">
-	<title>2021-01-04  C23604A  Ghana=2 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1242.7" cy="581.0" r="1.3" style="fill:lime;" class="cv" />
+<g class="DRC">
+	<title>2021-01-04  A23403G  Morocco=4 [100.0%] Senegal=3 [100.0%] Rwanda=2 [25.0%] Ghana=2 [100.0%] DRC=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1239.7" cy="625.1" r="1.3" style="fill:#b3de69;" class="cv" />
 </g>
 <g class="Rwanda">
 	<title>2021-01-04  C23604G  Rwanda=6 [75.0%]  surface glycoprotein, P681R</title>
 	<circle cx="1242.7" cy="581.0" r="2.4" style="fill:#6495ED;" class="cv" />
+</g>
+<g class="Ghana">
+	<title>2021-01-04  C23604A  Ghana=2 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1242.7" cy="581.0" r="1.3" style="fill:lime;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-01-04  C23664T  South Africa=95 [93.1%]  surface glycoprotein, A701V</title>
@@ -1095,12 +1095,6 @@
 <g class="Nigeria">
 	<circle cx="1249.5" cy="625.9" r="1.3" style="fill:yellow;" class="cv" />
 </g>
-<g class="Zimbabwe">
-	<circle cx="1249.5" cy="625.9" r="1.3" style="fill:#cab2d6;" class="cv" />
-</g>
-<g class="Mozambique">
-	<circle cx="1249.5" cy="625.9" r="1.3" style="fill:#CC00FF;" class="cv" />
-</g>
 <g class="DRC">
 	<circle cx="1249.5" cy="625.9" r="1.3" style="fill:#b3de69;" class="cv" />
 </g>
@@ -1108,8 +1102,14 @@
 	<circle cx="1249.5" cy="625.9" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Madagascar">
-	<title>2021-01-05  A23403G  Ghana=4 [100.0%] Nigeria=2 [66.7%] Zimbabwe=2 [100.0%] Mozambique=2 [100.0%] DRC=2 [100.0%] Morocco=2 [100.0%] Madagascar=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1249.5" cy="625.9" r="1.3" style="fill:#F08080;" class="cv" />
+</g>
+<g class="Zimbabwe">
+	<circle cx="1249.5" cy="625.9" r="1.3" style="fill:#cab2d6;" class="cv" />
+</g>
+<g class="Mozambique">
+	<title>2021-01-05  A23403G  Ghana=4 [100.0%] Nigeria=2 [66.7%] DRC=2 [100.0%] Morocco=2 [100.0%] Madagascar=2 [100.0%] Zimbabwe=2 [100.0%] Mozambique=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1249.5" cy="625.9" r="1.3" style="fill:#CC00FF;" class="cv" />
 </g>
 <g class="Ghana">
 	<title>2021-01-05  C23604A  Ghana=3 [75.0%]  surface glycoprotein, P681H</title>
@@ -1177,7 +1177,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-06 Burkina Faso=2</title>
-	<line x1="1203.6" y1="1164.9" x2="1203.9" y2="1162.8" style="stroke:#bc80bd;" class="sb" />
+	<line x1="1203.6" y1="1164.9" x2="1203.9" y2="1162.8" style="stroke:#ccebc5;" class="sb" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-01-06  C21614T  South Africa=13 [26.5%]  surface glycoprotein, L18F</title>
@@ -1257,36 +1257,36 @@
 	<title>2021-01-06  A23403G  South Africa=49 [100.0%] Ghana=30 [96.8%]  surface glycoprotein, D614G</title>
 	<circle cx="1259.4" cy="626.8" r="4.2" style="fill:lime;" class="cv" />
 </g>
-<g class="Morocco">
-	<circle cx="1259.4" cy="626.8" r="2.0" style="fill:#FFBBFF;" class="cv" />
-</g>
 <g class="Tunisia">
 	<circle cx="1259.4" cy="626.8" r="2.0" style="fill:#80b1d3;" class="cv" />
+</g>
+<g class="Morocco">
+	<circle cx="1259.4" cy="626.8" r="2.0" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Madagascar">
 	<circle cx="1259.4" cy="626.8" r="2.0" style="fill:#F08080;" class="cv" />
 </g>
+<g class="BurkinaFaso">
+	<circle cx="1259.4" cy="626.8" r="1.3" style="fill:#ccebc5;" class="cv" />
+</g>
 <g class="Mayotte">
 	<circle cx="1259.4" cy="626.8" r="1.3" style="fill:white;" class="cv" />
 </g>
-<g class="BurkinaFaso">
-	<circle cx="1259.4" cy="626.8" r="1.3" style="fill:#bc80bd;" class="cv" />
-</g>
 <g class="Nigeria">
-	<title>2021-01-06  A23403G  Morocco=4 [100.0%] Tunisia=4 [100.0%] Madagascar=4 [100.0%] Mayotte=2 [100.0%] Burkina Faso=2 [100.0%] Nigeria=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-01-06  A23403G  Tunisia=4 [100.0%] Morocco=4 [100.0%] Madagascar=4 [100.0%] Burkina Faso=2 [100.0%] Mayotte=2 [100.0%] Nigeria=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1259.4" cy="626.8" r="1.3" style="fill:yellow;" class="cv" />
 </g>
 <g class="Madagascar">
 	<title>2021-01-06  C23591A  Madagascar=4 [100.0%]  surface glycoprotein, Q677K</title>
 	<circle cx="1263.7" cy="585.7" r="2.0" style="fill:#F08080;" class="cv" />
 </g>
-<g class="Ghana">
-	<title>2021-01-06  C23604A  Ghana=21 [67.7%]  surface glycoprotein, P681H</title>
-	<circle cx="1264.0" cy="582.9" r="3.8" style="fill:lime;" class="cv" />
-</g>
 <g class="Rwanda">
 	<title>2021-01-06  C23604G  Rwanda=2 [100.0%]  surface glycoprotein, P681R</title>
 	<circle cx="1264.0" cy="582.9" r="1.3" style="fill:#6495ED;" class="cv" />
+</g>
+<g class="Ghana">
+	<title>2021-01-06  C23604A  Ghana=21 [67.7%]  surface glycoprotein, P681H</title>
+	<circle cx="1264.0" cy="582.9" r="3.8" style="fill:lime;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-01-06  C23664T  South Africa=40 [81.6%]  surface glycoprotein, A701V</title>
@@ -1613,7 +1613,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-08 Burkina Faso=2</title>
-	<line x1="1205.9" y1="1157.8" x2="1206.1" y2="1155.7" style="stroke:#bc80bd;" class="sb" />
+	<line x1="1205.9" y1="1157.8" x2="1206.1" y2="1155.7" style="stroke:#ccebc5;" class="sb" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-01-08  C21614T  South Africa=7 [58.3%]  surface glycoprotein, L18F</title>
@@ -1745,23 +1745,23 @@
 	<title>2021-01-08  A23403G  Reunion=10 [100.0%] Ghana=9 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1279.1" cy="629.2" r="2.8" style="fill:lime;" class="cv" />
 </g>
+<g class="Tunisia">
+	<circle cx="1279.1" cy="629.2" r="1.3" style="fill:#80b1d3;" class="cv" />
+</g>
 <g class="Madagascar">
 	<circle cx="1279.1" cy="629.2" r="1.3" style="fill:#F08080;" class="cv" />
 </g>
 <g class="BurkinaFaso">
-	<circle cx="1279.1" cy="629.2" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<title>2021-01-08  A23403G  Tunisia=2 [100.0%] Madagascar=2 [100.0%] Burkina Faso=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1279.1" cy="629.2" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
-<g class="Tunisia">
-	<title>2021-01-08  A23403G  Madagascar=2 [100.0%] Burkina Faso=2 [100.0%] Tunisia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1279.1" cy="629.2" r="1.3" style="fill:#80b1d3;" class="cv" />
+<g class="BurkinaFaso">
+	<title>2021-01-08  G23587C  Burkina Faso=2 [100.0%]  surface glycoprotein, Q675H</title>
+	<circle cx="1284.7" cy="589.1" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Mayotte">
 	<title>2021-01-08  G23587T  Mayotte=2 [18.2%]  surface glycoprotein, Q675H</title>
 	<circle cx="1284.7" cy="589.1" r="1.3" style="fill:white;" class="cv" />
-</g>
-<g class="BurkinaFaso">
-	<title>2021-01-08  G23587C  Burkina Faso=2 [100.0%]  surface glycoprotein, Q675H</title>
-	<circle cx="1284.7" cy="589.1" r="1.3" style="fill:#bc80bd;" class="cv" />
 </g>
 <g class="Madagascar">
 	<title>2021-01-08  C23591A  Madagascar=2 [100.0%]  surface glycoprotein, Q677K</title>
@@ -1771,6 +1771,10 @@
 	<title>2021-01-08  G23593C  Nigeria=8 [26.7%]  surface glycoprotein, Q677H</title>
 	<circle cx="1284.8" cy="587.8" r="2.7" style="fill:yellow;" class="cv" />
 </g>
+<g class="Rwanda">
+	<title>2021-01-08  C23604G  Rwanda=2 [100.0%]  surface glycoprotein, P681R</title>
+	<circle cx="1285.2" cy="585.4" r="1.3" style="fill:#6495ED;" class="cv" />
+</g>
 <g class="Nigeria">
 	<title>2021-01-08  C23604A  Nigeria=15 [50.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1285.2" cy="585.4" r="3.4" style="fill:yellow;" class="cv" />
@@ -1778,10 +1782,6 @@
 <g class="Ghana">
 	<title>2021-01-08  C23604A  Ghana=9 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1285.2" cy="585.4" r="2.8" style="fill:lime;" class="cv" />
-</g>
-<g class="Rwanda">
-	<title>2021-01-08  C23604G  Rwanda=2 [100.0%]  surface glycoprotein, P681R</title>
-	<circle cx="1285.2" cy="585.4" r="1.3" style="fill:#6495ED;" class="cv" />
 </g>
 <g class="Reunion">
 	<title>2021-01-08  G23628T  Reunion=3 [30.0%]  surface glycoprotein, S689I</title>
@@ -1832,11 +1832,11 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-08  G25244T  Burkina Faso=2 [100.0%]  surface glycoprotein, V1228L</title>
-	<circle cx="1334.6" cy="228.4" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1334.6" cy="228.4" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-08  G25311T  Burkina Faso=2 [100.0%]  surface glycoprotein, C1250F</title>
-	<circle cx="1336.7" cy="213.8" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1336.7" cy="213.8" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-01-09 South Africa=18</title>
@@ -1868,7 +1868,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-09 Burkina Faso=2</title>
-	<line x1="1205.2" y1="1166.9" x2="1205.5" y2="1164.8" style="stroke:#bc80bd;" class="sb" />
+	<line x1="1205.2" y1="1166.9" x2="1205.5" y2="1164.8" style="stroke:#ccebc5;" class="sb" />
 </g>
 <g class="Egypt">
 	<title>2021-01-09  C21597T  Egypt=5 [13.5%]  surface glycoprotein, S12F</title>
@@ -1959,23 +1959,19 @@
 	<title>2021-01-09  A23403G  Mayotte=7 [87.5%] Reunion=5 [100.0%] Nigeria=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1289.0" cy="630.6" r="2.2" style="fill:yellow;" class="cv" />
 </g>
-<g class="BurkinaFaso">
-	<circle cx="1289.0" cy="630.6" r="1.3" style="fill:#bc80bd;" class="cv" />
+<g class="Angola">
+	<circle cx="1289.0" cy="630.6" r="1.3" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="Ghana">
 	<circle cx="1289.0" cy="630.6" r="1.3" style="fill:lime;" class="cv" />
 </g>
-<g class="Angola">
-	<title>2021-01-09  A23403G  Burkina Faso=2 [100.0%] Ghana=2 [100.0%] Angola=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1289.0" cy="630.6" r="1.3" style="fill:#ADD8E6;" class="cv" />
+<g class="BurkinaFaso">
+	<title>2021-01-09  A23403G  Angola=2 [100.0%] Ghana=2 [100.0%] Burkina Faso=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1289.0" cy="630.6" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Egypt">
 	<title>2021-01-09  G23593T  Egypt=12 [32.4%]  surface glycoprotein, Q677H</title>
 	<circle cx="1295.4" cy="589.4" r="3.1" style="fill:orange;" class="cv" />
-</g>
-<g class="Egypt">
-	<title>2021-01-09  C23604G  Egypt=8 [21.6%]  surface glycoprotein, P681R</title>
-	<circle cx="1295.8" cy="587.0" r="2.7" style="fill:orange;" class="cv" />
 </g>
 <g class="Nigeria">
 	<circle cx="1295.8" cy="587.0" r="2.0" style="fill:yellow;" class="cv" />
@@ -1986,6 +1982,10 @@
 <g class="Ghana">
 	<title>2021-01-09  C23604A  Nigeria=4 [80.0%] Mayotte=2 [25.0%] Ghana=2 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1295.8" cy="587.0" r="1.3" style="fill:lime;" class="cv" />
+</g>
+<g class="Egypt">
+	<title>2021-01-09  C23604G  Egypt=8 [21.6%]  surface glycoprotein, P681R</title>
+	<circle cx="1295.8" cy="587.0" r="2.7" style="fill:orange;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-01-09  C23664T  South Africa=17 [94.4%]  surface glycoprotein, A701V</title>
@@ -2002,11 +2002,11 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-09  C23709T  Nigeria=4 [80.0%] Mayotte=2 [25.0%] Ghana=2 [100.0%] Burkina Faso=2 [100.0%]  surface glycoprotein, T716I</title>
-	<circle cx="1299.3" cy="564.2" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1299.3" cy="564.2" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-09  G24124T  Burkina Faso=2 [100.0%]  surface glycoprotein, K854N</title>
-	<circle cx="1313.4" cy="474.1" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1313.4" cy="474.1" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Egypt">
 	<title>2021-01-09  C24138T  Egypt=2 [5.4%]  surface glycoprotein, T859I</title>
@@ -2058,7 +2058,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-10 Burkina Faso=2</title>
-	<line x1="1204.1" y1="1176.7" x2="1204.4" y2="1174.6" style="stroke:#bc80bd;" class="sb" />
+	<line x1="1204.1" y1="1176.7" x2="1204.4" y2="1174.6" style="stroke:#ccebc5;" class="sb" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-01-10  A21801C  South Africa=8 [100.0%]  surface glycoprotein, D80A</title>
@@ -2074,7 +2074,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-10  G22132T  Burkina Faso=2 [100.0%]  surface glycoprotein, R190S</title>
-	<circle cx="1250.8" cy="907.5" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1250.8" cy="907.5" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-01-10  A22206G  South Africa=8 [100.0%]  surface glycoprotein, D215G</title>
@@ -2098,7 +2098,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-10  T22917G  Burkina Faso=2 [100.0%]  surface glycoprotein, L452R</title>
-	<circle cx="1280.4" cy="737.5" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1280.4" cy="737.5" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Mayotte">
 	<title>2021-01-10  G22992A  Mayotte=4 [66.7%]  surface glycoprotein, S477N</title>
@@ -2139,7 +2139,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-10  G23402A  Burkina Faso=2 [100.0%]  surface glycoprotein, D614N</title>
-	<circle cx="1298.6" cy="632.5" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1298.6" cy="632.5" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<circle cx="1298.7" cy="632.2" r="2.7" style="fill:cyan;" class="cv" />
@@ -2236,7 +2236,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-11 Burkina Faso=5</title>
-	<line x1="1208.4" y1="1156.2" x2="1209.1" y2="1152.8" style="stroke:#bc80bd;" class="sb" />
+	<line x1="1208.4" y1="1156.2" x2="1209.1" y2="1152.8" style="stroke:#ccebc5;" class="sb" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-01-11  C21614T  South Africa=25 [40.3%]  surface glycoprotein, L18F</title>
@@ -2256,7 +2256,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-11  G21785C  Burkina Faso=2 [40.0%]  surface glycoprotein, G75R</title>
-	<circle cx="1241.5" cy="983.3" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1241.5" cy="983.3" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Nigeria">
 	<title>2021-01-11  G21800T  Nigeria=7 [43.8%]  surface glycoprotein, D80Y</title>
@@ -2305,7 +2305,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-11  G22132T  Burkina Faso=2 [40.0%]  surface glycoprotein, R190S</title>
-	<circle cx="1255.9" cy="908.4" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1255.9" cy="908.4" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-01-11  A22206G  South Africa=59 [95.2%]  surface glycoprotein, D215G</title>
@@ -2340,7 +2340,7 @@
 	<circle cx="1284.1" cy="761.4" r="2.5" style="fill:white;" class="cv" />
 </g>
 <g class="BurkinaFaso">
-	<circle cx="1288.4" cy="738.9" r="1.7" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1288.4" cy="738.9" r="1.7" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Mayotte">
 	<title>2021-01-11  T22917G  Burkina Faso=3 [60.0%] Mayotte=2 [4.0%]  surface glycoprotein, L452R</title>
@@ -2372,7 +2372,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-11  T23031C  Burkina Faso=2 [40.0%]  surface glycoprotein, F490S</title>
-	<circle cx="1293.1" cy="714.3" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1293.1" cy="714.3" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-01-11  A23063T  South Africa=59 [95.2%]  surface glycoprotein, N501Y</title>
@@ -2405,7 +2405,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-11  C23280T  Burkina Faso=2 [40.0%]  surface glycoprotein, T573I</title>
-	<circle cx="1303.4" cy="660.6" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1303.4" cy="660.6" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Rwanda">
 	<title>2021-01-11  G23401T  Rwanda=5 [71.4%]  surface glycoprotein, Q613H</title>
@@ -2413,7 +2413,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-11  G23402A  Burkina Faso=4 [80.0%]  surface glycoprotein, D614N</title>
-	<circle cx="1308.4" cy="634.3" r="2.0" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1308.4" cy="634.3" r="2.0" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-01-11  A23403G  South Africa=62 [100.0%]  surface glycoprotein, D614G</title>
@@ -2786,6 +2786,10 @@
 	<title>2021-01-12  G23593T  Senegal=2 [66.7%]  surface glycoprotein, Q677H</title>
 	<circle cx="1326.8" cy="595.1" r="1.3" style="fill:#b2df8a;" class="cv" />
 </g>
+<g class="Rwanda">
+	<title>2021-01-12  C23604G  Rwanda=4 [80.0%]  surface glycoprotein, P681R</title>
+	<circle cx="1327.3" cy="592.8" r="2.0" style="fill:#6495ED;" class="cv" />
+</g>
 <g class="Nigeria">
 	<title>2021-01-12  C23604A  Nigeria=6 [85.7%]  surface glycoprotein, P681H</title>
 	<circle cx="1327.3" cy="592.8" r="2.4" style="fill:yellow;" class="cv" />
@@ -2793,10 +2797,6 @@
 <g class="Ghana">
 	<title>2021-01-12  C23604A  Ghana=3 [25.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1327.3" cy="592.8" r="1.7" style="fill:lime;" class="cv" />
-</g>
-<g class="Rwanda">
-	<title>2021-01-12  C23604G  Rwanda=4 [80.0%]  surface glycoprotein, P681R</title>
-	<circle cx="1327.3" cy="592.8" r="2.0" style="fill:#6495ED;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-01-12  C23664T  South Africa=38 [100.0%]  surface glycoprotein, A701V</title>
@@ -2920,15 +2920,15 @@
 	<title>2021-01-13  A21801C  South Africa=17 [100.0%] Mayotte=16 [34.8%]  surface glycoprotein, D80A</title>
 	<circle cx="1249.7" cy="981.4" r="3.4" style="fill:white;" class="cv" />
 </g>
-<g class="Zimbabwe">
-	<circle cx="1249.7" cy="981.4" r="1.3" style="fill:#cab2d6;" class="cv" />
+<g class="Reunion">
+	<circle cx="1249.7" cy="981.4" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Malawi">
 	<circle cx="1249.7" cy="981.4" r="1.3" style="fill:#ffffb3;" class="cv" />
 </g>
-<g class="Reunion">
-	<title>2021-01-13  A21801C  Zimbabwe=2 [100.0%] Malawi=2 [100.0%] Reunion=2 [100.0%]  surface glycoprotein, D80A</title>
-	<circle cx="1249.7" cy="981.4" r="1.3" style="fill:fuchsia;" class="cv" />
+<g class="Zimbabwe">
+	<title>2021-01-13  A21801C  Reunion=2 [100.0%] Malawi=2 [100.0%] Zimbabwe=2 [100.0%]  surface glycoprotein, D80A</title>
+	<circle cx="1249.7" cy="981.4" r="1.3" style="fill:#cab2d6;" class="cv" />
 </g>
 <g class="Mayotte">
 	<title>2021-01-13  C21846T  Mayotte=2 [4.3%]  surface glycoprotein, T95I</title>
@@ -2956,12 +2956,12 @@
 <g class="Zimbabwe">
 	<circle cx="1269.5" cy="894.6" r="1.3" style="fill:#cab2d6;" class="cv" />
 </g>
-<g class="Malawi">
-	<circle cx="1269.5" cy="894.6" r="1.3" style="fill:#ffffb3;" class="cv" />
-</g>
 <g class="Reunion">
-	<title>2021-01-13  A22206G  Zimbabwe=2 [100.0%] Malawi=2 [100.0%] Reunion=2 [100.0%]  surface glycoprotein, D215G</title>
 	<circle cx="1269.5" cy="894.6" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Malawi">
+	<title>2021-01-13  A22206G  Zimbabwe=2 [100.0%] Reunion=2 [100.0%] Malawi=2 [100.0%]  surface glycoprotein, D215G</title>
+	<circle cx="1269.5" cy="894.6" r="1.3" style="fill:#ffffb3;" class="cv" />
 </g>
 <g class="Mayotte">
 	<title>2021-01-13  C22323A  Mayotte=3 [6.5%]  surface glycoprotein, S254Y</title>
@@ -2988,12 +2988,12 @@
 <g class="Reunion">
 	<circle cx="1299.1" cy="764.5" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="Zimbabwe">
-	<circle cx="1299.1" cy="764.5" r="1.3" style="fill:#cab2d6;" class="cv" />
-</g>
 <g class="Malawi">
-	<title>2021-01-13  G22813T  Reunion=2 [100.0%] Zimbabwe=2 [100.0%] Malawi=2 [100.0%]  surface glycoprotein, K417N</title>
 	<circle cx="1299.1" cy="764.5" r="1.3" style="fill:#ffffb3;" class="cv" />
+</g>
+<g class="Zimbabwe">
+	<title>2021-01-13  G22813T  Reunion=2 [100.0%] Malawi=2 [100.0%] Zimbabwe=2 [100.0%]  surface glycoprotein, K417N</title>
+	<circle cx="1299.1" cy="764.5" r="1.3" style="fill:#cab2d6;" class="cv" />
 </g>
 <g class="Mayotte">
 	<title>2021-01-13  T22917G  Mayotte=4 [8.7%]  surface glycoprotein, L452R</title>
@@ -3041,15 +3041,15 @@
 <g class="Nigeria">
 	<circle cx="1311.3" cy="711.0" r="2.0" style="fill:yellow;" class="cv" />
 </g>
+<g class="Zimbabwe">
+	<circle cx="1311.3" cy="711.0" r="1.3" style="fill:#cab2d6;" class="cv" />
+</g>
 <g class="Reunion">
 	<circle cx="1311.3" cy="711.0" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Malawi">
+	<title>2021-01-13  A23063T  Nigeria=4 [26.7%] Zimbabwe=2 [100.0%] Reunion=2 [100.0%] Malawi=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1311.3" cy="711.0" r="1.3" style="fill:#ffffb3;" class="cv" />
-</g>
-<g class="Zimbabwe">
-	<title>2021-01-13  A23063T  Nigeria=4 [26.7%] Reunion=2 [100.0%] Malawi=2 [100.0%] Zimbabwe=2 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1311.3" cy="711.0" r="1.3" style="fill:#cab2d6;" class="cv" />
 </g>
 <g class="Ghana">
 	<title>2021-01-13  C23271A  Ghana=14 [82.4%]  surface glycoprotein, A570D</title>
@@ -3080,15 +3080,15 @@
 	<title>2021-01-13  A23403G  South Africa=17 [100.0%] Ghana=17 [100.0%] Nigeria=15 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1327.9" cy="638.1" r="3.4" style="fill:yellow;" class="cv" />
 </g>
-<g class="Zimbabwe">
-	<circle cx="1327.9" cy="638.1" r="1.3" style="fill:#cab2d6;" class="cv" />
-</g>
 <g class="Malawi">
 	<circle cx="1327.9" cy="638.1" r="1.3" style="fill:#ffffb3;" class="cv" />
 </g>
 <g class="Reunion">
-	<title>2021-01-13  A23403G  Zimbabwe=2 [100.0%] Malawi=2 [100.0%] Reunion=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1327.9" cy="638.1" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Zimbabwe">
+	<title>2021-01-13  A23403G  Malawi=2 [100.0%] Reunion=2 [100.0%] Zimbabwe=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1327.9" cy="638.1" r="1.3" style="fill:#cab2d6;" class="cv" />
 </g>
 <g class="Mayotte">
 	<title>2021-01-13  G23587T  Mayotte=3 [6.5%]  surface glycoprotein, Q675H</title>
@@ -3102,13 +3102,6 @@
 	<title>2021-01-13  G23593T  Mayotte=4 [8.7%]  surface glycoprotein, Q677H</title>
 	<circle cx="1337.1" cy="597.4" r="2.0" style="fill:white;" class="cv" />
 </g>
-<g class="Uganda">
-	<circle cx="1337.7" cy="595.0" r="2.0" style="fill:red;" class="cv" />
-</g>
-<g class="Rwanda">
-	<title>2021-01-13  C23604G  Uganda=4 [100.0%] Rwanda=2 [66.7%]  surface glycoprotein, P681R</title>
-	<circle cx="1337.7" cy="595.0" r="1.3" style="fill:#6495ED;" class="cv" />
-</g>
 <g class="Ghana">
 	<title>2021-01-13  C23604A  Ghana=14 [82.4%]  surface glycoprotein, P681H</title>
 	<circle cx="1337.7" cy="595.0" r="3.3" style="fill:lime;" class="cv" />
@@ -3117,6 +3110,13 @@
 	<title>2021-01-13  C23604A  Nigeria=4 [26.7%]  surface glycoprotein, P681H</title>
 	<circle cx="1337.7" cy="595.0" r="2.0" style="fill:yellow;" class="cv" />
 </g>
+<g class="Uganda">
+	<circle cx="1337.7" cy="595.0" r="2.0" style="fill:red;" class="cv" />
+</g>
+<g class="Rwanda">
+	<title>2021-01-13  C23604G  Uganda=4 [100.0%] Rwanda=2 [66.7%]  surface glycoprotein, P681R</title>
+	<circle cx="1337.7" cy="595.0" r="1.3" style="fill:#6495ED;" class="cv" />
+</g>
 <g class="SouthAfrica">
 	<circle cx="1340.6" cy="582.2" r="3.5" style="fill:cyan;" class="cv" />
 </g>
@@ -3124,14 +3124,14 @@
 	<title>2021-01-13  C23664T  South Africa=17 [100.0%] Mayotte=16 [34.8%]  surface glycoprotein, A701V</title>
 	<circle cx="1340.6" cy="582.2" r="3.4" style="fill:white;" class="cv" />
 </g>
-<g class="Malawi">
-	<circle cx="1340.6" cy="582.2" r="1.3" style="fill:#ffffb3;" class="cv" />
-</g>
 <g class="Zimbabwe">
 	<circle cx="1340.6" cy="582.2" r="1.3" style="fill:#cab2d6;" class="cv" />
 </g>
+<g class="Malawi">
+	<circle cx="1340.6" cy="582.2" r="1.3" style="fill:#ffffb3;" class="cv" />
+</g>
 <g class="Reunion">
-	<title>2021-01-13  C23664T  Malawi=2 [100.0%] Zimbabwe=2 [100.0%] Reunion=2 [100.0%]  surface glycoprotein, A701V</title>
+	<title>2021-01-13  C23664T  Zimbabwe=2 [100.0%] Malawi=2 [100.0%] Reunion=2 [100.0%]  surface glycoprotein, A701V</title>
 	<circle cx="1340.6" cy="582.2" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Ghana">
@@ -3207,7 +3207,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-14 Burkina Faso=2</title>
-	<line x1="1209.2" y1="1162.4" x2="1209.8" y2="1160.3" style="stroke:#bc80bd;" class="sb" />
+	<line x1="1209.2" y1="1162.4" x2="1209.8" y2="1160.3" style="stroke:#ccebc5;" class="sb" />
 </g>
 <g class="Zambia">
 	<title>2021-01-14 Zambia=2</title>
@@ -3394,28 +3394,28 @@
 <g class="Zambia">
 	<circle cx="1337.6" cy="640.4" r="1.3" style="fill:#800000;" class="cv" />
 </g>
-<g class="Angola">
-	<circle cx="1337.6" cy="640.4" r="1.3" style="fill:#ADD8E6;" class="cv" />
-</g>
 <g class="BurkinaFaso">
-	<title>2021-01-14  A23403G  Ghana=3 [75.0%] Zambia=2 [100.0%] Angola=2 [100.0%] Burkina Faso=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1337.6" cy="640.4" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1337.6" cy="640.4" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
-<g class="Nigeria">
-	<title>2021-01-14  G23593C  Nigeria=2 [25.0%]  surface glycoprotein, Q677H</title>
-	<circle cx="1347.5" cy="599.8" r="1.3" style="fill:yellow;" class="cv" />
+<g class="Angola">
+	<title>2021-01-14  A23403G  Ghana=3 [75.0%] Zambia=2 [100.0%] Burkina Faso=2 [100.0%] Angola=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1337.6" cy="640.4" r="1.3" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="Senegal">
 	<title>2021-01-14  G23593T  Senegal=2 [14.3%]  surface glycoprotein, Q677H</title>
 	<circle cx="1347.5" cy="599.8" r="1.3" style="fill:#b2df8a;" class="cv" />
 </g>
-<g class="Rwanda">
-	<title>2021-01-14  C23604G  Rwanda=3 [37.5%]  surface glycoprotein, P681R</title>
-	<circle cx="1348.1" cy="597.5" r="1.7" style="fill:#6495ED;" class="cv" />
+<g class="Nigeria">
+	<title>2021-01-14  G23593C  Nigeria=2 [25.0%]  surface glycoprotein, Q677H</title>
+	<circle cx="1347.5" cy="599.8" r="1.3" style="fill:yellow;" class="cv" />
 </g>
 <g class="Nigeria">
 	<title>2021-01-14  C23604A  Nigeria=4 [50.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1348.1" cy="597.5" r="2.0" style="fill:yellow;" class="cv" />
+</g>
+<g class="Rwanda">
+	<title>2021-01-14  C23604G  Rwanda=3 [37.5%]  surface glycoprotein, P681R</title>
+	<circle cx="1348.1" cy="597.5" r="1.7" style="fill:#6495ED;" class="cv" />
 </g>
 <g class="Mayotte">
 	<title>2021-01-14  C23664T  Mayotte=17 [54.8%]  surface glycoprotein, A701V</title>
@@ -3441,7 +3441,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-14  C24378T  Burkina Faso=2 [100.0%]  surface glycoprotein, S939F</title>
-	<circle cx="1388.7" cy="432.3" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1388.7" cy="432.3" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Nigeria">
 	<circle cx="1395.4" cy="405.0" r="2.0" style="fill:yellow;" class="cv" />
@@ -3550,12 +3550,12 @@
 	<title>2021-01-15  ATTA21993A  Ghana=16 [94.1%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1268.0" cy="942.5" r="3.4" style="fill:lime;" class="cv" />
 </g>
-<g class="Nigeria">
-	<circle cx="1268.0" cy="942.5" r="1.3" style="fill:yellow;" class="cv" />
-</g>
 <g class="Angola">
-	<title>2021-01-15  ATTA21993A  Nigeria=2 [100.0%] Angola=2 [100.0%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1268.0" cy="942.5" r="1.3" style="fill:#ADD8E6;" class="cv" />
+</g>
+<g class="Nigeria">
+	<title>2021-01-15  ATTA21993A  Angola=2 [100.0%] Nigeria=2 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1268.0" cy="942.5" r="1.3" style="fill:yellow;" class="cv" />
 </g>
 <g class="Rwanda">
 	<title>2021-01-15  C22033A  Rwanda=3 [75.0%]  surface glycoprotein, F157L</title>
@@ -3714,6 +3714,13 @@
 	<title>2021-01-15  C23591A  Madagascar=2 [100.0%]  surface glycoprotein, Q677K</title>
 	<circle cx="1357.7" cy="602.9" r="1.3" style="fill:#F08080;" class="cv" />
 </g>
+<g class="Rwanda">
+	<circle cx="1358.4" cy="600.1" r="1.7" style="fill:#6495ED;" class="cv" />
+</g>
+<g class="Uganda">
+	<title>2021-01-15  C23604G  Rwanda=3 [75.0%] Uganda=3 [100.0%]  surface glycoprotein, P681R</title>
+	<circle cx="1358.4" cy="600.1" r="1.7" style="fill:red;" class="cv" />
+</g>
 <g class="Ghana">
 	<title>2021-01-15  C23604A  Ghana=17 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1358.4" cy="600.1" r="3.5" style="fill:lime;" class="cv" />
@@ -3724,13 +3731,6 @@
 <g class="Angola">
 	<title>2021-01-15  C23604A  Senegal=3 [37.5%] Angola=2 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1358.4" cy="600.1" r="1.3" style="fill:#ADD8E6;" class="cv" />
-</g>
-<g class="Rwanda">
-	<circle cx="1358.4" cy="600.1" r="1.7" style="fill:#6495ED;" class="cv" />
-</g>
-<g class="Uganda">
-	<title>2021-01-15  C23604G  Rwanda=3 [75.0%] Uganda=3 [100.0%]  surface glycoprotein, P681R</title>
-	<circle cx="1358.4" cy="600.1" r="1.7" style="fill:red;" class="cv" />
 </g>
 <g class="Mayotte">
 	<title>2021-01-15  C23664T  Mayotte=13 [50.0%]  surface glycoprotein, A701V</title>
@@ -3883,12 +3883,12 @@
 <g class="Mozambique">
 	<circle cx="1356.7" cy="645.5" r="2.9" style="fill:#CC00FF;" class="cv" />
 </g>
-<g class="Mayotte">
-	<circle cx="1356.7" cy="645.5" r="2.4" style="fill:white;" class="cv" />
-</g>
 <g class="SouthAfrica">
-	<title>2021-01-16  A23403G  Mozambique=10 [100.0%] Mayotte=6 [100.0%] South Africa=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1356.7" cy="645.5" r="2.4" style="fill:cyan;" class="cv" />
+</g>
+<g class="Mayotte">
+	<title>2021-01-16  A23403G  Mozambique=10 [100.0%] South Africa=6 [100.0%] Mayotte=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1356.7" cy="645.5" r="2.4" style="fill:white;" class="cv" />
 </g>
 <g class="Senegal">
 	<title>2021-01-16  A23403G  Senegal=4 [100.0%]  surface glycoprotein, D614G</title>
@@ -3982,12 +3982,12 @@
 <g class="Senegal">
 	<circle cx="1366.3" cy="648.2" r="1.3" style="fill:#b2df8a;" class="cv" />
 </g>
-<g class="Reunion">
-	<circle cx="1366.3" cy="648.2" r="1.3" style="fill:fuchsia;" class="cv" />
-</g>
 <g class="Mayotte">
-	<title>2021-01-17  A23403G  South Africa=3 [100.0%] Senegal=2 [50.0%] Reunion=2 [100.0%] Mayotte=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1366.3" cy="648.2" r="1.3" style="fill:white;" class="cv" />
+</g>
+<g class="Reunion">
+	<title>2021-01-17  A23403G  South Africa=3 [100.0%] Senegal=2 [50.0%] Mayotte=2 [100.0%] Reunion=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1366.3" cy="648.2" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<circle cx="1382.8" cy="593.3" r="1.7" style="fill:cyan;" class="cv" />
@@ -4159,15 +4159,15 @@
 <g class="Rwanda">
 	<circle cx="1375.7" cy="651.2" r="1.3" style="fill:#6495ED;" class="cv" />
 </g>
-<g class="CotedIvoire">
-	<circle cx="1375.7" cy="651.2" r="1.3" style="fill:#fdb462;" class="cv" />
+<g class="Madagascar">
+	<circle cx="1375.7" cy="651.2" r="1.3" style="fill:#F08080;" class="cv" />
 </g>
 <g class="Zimbabwe">
 	<circle cx="1375.7" cy="651.2" r="1.3" style="fill:#cab2d6;" class="cv" />
 </g>
-<g class="Madagascar">
-	<title>2021-01-18  A23403G  Zambia=4 [100.0%] Senegal=2 [28.6%] Rwanda=2 [50.0%] Cote d'Ivoire=2 [100.0%] Zimbabwe=2 [100.0%] Madagascar=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1375.7" cy="651.2" r="1.3" style="fill:#F08080;" class="cv" />
+<g class="CotedIvoire">
+	<title>2021-01-18  A23403G  Zambia=4 [100.0%] Senegal=2 [28.6%] Rwanda=2 [50.0%] Madagascar=2 [100.0%] Zimbabwe=2 [100.0%] Cote d'Ivoire=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1375.7" cy="651.2" r="1.3" style="fill:#fdb462;" class="cv" />
 </g>
 <g class="Madagascar">
 	<title>2021-01-18  C23591A  Madagascar=2 [100.0%]  surface glycoprotein, Q677K</title>
@@ -4225,7 +4225,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-19 Burkina Faso=2</title>
-	<line x1="1211.0" y1="1167.6" x2="1211.7" y2="1165.6" style="stroke:#bc80bd;" class="sb" />
+	<line x1="1211.0" y1="1167.6" x2="1211.7" y2="1165.6" style="stroke:#ccebc5;" class="sb" />
 </g>
 <g class="Cameroon">
 	<title>2021-01-19 Cameroon=3</title>
@@ -4304,7 +4304,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-19  C22879A  Burkina Faso=2 [100.0%]  surface glycoprotein, N439K</title>
-	<circle cx="1348.1" cy="763.3" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1348.1" cy="763.3" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Mayotte">
 	<title>2021-01-19  G22992A  Mayotte=11 [31.4%]  surface glycoprotein, S477N</title>
@@ -4362,7 +4362,7 @@
 	<circle cx="1385.1" cy="654.3" r="1.7" style="fill:#ffed6f;" class="cv" />
 </g>
 <g class="BurkinaFaso">
-	<circle cx="1385.1" cy="654.3" r="1.3" style="fill:#bc80bd;" class="cv" />
+	<circle cx="1385.1" cy="654.3" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Madagascar">
 	<title>2021-01-19  A23403G  Cameroon=3 [100.0%] Burkina Faso=2 [100.0%] Madagascar=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -4586,7 +4586,7 @@
 </g>
 <g class="BurkinaFaso">
 	<title>2021-01-21 Burkina Faso=2</title>
-	<line x1="1211.1" y1="1170.5" x2="1211.9" y2="1168.5" style="stroke:#bc80bd;" class="sb" />
+	<line x1="1211.1" y1="1170.5" x2="1211.9" y2="1168.5" style="stroke:#ccebc5;" class="sb" />
 </g>
 <g class="Mayotte">
 	<title>2021-01-21  C21614T  Mayotte=13 [50.0%]  surface glycoprotein, L18F</title>
@@ -4803,12 +4803,12 @@
 	<title>2021-01-22  ATTA21993A  Nigeria=2 [100.0%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1298.5" cy="952.5" r="1.3" style="fill:yellow;" class="cv" />
 </g>
-<g class="Uganda">
-	<circle cx="1301.7" cy="944.3" r="1.3" style="fill:red;" class="cv" />
-</g>
 <g class="Rwanda">
-	<title>2021-01-22  C22033A  Uganda=2 [100.0%] Rwanda=2 [100.0%]  surface glycoprotein, F157L</title>
 	<circle cx="1301.7" cy="944.3" r="1.3" style="fill:#6495ED;" class="cv" />
+</g>
+<g class="Uganda">
+	<title>2021-01-22  C22033A  Rwanda=2 [100.0%] Uganda=2 [100.0%]  surface glycoprotein, F157L</title>
+	<circle cx="1301.7" cy="944.3" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="Mayotte">
 	<circle cx="1315.8" cy="909.0" r="3.4" style="fill:white;" class="cv" />
@@ -4903,12 +4903,12 @@
 	<title>2021-01-22  A23403G  Reunion=10 [100.0%] South Africa=9 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1413.1" cy="664.6" r="2.8" style="fill:cyan;" class="cv" />
 </g>
-<g class="Mozambique">
-	<circle cx="1413.1" cy="664.6" r="1.3" style="fill:#CC00FF;" class="cv" />
-</g>
 <g class="Cameroon">
-	<title>2021-01-22  A23403G  Mozambique=2 [100.0%] Cameroon=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1413.1" cy="664.6" r="1.3" style="fill:#ffed6f;" class="cv" />
+</g>
+<g class="Mozambique">
+	<title>2021-01-22  A23403G  Cameroon=2 [100.0%] Mozambique=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1413.1" cy="664.6" r="1.3" style="fill:#CC00FF;" class="cv" />
 </g>
 <g class="Cameroon">
 	<title>2021-01-22  G23426T  Cameroon=2 [100.0%]  surface glycoprotein, V622F</title>
@@ -4918,19 +4918,19 @@
 	<title>2021-01-22  G23587T  Mayotte=3 [8.3%]  surface glycoprotein, Q675H</title>
 	<circle cx="1428.0" cy="627.0" r="1.7" style="fill:white;" class="cv" />
 </g>
-<g class="Cameroon">
-	<circle cx="1429.4" cy="623.5" r="1.3" style="fill:#ffed6f;" class="cv" />
-</g>
-<g class="Nigeria">
-	<title>2021-01-22  C23604A  Cameroon=2 [100.0%] Nigeria=2 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1429.4" cy="623.5" r="1.3" style="fill:yellow;" class="cv" />
+<g class="Rwanda">
+	<circle cx="1429.4" cy="623.5" r="1.3" style="fill:#6495ED;" class="cv" />
 </g>
 <g class="Uganda">
+	<title>2021-01-22  C23604G  Rwanda=2 [100.0%] Uganda=2 [100.0%]  surface glycoprotein, P681R</title>
 	<circle cx="1429.4" cy="623.5" r="1.3" style="fill:red;" class="cv" />
 </g>
-<g class="Rwanda">
-	<title>2021-01-22  C23604G  Uganda=2 [100.0%] Rwanda=2 [100.0%]  surface glycoprotein, P681R</title>
-	<circle cx="1429.4" cy="623.5" r="1.3" style="fill:#6495ED;" class="cv" />
+<g class="Nigeria">
+	<circle cx="1429.4" cy="623.5" r="1.3" style="fill:yellow;" class="cv" />
+</g>
+<g class="Cameroon">
+	<title>2021-01-22  C23604A  Nigeria=2 [100.0%] Cameroon=2 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1429.4" cy="623.5" r="1.3" style="fill:#ffed6f;" class="cv" />
 </g>
 <g class="Reunion">
 	<title>2021-01-22  G23628T  Reunion=2 [20.0%]  surface glycoprotein, S689I</title>
@@ -5014,14 +5014,14 @@
 	<title>2021-01-23  C23271A  Ethiopia=2 [50.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1411.0" cy="695.1" r="1.3" style="fill:#FAF0E6;" class="cv" />
 </g>
-<g class="Mayotte">
-	<circle cx="1422.2" cy="668.3" r="2.5" style="fill:white;" class="cv" />
-</g>
 <g class="Angola">
 	<circle cx="1422.2" cy="668.3" r="2.5" style="fill:#ADD8E6;" class="cv" />
 </g>
+<g class="Mayotte">
+	<circle cx="1422.2" cy="668.3" r="2.5" style="fill:white;" class="cv" />
+</g>
 <g class="Reunion">
-	<title>2021-01-23  A23403G  Mayotte=7 [100.0%] Angola=7 [100.0%] Reunion=6 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-01-23  A23403G  Angola=7 [100.0%] Mayotte=7 [100.0%] Reunion=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1422.2" cy="668.3" r="2.4" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Senegal">
@@ -5287,7 +5287,7 @@
 </g>
 <g class="Botswana">
 	<title>2021-01-26 Botswana=3</title>
-	<line x1="1211.4" y1="1176.1" x2="1212.6" y2="1173.7" style="stroke:#ccebc5;" class="sb" />
+	<line x1="1211.4" y1="1176.1" x2="1212.6" y2="1173.7" style="stroke:#bc80bd;" class="sb" />
 </g>
 <g class="Ethiopia">
 	<title>2021-01-26 Ethiopia=2</title>
@@ -5317,7 +5317,7 @@
 	<circle cx="1297.0" cy="997.9" r="2.5" style="fill:cyan;" class="cv" />
 </g>
 <g class="Botswana">
-	<circle cx="1297.0" cy="997.9" r="1.7" style="fill:#ccebc5;" class="cv" />
+	<circle cx="1297.0" cy="997.9" r="1.7" style="fill:#bc80bd;" class="cv" />
 </g>
 <g class="Reunion">
 	<title>2021-01-26  A21801C  Botswana=3 [100.0%] Reunion=2 [18.2%]  surface glycoprotein, D80A</title>
@@ -5339,7 +5339,7 @@
 	<circle cx="1335.5" cy="917.7" r="2.5" style="fill:cyan;" class="cv" />
 </g>
 <g class="Botswana">
-	<circle cx="1335.5" cy="917.7" r="1.7" style="fill:#ccebc5;" class="cv" />
+	<circle cx="1335.5" cy="917.7" r="1.7" style="fill:#bc80bd;" class="cv" />
 </g>
 <g class="Reunion">
 	<title>2021-01-26  A22206G  Botswana=3 [100.0%] Reunion=2 [18.2%]  surface glycoprotein, D215G</title>
@@ -5366,7 +5366,7 @@
 	<circle cx="1393.2" cy="797.4" r="2.5" style="fill:cyan;" class="cv" />
 </g>
 <g class="Botswana">
-	<circle cx="1393.2" cy="797.4" r="1.7" style="fill:#ccebc5;" class="cv" />
+	<circle cx="1393.2" cy="797.4" r="1.7" style="fill:#bc80bd;" class="cv" />
 </g>
 <g class="Reunion">
 	<title>2021-01-26  G22813T  Botswana=3 [100.0%] Reunion=2 [18.2%]  surface glycoprotein, K417N</title>
@@ -5375,10 +5375,6 @@
 <g class="Mayotte">
 	<title>2021-01-26  G22992A  Mayotte=8 [16.0%]  surface glycoprotein, S477N</title>
 	<circle cx="1410.3" cy="761.9" r="2.7" style="fill:white;" class="cv" />
-</g>
-<g class="Kenya">
-	<title>2021-01-26  G23012C  Kenya=2 [100.0%]  surface glycoprotein, E484Q</title>
-	<circle cx="1412.2" cy="758.0" r="1.3" style="fill:#d9d9d9;" class="cv" />
 </g>
 <g class="Mayotte">
 	<title>2021-01-26  G23012A  Mayotte=37 [74.0%]  surface glycoprotein, E484K</title>
@@ -5392,11 +5388,15 @@
 	<circle cx="1412.2" cy="758.0" r="1.7" style="fill:yellow;" class="cv" />
 </g>
 <g class="Botswana">
-	<circle cx="1412.2" cy="758.0" r="1.7" style="fill:#ccebc5;" class="cv" />
+	<circle cx="1412.2" cy="758.0" r="1.7" style="fill:#bc80bd;" class="cv" />
 </g>
 <g class="Reunion">
 	<title>2021-01-26  G23012A  Nigeria=3 [100.0%] Botswana=3 [100.0%] Reunion=2 [18.2%]  surface glycoprotein, E484K</title>
 	<circle cx="1412.2" cy="758.0" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Kenya">
+	<title>2021-01-26  G23012C  Kenya=2 [100.0%]  surface glycoprotein, E484Q</title>
+	<circle cx="1412.2" cy="758.0" r="1.3" style="fill:#d9d9d9;" class="cv" />
 </g>
 <g class="Mayotte">
 	<title>2021-01-26  A23063T  Mayotte=38 [76.0%]  surface glycoprotein, N501Y</title>
@@ -5411,7 +5411,7 @@
 </g>
 <g class="Botswana">
 	<title>2021-01-26  A23063T  Reunion=4 [36.4%] Botswana=3 [100.0%]  surface glycoprotein, N501Y</title>
-	<circle cx="1417.0" cy="747.8" r="1.7" style="fill:#ccebc5;" class="cv" />
+	<circle cx="1417.0" cy="747.8" r="1.7" style="fill:#bc80bd;" class="cv" />
 </g>
 <g class="Reunion">
 	<title>2021-01-26  C23271A  Reunion=2 [18.2%]  surface glycoprotein, A570D</title>
@@ -5430,7 +5430,7 @@
 	<circle cx="1449.4" cy="680.5" r="2.5" style="fill:cyan;" class="cv" />
 </g>
 <g class="Botswana">
-	<circle cx="1449.4" cy="680.5" r="1.7" style="fill:#ccebc5;" class="cv" />
+	<circle cx="1449.4" cy="680.5" r="1.7" style="fill:#bc80bd;" class="cv" />
 </g>
 <g class="Nigeria">
 	<circle cx="1449.4" cy="680.5" r="1.7" style="fill:yellow;" class="cv" />
@@ -5463,7 +5463,7 @@
 	<circle cx="1474.2" cy="628.8" r="2.5" style="fill:cyan;" class="cv" />
 </g>
 <g class="Botswana">
-	<circle cx="1474.2" cy="628.8" r="1.7" style="fill:#ccebc5;" class="cv" />
+	<circle cx="1474.2" cy="628.8" r="1.7" style="fill:#bc80bd;" class="cv" />
 </g>
 <g class="Reunion">
 	<title>2021-01-26  C23664T  Botswana=3 [100.0%] Reunion=2 [18.2%]  surface glycoprotein, A701V</title>
@@ -5644,15 +5644,15 @@
 <g class="Senegal">
 	<circle cx="1458.3" cy="684.9" r="1.7" style="fill:#b2df8a;" class="cv" />
 </g>
+<g class="Reunion">
+	<circle cx="1458.3" cy="684.9" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
 <g class="Cameroon">
 	<circle cx="1458.3" cy="684.9" r="1.3" style="fill:#ffed6f;" class="cv" />
 </g>
 <g class="Rwanda">
+	<title>2021-01-27  A23403G  Senegal=3 [75.0%] Reunion=2 [100.0%] Cameroon=2 [100.0%] Rwanda=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1458.3" cy="684.9" r="1.3" style="fill:#6495ED;" class="cv" />
-</g>
-<g class="Reunion">
-	<title>2021-01-27  A23403G  Senegal=3 [75.0%] Cameroon=2 [100.0%] Rwanda=2 [100.0%] Reunion=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1458.3" cy="684.9" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Mayotte">
 	<title>2021-01-27  G23587T  Mayotte=6 [10.3%]  surface glycoprotein, Q675H</title>
@@ -5859,12 +5859,12 @@
 <g class="Tunisia">
 	<circle cx="1467.2" cy="689.4" r="1.3" style="fill:#80b1d3;" class="cv" />
 </g>
-<g class="Angola">
-	<circle cx="1467.2" cy="689.4" r="1.3" style="fill:#ADD8E6;" class="cv" />
-</g>
 <g class="EquatorialGuinea">
-	<title>2021-01-28  A23403G  Senegal=3 [60.0%] Reunion=3 [100.0%] Tunisia=2 [100.0%] Angola=2 [100.0%] Equatorial Guinea=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1467.2" cy="689.4" r="1.3" style="fill:#fccde5;" class="cv" />
+</g>
+<g class="Angola">
+	<title>2021-01-28  A23403G  Senegal=3 [60.0%] Reunion=3 [100.0%] Tunisia=2 [100.0%] Equatorial Guinea=2 [100.0%] Angola=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1467.2" cy="689.4" r="1.3" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="Senegal">
 	<title>2021-01-28  G23593T  Senegal=2 [40.0%]  surface glycoprotein, Q677H</title>
@@ -6327,12 +6327,12 @@
 <g class="SouthAfrica">
 	<circle cx="1493.2" cy="703.9" r="1.7" style="fill:cyan;" class="cv" />
 </g>
-<g class="Reunion">
-	<circle cx="1493.2" cy="703.9" r="1.3" style="fill:fuchsia;" class="cv" />
-</g>
 <g class="Nigeria">
-	<title>2021-01-31  A23403G  South Africa=3 [100.0%] Reunion=2 [100.0%] Nigeria=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1493.2" cy="703.9" r="1.3" style="fill:yellow;" class="cv" />
+</g>
+<g class="Reunion">
+	<title>2021-01-31  A23403G  South Africa=3 [100.0%] Nigeria=2 [100.0%] Reunion=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1493.2" cy="703.9" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-01-31  G23587T  South Africa=2 [66.7%]  surface glycoprotein, Q675H</title>
@@ -6662,16 +6662,16 @@
 	<title>2021-02-02  A23403G  Mayotte=3 [100.0%] Senegal=2 [100.0%] Ghana=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1510.1" cy="714.3" r="1.3" style="fill:lime;" class="cv" />
 </g>
-<g class="Rwanda">
-	<title>2021-02-02  C23604G  Rwanda=2 [66.7%]  surface glycoprotein, P681R</title>
-	<circle cx="1533.8" cy="677.0" r="1.3" style="fill:#6495ED;" class="cv" />
-</g>
 <g class="Reunion">
 	<circle cx="1533.8" cy="677.0" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Ghana">
 	<title>2021-02-02  C23604A  Reunion=2 [25.0%] Ghana=2 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1533.8" cy="677.0" r="1.3" style="fill:lime;" class="cv" />
+</g>
+<g class="Rwanda">
+	<title>2021-02-02  C23604G  Rwanda=2 [66.7%]  surface glycoprotein, P681R</title>
+	<circle cx="1533.8" cy="677.0" r="1.3" style="fill:#6495ED;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-02-02  C23664T  South Africa=10 [90.9%]  surface glycoprotein, A701V</title>
@@ -6769,15 +6769,15 @@
 <g class="Cameroon">
 	<circle cx="1518.3" cy="719.6" r="1.7" style="fill:#ffed6f;" class="cv" />
 </g>
-<g class="Madagascar">
-	<circle cx="1518.3" cy="719.6" r="1.3" style="fill:#F08080;" class="cv" />
+<g class="Angola">
+	<circle cx="1518.3" cy="719.6" r="1.3" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="Nigeria">
 	<circle cx="1518.3" cy="719.6" r="1.3" style="fill:yellow;" class="cv" />
 </g>
-<g class="Angola">
-	<title>2021-02-03  A23403G  Cameroon=3 [100.0%] Madagascar=2 [100.0%] Nigeria=2 [100.0%] Angola=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1518.3" cy="719.6" r="1.3" style="fill:#ADD8E6;" class="cv" />
+<g class="Madagascar">
+	<title>2021-02-03  A23403G  Cameroon=3 [100.0%] Angola=2 [100.0%] Nigeria=2 [100.0%] Madagascar=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1518.3" cy="719.6" r="1.3" style="fill:#F08080;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-02-03  C23664T  South Africa=9 [100.0%]  surface glycoprotein, A701V</title>
@@ -6904,12 +6904,12 @@
 <g class="Ethiopia">
 	<circle cx="1526.6" cy="725.2" r="1.7" style="fill:#FAF0E6;" class="cv" />
 </g>
-<g class="Madagascar">
-	<circle cx="1526.6" cy="725.2" r="1.3" style="fill:#F08080;" class="cv" />
-</g>
 <g class="SouthAfrica">
-	<title>2021-02-04  A23403G  Morocco=3 [100.0%] Ethiopia=3 [100.0%] Madagascar=2 [100.0%] South Africa=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1526.6" cy="725.2" r="1.3" style="fill:cyan;" class="cv" />
+</g>
+<g class="Madagascar">
+	<title>2021-02-04  A23403G  Morocco=3 [100.0%] Ethiopia=3 [100.0%] South Africa=2 [100.0%] Madagascar=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1526.6" cy="725.2" r="1.3" style="fill:#F08080;" class="cv" />
 </g>
 <g class="Madagascar">
 	<title>2021-02-04  C23591A  Madagascar=2 [100.0%]  surface glycoprotein, Q677K</title>
@@ -7091,15 +7091,15 @@
 <g class="Togo">
 	<circle cx="1534.7" cy="730.9" r="1.7" style="fill:#b15928;" class="cv" />
 </g>
-<g class="Rwanda">
-	<circle cx="1534.7" cy="730.9" r="1.3" style="fill:#6495ED;" class="cv" />
-</g>
 <g class="Senegal">
 	<circle cx="1534.7" cy="730.9" r="1.3" style="fill:#b2df8a;" class="cv" />
 </g>
 <g class="Cameroon">
-	<title>2021-02-05  A23403G  Togo=3 [75.0%] Rwanda=2 [100.0%] Senegal=2 [100.0%] Cameroon=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1534.7" cy="730.9" r="1.3" style="fill:#ffed6f;" class="cv" />
+</g>
+<g class="Rwanda">
+	<title>2021-02-05  A23403G  Togo=3 [75.0%] Senegal=2 [100.0%] Cameroon=2 [100.0%] Rwanda=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1534.7" cy="730.9" r="1.3" style="fill:#6495ED;" class="cv" />
 </g>
 <g class="Togo">
 	<title>2021-02-05  C23604A  Togo=2 [50.0%]  surface glycoprotein, P681H</title>
@@ -7492,12 +7492,12 @@
 <g class="Ghana">
 	<circle cx="1566.2" cy="755.0" r="1.7" style="fill:lime;" class="cv" />
 </g>
-<g class="DRC">
-	<circle cx="1566.2" cy="755.0" r="1.3" style="fill:#b3de69;" class="cv" />
-</g>
 <g class="Madagascar">
-	<title>2021-02-09  A23403G  Ghana=3 [100.0%] DRC=2 [100.0%] Madagascar=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1566.2" cy="755.0" r="1.3" style="fill:#F08080;" class="cv" />
+</g>
+<g class="DRC">
+	<title>2021-02-09  A23403G  Ghana=3 [100.0%] Madagascar=2 [100.0%] DRC=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1566.2" cy="755.0" r="1.3" style="fill:#b3de69;" class="cv" />
 </g>
 <g class="Ghana">
 	<title>2021-02-09  C23604A  Ghana=3 [100.0%]  surface glycoprotein, P681H</title>
@@ -7957,12 +7957,12 @@
 	<title>2021-02-12  A23403G  South Africa=7 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1588.7" cy="774.5" r="2.5" style="fill:cyan;" class="cv" />
 </g>
-<g class="Mayotte">
-	<circle cx="1588.7" cy="774.5" r="1.3" style="fill:white;" class="cv" />
-</g>
 <g class="Togo">
-	<title>2021-02-12  A23403G  Mayotte=2 [100.0%] Togo=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1588.7" cy="774.5" r="1.3" style="fill:#b15928;" class="cv" />
+</g>
+<g class="Mayotte">
+	<title>2021-02-12  A23403G  Togo=2 [100.0%] Mayotte=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1588.7" cy="774.5" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="Egypt">
 	<title>2021-02-12  C23453T  Egypt=6 [7.6%]  surface glycoprotein, P631S</title>
@@ -8278,12 +8278,12 @@
 <g class="Madagascar">
 	<circle cx="1422.9" cy="980.0" r="2.0" style="fill:#F08080;" class="cv" />
 </g>
-<g class="Angola">
-	<circle cx="1422.9" cy="980.0" r="1.3" style="fill:#ADD8E6;" class="cv" />
-</g>
 <g class="EquatorialGuinea">
-	<title>2021-02-15  A22206G  Madagascar=4 [100.0%] Angola=2 [100.0%] Equatorial Guinea=2 [100.0%]  surface glycoprotein, D215G</title>
 	<circle cx="1422.9" cy="980.0" r="1.3" style="fill:#fccde5;" class="cv" />
+</g>
+<g class="Angola">
+	<title>2021-02-15  A22206G  Madagascar=4 [100.0%] Equatorial Guinea=2 [100.0%] Angola=2 [100.0%]  surface glycoprotein, D215G</title>
+	<circle cx="1422.9" cy="980.0" r="1.3" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="Reunion">
 	<circle cx="1517.8" cy="886.3" r="2.8" style="fill:fuchsia;" class="cv" />
@@ -8358,15 +8358,15 @@
 <g class="Madagascar">
 	<circle cx="1610.1" cy="795.2" r="2.0" style="fill:#F08080;" class="cv" />
 </g>
+<g class="EquatorialGuinea">
+	<circle cx="1610.1" cy="795.2" r="1.3" style="fill:#fccde5;" class="cv" />
+</g>
 <g class="Angola">
 	<circle cx="1610.1" cy="795.2" r="1.3" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="Nigeria">
+	<title>2021-02-15  A23403G  Togo=4 [80.0%] Madagascar=4 [100.0%] Equatorial Guinea=2 [100.0%] Angola=2 [100.0%] Nigeria=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1610.1" cy="795.2" r="1.3" style="fill:yellow;" class="cv" />
-</g>
-<g class="EquatorialGuinea">
-	<title>2021-02-15  A23403G  Togo=4 [80.0%] Madagascar=4 [100.0%] Angola=2 [100.0%] Nigeria=2 [100.0%] Equatorial Guinea=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1610.1" cy="795.2" r="1.3" style="fill:#fccde5;" class="cv" />
 </g>
 <g class="Togo">
 	<title>2021-02-15  C23604A  Togo=2 [40.0%]  surface glycoprotein, P681H</title>
@@ -8641,12 +8641,12 @@
 <g class="Nigeria">
 	<circle cx="1623.8" cy="809.5" r="1.7" style="fill:yellow;" class="cv" />
 </g>
-<g class="CotedIvoire">
-	<circle cx="1623.8" cy="809.5" r="1.3" style="fill:#fdb462;" class="cv" />
-</g>
 <g class="Angola">
-	<title>2021-02-17  A23403G  Nigeria=3 [100.0%] Cote d'Ivoire=2 [100.0%] Angola=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1623.8" cy="809.5" r="1.3" style="fill:#ADD8E6;" class="cv" />
+</g>
+<g class="CotedIvoire">
+	<title>2021-02-17  A23403G  Nigeria=3 [100.0%] Angola=2 [100.0%] Cote d'Ivoire=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1623.8" cy="809.5" r="1.3" style="fill:#fdb462;" class="cv" />
 </g>
 <g class="Nigeria">
 	<title>2021-02-17  G23593C  Nigeria=2 [66.7%]  surface glycoprotein, Q677H</title>
@@ -8889,12 +8889,12 @@
 	<title>2021-02-19  A22206G  Reunion=16 [64.0%]  surface glycoprotein, D215G</title>
 	<circle cx="1437.5" cy="995.9" r="3.4" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="SouthAfrica">
-	<circle cx="1437.5" cy="995.9" r="1.3" style="fill:cyan;" class="cv" />
-</g>
 <g class="EquatorialGuinea">
-	<title>2021-02-19  A22206G  South Africa=2 [100.0%] Equatorial Guinea=2 [100.0%]  surface glycoprotein, D215G</title>
 	<circle cx="1437.5" cy="995.9" r="1.3" style="fill:#fccde5;" class="cv" />
+</g>
+<g class="SouthAfrica">
+	<title>2021-02-19  A22206G  Equatorial Guinea=2 [100.0%] South Africa=2 [100.0%]  surface glycoprotein, D215G</title>
+	<circle cx="1437.5" cy="995.9" r="1.3" style="fill:cyan;" class="cv" />
 </g>
 <g class="Reunion">
 	<title>2021-02-19  C22227T  Reunion=4 [16.0%]  surface glycoprotein, A222V</title>
@@ -8904,34 +8904,34 @@
 	<title>2021-02-19  G22813T  Reunion=16 [64.0%]  surface glycoprotein, K417N</title>
 	<circle cx="1538.7" cy="908.9" r="3.4" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="SouthAfrica">
-	<circle cx="1538.7" cy="908.9" r="1.3" style="fill:cyan;" class="cv" />
-</g>
 <g class="EquatorialGuinea">
-	<title>2021-02-19  G22813T  South Africa=2 [100.0%] Equatorial Guinea=2 [100.0%]  surface glycoprotein, K417N</title>
 	<circle cx="1538.7" cy="908.9" r="1.3" style="fill:#fccde5;" class="cv" />
+</g>
+<g class="SouthAfrica">
+	<title>2021-02-19  G22813T  Equatorial Guinea=2 [100.0%] South Africa=2 [100.0%]  surface glycoprotein, K417N</title>
+	<circle cx="1538.7" cy="908.9" r="1.3" style="fill:cyan;" class="cv" />
 </g>
 <g class="Reunion">
 	<title>2021-02-19  G23012A  Reunion=15 [60.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1571.8" cy="880.4" r="3.4" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="SouthAfrica">
-	<circle cx="1571.8" cy="880.4" r="1.3" style="fill:cyan;" class="cv" />
-</g>
 <g class="EquatorialGuinea">
-	<title>2021-02-19  G23012A  South Africa=2 [100.0%] Equatorial Guinea=2 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1571.8" cy="880.4" r="1.3" style="fill:#fccde5;" class="cv" />
+</g>
+<g class="SouthAfrica">
+	<title>2021-02-19  G23012A  Equatorial Guinea=2 [100.0%] South Africa=2 [100.0%]  surface glycoprotein, E484K</title>
+	<circle cx="1571.8" cy="880.4" r="1.3" style="fill:cyan;" class="cv" />
 </g>
 <g class="Reunion">
 	<title>2021-02-19  A23063T  Reunion=17 [68.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1580.3" cy="873.1" r="3.5" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="EquatorialGuinea">
-	<circle cx="1580.3" cy="873.1" r="1.3" style="fill:#fccde5;" class="cv" />
-</g>
 <g class="SouthAfrica">
-	<title>2021-02-19  A23063T  Equatorial Guinea=2 [100.0%] South Africa=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1580.3" cy="873.1" r="1.3" style="fill:cyan;" class="cv" />
+</g>
+<g class="EquatorialGuinea">
+	<title>2021-02-19  A23063T  South Africa=2 [100.0%] Equatorial Guinea=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1580.3" cy="873.1" r="1.3" style="fill:#fccde5;" class="cv" />
 </g>
 <g class="Reunion">
 	<title>2021-02-19  C23271A  Reunion=2 [8.0%]  surface glycoprotein, A570D</title>
@@ -8947,12 +8947,12 @@
 <g class="SouthAfrica">
 	<circle cx="1637.0" cy="824.4" r="1.3" style="fill:cyan;" class="cv" />
 </g>
-<g class="EquatorialGuinea">
-	<circle cx="1637.0" cy="824.4" r="1.3" style="fill:#fccde5;" class="cv" />
-</g>
 <g class="Uganda">
-	<title>2021-02-19  A23403G  Ghana=2 [66.7%] South Africa=2 [100.0%] Equatorial Guinea=2 [100.0%] Uganda=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1637.0" cy="824.4" r="1.3" style="fill:red;" class="cv" />
+</g>
+<g class="EquatorialGuinea">
+	<title>2021-02-19  A23403G  Ghana=2 [66.7%] South Africa=2 [100.0%] Uganda=2 [100.0%] Equatorial Guinea=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1637.0" cy="824.4" r="1.3" style="fill:#fccde5;" class="cv" />
 </g>
 <g class="Reunion">
 	<circle cx="1670.5" cy="795.6" r="1.3" style="fill:fuchsia;" class="cv" />
@@ -9432,31 +9432,31 @@
 	<title>2021-02-24  C23271A  Morocco=2 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1644.1" cy="880.3" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
-<g class="SouthAfrica">
-	<circle cx="1667.7" cy="863.3" r="1.7" style="fill:cyan;" class="cv" />
-</g>
 <g class="Reunion">
 	<circle cx="1667.7" cy="863.3" r="1.7" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="SouthAfrica">
+	<circle cx="1667.7" cy="863.3" r="1.7" style="fill:cyan;" class="cv" />
 </g>
 <g class="Rwanda">
 	<circle cx="1667.7" cy="863.3" r="1.3" style="fill:#6495ED;" class="cv" />
 </g>
 <g class="Morocco">
-	<title>2021-02-24  A23403G  South Africa=3 [100.0%] Reunion=3 [100.0%] Rwanda=2 [100.0%] Morocco=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-02-24  A23403G  Reunion=3 [100.0%] South Africa=3 [100.0%] Rwanda=2 [100.0%] Morocco=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1667.7" cy="863.3" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Morocco">
 	<title>2021-02-24  C23604A  Morocco=2 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1703.5" cy="837.5" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
-<g class="Reunion">
-	<circle cx="1714.2" cy="829.8" r="1.7" style="fill:fuchsia;" class="cv" />
-</g>
 <g class="SouthAfrica">
 	<circle cx="1714.2" cy="829.8" r="1.7" style="fill:cyan;" class="cv" />
 </g>
+<g class="Reunion">
+	<circle cx="1714.2" cy="829.8" r="1.7" style="fill:fuchsia;" class="cv" />
+</g>
 <g class="Rwanda">
-	<title>2021-02-24  C23664T  Reunion=3 [100.0%] South Africa=3 [100.0%] Rwanda=2 [100.0%]  surface glycoprotein, A701V</title>
+	<title>2021-02-24  C23664T  South Africa=3 [100.0%] Reunion=3 [100.0%] Rwanda=2 [100.0%]  surface glycoprotein, A701V</title>
 	<circle cx="1714.2" cy="829.8" r="1.3" style="fill:#6495ED;" class="cv" />
 </g>
 <g class="Morocco">
@@ -9584,12 +9584,12 @@
 <g class="Togo">
 	<circle cx="1612.0" cy="914.0" r="1.3" style="fill:#b15928;" class="cv" />
 </g>
-<g class="Madagascar">
-	<circle cx="1612.0" cy="914.0" r="1.3" style="fill:#F08080;" class="cv" />
-</g>
 <g class="Morocco">
-	<title>2021-02-25  A23063T  Libya=4 [10.0%] Togo=2 [66.7%] Madagascar=2 [100.0%] Morocco=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1612.0" cy="914.0" r="1.3" style="fill:#FFBBFF;" class="cv" />
+</g>
+<g class="Madagascar">
+	<title>2021-02-25  A23063T  Libya=4 [10.0%] Togo=2 [66.7%] Morocco=2 [100.0%] Madagascar=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1612.0" cy="914.0" r="1.3" style="fill:#F08080;" class="cv" />
 </g>
 <g class="Libya">
 	<title>2021-02-25  T23255C  Libya=2 [5.0%]  surface glycoprotein, F565L</title>
@@ -9619,12 +9619,12 @@
 <g class="Togo">
 	<circle cx="1673.4" cy="871.4" r="1.7" style="fill:#b15928;" class="cv" />
 </g>
-<g class="Madagascar">
-	<circle cx="1673.4" cy="871.4" r="1.3" style="fill:#F08080;" class="cv" />
-</g>
 <g class="Morocco">
-	<title>2021-02-25  A23403G  Togo=3 [100.0%] Madagascar=2 [100.0%] Morocco=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1673.4" cy="871.4" r="1.3" style="fill:#FFBBFF;" class="cv" />
+</g>
+<g class="Madagascar">
+	<title>2021-02-25  A23403G  Togo=3 [100.0%] Morocco=2 [100.0%] Madagascar=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1673.4" cy="871.4" r="1.3" style="fill:#F08080;" class="cv" />
 </g>
 <g class="Libya">
 	<title>2021-02-25  C23525T  Libya=2 [5.0%]  surface glycoprotein, H655Y</title>
@@ -9724,12 +9724,12 @@
 <g class="Ghana">
 	<circle cx="1421.4" cy="1051.9" r="1.7" style="fill:lime;" class="cv" />
 </g>
-<g class="Gabon">
-	<circle cx="1421.4" cy="1051.9" r="1.3" style="fill:#FFD700;" class="cv" />
-</g>
 <g class="Morocco">
-	<title>2021-02-26  ATTA21993A  Ghana=3 [100.0%] Gabon=2 [100.0%] Morocco=2 [100.0%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1421.4" cy="1051.9" r="1.3" style="fill:#FFBBFF;" class="cv" />
+</g>
+<g class="Gabon">
+	<title>2021-02-26  ATTA21993A  Ghana=3 [100.0%] Morocco=2 [100.0%] Gabon=2 [100.0%]  surface glycoprotein, Y145H/del</title>
+	<circle cx="1421.4" cy="1051.9" r="1.3" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Rwanda">
 	<title>2021-02-26  A22206G  Rwanda=3 [100.0%]  surface glycoprotein, D215G</title>
@@ -9743,17 +9743,17 @@
 	<title>2021-02-26  G23012A  Rwanda=3 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1607.6" cy="927.4" r="1.7" style="fill:#6495ED;" class="cv" />
 </g>
-<g class="Ghana">
-	<circle cx="1616.9" cy="921.1" r="1.7" style="fill:lime;" class="cv" />
-</g>
 <g class="Rwanda">
 	<circle cx="1616.9" cy="921.1" r="1.7" style="fill:#6495ED;" class="cv" />
+</g>
+<g class="Ghana">
+	<circle cx="1616.9" cy="921.1" r="1.7" style="fill:lime;" class="cv" />
 </g>
 <g class="Gabon">
 	<circle cx="1616.9" cy="921.1" r="1.3" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Morocco">
-	<title>2021-02-26  A23063T  Ghana=3 [100.0%] Rwanda=3 [100.0%] Gabon=2 [100.0%] Morocco=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<title>2021-02-26  A23063T  Rwanda=3 [100.0%] Ghana=3 [100.0%] Gabon=2 [100.0%] Morocco=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1616.9" cy="921.1" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Ghana">
@@ -9775,15 +9775,15 @@
 <g class="DRC">
 	<circle cx="1679.0" cy="879.6" r="1.7" style="fill:#b3de69;" class="cv" />
 </g>
-<g class="Madagascar">
-	<circle cx="1679.0" cy="879.6" r="1.3" style="fill:#F08080;" class="cv" />
+<g class="Gabon">
+	<circle cx="1679.0" cy="879.6" r="1.3" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Morocco">
 	<circle cx="1679.0" cy="879.6" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
-<g class="Gabon">
-	<title>2021-02-26  A23403G  Rwanda=3 [100.0%] Ghana=3 [100.0%] DRC=3 [100.0%] Madagascar=2 [100.0%] Morocco=2 [100.0%] Gabon=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1679.0" cy="879.6" r="1.3" style="fill:#FFD700;" class="cv" />
+<g class="Madagascar">
+	<title>2021-02-26  A23403G  Rwanda=3 [100.0%] Ghana=3 [100.0%] DRC=3 [100.0%] Gabon=2 [100.0%] Morocco=2 [100.0%] Madagascar=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1679.0" cy="879.6" r="1.3" style="fill:#F08080;" class="cv" />
 </g>
 <g class="Ghana">
 	<circle cx="1715.7" cy="855.0" r="1.7" style="fill:lime;" class="cv" />
@@ -9815,22 +9815,22 @@
 <g class="Ghana">
 	<circle cx="1880.5" cy="744.8" r="1.7" style="fill:lime;" class="cv" />
 </g>
-<g class="Gabon">
-	<circle cx="1880.5" cy="744.8" r="1.3" style="fill:#FFD700;" class="cv" />
-</g>
 <g class="Morocco">
-	<title>2021-02-26  T24506G  Ghana=3 [100.0%] Gabon=2 [100.0%] Morocco=2 [100.0%]  surface glycoprotein, S982A</title>
 	<circle cx="1880.5" cy="744.8" r="1.3" style="fill:#FFBBFF;" class="cv" />
+</g>
+<g class="Gabon">
+	<title>2021-02-26  T24506G  Ghana=3 [100.0%] Morocco=2 [100.0%] Gabon=2 [100.0%]  surface glycoprotein, S982A</title>
+	<circle cx="1880.5" cy="744.8" r="1.3" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Ghana">
 	<circle cx="1955.0" cy="695.0" r="1.7" style="fill:lime;" class="cv" />
 </g>
-<g class="Gabon">
-	<circle cx="1955.0" cy="695.0" r="1.3" style="fill:#FFD700;" class="cv" />
-</g>
 <g class="Morocco">
-	<title>2021-02-26  G24914C  Ghana=3 [100.0%] Gabon=2 [100.0%] Morocco=2 [100.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="1955.0" cy="695.0" r="1.3" style="fill:#FFBBFF;" class="cv" />
+</g>
+<g class="Gabon">
+	<title>2021-02-26  G24914C  Ghana=3 [100.0%] Morocco=2 [100.0%] Gabon=2 [100.0%]  surface glycoprotein, D1118H</title>
+	<circle cx="1955.0" cy="695.0" r="1.3" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Reunion">
 	<title>2021-02-27 Reunion=2</title>
@@ -9860,12 +9860,12 @@
 	<title>2021-02-27  G23012A  Reunion=2 [100.0%]  surface glycoprotein, E484K</title>
 	<circle cx="1612.2" cy="934.5" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="Morocco">
-	<circle cx="1621.6" cy="928.4" r="1.3" style="fill:#FFBBFF;" class="cv" />
-</g>
 <g class="Reunion">
-	<title>2021-02-27  A23063T  Morocco=2 [100.0%] Reunion=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1621.6" cy="928.4" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Morocco">
+	<title>2021-02-27  A23063T  Reunion=2 [100.0%] Morocco=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1621.6" cy="928.4" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Morocco">
 	<title>2021-02-27  C23271A  Morocco=2 [100.0%]  surface glycoprotein, A570D</title>
@@ -10002,12 +10002,12 @@
 <g class="Madagascar">
 	<circle cx="1630.7" cy="943.0" r="1.7" style="fill:#F08080;" class="cv" />
 </g>
-<g class="EquatorialGuinea">
-	<circle cx="1630.7" cy="943.0" r="1.3" style="fill:#fccde5;" class="cv" />
-</g>
 <g class="Morocco">
-	<title>2021-03-01  A23063T  Reunion=4 [100.0%] Madagascar=3 [100.0%] Equatorial Guinea=2 [100.0%] Morocco=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1630.7" cy="943.0" r="1.3" style="fill:#FFBBFF;" class="cv" />
+</g>
+<g class="EquatorialGuinea">
+	<title>2021-03-01  A23063T  Reunion=4 [100.0%] Madagascar=3 [100.0%] Morocco=2 [100.0%] Equatorial Guinea=2 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1630.7" cy="943.0" r="1.3" style="fill:#fccde5;" class="cv" />
 </g>
 <g class="Morocco">
 	<title>2021-03-01  C23271A  Morocco=2 [100.0%]  surface glycoprotein, A570D</title>
@@ -10660,14 +10660,14 @@
 	<title>2021-03-08  A23403G  South Africa=13 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1726.8" cy="966.3" r="3.2" style="fill:cyan;" class="cv" />
 </g>
-<g class="Gabon">
-	<circle cx="1726.8" cy="966.3" r="1.7" style="fill:#FFD700;" class="cv" />
-</g>
 <g class="Tunisia">
 	<circle cx="1726.8" cy="966.3" r="1.7" style="fill:#80b1d3;" class="cv" />
 </g>
+<g class="Gabon">
+	<circle cx="1726.8" cy="966.3" r="1.7" style="fill:#FFD700;" class="cv" />
+</g>
 <g class="Gambia">
-	<title>2021-03-08  A23403G  Gabon=3 [100.0%] Tunisia=3 [100.0%] Gambia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2021-03-08  A23403G  Tunisia=3 [100.0%] Gabon=3 [100.0%] Gambia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1726.8" cy="966.3" r="1.3" style="fill:#FF00FF;" class="cv" />
 </g>
 <g class="SouthAfrica">
@@ -10803,13 +10803,13 @@
 	<title>2021-03-09  A23403G  Gambia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1730.7" cy="975.5" r="1.3" style="fill:#FF00FF;" class="cv" />
 </g>
-<g class="Uganda">
-	<title>2021-03-09  C23604G  Uganda=2 [66.7%]  surface glycoprotein, P681R</title>
-	<circle cx="1771.4" cy="958.3" r="1.3" style="fill:red;" class="cv" />
-</g>
 <g class="Gambia">
 	<title>2021-03-09  C23604A  Gambia=2 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1771.4" cy="958.3" r="1.3" style="fill:#FF00FF;" class="cv" />
+</g>
+<g class="Uganda">
+	<title>2021-03-09  C23604G  Uganda=2 [66.7%]  surface glycoprotein, P681R</title>
+	<circle cx="1771.4" cy="958.3" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-03-09  C23664T  South Africa=9 [100.0%]  surface glycoprotein, A701V</title>
@@ -10956,13 +10956,13 @@
 	<title>2021-03-10  G23593C  Ghana=2 [100.0%]  surface glycoprotein, Q677H</title>
 	<circle cx="1773.2" cy="969.0" r="1.3" style="fill:lime;" class="cv" />
 </g>
-<g class="Kenya">
-	<title>2021-03-10  C23604G  Kenya=2 [50.0%]  surface glycoprotein, P681R</title>
-	<circle cx="1775.5" cy="968.1" r="1.3" style="fill:#d9d9d9;" class="cv" />
-</g>
 <g class="Gabon">
 	<title>2021-03-10  C23604A  Gabon=3 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1775.5" cy="968.1" r="1.7" style="fill:#FFD700;" class="cv" />
+</g>
+<g class="Kenya">
+	<title>2021-03-10  C23604G  Kenya=2 [50.0%]  surface glycoprotein, P681R</title>
+	<circle cx="1775.5" cy="968.1" r="1.3" style="fill:#d9d9d9;" class="cv" />
 </g>
 <g class="Reunion">
 	<circle cx="1787.7" cy="963.2" r="3.3" style="fill:fuchsia;" class="cv" />
@@ -11518,12 +11518,12 @@
 <g class="SouthAfrica">
 	<circle cx="1753.9" cy="1040.9" r="2.0" style="fill:cyan;" class="cv" />
 </g>
-<g class="Morocco">
-	<circle cx="1753.9" cy="1040.9" r="1.3" style="fill:#FFBBFF;" class="cv" />
-</g>
 <g class="Gabon">
-	<title>2021-03-16  A23403G  South Africa=4 [100.0%] Morocco=2 [100.0%] Gabon=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1753.9" cy="1040.9" r="1.3" style="fill:#FFD700;" class="cv" />
+</g>
+<g class="Morocco">
+	<title>2021-03-16  A23403G  South Africa=4 [100.0%] Gabon=2 [100.0%] Morocco=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1753.9" cy="1040.9" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Ghana">
 	<title>2021-03-16  G23593C  Ghana=4 [80.0%]  surface glycoprotein, Q677H</title>
@@ -11620,12 +11620,12 @@
 	<title>2021-03-17  C23271A  Morocco=3 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1728.5" cy="1058.0" r="1.7" style="fill:#FFBBFF;" class="cv" />
 </g>
-<g class="SouthAfrica">
-	<circle cx="1756.5" cy="1050.5" r="1.7" style="fill:cyan;" class="cv" />
-</g>
 <g class="Morocco">
-	<title>2021-03-17  A23403G  South Africa=3 [100.0%] Morocco=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1756.5" cy="1050.5" r="1.7" style="fill:#FFBBFF;" class="cv" />
+</g>
+<g class="SouthAfrica">
+	<title>2021-03-17  A23403G  Morocco=3 [100.0%] South Africa=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1756.5" cy="1050.5" r="1.7" style="fill:cyan;" class="cv" />
 </g>
 <g class="Morocco">
 	<title>2021-03-17  C23604A  Morocco=3 [100.0%]  surface glycoprotein, P681H</title>
@@ -11657,33 +11657,33 @@
 </g>
 <g class="Botswana">
 	<title>2021-03-18 Botswana=2</title>
-	<line x1="1209.6" y1="1197.6" x2="1211.6" y2="1197.1" style="stroke:#ccebc5;" class="sb" />
+	<line x1="1209.6" y1="1197.6" x2="1211.6" y2="1197.1" style="stroke:#bc80bd;" class="sb" />
 </g>
 <g class="SouthAfrica">
 	<circle cx="1417.5" cy="1145.6" r="1.7" style="fill:cyan;" class="cv" />
 </g>
-<g class="Botswana">
-	<circle cx="1417.5" cy="1145.6" r="1.3" style="fill:#ccebc5;" class="cv" />
-</g>
 <g class="Reunion">
-	<title>2021-03-18  A21801C  South Africa=3 [100.0%] Botswana=2 [100.0%] Reunion=2 [100.0%]  surface glycoprotein, D80A</title>
 	<circle cx="1417.5" cy="1145.6" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Botswana">
+	<title>2021-03-18  A21801C  South Africa=3 [100.0%] Reunion=2 [100.0%] Botswana=2 [100.0%]  surface glycoprotein, D80A</title>
+	<circle cx="1417.5" cy="1145.6" r="1.3" style="fill:#bc80bd;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<circle cx="1503.8" cy="1124.0" r="1.7" style="fill:cyan;" class="cv" />
 </g>
-<g class="Reunion">
-	<circle cx="1503.8" cy="1124.0" r="1.3" style="fill:fuchsia;" class="cv" />
-</g>
 <g class="Botswana">
-	<title>2021-03-18  A22206G  South Africa=3 [100.0%] Reunion=2 [100.0%] Botswana=2 [100.0%]  surface glycoprotein, D215G</title>
-	<circle cx="1503.8" cy="1124.0" r="1.3" style="fill:#ccebc5;" class="cv" />
+	<circle cx="1503.8" cy="1124.0" r="1.3" style="fill:#bc80bd;" class="cv" />
+</g>
+<g class="Reunion">
+	<title>2021-03-18  A22206G  South Africa=3 [100.0%] Botswana=2 [100.0%] Reunion=2 [100.0%]  surface glycoprotein, D215G</title>
+	<circle cx="1503.8" cy="1124.0" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<circle cx="1633.2" cy="1091.6" r="1.7" style="fill:cyan;" class="cv" />
 </g>
 <g class="Botswana">
-	<circle cx="1633.2" cy="1091.6" r="1.3" style="fill:#ccebc5;" class="cv" />
+	<circle cx="1633.2" cy="1091.6" r="1.3" style="fill:#bc80bd;" class="cv" />
 </g>
 <g class="Reunion">
 	<title>2021-03-18  G22813T  South Africa=3 [100.0%] Botswana=2 [100.0%] Reunion=2 [100.0%]  surface glycoprotein, K417N</title>
@@ -11711,13 +11711,13 @@
 </g>
 <g class="Botswana">
 	<title>2021-03-18  A23403G  South Africa=3 [100.0%] Reunion=2 [100.0%] Botswana=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1759.0" cy="1060.1" r="1.3" style="fill:#ccebc5;" class="cv" />
+	<circle cx="1759.0" cy="1060.1" r="1.3" style="fill:#bc80bd;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<circle cx="1814.7" cy="1046.2" r="1.7" style="fill:cyan;" class="cv" />
 </g>
 <g class="Botswana">
-	<circle cx="1814.7" cy="1046.2" r="1.3" style="fill:#ccebc5;" class="cv" />
+	<circle cx="1814.7" cy="1046.2" r="1.3" style="fill:#bc80bd;" class="cv" />
 </g>
 <g class="Reunion">
 	<title>2021-03-18  C23664T  South Africa=3 [100.0%] Botswana=2 [100.0%] Reunion=2 [100.0%]  surface glycoprotein, A701V</title>
@@ -11950,12 +11950,12 @@
 	<title>2021-03-22  A23403G  Reunion=12 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1767.3" cy="1098.8" r="3.1" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="Morocco">
-	<circle cx="1767.3" cy="1098.8" r="1.7" style="fill:#FFBBFF;" class="cv" />
-</g>
 <g class="SouthAfrica">
-	<title>2021-03-22  A23403G  Morocco=3 [100.0%] South Africa=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1767.3" cy="1098.8" r="1.7" style="fill:cyan;" class="cv" />
+</g>
+<g class="Morocco">
+	<title>2021-03-22  A23403G  South Africa=3 [100.0%] Morocco=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1767.3" cy="1098.8" r="1.7" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Morocco">
 	<title>2021-03-22  C23604A  Morocco=3 [100.0%]  surface glycoprotein, P681H</title>
@@ -12079,13 +12079,13 @@
 	<title>2021-03-23  A23403G  Morocco=4 [100.0%] Rwanda=3 [50.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1769.0" cy="1108.7" r="1.7" style="fill:#6495ED;" class="cv" />
 </g>
-<g class="Morocco">
-	<title>2021-03-23  C23604A  Morocco=4 [100.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1812.6" cy="1101.7" r="2.0" style="fill:#FFBBFF;" class="cv" />
-</g>
 <g class="Rwanda">
 	<title>2021-03-23  C23604G  Rwanda=3 [50.0%]  surface glycoprotein, P681R</title>
 	<circle cx="1812.6" cy="1101.7" r="1.7" style="fill:#6495ED;" class="cv" />
+</g>
+<g class="Morocco">
+	<title>2021-03-23  C23604A  Morocco=4 [100.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1812.6" cy="1101.7" r="2.0" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="SouthAfrica">
 	<title>2021-03-23  C23664T  South Africa=7 [100.0%]  surface glycoprotein, A701V</title>
@@ -12279,12 +12279,12 @@
 	<title>2021-03-25  G23012A  Uganda=2 [66.7%]  surface glycoprotein, E484K</title>
 	<circle cx="1686.5" cy="1139.0" r="1.3" style="fill:red;" class="cv" />
 </g>
-<g class="SouthAfrica">
-	<circle cx="1697.6" cy="1137.6" r="2.2" style="fill:cyan;" class="cv" />
-</g>
 <g class="Morocco">
-	<title>2021-03-25  A23063T  South Africa=5 [100.0%] Morocco=5 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1697.6" cy="1137.6" r="2.2" style="fill:#FFBBFF;" class="cv" />
+</g>
+<g class="SouthAfrica">
+	<title>2021-03-25  A23063T  Morocco=5 [100.0%] South Africa=5 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1697.6" cy="1137.6" r="2.2" style="fill:cyan;" class="cv" />
 </g>
 <g class="Uganda">
 	<circle cx="1697.6" cy="1137.6" r="1.7" style="fill:red;" class="cv" />
@@ -12517,12 +12517,12 @@
 <g class="Egypt">
 	<circle cx="1699.5" cy="1154.7" r="2.0" style="fill:orange;" class="cv" />
 </g>
-<g class="SouthAfrica">
-	<circle cx="1699.5" cy="1154.7" r="1.7" style="fill:cyan;" class="cv" />
-</g>
 <g class="Uganda">
-	<title>2021-03-27  A23063T  Egypt=4 [9.1%] South Africa=3 [100.0%] Uganda=3 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1699.5" cy="1154.7" r="1.7" style="fill:red;" class="cv" />
+</g>
+<g class="SouthAfrica">
+	<title>2021-03-27  A23063T  Egypt=4 [9.1%] Uganda=3 [100.0%] South Africa=3 [100.0%]  surface glycoprotein, N501Y</title>
+	<circle cx="1699.5" cy="1154.7" r="1.7" style="fill:cyan;" class="cv" />
 </g>
 <g class="Egypt">
 	<title>2021-03-27  A23064C  Egypt=3 [6.8%]  surface glycoprotein, N501T</title>
@@ -12543,12 +12543,12 @@
 	<title>2021-03-27  A23403G  Reunion=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1773.9" cy="1148.0" r="2.4" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="SouthAfrica">
-	<circle cx="1773.9" cy="1148.0" r="1.7" style="fill:cyan;" class="cv" />
-</g>
 <g class="Uganda">
-	<title>2021-03-27  A23403G  South Africa=3 [100.0%] Uganda=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1773.9" cy="1148.0" r="1.7" style="fill:red;" class="cv" />
+</g>
+<g class="SouthAfrica">
+	<title>2021-03-27  A23403G  Uganda=3 [100.0%] South Africa=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1773.9" cy="1148.0" r="1.7" style="fill:cyan;" class="cv" />
 </g>
 <g class="Egypt">
 	<title>2021-03-27  C23525T  Egypt=3 [6.8%]  surface glycoprotein, H655Y</title>
@@ -12785,12 +12785,12 @@
 	<title>2021-03-31  C21614T  South Africa=2 [66.7%]  surface glycoprotein, L18F</title>
 	<circle cx="1383.0" cy="1196.1" r="1.3" style="fill:cyan;" class="cv" />
 </g>
-<g class="SouthAfrica">
-	<circle cx="1424.1" cy="1195.2" r="1.7" style="fill:cyan;" class="cv" />
-</g>
 <g class="Reunion">
-	<title>2021-03-31  A21801C  South Africa=3 [100.0%] Reunion=3 [100.0%]  surface glycoprotein, D80A</title>
 	<circle cx="1424.1" cy="1195.2" r="1.7" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="SouthAfrica">
+	<title>2021-03-31  A21801C  Reunion=3 [100.0%] South Africa=3 [100.0%]  surface glycoprotein, D80A</title>
+	<circle cx="1424.1" cy="1195.2" r="1.7" style="fill:cyan;" class="cv" />
 </g>
 <g class="Reunion">
 	<circle cx="1513.1" cy="1193.3" r="1.7" style="fill:fuchsia;" class="cv" />
@@ -12820,12 +12820,12 @@
 	<title>2021-03-31  A23063T  Reunion=3 [100.0%] South Africa=3 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1701.4" cy="1189.2" r="1.7" style="fill:cyan;" class="cv" />
 </g>
-<g class="SouthAfrica">
-	<circle cx="1776.1" cy="1187.6" r="1.7" style="fill:cyan;" class="cv" />
-</g>
 <g class="Reunion">
-	<title>2021-03-31  A23403G  South Africa=3 [100.0%] Reunion=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1776.1" cy="1187.6" r="1.7" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="SouthAfrica">
+	<title>2021-03-31  A23403G  Reunion=3 [100.0%] South Africa=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1776.1" cy="1187.6" r="1.7" style="fill:cyan;" class="cv" />
 </g>
 <g class="Reunion">
 	<circle cx="1833.5" cy="1186.4" r="1.7" style="fill:fuchsia;" class="cv" />
@@ -13041,12 +13041,12 @@
 	<title>2021-04-03  C23271A  Morocco=2 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1747.0" cy="1216.5" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
-<g class="Morocco">
-	<circle cx="1776.0" cy="1217.4" r="1.3" style="fill:#FFBBFF;" class="cv" />
-</g>
 <g class="Reunion">
-	<title>2021-04-03  A23403G  Morocco=2 [100.0%] Reunion=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1776.0" cy="1217.4" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Morocco">
+	<title>2021-04-03  A23403G  Reunion=2 [100.0%] Morocco=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1776.0" cy="1217.4" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Morocco">
 	<title>2021-04-03  C23604A  Morocco=2 [100.0%]  surface glycoprotein, P681H</title>
@@ -13778,12 +13778,12 @@
 	<title>2021-04-16  C23271A  Morocco=2 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1729.7" cy="1337.5" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
-<g class="SouthAfrica">
-	<circle cx="1757.8" cy="1344.8" r="1.3" style="fill:cyan;" class="cv" />
-</g>
 <g class="Morocco">
-	<title>2021-04-16  A23403G  South Africa=2 [100.0%] Morocco=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1757.8" cy="1344.8" r="1.3" style="fill:#FFBBFF;" class="cv" />
+</g>
+<g class="SouthAfrica">
+	<title>2021-04-16  A23403G  Morocco=2 [100.0%] South Africa=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1757.8" cy="1344.8" r="1.3" style="fill:cyan;" class="cv" />
 </g>
 <g class="Morocco">
 	<title>2021-04-16  C23604A  Morocco=2 [100.0%]  surface glycoprotein, P681H</title>
@@ -14297,12 +14297,12 @@
 	<title>2021-04-26  A23063T  Reunion=10 [100.0%] South Africa=8 [80.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1656.7" cy="1407.3" r="2.7" style="fill:cyan;" class="cv" />
 </g>
-<g class="SouthAfrica">
-	<circle cx="1724.8" cy="1438.1" r="2.9" style="fill:cyan;" class="cv" />
-</g>
 <g class="Reunion">
-	<title>2021-04-26  A23403G  South Africa=10 [100.0%] Reunion=10 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1724.8" cy="1438.1" r="2.9" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="SouthAfrica">
+	<title>2021-04-26  A23403G  Reunion=10 [100.0%] South Africa=10 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1724.8" cy="1438.1" r="2.9" style="fill:cyan;" class="cv" />
 </g>
 <g class="Reunion">
 	<circle cx="1777.0" cy="1461.9" r="2.9" style="fill:fuchsia;" class="cv" />
@@ -15253,7 +15253,7 @@
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 35 regions in Africa</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥2</text>
 <text font-size="1.8em" x="1880" y="92" fill="white">158 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-06-06</text>
+<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-06-07</text>
  <script type="text/javascript"><![CDATA[
         var transformMatrix = [1, 0, 0, 1, 0, 0];
         var svg = document.getElementById('map-svg');
@@ -15378,8 +15378,8 @@ hoverByClass("CotedIvoire");
 hoverByClass("DRC");
 hoverByClass("EquatorialGuinea");
 hoverByClass("Kenya");
-hoverByClass("BurkinaFaso");
 hoverByClass("Botswana");
+hoverByClass("BurkinaFaso");
 hoverByClass("Cameroon");
 hoverByClass("Ethiopia");
 hoverByClass("Gambia");
