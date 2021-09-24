@@ -509,11 +509,11 @@
 	stroke: none;
 	fill-opacity:1.0;
 	}
-	.Shaoxing {
+	.Hunan {
 	stroke: none;
 	fill-opacity:0.6;
 	}
-	.Shaoxing:hover {
+	.Hunan:hover {
 	stroke: none;
 	fill-opacity:1.0;
 	}
@@ -525,11 +525,11 @@
 	stroke: none;
 	fill-opacity:1.0;
 	}
-	.Hunan {
+	.Shaoxing {
 	stroke: none;
 	fill-opacity:0.6;
 	}
-	.Hunan:hover {
+	.Shaoxing:hover {
 	stroke: none;
 	fill-opacity:1.0;
 	}
@@ -573,11 +573,11 @@
 	stroke: none;
 	fill-opacity:1.0;
 	}
-	.Fuyang {
+	.Lishui {
 	stroke: none;
 	fill-opacity:0.6;
 	}
-	.Fuyang:hover {
+	.Lishui:hover {
 	stroke: none;
 	fill-opacity:1.0;
 	}
@@ -589,11 +589,11 @@
 	stroke: none;
 	fill-opacity:1.0;
 	}
-	.Lishui {
+	.Fuyang {
 	stroke: none;
 	fill-opacity:0.6;
 	}
-	.Lishui:hover {
+	.Fuyang:hover {
 	stroke: none;
 	fill-opacity:1.0;
 	}
@@ -618,6 +618,22 @@
 	fill-opacity:0.6;
 	}
 	.Jian:hover {
+	stroke: none;
+	fill-opacity:1.0;
+	}
+	.Yingtan {
+	stroke: none;
+	fill-opacity:0.6;
+	}
+	.Yingtan:hover {
+	stroke: none;
+	fill-opacity:1.0;
+	}
+	.Chongqing {
+	stroke: none;
+	fill-opacity:0.6;
+	}
+	.Chongqing:hover {
 	stroke: none;
 	fill-opacity:1.0;
 	}
@@ -653,30 +669,6 @@
 	stroke: none;
 	fill-opacity:1.0;
 	}
-	.Yingtan {
-	stroke: none;
-	fill-opacity:0.6;
-	}
-	.Yingtan:hover {
-	stroke: none;
-	fill-opacity:1.0;
-	}
-	.Chongqing {
-	stroke: none;
-	fill-opacity:0.6;
-	}
-	.Chongqing:hover {
-	stroke: none;
-	fill-opacity:1.0;
-	}
-	.Changzhou {
-	stroke: none;
-	fill-opacity:0.6;
-	}
-	.Changzhou:hover {
-	stroke: none;
-	fill-opacity:1.0;
-	}
 	.Ganzhou {
 	stroke: none;
 	fill-opacity:0.6;
@@ -685,11 +677,11 @@
 	stroke: none;
 	fill-opacity:1.0;
 	}
-	.Jiangxi {
+	.Changzhou {
 	stroke: none;
 	fill-opacity:0.6;
 	}
-	.Jiangxi:hover {
+	.Changzhou:hover {
 	stroke: none;
 	fill-opacity:1.0;
 	}
@@ -706,6 +698,14 @@
 	fill-opacity:0.6;
 	}
 	.Jiujiang:hover {
+	stroke: none;
+	fill-opacity:1.0;
+	}
+	.Jiangxi {
+	stroke: none;
+	fill-opacity:0.6;
+	}
+	.Jiangxi:hover {
 	stroke: none;
 	fill-opacity:1.0;
 	}
@@ -826,7 +826,7 @@
 </g>
 <g class="Foshan">
 	<title>2020-01-22 Foshan=3</title>
-	<line x1="1208.0" y1="1180.0" x2="1209.0" y2="1177.4" style="stroke:#008080;" class="sb" />
+	<line x1="1208.0" y1="1180.0" x2="1209.0" y2="1177.4" style="stroke:#D2B48C;" class="sb" />
 </g>
 <g class="HongKong">
 	<title>2020-01-22  G22661T  Hong Kong=3 [100.0%]  surface glycoprotein, V367F</title>
@@ -1010,7 +1010,7 @@
 </g>
 <g class="Hunan">
 	<title>2020-01-29 Hunan=2</title>
-	<line x1="1214.6" y1="1173.2" x2="1215.6" y2="1171.3" style="stroke:#B0E0E6;" class="sb" />
+	<line x1="1214.6" y1="1173.2" x2="1215.6" y2="1171.3" style="stroke:#FFC0CB;" class="sb" />
 </g>
 <g class="Guangzhou">
 	<title>2020-01-29  C21707T  Guangzhou=4 [80.0%]  surface glycoprotein, H49Y</title>
@@ -1050,7 +1050,7 @@
 </g>
 <g class="Shaoxing">
 	<title>2020-01-30 Shaoxing=2</title>
-	<line x1="1212.7" y1="1177.5" x2="1213.8" y2="1175.7" style="stroke:#FFC0CB;" class="sb" />
+	<line x1="1212.7" y1="1177.5" x2="1213.8" y2="1175.7" style="stroke:#B0E0E6;" class="sb" />
 </g>
 <g class="Japan">
 	<title>2020-01-31 Japan=2</title>
@@ -1082,7 +1082,7 @@
 </g>
 <g class="Shaoxing">
 	<title>2020-01-31 Shaoxing=2</title>
-	<line x1="1211.0" y1="1181.4" x2="1212.0" y2="1179.5" style="stroke:#FFC0CB;" class="sb" />
+	<line x1="1211.0" y1="1181.4" x2="1212.0" y2="1179.5" style="stroke:#B0E0E6;" class="sb" />
 </g>
 <g class="Thailand">
 	<title>2020-02-01 Thailand=2</title>
@@ -1918,15 +1918,15 @@
 	<title>2020-03-11  A23403G  Japan=5 [45.5%] Israel=5 [71.4%]  surface glycoprotein, D614G</title>
 	<circle cx="1741.0" cy="1001.4" r="2.2" style="fill:orange;" class="cv" />
 </g>
-<g class="Vietnam">
-	<circle cx="1741.0" cy="1001.4" r="1.3" style="fill:#ccebc5;" class="cv" />
-</g>
 <g class="Cambodia">
 	<circle cx="1741.0" cy="1001.4" r="1.3" style="fill:#bc80bd;" class="cv" />
 </g>
 <g class="India">
-	<title>2020-03-11  A23403G  Vietnam=2 [100.0%] Cambodia=2 [100.0%] India=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1741.0" cy="1001.4" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Vietnam">
+	<title>2020-03-11  A23403G  Cambodia=2 [100.0%] India=2 [100.0%] Vietnam=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1741.0" cy="1001.4" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Thailand">
 	<title>2020-03-11  G24047A  Thailand=2 [40.0%]  surface glycoprotein, A829T</title>
@@ -2229,23 +2229,23 @@
 	<title>2020-03-16  A23403G  Japan=9 [81.8%] Singapore=8 [61.5%] Vietnam=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1756.0" cy="1048.4" r="2.2" style="fill:#ccebc5;" class="cv" />
 </g>
-<g class="Taiwan">
-	<circle cx="1756.0" cy="1048.4" r="1.7" style="fill:#80b1d3;" class="cv" />
-</g>
 <g class="Jordan">
 	<circle cx="1756.0" cy="1048.4" r="1.7" style="fill:#6495ED;" class="cv" />
+</g>
+<g class="Taiwan">
+	<circle cx="1756.0" cy="1048.4" r="1.7" style="fill:#80b1d3;" class="cv" />
 </g>
 <g class="India">
 	<circle cx="1756.0" cy="1048.4" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="Kuwait">
-	<circle cx="1756.0" cy="1048.4" r="1.3" style="fill:#FFE4B5;" class="cv" />
-</g>
 <g class="HongKong">
 	<circle cx="1756.0" cy="1048.4" r="1.3" style="fill:lime;" class="cv" />
 </g>
+<g class="Kuwait">
+	<circle cx="1756.0" cy="1048.4" r="1.3" style="fill:#FFE4B5;" class="cv" />
+</g>
 <g class="UnitedArabEmirates">
-	<title>2020-03-16  A23403G  Taiwan=3 [60.0%] Jordan=3 [60.0%] India=2 [40.0%] Kuwait=2 [66.7%] Hong Kong=2 [66.7%] United Arab Emirates=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-03-16  A23403G  Jordan=3 [60.0%] Taiwan=3 [60.0%] India=2 [40.0%] Hong Kong=2 [66.7%] Kuwait=2 [66.7%] United Arab Emirates=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1756.0" cy="1048.4" r="1.3" style="fill:yellow;" class="cv" />
 </g>
 <g class="Thailand">
@@ -2607,20 +2607,20 @@
 <g class="Thailand">
 	<circle cx="1765.1" cy="1087.0" r="2.0" style="fill:#CC00FF;" class="cv" />
 </g>
-<g class="Vietnam">
-	<circle cx="1765.1" cy="1087.0" r="1.7" style="fill:#ccebc5;" class="cv" />
-</g>
 <g class="HongKong">
 	<circle cx="1765.1" cy="1087.0" r="1.7" style="fill:lime;" class="cv" />
 </g>
-<g class="Beijing">
-	<circle cx="1765.1" cy="1087.0" r="1.7" style="fill:#FF00FF;" class="cv" />
+<g class="Vietnam">
+	<circle cx="1765.1" cy="1087.0" r="1.7" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Taiwan">
 	<circle cx="1765.1" cy="1087.0" r="1.7" style="fill:#80b1d3;" class="cv" />
 </g>
+<g class="Beijing">
+	<circle cx="1765.1" cy="1087.0" r="1.7" style="fill:#FF00FF;" class="cv" />
+</g>
 <g class="SaudiArabia">
-	<title>2020-03-20  A23403G  Thailand=4 [33.3%] Vietnam=3 [60.0%] Hong Kong=3 [60.0%] Beijing=3 [75.0%] Taiwan=3 [75.0%] Saudi Arabia=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-03-20  A23403G  Thailand=4 [33.3%] Hong Kong=3 [60.0%] Vietnam=3 [60.0%] Taiwan=3 [75.0%] Beijing=3 [75.0%] Saudi Arabia=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1765.1" cy="1087.0" r="1.7" style="fill:#F08080;" class="cv" />
 </g>
 <g class="Thailand">
@@ -2706,17 +2706,14 @@
 	<title>2020-03-21  A23403G  Vietnam=6 [100.0%] Thailand=5 [71.4%]  surface glycoprotein, D614G</title>
 	<circle cx="1766.9" cy="1096.7" r="2.2" style="fill:#CC00FF;" class="cv" />
 </g>
-<g class="Oman">
-	<circle cx="1766.9" cy="1096.7" r="1.7" style="fill:#b15928;" class="cv" />
-</g>
 <g class="HongKong">
 	<circle cx="1766.9" cy="1096.7" r="1.7" style="fill:lime;" class="cv" />
 </g>
+<g class="Oman">
+	<circle cx="1766.9" cy="1096.7" r="1.7" style="fill:#b15928;" class="cv" />
+</g>
 <g class="Taiwan">
 	<circle cx="1766.9" cy="1096.7" r="1.7" style="fill:#80b1d3;" class="cv" />
-</g>
-<g class="Turkey">
-	<circle cx="1766.9" cy="1096.7" r="1.7" style="fill:#b2df8a;" class="cv" />
 </g>
 <g class="India">
 	<circle cx="1766.9" cy="1096.7" r="1.7" style="fill:fuchsia;" class="cv" />
@@ -2724,16 +2721,19 @@
 <g class="Israel">
 	<circle cx="1766.9" cy="1096.7" r="1.7" style="fill:orange;" class="cv" />
 </g>
-<g class="Beijing">
-	<circle cx="1766.9" cy="1096.7" r="1.3" style="fill:#FF00FF;" class="cv" />
+<g class="Turkey">
+	<circle cx="1766.9" cy="1096.7" r="1.7" style="fill:#b2df8a;" class="cv" />
 </g>
 <g class="SaudiArabia">
-	<title>2020-03-21  A23403G  Oman=3 [75.0%] Hong Kong=3 [75.0%] Taiwan=3 [100.0%] Turkey=3 [100.0%] India=3 [100.0%] Israel=3 [100.0%] Beijing=2 [100.0%] Saudi Arabia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1766.9" cy="1096.7" r="1.3" style="fill:#F08080;" class="cv" />
 </g>
 <g class="Hangzhou">
-	<title>2020-03-21  A23403G  Oman=3 [75.0%] Hong Kong=3 [75.0%] Taiwan=3 [100.0%] Turkey=3 [100.0%] India=3 [100.0%] Israel=3 [100.0%] Beijing=2 [100.0%] Saudi Arabia=2 [100.0%] Hangzhou=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-03-21  A23403G  Hong Kong=3 [75.0%] Oman=3 [75.0%] Taiwan=3 [100.0%] India=3 [100.0%] Israel=3 [100.0%] Turkey=3 [100.0%] Saudi Arabia=2 [100.0%] Hangzhou=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1766.9" cy="1096.7" r="1.3" style="fill:#FDF5E6;" class="cv" />
+</g>
+<g class="Beijing">
+	<title>2020-03-21  A23403G  Hong Kong=3 [75.0%] Oman=3 [75.0%] Taiwan=3 [100.0%] India=3 [100.0%] Israel=3 [100.0%] Turkey=3 [100.0%] Saudi Arabia=2 [100.0%] Hangzhou=2 [100.0%] Beijing=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1766.9" cy="1096.7" r="1.3" style="fill:#FF00FF;" class="cv" />
 </g>
 <g class="Thailand">
 	<title>2020-03-21  G24047A  Thailand=2 [28.6%]  surface glycoprotein, A829T</title>
@@ -2822,15 +2822,15 @@
 <g class="Cambodia">
 	<circle cx="1768.6" cy="1106.5" r="1.3" style="fill:#bc80bd;" class="cv" />
 </g>
-<g class="Palestine">
-	<circle cx="1768.6" cy="1106.5" r="1.3" style="fill:#b3de69;" class="cv" />
-</g>
 <g class="Taiwan">
 	<circle cx="1768.6" cy="1106.5" r="1.3" style="fill:#80b1d3;" class="cv" />
 </g>
 <g class="SaudiArabia">
-	<title>2020-03-22  A23403G  Israel=4 [80.0%] Beijing=3 [100.0%] Cambodia=2 [66.7%] Palestine=2 [100.0%] Taiwan=2 [100.0%] Saudi Arabia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1768.6" cy="1106.5" r="1.3" style="fill:#F08080;" class="cv" />
+</g>
+<g class="Palestine">
+	<title>2020-03-22  A23403G  Israel=4 [80.0%] Beijing=3 [100.0%] Cambodia=2 [66.7%] Taiwan=2 [100.0%] Saudi Arabia=2 [100.0%] Palestine=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1768.6" cy="1106.5" r="1.3" style="fill:#b3de69;" class="cv" />
 </g>
 <g class="HongKong">
 	<title>2020-03-22  A23712G  Hong Kong=3 [75.0%]  surface glycoprotein, N717S</title>
@@ -2912,18 +2912,18 @@
 <g class="Thailand">
 	<circle cx="1770.1" cy="1116.2" r="2.0" style="fill:#CC00FF;" class="cv" />
 </g>
-<g class="India">
-	<circle cx="1770.1" cy="1116.2" r="1.3" style="fill:fuchsia;" class="cv" />
-</g>
-<g class="Jordan">
-	<circle cx="1770.1" cy="1116.2" r="1.3" style="fill:#6495ED;" class="cv" />
-</g>
 <g class="Turkey">
 	<circle cx="1770.1" cy="1116.2" r="1.3" style="fill:#b2df8a;" class="cv" />
 </g>
+<g class="India">
+	<circle cx="1770.1" cy="1116.2" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
 <g class="Taiwan">
-	<title>2020-03-23  A23403G  Saudi Arabia=4 [36.4%] Vietnam=4 [66.7%] Thailand=4 [100.0%] India=2 [100.0%] Jordan=2 [100.0%] Turkey=2 [100.0%] Taiwan=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1770.1" cy="1116.2" r="1.3" style="fill:#80b1d3;" class="cv" />
+</g>
+<g class="Jordan">
+	<title>2020-03-23  A23403G  Saudi Arabia=4 [36.4%] Vietnam=4 [66.7%] Thailand=4 [100.0%] Turkey=2 [100.0%] India=2 [100.0%] Taiwan=2 [100.0%] Jordan=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1770.1" cy="1116.2" r="1.3" style="fill:#6495ED;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-03-24 Japan=5</title>
@@ -3003,12 +3003,12 @@
 <g class="Vietnam">
 	<circle cx="1771.5" cy="1126.0" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
-<g class="Taiwan">
-	<circle cx="1771.5" cy="1126.0" r="1.3" style="fill:#80b1d3;" class="cv" />
-</g>
 <g class="India">
-	<title>2020-03-24  A23403G  Japan=4 [80.0%] Zhejiang=3 [50.0%] South Korea=3 [100.0%] Vietnam=2 [40.0%] Taiwan=2 [66.7%] India=2 [66.7%]  surface glycoprotein, D614G</title>
 	<circle cx="1771.5" cy="1126.0" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Taiwan">
+	<title>2020-03-24  A23403G  Japan=4 [80.0%] Zhejiang=3 [50.0%] South Korea=3 [100.0%] Vietnam=2 [40.0%] India=2 [66.7%] Taiwan=2 [66.7%]  surface glycoprotein, D614G</title>
+	<circle cx="1771.5" cy="1126.0" r="1.3" style="fill:#80b1d3;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-03-25 Japan=12</title>
@@ -3089,19 +3089,18 @@
 <g class="Singapore">
 	<circle cx="1772.7" cy="1135.9" r="1.7" style="fill:#FFBBFF;" class="cv" />
 </g>
-<g class="Taiwan">
-	<circle cx="1772.7" cy="1135.9" r="1.3" style="fill:#80b1d3;" class="cv" />
-</g>
 <g class="Kazakhstan">
 	<circle cx="1772.7" cy="1135.9" r="1.3" style="fill:#d9d9d9;" class="cv" />
 </g>
-<g class="Hangzhou">
-	<title>2020-03-25  A23403G  Thailand=4 [100.0%] Saudi Arabia=4 [100.0%] Singapore=3 [30.0%] Taiwan=2 [50.0%] Kazakhstan=2 [50.0%] Hangzhou=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1772.7" cy="1135.9" r="1.3" style="fill:#FDF5E6;" class="cv" />
+<g class="Taiwan">
+	<circle cx="1772.7" cy="1135.9" r="1.3" style="fill:#80b1d3;" class="cv" />
 </g>
 <g class="Oman">
-	<title>2020-03-25  A23403G  Thailand=4 [100.0%] Saudi Arabia=4 [100.0%] Singapore=3 [30.0%] Taiwan=2 [50.0%] Kazakhstan=2 [50.0%] Hangzhou=2 [100.0%] Oman=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1772.7" cy="1135.9" r="1.3" style="fill:#b15928;" class="cv" />
+</g>
+<g class="Hangzhou">
+	<title>2020-03-25  A23403G  Thailand=4 [100.0%] Saudi Arabia=4 [100.0%] Singapore=3 [30.0%] Kazakhstan=2 [50.0%] Taiwan=2 [50.0%] Oman=2 [100.0%] Hangzhou=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1772.7" cy="1135.9" r="1.3" style="fill:#FDF5E6;" class="cv" />
 </g>
 <g class="Turkey">
 	<title>2020-03-25  C23874T  Turkey=2 [25.0%]  surface glycoprotein, A771V</title>
@@ -3182,26 +3181,26 @@
 	<title>2020-03-26  A23403G  South Korea=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1773.7" cy="1145.7" r="2.2" style="fill:white;" class="cv" />
 </g>
-<g class="Japan">
-	<circle cx="1773.7" cy="1145.7" r="2.0" style="fill:cyan;" class="cv" />
-</g>
 <g class="Turkey">
 	<circle cx="1773.7" cy="1145.7" r="2.0" style="fill:#b2df8a;" class="cv" />
 </g>
-<g class="Taiwan">
-	<circle cx="1773.7" cy="1145.7" r="1.7" style="fill:#80b1d3;" class="cv" />
+<g class="Japan">
+	<circle cx="1773.7" cy="1145.7" r="2.0" style="fill:cyan;" class="cv" />
 </g>
 <g class="Thailand">
 	<circle cx="1773.7" cy="1145.7" r="1.7" style="fill:#CC00FF;" class="cv" />
 </g>
-<g class="Singapore">
-	<circle cx="1773.7" cy="1145.7" r="1.3" style="fill:#FFBBFF;" class="cv" />
+<g class="Taiwan">
+	<circle cx="1773.7" cy="1145.7" r="1.7" style="fill:#80b1d3;" class="cv" />
 </g>
 <g class="India">
 	<circle cx="1773.7" cy="1145.7" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
+<g class="Singapore">
+	<circle cx="1773.7" cy="1145.7" r="1.3" style="fill:#FFBBFF;" class="cv" />
+</g>
 <g class="Vietnam">
-	<title>2020-03-26  A23403G  Japan=4 [80.0%] Turkey=4 [80.0%] Taiwan=3 [100.0%] Thailand=3 [100.0%] Singapore=2 [28.6%] India=2 [28.6%] Vietnam=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-03-26  A23403G  Turkey=4 [80.0%] Japan=4 [80.0%] Thailand=3 [100.0%] Taiwan=3 [100.0%] India=2 [28.6%] Singapore=2 [28.6%] Vietnam=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1773.7" cy="1145.7" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Japan">
@@ -3266,18 +3265,18 @@
 <g class="Singapore">
 	<circle cx="1774.5" cy="1155.5" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
-<g class="Israel">
-	<circle cx="1774.5" cy="1155.5" r="1.3" style="fill:orange;" class="cv" />
-</g>
-<g class="Thailand">
-	<circle cx="1774.5" cy="1155.5" r="1.3" style="fill:#CC00FF;" class="cv" />
-</g>
 <g class="India">
 	<circle cx="1774.5" cy="1155.5" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-03-27  A23403G  Vietnam=3 [100.0%] Singapore=2 [50.0%] Israel=2 [100.0%] Thailand=2 [100.0%] India=2 [100.0%] South Korea=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1774.5" cy="1155.5" r="1.3" style="fill:white;" class="cv" />
+</g>
+<g class="Thailand">
+	<circle cx="1774.5" cy="1155.5" r="1.3" style="fill:#CC00FF;" class="cv" />
+</g>
+<g class="Israel">
+	<title>2020-03-27  A23403G  Vietnam=3 [100.0%] Singapore=2 [50.0%] India=2 [100.0%] South Korea=2 [100.0%] Thailand=2 [100.0%] Israel=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1774.5" cy="1155.5" r="1.3" style="fill:orange;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-03-27  G25249T  Japan=2 [12.5%]  surface glycoprotein, M1229I</title>
@@ -3341,17 +3340,17 @@
 <g class="India">
 	<circle cx="1775.2" cy="1165.4" r="1.7" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="Vietnam">
-	<circle cx="1775.2" cy="1165.4" r="1.7" style="fill:#ccebc5;" class="cv" />
-</g>
 <g class="Israel">
 	<circle cx="1775.2" cy="1165.4" r="1.7" style="fill:orange;" class="cv" />
+</g>
+<g class="Vietnam">
+	<circle cx="1775.2" cy="1165.4" r="1.7" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="SouthKorea">
 	<circle cx="1775.2" cy="1165.4" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="SaudiArabia">
-	<title>2020-03-28  A23403G  India=3 [27.3%] Vietnam=3 [100.0%] Israel=3 [100.0%] South Korea=2 [66.7%] Saudi Arabia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-03-28  A23403G  India=3 [27.3%] Israel=3 [100.0%] Vietnam=3 [100.0%] South Korea=2 [66.7%] Saudi Arabia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1775.2" cy="1165.4" r="1.3" style="fill:#F08080;" class="cv" />
 </g>
 <g class="Japan">
@@ -3495,21 +3494,21 @@
 <g class="India">
 	<circle cx="1776.1" cy="1185.1" r="2.0" style="fill:fuchsia;" class="cv" />
 </g>
+<g class="Taiwan">
+	<circle cx="1776.1" cy="1185.1" r="1.3" style="fill:#80b1d3;" class="cv" />
+</g>
 <g class="Jordan">
 	<circle cx="1776.1" cy="1185.1" r="1.3" style="fill:#6495ED;" class="cv" />
 </g>
-<g class="Taiwan">
-	<circle cx="1776.1" cy="1185.1" r="1.3" style="fill:#80b1d3;" class="cv" />
+<g class="HongKong">
+	<circle cx="1776.1" cy="1185.1" r="1.3" style="fill:lime;" class="cv" />
 </g>
 <g class="Vietnam">
 	<circle cx="1776.1" cy="1185.1" r="1.3" style="fill:#ccebc5;" class="cv" />
 </g>
 <g class="Thailand">
+	<title>2020-03-30  A23403G  India=4 [40.0%] Taiwan=2 [50.0%] Jordan=2 [50.0%] Hong Kong=2 [100.0%] Vietnam=2 [100.0%] Thailand=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1776.1" cy="1185.1" r="1.3" style="fill:#CC00FF;" class="cv" />
-</g>
-<g class="HongKong">
-	<title>2020-03-30  A23403G  India=4 [40.0%] Jordan=2 [50.0%] Taiwan=2 [50.0%] Vietnam=2 [100.0%] Thailand=2 [100.0%] Hong Kong=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1776.1" cy="1185.1" r="1.3" style="fill:lime;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-03-31 Japan=16</title>
@@ -3715,14 +3714,14 @@
 <g class="Singapore">
 	<circle cx="1776.1" cy="1214.9" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="1776.1" cy="1214.9" r="1.3" style="fill:white;" class="cv" />
-</g>
 <g class="Taiwan">
 	<circle cx="1776.1" cy="1214.9" r="1.3" style="fill:#80b1d3;" class="cv" />
 </g>
+<g class="SouthKorea">
+	<circle cx="1776.1" cy="1214.9" r="1.3" style="fill:white;" class="cv" />
+</g>
 <g class="Oman">
-	<title>2020-04-02  A23403G  India=4 [23.5%] Malaysia=2 [25.0%] Singapore=2 [33.3%] South Korea=2 [66.7%] Taiwan=2 [66.7%] Oman=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-04-02  A23403G  India=4 [23.5%] Malaysia=2 [25.0%] Singapore=2 [33.3%] Taiwan=2 [66.7%] South Korea=2 [66.7%] Oman=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1776.1" cy="1214.9" r="1.3" style="fill:#b15928;" class="cv" />
 </g>
 <g class="Japan">
@@ -4208,12 +4207,12 @@
 <g class="Turkey">
 	<circle cx="1763.0" cy="1322.8" r="2.0" style="fill:#b2df8a;" class="cv" />
 </g>
-<g class="Malaysia">
-	<circle cx="1763.0" cy="1322.8" r="1.7" style="fill:#ADD8E6;" class="cv" />
-</g>
 <g class="Israel">
-	<title>2020-04-13  A23403G  Japan=4 [80.0%] Turkey=4 [100.0%] Malaysia=3 [100.0%] Israel=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1763.0" cy="1322.8" r="1.7" style="fill:orange;" class="cv" />
+</g>
+<g class="Malaysia">
+	<title>2020-04-13  A23403G  Japan=4 [80.0%] Turkey=4 [100.0%] Israel=3 [100.0%] Malaysia=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1763.0" cy="1322.8" r="1.7" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-04-14 Japan=3</title>
@@ -4411,12 +4410,12 @@
 <g class="India">
 	<circle cx="1753.3" cy="1361.1" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="Israel">
-	<circle cx="1753.3" cy="1361.1" r="1.3" style="fill:orange;" class="cv" />
-</g>
 <g class="Oman">
-	<title>2020-04-17  A23403G  United Arab Emirates=2 [50.0%] India=2 [66.7%] Israel=2 [100.0%] Oman=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1753.3" cy="1361.1" r="1.3" style="fill:#b15928;" class="cv" />
+</g>
+<g class="Israel">
+	<title>2020-04-17  A23403G  United Arab Emirates=2 [50.0%] India=2 [66.7%] Oman=2 [100.0%] Israel=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1753.3" cy="1361.1" r="1.3" style="fill:orange;" class="cv" />
 </g>
 <g class="Singapore">
 	<title>2020-04-17  G25217T  Singapore=3 [6.8%]  surface glycoprotein, G1219C</title>
@@ -4958,18 +4957,18 @@
 <g class="UnitedArabEmirates">
 	<circle cx="1713.2" cy="1462.1" r="2.0" style="fill:yellow;" class="cv" />
 </g>
-<g class="SaudiArabia">
-	<circle cx="1713.2" cy="1462.1" r="2.0" style="fill:#F08080;" class="cv" />
-</g>
 <g class="Japan">
 	<circle cx="1713.2" cy="1462.1" r="2.0" style="fill:cyan;" class="cv" />
 </g>
-<g class="Bangladesh">
-	<circle cx="1713.2" cy="1462.1" r="1.7" style="fill:#FFD700;" class="cv" />
+<g class="SaudiArabia">
+	<circle cx="1713.2" cy="1462.1" r="2.0" style="fill:#F08080;" class="cv" />
 </g>
 <g class="Oman">
-	<title>2020-04-28  A23403G  United Arab Emirates=4 [80.0%] Saudi Arabia=4 [100.0%] Japan=4 [100.0%] Bangladesh=3 [100.0%] Oman=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1713.2" cy="1462.1" r="1.7" style="fill:#b15928;" class="cv" />
+</g>
+<g class="Bangladesh">
+	<title>2020-04-28  A23403G  United Arab Emirates=4 [80.0%] Japan=4 [100.0%] Saudi Arabia=4 [100.0%] Oman=3 [100.0%] Bangladesh=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1713.2" cy="1462.1" r="1.7" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-04-29 India=39</title>
@@ -5165,17 +5164,17 @@
 	<title>2020-05-01  A23403G  India=18 [60.0%] United Arab Emirates=14 [82.4%]  surface glycoprotein, D614G</title>
 	<circle cx="1699.1" cy="1488.1" r="3.3" style="fill:yellow;" class="cv" />
 </g>
-<g class="Turkey">
-	<circle cx="1699.1" cy="1488.1" r="2.0" style="fill:#b2df8a;" class="cv" />
-</g>
 <g class="Japan">
 	<circle cx="1699.1" cy="1488.1" r="2.0" style="fill:cyan;" class="cv" />
+</g>
+<g class="Turkey">
+	<circle cx="1699.1" cy="1488.1" r="2.0" style="fill:#b2df8a;" class="cv" />
 </g>
 <g class="Qatar">
 	<circle cx="1699.1" cy="1488.1" r="1.7" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g class="Oman">
-	<title>2020-05-01  A23403G  Turkey=4 [100.0%] Japan=4 [100.0%] Qatar=3 [75.0%] Oman=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-05-01  A23403G  Japan=4 [100.0%] Turkey=4 [100.0%] Qatar=3 [75.0%] Oman=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1699.1" cy="1488.1" r="1.7" style="fill:#b15928;" class="cv" />
 </g>
 <g class="Japan">
@@ -5210,12 +5209,12 @@
 	<title>2020-05-02  A23403G  United Arab Emirates=17 [73.9%]  surface glycoprotein, D614G</title>
 	<circle cx="1694.1" cy="1496.6" r="3.5" style="fill:yellow;" class="cv" />
 </g>
-<g class="Turkey">
-	<circle cx="1694.1" cy="1496.6" r="2.5" style="fill:#b2df8a;" class="cv" />
-</g>
 <g class="Japan">
-	<title>2020-05-02  A23403G  Turkey=7 [100.0%] Japan=7 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1694.1" cy="1496.6" r="2.5" style="fill:cyan;" class="cv" />
+</g>
+<g class="Turkey">
+	<title>2020-05-02  A23403G  Japan=7 [100.0%] Turkey=7 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1694.1" cy="1496.6" r="2.5" style="fill:#b2df8a;" class="cv" />
 </g>
 <g class="Qatar">
 	<title>2020-05-02  A23403G  Qatar=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -5283,12 +5282,12 @@
 <g class="Japan">
 	<circle cx="1688.9" cy="1505.1" r="1.3" style="fill:cyan;" class="cv" />
 </g>
-<g class="Oman">
-	<circle cx="1688.9" cy="1505.1" r="1.3" style="fill:#b15928;" class="cv" />
-</g>
 <g class="Qatar">
-	<title>2020-05-03  A23403G  Bangladesh=2 [100.0%] Japan=2 [100.0%] Oman=2 [100.0%] Qatar=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1688.9" cy="1505.1" r="1.3" style="fill:#7FFFD4;" class="cv" />
+</g>
+<g class="Oman">
+	<title>2020-05-03  A23403G  Bangladesh=2 [100.0%] Japan=2 [100.0%] Qatar=2 [100.0%] Oman=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1688.9" cy="1505.1" r="1.3" style="fill:#b15928;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-05-04 India=25</title>
@@ -5743,12 +5742,12 @@
 	<title>2020-05-11  A23403G  India=18 [66.7%]  surface glycoprotein, D614G</title>
 	<circle cx="1642.5" cy="1569.2" r="3.6" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="Pakistan">
-	<circle cx="1642.5" cy="1569.2" r="2.2" style="fill:#fdb462;" class="cv" />
-</g>
 <g class="Japan">
-	<title>2020-05-11  A23403G  Pakistan=5 [100.0%] Japan=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1642.5" cy="1569.2" r="2.2" style="fill:cyan;" class="cv" />
+</g>
+<g class="Pakistan">
+	<title>2020-05-11  A23403G  Japan=5 [100.0%] Pakistan=5 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1642.5" cy="1569.2" r="2.2" style="fill:#fdb462;" class="cv" />
 </g>
 <g class="SouthKorea">
 	<title>2020-05-11  A23403G  South Korea=2 [100.0%]  surface glycoprotein, D614G</title>
@@ -5846,15 +5845,15 @@
 <g class="Bangladesh">
 	<circle cx="1629.6" cy="1584.1" r="1.3" style="fill:#FFD700;" class="cv" />
 </g>
-<g class="Japan">
-	<circle cx="1629.6" cy="1584.1" r="1.3" style="fill:cyan;" class="cv" />
-</g>
 <g class="Turkey">
 	<circle cx="1629.6" cy="1584.1" r="1.3" style="fill:#b2df8a;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-05-13  A23403G  United Arab Emirates=3 [75.0%] Bangladesh=2 [66.7%] Japan=2 [100.0%] Turkey=2 [100.0%] South Korea=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1629.6" cy="1584.1" r="1.3" style="fill:white;" class="cv" />
+</g>
+<g class="Japan">
+	<title>2020-05-13  A23403G  United Arab Emirates=3 [75.0%] Bangladesh=2 [66.7%] Turkey=2 [100.0%] South Korea=2 [100.0%] Japan=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1629.6" cy="1584.1" r="1.3" style="fill:cyan;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-05-14 Japan=2</title>
@@ -5898,12 +5897,12 @@
 <g class="Turkey">
 	<circle cx="1622.9" cy="1591.5" r="1.7" style="fill:#b2df8a;" class="cv" />
 </g>
-<g class="Japan">
-	<circle cx="1622.9" cy="1591.5" r="1.3" style="fill:cyan;" class="cv" />
-</g>
 <g class="Bangladesh">
-	<title>2020-05-14  A23403G  United Arab Emirates=4 [80.0%] Turkey=3 [100.0%] Japan=2 [100.0%] Bangladesh=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1622.9" cy="1591.5" r="1.3" style="fill:#FFD700;" class="cv" />
+</g>
+<g class="Japan">
+	<title>2020-05-14  A23403G  United Arab Emirates=4 [80.0%] Turkey=3 [100.0%] Bangladesh=2 [100.0%] Japan=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1622.9" cy="1591.5" r="1.3" style="fill:cyan;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-05-15 Japan=2</title>
@@ -6356,14 +6355,14 @@
 	<title>2020-05-20  A23403G  United Arab Emirates=6 [60.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1580.4" cy="1632.9" r="2.4" style="fill:yellow;" class="cv" />
 </g>
-<g class="Pakistan">
-	<circle cx="1580.4" cy="1632.9" r="1.7" style="fill:#fdb462;" class="cv" />
-</g>
 <g class="Turkey">
 	<circle cx="1580.4" cy="1632.9" r="1.7" style="fill:#b2df8a;" class="cv" />
 </g>
+<g class="Pakistan">
+	<circle cx="1580.4" cy="1632.9" r="1.7" style="fill:#fdb462;" class="cv" />
+</g>
 <g class="SouthKorea">
-	<title>2020-05-20  A23403G  Pakistan=3 [100.0%] Turkey=3 [100.0%] South Korea=2 [66.7%]  surface glycoprotein, D614G</title>
+	<title>2020-05-20  A23403G  Turkey=3 [100.0%] Pakistan=3 [100.0%] South Korea=2 [66.7%]  surface glycoprotein, D614G</title>
 	<circle cx="1580.4" cy="1632.9" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="Turkey">
@@ -6462,12 +6461,12 @@
 <g class="SouthKorea">
 	<circle cx="1565.3" cy="1645.7" r="2.4" style="fill:white;" class="cv" />
 </g>
-<g class="Qatar">
-	<circle cx="1565.3" cy="1645.7" r="2.4" style="fill:#7FFFD4;" class="cv" />
-</g>
 <g class="Turkey">
-	<title>2020-05-22  A23403G  South Korea=6 [85.7%] Qatar=6 [100.0%] Turkey=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1565.3" cy="1645.7" r="2.4" style="fill:#b2df8a;" class="cv" />
+</g>
+<g class="Qatar">
+	<title>2020-05-22  A23403G  South Korea=6 [85.7%] Turkey=6 [100.0%] Qatar=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1565.3" cy="1645.7" r="2.4" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g class="Oman">
 	<title>2020-05-22  C23439T  Oman=2 [13.3%]  surface glycoprotein, A626V</title>
@@ -6919,12 +6918,12 @@
 <g class="UnitedArabEmirates">
 	<circle cx="1500.9" cy="1691.5" r="1.7" style="fill:yellow;" class="cv" />
 </g>
-<g class="Bangladesh">
-	<circle cx="1500.9" cy="1691.5" r="1.3" style="fill:#FFD700;" class="cv" />
-</g>
 <g class="Japan">
-	<title>2020-05-30  A23403G  United Arab Emirates=3 [75.0%] Bangladesh=2 [100.0%] Japan=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1500.9" cy="1691.5" r="1.3" style="fill:cyan;" class="cv" />
+</g>
+<g class="Bangladesh">
+	<title>2020-05-30  A23403G  United Arab Emirates=3 [75.0%] Japan=2 [100.0%] Bangladesh=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1500.9" cy="1691.5" r="1.3" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-05-31 India=3</title>
@@ -7145,14 +7144,14 @@
 <g class="Qatar">
 	<circle cx="1466.4" cy="1711.0" r="1.7" style="fill:#7FFFD4;" class="cv" />
 </g>
-<g class="Indonesia">
-	<circle cx="1466.4" cy="1711.0" r="1.3" style="fill:red;" class="cv" />
-</g>
 <g class="Japan">
 	<circle cx="1466.4" cy="1711.0" r="1.3" style="fill:cyan;" class="cv" />
 </g>
+<g class="Indonesia">
+	<circle cx="1466.4" cy="1711.0" r="1.3" style="fill:red;" class="cv" />
+</g>
 <g class="Israel">
-	<title>2020-06-03  A23403G  Qatar=3 [100.0%] Indonesia=2 [66.7%] Japan=2 [66.7%] Israel=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-06-03  A23403G  Qatar=3 [100.0%] Japan=2 [66.7%] Indonesia=2 [66.7%] Israel=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1466.4" cy="1711.0" r="1.3" style="fill:orange;" class="cv" />
 </g>
 <g class="India">
@@ -7492,12 +7491,12 @@
 <g class="SouthKorea">
 	<circle cx="1412.5" cy="1735.6" r="2.0" style="fill:white;" class="cv" />
 </g>
-<g class="Qatar">
-	<circle cx="1412.5" cy="1735.6" r="1.3" style="fill:#7FFFD4;" class="cv" />
-</g>
 <g class="Indonesia">
-	<title>2020-06-09  A23403G  South Korea=4 [100.0%] Qatar=2 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1412.5" cy="1735.6" r="1.3" style="fill:red;" class="cv" />
+</g>
+<g class="Qatar">
+	<title>2020-06-09  A23403G  South Korea=4 [100.0%] Indonesia=2 [100.0%] Qatar=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1412.5" cy="1735.6" r="1.3" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-06-10 Japan=2</title>
@@ -7545,12 +7544,12 @@
 <g class="Qatar">
 	<circle cx="1403.3" cy="1739.2" r="1.7" style="fill:#7FFFD4;" class="cv" />
 </g>
-<g class="Japan">
-	<circle cx="1403.3" cy="1739.2" r="1.3" style="fill:cyan;" class="cv" />
-</g>
 <g class="SaudiArabia">
-	<title>2020-06-10  A23403G  Qatar=3 [100.0%] Japan=2 [100.0%] Saudi Arabia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1403.3" cy="1739.2" r="1.3" style="fill:#F08080;" class="cv" />
+</g>
+<g class="Japan">
+	<title>2020-06-10  A23403G  Qatar=3 [100.0%] Saudi Arabia=2 [100.0%] Japan=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1403.3" cy="1739.2" r="1.3" style="fill:cyan;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-06-10  G24095T  India=3 [11.1%]  surface glycoprotein, A845S</title>
@@ -7632,12 +7631,12 @@
 <g class="Japan">
 	<circle cx="1394.0" cy="1742.6" r="1.7" style="fill:cyan;" class="cv" />
 </g>
-<g class="Qatar">
-	<circle cx="1394.0" cy="1742.6" r="1.3" style="fill:#7FFFD4;" class="cv" />
-</g>
 <g class="Beijing">
-	<title>2020-06-11  A23403G  Bangladesh=3 [100.0%] Japan=3 [100.0%] Qatar=2 [100.0%] Beijing=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1394.0" cy="1742.6" r="1.3" style="fill:#FF00FF;" class="cv" />
+</g>
+<g class="Qatar">
+	<title>2020-06-11  A23403G  Bangladesh=3 [100.0%] Japan=3 [100.0%] Beijing=2 [100.0%] Qatar=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1394.0" cy="1742.6" r="1.3" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g class="UnitedArabEmirates">
 	<title>2020-06-11  C23625T  United Arab Emirates=2 [3.2%]  surface glycoprotein, A688V</title>
@@ -7813,12 +7812,12 @@
 	<title>2020-06-13  A23403G  Qatar=8 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1375.2" cy="1749.0" r="2.7" style="fill:#7FFFD4;" class="cv" />
 </g>
-<g class="Japan">
-	<circle cx="1375.2" cy="1749.0" r="1.3" style="fill:cyan;" class="cv" />
-</g>
 <g class="SouthKorea">
-	<title>2020-06-13  A23403G  Japan=2 [100.0%] South Korea=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1375.2" cy="1749.0" r="1.3" style="fill:white;" class="cv" />
+</g>
+<g class="Japan">
+	<title>2020-06-13  A23403G  South Korea=2 [100.0%] Japan=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1375.2" cy="1749.0" r="1.3" style="fill:cyan;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-06-14 India=10</title>
@@ -7988,12 +7987,12 @@
 	<title>2020-06-16  A23403G  Bangladesh=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1346.7" cy="1757.3" r="2.2" style="fill:#FFD700;" class="cv" />
 </g>
-<g class="Qatar">
-	<circle cx="1346.7" cy="1757.3" r="1.7" style="fill:#7FFFD4;" class="cv" />
-</g>
 <g class="Indonesia">
-	<title>2020-06-16  A23403G  Qatar=3 [100.0%] Indonesia=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1346.7" cy="1757.3" r="1.7" style="fill:red;" class="cv" />
+</g>
+<g class="Qatar">
+	<title>2020-06-16  A23403G  Indonesia=3 [100.0%] Qatar=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1346.7" cy="1757.3" r="1.7" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-06-17 India=74</title>
@@ -8206,12 +8205,12 @@
 <g class="Turkey">
 	<circle cx="1317.8" cy="1764.1" r="2.2" style="fill:#b2df8a;" class="cv" />
 </g>
-<g class="Qatar">
-	<circle cx="1317.8" cy="1764.1" r="2.2" style="fill:#7FFFD4;" class="cv" />
-</g>
 <g class="SouthKorea">
-	<title>2020-06-19  A23403G  Saudi Arabia=9 [90.0%] Turkey=5 [62.5%] Qatar=5 [100.0%] South Korea=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1317.8" cy="1764.1" r="2.2" style="fill:white;" class="cv" />
+</g>
+<g class="Qatar">
+	<title>2020-06-19  A23403G  Saudi Arabia=9 [90.0%] Turkey=5 [62.5%] South Korea=5 [100.0%] Qatar=5 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1317.8" cy="1764.1" r="2.2" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-06-20 India=49</title>
@@ -8352,12 +8351,12 @@
 <g class="Qatar">
 	<circle cx="1288.7" cy="1769.4" r="1.7" style="fill:#7FFFD4;" class="cv" />
 </g>
-<g class="Indonesia">
-	<circle cx="1288.7" cy="1769.4" r="1.3" style="fill:red;" class="cv" />
-</g>
 <g class="Bahrain">
-	<title>2020-06-22  A23403G  Japan=4 [100.0%] Hong Kong=3 [75.0%] Qatar=3 [100.0%] Indonesia=2 [100.0%] Bahrain=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1288.7" cy="1769.4" r="1.3" style="fill:#fb8072;" class="cv" />
+</g>
+<g class="Indonesia">
+	<title>2020-06-22  A23403G  Japan=4 [100.0%] Hong Kong=3 [75.0%] Qatar=3 [100.0%] Bahrain=2 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1288.7" cy="1769.4" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-06-22  G24368T  India=2 [7.7%]  surface glycoprotein, D936Y</title>
@@ -8424,14 +8423,14 @@
 <g class="Bahrain">
 	<circle cx="1278.9" cy="1770.8" r="2.0" style="fill:#fb8072;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="1278.9" cy="1770.8" r="1.7" style="fill:white;" class="cv" />
-</g>
 <g class="HongKong">
 	<circle cx="1278.9" cy="1770.8" r="1.7" style="fill:lime;" class="cv" />
 </g>
+<g class="SouthKorea">
+	<circle cx="1278.9" cy="1770.8" r="1.7" style="fill:white;" class="cv" />
+</g>
 <g class="Qatar">
-	<title>2020-06-23  A23403G  Bahrain=4 [80.0%] South Korea=3 [100.0%] Hong Kong=3 [100.0%] Qatar=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-06-23  A23403G  Bahrain=4 [80.0%] Hong Kong=3 [100.0%] South Korea=3 [100.0%] Qatar=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1278.9" cy="1770.8" r="1.7" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g class="India">
@@ -8481,14 +8480,14 @@
 	<title>2020-06-24  A23403G  South Korea=6 [100.0%] Bangladesh=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1269.1" cy="1772.1" r="2.2" style="fill:#FFD700;" class="cv" />
 </g>
-<g class="India">
-	<circle cx="1269.1" cy="1772.1" r="1.7" style="fill:fuchsia;" class="cv" />
-</g>
 <g class="SaudiArabia">
 	<circle cx="1269.1" cy="1772.1" r="1.7" style="fill:#F08080;" class="cv" />
 </g>
+<g class="India">
+	<circle cx="1269.1" cy="1772.1" r="1.7" style="fill:fuchsia;" class="cv" />
+</g>
 <g class="Indonesia">
-	<title>2020-06-24  A23403G  India=3 [100.0%] Saudi Arabia=3 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-06-24  A23403G  Saudi Arabia=3 [100.0%] India=3 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1269.1" cy="1772.1" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="UnitedArabEmirates">
@@ -8546,12 +8545,12 @@
 	<title>2020-06-25  A23403G  Saudi Arabia=8 [88.9%]  surface glycoprotein, D614G</title>
 	<circle cx="1259.2" cy="1773.2" r="2.7" style="fill:#F08080;" class="cv" />
 </g>
-<g class="Japan">
-	<circle cx="1259.2" cy="1773.2" r="1.3" style="fill:cyan;" class="cv" />
-</g>
 <g class="Palestine">
-	<title>2020-06-25  A23403G  Japan=2 [100.0%] Palestine=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1259.2" cy="1773.2" r="1.3" style="fill:#b3de69;" class="cv" />
+</g>
+<g class="Japan">
+	<title>2020-06-25  A23403G  Palestine=2 [100.0%] Japan=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1259.2" cy="1773.2" r="1.3" style="fill:cyan;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-06-25  G23663A  India=6 [14.0%]  surface glycoprotein, A701T</title>
@@ -8772,15 +8771,15 @@
 <g class="India">
 	<circle cx="1229.7" cy="1775.5" r="2.0" style="fill:fuchsia;" class="cv" />
 </g>
+<g class="Israel">
+	<circle cx="1229.7" cy="1775.5" r="1.3" style="fill:orange;" class="cv" />
+</g>
 <g class="Palestine">
 	<circle cx="1229.7" cy="1775.5" r="1.3" style="fill:#b3de69;" class="cv" />
 </g>
 <g class="SaudiArabia">
+	<title>2020-06-28  A23403G  India=4 [100.0%] Israel=2 [100.0%] Palestine=2 [100.0%] Saudi Arabia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1229.7" cy="1775.5" r="1.3" style="fill:#F08080;" class="cv" />
-</g>
-<g class="Israel">
-	<title>2020-06-28  A23403G  India=4 [100.0%] Palestine=2 [100.0%] Saudi Arabia=2 [100.0%] Israel=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1229.7" cy="1775.5" r="1.3" style="fill:orange;" class="cv" />
 </g>
 <g class="Bangladesh">
 	<title>2020-06-28  C23604G  Bangladesh=4 [17.4%]  surface glycoprotein, P681R</title>
@@ -9115,14 +9114,14 @@
 	<title>2020-07-03  T22020C  Japan=5 [45.5%]  surface glycoprotein, M153T</title>
 	<circle cx="1190.6" cy="1472.1" r="2.2" style="fill:cyan;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="1180.2" cy="1775.9" r="3.1" style="fill:white;" class="cv" />
-</g>
 <g class="India">
 	<circle cx="1180.2" cy="1775.9" r="3.1" style="fill:fuchsia;" class="cv" />
 </g>
+<g class="SouthKorea">
+	<circle cx="1180.2" cy="1775.9" r="3.1" style="fill:white;" class="cv" />
+</g>
 <g class="Japan">
-	<title>2020-07-03  A23403G  South Korea=12 [100.0%] India=12 [100.0%] Japan=11 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-07-03  A23403G  India=12 [100.0%] South Korea=12 [100.0%] Japan=11 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1180.2" cy="1775.9" r="3.0" style="fill:cyan;" class="cv" />
 </g>
 <g class="Qatar">
@@ -9202,12 +9201,12 @@
 <g class="Japan">
 	<circle cx="1170.3" cy="1775.5" r="2.0" style="fill:cyan;" class="cv" />
 </g>
-<g class="Jordan">
-	<circle cx="1170.3" cy="1775.5" r="1.3" style="fill:#6495ED;" class="cv" />
-</g>
 <g class="HongKong">
-	<title>2020-07-04  A23403G  Japan=4 [100.0%] Jordan=2 [100.0%] Hong Kong=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1170.3" cy="1775.5" r="1.3" style="fill:lime;" class="cv" />
+</g>
+<g class="Jordan">
+	<title>2020-07-04  A23403G  Japan=4 [100.0%] Hong Kong=2 [100.0%] Jordan=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1170.3" cy="1775.5" r="1.3" style="fill:#6495ED;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-07-04  C23643T  India=2 [4.8%]  surface glycoprotein, A694V</title>
@@ -9282,15 +9281,15 @@
 	<title>2020-07-05  A23403G  Qatar=10 [100.0%] Bangladesh=8 [100.0%] Japan=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1160.5" cy="1774.9" r="2.2" style="fill:cyan;" class="cv" />
 </g>
-<g class="HongKong">
-	<circle cx="1160.5" cy="1774.9" r="1.3" style="fill:lime;" class="cv" />
-</g>
 <g class="Oman">
 	<circle cx="1160.5" cy="1774.9" r="1.3" style="fill:#b15928;" class="cv" />
 </g>
 <g class="Iran">
-	<title>2020-07-05  A23403G  Hong Kong=2 [100.0%] Oman=2 [100.0%] Iran=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1160.5" cy="1774.9" r="1.3" style="fill:#fccde5;" class="cv" />
+</g>
+<g class="HongKong">
+	<title>2020-07-05  A23403G  Oman=2 [100.0%] Iran=2 [100.0%] Hong Kong=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1160.5" cy="1774.9" r="1.3" style="fill:lime;" class="cv" />
 </g>
 <g class="UnitedArabEmirates">
 	<title>2020-07-05  A24170G  United Arab Emirates=3 [25.0%]  surface glycoprotein, I870V</title>
@@ -9359,14 +9358,14 @@
 	<title>2020-07-06  A23403G  South Korea=10 [100.0%] Japan=9 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1150.6" cy="1774.1" r="2.8" style="fill:cyan;" class="cv" />
 </g>
-<g class="UnitedArabEmirates">
-	<circle cx="1150.6" cy="1774.1" r="2.0" style="fill:yellow;" class="cv" />
-</g>
 <g class="HongKong">
 	<circle cx="1150.6" cy="1774.1" r="2.0" style="fill:lime;" class="cv" />
 </g>
+<g class="UnitedArabEmirates">
+	<circle cx="1150.6" cy="1774.1" r="2.0" style="fill:yellow;" class="cv" />
+</g>
 <g class="Qatar">
-	<title>2020-07-06  A23403G  United Arab Emirates=4 [100.0%] Hong Kong=4 [100.0%] Qatar=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-07-06  A23403G  Hong Kong=4 [100.0%] United Arab Emirates=4 [100.0%] Qatar=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1150.6" cy="1774.1" r="1.3" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g class="India">
@@ -9638,12 +9637,12 @@
 <g class="HongKong">
 	<circle cx="1111.3" cy="1769.4" r="3.7" style="fill:lime;" class="cv" />
 </g>
-<g class="Japan">
-	<circle cx="1111.3" cy="1769.4" r="3.2" style="fill:cyan;" class="cv" />
-</g>
 <g class="Qatar">
-	<title>2020-07-10  A23403G  Hong Kong=20 [100.0%] Japan=13 [100.0%] Qatar=13 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1111.3" cy="1769.4" r="3.2" style="fill:#7FFFD4;" class="cv" />
+</g>
+<g class="Japan">
+	<title>2020-07-10  A23403G  Hong Kong=20 [100.0%] Qatar=13 [100.0%] Japan=13 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1111.3" cy="1769.4" r="3.2" style="fill:cyan;" class="cv" />
 </g>
 <g class="India">
 	<circle cx="1111.3" cy="1769.4" r="2.7" style="fill:fuchsia;" class="cv" />
@@ -9728,12 +9727,12 @@
 	<title>2020-07-11  A23403G  South Korea=10 [90.9%] Hong Kong=8 [100.0%] Bangladesh=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1101.5" cy="1767.8" r="2.4" style="fill:#FFD700;" class="cv" />
 </g>
-<g class="Qatar">
-	<circle cx="1101.5" cy="1767.8" r="1.3" style="fill:#7FFFD4;" class="cv" />
-</g>
 <g class="Palestine">
-	<title>2020-07-11  A23403G  Qatar=2 [100.0%] Palestine=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1101.5" cy="1767.8" r="1.3" style="fill:#b3de69;" class="cv" />
+</g>
+<g class="Qatar">
+	<title>2020-07-11  A23403G  Palestine=2 [100.0%] Qatar=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1101.5" cy="1767.8" r="1.3" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g class="Bangladesh">
 	<title>2020-07-11  C23520T  Bangladesh=2 [33.3%]  surface glycoprotein, A653V</title>
@@ -9948,12 +9947,12 @@
 <g class="Bangladesh">
 	<circle cx="1072.4" cy="1762.0" r="1.7" style="fill:#FFD700;" class="cv" />
 </g>
-<g class="Indonesia">
-	<circle cx="1072.4" cy="1762.0" r="1.3" style="fill:red;" class="cv" />
-</g>
 <g class="Israel">
-	<title>2020-07-14  A23403G  Bangladesh=3 [100.0%] Indonesia=2 [100.0%] Israel=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1072.4" cy="1762.0" r="1.3" style="fill:orange;" class="cv" />
+</g>
+<g class="Indonesia">
+	<title>2020-07-14  A23403G  Bangladesh=3 [100.0%] Israel=2 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1072.4" cy="1762.0" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-07-14  G23593T  India=5 [7.6%]  surface glycoprotein, Q677H</title>
@@ -10137,15 +10136,15 @@
 <g class="Bangladesh">
 	<circle cx="1053.3" cy="1757.3" r="1.7" style="fill:#FFD700;" class="cv" />
 </g>
-<g class="Iran">
-	<circle cx="1053.3" cy="1757.3" r="1.3" style="fill:#fccde5;" class="cv" />
+<g class="Palestine">
+	<circle cx="1053.3" cy="1757.3" r="1.3" style="fill:#b3de69;" class="cv" />
 </g>
 <g class="Indonesia">
 	<circle cx="1053.3" cy="1757.3" r="1.3" style="fill:red;" class="cv" />
 </g>
-<g class="Palestine">
-	<title>2020-07-16  A23403G  Bangladesh=3 [100.0%] Iran=2 [100.0%] Indonesia=2 [100.0%] Palestine=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1053.3" cy="1757.3" r="1.3" style="fill:#b3de69;" class="cv" />
+<g class="Iran">
+	<title>2020-07-16  A23403G  Bangladesh=3 [100.0%] Palestine=2 [100.0%] Indonesia=2 [100.0%] Iran=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1053.3" cy="1757.3" r="1.3" style="fill:#fccde5;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-07-17 Japan=15</title>
@@ -10212,17 +10211,17 @@
 <g class="Indonesia">
 	<circle cx="1043.7" cy="1754.7" r="2.0" style="fill:red;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="1043.7" cy="1754.7" r="1.7" style="fill:white;" class="cv" />
+<g class="Palestine">
+	<circle cx="1043.7" cy="1754.7" r="1.7" style="fill:#b3de69;" class="cv" />
 </g>
 <g class="SaudiArabia">
 	<circle cx="1043.7" cy="1754.7" r="1.7" style="fill:#F08080;" class="cv" />
 </g>
-<g class="Palestine">
-	<circle cx="1043.7" cy="1754.7" r="1.7" style="fill:#b3de69;" class="cv" />
+<g class="SouthKorea">
+	<circle cx="1043.7" cy="1754.7" r="1.7" style="fill:white;" class="cv" />
 </g>
 <g class="Singapore">
-	<title>2020-07-17  A23403G  Indonesia=4 [100.0%] South Korea=3 [100.0%] Saudi Arabia=3 [100.0%] Palestine=3 [100.0%] Singapore=2 [28.6%]  surface glycoprotein, D614G</title>
+	<title>2020-07-17  A23403G  Indonesia=4 [100.0%] Palestine=3 [100.0%] Saudi Arabia=3 [100.0%] South Korea=3 [100.0%] Singapore=2 [28.6%]  surface glycoprotein, D614G</title>
 	<circle cx="1043.7" cy="1754.7" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Japan">
@@ -10755,12 +10754,12 @@
 <g class="SouthKorea">
 	<circle cx="969.2" cy="1728.0" r="1.7" style="fill:white;" class="cv" />
 </g>
-<g class="Indonesia">
-	<circle cx="969.2" cy="1728.0" r="1.3" style="fill:red;" class="cv" />
-</g>
 <g class="Malaysia">
-	<title>2020-07-25  A23403G  South Korea=3 [100.0%] Indonesia=2 [100.0%] Malaysia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="969.2" cy="1728.0" r="1.3" style="fill:#ADD8E6;" class="cv" />
+</g>
+<g class="Indonesia">
+	<title>2020-07-25  A23403G  South Korea=3 [100.0%] Malaysia=2 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="969.2" cy="1728.0" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-07-26 Japan=13</title>
@@ -10863,15 +10862,15 @@
 	<title>2020-07-27  A23403G  South Korea=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="951.3" cy="1719.8" r="2.2" style="fill:white;" class="cv" />
 </g>
-<g class="Palestine">
-	<circle cx="951.3" cy="1719.8" r="1.3" style="fill:#b3de69;" class="cv" />
-</g>
 <g class="Singapore">
 	<circle cx="951.3" cy="1719.8" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Malaysia">
-	<title>2020-07-27  A23403G  Palestine=2 [100.0%] Singapore=2 [100.0%] Malaysia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="951.3" cy="1719.8" r="1.3" style="fill:#ADD8E6;" class="cv" />
+</g>
+<g class="Palestine">
+	<title>2020-07-27  A23403G  Singapore=2 [100.0%] Malaysia=2 [100.0%] Palestine=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="951.3" cy="1719.8" r="1.3" style="fill:#b3de69;" class="cv" />
 </g>
 <g class="Singapore">
 	<title>2020-07-27  G23593T  Singapore=2 [100.0%]  surface glycoprotein, Q677H</title>
@@ -11267,18 +11266,18 @@
 	<title>2020-08-03  A23403G  Armenia=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="890.7" cy="1686.2" r="2.2" style="fill:#ffed6f;" class="cv" />
 </g>
-<g class="Israel">
-	<circle cx="890.7" cy="1686.2" r="1.3" style="fill:orange;" class="cv" />
-</g>
 <g class="Qatar">
 	<circle cx="890.7" cy="1686.2" r="1.3" style="fill:#7FFFD4;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="890.7" cy="1686.2" r="1.3" style="fill:white;" class="cv" />
+<g class="Israel">
+	<circle cx="890.7" cy="1686.2" r="1.3" style="fill:orange;" class="cv" />
 </g>
 <g class="Indonesia">
-	<title>2020-08-03  A23403G  Israel=2 [100.0%] Qatar=2 [100.0%] South Korea=2 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="890.7" cy="1686.2" r="1.3" style="fill:red;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-08-03  A23403G  Qatar=2 [100.0%] Israel=2 [100.0%] Indonesia=2 [100.0%] South Korea=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="890.7" cy="1686.2" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-08-04 Japan=42</title>
@@ -11638,12 +11637,12 @@
 	<title>2020-08-10  A23403G  Japan=25 [100.0%] South Korea=12 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="834.7" cy="1645.7" r="3.1" style="fill:white;" class="cv" />
 </g>
-<g class="Pakistan">
-	<circle cx="834.7" cy="1645.7" r="2.7" style="fill:#fdb462;" class="cv" />
-</g>
 <g class="HongKong">
-	<title>2020-08-10  A23403G  Pakistan=8 [100.0%] Hong Kong=8 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="834.7" cy="1645.7" r="2.7" style="fill:lime;" class="cv" />
+</g>
+<g class="Pakistan">
+	<title>2020-08-10  A23403G  Hong Kong=8 [100.0%] Pakistan=8 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="834.7" cy="1645.7" r="2.7" style="fill:#fdb462;" class="cv" />
 </g>
 <g class="Qatar">
 	<circle cx="834.7" cy="1645.7" r="2.0" style="fill:#7FFFD4;" class="cv" />
@@ -11805,12 +11804,12 @@
 <g class="Qatar">
 	<circle cx="819.6" cy="1632.9" r="2.8" style="fill:#7FFFD4;" class="cv" />
 </g>
-<g class="HongKong">
-	<circle cx="819.6" cy="1632.9" r="2.2" style="fill:lime;" class="cv" />
-</g>
 <g class="Oman">
-	<title>2020-08-12  A23403G  South Korea=10 [100.0%] Qatar=9 [90.0%] Hong Kong=5 [100.0%] Oman=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="819.6" cy="1632.9" r="2.2" style="fill:#b15928;" class="cv" />
+</g>
+<g class="HongKong">
+	<title>2020-08-12  A23403G  South Korea=10 [100.0%] Qatar=9 [90.0%] Oman=5 [100.0%] Hong Kong=5 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="819.6" cy="1632.9" r="2.2" style="fill:lime;" class="cv" />
 </g>
 <g class="Bangladesh">
 	<title>2020-08-12  A23403G  Bangladesh=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -12049,12 +12048,12 @@
 <g class="HongKong">
 	<circle cx="790.7" cy="1605.7" r="2.8" style="fill:lime;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="790.7" cy="1605.7" r="2.4" style="fill:white;" class="cv" />
-</g>
 <g class="India">
-	<title>2020-08-16  A23403G  Hong Kong=9 [100.0%] South Korea=6 [100.0%] India=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="790.7" cy="1605.7" r="2.4" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-08-16  A23403G  Hong Kong=9 [100.0%] India=6 [100.0%] South Korea=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="790.7" cy="1605.7" r="2.4" style="fill:white;" class="cv" />
 </g>
 <g class="Qatar">
 	<circle cx="790.7" cy="1605.7" r="1.3" style="fill:#7FFFD4;" class="cv" />
@@ -12179,18 +12178,18 @@
 <g class="Qatar">
 	<circle cx="777.1" cy="1591.5" r="2.0" style="fill:#7FFFD4;" class="cv" />
 </g>
-<g class="India">
-	<circle cx="777.1" cy="1591.5" r="2.0" style="fill:fuchsia;" class="cv" />
-</g>
 <g class="Armenia">
 	<circle cx="777.1" cy="1591.5" r="2.0" style="fill:#ffed6f;" class="cv" />
 </g>
-<g class="Palestine">
-	<circle cx="777.1" cy="1591.5" r="1.7" style="fill:#b3de69;" class="cv" />
+<g class="India">
+	<circle cx="777.1" cy="1591.5" r="2.0" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Indonesia">
-	<title>2020-08-18  A23403G  Qatar=4 [80.0%] India=4 [100.0%] Armenia=4 [100.0%] Palestine=3 [100.0%] Indonesia=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="777.1" cy="1591.5" r="1.7" style="fill:red;" class="cv" />
+</g>
+<g class="Palestine">
+	<title>2020-08-18  A23403G  Qatar=4 [80.0%] Armenia=4 [100.0%] India=4 [100.0%] Indonesia=3 [100.0%] Palestine=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="777.1" cy="1591.5" r="1.7" style="fill:#b3de69;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-08-19 Japan=49</title>
@@ -12301,12 +12300,12 @@
 	<title>2020-08-20  A23403G  Japan=35 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="763.9" cy="1576.7" r="4.4" style="fill:cyan;" class="cv" />
 </g>
-<g class="Qatar">
-	<circle cx="763.9" cy="1576.7" r="3.0" style="fill:#7FFFD4;" class="cv" />
-</g>
 <g class="SouthKorea">
-	<title>2020-08-20  A23403G  Qatar=11 [100.0%] South Korea=11 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="763.9" cy="1576.7" r="3.0" style="fill:white;" class="cv" />
+</g>
+<g class="Qatar">
+	<title>2020-08-20  A23403G  South Korea=11 [100.0%] Qatar=11 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="763.9" cy="1576.7" r="3.0" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g class="Indonesia">
 	<circle cx="763.9" cy="1576.7" r="2.0" style="fill:red;" class="cv" />
@@ -12424,18 +12423,18 @@
 	<title>2020-08-22  A23403G  South Korea=9 [100.0%] India=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="751.2" cy="1561.5" r="2.2" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="Iran">
-	<circle cx="751.2" cy="1561.5" r="1.3" style="fill:#fccde5;" class="cv" />
-</g>
-<g class="HongKong">
-	<circle cx="751.2" cy="1561.5" r="1.3" style="fill:lime;" class="cv" />
-</g>
 <g class="Jordan">
 	<circle cx="751.2" cy="1561.5" r="1.3" style="fill:#6495ED;" class="cv" />
 </g>
+<g class="Iran">
+	<circle cx="751.2" cy="1561.5" r="1.3" style="fill:#fccde5;" class="cv" />
+</g>
 <g class="Indonesia">
-	<title>2020-08-22  A23403G  Iran=2 [100.0%] Hong Kong=2 [100.0%] Jordan=2 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="751.2" cy="1561.5" r="1.3" style="fill:red;" class="cv" />
+</g>
+<g class="HongKong">
+	<title>2020-08-22  A23403G  Jordan=2 [100.0%] Iran=2 [100.0%] Indonesia=2 [100.0%] Hong Kong=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="751.2" cy="1561.5" r="1.3" style="fill:lime;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-08-23 Japan=12</title>
@@ -12685,12 +12684,12 @@
 <g class="SouthKorea">
 	<circle cx="727.5" cy="1529.9" r="2.7" style="fill:white;" class="cv" />
 </g>
-<g class="Turkey">
-	<circle cx="727.5" cy="1529.9" r="2.2" style="fill:#b2df8a;" class="cv" />
-</g>
 <g class="HongKong">
-	<title>2020-08-26  A23403G  United Arab Emirates=9 [100.0%] South Korea=8 [100.0%] Turkey=5 [100.0%] Hong Kong=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="727.5" cy="1529.9" r="2.2" style="fill:lime;" class="cv" />
+</g>
+<g class="Turkey">
+	<title>2020-08-26  A23403G  United Arab Emirates=9 [100.0%] South Korea=8 [100.0%] Hong Kong=5 [100.0%] Turkey=5 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="727.5" cy="1529.9" r="2.2" style="fill:#b2df8a;" class="cv" />
 </g>
 <g class="Bangladesh">
 	<title>2020-08-26  A23403G  Bangladesh=3 [100.0%]  surface glycoprotein, D614G</title>
@@ -13077,14 +13076,14 @@
 <g class="India">
 	<circle cx="696.1" cy="1479.6" r="2.0" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="Israel">
-	<circle cx="696.1" cy="1479.6" r="1.7" style="fill:orange;" class="cv" />
-</g>
 <g class="Armenia">
 	<circle cx="696.1" cy="1479.6" r="1.7" style="fill:#ffed6f;" class="cv" />
 </g>
+<g class="Israel">
+	<circle cx="696.1" cy="1479.6" r="1.7" style="fill:orange;" class="cv" />
+</g>
 <g class="Indonesia">
-	<title>2020-09-01  A23403G  India=4 [100.0%] Israel=3 [100.0%] Armenia=3 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-09-01  A23403G  India=4 [100.0%] Armenia=3 [100.0%] Israel=3 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="696.1" cy="1479.6" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="Malaysia">
@@ -13212,12 +13211,12 @@
 <g class="SouthKorea">
 	<circle cx="686.8" cy="1462.1" r="1.7" style="fill:white;" class="cv" />
 </g>
-<g class="UnitedArabEmirates">
-	<circle cx="686.8" cy="1462.1" r="1.7" style="fill:yellow;" class="cv" />
-</g>
 <g class="Armenia">
-	<title>2020-09-03  A23403G  Hong Kong=4 [100.0%] South Korea=3 [100.0%] United Arab Emirates=3 [100.0%] Armenia=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="686.8" cy="1462.1" r="1.7" style="fill:#ffed6f;" class="cv" />
+</g>
+<g class="UnitedArabEmirates">
+	<title>2020-09-03  A23403G  Hong Kong=4 [100.0%] South Korea=3 [100.0%] Armenia=3 [100.0%] United Arab Emirates=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="686.8" cy="1462.1" r="1.7" style="fill:yellow;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-09-03  C23481T  Japan=2 [6.2%]  surface glycoprotein, S640F</title>
@@ -13275,25 +13274,25 @@
 	<title>2020-09-04  A23403G  Japan=29 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="682.4" cy="1453.2" r="4.1" style="fill:cyan;" class="cv" />
 </g>
-<g class="India">
-	<circle cx="682.4" cy="1453.2" r="2.4" style="fill:fuchsia;" class="cv" />
-</g>
 <g class="SouthKorea">
-	<title>2020-09-04  A23403G  India=6 [100.0%] South Korea=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="682.4" cy="1453.2" r="2.4" style="fill:white;" class="cv" />
+</g>
+<g class="India">
+	<title>2020-09-04  A23403G  South Korea=6 [100.0%] India=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="682.4" cy="1453.2" r="2.4" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Indonesia">
 	<circle cx="682.4" cy="1453.2" r="1.7" style="fill:red;" class="cv" />
 </g>
-<g class="Singapore">
-	<circle cx="682.4" cy="1453.2" r="1.3" style="fill:#FFBBFF;" class="cv" />
+<g class="UnitedArabEmirates">
+	<circle cx="682.4" cy="1453.2" r="1.3" style="fill:yellow;" class="cv" />
 </g>
 <g class="Oman">
 	<circle cx="682.4" cy="1453.2" r="1.3" style="fill:#b15928;" class="cv" />
 </g>
-<g class="UnitedArabEmirates">
-	<title>2020-09-04  A23403G  Indonesia=3 [100.0%] Singapore=2 [100.0%] Oman=2 [100.0%] United Arab Emirates=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="682.4" cy="1453.2" r="1.3" style="fill:yellow;" class="cv" />
+<g class="Singapore">
+	<title>2020-09-04  A23403G  Indonesia=3 [100.0%] United Arab Emirates=2 [100.0%] Oman=2 [100.0%] Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="682.4" cy="1453.2" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="UnitedArabEmirates">
 	<title>2020-09-04  G23593T  United Arab Emirates=2 [100.0%]  surface glycoprotein, Q677H</title>
@@ -13427,15 +13426,15 @@
 	<title>2020-09-07  A23403G  Indonesia=10 [100.0%] Jordan=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="670.0" cy="1426.2" r="2.4" style="fill:#6495ED;" class="cv" />
 </g>
-<g class="Singapore">
-	<circle cx="670.0" cy="1426.2" r="1.3" style="fill:#FFBBFF;" class="cv" />
-</g>
 <g class="India">
 	<circle cx="670.0" cy="1426.2" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Armenia">
-	<title>2020-09-07  A23403G  Singapore=2 [100.0%] India=2 [100.0%] Armenia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="670.0" cy="1426.2" r="1.3" style="fill:#ffed6f;" class="cv" />
+</g>
+<g class="Singapore">
+	<title>2020-09-07  A23403G  India=2 [100.0%] Armenia=2 [100.0%] Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="670.0" cy="1426.2" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Jordan">
 	<title>2020-09-07  A24432T  Jordan=5 [83.3%]  surface glycoprotein, Q957L</title>
@@ -13489,12 +13488,12 @@
 	<title>2020-09-08  A23403G  India=22 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="666.2" cy="1417.1" r="3.8" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="Jordan">
-	<circle cx="666.2" cy="1417.1" r="2.2" style="fill:#6495ED;" class="cv" />
-</g>
 <g class="SouthKorea">
-	<title>2020-09-08  A23403G  Jordan=5 [100.0%] South Korea=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="666.2" cy="1417.1" r="2.2" style="fill:white;" class="cv" />
+</g>
+<g class="Jordan">
+	<title>2020-09-08  A23403G  South Korea=5 [100.0%] Jordan=5 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="666.2" cy="1417.1" r="2.2" style="fill:#6495ED;" class="cv" />
 </g>
 <g class="UnitedArabEmirates">
 	<circle cx="666.2" cy="1417.1" r="1.7" style="fill:yellow;" class="cv" />
@@ -13576,12 +13575,12 @@
 <g class="Indonesia">
 	<circle cx="662.6" cy="1407.9" r="1.7" style="fill:red;" class="cv" />
 </g>
-<g class="Pakistan">
-	<circle cx="662.6" cy="1407.9" r="1.3" style="fill:#fdb462;" class="cv" />
-</g>
 <g class="Jordan">
-	<title>2020-09-09  A23403G  United Arab Emirates=3 [100.0%] Indonesia=3 [100.0%] Pakistan=2 [100.0%] Jordan=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="662.6" cy="1407.9" r="1.3" style="fill:#6495ED;" class="cv" />
+</g>
+<g class="Pakistan">
+	<title>2020-09-09  A23403G  United Arab Emirates=3 [100.0%] Indonesia=3 [100.0%] Jordan=2 [100.0%] Pakistan=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="662.6" cy="1407.9" r="1.3" style="fill:#fdb462;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-09-09  G23593T  India=2 [7.1%]  surface glycoprotein, Q677H</title>
@@ -13933,12 +13932,12 @@
 <g class="UnitedArabEmirates">
 	<circle cx="641.5" cy="1341.9" r="1.7" style="fill:yellow;" class="cv" />
 </g>
-<g class="Indonesia">
-	<circle cx="641.5" cy="1341.9" r="1.7" style="fill:red;" class="cv" />
-</g>
 <g class="SouthKorea">
-	<title>2020-09-16  A23403G  United Arab Emirates=3 [75.0%] Indonesia=3 [100.0%] South Korea=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="641.5" cy="1341.9" r="1.7" style="fill:white;" class="cv" />
+</g>
+<g class="Indonesia">
+	<title>2020-09-16  A23403G  United Arab Emirates=3 [75.0%] South Korea=3 [100.0%] Indonesia=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="641.5" cy="1341.9" r="1.7" style="fill:red;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-09-16  G23593T  India=2 [9.1%]  surface glycoprotein, Q677H</title>
@@ -14046,12 +14045,12 @@
 	<title>2020-09-18  A23403G  India=33 [100.0%] Japan=26 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="637.0" cy="1322.8" r="4.0" style="fill:cyan;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="637.0" cy="1322.8" r="2.2" style="fill:white;" class="cv" />
-</g>
 <g class="HongKong">
-	<title>2020-09-18  A23403G  South Korea=5 [100.0%] Hong Kong=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="637.0" cy="1322.8" r="2.2" style="fill:lime;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-09-18  A23403G  Hong Kong=5 [100.0%] South Korea=5 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="637.0" cy="1322.8" r="2.2" style="fill:white;" class="cv" />
 </g>
 <g class="Indonesia">
 	<title>2020-09-18  A23403G  Indonesia=4 [100.0%]  surface glycoprotein, D614G</title>
@@ -14408,12 +14407,12 @@
 <g class="SouthKorea">
 	<circle cx="627.3" cy="1264.1" r="1.7" style="fill:white;" class="cv" />
 </g>
-<g class="Qingdao">
-	<circle cx="627.3" cy="1264.1" r="1.3" style="fill:#98FB98;" class="cv" />
-</g>
 <g class="Indonesia">
-	<title>2020-09-24  A23403G  Hong Kong=3 [100.0%] South Korea=3 [100.0%] Qingdao=2 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="627.3" cy="1264.1" r="1.3" style="fill:red;" class="cv" />
+</g>
+<g class="Qingdao">
+	<title>2020-09-24  A23403G  Hong Kong=3 [100.0%] South Korea=3 [100.0%] Indonesia=2 [100.0%] Qingdao=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="627.3" cy="1264.1" r="1.3" style="fill:#98FB98;" class="cv" />
 </g>
 <g class="Qingdao">
 	<title>2020-09-24  G23755T  Qingdao=2 [100.0%]  surface glycoprotein, M731I</title>
@@ -14827,12 +14826,12 @@
 	<title>2020-10-01  A23403G  India=35 [97.2%]  surface glycoprotein, D614G</title>
 	<circle cx="623.8" cy="1195.1" r="4.4" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="623.8" cy="1195.1" r="2.2" style="fill:white;" class="cv" />
-</g>
 <g class="Indonesia">
-	<title>2020-10-01  A23403G  South Korea=5 [100.0%] Indonesia=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="623.8" cy="1195.1" r="2.2" style="fill:red;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-10-01  A23403G  Indonesia=5 [100.0%] South Korea=5 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="623.8" cy="1195.1" r="2.2" style="fill:white;" class="cv" />
 </g>
 <g class="HongKong">
 	<circle cx="623.8" cy="1195.1" r="1.7" style="fill:lime;" class="cv" />
@@ -15083,15 +15082,15 @@
 	<title>2020-10-04  A23403G  South Korea=8 [100.0%] Jordan=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="624.8" cy="1165.4" r="2.2" style="fill:#6495ED;" class="cv" />
 </g>
-<g class="HongKong">
-	<circle cx="624.8" cy="1165.4" r="1.3" style="fill:lime;" class="cv" />
-</g>
 <g class="Qatar">
 	<circle cx="624.8" cy="1165.4" r="1.3" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g class="Indonesia">
-	<title>2020-10-04  A23403G  Hong Kong=2 [100.0%] Qatar=2 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="624.8" cy="1165.4" r="1.3" style="fill:red;" class="cv" />
+</g>
+<g class="HongKong">
+	<title>2020-10-04  A23403G  Qatar=2 [100.0%] Indonesia=2 [100.0%] Hong Kong=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="624.8" cy="1165.4" r="1.3" style="fill:lime;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-10-04  C23604A  India=2 [12.5%]  surface glycoprotein, P681H</title>
@@ -15942,18 +15941,18 @@
 <g class="Indonesia">
 	<circle cx="639.1" cy="1067.6" r="1.7" style="fill:red;" class="cv" />
 </g>
-<g class="HongKong">
-	<circle cx="639.1" cy="1067.6" r="1.7" style="fill:lime;" class="cv" />
-</g>
 <g class="Malaysia">
 	<circle cx="639.1" cy="1067.6" r="1.7" style="fill:#ADD8E6;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="639.1" cy="1067.6" r="1.3" style="fill:white;" class="cv" />
+<g class="HongKong">
+	<circle cx="639.1" cy="1067.6" r="1.7" style="fill:lime;" class="cv" />
 </g>
 <g class="Bangladesh">
-	<title>2020-10-14  A23403G  Indonesia=3 [75.0%] Hong Kong=3 [100.0%] Malaysia=3 [100.0%] South Korea=2 [100.0%] Bangladesh=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="639.1" cy="1067.6" r="1.3" style="fill:#FFD700;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-10-14  A23403G  Indonesia=3 [75.0%] Malaysia=3 [100.0%] Hong Kong=3 [100.0%] Bangladesh=2 [100.0%] South Korea=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="639.1" cy="1067.6" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="Uzbekistan">
 	<title>2020-10-14  G23438T  Uzbekistan=2 [15.4%]  surface glycoprotein, A626S</title>
@@ -16104,12 +16103,12 @@
 <g class="Malaysia">
 	<circle cx="644.0" cy="1048.4" r="1.7" style="fill:#ADD8E6;" class="cv" />
 </g>
-<g class="Bangladesh">
-	<circle cx="644.0" cy="1048.4" r="1.3" style="fill:#FFD700;" class="cv" />
-</g>
 <g class="Singapore">
-	<title>2020-10-16  A23403G  Malaysia=3 [100.0%] Bangladesh=2 [100.0%] Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="644.0" cy="1048.4" r="1.3" style="fill:#FFBBFF;" class="cv" />
+</g>
+<g class="Bangladesh">
+	<title>2020-10-16  A23403G  Malaysia=3 [100.0%] Singapore=2 [100.0%] Bangladesh=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="644.0" cy="1048.4" r="1.3" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-10-16  G23587T  Japan=2 [5.1%]  surface glycoprotein, Q675H</title>
@@ -16311,22 +16310,22 @@
 	<title>2020-10-19  A23403G  United Arab Emirates=11 [78.6%]  surface glycoprotein, D614G</title>
 	<circle cx="652.6" cy="1020.0" r="3.0" style="fill:yellow;" class="cv" />
 </g>
-<g class="Singapore">
-	<circle cx="652.6" cy="1020.0" r="2.2" style="fill:#FFBBFF;" class="cv" />
-</g>
 <g class="India">
-	<title>2020-10-19  A23403G  Singapore=5 [100.0%] India=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="652.6" cy="1020.0" r="2.2" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Singapore">
+	<title>2020-10-19  A23403G  India=5 [100.0%] Singapore=5 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="652.6" cy="1020.0" r="2.2" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Jordan">
 	<circle cx="652.6" cy="1020.0" r="1.7" style="fill:#6495ED;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="652.6" cy="1020.0" r="1.3" style="fill:white;" class="cv" />
-</g>
 <g class="Indonesia">
-	<title>2020-10-19  A23403G  Jordan=3 [100.0%] South Korea=2 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="652.6" cy="1020.0" r="1.3" style="fill:red;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-10-19  A23403G  Jordan=3 [100.0%] Indonesia=2 [100.0%] South Korea=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="652.6" cy="1020.0" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-10-19  G23587T  Japan=3 [5.0%]  surface glycoprotein, Q675H</title>
@@ -16502,12 +16501,12 @@
 <g class="UnitedArabEmirates">
 	<circle cx="659.0" cy="1001.4" r="1.7" style="fill:yellow;" class="cv" />
 </g>
-<g class="Indonesia">
-	<circle cx="659.0" cy="1001.4" r="1.3" style="fill:red;" class="cv" />
-</g>
 <g class="HongKong">
-	<title>2020-10-21  A23403G  Malaysia=4 [100.0%] United Arab Emirates=3 [75.0%] Indonesia=2 [100.0%] Hong Kong=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="659.0" cy="1001.4" r="1.3" style="fill:lime;" class="cv" />
+</g>
+<g class="Indonesia">
+	<title>2020-10-21  A23403G  Malaysia=4 [100.0%] United Arab Emirates=3 [75.0%] Hong Kong=2 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="659.0" cy="1001.4" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-10-21  G23593C  India=2 [5.7%]  surface glycoprotein, Q677H</title>
@@ -16653,12 +16652,12 @@
 <g class="Indonesia">
 	<circle cx="666.2" cy="982.9" r="1.7" style="fill:red;" class="cv" />
 </g>
-<g class="Bangladesh">
-	<circle cx="666.2" cy="982.9" r="1.3" style="fill:#FFD700;" class="cv" />
-</g>
 <g class="Malaysia">
-	<title>2020-10-23  A23403G  South Korea=4 [100.0%] Indonesia=3 [100.0%] Bangladesh=2 [100.0%] Malaysia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="666.2" cy="982.9" r="1.3" style="fill:#ADD8E6;" class="cv" />
+</g>
+<g class="Bangladesh">
+	<title>2020-10-23  A23403G  South Korea=4 [100.0%] Indonesia=3 [100.0%] Malaysia=2 [100.0%] Bangladesh=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="666.2" cy="982.9" r="1.3" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-10-23  G23587T  Japan=15 [23.8%]  surface glycoprotein, Q675H</title>
@@ -16778,18 +16777,18 @@
 <g class="Malaysia">
 	<circle cx="674.0" cy="964.7" r="1.7" style="fill:#ADD8E6;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="674.0" cy="964.7" r="1.7" style="fill:white;" class="cv" />
-</g>
 <g class="HongKong">
 	<circle cx="674.0" cy="964.7" r="1.7" style="fill:lime;" class="cv" />
 </g>
-<g class="Singapore">
-	<circle cx="674.0" cy="964.7" r="1.3" style="fill:#FFBBFF;" class="cv" />
+<g class="SouthKorea">
+	<circle cx="674.0" cy="964.7" r="1.7" style="fill:white;" class="cv" />
 </g>
 <g class="India">
-	<title>2020-10-25  A23403G  Malaysia=3 [100.0%] South Korea=3 [100.0%] Hong Kong=3 [100.0%] Singapore=2 [100.0%] India=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="674.0" cy="964.7" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Singapore">
+	<title>2020-10-25  A23403G  Malaysia=3 [100.0%] Hong Kong=3 [100.0%] South Korea=3 [100.0%] India=2 [100.0%] Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="674.0" cy="964.7" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-10-25  G23587T  Japan=2 [12.5%]  surface glycoprotein, Q675H</title>
@@ -16874,14 +16873,14 @@
 <g class="UnitedArabEmirates">
 	<circle cx="678.1" cy="955.7" r="1.7" style="fill:yellow;" class="cv" />
 </g>
+<g class="Thailand">
+	<circle cx="678.1" cy="955.7" r="1.7" style="fill:#CC00FF;" class="cv" />
+</g>
 <g class="Malaysia">
 	<circle cx="678.1" cy="955.7" r="1.7" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="Indonesia">
 	<circle cx="678.1" cy="955.7" r="1.7" style="fill:red;" class="cv" />
-</g>
-<g class="Thailand">
-	<circle cx="678.1" cy="955.7" r="1.7" style="fill:#CC00FF;" class="cv" />
 </g>
 <g class="Singapore">
 	<circle cx="678.1" cy="955.7" r="1.3" style="fill:#FFBBFF;" class="cv" />
@@ -16890,7 +16889,7 @@
 	<circle cx="678.1" cy="955.7" r="1.3" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Bahrain">
-	<title>2020-10-26  A23403G  United Arab Emirates=3 [75.0%] Malaysia=3 [100.0%] Indonesia=3 [100.0%] Thailand=3 [100.0%] Singapore=2 [66.7%] Bangladesh=2 [100.0%] Bahrain=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-10-26  A23403G  United Arab Emirates=3 [75.0%] Thailand=3 [100.0%] Malaysia=3 [100.0%] Indonesia=3 [100.0%] Singapore=2 [66.7%] Bangladesh=2 [100.0%] Bahrain=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="678.1" cy="955.7" r="1.3" style="fill:#fb8072;" class="cv" />
 </g>
 <g class="Japan">
@@ -17032,15 +17031,15 @@
 <g class="Bangladesh">
 	<circle cx="686.8" cy="937.9" r="1.7" style="fill:#FFD700;" class="cv" />
 </g>
-<g class="Malaysia">
-	<circle cx="686.8" cy="937.9" r="1.3" style="fill:#ADD8E6;" class="cv" />
+<g class="HongKong">
+	<circle cx="686.8" cy="937.9" r="1.3" style="fill:lime;" class="cv" />
 </g>
 <g class="Indonesia">
 	<circle cx="686.8" cy="937.9" r="1.3" style="fill:red;" class="cv" />
 </g>
-<g class="HongKong">
-	<title>2020-10-28  A23403G  Bangladesh=3 [100.0%] Malaysia=2 [100.0%] Indonesia=2 [100.0%] Hong Kong=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="686.8" cy="937.9" r="1.3" style="fill:lime;" class="cv" />
+<g class="Malaysia">
+	<title>2020-10-28  A23403G  Bangladesh=3 [100.0%] Hong Kong=2 [100.0%] Indonesia=2 [100.0%] Malaysia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="686.8" cy="937.9" r="1.3" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-10-28  G23587T  Japan=4 [7.7%]  surface glycoprotein, Q675H</title>
@@ -17396,28 +17395,28 @@
 	<title>2020-11-02  A23403G  Japan=95 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="711.1" cy="894.9" r="5.6" style="fill:cyan;" class="cv" />
 </g>
-<g class="Malaysia">
-	<circle cx="711.1" cy="894.9" r="2.7" style="fill:#ADD8E6;" class="cv" />
-</g>
 <g class="India">
 	<circle cx="711.1" cy="894.9" r="2.7" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Malaysia">
+	<circle cx="711.1" cy="894.9" r="2.7" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="Philippines">
 	<circle cx="711.1" cy="894.9" r="2.4" style="fill:#cab2d6;" class="cv" />
 </g>
-<g class="HongKong">
-	<circle cx="711.1" cy="894.9" r="2.2" style="fill:lime;" class="cv" />
-</g>
 <g class="Jordan">
-	<title>2020-11-02  A23403G  Malaysia=8 [100.0%] India=8 [100.0%] Philippines=6 [100.0%] Hong Kong=5 [100.0%] Jordan=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="711.1" cy="894.9" r="2.2" style="fill:#6495ED;" class="cv" />
 </g>
-<g class="Indonesia">
-	<circle cx="711.1" cy="894.9" r="1.3" style="fill:red;" class="cv" />
+<g class="HongKong">
+	<title>2020-11-02  A23403G  India=8 [100.0%] Malaysia=8 [100.0%] Philippines=6 [100.0%] Jordan=5 [100.0%] Hong Kong=5 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="711.1" cy="894.9" r="2.2" style="fill:lime;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-11-02  A23403G  Indonesia=2 [100.0%] South Korea=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="711.1" cy="894.9" r="1.3" style="fill:white;" class="cv" />
+</g>
+<g class="Indonesia">
+	<title>2020-11-02  A23403G  South Korea=2 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="711.1" cy="894.9" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-11-02  G23587T  Japan=6 [6.3%]  surface glycoprotein, Q675H</title>
@@ -17511,12 +17510,12 @@
 <g class="HongKong">
 	<circle cx="716.4" cy="886.6" r="1.7" style="fill:lime;" class="cv" />
 </g>
-<g class="Malaysia">
-	<circle cx="716.4" cy="886.6" r="1.3" style="fill:#ADD8E6;" class="cv" />
-</g>
 <g class="Indonesia">
-	<title>2020-11-03  A23403G  South Korea=4 [100.0%] Hong Kong=3 [100.0%] Malaysia=2 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="716.4" cy="886.6" r="1.3" style="fill:red;" class="cv" />
+</g>
+<g class="Malaysia">
+	<title>2020-11-03  A23403G  South Korea=4 [100.0%] Hong Kong=3 [100.0%] Indonesia=2 [100.0%] Malaysia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="716.4" cy="886.6" r="1.3" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-11-03  G23587T  Japan=4 [13.3%]  surface glycoprotein, Q675H</title>
@@ -17601,12 +17600,12 @@
 	<title>2020-11-04  A23403G  India=23 [100.0%] Jordan=13 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="721.9" cy="878.3" r="3.2" style="fill:#6495ED;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="721.9" cy="878.3" r="2.8" style="fill:white;" class="cv" />
-</g>
 <g class="Malaysia">
-	<title>2020-11-04  A23403G  South Korea=9 [100.0%] Malaysia=9 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="721.9" cy="878.3" r="2.8" style="fill:#ADD8E6;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-11-04  A23403G  Malaysia=9 [100.0%] South Korea=9 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="721.9" cy="878.3" r="2.8" style="fill:white;" class="cv" />
 </g>
 <g class="Indonesia">
 	<circle cx="721.9" cy="878.3" r="2.0" style="fill:red;" class="cv" />
@@ -17721,23 +17720,23 @@
 	<title>2020-11-05  A23403G  Malaysia=8 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="727.5" cy="870.1" r="2.7" style="fill:#ADD8E6;" class="cv" />
 </g>
-<g class="Iran">
-	<circle cx="727.5" cy="870.1" r="2.0" style="fill:#fccde5;" class="cv" />
-</g>
 <g class="HongKong">
 	<circle cx="727.5" cy="870.1" r="2.0" style="fill:lime;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="727.5" cy="870.1" r="2.0" style="fill:white;" class="cv" />
-</g>
 <g class="Indonesia">
 	<circle cx="727.5" cy="870.1" r="2.0" style="fill:red;" class="cv" />
+</g>
+<g class="Iran">
+	<circle cx="727.5" cy="870.1" r="2.0" style="fill:#fccde5;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<circle cx="727.5" cy="870.1" r="2.0" style="fill:white;" class="cv" />
 </g>
 <g class="Philippines">
 	<circle cx="727.5" cy="870.1" r="1.7" style="fill:#cab2d6;" class="cv" />
 </g>
 <g class="Palestine">
-	<title>2020-11-05  A23403G  Iran=4 [100.0%] Hong Kong=4 [100.0%] South Korea=4 [100.0%] Indonesia=4 [100.0%] Philippines=3 [100.0%] Palestine=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-11-05  A23403G  Hong Kong=4 [100.0%] Indonesia=4 [100.0%] Iran=4 [100.0%] South Korea=4 [100.0%] Philippines=3 [100.0%] Palestine=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="727.5" cy="870.1" r="1.3" style="fill:#b3de69;" class="cv" />
 </g>
 <g class="Japan">
@@ -17902,12 +17901,12 @@
 <g class="Philippines">
 	<circle cx="739.1" cy="854.1" r="1.7" style="fill:#cab2d6;" class="cv" />
 </g>
-<g class="India">
-	<circle cx="739.1" cy="854.1" r="1.3" style="fill:fuchsia;" class="cv" />
-</g>
 <g class="Palestine">
-	<title>2020-11-07  A23403G  Singapore=4 [100.0%] Philippines=3 [100.0%] India=2 [100.0%] Palestine=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="739.1" cy="854.1" r="1.3" style="fill:#b3de69;" class="cv" />
+</g>
+<g class="India">
+	<title>2020-11-07  A23403G  Singapore=4 [100.0%] Philippines=3 [100.0%] Palestine=2 [100.0%] India=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="739.1" cy="854.1" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-11-07  G23587T  Japan=10 [20.4%]  surface glycoprotein, Q675H</title>
@@ -17969,18 +17968,18 @@
 	<title>2020-11-08  A23403G  India=16 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="745.1" cy="846.2" r="3.4" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="HongKong">
-	<circle cx="745.1" cy="846.2" r="1.7" style="fill:lime;" class="cv" />
-</g>
 <g class="Philippines">
 	<circle cx="745.1" cy="846.2" r="1.7" style="fill:#cab2d6;" class="cv" />
+</g>
+<g class="Malaysia">
+	<circle cx="745.1" cy="846.2" r="1.7" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="SouthKorea">
 	<circle cx="745.1" cy="846.2" r="1.7" style="fill:white;" class="cv" />
 </g>
-<g class="Malaysia">
-	<title>2020-11-08  A23403G  Hong Kong=3 [100.0%] Philippines=3 [100.0%] South Korea=3 [100.0%] Malaysia=3 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="745.1" cy="846.2" r="1.7" style="fill:#ADD8E6;" class="cv" />
+<g class="HongKong">
+	<title>2020-11-08  A23403G  Philippines=3 [100.0%] Malaysia=3 [100.0%] South Korea=3 [100.0%] Hong Kong=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="745.1" cy="846.2" r="1.7" style="fill:lime;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-11-08  G23587T  Japan=8 [22.2%]  surface glycoprotein, Q675H</title>
@@ -18164,12 +18163,12 @@
 <g class="India">
 	<circle cx="757.5" cy="830.8" r="2.8" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="757.5" cy="830.8" r="2.4" style="fill:white;" class="cv" />
-</g>
 <g class="Philippines">
-	<title>2020-11-10  A23403G  India=9 [100.0%] South Korea=6 [100.0%] Philippines=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="757.5" cy="830.8" r="2.4" style="fill:#cab2d6;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-11-10  A23403G  India=9 [100.0%] Philippines=6 [100.0%] South Korea=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="757.5" cy="830.8" r="2.4" style="fill:white;" class="cv" />
 </g>
 <g class="HongKong">
 	<circle cx="757.5" cy="830.8" r="1.7" style="fill:lime;" class="cv" />
@@ -18177,12 +18176,12 @@
 <g class="Indonesia">
 	<circle cx="757.5" cy="830.8" r="1.3" style="fill:red;" class="cv" />
 </g>
-<g class="Bahrain">
-	<circle cx="757.5" cy="830.8" r="1.3" style="fill:#fb8072;" class="cv" />
-</g>
 <g class="Malaysia">
-	<title>2020-11-10  A23403G  Hong Kong=3 [100.0%] Indonesia=2 [40.0%] Bahrain=2 [100.0%] Malaysia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="757.5" cy="830.8" r="1.3" style="fill:#ADD8E6;" class="cv" />
+</g>
+<g class="Bahrain">
+	<title>2020-11-10  A23403G  Hong Kong=3 [100.0%] Indonesia=2 [40.0%] Malaysia=2 [100.0%] Bahrain=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="757.5" cy="830.8" r="1.3" style="fill:#fb8072;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-11-10  G23587T  Japan=15 [15.0%]  surface glycoprotein, Q675H</title>
@@ -18276,21 +18275,21 @@
 	<title>2020-11-11  A23403G  Japan=97 [99.0%]  surface glycoprotein, D614G</title>
 	<circle cx="763.9" cy="823.3" r="5.6" style="fill:cyan;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="763.9" cy="823.3" r="2.9" style="fill:white;" class="cv" />
-</g>
 <g class="Malaysia">
 	<circle cx="763.9" cy="823.3" r="2.9" style="fill:#ADD8E6;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<circle cx="763.9" cy="823.3" r="2.9" style="fill:white;" class="cv" />
 </g>
 <g class="Indonesia">
 	<circle cx="763.9" cy="823.3" r="2.5" style="fill:red;" class="cv" />
 </g>
-<g class="India">
-	<circle cx="763.9" cy="823.3" r="2.4" style="fill:fuchsia;" class="cv" />
-</g>
 <g class="Singapore">
-	<title>2020-11-11  A23403G  South Korea=10 [100.0%] Malaysia=10 [100.0%] Indonesia=7 [100.0%] India=6 [100.0%] Singapore=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="763.9" cy="823.3" r="2.4" style="fill:#FFBBFF;" class="cv" />
+</g>
+<g class="India">
+	<title>2020-11-11  A23403G  Malaysia=10 [100.0%] South Korea=10 [100.0%] Indonesia=7 [100.0%] Singapore=6 [100.0%] India=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="763.9" cy="823.3" r="2.4" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="HongKong">
 	<circle cx="763.9" cy="823.3" r="2.0" style="fill:lime;" class="cv" />
@@ -18381,14 +18380,14 @@
 	<title>2020-11-12  A23403G  Japan=109 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="770.4" cy="815.9" r="5.7" style="fill:cyan;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="770.4" cy="815.9" r="3.3" style="fill:white;" class="cv" />
-</g>
 <g class="India">
 	<circle cx="770.4" cy="815.9" r="3.3" style="fill:fuchsia;" class="cv" />
 </g>
+<g class="SouthKorea">
+	<circle cx="770.4" cy="815.9" r="3.3" style="fill:white;" class="cv" />
+</g>
 <g class="Bahrain">
-	<title>2020-11-12  A23403G  South Korea=14 [100.0%] India=14 [100.0%] Bahrain=11 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-11-12  A23403G  India=14 [100.0%] South Korea=14 [100.0%] Bahrain=11 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="770.4" cy="815.9" r="3.0" style="fill:#fb8072;" class="cv" />
 </g>
 <g class="HongKong">
@@ -18530,9 +18529,13 @@
 	<title>2020-11-14 Philippines=2</title>
 	<line x1="1179.1" y1="1180.0" x2="1177.6" y2="1178.5" style="stroke:#cab2d6;" class="sb" />
 </g>
+<g class="Pakistan">
+	<title>2020-11-14 Pakistan=2</title>
+	<line x1="1177.6" y1="1178.5" x2="1176.0" y2="1177.0" style="stroke:#fdb462;" class="sb" />
+</g>
 <g class="Georgia">
 	<title>2020-11-14 Georgia=2</title>
-	<line x1="1177.6" y1="1178.5" x2="1176.0" y2="1177.0" style="stroke:#800000;" class="sb" />
+	<line x1="1176.0" y1="1177.0" x2="1174.5" y2="1175.5" style="stroke:#800000;" class="sb" />
 </g>
 <g class="Philippines">
 	<title>2020-11-14  C21597T  Philippines=2 [100.0%]  surface glycoprotein, S12F</title>
@@ -18564,18 +18567,21 @@
 <g class="India">
 	<circle cx="783.9" cy="801.4" r="1.7" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="Georgia">
-	<circle cx="783.9" cy="801.4" r="1.3" style="fill:#800000;" class="cv" />
-</g>
 <g class="Philippines">
 	<circle cx="783.9" cy="801.4" r="1.3" style="fill:#cab2d6;" class="cv" />
 </g>
-<g class="Indonesia">
-	<circle cx="783.9" cy="801.4" r="1.3" style="fill:red;" class="cv" />
+<g class="Georgia">
+	<circle cx="783.9" cy="801.4" r="1.3" style="fill:#800000;" class="cv" />
+</g>
+<g class="Pakistan">
+	<circle cx="783.9" cy="801.4" r="1.3" style="fill:#fdb462;" class="cv" />
 </g>
 <g class="HongKong">
-	<title>2020-11-14  A23403G  Malaysia=3 [100.0%] India=3 [100.0%] Georgia=2 [100.0%] Philippines=2 [100.0%] Indonesia=2 [100.0%] Hong Kong=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="783.9" cy="801.4" r="1.3" style="fill:lime;" class="cv" />
+</g>
+<g class="Indonesia">
+	<title>2020-11-14  A23403G  Malaysia=3 [100.0%] India=3 [100.0%] Philippines=2 [100.0%] Georgia=2 [100.0%] Pakistan=2 [100.0%] Hong Kong=2 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="783.9" cy="801.4" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-11-14  G23587T  Japan=17 [21.5%]  surface glycoprotein, Q675H</title>
@@ -18664,21 +18670,21 @@
 	<title>2020-11-15  A23403G  South Korea=8 [100.0%] United Arab Emirates=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="790.7" cy="794.3" r="2.2" style="fill:yellow;" class="cv" />
 </g>
-<g class="Bangladesh">
-	<circle cx="790.7" cy="794.3" r="1.7" style="fill:#FFD700;" class="cv" />
-</g>
 <g class="Bahrain">
 	<circle cx="790.7" cy="794.3" r="1.7" style="fill:#fb8072;" class="cv" />
+</g>
+<g class="Bangladesh">
+	<circle cx="790.7" cy="794.3" r="1.7" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Philippines">
 	<circle cx="790.7" cy="794.3" r="1.7" style="fill:#cab2d6;" class="cv" />
 </g>
-<g class="HongKong">
-	<circle cx="790.7" cy="794.3" r="1.3" style="fill:lime;" class="cv" />
-</g>
 <g class="India">
-	<title>2020-11-15  A23403G  Bangladesh=3 [100.0%] Bahrain=3 [100.0%] Philippines=3 [100.0%] Hong Kong=2 [100.0%] India=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="790.7" cy="794.3" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="HongKong">
+	<title>2020-11-15  A23403G  Bahrain=3 [100.0%] Bangladesh=3 [100.0%] Philippines=3 [100.0%] India=2 [100.0%] Hong Kong=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="790.7" cy="794.3" r="1.3" style="fill:lime;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-11-15  G23587T  Japan=21 [32.3%]  surface glycoprotein, Q675H</title>
@@ -18790,11 +18796,11 @@
 <g class="India">
 	<circle cx="797.8" cy="787.3" r="2.0" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="Thailand">
-	<circle cx="797.8" cy="787.3" r="1.7" style="fill:#CC00FF;" class="cv" />
-</g>
 <g class="Philippines">
 	<circle cx="797.8" cy="787.3" r="1.7" style="fill:#cab2d6;" class="cv" />
+</g>
+<g class="Thailand">
+	<circle cx="797.8" cy="787.3" r="1.7" style="fill:#CC00FF;" class="cv" />
 </g>
 <g class="Indonesia">
 	<circle cx="797.8" cy="787.3" r="1.7" style="fill:red;" class="cv" />
@@ -18803,7 +18809,7 @@
 	<circle cx="797.8" cy="787.3" r="1.3" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="HongKong">
-	<title>2020-11-16  A23403G  India=4 [100.0%] Thailand=3 [100.0%] Philippines=3 [100.0%] Indonesia=3 [100.0%] Malaysia=2 [100.0%] Hong Kong=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-11-16  A23403G  India=4 [100.0%] Philippines=3 [100.0%] Thailand=3 [100.0%] Indonesia=3 [100.0%] Malaysia=2 [100.0%] Hong Kong=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="797.8" cy="787.3" r="1.3" style="fill:lime;" class="cv" />
 </g>
 <g class="Japan">
@@ -18877,18 +18883,18 @@
 	<title>2020-11-17  A23403G  India=13 [100.0%] South Korea=12 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="804.9" cy="780.5" r="3.1" style="fill:white;" class="cv" />
 </g>
-<g class="UnitedArabEmirates">
-	<circle cx="804.9" cy="780.5" r="1.7" style="fill:yellow;" class="cv" />
-</g>
 <g class="Philippines">
 	<circle cx="804.9" cy="780.5" r="1.7" style="fill:#cab2d6;" class="cv" />
 </g>
-<g class="Singapore">
-	<circle cx="804.9" cy="780.5" r="1.3" style="fill:#FFBBFF;" class="cv" />
+<g class="UnitedArabEmirates">
+	<circle cx="804.9" cy="780.5" r="1.7" style="fill:yellow;" class="cv" />
 </g>
 <g class="Kazakhstan">
-	<title>2020-11-17  A23403G  United Arab Emirates=3 [100.0%] Philippines=3 [100.0%] Singapore=2 [100.0%] Kazakhstan=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="804.9" cy="780.5" r="1.3" style="fill:#d9d9d9;" class="cv" />
+</g>
+<g class="Singapore">
+	<title>2020-11-17  A23403G  Philippines=3 [100.0%] United Arab Emirates=3 [100.0%] Kazakhstan=2 [100.0%] Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="804.9" cy="780.5" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-11-17  C23525T  India=2 [15.4%]  surface glycoprotein, H655Y</title>
@@ -18988,20 +18994,20 @@
 <g class="Malaysia">
 	<circle cx="812.2" cy="773.8" r="2.0" style="fill:#ADD8E6;" class="cv" />
 </g>
-<g class="Philippines">
-	<circle cx="812.2" cy="773.8" r="1.7" style="fill:#cab2d6;" class="cv" />
-</g>
 <g class="Indonesia">
 	<circle cx="812.2" cy="773.8" r="1.7" style="fill:red;" class="cv" />
 </g>
-<g class="Bangladesh">
-	<circle cx="812.2" cy="773.8" r="1.3" style="fill:#FFD700;" class="cv" />
+<g class="Philippines">
+	<circle cx="812.2" cy="773.8" r="1.7" style="fill:#cab2d6;" class="cv" />
 </g>
 <g class="Singapore">
 	<circle cx="812.2" cy="773.8" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
+<g class="Bangladesh">
+	<circle cx="812.2" cy="773.8" r="1.3" style="fill:#FFD700;" class="cv" />
+</g>
 <g class="HongKong">
-	<title>2020-11-18  A23403G  Malaysia=4 [100.0%] Philippines=3 [100.0%] Indonesia=3 [100.0%] Bangladesh=2 [100.0%] Singapore=2 [100.0%] Hong Kong=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-11-18  A23403G  Malaysia=4 [100.0%] Indonesia=3 [100.0%] Philippines=3 [100.0%] Singapore=2 [100.0%] Bangladesh=2 [100.0%] Hong Kong=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="812.2" cy="773.8" r="1.3" style="fill:lime;" class="cv" />
 </g>
 <g class="Japan">
@@ -19120,12 +19126,12 @@
 <g class="Indonesia">
 	<circle cx="819.6" cy="767.1" r="1.3" style="fill:red;" class="cv" />
 </g>
-<g class="Philippines">
-	<circle cx="819.6" cy="767.1" r="1.3" style="fill:#cab2d6;" class="cv" />
-</g>
 <g class="UnitedArabEmirates">
-	<title>2020-11-19  A23403G  Singapore=3 [100.0%] Turkey=3 [100.0%] Indonesia=2 [66.7%] Philippines=2 [100.0%] United Arab Emirates=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="819.6" cy="767.1" r="1.3" style="fill:yellow;" class="cv" />
+</g>
+<g class="Philippines">
+	<title>2020-11-19  A23403G  Singapore=3 [100.0%] Turkey=3 [100.0%] Indonesia=2 [66.7%] United Arab Emirates=2 [100.0%] Philippines=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="819.6" cy="767.1" r="1.3" style="fill:#cab2d6;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-11-19  G23587T  Japan=24 [16.2%]  surface glycoprotein, Q675H</title>
@@ -19243,12 +19249,12 @@
 <g class="Philippines">
 	<circle cx="827.0" cy="760.7" r="2.0" style="fill:#cab2d6;" class="cv" />
 </g>
-<g class="Taiwan">
-	<circle cx="827.0" cy="760.7" r="1.7" style="fill:#80b1d3;" class="cv" />
-</g>
 <g class="India">
-	<title>2020-11-20  A23403G  Philippines=4 [100.0%] Taiwan=3 [100.0%] India=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="827.0" cy="760.7" r="1.7" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Taiwan">
+	<title>2020-11-20  A23403G  Philippines=4 [100.0%] India=3 [100.0%] Taiwan=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="827.0" cy="760.7" r="1.7" style="fill:#80b1d3;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-11-20  G23587T  Japan=37 [26.1%]  surface glycoprotein, Q675H</title>
@@ -19580,12 +19586,12 @@
 <g class="Malaysia">
 	<circle cx="850.2" cy="742.1" r="1.7" style="fill:#ADD8E6;" class="cv" />
 </g>
-<g class="Indonesia">
-	<circle cx="850.2" cy="742.1" r="1.3" style="fill:red;" class="cv" />
-</g>
 <g class="Bangladesh">
-	<title>2020-11-23  A23403G  Malaysia=3 [100.0%] Indonesia=2 [100.0%] Bangladesh=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="850.2" cy="742.1" r="1.3" style="fill:#FFD700;" class="cv" />
+</g>
+<g class="Indonesia">
+	<title>2020-11-23  A23403G  Malaysia=3 [100.0%] Bangladesh=2 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="850.2" cy="742.1" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-11-23  G23587T  Japan=27 [29.0%]  surface glycoprotein, Q675H</title>
@@ -19872,31 +19878,31 @@
 	<title>2020-11-25  A23403G  South Korea=18 [100.0%] Hong Kong=17 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="866.1" cy="730.3" r="3.5" style="fill:lime;" class="cv" />
 </g>
-<g class="UnitedArabEmirates">
-	<circle cx="866.1" cy="730.3" r="2.0" style="fill:yellow;" class="cv" />
-</g>
 <g class="Philippines">
 	<circle cx="866.1" cy="730.3" r="2.0" style="fill:#cab2d6;" class="cv" />
 </g>
-<g class="Bangladesh">
-	<circle cx="866.1" cy="730.3" r="1.7" style="fill:#FFD700;" class="cv" />
+<g class="UnitedArabEmirates">
+	<circle cx="866.1" cy="730.3" r="2.0" style="fill:yellow;" class="cv" />
 </g>
 <g class="Indonesia">
 	<circle cx="866.1" cy="730.3" r="1.7" style="fill:red;" class="cv" />
 </g>
-<g class="Malaysia">
-	<circle cx="866.1" cy="730.3" r="1.3" style="fill:#ADD8E6;" class="cv" />
+<g class="Bangladesh">
+	<circle cx="866.1" cy="730.3" r="1.7" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Iran">
 	<circle cx="866.1" cy="730.3" r="1.3" style="fill:#fccde5;" class="cv" />
 </g>
 <g class="SaudiArabia">
-	<title>2020-11-25  A23403G  United Arab Emirates=4 [100.0%] Philippines=4 [100.0%] Bangladesh=3 [100.0%] Indonesia=3 [100.0%] Malaysia=2 [100.0%] Iran=2 [100.0%] Saudi Arabia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="866.1" cy="730.3" r="1.3" style="fill:#F08080;" class="cv" />
 </g>
 <g class="Thailand">
-	<title>2020-11-25  A23403G  United Arab Emirates=4 [100.0%] Philippines=4 [100.0%] Bangladesh=3 [100.0%] Indonesia=3 [100.0%] Malaysia=2 [100.0%] Iran=2 [100.0%] Saudi Arabia=2 [100.0%] Thailand=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-11-25  A23403G  Philippines=4 [100.0%] United Arab Emirates=4 [100.0%] Indonesia=3 [100.0%] Bangladesh=3 [100.0%] Iran=2 [100.0%] Saudi Arabia=2 [100.0%] Thailand=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="866.1" cy="730.3" r="1.3" style="fill:#CC00FF;" class="cv" />
+</g>
+<g class="Malaysia">
+	<title>2020-11-25  A23403G  Philippines=4 [100.0%] United Arab Emirates=4 [100.0%] Indonesia=3 [100.0%] Bangladesh=3 [100.0%] Iran=2 [100.0%] Saudi Arabia=2 [100.0%] Thailand=2 [100.0%] Malaysia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="866.1" cy="730.3" r="1.3" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-11-25  G23587T  Japan=34 [28.1%]  surface glycoprotein, Q675H</title>
@@ -20015,32 +20021,32 @@
 <g class="Pakistan">
 	<circle cx="874.2" cy="724.7" r="2.0" style="fill:#fdb462;" class="cv" />
 </g>
-<g class="Taiwan">
-	<circle cx="874.2" cy="724.7" r="1.3" style="fill:#80b1d3;" class="cv" />
-</g>
 <g class="Bangladesh">
-	<title>2020-11-26  A23403G  Pakistan=4 [100.0%] Taiwan=2 [100.0%] Bangladesh=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="874.2" cy="724.7" r="1.3" style="fill:#FFD700;" class="cv" />
 </g>
-<g class="India">
-	<title>2020-11-26  G23587C  India=2 [4.0%]  surface glycoprotein, Q675H</title>
-	<circle cx="851.3" cy="691.3" r="1.3" style="fill:fuchsia;" class="cv" />
+<g class="Taiwan">
+	<title>2020-11-26  A23403G  Pakistan=4 [100.0%] Bangladesh=2 [100.0%] Taiwan=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="874.2" cy="724.7" r="1.3" style="fill:#80b1d3;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-11-26  G23587T  Japan=25 [23.1%]  surface glycoprotein, Q675H</title>
 	<circle cx="851.3" cy="691.3" r="4.0" style="fill:cyan;" class="cv" />
 </g>
 <g class="India">
+	<title>2020-11-26  G23587C  India=2 [4.0%]  surface glycoprotein, Q675H</title>
+	<circle cx="851.3" cy="691.3" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="India">
 	<title>2020-11-26  G23593T  India=8 [16.0%]  surface glycoprotein, Q677H</title>
 	<circle cx="850.6" cy="690.2" r="2.7" style="fill:fuchsia;" class="cv" />
-</g>
-<g class="UnitedArabEmirates">
-	<title>2020-11-26  C23604G  United Arab Emirates=2 [40.0%]  surface glycoprotein, P681R</title>
-	<circle cx="849.2" cy="688.3" r="1.3" style="fill:yellow;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-11-26  C23604A  India=2 [4.0%]  surface glycoprotein, P681H</title>
 	<circle cx="849.2" cy="688.3" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="UnitedArabEmirates">
+	<title>2020-11-26  C23604G  United Arab Emirates=2 [40.0%]  surface glycoprotein, P681R</title>
+	<circle cx="849.2" cy="688.3" r="1.3" style="fill:yellow;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-11-26  G24356A  Japan=4 [3.7%]  surface glycoprotein, G932S</title>
@@ -20172,6 +20178,10 @@
 	<title>2020-11-27  A23403G  Philippines=4 [100.0%] Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="882.4" cy="719.1" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
+<g class="India">
+	<title>2020-11-27  G23587C  India=2 [4.3%]  surface glycoprotein, Q675H</title>
+	<circle cx="860.2" cy="685.4" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
 <g class="Japan">
 	<title>2020-11-27  G23587T  Japan=41 [30.8%]  surface glycoprotein, Q675H</title>
 	<circle cx="860.2" cy="685.4" r="4.5" style="fill:cyan;" class="cv" />
@@ -20179,10 +20189,6 @@
 <g class="India">
 	<title>2020-11-27  G23587T  India=3 [6.5%]  surface glycoprotein, Q675H</title>
 	<circle cx="860.2" cy="685.4" r="1.7" style="fill:fuchsia;" class="cv" />
-</g>
-<g class="India">
-	<title>2020-11-27  G23587C  India=2 [4.3%]  surface glycoprotein, Q675H</title>
-	<circle cx="860.2" cy="685.4" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-11-27  G23593T  India=7 [15.2%]  surface glycoprotein, Q677H</title>
@@ -20322,10 +20328,6 @@
 	<title>2020-11-28  G23593T  India=2 [6.7%]  surface glycoprotein, Q677H</title>
 	<circle cx="868.3" cy="678.5" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="India">
-	<title>2020-11-28  C23604A  India=3 [10.0%]  surface glycoprotein, P681H</title>
-	<circle cx="867.0" cy="676.5" r="1.7" style="fill:fuchsia;" class="cv" />
-</g>
 <g class="Cambodia">
 	<title>2020-11-28  C23604G  Cambodia=6 [100.0%]  surface glycoprotein, P681R</title>
 	<circle cx="867.0" cy="676.5" r="2.4" style="fill:#bc80bd;" class="cv" />
@@ -20333,6 +20335,10 @@
 <g class="Bangladesh">
 	<title>2020-11-28  C23604G  Bangladesh=2 [100.0%]  surface glycoprotein, P681R</title>
 	<circle cx="867.0" cy="676.5" r="1.3" style="fill:#FFD700;" class="cv" />
+</g>
+<g class="India">
+	<title>2020-11-28  C23604A  India=3 [10.0%]  surface glycoprotein, P681H</title>
+	<circle cx="867.0" cy="676.5" r="1.7" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-11-28  C23709T  India=3 [10.0%]  surface glycoprotein, T716I</title>
@@ -20498,16 +20504,16 @@
 	<line x1="1182.0" y1="1169.4" x2="1180.9" y2="1167.5" style="stroke:#FFBBFF;" class="sb" />
 </g>
 <g class="Indonesia">
-	<title>2020-11-30 Indonesia=5</title>
-	<line x1="1180.9" y1="1167.5" x2="1179.1" y2="1164.5" style="stroke:red;" class="sb" />
+	<title>2020-11-30 Indonesia=6</title>
+	<line x1="1180.9" y1="1167.5" x2="1179.0" y2="1164.3" style="stroke:red;" class="sb" />
 </g>
 <g class="Philippines">
 	<title>2020-11-30 Philippines=3</title>
-	<line x1="1179.1" y1="1164.5" x2="1177.7" y2="1162.2" style="stroke:#cab2d6;" class="sb" />
+	<line x1="1179.0" y1="1164.3" x2="1177.6" y2="1161.9" style="stroke:#cab2d6;" class="sb" />
 </g>
 <g class="Palestine">
 	<title>2020-11-30 Palestine=15</title>
-	<line x1="1177.7" y1="1162.2" x2="1175.0" y2="1157.5" style="stroke:#b3de69;" class="sb" />
+	<line x1="1177.6" y1="1161.9" x2="1174.8" y2="1157.3" style="stroke:#b3de69;" class="sb" />
 </g>
 <g class="Palestine">
 	<title>2020-11-30  G21624A  Palestine=3 [20.0%]  surface glycoprotein, R21K</title>
@@ -20564,17 +20570,17 @@
 	<circle cx="907.6" cy="703.4" r="3.2" style="fill:white;" class="cv" />
 </g>
 <g class="Indonesia">
-	<title>2020-11-30  A23403G  Indonesia=5 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="907.6" cy="703.4" r="2.2" style="fill:red;" class="cv" />
-</g>
-<g class="Philippines">
-	<circle cx="907.6" cy="703.4" r="1.7" style="fill:#cab2d6;" class="cv" />
+	<title>2020-11-30  A23403G  Indonesia=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="907.6" cy="703.4" r="2.4" style="fill:red;" class="cv" />
 </g>
 <g class="UnitedArabEmirates">
 	<circle cx="907.6" cy="703.4" r="1.7" style="fill:yellow;" class="cv" />
 </g>
+<g class="Philippines">
+	<circle cx="907.6" cy="703.4" r="1.7" style="fill:#cab2d6;" class="cv" />
+</g>
 <g class="Singapore">
-	<title>2020-11-30  A23403G  Philippines=3 [100.0%] United Arab Emirates=3 [100.0%] Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-11-30  A23403G  United Arab Emirates=3 [100.0%] Philippines=3 [100.0%] Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="907.6" cy="703.4" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Japan">
@@ -20873,15 +20879,15 @@
 <g class="HongKong">
 	<circle cx="924.9" cy="693.7" r="2.8" style="fill:lime;" class="cv" />
 </g>
+<g class="Indonesia">
+	<circle cx="924.9" cy="693.7" r="2.7" style="fill:red;" class="cv" />
+</g>
 <g class="Bangladesh">
 	<circle cx="924.9" cy="693.7" r="2.7" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Philippines">
+	<title>2020-12-02  A23403G  Hong Kong=9 [100.0%] Indonesia=8 [100.0%] Bangladesh=8 [100.0%] Philippines=8 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="924.9" cy="693.7" r="2.7" style="fill:#cab2d6;" class="cv" />
-</g>
-<g class="Indonesia">
-	<title>2020-12-02  A23403G  Hong Kong=9 [100.0%] Bangladesh=8 [100.0%] Philippines=8 [100.0%] Indonesia=8 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="924.9" cy="693.7" r="2.7" style="fill:red;" class="cv" />
 </g>
 <g class="Israel">
 	<circle cx="924.9" cy="693.7" r="1.7" style="fill:orange;" class="cv" />
@@ -20906,13 +20912,6 @@
 	<title>2020-12-02  G23593T  Japan=4 [2.3%]  surface glycoprotein, Q677H</title>
 	<circle cx="904.9" cy="657.0" r="2.0" style="fill:cyan;" class="cv" />
 </g>
-<g class="India">
-	<circle cx="903.8" cy="654.9" r="1.7" style="fill:fuchsia;" class="cv" />
-</g>
-<g class="Israel">
-	<title>2020-12-02  C23604A  India=3 [6.5%] Israel=2 [66.7%]  surface glycoprotein, P681H</title>
-	<circle cx="903.8" cy="654.9" r="1.3" style="fill:orange;" class="cv" />
-</g>
 <g class="Bangladesh">
 	<circle cx="903.8" cy="654.9" r="1.7" style="fill:#FFD700;" class="cv" />
 </g>
@@ -20922,6 +20921,13 @@
 <g class="Cambodia">
 	<title>2020-12-02  C23604G  Bangladesh=3 [37.5%] India=2 [4.3%] Cambodia=2 [100.0%]  surface glycoprotein, P681R</title>
 	<circle cx="903.8" cy="654.9" r="1.3" style="fill:#bc80bd;" class="cv" />
+</g>
+<g class="India">
+	<circle cx="903.8" cy="654.9" r="1.7" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Israel">
+	<title>2020-12-02  C23604A  India=3 [6.5%] Israel=2 [66.7%]  surface glycoprotein, P681H</title>
+	<circle cx="903.8" cy="654.9" r="1.3" style="fill:orange;" class="cv" />
 </g>
 <g class="SouthKorea">
 	<title>2020-12-02  C24096T  South Korea=3 [18.8%]  surface glycoprotein, A845V</title>
@@ -21063,12 +21069,12 @@
 <g class="Israel">
 	<circle cx="933.6" cy="689.0" r="2.0" style="fill:orange;" class="cv" />
 </g>
-<g class="Thailand">
-	<circle cx="933.6" cy="689.0" r="1.7" style="fill:#CC00FF;" class="cv" />
-</g>
 <g class="Bangladesh">
-	<title>2020-12-03  A23403G  Philippines=4 [100.0%] Israel=4 [100.0%] Thailand=3 [100.0%] Bangladesh=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="933.6" cy="689.0" r="1.7" style="fill:#FFD700;" class="cv" />
+</g>
+<g class="Thailand">
+	<title>2020-12-03  A23403G  Philippines=4 [100.0%] Israel=4 [100.0%] Bangladesh=3 [100.0%] Thailand=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="933.6" cy="689.0" r="1.7" style="fill:#CC00FF;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-03  G23587T  Japan=23 [15.8%]  surface glycoprotein, Q675H</title>
@@ -21217,13 +21223,13 @@
 	<title>2020-12-04  G23593T  Japan=2 [1.3%]  surface glycoprotein, Q677H</title>
 	<circle cx="923.7" cy="647.2" r="1.3" style="fill:cyan;" class="cv" />
 </g>
-<g class="India">
-	<title>2020-12-04  C23604A  India=7 [14.3%]  surface glycoprotein, P681H</title>
-	<circle cx="922.6" cy="645.0" r="2.5" style="fill:fuchsia;" class="cv" />
-</g>
 <g class="Bangladesh">
 	<title>2020-12-04  C23604G  Bangladesh=2 [40.0%]  surface glycoprotein, P681R</title>
 	<circle cx="922.6" cy="645.0" r="1.3" style="fill:#FFD700;" class="cv" />
+</g>
+<g class="India">
+	<title>2020-12-04  C23604A  India=7 [14.3%]  surface glycoprotein, P681H</title>
+	<circle cx="922.6" cy="645.0" r="2.5" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-04  C23673T  Japan=2 [1.3%]  surface glycoprotein, S704L</title>
@@ -21353,21 +21359,21 @@
 	<title>2020-12-05  A23403G  India=31 [96.9%]  surface glycoprotein, D614G</title>
 	<circle cx="951.3" cy="680.2" r="4.2" style="fill:fuchsia;" class="cv" />
 </g>
+<g class="Philippines">
+	<circle cx="951.3" cy="680.2" r="2.4" style="fill:#cab2d6;" class="cv" />
+</g>
 <g class="SouthKorea">
 	<circle cx="951.3" cy="680.2" r="2.4" style="fill:white;" class="cv" />
 </g>
-<g class="Philippines">
-	<circle cx="951.3" cy="680.2" r="2.4" style="fill:#cab2d6;" class="cv" />
+<g class="Bangladesh">
+	<circle cx="951.3" cy="680.2" r="2.2" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Taiwan">
 	<circle cx="951.3" cy="680.2" r="2.2" style="fill:#80b1d3;" class="cv" />
 </g>
 <g class="HongKong">
+	<title>2020-12-05  A23403G  Philippines=6 [100.0%] South Korea=6 [100.0%] Bangladesh=5 [100.0%] Taiwan=5 [100.0%] Hong Kong=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="951.3" cy="680.2" r="2.2" style="fill:lime;" class="cv" />
-</g>
-<g class="Bangladesh">
-	<title>2020-12-05  A23403G  South Korea=6 [100.0%] Philippines=6 [100.0%] Taiwan=5 [100.0%] Hong Kong=5 [100.0%] Bangladesh=5 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="951.3" cy="680.2" r="2.2" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Thailand">
 	<circle cx="951.3" cy="680.2" r="1.7" style="fill:#CC00FF;" class="cv" />
@@ -21489,14 +21495,14 @@
 <g class="Philippines">
 	<circle cx="960.2" cy="676.0" r="2.0" style="fill:#cab2d6;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="960.2" cy="676.0" r="1.7" style="fill:white;" class="cv" />
-</g>
 <g class="Singapore">
 	<circle cx="960.2" cy="676.0" r="1.7" style="fill:#FFBBFF;" class="cv" />
 </g>
+<g class="SouthKorea">
+	<circle cx="960.2" cy="676.0" r="1.7" style="fill:white;" class="cv" />
+</g>
 <g class="Indonesia">
-	<title>2020-12-06  A23403G  Philippines=4 [100.0%] South Korea=3 [100.0%] Singapore=3 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-06  A23403G  Philippines=4 [100.0%] Singapore=3 [100.0%] South Korea=3 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="960.2" cy="676.0" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="Japan">
@@ -21621,12 +21627,12 @@
 <g class="SouthKorea">
 	<circle cx="969.2" cy="672.0" r="2.7" style="fill:white;" class="cv" />
 </g>
-<g class="Indonesia">
-	<circle cx="969.2" cy="672.0" r="2.5" style="fill:red;" class="cv" />
-</g>
 <g class="HongKong">
-	<title>2020-12-07  A23403G  Philippines=8 [100.0%] South Korea=8 [100.0%] Indonesia=7 [100.0%] Hong Kong=7 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="969.2" cy="672.0" r="2.5" style="fill:lime;" class="cv" />
+</g>
+<g class="Indonesia">
+	<title>2020-12-07  A23403G  Philippines=8 [100.0%] South Korea=8 [100.0%] Hong Kong=7 [100.0%] Indonesia=7 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="969.2" cy="672.0" r="2.5" style="fill:red;" class="cv" />
 </g>
 <g class="Israel">
 	<circle cx="969.2" cy="672.0" r="2.0" style="fill:orange;" class="cv" />
@@ -21764,11 +21770,11 @@
 	<title>2020-12-08  A23403G  India=28 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="978.4" cy="668.1" r="4.1" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="978.4" cy="668.1" r="2.0" style="fill:white;" class="cv" />
-</g>
 <g class="HongKong">
 	<circle cx="978.4" cy="668.1" r="2.0" style="fill:lime;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<circle cx="978.4" cy="668.1" r="2.0" style="fill:white;" class="cv" />
 </g>
 <g class="Malaysia">
 	<circle cx="978.4" cy="668.1" r="2.0" style="fill:#ADD8E6;" class="cv" />
@@ -21780,16 +21786,16 @@
 	<circle cx="978.4" cy="668.1" r="1.7" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Iran">
-	<title>2020-12-08  A23403G  South Korea=4 [100.0%] Hong Kong=4 [100.0%] Malaysia=4 [100.0%] Israel=4 [100.0%] Bangladesh=3 [100.0%] Iran=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-08  A23403G  Hong Kong=4 [100.0%] South Korea=4 [100.0%] Malaysia=4 [100.0%] Israel=4 [100.0%] Bangladesh=3 [100.0%] Iran=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="978.4" cy="668.1" r="1.3" style="fill:#fccde5;" class="cv" />
-</g>
-<g class="Japan">
-	<title>2020-12-08  G23587T  Japan=51 [26.7%]  surface glycoprotein, Q675H</title>
-	<circle cx="962.8" cy="630.7" r="4.8" style="fill:cyan;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-12-08  G23587C  India=2 [7.1%]  surface glycoprotein, Q675H</title>
 	<circle cx="962.8" cy="630.7" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Japan">
+	<title>2020-12-08  G23587T  Japan=51 [26.7%]  surface glycoprotein, Q675H</title>
+	<circle cx="962.8" cy="630.7" r="4.8" style="fill:cyan;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-08  G23593T  Japan=6 [3.1%]  surface glycoprotein, Q677H</title>
@@ -21835,17 +21841,21 @@
 	<title>2020-12-09 Hong Kong=4</title>
 	<line x1="1189.3" y1="1172.9" x2="1188.1" y2="1170.0" style="stroke:lime;" class="sb" />
 </g>
+<g class="Indonesia">
+	<title>2020-12-09 Indonesia=2</title>
+	<line x1="1188.1" y1="1170.0" x2="1187.3" y2="1168.0" style="stroke:red;" class="sb" />
+</g>
 <g class="Malaysia">
 	<title>2020-12-09 Malaysia=3</title>
-	<line x1="1188.1" y1="1170.0" x2="1187.1" y2="1167.5" style="stroke:#ADD8E6;" class="sb" />
+	<line x1="1187.3" y1="1168.0" x2="1186.3" y2="1165.5" style="stroke:#ADD8E6;" class="sb" />
 </g>
 <g class="Philippines">
 	<title>2020-12-09 Philippines=7</title>
-	<line x1="1187.1" y1="1167.5" x2="1185.6" y2="1163.7" style="stroke:#cab2d6;" class="sb" />
+	<line x1="1186.3" y1="1165.5" x2="1184.8" y2="1161.7" style="stroke:#cab2d6;" class="sb" />
 </g>
 <g class="Iran">
 	<title>2020-12-09 Iran=2</title>
-	<line x1="1185.6" y1="1163.7" x2="1184.8" y2="1161.7" style="stroke:#fccde5;" class="sb" />
+	<line x1="1184.8" y1="1161.7" x2="1184.0" y2="1159.7" style="stroke:#fccde5;" class="sb" />
 </g>
 <g class="India">
 	<title>2020-12-09  C21575T  India=2 [4.9%]  surface glycoprotein, L5F</title>
@@ -21938,17 +21948,20 @@
 	<title>2020-12-09  A23403G  Philippines=7 [100.0%] Israel=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="987.5" cy="664.4" r="2.2" style="fill:orange;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="987.5" cy="664.4" r="2.0" style="fill:white;" class="cv" />
-</g>
 <g class="HongKong">
 	<circle cx="987.5" cy="664.4" r="2.0" style="fill:lime;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<circle cx="987.5" cy="664.4" r="2.0" style="fill:white;" class="cv" />
 </g>
 <g class="Malaysia">
 	<circle cx="987.5" cy="664.4" r="1.7" style="fill:#ADD8E6;" class="cv" />
 </g>
+<g class="Indonesia">
+	<circle cx="987.5" cy="664.4" r="1.3" style="fill:red;" class="cv" />
+</g>
 <g class="Iran">
-	<title>2020-12-09  A23403G  South Korea=4 [100.0%] Hong Kong=4 [100.0%] Malaysia=3 [100.0%] Iran=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-09  A23403G  Hong Kong=4 [100.0%] South Korea=4 [100.0%] Malaysia=3 [100.0%] Indonesia=2 [100.0%] Iran=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="987.5" cy="664.4" r="1.3" style="fill:#fccde5;" class="cv" />
 </g>
 <g class="Japan">
@@ -22092,12 +22105,16 @@
 <g class="Indonesia">
 	<circle cx="996.7" cy="660.8" r="1.7" style="fill:red;" class="cv" />
 </g>
+<g class="Singapore">
+	<circle cx="996.7" cy="660.8" r="1.3" style="fill:#FFBBFF;" class="cv" />
+</g>
 <g class="Malaysia">
+	<title>2020-12-10  A23403G  Indonesia=3 [100.0%] Singapore=2 [100.0%] Malaysia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="996.7" cy="660.8" r="1.3" style="fill:#ADD8E6;" class="cv" />
 </g>
-<g class="Singapore">
-	<title>2020-12-10  A23403G  Indonesia=3 [100.0%] Malaysia=2 [100.0%] Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="996.7" cy="660.8" r="1.3" style="fill:#FFBBFF;" class="cv" />
+<g class="India">
+	<title>2020-12-10  G23587C  India=3 [7.3%]  surface glycoprotein, Q675H</title>
+	<circle cx="982.4" cy="623.0" r="1.7" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-10  G23587T  Japan=42 [20.5%]  surface glycoprotein, Q675H</title>
@@ -22105,10 +22122,6 @@
 </g>
 <g class="India">
 	<title>2020-12-10  G23587T  India=3 [7.3%]  surface glycoprotein, Q675H</title>
-	<circle cx="982.4" cy="623.0" r="1.7" style="fill:fuchsia;" class="cv" />
-</g>
-<g class="India">
-	<title>2020-12-10  G23587C  India=3 [7.3%]  surface glycoprotein, Q675H</title>
 	<circle cx="982.4" cy="623.0" r="1.7" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Japan">
@@ -22233,12 +22246,12 @@
 <g class="HongKong">
 	<circle cx="1006.0" cy="657.4" r="1.7" style="fill:lime;" class="cv" />
 </g>
-<g class="Philippines">
-	<circle cx="1006.0" cy="657.4" r="1.7" style="fill:#cab2d6;" class="cv" />
-</g>
 <g class="Singapore">
-	<title>2020-12-11  A23403G  Hong Kong=3 [100.0%] Philippines=3 [100.0%] Singapore=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1006.0" cy="657.4" r="1.7" style="fill:#FFBBFF;" class="cv" />
+</g>
+<g class="Philippines">
+	<title>2020-12-11  A23403G  Hong Kong=3 [100.0%] Singapore=3 [100.0%] Philippines=3 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1006.0" cy="657.4" r="1.7" style="fill:#cab2d6;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-11  G23587T  Japan=29 [15.2%]  surface glycoprotein, Q675H</title>
@@ -22401,12 +22414,12 @@
 	<circle cx="1002.0" cy="614.6" r="1.3" style="fill:cyan;" class="cv" />
 </g>
 <g class="India">
-	<title>2020-12-12  C23604G  India=2 [5.1%]  surface glycoprotein, P681R</title>
-	<circle cx="1001.2" cy="612.3" r="1.3" style="fill:fuchsia;" class="cv" />
-</g>
-<g class="India">
 	<title>2020-12-12  C23604A  India=3 [7.7%]  surface glycoprotein, P681H</title>
 	<circle cx="1001.2" cy="612.3" r="1.7" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="India">
+	<title>2020-12-12  C23604G  India=2 [5.1%]  surface glycoprotein, P681R</title>
+	<circle cx="1001.2" cy="612.3" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-12  C23939T  Japan=2 [1.5%]  surface glycoprotein, P793S</title>
@@ -22437,24 +22450,24 @@
 	<line x1="1195.8" y1="1186.7" x2="1193.5" y2="1179.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-13 South Korea=13</title>
-	<line x1="1193.5" y1="1179.7" x2="1192.0" y2="1174.8" style="stroke:white;" class="sb" />
+	<title>2020-12-13 South Korea=14</title>
+	<line x1="1193.5" y1="1179.7" x2="1191.9" y2="1174.7" style="stroke:white;" class="sb" />
 </g>
 <g class="Israel">
 	<title>2020-12-13 Israel=3</title>
-	<line x1="1192.0" y1="1174.8" x2="1191.1" y2="1172.2" style="stroke:orange;" class="sb" />
+	<line x1="1191.9" y1="1174.7" x2="1191.1" y2="1172.1" style="stroke:orange;" class="sb" />
 </g>
 <g class="HongKong">
 	<title>2020-12-13 Hong Kong=6</title>
-	<line x1="1191.1" y1="1172.2" x2="1190.0" y2="1168.6" style="stroke:lime;" class="sb" />
+	<line x1="1191.1" y1="1172.1" x2="1189.9" y2="1168.5" style="stroke:lime;" class="sb" />
 </g>
 <g class="Iran">
 	<title>2020-12-13 Iran=4</title>
-	<line x1="1190.0" y1="1168.6" x2="1189.0" y2="1165.6" style="stroke:#fccde5;" class="sb" />
+	<line x1="1189.9" y1="1168.5" x2="1189.0" y2="1165.5" style="stroke:#fccde5;" class="sb" />
 </g>
 <g class="Kazakhstan">
 	<title>2020-12-13 Kazakhstan=5</title>
-	<line x1="1189.0" y1="1165.6" x2="1188.0" y2="1162.3" style="stroke:#d9d9d9;" class="sb" />
+	<line x1="1189.0" y1="1165.5" x2="1187.9" y2="1162.1" style="stroke:#d9d9d9;" class="sb" />
 </g>
 <g class="India">
 	<title>2020-12-13  G21724T  India=2 [4.8%]  surface glycoprotein, L54F</title>
@@ -22508,8 +22521,8 @@
 	<circle cx="1024.8" cy="651.0" r="4.6" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-13  A23403G  South Korea=13 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1024.8" cy="651.0" r="3.2" style="fill:white;" class="cv" />
+	<title>2020-12-13  A23403G  South Korea=14 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1024.8" cy="651.0" r="3.3" style="fill:white;" class="cv" />
 </g>
 <g class="HongKong">
 	<circle cx="1024.8" cy="651.0" r="2.4" style="fill:lime;" class="cv" />
@@ -22741,11 +22754,11 @@
 	<circle cx="1022.2" cy="608.1" r="1.7" style="fill:cyan;" class="cv" />
 </g>
 <g class="India">
-	<title>2020-12-14  C23604A  India=2 [4.9%]  surface glycoprotein, P681H</title>
+	<title>2020-12-14  C23604G  India=2 [4.9%]  surface glycoprotein, P681R</title>
 	<circle cx="1021.5" cy="605.8" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="India">
-	<title>2020-12-14  C23604G  India=2 [4.9%]  surface glycoprotein, P681R</title>
+	<title>2020-12-14  C23604A  India=2 [4.9%]  surface glycoprotein, P681H</title>
 	<circle cx="1021.5" cy="605.8" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Malaysia">
@@ -22793,40 +22806,40 @@
 	<line x1="1195.9" y1="1185.3" x2="1193.7" y2="1177.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-15 South Korea=13</title>
-	<line x1="1193.7" y1="1177.8" x2="1192.3" y2="1172.8" style="stroke:white;" class="sb" />
+	<title>2020-12-15 South Korea=14</title>
+	<line x1="1193.7" y1="1177.8" x2="1192.3" y2="1172.7" style="stroke:white;" class="sb" />
 </g>
 <g class="Israel">
 	<title>2020-12-15 Israel=5</title>
-	<line x1="1192.3" y1="1172.8" x2="1191.4" y2="1169.4" style="stroke:orange;" class="sb" />
+	<line x1="1192.3" y1="1172.7" x2="1191.4" y2="1169.3" style="stroke:orange;" class="sb" />
 </g>
 <g class="HongKong">
 	<title>2020-12-15 Hong Kong=4</title>
-	<line x1="1191.4" y1="1169.4" x2="1190.5" y2="1166.4" style="stroke:lime;" class="sb" />
+	<line x1="1191.4" y1="1169.3" x2="1190.5" y2="1166.3" style="stroke:lime;" class="sb" />
 </g>
 <g class="Singapore">
 	<title>2020-12-15 Singapore=2</title>
-	<line x1="1190.5" y1="1166.4" x2="1190.0" y2="1164.3" style="stroke:#FFBBFF;" class="sb" />
+	<line x1="1190.5" y1="1166.3" x2="1189.9" y2="1164.2" style="stroke:#FFBBFF;" class="sb" />
 </g>
 <g class="Indonesia">
-	<title>2020-12-15 Indonesia=4</title>
-	<line x1="1190.0" y1="1164.3" x2="1189.1" y2="1161.3" style="stroke:red;" class="sb" />
+	<title>2020-12-15 Indonesia=5</title>
+	<line x1="1189.9" y1="1164.2" x2="1189.0" y2="1160.8" style="stroke:red;" class="sb" />
 </g>
 <g class="Bangladesh">
 	<title>2020-12-15 Bangladesh=2</title>
-	<line x1="1189.1" y1="1161.3" x2="1188.5" y2="1159.3" style="stroke:#FFD700;" class="sb" />
+	<line x1="1189.0" y1="1160.8" x2="1188.4" y2="1158.8" style="stroke:#FFD700;" class="sb" />
 </g>
 <g class="Malaysia">
 	<title>2020-12-15 Malaysia=6</title>
-	<line x1="1188.5" y1="1159.3" x2="1187.5" y2="1155.6" style="stroke:#ADD8E6;" class="sb" />
+	<line x1="1188.4" y1="1158.8" x2="1187.4" y2="1155.1" style="stroke:#ADD8E6;" class="sb" />
 </g>
 <g class="SaudiArabia">
 	<title>2020-12-15 Saudi Arabia=2</title>
-	<line x1="1187.5" y1="1155.6" x2="1186.9" y2="1153.5" style="stroke:#F08080;" class="sb" />
+	<line x1="1187.4" y1="1155.1" x2="1186.8" y2="1153.1" style="stroke:#F08080;" class="sb" />
 </g>
 <g class="Philippines">
 	<title>2020-12-15 Philippines=4</title>
-	<line x1="1186.9" y1="1153.5" x2="1186.0" y2="1150.5" style="stroke:#cab2d6;" class="sb" />
+	<line x1="1186.8" y1="1153.1" x2="1185.9" y2="1150.0" style="stroke:#cab2d6;" class="sb" />
 </g>
 <g class="Japan">
 	<title>2020-12-15  C21575T  Japan=8 [4.1%]  surface glycoprotein, L5F</title>
@@ -22903,8 +22916,8 @@
 	<circle cx="1107.7" cy="872.5" r="2.4" style="fill:cyan;" class="cv" />
 </g>
 <g class="Indonesia">
-	<title>2020-12-15  C22879A  Indonesia=2 [50.0%]  surface glycoprotein, N439K</title>
-	<circle cx="1074.9" cy="756.2" r="1.3" style="fill:red;" class="cv" />
+	<title>2020-12-15  C22879A  Indonesia=3 [60.0%]  surface glycoprotein, N439K</title>
+	<circle cx="1074.9" cy="756.2" r="1.7" style="fill:red;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-12-15  T22882G  India=3 [5.7%]  surface glycoprotein, N440K</title>
@@ -22935,34 +22948,34 @@
 	<circle cx="1043.7" cy="645.3" r="4.9" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-15  A23403G  South Korea=13 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1043.7" cy="645.3" r="3.2" style="fill:white;" class="cv" />
+	<title>2020-12-15  A23403G  South Korea=14 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1043.7" cy="645.3" r="3.3" style="fill:white;" class="cv" />
 </g>
 <g class="Malaysia">
 	<circle cx="1043.7" cy="645.3" r="2.4" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="Israel">
-	<title>2020-12-15  A23403G  Malaysia=6 [100.0%] Israel=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1043.7" cy="645.3" r="2.2" style="fill:orange;" class="cv" />
 </g>
-<g class="HongKong">
-	<circle cx="1043.7" cy="645.3" r="2.0" style="fill:lime;" class="cv" />
+<g class="Indonesia">
+	<title>2020-12-15  A23403G  Malaysia=6 [100.0%] Israel=5 [100.0%] Indonesia=5 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1043.7" cy="645.3" r="2.2" style="fill:red;" class="cv" />
 </g>
 <g class="Philippines">
 	<circle cx="1043.7" cy="645.3" r="2.0" style="fill:#cab2d6;" class="cv" />
 </g>
-<g class="Indonesia">
-	<circle cx="1043.7" cy="645.3" r="2.0" style="fill:red;" class="cv" />
+<g class="HongKong">
+	<circle cx="1043.7" cy="645.3" r="2.0" style="fill:lime;" class="cv" />
 </g>
 <g class="SaudiArabia">
 	<circle cx="1043.7" cy="645.3" r="1.3" style="fill:#F08080;" class="cv" />
 </g>
-<g class="Bangladesh">
-	<circle cx="1043.7" cy="645.3" r="1.3" style="fill:#FFD700;" class="cv" />
-</g>
 <g class="Singapore">
-	<title>2020-12-15  A23403G  Hong Kong=4 [100.0%] Philippines=4 [100.0%] Indonesia=4 [100.0%] Saudi Arabia=2 [100.0%] Bangladesh=2 [100.0%] Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1043.7" cy="645.3" r="1.3" style="fill:#FFBBFF;" class="cv" />
+</g>
+<g class="Bangladesh">
+	<title>2020-12-15  A23403G  Philippines=4 [100.0%] Hong Kong=4 [100.0%] Saudi Arabia=2 [100.0%] Singapore=2 [100.0%] Bangladesh=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1043.7" cy="645.3" r="1.3" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-15  G23587T  Japan=23 [11.9%]  surface glycoprotein, Q675H</title>
@@ -22983,17 +22996,17 @@
 	<title>2020-12-15  G23593T  Japan=2 [1.0%] Saudi Arabia=2 [100.0%]  surface glycoprotein, Q677H</title>
 	<circle cx="1032.3" cy="605.2" r="1.3" style="fill:#F08080;" class="cv" />
 </g>
-<g class="Japan">
-	<title>2020-12-15  C23604A  Japan=2 [1.0%]  surface glycoprotein, P681H</title>
-	<circle cx="1031.7" cy="602.8" r="1.3" style="fill:cyan;" class="cv" />
+<g class="Indonesia">
+	<title>2020-12-15  C23604G  Indonesia=3 [60.0%]  surface glycoprotein, P681R</title>
+	<circle cx="1031.7" cy="602.8" r="1.7" style="fill:red;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-15  C23604T  Japan=2 [1.0%]  surface glycoprotein, P681L</title>
 	<circle cx="1031.7" cy="602.8" r="1.3" style="fill:cyan;" class="cv" />
 </g>
-<g class="Indonesia">
-	<title>2020-12-15  C23604G  Indonesia=2 [50.0%]  surface glycoprotein, P681R</title>
-	<circle cx="1031.7" cy="602.8" r="1.3" style="fill:red;" class="cv" />
+<g class="Japan">
+	<title>2020-12-15  C23604A  Japan=2 [1.0%]  surface glycoprotein, P681H</title>
+	<circle cx="1031.7" cy="602.8" r="1.3" style="fill:cyan;" class="cv" />
 </g>
 <g class="Malaysia">
 	<title>2020-12-15  C23664T  Malaysia=3 [50.0%]  surface glycoprotein, A701V</title>
@@ -23048,36 +23061,36 @@
 	<line x1="1196.3" y1="1185.9" x2="1194.3" y2="1178.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-16 South Korea=7</title>
-	<line x1="1194.3" y1="1178.2" x2="1193.2" y2="1174.2" style="stroke:white;" class="sb" />
+	<title>2020-12-16 South Korea=9</title>
+	<line x1="1194.3" y1="1178.2" x2="1193.1" y2="1173.8" style="stroke:white;" class="sb" />
 </g>
 <g class="Israel">
 	<title>2020-12-16 Israel=4</title>
-	<line x1="1193.2" y1="1174.2" x2="1192.4" y2="1171.2" style="stroke:orange;" class="sb" />
+	<line x1="1193.1" y1="1173.8" x2="1192.3" y2="1170.8" style="stroke:orange;" class="sb" />
 </g>
 <g class="HongKong">
 	<title>2020-12-16 Hong Kong=6</title>
-	<line x1="1192.4" y1="1171.2" x2="1191.5" y2="1167.5" style="stroke:lime;" class="sb" />
+	<line x1="1192.3" y1="1170.8" x2="1191.3" y2="1167.1" style="stroke:lime;" class="sb" />
 </g>
 <g class="Singapore">
 	<title>2020-12-16 Singapore=2</title>
-	<line x1="1191.5" y1="1167.5" x2="1190.9" y2="1165.5" style="stroke:#FFBBFF;" class="sb" />
+	<line x1="1191.3" y1="1167.1" x2="1190.8" y2="1165.0" style="stroke:#FFBBFF;" class="sb" />
 </g>
 <g class="Indonesia">
 	<title>2020-12-16 Indonesia=6</title>
-	<line x1="1190.9" y1="1165.5" x2="1189.9" y2="1161.8" style="stroke:red;" class="sb" />
+	<line x1="1190.8" y1="1165.0" x2="1189.8" y2="1161.4" style="stroke:red;" class="sb" />
 </g>
 <g class="Malaysia">
 	<title>2020-12-16 Malaysia=4</title>
-	<line x1="1189.9" y1="1161.8" x2="1189.1" y2="1158.7" style="stroke:#ADD8E6;" class="sb" />
+	<line x1="1189.8" y1="1161.4" x2="1189.0" y2="1158.3" style="stroke:#ADD8E6;" class="sb" />
 </g>
 <g class="SaudiArabia">
 	<title>2020-12-16 Saudi Arabia=2</title>
-	<line x1="1189.1" y1="1158.7" x2="1188.6" y2="1156.7" style="stroke:#F08080;" class="sb" />
+	<line x1="1189.0" y1="1158.3" x2="1188.5" y2="1156.2" style="stroke:#F08080;" class="sb" />
 </g>
 <g class="Philippines">
 	<title>2020-12-16 Philippines=6</title>
-	<line x1="1188.6" y1="1156.7" x2="1187.6" y2="1153.0" style="stroke:#cab2d6;" class="sb" />
+	<line x1="1188.5" y1="1156.2" x2="1187.5" y2="1152.6" style="stroke:#cab2d6;" class="sb" />
 </g>
 <g class="Philippines">
 	<title>2020-12-16  C21597T  Philippines=4 [66.7%]  surface glycoprotein, S12F</title>
@@ -23154,38 +23167,38 @@
 	<circle cx="1053.3" cy="642.7" r="4.9" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<circle cx="1053.3" cy="642.7" r="2.5" style="fill:white;" class="cv" />
+	<circle cx="1053.3" cy="642.7" r="2.8" style="fill:white;" class="cv" />
 </g>
 <g class="Philippines">
 	<circle cx="1053.3" cy="642.7" r="2.4" style="fill:#cab2d6;" class="cv" />
 </g>
-<g class="Indonesia">
-	<circle cx="1053.3" cy="642.7" r="2.4" style="fill:red;" class="cv" />
-</g>
 <g class="HongKong">
-	<title>2020-12-16  A23403G  South Korea=7 [100.0%] Philippines=6 [100.0%] Indonesia=6 [100.0%] Hong Kong=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1053.3" cy="642.7" r="2.4" style="fill:lime;" class="cv" />
 </g>
-<g class="Malaysia">
-	<circle cx="1053.3" cy="642.7" r="2.0" style="fill:#ADD8E6;" class="cv" />
+<g class="Indonesia">
+	<title>2020-12-16  A23403G  South Korea=9 [100.0%] Philippines=6 [100.0%] Hong Kong=6 [100.0%] Indonesia=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1053.3" cy="642.7" r="2.4" style="fill:red;" class="cv" />
 </g>
 <g class="Israel">
 	<circle cx="1053.3" cy="642.7" r="2.0" style="fill:orange;" class="cv" />
+</g>
+<g class="Malaysia">
+	<circle cx="1053.3" cy="642.7" r="2.0" style="fill:#ADD8E6;" class="cv" />
 </g>
 <g class="Singapore">
 	<circle cx="1053.3" cy="642.7" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="SaudiArabia">
-	<title>2020-12-16  A23403G  Malaysia=4 [100.0%] Israel=4 [100.0%] Singapore=2 [100.0%] Saudi Arabia=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-16  A23403G  Israel=4 [100.0%] Malaysia=4 [100.0%] Singapore=2 [100.0%] Saudi Arabia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1053.3" cy="642.7" r="1.3" style="fill:#F08080;" class="cv" />
-</g>
-<g class="Japan">
-	<title>2020-12-16  G23587T  Japan=10 [7.3%]  surface glycoprotein, Q675H</title>
-	<circle cx="1043.0" cy="603.6" r="2.9" style="fill:cyan;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-12-16  G23587C  India=3 [5.3%]  surface glycoprotein, Q675H</title>
 	<circle cx="1043.0" cy="603.6" r="1.7" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Japan">
+	<title>2020-12-16  G23587T  Japan=10 [7.3%]  surface glycoprotein, Q675H</title>
+	<circle cx="1043.0" cy="603.6" r="2.9" style="fill:cyan;" class="cv" />
 </g>
 <g class="India">
 	<circle cx="1042.7" cy="602.3" r="2.9" style="fill:fuchsia;" class="cv" />
@@ -23195,11 +23208,11 @@
 	<circle cx="1042.7" cy="602.3" r="2.8" style="fill:cyan;" class="cv" />
 </g>
 <g class="India">
-	<title>2020-12-16  C23604A  India=4 [7.0%]  surface glycoprotein, P681H</title>
+	<title>2020-12-16  C23604G  India=4 [7.0%]  surface glycoprotein, P681R</title>
 	<circle cx="1042.0" cy="600.0" r="2.0" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="India">
-	<title>2020-12-16  C23604G  India=4 [7.0%]  surface glycoprotein, P681R</title>
+	<title>2020-12-16  C23604A  India=4 [7.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1042.0" cy="600.0" r="2.0" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Indonesia">
@@ -23247,20 +23260,20 @@
 	<line x1="1190.9" y1="1162.9" x2="1190.2" y2="1159.8" style="stroke:#FFBBFF;" class="sb" />
 </g>
 <g class="Indonesia">
-	<title>2020-12-17 Indonesia=4</title>
-	<line x1="1190.2" y1="1159.8" x2="1189.4" y2="1156.8" style="stroke:red;" class="sb" />
+	<title>2020-12-17 Indonesia=5</title>
+	<line x1="1190.2" y1="1159.8" x2="1189.3" y2="1156.4" style="stroke:red;" class="sb" />
 </g>
 <g class="Malaysia">
 	<title>2020-12-17 Malaysia=15</title>
-	<line x1="1189.4" y1="1156.8" x2="1188.1" y2="1151.5" style="stroke:#ADD8E6;" class="sb" />
+	<line x1="1189.3" y1="1156.4" x2="1188.0" y2="1151.1" style="stroke:#ADD8E6;" class="sb" />
 </g>
 <g class="Thailand">
 	<title>2020-12-17 Thailand=3</title>
-	<line x1="1188.1" y1="1151.5" x2="1187.5" y2="1148.9" style="stroke:#CC00FF;" class="sb" />
+	<line x1="1188.0" y1="1151.1" x2="1187.4" y2="1148.5" style="stroke:#CC00FF;" class="sb" />
 </g>
 <g class="Philippines">
 	<title>2020-12-17 Philippines=8</title>
-	<line x1="1187.5" y1="1148.9" x2="1186.4" y2="1144.7" style="stroke:#cab2d6;" class="sb" />
+	<line x1="1187.4" y1="1148.5" x2="1186.4" y2="1144.3" style="stroke:#cab2d6;" class="sb" />
 </g>
 <g class="Thailand">
 	<title>2020-12-17  C21575T  Thailand=3 [100.0%]  surface glycoprotein, L5F</title>
@@ -23335,6 +23348,10 @@
 	<title>2020-12-17  C22329T  South Korea=4 [19.0%] Japan=2 [1.8%]  surface glycoprotein, S256L</title>
 	<circle cx="1119.0" cy="869.6" r="1.3" style="fill:cyan;" class="cv" />
 </g>
+<g class="Indonesia">
+	<title>2020-12-17  C22879A  Indonesia=2 [40.0%]  surface glycoprotein, N439K</title>
+	<circle cx="1090.2" cy="752.2" r="1.3" style="fill:red;" class="cv" />
+</g>
 <g class="India">
 	<title>2020-12-17  T22882G  India=3 [3.6%]  surface glycoprotein, N440K</title>
 	<circle cx="1090.1" cy="751.5" r="1.7" style="fill:fuchsia;" class="cv" />
@@ -23372,21 +23389,21 @@
 	<circle cx="1062.8" cy="640.3" r="2.7" style="fill:#cab2d6;" class="cv" />
 </g>
 <g class="Israel">
-	<title>2020-12-17  A23403G  Philippines=8 [100.0%] Israel=5 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1062.8" cy="640.3" r="2.2" style="fill:orange;" class="cv" />
+</g>
+<g class="Indonesia">
+	<title>2020-12-17  A23403G  Philippines=8 [100.0%] Israel=5 [100.0%] Indonesia=5 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1062.8" cy="640.3" r="2.2" style="fill:red;" class="cv" />
 </g>
 <g class="Singapore">
 	<circle cx="1062.8" cy="640.3" r="2.0" style="fill:#FFBBFF;" class="cv" />
 </g>
-<g class="Indonesia">
-	<circle cx="1062.8" cy="640.3" r="2.0" style="fill:red;" class="cv" />
-</g>
 <g class="Thailand">
-	<title>2020-12-17  A23403G  Singapore=4 [100.0%] Indonesia=4 [100.0%] Thailand=3 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-17  A23403G  Singapore=4 [100.0%] Thailand=3 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1062.8" cy="640.3" r="1.7" style="fill:#CC00FF;" class="cv" />
 </g>
 <g class="Indonesia">
-	<title>2020-12-17  C23453T  Indonesia=2 [50.0%]  surface glycoprotein, P631S</title>
+	<title>2020-12-17  C23453T  Indonesia=2 [40.0%]  surface glycoprotein, P631S</title>
 	<circle cx="1060.2" cy="629.6" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="India">
@@ -23453,32 +23470,32 @@
 	<line x1="1196.8" y1="1185.8" x2="1195.0" y2="1178.1" style="stroke:fuchsia;" class="sb" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-18 South Korea=3</title>
-	<line x1="1195.0" y1="1178.1" x2="1194.4" y2="1175.4" style="stroke:white;" class="sb" />
+	<title>2020-12-18 South Korea=7</title>
+	<line x1="1195.0" y1="1178.1" x2="1194.1" y2="1174.1" style="stroke:white;" class="sb" />
 </g>
 <g class="HongKong">
 	<title>2020-12-18 Hong Kong=18</title>
-	<line x1="1194.4" y1="1175.4" x2="1193.2" y2="1169.8" style="stroke:lime;" class="sb" />
+	<line x1="1194.1" y1="1174.1" x2="1192.9" y2="1168.5" style="stroke:lime;" class="sb" />
 </g>
 <g class="Singapore">
 	<title>2020-12-18 Singapore=2</title>
-	<line x1="1193.2" y1="1169.8" x2="1192.7" y2="1167.7" style="stroke:#FFBBFF;" class="sb" />
+	<line x1="1192.9" y1="1168.5" x2="1192.4" y2="1166.4" style="stroke:#FFBBFF;" class="sb" />
 </g>
 <g class="Indonesia">
 	<title>2020-12-18 Indonesia=7</title>
-	<line x1="1192.7" y1="1167.7" x2="1191.8" y2="1163.8" style="stroke:red;" class="sb" />
+	<line x1="1192.4" y1="1166.4" x2="1191.5" y2="1162.4" style="stroke:red;" class="sb" />
 </g>
 <g class="Malaysia">
 	<title>2020-12-18 Malaysia=3</title>
-	<line x1="1191.8" y1="1163.8" x2="1191.2" y2="1161.1" style="stroke:#ADD8E6;" class="sb" />
+	<line x1="1191.5" y1="1162.4" x2="1190.9" y2="1159.8" style="stroke:#ADD8E6;" class="sb" />
 </g>
 <g class="Philippines">
 	<title>2020-12-18 Philippines=8</title>
-	<line x1="1191.2" y1="1161.1" x2="1190.2" y2="1156.9" style="stroke:#cab2d6;" class="sb" />
+	<line x1="1190.9" y1="1159.8" x2="1189.9" y2="1155.6" style="stroke:#cab2d6;" class="sb" />
 </g>
 <g class="Kazakhstan">
 	<title>2020-12-18 Kazakhstan=2</title>
-	<line x1="1190.2" y1="1156.9" x2="1189.7" y2="1154.8" style="stroke:#d9d9d9;" class="sb" />
+	<line x1="1189.9" y1="1155.6" x2="1189.4" y2="1153.5" style="stroke:#d9d9d9;" class="sb" />
 </g>
 <g class="Japan">
 	<title>2020-12-18  C21575T  Japan=3 [2.3%]  surface glycoprotein, L5F</title>
@@ -23495,6 +23512,10 @@
 <g class="Japan">
 	<title>2020-12-18  C21707T  Japan=3 [2.3%]  surface glycoprotein, H49Y</title>
 	<circle cx="1154.9" cy="1001.5" r="1.7" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-12-18  G21718T  South Korea=4 [57.1%]  surface glycoprotein, Q52H</title>
+	<circle cx="1154.4" cy="999.2" r="2.0" style="fill:white;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-18  G21724T  Japan=3 [2.3%]  surface glycoprotein, L54F</title>
@@ -23540,6 +23561,10 @@
 	<title>2020-12-18  T22917A  India=3 [5.3%]  surface glycoprotein, L452Q</title>
 	<circle cx="1096.1" cy="742.2" r="1.7" style="fill:fuchsia;" class="cv" />
 </g>
+<g class="SouthKorea">
+	<title>2020-12-18  C23230A  South Korea=4 [57.1%]  surface glycoprotein, N556K</title>
+	<circle cx="1080.8" cy="675.1" r="2.0" style="fill:white;" class="cv" />
+</g>
 <g class="India">
 	<title>2020-12-18  A23235G  India=6 [10.5%]  surface glycoprotein, K558R</title>
 	<circle cx="1080.6" cy="674.0" r="2.4" style="fill:fuchsia;" class="cv" />
@@ -23563,12 +23588,12 @@
 <g class="Philippines">
 	<circle cx="1072.4" cy="638.0" r="2.7" style="fill:#cab2d6;" class="cv" />
 </g>
-<g class="Indonesia">
-	<title>2020-12-18  A23403G  Philippines=8 [100.0%] Indonesia=7 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1072.4" cy="638.0" r="2.5" style="fill:red;" class="cv" />
-</g>
 <g class="SouthKorea">
-	<circle cx="1072.4" cy="638.0" r="1.7" style="fill:white;" class="cv" />
+	<circle cx="1072.4" cy="638.0" r="2.5" style="fill:white;" class="cv" />
+</g>
+<g class="Indonesia">
+	<title>2020-12-18  A23403G  Philippines=8 [100.0%] South Korea=7 [100.0%] Indonesia=7 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1072.4" cy="638.0" r="2.5" style="fill:red;" class="cv" />
 </g>
 <g class="Malaysia">
 	<circle cx="1072.4" cy="638.0" r="1.7" style="fill:#ADD8E6;" class="cv" />
@@ -23577,7 +23602,7 @@
 	<circle cx="1072.4" cy="638.0" r="1.3" style="fill:#d9d9d9;" class="cv" />
 </g>
 <g class="Singapore">
-	<title>2020-12-18  A23403G  South Korea=3 [100.0%] Malaysia=3 [100.0%] Kazakhstan=2 [100.0%] Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-18  A23403G  Malaysia=3 [100.0%] Kazakhstan=2 [100.0%] Singapore=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1072.4" cy="638.0" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Japan">
@@ -23649,32 +23674,32 @@
 	<line x1="1197.1" y1="1186.2" x2="1195.4" y2="1178.2" style="stroke:fuchsia;" class="sb" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-19 South Korea=20</title>
-	<line x1="1195.4" y1="1178.2" x2="1194.2" y2="1172.3" style="stroke:white;" class="sb" />
+	<title>2020-12-19 South Korea=25</title>
+	<line x1="1195.4" y1="1178.2" x2="1194.1" y2="1171.9" style="stroke:white;" class="sb" />
 </g>
 <g class="HongKong">
 	<title>2020-12-19 Hong Kong=15</title>
-	<line x1="1194.2" y1="1172.3" x2="1193.1" y2="1167.0" style="stroke:lime;" class="sb" />
+	<line x1="1194.1" y1="1171.9" x2="1193.0" y2="1166.6" style="stroke:lime;" class="sb" />
 </g>
 <g class="Indonesia">
 	<title>2020-12-19 Indonesia=3</title>
-	<line x1="1193.1" y1="1167.0" x2="1192.6" y2="1164.4" style="stroke:red;" class="sb" />
+	<line x1="1193.0" y1="1166.6" x2="1192.5" y2="1164.0" style="stroke:red;" class="sb" />
 </g>
 <g class="Bangladesh">
 	<title>2020-12-19 Bangladesh=4</title>
-	<line x1="1192.6" y1="1164.4" x2="1191.9" y2="1161.3" style="stroke:#FFD700;" class="sb" />
+	<line x1="1192.5" y1="1164.0" x2="1191.8" y2="1160.9" style="stroke:#FFD700;" class="sb" />
 </g>
 <g class="Thailand">
 	<title>2020-12-19 Thailand=48</title>
-	<line x1="1191.9" y1="1161.3" x2="1190.4" y2="1153.8" style="stroke:#CC00FF;" class="sb" />
+	<line x1="1191.8" y1="1160.9" x2="1190.3" y2="1153.4" style="stroke:#CC00FF;" class="sb" />
 </g>
 <g class="Philippines">
 	<title>2020-12-19 Philippines=7</title>
-	<line x1="1190.4" y1="1153.8" x2="1189.5" y2="1149.9" style="stroke:#cab2d6;" class="sb" />
+	<line x1="1190.3" y1="1153.4" x2="1189.4" y2="1149.5" style="stroke:#cab2d6;" class="sb" />
 </g>
 <g class="Taiwan">
 	<title>2020-12-19 Taiwan=2</title>
-	<line x1="1189.5" y1="1149.9" x2="1189.1" y2="1147.8" style="stroke:#80b1d3;" class="sb" />
+	<line x1="1189.4" y1="1149.5" x2="1189.0" y2="1147.4" style="stroke:#80b1d3;" class="sb" />
 </g>
 <g class="Japan">
 	<circle cx="1164.3" cy="1029.2" r="1.3" style="fill:cyan;" class="cv" />
@@ -23697,6 +23722,10 @@
 <g class="Taiwan">
 	<title>2020-12-19  C21614T  India=2 [3.1%] Taiwan=2 [100.0%]  surface glycoprotein, L18F</title>
 	<circle cx="1162.6" cy="1020.8" r="1.3" style="fill:#80b1d3;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-12-19  G21718T  South Korea=5 [20.0%]  surface glycoprotein, Q52H</title>
+	<circle cx="1157.9" cy="998.4" r="2.2" style="fill:white;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-19  G21724T  Japan=3 [2.8%]  surface glycoprotein, L54F</title>
@@ -23769,6 +23798,10 @@
 	<title>2020-12-19  A23063T  Japan=3 [2.8%] India=2 [3.1%]  surface glycoprotein, N501Y</title>
 	<circle cx="1097.4" cy="709.1" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
+<g class="SouthKorea">
+	<title>2020-12-19  C23230A  South Korea=5 [20.0%]  surface glycoprotein, N556K</title>
+	<circle cx="1089.9" cy="673.1" r="2.2" style="fill:white;" class="cv" />
+</g>
 <g class="Japan">
 	<circle cx="1088.1" cy="664.3" r="1.3" style="fill:cyan;" class="cv" />
 </g>
@@ -23788,10 +23821,10 @@
 	<circle cx="1082.2" cy="635.9" r="4.7" style="fill:#CC00FF;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<circle cx="1082.2" cy="635.9" r="3.7" style="fill:white;" class="cv" />
+	<circle cx="1082.2" cy="635.9" r="4.0" style="fill:white;" class="cv" />
 </g>
 <g class="HongKong">
-	<title>2020-12-19  A23403G  South Korea=20 [100.0%] Hong Kong=15 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-19  A23403G  South Korea=25 [100.0%] Hong Kong=15 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1082.2" cy="635.9" r="3.4" style="fill:lime;" class="cv" />
 </g>
 <g class="Philippines">
@@ -23824,16 +23857,16 @@
 	<title>2020-12-19  G23593T  India=8 [12.3%] Japan=5 [4.7%]  surface glycoprotein, Q677H</title>
 	<circle cx="1073.6" cy="595.0" r="2.2" style="fill:cyan;" class="cv" />
 </g>
-<g class="Japan">
-	<title>2020-12-19  C23604T  Japan=2 [1.9%]  surface glycoprotein, P681L</title>
-	<circle cx="1073.1" cy="592.7" r="1.3" style="fill:cyan;" class="cv" />
-</g>
 <g class="India">
 	<circle cx="1073.1" cy="592.7" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Bangladesh">
 	<title>2020-12-19  C23604G  India=2 [3.1%] Bangladesh=2 [50.0%]  surface glycoprotein, P681R</title>
 	<circle cx="1073.1" cy="592.7" r="1.3" style="fill:#FFD700;" class="cv" />
+</g>
+<g class="Japan">
+	<title>2020-12-19  C23604T  Japan=2 [1.9%]  surface glycoprotein, P681L</title>
+	<circle cx="1073.1" cy="592.7" r="1.3" style="fill:cyan;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-12-19  C23604A  India=5 [7.7%]  surface glycoprotein, P681H</title>
@@ -23866,11 +23899,11 @@
 	<circle cx="1067.4" cy="565.1" r="1.3" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-19  A23756G  South Korea=2 [10.0%]  surface glycoprotein, T732A</title>
+	<title>2020-12-19  A23756G  South Korea=2 [8.0%]  surface glycoprotein, T732A</title>
 	<circle cx="1066.3" cy="560.0" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-19  G24348T  South Korea=2 [10.0%]  surface glycoprotein, S929I</title>
+	<title>2020-12-19  G24348T  South Korea=2 [8.0%]  surface glycoprotein, S929I</title>
 	<circle cx="1039.7" cy="432.6" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="Japan">
@@ -23900,28 +23933,28 @@
 	<line x1="1197.4" y1="1186.6" x2="1196.1" y2="1179.6" style="stroke:fuchsia;" class="sb" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-20 South Korea=9</title>
-	<line x1="1196.1" y1="1179.6" x2="1195.3" y2="1175.2" style="stroke:white;" class="sb" />
+	<title>2020-12-20 South Korea=11</title>
+	<line x1="1196.1" y1="1179.6" x2="1195.2" y2="1174.8" style="stroke:white;" class="sb" />
 </g>
 <g class="Israel">
 	<title>2020-12-20 Israel=2</title>
-	<line x1="1195.3" y1="1175.2" x2="1194.9" y2="1173.1" style="stroke:orange;" class="sb" />
+	<line x1="1195.2" y1="1174.8" x2="1194.8" y2="1172.7" style="stroke:orange;" class="sb" />
 </g>
 <g class="HongKong">
 	<title>2020-12-20 Hong Kong=15</title>
-	<line x1="1194.9" y1="1173.1" x2="1193.8" y2="1167.7" style="stroke:lime;" class="sb" />
+	<line x1="1194.8" y1="1172.7" x2="1193.8" y2="1167.4" style="stroke:lime;" class="sb" />
 </g>
 <g class="Malaysia">
 	<title>2020-12-20 Malaysia=2</title>
-	<line x1="1193.8" y1="1167.7" x2="1193.4" y2="1165.6" style="stroke:#ADD8E6;" class="sb" />
+	<line x1="1193.8" y1="1167.4" x2="1193.4" y2="1165.3" style="stroke:#ADD8E6;" class="sb" />
 </g>
 <g class="Turkey">
 	<title>2020-12-20 Turkey=16</title>
-	<line x1="1193.4" y1="1165.6" x2="1192.4" y2="1160.2" style="stroke:#b2df8a;" class="sb" />
+	<line x1="1193.4" y1="1165.3" x2="1192.3" y2="1159.8" style="stroke:#b2df8a;" class="sb" />
 </g>
 <g class="Thailand">
 	<title>2020-12-20 Thailand=4</title>
-	<line x1="1192.4" y1="1160.2" x2="1191.8" y2="1157.1" style="stroke:#CC00FF;" class="sb" />
+	<line x1="1192.3" y1="1159.8" x2="1191.7" y2="1156.8" style="stroke:#CC00FF;" class="sb" />
 </g>
 <g class="India">
 	<title>2020-12-20  A21630G  India=3 [7.9%]  surface glycoprotein, Q23R</title>
@@ -23930,6 +23963,10 @@
 <g class="Japan">
 	<title>2020-12-20  C21707T  Japan=5 [6.2%]  surface glycoprotein, H49Y</title>
 	<circle cx="1161.8" cy="1000.1" r="2.2" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-12-20  G21718T  South Korea=3 [27.3%]  surface glycoprotein, Q52H</title>
+	<circle cx="1161.3" cy="997.7" r="1.7" style="fill:white;" class="cv" />
 </g>
 <g class="Israel">
 	<title>2020-12-20  ATTA21993A  Israel=2 [100.0%]  surface glycoprotein, Y145H/del</title>
@@ -23955,6 +23992,10 @@
 	<title>2020-12-20  A23063T  Israel=2 [100.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1105.8" cy="707.4" r="1.3" style="fill:orange;" class="cv" />
 </g>
+<g class="SouthKorea">
+	<title>2020-12-20  C23230A  South Korea=3 [27.3%]  surface glycoprotein, N556K</title>
+	<circle cx="1099.0" cy="671.3" r="1.7" style="fill:white;" class="cv" />
+</g>
 <g class="Israel">
 	<title>2020-12-20  C23271A  Israel=2 [100.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1097.3" cy="662.5" r="1.3" style="fill:orange;" class="cv" />
@@ -23971,12 +24012,11 @@
 	<circle cx="1091.8" cy="634.0" r="3.4" style="fill:#b2df8a;" class="cv" />
 </g>
 <g class="HongKong">
-	<title>2020-12-20  A23403G  Turkey=16 [100.0%] Hong Kong=15 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1091.8" cy="634.0" r="3.4" style="fill:lime;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-20  A23403G  South Korea=9 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1091.8" cy="634.0" r="2.8" style="fill:white;" class="cv" />
+	<title>2020-12-20  A23403G  Turkey=16 [100.0%] Hong Kong=15 [100.0%] South Korea=11 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1091.8" cy="634.0" r="3.0" style="fill:white;" class="cv" />
 </g>
 <g class="Thailand">
 	<circle cx="1091.8" cy="634.0" r="2.0" style="fill:#CC00FF;" class="cv" />
@@ -24052,20 +24092,20 @@
 	<line x1="1194.1" y1="1165.9" x2="1193.4" y2="1162.1" style="stroke:#FFBBFF;" class="sb" />
 </g>
 <g class="Indonesia">
-	<title>2020-12-21 Indonesia=5</title>
-	<line x1="1193.4" y1="1162.1" x2="1192.8" y2="1158.7" style="stroke:red;" class="sb" />
+	<title>2020-12-21 Indonesia=8</title>
+	<line x1="1193.4" y1="1162.1" x2="1192.7" y2="1157.9" style="stroke:red;" class="sb" />
 </g>
 <g class="Turkey">
 	<title>2020-12-21 Turkey=30</title>
-	<line x1="1192.8" y1="1158.7" x2="1191.7" y2="1152.0" style="stroke:#b2df8a;" class="sb" />
+	<line x1="1192.7" y1="1157.9" x2="1191.5" y2="1151.3" style="stroke:#b2df8a;" class="sb" />
 </g>
 <g class="Thailand">
 	<title>2020-12-21 Thailand=3</title>
-	<line x1="1191.7" y1="1152.0" x2="1191.2" y2="1149.4" style="stroke:#CC00FF;" class="sb" />
+	<line x1="1191.5" y1="1151.3" x2="1191.1" y2="1148.6" style="stroke:#CC00FF;" class="sb" />
 </g>
 <g class="Philippines">
 	<title>2020-12-21 Philippines=4</title>
-	<line x1="1191.2" y1="1149.4" x2="1190.7" y2="1146.3" style="stroke:#cab2d6;" class="sb" />
+	<line x1="1191.1" y1="1148.6" x2="1190.5" y2="1145.5" style="stroke:#cab2d6;" class="sb" />
 </g>
 <g class="India">
 	<circle cx="1169.4" cy="1023.3" r="1.7" style="fill:fuchsia;" class="cv" />
@@ -24191,12 +24231,12 @@
 	<title>2020-12-21  A23403G  Hong Kong=18 [100.0%] South Korea=14 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1101.5" cy="632.2" r="3.3" style="fill:white;" class="cv" />
 </g>
-<g class="Singapore">
-	<circle cx="1101.5" cy="632.2" r="2.4" style="fill:#FFBBFF;" class="cv" />
-</g>
 <g class="Indonesia">
-	<title>2020-12-21  A23403G  Singapore=6 [100.0%] Indonesia=5 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1101.5" cy="632.2" r="2.2" style="fill:red;" class="cv" />
+	<circle cx="1101.5" cy="632.2" r="2.7" style="fill:red;" class="cv" />
+</g>
+<g class="Singapore">
+	<title>2020-12-21  A23403G  Indonesia=8 [100.0%] Singapore=6 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1101.5" cy="632.2" r="2.4" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Philippines">
 	<circle cx="1101.5" cy="632.2" r="2.0" style="fill:#cab2d6;" class="cv" />
@@ -24308,36 +24348,36 @@
 	<line x1="1197.7" y1="1185.2" x2="1196.3" y2="1175.9" style="stroke:fuchsia;" class="sb" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-22 South Korea=6</title>
-	<line x1="1196.3" y1="1175.9" x2="1195.7" y2="1172.2" style="stroke:white;" class="sb" />
+	<title>2020-12-22 South Korea=7</title>
+	<line x1="1196.3" y1="1175.9" x2="1195.6" y2="1171.9" style="stroke:white;" class="sb" />
 </g>
 <g class="HongKong">
 	<title>2020-12-22 Hong Kong=19</title>
-	<line x1="1195.7" y1="1172.2" x2="1194.8" y2="1166.4" style="stroke:lime;" class="sb" />
+	<line x1="1195.6" y1="1171.9" x2="1194.7" y2="1166.1" style="stroke:lime;" class="sb" />
 </g>
 <g class="Singapore">
 	<title>2020-12-22 Singapore=6</title>
-	<line x1="1194.8" y1="1166.4" x2="1194.2" y2="1162.6" style="stroke:#FFBBFF;" class="sb" />
+	<line x1="1194.7" y1="1166.1" x2="1194.1" y2="1162.4" style="stroke:#FFBBFF;" class="sb" />
 </g>
 <g class="Indonesia">
-	<title>2020-12-22 Indonesia=4</title>
-	<line x1="1194.2" y1="1162.6" x2="1193.7" y2="1159.5" style="stroke:red;" class="sb" />
+	<title>2020-12-22 Indonesia=5</title>
+	<line x1="1194.1" y1="1162.4" x2="1193.6" y2="1158.9" style="stroke:red;" class="sb" />
 </g>
 <g class="Qatar">
 	<title>2020-12-22 Qatar=4</title>
-	<line x1="1193.7" y1="1159.5" x2="1193.2" y2="1156.4" style="stroke:#7FFFD4;" class="sb" />
+	<line x1="1193.6" y1="1158.9" x2="1193.1" y2="1155.8" style="stroke:#7FFFD4;" class="sb" />
 </g>
 <g class="Bangladesh">
 	<title>2020-12-22 Bangladesh=8</title>
-	<line x1="1193.2" y1="1156.4" x2="1192.6" y2="1152.2" style="stroke:#FFD700;" class="sb" />
+	<line x1="1193.1" y1="1155.8" x2="1192.5" y2="1151.5" style="stroke:#FFD700;" class="sb" />
 </g>
 <g class="Philippines">
 	<title>2020-12-22 Philippines=6</title>
-	<line x1="1192.6" y1="1152.2" x2="1192.0" y2="1148.4" style="stroke:#cab2d6;" class="sb" />
+	<line x1="1192.5" y1="1151.5" x2="1191.9" y2="1147.8" style="stroke:#cab2d6;" class="sb" />
 </g>
 <g class="Kazakhstan">
 	<title>2020-12-22 Kazakhstan=2</title>
-	<line x1="1192.0" y1="1148.4" x2="1191.6" y2="1146.3" style="stroke:#d9d9d9;" class="sb" />
+	<line x1="1191.9" y1="1147.8" x2="1191.5" y2="1145.7" style="stroke:#d9d9d9;" class="sb" />
 </g>
 <g class="India">
 	<title>2020-12-22  C21575T  India=2 [1.6%]  surface glycoprotein, L5F</title>
@@ -24346,6 +24386,10 @@
 <g class="Philippines">
 	<title>2020-12-22  C21597T  Philippines=3 [50.0%]  surface glycoprotein, S12F</title>
 	<circle cx="1172.4" cy="1022.8" r="1.7" style="fill:#cab2d6;" class="cv" />
+</g>
+<g class="Indonesia">
+	<title>2020-12-22  C21614T  Indonesia=2 [40.0%]  surface glycoprotein, L18F</title>
+	<circle cx="1171.8" cy="1019.1" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-12-22  A21630G  India=11 [9.0%]  surface glycoprotein, Q23R</title>
@@ -24473,33 +24517,33 @@
 <g class="Bangladesh">
 	<circle cx="1111.3" cy="630.6" r="2.7" style="fill:#FFD700;" class="cv" />
 </g>
+<g class="SouthKorea">
+	<circle cx="1111.3" cy="630.6" r="2.5" style="fill:white;" class="cv" />
+</g>
+<g class="Philippines">
+	<circle cx="1111.3" cy="630.6" r="2.4" style="fill:#cab2d6;" class="cv" />
+</g>
 <g class="Singapore">
 	<circle cx="1111.3" cy="630.6" r="2.4" style="fill:#FFBBFF;" class="cv" />
 </g>
-<g class="SouthKorea">
-	<circle cx="1111.3" cy="630.6" r="2.4" style="fill:white;" class="cv" />
-</g>
-<g class="Philippines">
-	<title>2020-12-22  A23403G  Bangladesh=8 [100.0%] Singapore=6 [100.0%] South Korea=6 [100.0%] Philippines=6 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1111.3" cy="630.6" r="2.4" style="fill:#cab2d6;" class="cv" />
-</g>
 <g class="Indonesia">
-	<circle cx="1111.3" cy="630.6" r="2.0" style="fill:red;" class="cv" />
+	<title>2020-12-22  A23403G  Bangladesh=8 [100.0%] South Korea=7 [100.0%] Philippines=6 [100.0%] Singapore=6 [100.0%] Indonesia=5 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1111.3" cy="630.6" r="2.2" style="fill:red;" class="cv" />
 </g>
 <g class="Qatar">
 	<circle cx="1111.3" cy="630.6" r="2.0" style="fill:#7FFFD4;" class="cv" />
 </g>
 <g class="Kazakhstan">
-	<title>2020-12-22  A23403G  Indonesia=4 [100.0%] Qatar=4 [100.0%] Kazakhstan=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-22  A23403G  Qatar=4 [100.0%] Kazakhstan=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1111.3" cy="630.6" r="1.3" style="fill:#d9d9d9;" class="cv" />
-</g>
-<g class="India">
-	<title>2020-12-22  G23587C  India=6 [4.9%]  surface glycoprotein, Q675H</title>
-	<circle cx="1105.1" cy="590.6" r="2.4" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-22  G23587T  Japan=29 [17.8%]  surface glycoprotein, Q675H</title>
 	<circle cx="1105.1" cy="590.6" r="4.1" style="fill:cyan;" class="cv" />
+</g>
+<g class="India">
+	<title>2020-12-22  G23587C  India=6 [4.9%]  surface glycoprotein, Q675H</title>
+	<circle cx="1105.1" cy="590.6" r="2.4" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-12-22  A23592G  India=3 [2.5%]  surface glycoprotein, Q677R</title>
@@ -24520,6 +24564,10 @@
 <g class="India">
 	<title>2020-12-22  C23604A  India=11 [9.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1104.5" cy="586.9" r="3.0" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Indonesia">
+	<title>2020-12-22  T23629G  Indonesia=2 [40.0%]  surface glycoprotein, S689R</title>
+	<circle cx="1103.7" cy="581.5" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-12-22  C23709T  India=4 [3.3%]  surface glycoprotein, T716I</title>
@@ -24725,12 +24773,12 @@
 	<circle cx="1115.2" cy="586.5" r="1.7" style="fill:red;" class="cv" />
 </g>
 <g class="India">
-	<title>2020-12-23  C23604A  India=12 [20.3%]  surface glycoprotein, P681H</title>
-	<circle cx="1115.0" cy="585.4" r="3.1" style="fill:fuchsia;" class="cv" />
-</g>
-<g class="India">
 	<title>2020-12-23  C23604G  India=2 [3.4%]  surface glycoprotein, P681R</title>
 	<circle cx="1115.0" cy="585.4" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="India">
+	<title>2020-12-23  C23604A  India=12 [20.3%]  surface glycoprotein, P681H</title>
+	<circle cx="1115.0" cy="585.4" r="3.1" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="Indonesia">
 	<title>2020-12-23  T23629G  Indonesia=3 [20.0%]  surface glycoprotein, S689R</title>
@@ -24789,44 +24837,44 @@
 	<line x1="1198.2" y1="1185.0" x2="1197.3" y2="1178.0" style="stroke:fuchsia;" class="sb" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-24 South Korea=28</title>
-	<line x1="1197.3" y1="1178.0" x2="1196.5" y2="1171.4" style="stroke:white;" class="sb" />
+	<title>2020-12-24 South Korea=30</title>
+	<line x1="1197.3" y1="1178.0" x2="1196.5" y2="1171.3" style="stroke:white;" class="sb" />
 </g>
 <g class="Israel">
 	<title>2020-12-24 Israel=163</title>
-	<line x1="1196.5" y1="1171.4" x2="1195.4" y2="1161.5" style="stroke:orange;" class="sb" />
+	<line x1="1196.5" y1="1171.3" x2="1195.3" y2="1161.4" style="stroke:orange;" class="sb" />
 </g>
 <g class="HongKong">
 	<title>2020-12-24 Hong Kong=20</title>
-	<line x1="1195.4" y1="1161.5" x2="1194.6" y2="1155.6" style="stroke:lime;" class="sb" />
+	<line x1="1195.3" y1="1161.4" x2="1194.6" y2="1155.5" style="stroke:lime;" class="sb" />
 </g>
 <g class="Singapore">
 	<title>2020-12-24 Singapore=4</title>
-	<line x1="1194.6" y1="1155.6" x2="1194.3" y2="1152.5" style="stroke:#FFBBFF;" class="sb" />
+	<line x1="1194.6" y1="1155.5" x2="1194.2" y2="1152.4" style="stroke:#FFBBFF;" class="sb" />
 </g>
 <g class="Indonesia">
-	<title>2020-12-24 Indonesia=2</title>
-	<line x1="1194.3" y1="1152.5" x2="1194.0" y2="1150.4" style="stroke:red;" class="sb" />
+	<title>2020-12-24 Indonesia=4</title>
+	<line x1="1194.2" y1="1152.4" x2="1193.9" y2="1149.3" style="stroke:red;" class="sb" />
 </g>
 <g class="Bangladesh">
 	<title>2020-12-24 Bangladesh=7</title>
-	<line x1="1194.0" y1="1150.4" x2="1193.5" y2="1146.3" style="stroke:#FFD700;" class="sb" />
+	<line x1="1193.9" y1="1149.3" x2="1193.4" y2="1145.2" style="stroke:#FFD700;" class="sb" />
 </g>
 <g class="Malaysia">
 	<title>2020-12-24 Malaysia=7</title>
-	<line x1="1193.5" y1="1146.3" x2="1193.0" y2="1142.3" style="stroke:#ADD8E6;" class="sb" />
+	<line x1="1193.4" y1="1145.2" x2="1192.9" y2="1141.2" style="stroke:#ADD8E6;" class="sb" />
 </g>
 <g class="Turkey">
 	<title>2020-12-24 Turkey=2</title>
-	<line x1="1193.0" y1="1142.3" x2="1192.8" y2="1140.2" style="stroke:#b2df8a;" class="sb" />
+	<line x1="1192.9" y1="1141.2" x2="1192.6" y2="1139.1" style="stroke:#b2df8a;" class="sb" />
 </g>
 <g class="Thailand">
 	<title>2020-12-24 Thailand=10</title>
-	<line x1="1192.8" y1="1140.2" x2="1192.2" y2="1135.5" style="stroke:#CC00FF;" class="sb" />
+	<line x1="1192.6" y1="1139.1" x2="1192.1" y2="1134.4" style="stroke:#CC00FF;" class="sb" />
 </g>
 <g class="Philippines">
 	<title>2020-12-24 Philippines=5</title>
-	<line x1="1192.2" y1="1135.5" x2="1191.8" y2="1132.0" style="stroke:#cab2d6;" class="sb" />
+	<line x1="1192.1" y1="1134.4" x2="1191.7" y2="1130.9" style="stroke:#cab2d6;" class="sb" />
 </g>
 <g class="Israel">
 	<title>2020-12-24  C21575T  Israel=49 [30.1%]  surface glycoprotein, L5F</title>
@@ -24866,6 +24914,10 @@
 <g class="Japan">
 	<title>2020-12-24  C21707T  Japan=2 [1.2%]  surface glycoprotein, H49Y</title>
 	<circle cx="1175.6" cy="998.0" r="1.3" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-12-24  G21718T  South Korea=2 [6.7%]  surface glycoprotein, Q52H</title>
+	<circle cx="1175.3" cy="995.6" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-24  G21724T  Japan=4 [2.3%]  surface glycoprotein, L54F</title>
@@ -24987,6 +25039,10 @@
 	<title>2020-12-24  G23120T  Israel=2 [1.2%]  surface glycoprotein, A520S</title>
 	<circle cx="1138.3" cy="689.6" r="1.3" style="fill:orange;" class="cv" />
 </g>
+<g class="SouthKorea">
+	<title>2020-12-24  C23230A  South Korea=2 [6.7%]  surface glycoprotein, N556K</title>
+	<circle cx="1135.4" cy="665.6" r="1.3" style="fill:white;" class="cv" />
+</g>
 <g class="Israel">
 	<title>2020-12-24  C23271A  Israel=48 [29.4%]  surface glycoprotein, A570D</title>
 	<circle cx="1134.3" cy="656.7" r="4.7" style="fill:orange;" class="cv" />
@@ -25010,8 +25066,8 @@
 	<circle cx="1130.9" cy="627.9" r="4.4" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-24  A23403G  India=37 [100.0%] South Korea=28 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1130.9" cy="627.9" r="4.1" style="fill:white;" class="cv" />
+	<title>2020-12-24  A23403G  India=37 [100.0%] South Korea=30 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1130.9" cy="627.9" r="4.2" style="fill:white;" class="cv" />
 </g>
 <g class="HongKong">
 	<title>2020-12-24  A23403G  Hong Kong=20 [100.0%]  surface glycoprotein, D614G</title>
@@ -25034,10 +25090,10 @@
 	<circle cx="1130.9" cy="627.9" r="2.0" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Indonesia">
-	<circle cx="1130.9" cy="627.9" r="1.3" style="fill:red;" class="cv" />
+	<circle cx="1130.9" cy="627.9" r="2.0" style="fill:red;" class="cv" />
 </g>
 <g class="Turkey">
-	<title>2020-12-24  A23403G  Singapore=4 [100.0%] Indonesia=2 [100.0%] Turkey=2 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-24  A23403G  Singapore=4 [100.0%] Indonesia=4 [100.0%] Turkey=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1130.9" cy="627.9" r="1.3" style="fill:#b2df8a;" class="cv" />
 </g>
 <g class="Japan">
@@ -25105,7 +25161,7 @@
 	<circle cx="1111.7" cy="469.5" r="1.3" style="fill:orange;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-24  G24348T  South Korea=2 [7.1%]  surface glycoprotein, S929I</title>
+	<title>2020-12-24  G24348T  South Korea=2 [6.7%]  surface glycoprotein, S929I</title>
 	<circle cx="1106.0" cy="421.7" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="Israel">
@@ -25161,20 +25217,20 @@
 	<line x1="1198.5" y1="1185.2" x2="1197.7" y2="1178.1" style="stroke:fuchsia;" class="sb" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-25 South Korea=10</title>
-	<line x1="1197.7" y1="1178.1" x2="1197.3" y2="1173.5" style="stroke:white;" class="sb" />
+	<title>2020-12-25 South Korea=12</title>
+	<line x1="1197.7" y1="1178.1" x2="1197.2" y2="1173.2" style="stroke:white;" class="sb" />
 </g>
 <g class="HongKong">
 	<title>2020-12-25 Hong Kong=10</title>
-	<line x1="1197.3" y1="1173.5" x2="1196.8" y2="1168.8" style="stroke:lime;" class="sb" />
+	<line x1="1197.2" y1="1173.2" x2="1196.7" y2="1168.5" style="stroke:lime;" class="sb" />
 </g>
 <g class="Turkey">
 	<title>2020-12-25 Turkey=2</title>
-	<line x1="1196.8" y1="1168.8" x2="1196.6" y2="1166.7" style="stroke:#b2df8a;" class="sb" />
+	<line x1="1196.7" y1="1168.5" x2="1196.5" y2="1166.4" style="stroke:#b2df8a;" class="sb" />
 </g>
 <g class="Philippines">
 	<title>2020-12-25 Philippines=3</title>
-	<line x1="1196.6" y1="1166.7" x2="1196.3" y2="1164.0" style="stroke:#cab2d6;" class="sb" />
+	<line x1="1196.5" y1="1166.4" x2="1196.2" y2="1163.7" style="stroke:#cab2d6;" class="sb" />
 </g>
 <g class="India">
 	<title>2020-12-25  C21614T  India=4 [10.8%]  surface glycoprotein, L18F</title>
@@ -25187,6 +25243,10 @@
 <g class="Japan">
 	<title>2020-12-25  C21707T  Japan=3 [1.9%]  surface glycoprotein, H49Y</title>
 	<circle cx="1179.1" cy="997.6" r="1.7" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-12-25  G21718T  South Korea=2 [16.7%]  surface glycoprotein, Q52H</title>
+	<circle cx="1178.8" cy="995.2" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-25  G21724T  Japan=3 [1.9%]  surface glycoprotein, L54F</title>
@@ -25248,6 +25308,10 @@
 	<title>2020-12-25  A23063T  India=4 [10.8%]  surface glycoprotein, N501Y</title>
 	<circle cx="1148.4" cy="701.1" r="2.0" style="fill:fuchsia;" class="cv" />
 </g>
+<g class="SouthKorea">
+	<title>2020-12-25  C23230A  South Korea=2 [16.7%]  surface glycoprotein, N556K</title>
+	<circle cx="1144.7" cy="664.6" r="1.3" style="fill:white;" class="cv" />
+</g>
 <g class="India">
 	<title>2020-12-25  C23271A  India=4 [10.8%]  surface glycoprotein, A570D</title>
 	<circle cx="1143.7" cy="655.6" r="2.0" style="fill:fuchsia;" class="cv" />
@@ -25260,12 +25324,13 @@
 	<title>2020-12-25  A23403G  India=37 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1140.8" cy="626.8" r="4.4" style="fill:fuchsia;" class="cv" />
 </g>
-<g class="HongKong">
-	<circle cx="1140.8" cy="626.8" r="2.9" style="fill:lime;" class="cv" />
-</g>
 <g class="SouthKorea">
-	<title>2020-12-25  A23403G  Hong Kong=10 [100.0%] South Korea=9 [90.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1140.8" cy="626.8" r="2.8" style="fill:white;" class="cv" />
+	<title>2020-12-25  A23403G  South Korea=11 [91.7%]  surface glycoprotein, D614G</title>
+	<circle cx="1140.8" cy="626.8" r="3.0" style="fill:white;" class="cv" />
+</g>
+<g class="HongKong">
+	<title>2020-12-25  A23403G  Hong Kong=10 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1140.8" cy="626.8" r="2.9" style="fill:lime;" class="cv" />
 </g>
 <g class="Philippines">
 	<circle cx="1140.8" cy="626.8" r="1.7" style="fill:#cab2d6;" class="cv" />
@@ -25326,6 +25391,10 @@
 	<title>2020-12-25  T25316G  Japan=2 [1.3%]  surface glycoprotein, S1252A</title>
 	<circle cx="1097.5" cy="208.6" r="1.3" style="fill:cyan;" class="cv" />
 </g>
+<g class="SouthKorea">
+	<title>2020-12-25  C25317T  South Korea=2 [16.7%]  surface glycoprotein, S1252F</title>
+	<circle cx="1097.5" cy="208.4" r="1.3" style="fill:white;" class="cv" />
+</g>
 <g class="India">
 	<title>2020-12-25  G25337T  India=2 [5.4%]  surface glycoprotein, D1259Y</title>
 	<circle cx="1097.1" cy="204.0" r="1.3" style="fill:fuchsia;" class="cv" />
@@ -25339,32 +25408,32 @@
 	<line x1="1198.8" y1="1185.5" x2="1198.2" y2="1178.7" style="stroke:fuchsia;" class="sb" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-26 South Korea=8</title>
-	<line x1="1198.2" y1="1178.7" x2="1197.8" y2="1174.4" style="stroke:white;" class="sb" />
+	<title>2020-12-26 South Korea=10</title>
+	<line x1="1198.2" y1="1178.7" x2="1197.8" y2="1174.0" style="stroke:white;" class="sb" />
 </g>
 <g class="UnitedArabEmirates">
 	<title>2020-12-26 United Arab Emirates=14</title>
-	<line x1="1197.8" y1="1174.4" x2="1197.3" y2="1169.1" style="stroke:yellow;" class="sb" />
+	<line x1="1197.8" y1="1174.0" x2="1197.3" y2="1168.7" style="stroke:yellow;" class="sb" />
 </g>
 <g class="HongKong">
 	<title>2020-12-26 Hong Kong=10</title>
-	<line x1="1197.3" y1="1169.1" x2="1196.9" y2="1164.4" style="stroke:lime;" class="sb" />
+	<line x1="1197.3" y1="1168.7" x2="1196.9" y2="1164.0" style="stroke:lime;" class="sb" />
 </g>
 <g class="Singapore">
 	<title>2020-12-26 Singapore=2</title>
-	<line x1="1196.9" y1="1164.4" x2="1196.8" y2="1162.3" style="stroke:#FFBBFF;" class="sb" />
+	<line x1="1196.9" y1="1164.0" x2="1196.7" y2="1161.9" style="stroke:#FFBBFF;" class="sb" />
 </g>
 <g class="Indonesia">
-	<title>2020-12-26 Indonesia=2</title>
-	<line x1="1196.8" y1="1162.3" x2="1196.6" y2="1160.2" style="stroke:red;" class="sb" />
+	<title>2020-12-26 Indonesia=3</title>
+	<line x1="1196.7" y1="1161.9" x2="1196.5" y2="1159.2" style="stroke:red;" class="sb" />
 </g>
 <g class="Philippines">
 	<title>2020-12-26 Philippines=4</title>
-	<line x1="1196.6" y1="1160.2" x2="1196.3" y2="1157.0" style="stroke:#cab2d6;" class="sb" />
+	<line x1="1196.5" y1="1159.2" x2="1196.2" y2="1156.1" style="stroke:#cab2d6;" class="sb" />
 </g>
 <g class="Mongolia">
 	<title>2020-12-26 Mongolia=2</title>
-	<line x1="1196.3" y1="1157.0" x2="1196.1" y2="1154.9" style="stroke:#48D1CC;" class="sb" />
+	<line x1="1196.2" y1="1156.1" x2="1196.0" y2="1153.9" style="stroke:#48D1CC;" class="sb" />
 </g>
 <g class="India">
 	<title>2020-12-26  C21614T  India=2 [6.1%]  surface glycoprotein, L18F</title>
@@ -25373,6 +25442,10 @@
 <g class="India">
 	<title>2020-12-26  A21630G  India=4 [12.1%]  surface glycoprotein, Q23R</title>
 	<circle cx="1184.0" cy="1014.1" r="2.0" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-12-26  G21718T  South Korea=2 [20.0%]  surface glycoprotein, Q52H</title>
+	<circle cx="1182.3" cy="994.8" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-26  G21724T  Japan=2 [1.5%]  surface glycoprotein, L54F</title>
@@ -25400,7 +25473,7 @@
 	<circle cx="1177.2" cy="934.6" r="1.7" style="fill:yellow;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-26  ATTA21993A  Japan=4 [3.1%] India=4 [12.1%] United Arab Emirates=3 [21.4%] South Korea=3 [37.5%]  surface glycoprotein, Y145H/del</title>
+	<title>2020-12-26  ATTA21993A  Japan=4 [3.1%] India=4 [12.1%] United Arab Emirates=3 [21.4%] South Korea=3 [30.0%]  surface glycoprotein, Y145H/del</title>
 	<circle cx="1177.2" cy="934.6" r="1.7" style="fill:white;" class="cv" />
 </g>
 <g class="Japan">
@@ -25430,8 +25503,12 @@
 	<circle cx="1157.0" cy="700.3" r="2.0" style="fill:yellow;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-26  A23063T  Japan=4 [3.1%] United Arab Emirates=4 [28.6%] South Korea=4 [50.0%]  surface glycoprotein, N501Y</title>
+	<title>2020-12-26  A23063T  Japan=4 [3.1%] United Arab Emirates=4 [28.6%] South Korea=4 [40.0%]  surface glycoprotein, N501Y</title>
 	<circle cx="1157.0" cy="700.3" r="2.0" style="fill:white;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-12-26  C23230A  South Korea=2 [20.0%]  surface glycoprotein, N556K</title>
+	<circle cx="1153.8" cy="663.7" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="India">
 	<title>2020-12-26  C23271A  India=7 [21.2%]  surface glycoprotein, A570D</title>
@@ -25444,7 +25521,7 @@
 	<circle cx="1153.1" cy="654.8" r="1.7" style="fill:yellow;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-26  C23271A  Japan=4 [3.1%] United Arab Emirates=3 [21.4%] South Korea=3 [37.5%]  surface glycoprotein, A570D</title>
+	<title>2020-12-26  C23271A  Japan=4 [3.1%] United Arab Emirates=3 [21.4%] South Korea=3 [30.0%]  surface glycoprotein, A570D</title>
 	<circle cx="1153.1" cy="654.8" r="1.7" style="fill:white;" class="cv" />
 </g>
 <g class="Japan">
@@ -25459,25 +25536,25 @@
 	<title>2020-12-26  A23403G  United Arab Emirates=12 [85.7%]  surface glycoprotein, D614G</title>
 	<circle cx="1150.6" cy="625.9" r="3.1" style="fill:yellow;" class="cv" />
 </g>
-<g class="HongKong">
-	<circle cx="1150.6" cy="625.9" r="2.9" style="fill:lime;" class="cv" />
-</g>
 <g class="SouthKorea">
-	<title>2020-12-26  A23403G  Hong Kong=10 [100.0%] South Korea=8 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1150.6" cy="625.9" r="2.7" style="fill:white;" class="cv" />
+	<circle cx="1150.6" cy="625.9" r="2.9" style="fill:white;" class="cv" />
+</g>
+<g class="HongKong">
+	<title>2020-12-26  A23403G  South Korea=10 [100.0%] Hong Kong=10 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1150.6" cy="625.9" r="2.9" style="fill:lime;" class="cv" />
 </g>
 <g class="Philippines">
 	<circle cx="1150.6" cy="625.9" r="2.0" style="fill:#cab2d6;" class="cv" />
+</g>
+<g class="Indonesia">
+	<circle cx="1150.6" cy="625.9" r="1.7" style="fill:red;" class="cv" />
 </g>
 <g class="Singapore">
 	<circle cx="1150.6" cy="625.9" r="1.3" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Mongolia">
+	<title>2020-12-26  A23403G  Philippines=4 [100.0%] Indonesia=3 [100.0%] Singapore=2 [100.0%] Mongolia=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1150.6" cy="625.9" r="1.3" style="fill:#48D1CC;" class="cv" />
-</g>
-<g class="Indonesia">
-	<title>2020-12-26  A23403G  Philippines=4 [100.0%] Singapore=2 [100.0%] Mongolia=2 [100.0%] Indonesia=2 [100.0%]  surface glycoprotein, D614G</title>
-	<circle cx="1150.6" cy="625.9" r="1.3" style="fill:red;" class="cv" />
 </g>
 <g class="Mongolia">
 	<title>2020-12-26  C23481T  Mongolia=2 [100.0%]  surface glycoprotein, S640F</title>
@@ -25517,7 +25594,7 @@
 	<circle cx="1146.8" cy="581.8" r="1.7" style="fill:white;" class="cv" />
 </g>
 <g class="Mongolia">
-	<title>2020-12-26  C23604A  Japan=4 [3.1%] United Arab Emirates=4 [28.6%] South Korea=3 [37.5%] Mongolia=2 [100.0%]  surface glycoprotein, P681H</title>
+	<title>2020-12-26  C23604A  Japan=4 [3.1%] United Arab Emirates=4 [28.6%] South Korea=3 [30.0%] Mongolia=2 [100.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1146.8" cy="581.8" r="1.3" style="fill:#48D1CC;" class="cv" />
 </g>
 <g class="UnitedArabEmirates">
@@ -25539,7 +25616,7 @@
 	<circle cx="1144.8" cy="558.9" r="1.7" style="fill:yellow;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-26  C23709T  Japan=4 [3.1%] United Arab Emirates=3 [21.4%] South Korea=3 [37.5%]  surface glycoprotein, T716I</title>
+	<title>2020-12-26  C23709T  Japan=4 [3.1%] United Arab Emirates=3 [21.4%] South Korea=3 [30.0%]  surface glycoprotein, T716I</title>
 	<circle cx="1144.8" cy="558.9" r="1.7" style="fill:white;" class="cv" />
 </g>
 <g class="Japan">
@@ -25569,7 +25646,7 @@
 	<circle cx="1129.8" cy="384.3" r="1.7" style="fill:yellow;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-26  T24506G  Japan=4 [3.1%] United Arab Emirates=3 [21.4%] South Korea=3 [37.5%]  surface glycoprotein, S982A</title>
+	<title>2020-12-26  T24506G  Japan=4 [3.1%] United Arab Emirates=3 [21.4%] South Korea=3 [30.0%]  surface glycoprotein, S982A</title>
 	<circle cx="1129.8" cy="384.3" r="1.7" style="fill:white;" class="cv" />
 </g>
 <g class="India">
@@ -25583,7 +25660,7 @@
 	<circle cx="1122.1" cy="295.0" r="1.7" style="fill:yellow;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-26  G24914C  Japan=4 [3.1%] United Arab Emirates=3 [21.4%] South Korea=3 [37.5%]  surface glycoprotein, D1118H</title>
+	<title>2020-12-26  G24914C  Japan=4 [3.1%] United Arab Emirates=3 [21.4%] South Korea=3 [30.0%]  surface glycoprotein, D1118H</title>
 	<circle cx="1122.1" cy="295.0" r="1.7" style="fill:white;" class="cv" />
 </g>
 <g class="India">
@@ -25863,12 +25940,12 @@
 	<title>2020-12-27  A23403G  South Korea=8 [100.0%] Indonesia=8 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1160.5" cy="625.1" r="2.7" style="fill:red;" class="cv" />
 </g>
-<g class="Iran">
-	<circle cx="1160.5" cy="625.1" r="1.3" style="fill:#fccde5;" class="cv" />
-</g>
 <g class="Kuwait">
-	<title>2020-12-27  A23403G  Iran=2 [100.0%] Kuwait=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1160.5" cy="625.1" r="1.3" style="fill:#FFE4B5;" class="cv" />
+</g>
+<g class="Iran">
+	<title>2020-12-27  A23403G  Kuwait=2 [100.0%] Iran=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1160.5" cy="625.1" r="1.3" style="fill:#fccde5;" class="cv" />
 </g>
 <g class="Israel">
 	<title>2020-12-27  C23525T  Israel=3 [1.1%]  surface glycoprotein, H655Y</title>
@@ -25895,10 +25972,6 @@
 	<circle cx="1157.6" cy="583.4" r="2.8" style="fill:orange;" class="cv" />
 </g>
 <g class="Israel">
-	<title>2020-12-27  C23604G  Israel=5 [1.9%]  surface glycoprotein, P681R</title>
-	<circle cx="1157.5" cy="581.0" r="2.2" style="fill:orange;" class="cv" />
-</g>
-<g class="Israel">
 	<title>2020-12-27  C23604A  Israel=44 [16.6%]  surface glycoprotein, P681H</title>
 	<circle cx="1157.5" cy="581.0" r="4.6" style="fill:orange;" class="cv" />
 </g>
@@ -25912,6 +25985,10 @@
 <g class="SouthKorea">
 	<title>2020-12-27  C23604A  India=4 [28.6%] South Korea=2 [25.0%]  surface glycoprotein, P681H</title>
 	<circle cx="1157.5" cy="581.0" r="1.3" style="fill:white;" class="cv" />
+</g>
+<g class="Israel">
+	<title>2020-12-27  C23604G  Israel=5 [1.9%]  surface glycoprotein, P681R</title>
+	<circle cx="1157.5" cy="581.0" r="2.2" style="fill:orange;" class="cv" />
 </g>
 <g class="Israel">
 	<title>2020-12-27  G23624T  Israel=11 [4.2%]  surface glycoprotein, A688S</title>
@@ -26389,48 +26466,48 @@
 	<line x1="1199.5" y1="1185.1" x2="1199.3" y2="1179.8" style="stroke:fuchsia;" class="sb" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-29 South Korea=10</title>
-	<line x1="1199.3" y1="1179.8" x2="1199.1" y2="1175.1" style="stroke:white;" class="sb" />
+	<title>2020-12-29 South Korea=12</title>
+	<line x1="1199.3" y1="1179.8" x2="1199.1" y2="1174.8" style="stroke:white;" class="sb" />
 </g>
 <g class="Israel">
 	<title>2020-12-29 Israel=220</title>
-	<line x1="1199.1" y1="1175.1" x2="1198.8" y2="1164.6" style="stroke:orange;" class="sb" />
+	<line x1="1199.1" y1="1174.8" x2="1198.8" y2="1164.2" style="stroke:orange;" class="sb" />
 </g>
 <g class="UnitedArabEmirates">
 	<title>2020-12-29 United Arab Emirates=23</title>
-	<line x1="1198.8" y1="1164.6" x2="1198.6" y2="1158.4" style="stroke:yellow;" class="sb" />
+	<line x1="1198.8" y1="1164.2" x2="1198.6" y2="1158.0" style="stroke:yellow;" class="sb" />
 </g>
 <g class="HongKong">
 	<title>2020-12-29 Hong Kong=7</title>
-	<line x1="1198.6" y1="1158.4" x2="1198.4" y2="1154.3" style="stroke:lime;" class="sb" />
+	<line x1="1198.6" y1="1158.0" x2="1198.4" y2="1154.0" style="stroke:lime;" class="sb" />
 </g>
 <g class="Singapore">
 	<title>2020-12-29 Singapore=6</title>
-	<line x1="1198.4" y1="1154.3" x2="1198.3" y2="1150.5" style="stroke:#FFBBFF;" class="sb" />
+	<line x1="1198.4" y1="1154.0" x2="1198.3" y2="1150.2" style="stroke:#FFBBFF;" class="sb" />
 </g>
 <g class="Indonesia">
 	<title>2020-12-29 Indonesia=16</title>
-	<line x1="1198.3" y1="1150.5" x2="1198.1" y2="1145.0" style="stroke:red;" class="sb" />
+	<line x1="1198.3" y1="1150.2" x2="1198.1" y2="1144.6" style="stroke:red;" class="sb" />
 </g>
 <g class="Qatar">
 	<title>2020-12-29 Qatar=32</title>
-	<line x1="1198.1" y1="1145.0" x2="1197.9" y2="1138.1" style="stroke:#7FFFD4;" class="sb" />
+	<line x1="1198.1" y1="1144.6" x2="1197.9" y2="1137.8" style="stroke:#7FFFD4;" class="sb" />
 </g>
 <g class="Malaysia">
 	<title>2020-12-29 Malaysia=4</title>
-	<line x1="1197.9" y1="1138.1" x2="1197.8" y2="1135.0" style="stroke:#ADD8E6;" class="sb" />
+	<line x1="1197.9" y1="1137.8" x2="1197.8" y2="1134.7" style="stroke:#ADD8E6;" class="sb" />
 </g>
 <g class="Turkey">
 	<title>2020-12-29 Turkey=3</title>
-	<line x1="1197.8" y1="1135.0" x2="1197.7" y2="1132.3" style="stroke:#b2df8a;" class="sb" />
+	<line x1="1197.8" y1="1134.7" x2="1197.7" y2="1132.0" style="stroke:#b2df8a;" class="sb" />
 </g>
 <g class="Cyprus">
 	<title>2020-12-29 Cyprus=4</title>
-	<line x1="1197.7" y1="1132.3" x2="1197.6" y2="1129.1" style="stroke:#ffffb3;" class="sb" />
+	<line x1="1197.7" y1="1132.0" x2="1197.6" y2="1128.8" style="stroke:#ffffb3;" class="sb" />
 </g>
 <g class="Lebanon">
 	<title>2020-12-29 Lebanon=2</title>
-	<line x1="1197.6" y1="1129.1" x2="1197.5" y2="1127.0" style="stroke:#3CB371;" class="sb" />
+	<line x1="1197.6" y1="1128.8" x2="1197.5" y2="1126.7" style="stroke:#3CB371;" class="sb" />
 </g>
 <g class="Israel">
 	<title>2020-12-29  C21575T  Israel=12 [5.5%]  surface glycoprotein, L5F</title>
@@ -26455,6 +26532,10 @@
 <g class="Japan">
 	<title>2020-12-29  C21707T  Japan=2 [1.2%]  surface glycoprotein, H49Y</title>
 	<circle cx="1193.0" cy="996.6" r="1.3" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-12-29  G21718T  South Korea=2 [16.7%]  surface glycoprotein, Q52H</title>
+	<circle cx="1192.9" cy="994.2" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-29  G21724T  Japan=13 [8.1%]  surface glycoprotein, L54F</title>
@@ -26613,6 +26694,10 @@
 	<title>2020-12-29  G23126T  Israel=4 [1.8%]  surface glycoprotein, A522S</title>
 	<circle cx="1182.3" cy="684.9" r="2.0" style="fill:orange;" class="cv" />
 </g>
+<g class="SouthKorea">
+	<title>2020-12-29  C23230A  South Korea=2 [16.7%]  surface glycoprotein, N556K</title>
+	<circle cx="1181.5" cy="662.1" r="1.3" style="fill:white;" class="cv" />
+</g>
 <g class="Israel">
 	<title>2020-12-29  C23271A  Israel=13 [5.9%]  surface glycoprotein, A570D</title>
 	<circle cx="1181.2" cy="653.1" r="3.2" style="fill:orange;" class="cv" />
@@ -26647,17 +26732,17 @@
 	<circle cx="1180.2" cy="624.1" r="3.4" style="fill:red;" class="cv" />
 </g>
 <g class="India">
-	<title>2020-12-29  A23403G  United Arab Emirates=22 [95.7%] Indonesia=16 [100.0%] India=13 [92.9%]  surface glycoprotein, D614G</title>
 	<circle cx="1180.2" cy="624.1" r="3.2" style="fill:fuchsia;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<circle cx="1180.2" cy="624.1" r="2.9" style="fill:white;" class="cv" />
+	<title>2020-12-29  A23403G  United Arab Emirates=22 [95.7%] Indonesia=16 [100.0%] India=13 [92.9%] South Korea=12 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1180.2" cy="624.1" r="3.1" style="fill:white;" class="cv" />
 </g>
 <g class="HongKong">
 	<circle cx="1180.2" cy="624.1" r="2.5" style="fill:lime;" class="cv" />
 </g>
 <g class="Singapore">
-	<title>2020-12-29  A23403G  South Korea=10 [100.0%] Hong Kong=7 [100.0%] Singapore=6 [100.0%]  surface glycoprotein, D614G</title>
+	<title>2020-12-29  A23403G  Hong Kong=7 [100.0%] Singapore=6 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1180.2" cy="624.1" r="2.4" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Cyprus">
@@ -26835,6 +26920,10 @@
 	<title>2020-12-29  T25245C  Israel=14 [6.4%]  surface glycoprotein, V1228A</title>
 	<circle cx="1166.3" cy="219.5" r="3.3" style="fill:orange;" class="cv" />
 </g>
+<g class="SouthKorea">
+	<title>2020-12-29  C25317T  South Korea=2 [16.7%]  surface glycoprotein, S1252F</title>
+	<circle cx="1165.7" cy="203.7" r="1.3" style="fill:white;" class="cv" />
+</g>
 <g class="Israel">
 	<title>2020-12-29  G25352T  Israel=2 [0.9%]  surface glycoprotein, V1264L</title>
 	<circle cx="1165.5" cy="196.0" r="1.3" style="fill:orange;" class="cv" />
@@ -26848,48 +26937,48 @@
 	<line x1="1199.7" y1="1184.7" x2="1199.7" y2="1179.6" style="stroke:fuchsia;" class="sb" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-30 South Korea=15</title>
-	<line x1="1199.7" y1="1179.6" x2="1199.6" y2="1174.2" style="stroke:white;" class="sb" />
+	<title>2020-12-30 South Korea=16</title>
+	<line x1="1199.7" y1="1179.6" x2="1199.6" y2="1174.0" style="stroke:white;" class="sb" />
 </g>
 <g class="Israel">
 	<title>2020-12-30 Israel=44</title>
-	<line x1="1199.6" y1="1174.2" x2="1199.4" y2="1166.7" style="stroke:orange;" class="sb" />
+	<line x1="1199.6" y1="1174.0" x2="1199.4" y2="1166.6" style="stroke:orange;" class="sb" />
 </g>
 <g class="HongKong">
 	<title>2020-12-30 Hong Kong=13</title>
-	<line x1="1199.4" y1="1166.7" x2="1199.3" y2="1161.6" style="stroke:lime;" class="sb" />
+	<line x1="1199.4" y1="1166.6" x2="1199.3" y2="1161.4" style="stroke:lime;" class="sb" />
 </g>
 <g class="Singapore">
 	<title>2020-12-30 Singapore=6</title>
-	<line x1="1199.3" y1="1161.6" x2="1199.3" y2="1157.8" style="stroke:#FFBBFF;" class="sb" />
+	<line x1="1199.3" y1="1161.4" x2="1199.3" y2="1157.6" style="stroke:#FFBBFF;" class="sb" />
 </g>
 <g class="Indonesia">
 	<title>2020-12-30 Indonesia=42</title>
-	<line x1="1199.3" y1="1157.8" x2="1199.2" y2="1150.4" style="stroke:red;" class="sb" />
+	<line x1="1199.3" y1="1157.6" x2="1199.1" y2="1150.3" style="stroke:red;" class="sb" />
 </g>
 <g class="Malaysia">
 	<title>2020-12-30 Malaysia=8</title>
-	<line x1="1199.2" y1="1150.4" x2="1199.1" y2="1146.1" style="stroke:#ADD8E6;" class="sb" />
+	<line x1="1199.1" y1="1150.3" x2="1199.1" y2="1146.0" style="stroke:#ADD8E6;" class="sb" />
 </g>
 <g class="Turkey">
 	<title>2020-12-30 Turkey=3</title>
-	<line x1="1199.1" y1="1146.1" x2="1199.0" y2="1143.4" style="stroke:#b2df8a;" class="sb" />
+	<line x1="1199.1" y1="1146.0" x2="1199.0" y2="1143.3" style="stroke:#b2df8a;" class="sb" />
 </g>
 <g class="Thailand">
 	<title>2020-12-30 Thailand=6</title>
-	<line x1="1199.0" y1="1143.4" x2="1199.0" y2="1139.6" style="stroke:#CC00FF;" class="sb" />
+	<line x1="1199.0" y1="1143.3" x2="1199.0" y2="1139.5" style="stroke:#CC00FF;" class="sb" />
 </g>
 <g class="Philippines">
 	<title>2020-12-30 Philippines=3</title>
-	<line x1="1199.0" y1="1139.6" x2="1198.9" y2="1136.9" style="stroke:#cab2d6;" class="sb" />
+	<line x1="1199.0" y1="1139.5" x2="1198.9" y2="1136.8" style="stroke:#cab2d6;" class="sb" />
 </g>
 <g class="SriLanka">
 	<title>2020-12-30 Sri Lanka=9</title>
-	<line x1="1198.9" y1="1136.9" x2="1198.8" y2="1132.4" style="stroke:#66CDAA;" class="sb" />
+	<line x1="1198.9" y1="1136.8" x2="1198.8" y2="1132.3" style="stroke:#66CDAA;" class="sb" />
 </g>
 <g class="Lebanon">
 	<title>2020-12-30 Lebanon=5</title>
-	<line x1="1198.8" y1="1132.4" x2="1198.8" y2="1128.9" style="stroke:#3CB371;" class="sb" />
+	<line x1="1198.8" y1="1132.3" x2="1198.8" y2="1128.8" style="stroke:#3CB371;" class="sb" />
 </g>
 <g class="Thailand">
 	<title>2020-12-30  C21575T  Thailand=6 [100.0%]  surface glycoprotein, L5F</title>
@@ -26910,6 +26999,10 @@
 <g class="Japan">
 	<title>2020-12-30  C21707T  Japan=3 [1.6%]  surface glycoprotein, H49Y</title>
 	<circle cx="1196.5" cy="996.5" r="1.7" style="fill:cyan;" class="cv" />
+</g>
+<g class="SouthKorea">
+	<title>2020-12-30  G21718T  South Korea=2 [12.5%]  surface glycoprotein, Q52H</title>
+	<circle cx="1196.5" cy="994.1" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="Japan">
 	<title>2020-12-30  G21724T  Japan=6 [3.1%]  surface glycoprotein, L54F</title>
@@ -26935,7 +27028,7 @@
 	<circle cx="1196.0" cy="965.5" r="1.7" style="fill:orange;" class="cv" />
 </g>
 <g class="SouthKorea">
-	<title>2020-12-30  G21850T  South Korea=2 [13.3%]  surface glycoprotein, E96D</title>
+	<title>2020-12-30  G21850T  South Korea=2 [12.5%]  surface glycoprotein, E96D</title>
 	<circle cx="1196.0" cy="965.1" r="1.3" style="fill:white;" class="cv" />
 </g>
 <g class="Israel">
@@ -27056,12 +27149,12 @@
 <g class="SouthKorea">
 	<circle cx="1190.1" cy="623.8" r="3.4" style="fill:white;" class="cv" />
 </g>
-<g class="HongKong">
-	<circle cx="1190.1" cy="623.8" r="3.2" style="fill:lime;" class="cv" />
-</g>
 <g class="India">
-	<title>2020-12-30  A23403G  South Korea=15 [100.0%] Hong Kong=13 [100.0%] India=13 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1190.1" cy="623.8" r="3.2" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="HongKong">
+	<title>2020-12-30  A23403G  South Korea=16 [100.0%] India=13 [100.0%] Hong Kong=13 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1190.1" cy="623.8" r="3.2" style="fill:lime;" class="cv" />
 </g>
 <g class="SriLanka">
 	<circle cx="1190.1" cy="623.8" r="2.8" style="fill:#66CDAA;" class="cv" />
@@ -27102,10 +27195,6 @@
 	<title>2020-12-30  G23593T  Israel=2 [4.5%]  surface glycoprotein, Q677H</title>
 	<circle cx="1189.4" cy="582.1" r="1.3" style="fill:orange;" class="cv" />
 </g>
-<g class="Singapore">
-	<title>2020-12-30  C23604G  Singapore=3 [50.0%]  surface glycoprotein, P681R</title>
-	<circle cx="1189.4" cy="579.7" r="1.7" style="fill:#FFBBFF;" class="cv" />
-</g>
 <g class="Israel">
 	<title>2020-12-30  C23604A  Israel=13 [29.5%]  surface glycoprotein, P681H</title>
 	<circle cx="1189.4" cy="579.7" r="3.2" style="fill:orange;" class="cv" />
@@ -27113,6 +27202,10 @@
 <g class="India">
 	<title>2020-12-30  C23604A  India=2 [15.4%]  surface glycoprotein, P681H</title>
 	<circle cx="1189.4" cy="579.7" r="1.3" style="fill:fuchsia;" class="cv" />
+</g>
+<g class="Singapore">
+	<title>2020-12-30  C23604G  Singapore=3 [50.0%]  surface glycoprotein, P681R</title>
+	<circle cx="1189.4" cy="579.7" r="1.7" style="fill:#FFBBFF;" class="cv" />
 </g>
 <g class="Israel">
 	<title>2020-12-30  G23624T  Israel=2 [4.5%]  surface glycoprotein, A688S</title>
@@ -27413,15 +27506,15 @@
 <g class="Malaysia">
 	<circle cx="1200.0" cy="623.7" r="1.7" style="fill:#ADD8E6;" class="cv" />
 </g>
-<g class="Bangladesh">
-	<circle cx="1200.0" cy="623.7" r="1.3" style="fill:#FFD700;" class="cv" />
-</g>
 <g class="Turkey">
 	<circle cx="1200.0" cy="623.7" r="1.3" style="fill:#b2df8a;" class="cv" />
 </g>
 <g class="Taiwan">
-	<title>2020-12-31  A23403G  Cambodia=4 [100.0%] Malaysia=3 [100.0%] Bangladesh=2 [100.0%] Turkey=2 [100.0%] Taiwan=2 [100.0%]  surface glycoprotein, D614G</title>
 	<circle cx="1200.0" cy="623.7" r="1.3" style="fill:#80b1d3;" class="cv" />
+</g>
+<g class="Bangladesh">
+	<title>2020-12-31  A23403G  Cambodia=4 [100.0%] Malaysia=3 [100.0%] Turkey=2 [100.0%] Taiwan=2 [100.0%] Bangladesh=2 [100.0%]  surface glycoprotein, D614G</title>
+	<circle cx="1200.0" cy="623.7" r="1.3" style="fill:#FFD700;" class="cv" />
 </g>
 <g class="Malaysia">
 	<title>2020-12-31  A23523C  Malaysia=2 [66.7%]  surface glycoprotein, E654A</title>
@@ -27538,7 +27631,7 @@
 <title>main menu</title>
 <text font-size="3.6em" x="20" y="55" fill="white">SARS-CoV-2 variants 2020 timemap</text>
 </a>
-<text font-size="2.5em" x="20" y="105" fill="white">Genbank MN908947 vs 33,754 GISAID genomes</text>
+<text font-size="2.5em" x="20" y="105" fill="white">Genbank MN908947 vs 33,793 GISAID genomes</text>
 <circle cx="950" cy="65" r="43" fill="black" opacity="0.8" />
 <circle cx="950" cy="65" r="42" fill="#225EA8" opacity="0.4" onclick="rotatex(90,1200,1200)"/>
 	<path class="button" onclick="pan( 0, 50)" d="M950 25 l12   20 a40, 70 0 0,0 -24,  0z" />
@@ -27648,8 +27741,8 @@
 <rect x="1865" y="4" width="500" height="135" rx="15" style="fill:gainsboro;stroke-width:0;fill-opacity:0.15;" />
 <text font-size="1.8em" x="1880" y="32" fill="white">Data from 83 regions in Asia</text>
 <text font-size="1.8em" x="1880" y="62" fill="white">Total genomes≥10  Genomes/day≥2</text>
-<text font-size="1.8em" x="1880" y="92" fill="white">416 distinct missense variants mapped</text>
-<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-09-17</text>
+<text font-size="1.8em" x="1880" y="92" fill="white">417 distinct missense variants mapped</text>
+<text font-size="1.8em" x="1880" y="122" fill="white">Updated 2021-09-24</text>
  <script type="text/javascript"><![CDATA[
         var transformMatrix = [1, 0, 0, 1, 0, 0];
         var svg = document.getElementById('map-svg');
@@ -27808,30 +27901,30 @@ hoverByClass("Shangrao");
 hoverByClass("Kashgar");
 hoverByClass("Shenzhen");
 hoverByClass("Yunnan");
-hoverByClass("Shaoxing");
-hoverByClass("Nepal");
 hoverByClass("Hunan");
+hoverByClass("Nepal");
+hoverByClass("Shaoxing");
 hoverByClass("Harbin");
 hoverByClass("Yichun");
 hoverByClass("Fuzhou");
 hoverByClass("Jiangsu");
 hoverByClass("NanChang");
-hoverByClass("Fuyang");
-hoverByClass("Xinyu");
 hoverByClass("Lishui");
+hoverByClass("Xinyu");
+hoverByClass("Fuyang");
 hoverByClass("Tianmen");
 hoverByClass("China");
 hoverByClass("Jian");
+hoverByClass("Yingtan");
+hoverByClass("Chongqing");
 hoverByClass("Shulan");
 hoverByClass("Pingxiang");
 hoverByClass("Changde");
 hoverByClass("Jingzhou");
-hoverByClass("Yingtan");
-hoverByClass("Chongqing");
-hoverByClass("Changzhou");
 hoverByClass("Ganzhou");
-hoverByClass("Jiangxi");
+hoverByClass("Changzhou");
 hoverByClass("Foshan");
 hoverByClass("Jiujiang");
+hoverByClass("Jiangxi");
     ]]></script>
 </svg>
