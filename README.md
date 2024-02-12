@@ -13,4 +13,4 @@ We are located in Vancouver, British Columbia, Canada<br>
 
 ### Support 
 
-Need help? Check out documentation, ask questions and/or report issues on [github project pages](https://github.com/bcgsc) and we’ll help you sort it out.
+Need help? Check out documentation, ask questions and/or report issues on [github project pages](https://github.com/bcgsc) and we’ll help you sort it out. 
