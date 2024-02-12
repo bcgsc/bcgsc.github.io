@@ -1,4 +1,4 @@
-## Welcome to the BCGSC GitHub Pages
+## Welcome to the BCGSC GitHub Page
 
 BC Cancer Canada's Michael Smith Genome Sciences Centre (BCGSC)<br>
 Sequencing centre for genomics and bioinformatics research<br>
